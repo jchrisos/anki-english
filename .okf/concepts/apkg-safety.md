@@ -26,15 +26,18 @@ damages a collection that may hold months of review history.
 
 ## Identity
 
-- **Pin** the deck id, model id, and GUID function as constants. Random or timestamped
-  ids cause every import to create another deck and another copy of every note.
-- Derive GUIDs from stable content (headword plus sense), not from row order, file path,
-  or `hash()` of an unordered structure — Python's `hash()` is salted per process and
-  will silently rotate GUIDs between runs. Use a deterministic hash such as SHA-1 of a
-  normalized string.
-- Import deduplicates by GUID only inside the same model and deck id. A new model id
-  means a new note type, so plan the migration rather than reusing an id with different
-  fields.
+- **Pin** the deck name and id, the model id, and the GUID function as constants. Random
+  or timestamped ids cause every import to create another deck and another copy of every
+  note.
+- Derive GUIDs from stable content — kind prefix + normalized phrase + an explicit
+  sense-key slug — not from the definition text, row order, file path, or `hash()` of an
+  unordered structure. Python's `hash()` is salted per process and will silently rotate
+  GUIDs between runs. See [incremental updates](incremental-updates.md).
+- Import deduplicates by GUID only inside the same model and deck. A new model id means a
+  new note type, so plan the migration rather than reusing an id with different fields.
+- Re-importing a rebuilt package updates existing notes in place and keeps their cards and
+  review history; that is the intended workflow, so never delete and re-create a note to
+  refresh it.
 
 ## Media
 

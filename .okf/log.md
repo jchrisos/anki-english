@@ -9,6 +9,30 @@ status: active
 
 Newest entries first. ISO dates (`YYYY-MM-DD`).
 
+## 2026-11-05 — Incremental rebuilds: review progress must survive
+
+- User requirement: the deck grows over time and re-importing it must not reset study
+  progress in Anki.
+- Mechanism confirmed from the Anki manual: notes are matched by **GUID**, and a matched
+  note is updated in place, keeping its cards and review log; decks are matched by **name**,
+  note types by **id**; the newer version wins unless the import dialog overrides it; import
+  never deletes notes absent from the package.
+- New load-bearing rule: the GUID's sense component is an **authored slug**
+  (`voc:have:eat-or-drink`), never derived from `Definition`. Otherwise every reworded
+  definition would become a new note and the card's history would be stranded on the old
+  one.
+- Frozen forever: deck names, deck ids, model ids, field lists, media filenames. A renamed
+  deck or a changed field list stops updates on existing notes.
+- Generation stays a **full rebuild**; Anki does the merge. No delta format, no
+  delete-and-re-add, and no "refresh" by recreating notes.
+- Known limits recorded: reclassifying a kind, deleting a deck/note, changing a note type
+  and importing a `.colpkg` all lose history — the generator must never do any of them.
+- Documented the import checklist for Anki 25.09: `.apkg` only, "Import any learning
+  progress" unticked, "Update notes: Always".
+- New concept `.okf/concepts/incremental-updates.md`, cross-linked from the schema and the
+  safety rules; verification now includes deterministic GUIDs, per-package uniqueness, and
+  reporting keys that disappear between builds.
+
 ## 2026-11-05 — Three decks, output to `decks/<kind>.apkg`
 
 - User fixed the last open layout question: decks are split by kind and written to

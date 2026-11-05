@@ -209,13 +209,16 @@ Three decks, one per kind, each in its own package:
   `sha1("anki-english:deck:<name>")` / `sha1("anki-english:model:<name>")` and are now
   recorded here. Never recompute them at runtime and never derive them from time or
   randomness — that is what produces a duplicate deck on every import.
-- **Flat names, no `English::` parent deck.** A parent deck is a *different deck id*, not a
-  rename, so adding the hierarchy later would create parallel decks instead of grouping
-  the existing ones. This is decided now, while no notes exist.
+- **Flat names, no `English::` parent deck.** Anki matches an incoming deck by **name**, so
+  a new name creates a parallel deck rather than grouping the existing one; the pinned id
+  is what a fresh collection receives. Decide the hierarchy now, while no notes exist.
 - **The names are part of the contract.** Renaming a deck inside Anki keeps its id, but
-  changing the name the generator emits is a migration, not a cosmetic edit.
+  changing the name the generator emits means Anki sees a new deck, not the old one.
 - **`decks/` is build output.** It is created on demand, `*.apkg` is already gitignored,
   and nothing under it is committed — regenerate instead of editing a package.
+- **Rebuilds are incremental.** Importing a rebuilt package updates existing notes in place
+  and keeps their scheduling, provided the GUIDs, deck names and model ids stay put; see
+  [incremental updates](incremental-updates.md).
 - **GUID scope:** import deduplicates within one model *and* one deck, so with one model
   per deck the per-kind GUID prefix (`voc:` / `pv:` / `col:`) is what prevents cross-kind
   collisions.
@@ -228,9 +231,9 @@ Cheaper now, worse as soon as the card designs diverge.
 
 ## Still open — do not invent
 
-1. **Source vocabulary format**: CSV, Markdown, JSON, or a dictionary API — now it must
-   also carry the dialog quote, the attribution, the image reference, and for vocabulary
-   the category slugs.
+1. **Source vocabulary format**: CSV, Markdown, JSON, or a dictionary API — it must carry
+   the dialog quote, the attribution, the image reference, the category slugs, and the
+   stable sense-key slug that the GUID is built from.
 2. **Per-kind card templates** beyond front→back (particle gap-fill, word cloze).
 3. Whether images sit on the back only (assumed) or also on the front as a recall cue.
 4. Whether to add a register tag (`register::informal`) for filtering. CEFR level is
@@ -254,8 +257,10 @@ when audio was requested, the schema did not move.
 - TTS constants live there too: `EDGE_VOICE = "en-US-AvaNeural"`, `EDGE_RATE = "-10%"`, and
   the segment order (target → definition → dialog). Changing the voice is a one-line edit
   and a regeneration of media, not a schema change.
-- GUIDs are content-derived and prefixed per kind (`voc:` / `pv:` / `col:`), and both media
-  filenames (`<key>.jpg`, `<key>.mp3`) are derived from the same key.
+- GUIDs are `voc:` / `pv:` / `col:` + normalized phrase + an **explicit sense-key slug**
+  (`voc:have:eat-or-drink`), and both media filenames (`<key>.jpg`, `<key>.mp3`) derive
+  from the same key. The slug is authored, never derived from `Definition` — see
+  [incremental updates](incremental-updates.md) for why that rule is load-bearing.
 - The package now always has a media map: build it from the referenced images and mp3s,
   verify it, and fail generation if a note is missing either, or if `Audio` is empty.
 - Every note must carry at least one `category::<slug>` tag, and every slug must be in

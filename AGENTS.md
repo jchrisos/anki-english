@@ -72,6 +72,17 @@ wording, not for build work.
 
 ## Anki-specific pitfalls (these corrupt or duplicate data)
 
+- The deck is **incremental by design**: re-importing a rebuilt package updates notes in
+  place by GUID and keeps their cards, intervals and review history. Identity is therefore
+  sacred — see `.okf/concepts/incremental-updates.md`.
+- A note's GUID is `voc:`/`pv:`/`col:` + phrase + an **authored sense slug**, never derived
+  from the definition text, a row number or a timestamp. Rewording a definition must not
+  change the GUID; if it does, that card starts over as a new note.
+- Anki matches **decks by name** and **note types by id**. Renaming the deck or changing a
+  model's field list stops updates on the existing notes. Import `.apkg` files only —
+  a `.colpkg` replaces the whole collection, review history included.
+- Normal import: leave "Import any learning progress" **unticked** (our packages carry no
+  scheduling) and set "Update notes" to *Always*, since the source data is the truth.
 - `.apkg` is just a zip containing `collection.anki2` plus a `media` map. Never
   hand-edit one; always regenerate from source.
 - Pin `deck_id`, the model id, and the note `guid` function as **constants**. Random
