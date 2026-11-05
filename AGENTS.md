@@ -2,20 +2,31 @@
 
 ## Status: greenfield
 
-This directory is empty — no code, no manifests, not even a git repo. There are **no**
+The repo holds only documentation — no code, no manifests, no tooling. There are **no**
 build/test/lint commands to run, and no `Makefile`, `pyproject.toml`, or `package.json`
-to infer from. Run `git init` before any `git` command, and add the real commands to
-this file once tooling exists instead of assuming defaults.
+to infer from. Add the real commands to this file once tooling exists instead of
+assuming defaults.
+
+Git is set up: branch `main`, remote `origin` →
+`https://github.com/jchrisos/anki-english.git`, one commit so far. There is **no CI, no
+pre-commit hooks and no PR template**, so nothing verifies a change automatically —
+run whatever checks you create yourself.
 
 ## Project intent
 
 Design rationale and the verified environment live in the OKF bundle at `.okf/`
 (start at `.okf/index.md`); keep it in sync when the schema or tooling is decided.
 
-Generate Anki flashcard decks (`.apkg`) for English study. The note type, source
-vocabulary format (CSV/Markdown/API), and card design are **not decided yet** — confirm
-before committing to a schema, because changing a note type's fields later invalidates
-every note already created with it.
+Generate Anki flashcard decks (`.apkg`) for English study across three confirmed content
+kinds: **vocabulary** (single words), **phrasal verbs**, and **collocations**. Entry text
+is often multi-word, so an entry's identity is the full phrase plus its sense — never a
+single token or a row index — and GUIDs are prefixed per kind (`voc:`/`pv:`/`col:`) so
+the same string cannot collide across kinds.
+
+Decided for v1: **one note type per kind** (three pinned model ids) with text-only fields —
+headword/phrase, definition, example. Still open: source vocabulary format
+(CSV/Markdown/API), deck layout, and card templates beyond front→back. Adding a template
+later is cheap; changing a model's field list is not, since it invalidates existing notes.
 
 ## Verified local environment (macOS, this machine)
 

@@ -1,0 +1,11 @@
+# Python environment
+.venv/
+__pycache__/
+*.py[cod]
+
+# Generated deck packages (build artifacts — regenerate, don't commit)
+*.apkg
+dist/
+
+# macOS
+.DS_Store

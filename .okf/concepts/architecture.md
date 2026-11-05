@@ -18,17 +18,19 @@ stale_after: "2027-05-05"
 
 **This is a plan, not an implemented architecture.** At initialization the repo held no
 source files, so no entrypoint, module layout, or data flow could be observed. Treat
-every stage below as provisional until code exists.
+every stage below as provisional until code exists. The three content kinds
+(vocabulary, phrasal verbs, collocations) are confirmed; the layout serving them is not.
 
 ## Intended stages
 
-1. **Vocabulary source** — the input format is undecided (CSV, Markdown, JSON, or a
-   dictionary API). Do not hard-code one before the user picks it.
-2. **Normalization** — dedupe entries and derive stable per-note keys. The key becomes
-   the note GUID, so it must depend on content (e.g. headword + sense), never on list
-   position or iteration order.
-3. **Note construction** — map normalized entries onto the chosen model's fields
-   (see `concepts/deck-schema.md`).
+1. **Vocabulary source** — format is undecided (CSV, Markdown, JSON, or a dictionary
+   API). Whatever is chosen must carry all three content kinds: vocabulary, phrasal
+   verbs, collocations.
+2. **Normalization** — dedupe *within* a kind and derive a stable per-note key. That key
+   becomes the note GUID: full phrase plus sense, prefixed with the kind
+   (`voc:` / `pv:` / `col:`), never a row index or `hash()` of an unordered structure.
+3. **Note construction** — map normalized entries onto that kind's pinned model. Decided:
+   one model per kind, text-only fields (see `concepts/deck-schema.md`).
 4. **Package assembly** — build the `.apkg` with fixed deck id, model id, and GUID
    function; register any media in the media map.
 5. **Verification** — inspect the generated package programmatically, then do one
@@ -47,5 +49,6 @@ every stage below as provisional until code exists.
 ## Unknown until code lands
 
 Entrypoints, dependency management, test strategy, and whether a CLI argument or config
-file drives generation. Update this concept when the first implementation exists, and
-promote it from `draft` to `active` only then.
+file drives generation. Also unresolved: whether the three kinds land in one deck or
+several. Update this concept when the first implementation exists, and promote it from
+`draft` to `active` only then.
