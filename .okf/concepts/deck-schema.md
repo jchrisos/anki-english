@@ -217,7 +217,8 @@ Three decks, one per kind, each in its own package:
 - **`decks/` holds build output.** The three empty baseline packages are committed on
   purpose (`.gitignore` re-includes `decks/*.apkg`) so the deck and note-type ids exist in
   Anki before any content is imported; every later rebuild overwrites them from source.
-  Never hand-edit a package.
+  `decks/tests/` is the throwaway area (`--test`) and is **gitignored**: test packages are
+  for rehearsing an import, never for committing. Never hand-edit a package.
 - **Rebuilds are incremental.** Importing a rebuilt package updates existing notes in place
   and keeps their scheduling, provided the GUIDs, deck names and model ids stay put; see
   [incremental updates](incremental-updates.md).
