@@ -7,5 +7,8 @@ __pycache__/
 *.apkg
 dist/
 
+# ...except the empty baseline packages, which pin the deck and note-type ids
+!decks/*.apkg
+
 # macOS
 .DS_Store

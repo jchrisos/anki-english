@@ -214,8 +214,10 @@ Three decks, one per kind, each in its own package:
   is what a fresh collection receives. Decide the hierarchy now, while no notes exist.
 - **The names are part of the contract.** Renaming a deck inside Anki keeps its id, but
   changing the name the generator emits means Anki sees a new deck, not the old one.
-- **`decks/` is build output.** It is created on demand, `*.apkg` is already gitignored,
-  and nothing under it is committed — regenerate instead of editing a package.
+- **`decks/` holds build output.** The three empty baseline packages are committed on
+  purpose (`.gitignore` re-includes `decks/*.apkg`) so the deck and note-type ids exist in
+  Anki before any content is imported; every later rebuild overwrites them from source.
+  Never hand-edit a package.
 - **Rebuilds are incremental.** Importing a rebuilt package updates existing notes in place
   and keeps their scheduling, provided the GUIDs, deck names and model ids stay put; see
   [incremental updates](incremental-updates.md).
