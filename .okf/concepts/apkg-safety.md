@@ -1,0 +1,53 @@
+---
+type: policy
+title: ".apkg data-safety rules"
+description: "Non-negotiable rules for generating packages so re-imports update notes instead of duplicating or breaking them."
+status: active
+verified:
+  - by: "OpenCode session"
+    at: "2026-11-05"
+sources:
+  - uri: "file:///Users/julio/Projects/anki-english/AGENTS.md"
+    credibility: high
+stale_after: "2027-11-05"
+---
+
+# .apkg data-safety rules
+
+These apply to every generator version, including throwaway scripts. Violating them
+damages a collection that may hold months of review history.
+
+## Format
+
+- A `.apkg` is a zip of `collection.anki2` plus a media map. Never hand-edit or patch a
+  package; change the source data and regenerate.
+- Keep generation deterministic so regenerating from unchanged input produces an
+  equivalent package.
+
+## Identity
+
+- **Pin** the deck id, model id, and GUID function as constants. Random or timestamped
+  ids cause every import to create another deck and another copy of every note.
+- Derive GUIDs from stable content (headword plus sense), not from row order, file path,
+  or `hash()` of an unordered structure — Python's `hash()` is salted per process and
+  will silently rotate GUIDs between runs. Use a deterministic hash such as SHA-1 of a
+  normalized string.
+- Import deduplicates by GUID only inside the same model and deck id. A new model id
+  means a new note type, so plan the migration rather than reusing an id with different
+  fields.
+
+## Media
+
+- Register files in the package media map and reference them by bare filename in fields
+  and templates. Absolute or relative paths import as broken references.
+- Missing media does not fail the import; it produces silent gaps, so assert that every
+  referenced filename is present before writing the package.
+
+## Verification before handing the file to the user
+
+1. Unzip and query the bundled sqlite for note/card counts and for duplicate GUIDs.
+2. Confirm the deck and model ids match the pinned constants.
+3. Do one manual import in Anki to check template rendering, which counts cannot catch.
+
+Never delete or overwrite an existing deck in the user's collection to "fix" an import
+mistake; report the problem and let the user decide.
