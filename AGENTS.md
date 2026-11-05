@@ -23,17 +23,21 @@ is often multi-word, so an entry's identity is the full phrase plus its sense �
 single token or a row index — and GUIDs are prefixed per kind (`voc:`/`pv:`/`col:`) so
 the same string cannot collide across kinds.
 
-Decided for v1: **one note type per kind** (three pinned model ids) with text-only fields —
-headword/phrase, definition, example. Still open: source vocabulary format
-(CSV/Markdown/API), deck layout, and card templates beyond front→back. Adding a template
-later is cheap; changing a model's field list is not, since it invalidates existing notes.
+Decided for v1: **one note type per kind** (three pinned model ids) with fields
+headword/phrase, definition, image, dialog and source. **Every card has an illustration
+and a quoted movie/TV line** as its example — there is no "make up a sentence" example
+field. Images are AI-generated and committed under `media/`; dialog quotes are text only
+(no audio clip). Still open: source vocabulary format (CSV/Markdown/API), deck layout, and
+card templates beyond front→back. Adding a template later is cheap; changing a model's
+field list is not, since it invalidates existing notes.
 
 ## Repo-local agent
 
 `.opencode/agents/american-english-teacher.md` is a `subagent` for the **content** of the
-decks (definitions, examples, General American pronunciation, register, pt-BR interference).
-It has no shell access and asks before editing, and it does not touch schema, model/deck
-ids, GUIDs or `.apkg` packaging — launch it for wording, not for build work.
+decks (definitions, General American pronunciation, register, pt-BR interference, dialog
+quotes with attribution, image briefs). It has no shell access and asks before editing,
+and it does not touch schema, model/deck ids, GUIDs or `.apkg` packaging — launch it for
+wording, not for build work.
 
 ## Verified local environment (macOS, this machine)
 
@@ -57,6 +61,9 @@ ids, GUIDs or `.apkg` packaging — launch it for wording, not for build work.
   model's field list requires a new model id; reusing it remaps or breaks old notes.
 - Media must be registered in the package's media map and referenced by bare filename
   in fields/templates. Absolute or relative paths import as broken references.
+- Every note now needs an image, so a silently missing file is a blank card, not a
+  cosmetic bug. Name image files from the note's content hash (the GUID), keep them in
+  `media/`, and assert every referenced file exists before writing the package.
 - Verify output programmatically — unzip the `.apkg` and query the bundled sqlite
   (`select count(*) from notes`) — but still do one manual import to check card
   template rendering, which the note count cannot validate.

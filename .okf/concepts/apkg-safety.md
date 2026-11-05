@@ -40,14 +40,25 @@ damages a collection that may hold months of review history.
 
 - Register files in the package media map and reference them by bare filename in fields
   and templates. Absolute or relative paths import as broken references.
+- Every note is incomplete without its image and its dialog quote, so missing media is a
+  content bug, not a cosmetic one. Generate nothing silently: fail the run and report the
+  entry instead of importing a blank card.
+- Name an image from the note's stable content key (kind prefix + deterministic hash of
+  phrase + sense), keep it under `media/`, and never reuse a filename for a different
+  entry — the media map has no notion of "which card this belongs to".
 - Missing media does not fail the import; it produces silent gaps, so assert that every
   referenced filename is present before writing the package.
+- Never regenerate existing images on a normal build. AI image output is not
+  deterministic, so regeneration would churn committed files and break the
+  same-input-same-output rule; regenerate only on explicit request.
 
 ## Verification before handing the file to the user
 
 1. Unzip and query the bundled sqlite for note/card counts and for duplicate GUIDs.
 2. Confirm the deck and model ids match the pinned constants.
-3. Do one manual import in Anki to check template rendering, which counts cannot catch.
+3. Confirm the media map entry count matches the number of distinct image filenames
+   referenced by fields, and that the map's keys point at the expected files.
+4. Do one manual import in Anki to check template rendering, which counts cannot catch.
 
 Never delete or overwrite an existing deck in the user's collection to "fix" an import
 mistake; report the problem and let the user decide.

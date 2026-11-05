@@ -9,6 +9,29 @@ status: active
 
 Newest entries first. ISO dates (`YYYY-MM-DD`).
 
+## 2026-11-05 — Cards now require an image and a movie/TV dialog
+
+- User changed the card contract: **every note has an illustration and a quoted movie or
+  TV line as its example**. The hand-written example sentence field is removed from the
+  schema; the quote is the example.
+- Added fields `Image`, `Dialog`, `Source`, and pinned a reserved, always-empty `Audio`.
+  `Audio` costs nothing today and avoids a new model id if clips are requested later —
+  field lists are the expensive change, so it is cheaper to reserve the slot now.
+- Resolved the two follow-ups with the user: dialog is **text + attribution only** (no
+  mp3/video), and images are **AI-generated and committed** under `media/`, named from
+  the note's content key.
+- Consequences: the package now always has a media map; a missing image no longer
+  degrades gracefully but yields a blank card, so generation must fail loudly and the
+  verification step now compares media-map size against referenced filenames.
+- Images are treated as an input to the build, not a build product: AI output is not
+  deterministic, so a plain regeneration must never rewrite committed images.
+- Risk recorded: dialog attribution is the easiest thing to fabricate. The rule is a real
+  line with a checkable source, or no card — not an invented "from Friends" credit.
+- Unchanged: three per-kind models, content-derived kind-prefixed GUIDs, front→back
+  template first, deck layout and source format still open.
+- Why now rather than later: no notes and no code exist, so this field change is free;
+  after the first import it would mean a new model id and a migration.
+
 ## 2026-11-05 — Git initialized, remote on GitHub
 
 - Repo now has git: branch `main`, remote `origin` →
