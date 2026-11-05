@@ -28,6 +28,13 @@ headword/phrase, definition, example. Still open: source vocabulary format
 (CSV/Markdown/API), deck layout, and card templates beyond front→back. Adding a template
 later is cheap; changing a model's field list is not, since it invalidates existing notes.
 
+## Repo-local agent
+
+`.opencode/agents/american-english-teacher.md` is a `subagent` for the **content** of the
+decks (definitions, examples, General American pronunciation, register, pt-BR interference).
+It has no shell access and asks before editing, and it does not touch schema, model/deck
+ids, GUIDs or `.apkg` packaging — launch it for wording, not for build work.
+
 ## Verified local environment (macOS, this machine)
 
 - Anki desktop **25.09** at `/Applications/Anki.app`, profile `User 1`
