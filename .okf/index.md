@@ -12,7 +12,7 @@ operational version; concepts below hold the reasoning.
 ## Concepts
 
 - [architecture](concepts/architecture.md) — Planned `.apkg` generation pipeline. No code exists yet.
-- [deck schema](concepts/deck-schema.md) — v1 decided: one model per kind, every card carrying an AI image plus an attributed movie/TV dialog; deck layout still open.
+- [deck schema](concepts/deck-schema.md) — v1 decided: one model per kind, every card carrying an AI image plus an attributed movie/TV dialog, vocabulary words grouped by multi-valued `category::` tags; deck layout still open.
 - [environment](concepts/environment.md) — Verified local Anki/Python setup and the tooling that is missing.
 - [apkg safety](concepts/apkg-safety.md) — Rules that prevent duplicated decks and broken notes on re-import.
 

@@ -29,7 +29,7 @@ An entry's identity is the full phrase **plus its sense**. Two senses of the sam
 
 ## Field writing rules
 
-Every note has five content fields and one reserved one. A card is **incomplete** without its image and its dialog quote, so return all of them or say the entry is not ready.
+Every note has five content fields and one reserved one. A card is **incomplete** without its image and its dialog quote, so return all of them or say the entry is not ready. **Vocabulary rows additionally need one or more categories** — see below.
 
 1. **headword / phrase** — exactly the target form, lowercase for common nouns and verbs, no articles unless the article is part of the phrase.
 2. **definition** — one plain-language sentence per sense, in English the learner can read (B1-level vocabulary is fine inside a C1-level definition). No circular definitions, no word repeated inside its own definition.
@@ -37,6 +37,13 @@ Every note has five content fields and one reserved one. A card is **incomplete*
 4. **source** — title plus episode (`Friends, S01E01`). Give a timestamp only when you actually know it.
 5. **image brief** — a concrete scene for an AI image generator, two sentences at most: who is in frame, what they are doing, the setting, the mood. Illustrate the **sense**, never the spelling of the word: no text, letters, signage, logos, numbers, or subtitles in the image, because rendered lettering comes out garbled and would also hand the learner the answer. One subject, ordinary daily-life or work scene, no recognizable real actor or celebrity likeness.
 6. **audio** — reserved and always empty. Never fill it, never reference a sound file.
+
+**Vocabulary categories** (vocabulary only, not phrasal verbs or collocations):
+
+- Return them as a `Categories` column with one or more slugs, semicolon-separated: `color; kitchen`. One is typical, three is the practical maximum; more than three means the entry is too broad and should be split by sense.
+- Slugs are lowercase, singular and hyphenated (`car`, `travel`, `car-rental`). They become `category::<slug>` Anki tags; you never write the `category::` prefix yourself and you never put a category in a field.
+- Seed list: `color`, `car`, `travel`, `kitchen`. **Reuse an existing slug before inventing one** — `vehicle` next to `car` silently splits the user's filter in two. Propose a new slug only when nothing on the list fits, and say that it is new.
+- A category orients study; it never replaces the definition. `rent` under `car` still needs the specific sense spelled out, and the dialog must match it.
 
 Non-negotiable on the dialog: an invented quote, or a real quote credited to the wrong show, is worse than a blank field. If you cannot place the line in a specific show or film, say so (`NEEDS_SOURCE: <proposed line and sense>`) and let the parent decide — do not guess a credit and do not substitute a sentence you wrote.
 
@@ -54,7 +61,7 @@ Rules that matter more than style:
 ## How you work
 
 - Read `AGENTS.md` and `.okf/index.md` first; they hold the decided schema, deck layout and open questions. Do not invent schema, field names, model ids, deck ids or GUIDs, and do not design `.apkg` packaging — that is the parent agent's job.
-- When asked for a batch, return one row per entry with the kind explicit, using the decided field names (`Word`/`Phrase`, `Definition`, `Dialog`, `Source`, image brief as a separate column or file). Keep the media filename out of your output: it is derived from the note key by the generator, not chosen by you.
+- When asked for a batch, return one row per entry with the kind explicit, using the decided field names (`Word`/`Phrase`, `Definition`, `Dialog`, `Source`, image brief as a separate column or file), plus `Categories` for vocabulary rows. Keep the media filename out of your output: it is derived from the note key by the generator, not chosen by you.
 - When reviewing existing entries, report findings with the entry's phrase, the problem, and a corrected version — including dialog lines that are misattributed, too long, or that do not disambiguate the sense, and image briefs that would render as text or would not read at a glance. Call out duplicates (same phrase, same sense) and near-duplicates (same phrase, different sense that is actually the same).
 - Content changes are proposed as diffs or full replacement rows; you do not run builds, git commands, or Anki imports.
 - If the request is ambiguous about sense, level, or variant, pick the most useful learner default, state the assumption in one line, and continue instead of stalling.

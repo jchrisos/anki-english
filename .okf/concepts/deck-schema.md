@@ -31,6 +31,9 @@ stale_after: "2027-05-05"
   `[sound:...]` entries and no clip-cutting step in v1.
 - **No `Kind` field.** The model already encodes the kind; add a tag only if cross-deck
   filtering is ever needed.
+- **Vocabulary entries carry one or more categories as Anki tags** (`category::color`,
+  `category::kitchen`, …), not as a field. Categories are multi-valued and likely to
+  change, which is exactly what tags are for; see [Categories](#categories-vocabulary).
 - **Front→back template only** for v1. Additional templates are additive and do not
   change note identity, so they are cheap to add later — unlike fields.
 
@@ -58,6 +61,35 @@ timestamps) is out of scope until the user asks.
   `"I'll be there for you." — Rachel`). One or two short lines; no scene description.
 - `Source` — title plus episode (`Friends, S01E01`), and a timestamp only if it is known.
 - `Audio` — empty in v1.
+
+## Categories (vocabulary)
+
+A vocabulary entry belongs to **one or more semantic groups** — `color`, `car`, `travel`,
+`kitchen`, and so on — so the deck can be studied or filtered by theme.
+
+**Categories are tags, not a field.** The requirement is multi-valued (`car` *and*
+`travel` for `rent`), and tags are Anki's native multi-value mechanism: space-separated,
+hierarchical with `::`, queryable (`tag:category::kitchen`), usable in filtered decks,
+and — unlike fields — free to change forever. A field would have to encode several values
+with a delimiter, which searches badly, breaks on values containing the delimiter, and
+would mean a new model id if the requirement changed again.
+
+- **Tag shape:** `category::<slug>`, lowercase, singular, hyphenated (`category::car-rental`).
+  The `category::` namespace keeps categories from colliding with other future tags
+  (register, CEFR level, source deck).
+- **Cardinality:** at least one category per vocabulary note; typically one to three.
+  More than three usually means the entry is too broad and should be split by sense.
+- **Allowed values:** a controlled list, seeded with `color`, `car`, `travel`, `kitchen`
+  and extended deliberately. Reuse an existing category before inventing a near-duplicate
+  (`car` and `vehicle` would split a filter in two); when a new one is justified, add it
+  to this list in the same change.
+- **Required only for vocabulary.** Phrasal verbs and collocations are not categorised in
+  v1; if they are later, they use the same `category::` namespace.
+- **Not a substitute for `Definition`.** The category orients study; it never explains the
+  sense, and `rent` under `car` must still say which sense of `rent` is meant.
+- **Display is a template concern.** v1 shows no category on the card; printing them is a
+  cheap later template change (with a small CSS/JS filter so `{{Tags}}` does not leak
+  technical prefixes). Because they are tags, none of this touches note identity.
 
 ## Media rules
 
@@ -96,10 +128,12 @@ Cheaper now, worse as soon as the card designs diverge.
 
 1. **Deck layout**: one deck or three. This decides the pinned deck id(s).
 2. **Source vocabulary format**: CSV, Markdown, JSON, or a dictionary API — now it must
-   also carry the dialog quote, the attribution and the image reference.
+   also carry the dialog quote, the attribution, the image reference, and for vocabulary
+   the category slugs.
 3. **Per-kind card templates** beyond front→back (particle gap-fill, word cloze).
 4. Whether images sit on the back only (assumed) or also on the front as a recall cue.
-5. Whether vocabulary needs a register/CEFR tag for filtering.
+5. Whether vocabulary needs a register/CEFR tag for filtering — if added, it goes in its
+   own namespace (`level::b2`, `register::informal`) so it never mixes with categories.
 
 ## Cost of changing fields later
 
@@ -118,3 +152,6 @@ empty.
   filename is derived from the same key.
 - The package now always has a media map: build it from the referenced images, verify it,
   and fail generation if a note is missing an image or a dialog.
+- Vocabulary notes must carry at least one `category::<slug>` tag, and every slug must be
+  in the allowed list. Enforce this at build time; a category typo silently empties a
+  filtered deck rather than failing.

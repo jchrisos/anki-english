@@ -27,9 +27,11 @@ Decided for v1: **one note type per kind** (three pinned model ids) with fields
 headword/phrase, definition, image, dialog and source. **Every card has an illustration
 and a quoted movie/TV line** as its example — there is no "make up a sentence" example
 field. Images are AI-generated and committed under `media/`; dialog quotes are text only
-(no audio clip). Still open: source vocabulary format (CSV/Markdown/API), deck layout, and
-card templates beyond front→back. Adding a template later is cheap; changing a model's
-field list is not, since it invalidates existing notes.
+(no audio clip). **Vocabulary words also carry one or more categories** (`color`, `car`,
+`travel`, `kitchen`, …) stored as `category::<slug>` **tags, never a field** — a word can
+belong to several groups. Still open: source vocabulary format (CSV/Markdown/API), deck
+layout, and card templates beyond front→back. Adding a template later is cheap; changing a
+model's field list is not, since it invalidates existing notes.
 
 ## Repo-local agent
 
@@ -59,6 +61,9 @@ wording, not for build work.
   of updating the existing ones — the single most common mistake here.
 - Import matches notes by GUID only within the same model and deck ids. Changing a
   model's field list requires a new model id; reusing it remaps or breaks old notes.
+- Categories are **tags** (`category::kitchen`), not fields. Multi-value by design, and
+  tag edits never touch note identity — so adding a category later is free, while a
+  `Category` field would have been a permanent schema decision.
 - Media must be registered in the package's media map and referenced by bare filename
   in fields/templates. Absolute or relative paths import as broken references.
 - Every note now needs an image, so a silently missing file is a blank card, not a

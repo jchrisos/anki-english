@@ -9,6 +9,26 @@ status: active
 
 Newest entries first. ISO dates (`YYYY-MM-DD`).
 
+## 2026-11-05 — Vocabulary categories as multi-valued tags
+
+- User requirement: every vocabulary word belongs to a group (`color`, `car`, `travel`,
+  `kitchen`, …) and **a word can have more than one**.
+- Implemented as `category::<slug>` **Anki tags**, not a field. Multi-value is native to
+  tags, they filter/browse directly (`tag:category::kitchen`, filtered decks), and editing
+  them never touches note identity — so categories stay free forever. A `Category` field
+  would need a delimiter, search badly, break on values containing it, and be permanent.
+- Enforcement: vocabulary notes require at least one category; allowed slugs are a
+  controlled list seeded with `color`, `car`, `travel`, `kitchen`; reuse before inventing
+  a near-duplicate, because `car` vs `vehicle` silently splits a filter in two.
+- Not applied to phrasal verbs or collocations in v1 — if it comes, same namespace.
+- **No field-list change**, so the pinned models and ids are untouched and this cannot
+  invalidate notes: it is exactly the cheap kind of change.
+- Display deferred: printing the category on the card back is a template tweak, not a
+  data change, so nothing depends on it now.
+- Consequence for code: build-time validation that every vocabulary note has ≥1
+  `category::` tag and that each slug is in the allowed list — a typo otherwise yields an
+  empty filtered deck instead of an error.
+
 ## 2026-11-05 — Cards now require an image and a movie/TV dialog
 
 - User changed the card contract: **every note has an illustration and a quoted movie or
