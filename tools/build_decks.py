@@ -13,6 +13,7 @@ and never let them drift: a new id means a duplicate deck or note type in Anki.
 from __future__ import annotations
 
 import sys
+import zipfile
 from pathlib import Path
 
 import genanki
@@ -105,6 +106,26 @@ def build_model(kind: dict) -> genanki.Model:
     )
 
 
+def _make_zip_hermetic(path: Path) -> None:
+    """Rewrite the package with fixed zip metadata.
+
+    genanki stamps zip entries with the build machine's clock, so two builds of identical
+    input differ byte for byte. Pinning the entry timestamps makes the rebuild a no-op in
+    git, which is what "same input, same output" has to mean for a committed artifact.
+    """
+    with zipfile.ZipFile(path) as src:
+        entries = [(info.filename, src.read(info.filename)) for info in src.infolist()]
+
+    tmp = path.with_suffix(".tmp")
+    with zipfile.ZipFile(tmp, "w", compression=zipfile.ZIP_DEFLATED) as out:
+        for name, data in entries:
+            info = zipfile.ZipInfo(name, date_time=(1980, 1, 1, 0, 0, 0))
+            info.compress_type = zipfile.ZIP_DEFLATED
+            info.external_attr = 0o644 << 16
+            out.writestr(info, data)
+    tmp.replace(path)
+
+
 def build(kind: dict) -> Path:
     deck = genanki.Deck(kind["deck_id"], kind["deck_name"])
     # Attach the note type explicitly: with no notes, the model would not be written and
@@ -114,6 +135,7 @@ def build(kind: dict) -> Path:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     path = OUTPUT_DIR / f"{kind['slug']}.apkg"
     genanki.Package(deck).write_to_file(str(path), timestamp=BUILD_TIMESTAMP)
+    _make_zip_hermetic(path)
     return path
 
 
