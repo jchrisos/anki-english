@@ -9,6 +9,24 @@ status: active
 
 Newest entries first. ISO dates (`YYYY-MM-DD`).
 
+## 2026-11-05 — Three decks, output to `decks/<kind>.apkg`
+
+- User fixed the last open layout question: decks are split by kind and written to
+  `decks/` — `vocabulary.apkg`, `phrasal-verbs.apkg`, `collocations.apkg`.
+- Three decks rather than one: each kind is studied on its own, each package carries only
+  its own kind's images and mp3s (so they stay small), and re-importing one kind cannot
+  disturb the other two.
+- Deck **ids are now pinned literals** (`517813484872`, `807523115129`, `221110591407`),
+  derived once from `sha1("anki-english:deck:<name>")` and recorded in the schema table
+  together with the three model ids. Deriving ids at runtime is what duplicates decks.
+- **Flat deck names, no `English::` parent.** A parent deck is a new deck id, not a
+  rename, so adding the hierarchy later would create parallel decks instead of grouping
+  the existing ones. Decided now while the cost is zero.
+- `decks/` is build output: created on demand, `*.apkg` already gitignored, and the
+  directory is kept in git with a `.gitkeep` so the path exists before the first build.
+- Consequence: the verification step now runs per package (counts, GUID duplicates, deck
+  and model ids) and must confirm no package leaks another kind's notes.
+
 ## 2026-11-05 — Audio via edge-tts, female voice, three-part script
 
 - User installed `edge-tts` and asked for audio on the cards, in a **woman's voice**.

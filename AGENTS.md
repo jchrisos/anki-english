@@ -25,18 +25,25 @@ the same string cannot collide across kinds.
 
 Decided for v1: **one note type per kind** (three pinned model ids) with fields
 headword/phrase, pronunciation (General American IPA), definition, image, dialog and
-source. **Every card has an illustration
-and a quoted movie/TV line** as its example — there is no "make up a sentence" example
-field. Images are AI-generated and committed under `media/`; **audio is synthesized with
-edge-tts** (pinned female US voice, `en-US-AvaNeural`, `--rate=-10%`), one mp3 per note
-reading target → definition → dialog. It is never the film's audio. **Every note — vocabulary, phrasal verb or collocation — carries one or
-more categories** (`color`, `car`, `travel`, `kitchen`, …) stored as `category::<slug>`
-**tags, never a field** — an entry can belong to several groups. **Every note in all three
-kinds also carries exactly one CEFR
-level tag** (`level::a1` … `level::c2`), assigned to the sense being taught rather than to
-its individual words. Still open: source vocabulary format (CSV/Markdown/API), deck
-layout, and card templates beyond front→back. Adding a template later is cheap; changing a
-model's field list is not, since it invalidates existing notes.
+source. **Three decks, one per kind**, each built as its own package under `decks/` —
+`vocabulary.apkg`, `phrasal-verbs.apkg`, `collocations.apkg` — with pinned deck ids and
+flat names (no `English::` parent; a parent would be a different id, not a rename).
+
+**Every card has an illustration and a quoted movie/TV line** as its example — there is no
+"make up a sentence" example field. Images are AI-generated and committed under `media/`;
+**audio is synthesized with edge-tts** (pinned female US voice, `en-US-AvaNeural`,
+`--rate=-10%`), one mp3 per note reading target → definition → dialog. It is never the
+film's audio.
+
+**Every note — vocabulary, phrasal verb or collocation — carries one or more categories**
+(`color`, `car`, `travel`, `kitchen`, …) stored as `category::<slug>` **tags, never a
+field** — an entry can belong to several groups. **Every note in all three kinds also
+carries exactly one CEFR level tag** (`level::a1` … `level::c2`), assigned to the sense
+being taught rather than to its individual words.
+
+Still open: source vocabulary format (CSV/Markdown/API) and card templates beyond
+front→back. Adding a template later is cheap; changing a model's field list is not, since
+it invalidates existing notes.
 
 ## Repo-local agent
 

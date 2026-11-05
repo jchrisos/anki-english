@@ -1,7 +1,7 @@
 ---
 type: decision
-title: "v1 schema: three per-kind models, image + movie/TV dialog cards"
-description: "Decided 2026-11-05: one note type per content kind with pinned model ids; every note carries an AI-generated image and an attributed movie/TV dialog quote. Templates, deck layout and source format remain open."
+title: "v1 schema: one model and one deck per kind, media-rich cards"
+description: "Decided 2026-11-05: one note type and one deck per content kind with pinned ids; every note carries IPA, an AI-generated image, an attributed movie/TV dialog and a female-voice TTS mp3. Card templates and source format remain open."
 status: active
 verified:
   - by: "OpenCode session"
@@ -30,6 +30,9 @@ stale_after: "2027-05-05"
 - **Audio is synthesized speech, not the movie clip.** One mp3 per note, read by a pinned
   female US voice (edge-tts), containing the target, then the definition, then the dialog
   line. This gives listening practice without sourcing or licensing audio from the film.
+- **Three decks, one per kind**, each exported as its own `.apkg` under `decks/`:
+  `decks/vocabulary.apkg`, `decks/phrasal-verbs.apkg`, `decks/collocations.apkg`. Deck
+  layout was open; it is now decided — see [Decks and output](#decks-and-output).
 - **No `Kind` field.** The model already encodes the kind; add a tag only if cross-deck
   filtering is ever needed.
 - **Every note carries one or more semantic categories as Anki tags** (`category::color`,
@@ -189,6 +192,34 @@ pinned female voice and rate, so every card sounds the same person.
 - Short quotes with attribution are a fair-use-style compromise; do not paste long
   transcripts or scene descriptions.
 
+## Decks and output
+
+Three decks, one per kind, each in its own package:
+
+| Kind | Deck name | Deck id | Model id | Output file |
+|---|---|---|---|---|
+| Vocabulary | `Vocabulary` | `517813484872` | `104320564501` | `decks/vocabulary.apkg` |
+| Phrasal verb | `Phrasal Verbs` | `807523115129` | `1030950240795` | `decks/phrasal-verbs.apkg` |
+| Collocation | `Collocations` | `221110591407` | `834857214829` | `decks/collocations.apkg` |
+
+- **Why three packages and not one:** each kind is studied separately, so a phrasal-verb
+  session should not draw collocations; each package carries only its own kind's images and
+  mp3s, so they stay small; and re-importing one kind cannot disturb the other two.
+- **Ids are pinned literals.** They were derived once from
+  `sha1("anki-english:deck:<name>")` / `sha1("anki-english:model:<name>")` and are now
+  recorded here. Never recompute them at runtime and never derive them from time or
+  randomness — that is what produces a duplicate deck on every import.
+- **Flat names, no `English::` parent deck.** A parent deck is a *different deck id*, not a
+  rename, so adding the hierarchy later would create parallel decks instead of grouping
+  the existing ones. This is decided now, while no notes exist.
+- **The names are part of the contract.** Renaming a deck inside Anki keeps its id, but
+  changing the name the generator emits is a migration, not a cosmetic edit.
+- **`decks/` is build output.** It is created on demand, `*.apkg` is already gitignored,
+  and nothing under it is committed — regenerate instead of editing a package.
+- **GUID scope:** import deduplicates within one model *and* one deck, so with one model
+  per deck the per-kind GUID prefix (`voc:` / `pv:` / `col:`) is what prevents cross-kind
+  collisions.
+
 ## Why not a shared model
 
 Rejected: one note type with a `Kind` field would force a single template onto three card
@@ -197,13 +228,12 @@ Cheaper now, worse as soon as the card designs diverge.
 
 ## Still open — do not invent
 
-1. **Deck layout**: one deck or three. This decides the pinned deck id(s).
-2. **Source vocabulary format**: CSV, Markdown, JSON, or a dictionary API — now it must
+1. **Source vocabulary format**: CSV, Markdown, JSON, or a dictionary API — now it must
    also carry the dialog quote, the attribution, the image reference, and for vocabulary
    the category slugs.
-3. **Per-kind card templates** beyond front→back (particle gap-fill, word cloze).
-4. Whether images sit on the back only (assumed) or also on the front as a recall cue.
-5. Whether to add a register tag (`register::informal`) for filtering. CEFR level is
+2. **Per-kind card templates** beyond front→back (particle gap-fill, word cloze).
+3. Whether images sit on the back only (assumed) or also on the front as a recall cue.
+4. Whether to add a register tag (`register::informal`) for filtering. CEFR level is
    decided ([Levels](#levels-all-kinds)); register stays open and, if added, gets its own
    namespace so it never mixes with categories or levels.
 
@@ -218,8 +248,9 @@ when audio was requested, the schema did not move.
 
 ## Consequences for code
 
-- One constants block: `VOC_MODEL_ID`, `PV_MODEL_ID`, `COL_MODEL_ID`, plus the deck id
-  once layout is chosen. Never derived from time or randomness.
+- One constants block: `VOC_MODEL_ID`, `PV_MODEL_ID`, `COL_MODEL_ID`, `VOC_DECK_ID`,
+  `PV_DECK_ID`, `COL_DECK_ID`, and the three output paths — literals from the table above,
+  never derived at runtime.
 - TTS constants live there too: `EDGE_VOICE = "en-US-AvaNeural"`, `EDGE_RATE = "-10%"`, and
   the segment order (target → definition → dialog). Changing the voice is a one-line edit
   and a regeneration of media, not a schema change.

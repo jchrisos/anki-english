@@ -41,12 +41,14 @@ every stage below as provisional until code exists. The three content kinds
    one model per kind, fields `Word`/`Phrase`, `Pronunciation`, `Definition`, `Image`,
    `Dialog`, `Source` and `Audio` (see `concepts/deck-schema.md`). A note lacking an image,
    a dialog quote, a pronunciation or audio is rejected, not emitted.
-6. **Package assembly** — build the `.apkg` with fixed deck id, model id, and GUID
-   function; register every referenced image and mp3 in the media map and verify the map
-   matches the field values before writing.
-7. **Verification** — inspect the generated package programmatically (prevents silent
+6. **Package assembly** — one package per kind, built with that kind's fixed deck id and
+   model id plus the shared GUID function; register every referenced image and mp3 in that
+   package's media map and verify the map matches the field values before writing.
+7. **Verification** — inspect each generated package programmatically (prevents silent
    missing-media gaps), then do one manual import to confirm template rendering.
-8. **Delivery** — a file the user imports by hand; there is no Anki CLI on this machine.
+8. **Delivery** — three files in `decks/` (`vocabulary.apkg`, `phrasal-verbs.apkg`,
+   `collocations.apkg`) that the user imports by hand; there is no Anki CLI on this
+   machine.
 
 ## Structural rules that survive refactors
 

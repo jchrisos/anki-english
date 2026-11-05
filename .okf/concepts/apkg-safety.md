@@ -58,8 +58,10 @@ damages a collection that may hold months of review history.
 
 ## Verification before handing the file to the user
 
-1. Unzip and query the bundled sqlite for note/card counts and for duplicate GUIDs.
-2. Confirm the deck and model ids match the pinned constants.
+1. Unzip and query the bundled sqlite for note/card counts and for duplicate GUIDs — once
+   per package, since there are three (`vocabulary`, `phrasal-verbs`, `collocations`).
+2. Confirm each package's deck and model ids match the pinned constants from
+   `concepts/deck-schema.md`, and that no package contains another kind's notes.
 3. Confirm the media map entry count matches the number of distinct image filenames
    referenced by fields, and that the map's keys point at the expected files.
 4. Do one manual import in Anki to check template rendering, which counts cannot catch.
