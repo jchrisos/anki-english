@@ -34,6 +34,9 @@ stale_after: "2027-05-05"
 - **Vocabulary entries carry one or more categories as Anki tags** (`category::color`,
   `category::kitchen`, …), not as a field. Categories are multi-valued and likely to
   change, which is exactly what tags are for; see [Categories](#categories-vocabulary).
+- **Pronunciation is a field** (`Pronunciation`), General American IPA with stress marks.
+  It is pinned now, alongside the other fields, so adding it later never forces a new
+  model id; the teacher agent was already writing IPA that had nowhere to go.
 - **Front→back template only** for v1. Additional templates are additive and do not
   change note identity, so they are cheap to add later — unlike fields.
 
@@ -41,9 +44,12 @@ stale_after: "2027-05-05"
 
 | Model | Fields | Note |
 |---|---|---|
-| Vocabulary | `Word`, `Definition`, `Image`, `Dialog`, `Source`, `Audio` | homographs need a sense in the GUID, not extra fields |
-| Phrasal verb | `Phrase`, `Definition`, `Image`, `Dialog`, `Source`, `Audio` | phrase stored whole; particle splitting is deferred |
-| Collocation | `Phrase`, `Definition`, `Image`, `Dialog`, `Source`, `Audio` | same shape as phrasal verb, separate model so ids stay independent |
+| Vocabulary | `Word`, `Pronunciation`, `Definition`, `Image`, `Dialog`, `Source`, `Audio` | homographs need a sense in the GUID, not extra fields |
+| Phrasal verb | `Phrase`, `Pronunciation`, `Definition`, `Image`, `Dialog`, `Source`, `Audio` | phrase stored whole; particle splitting is deferred |
+| Collocation | `Phrase`, `Pronunciation`, `Definition`, `Image`, `Dialog`, `Source`, `Audio` | same shape as phrasal verb, separate model so ids stay independent |
+
+Field **order** is part of the pinned schema too: it drives the editor layout and the
+`{{Field}}` references, and reordering a field list is as destructive as renaming one.
 
 `Audio` is **reserved and always empty in v1**. It is pinned now because adding a field
 later means a new model id and a migration; if audio clips are ever wanted for the same
@@ -53,6 +59,12 @@ timestamps) is out of scope until the user asks.
 ### Field contract
 
 - `Word` / `Phrase` — the target form, no articles unless part of the phrase.
+- `Pronunciation` — **General American IPA in slashes**, primary stress `ˈ`, secondary
+  `ˌ` (`/ˈrɛstərɑnt/`, `/ˈlɝn/`), with `ɚ`/`ɝ` for r-colored vowels and a flap for
+  intervocalic `t` (`water` → `/ˈwɔt̬ɚ/`). Phonemic, not narrow: no syllable dots, no
+  "sounds like" respelling, no British variants on the card. One line; if a fixed
+  reduction is worth teaching, keep it to a short trailing parenthetical
+  (`/ˈhæv/ (have to → /ˈhæftə/)`), never a sentence.
 - `Definition` — one plain sentence per sense, no circular definition.
 - `Image` — **bare filename only** (`voc_9f2c1ab3.jpg`), never a path and never an
   `<img>` tag; the template renders `{{Image}}` into `<img src="...">`, so the package
@@ -155,3 +167,5 @@ empty.
 - Vocabulary notes must carry at least one `category::<slug>` tag, and every slug must be
   in the allowed list. Enforce this at build time; a category typo silently empties a
   filtered deck rather than failing.
+- Every note needs the full field set, `Pronunciation` included: reject a note with an
+  empty pronunciation rather than letting the card render with a blank line.

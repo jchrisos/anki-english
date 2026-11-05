@@ -9,6 +9,23 @@ status: active
 
 Newest entries first. ISO dates (`YYYY-MM-DD`).
 
+## 2026-11-05 — Pronunciation field pinned (General American IPA)
+
+- Prompted by an example card: the teacher agent was writing IPA (`/ˈhæv/`) but the schema
+  had no field to hold it, so that work was silently discarded. Added `Pronunciation`
+  right after `Word`/`Phrase` in all three models.
+- Free to do now and expensive later: no notes exist, so this is a field-list edit with no
+  migration. It is the same reasoning that pinned the reserved `Audio` slot.
+- Format: phonemic General American IPA in slashes with `ˈ`/`ˌ`, `ɚ`/`ɝ` for r-colored
+  vowels, flapped `t` (`/ˈwɔt̬ɚ/`); no British variants, no respelling sentences. A fixed
+  reduction may appear as a short trailing parenthetical, not prose.
+- Field **order** is now explicitly part of the pinned schema (editor layout and
+  `{{Field}}` references), so it is documented rather than left to the generator.
+- Required on every note; the build rejects an empty pronunciation instead of rendering a
+  blank line.
+- Still not a field: register/CEFR level and pt-BR warnings. They remain teacher notes
+  until the user asks, because each is another permanent column.
+
 ## 2026-11-05 — Vocabulary categories as multi-valued tags
 
 - User requirement: every vocabulary word belongs to a group (`color`, `car`, `travel`,

@@ -24,7 +24,8 @@ single token or a row index — and GUIDs are prefixed per kind (`voc:`/`pv:`/`c
 the same string cannot collide across kinds.
 
 Decided for v1: **one note type per kind** (three pinned model ids) with fields
-headword/phrase, definition, image, dialog and source. **Every card has an illustration
+headword/phrase, pronunciation (General American IPA), definition, image, dialog and
+source. **Every card has an illustration
 and a quoted movie/TV line** as its example — there is no "make up a sentence" example
 field. Images are AI-generated and committed under `media/`; dialog quotes are text only
 (no audio clip). **Vocabulary words also carry one or more categories** (`color`, `car`,
