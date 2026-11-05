@@ -221,6 +221,10 @@ Three decks, one per kind, each in its own package:
 - **Rebuilds are incremental.** Importing a rebuilt package updates existing notes in place
   and keeps their scheduling, provided the GUIDs, deck names and model ids stay put; see
   [incremental updates](incremental-updates.md).
+- **Content is added only on demand.** The committed packages are deliberately empty and
+  stay that way until the user asks for flashcards. Nothing seeds a deck to make it
+  "testable": no placeholder note, no starter list, no sample entry. The baseline exists to
+  pin ids, not to hold content.
 - **GUID scope:** import deduplicates within one model *and* one deck, so with one model
   per deck the per-kind GUID prefix (`voc:` / `pv:` / `col:`) is what prevents cross-kind
   collisions.
