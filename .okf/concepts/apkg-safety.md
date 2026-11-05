@@ -43,9 +43,13 @@ damages a collection that may hold months of review history.
 - Every note is incomplete without its image and its dialog quote, so missing media is a
   content bug, not a cosmetic one. Generate nothing silently: fail the run and report the
   entry instead of importing a blank card.
+- Audio counts as required media: the `Audio` field holds `[sound:<key>.mp3]`, and an
+  empty field or a missing file is a silent, soundless card. Check both the reference and
+  the file, and never point two notes at the same mp3.
 - Name an image from the note's stable content key (kind prefix + deterministic hash of
   phrase + sense), keep it under `media/`, and never reuse a filename for a different
-  entry — the media map has no notion of "which card this belongs to".
+  entry — the media map has no notion of "which card this belongs to". The mp3 uses the
+  same key with a different extension.
 - Missing media does not fail the import; it produces silent gaps, so assert that every
   referenced filename is present before writing the package.
 - Never regenerate existing images on a normal build. AI image output is not

@@ -34,16 +34,19 @@ every stage below as provisional until code exists. The three content kinds
 3. **Image assets** — resolve `media/<key>.jpg` for every entry and generate it only if
    missing (AI-generated, then committed). The media folder is an input, not a build
    product: image models are not deterministic, so nothing is regenerated on a plain run.
-4. **Note construction** — map normalized entries onto that kind's pinned model. Decided:
-   one model per kind, fields `Word`/`Phrase`, `Definition`, `Image`, `Dialog`, `Source`
-   and a reserved empty `Audio` (see `concepts/deck-schema.md`). A note lacking an image
-   or a dialog quote is rejected, not emitted.
-5. **Package assembly** — build the `.apkg` with fixed deck id, model id, and GUID
-   function; register every referenced image in the media map and verify the map matches
-   the field values before writing.
-6. **Verification** — inspect the generated package programmatically (prevents silent
+4. **Audio assets** — synthesize `media/<key>.mp3` with edge-tts when missing: pinned
+   female US voice, one call reading target → definition → dialog. Also an input, for the
+   same non-determinism reason; synthesis needs network access.
+5. **Note construction** — map normalized entries onto that kind's pinned model. Decided:
+   one model per kind, fields `Word`/`Phrase`, `Pronunciation`, `Definition`, `Image`,
+   `Dialog`, `Source` and `Audio` (see `concepts/deck-schema.md`). A note lacking an image,
+   a dialog quote, a pronunciation or audio is rejected, not emitted.
+6. **Package assembly** — build the `.apkg` with fixed deck id, model id, and GUID
+   function; register every referenced image and mp3 in the media map and verify the map
+   matches the field values before writing.
+7. **Verification** — inspect the generated package programmatically (prevents silent
    missing-media gaps), then do one manual import to confirm template rendering.
-7. **Delivery** — a file the user imports by hand; there is no Anki CLI on this machine.
+8. **Delivery** — a file the user imports by hand; there is no Anki CLI on this machine.
 
 ## Structural rules that survive refactors
 

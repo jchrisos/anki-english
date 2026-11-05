@@ -27,8 +27,9 @@ Decided for v1: **one note type per kind** (three pinned model ids) with fields
 headword/phrase, pronunciation (General American IPA), definition, image, dialog and
 source. **Every card has an illustration
 and a quoted movie/TV line** as its example — there is no "make up a sentence" example
-field. Images are AI-generated and committed under `media/`; dialog quotes are text only
-(no audio clip). **Every note — vocabulary, phrasal verb or collocation — carries one or
+field. Images are AI-generated and committed under `media/`; **audio is synthesized with
+edge-tts** (pinned female US voice, `en-US-AvaNeural`, `--rate=-10%`), one mp3 per note
+reading target → definition → dialog. It is never the film's audio. **Every note — vocabulary, phrasal verb or collocation — carries one or
 more categories** (`color`, `car`, `travel`, `kitchen`, …) stored as `category::<slug>`
 **tags, never a field** — an entry can belong to several groups. **Every note in all three
 kinds also carries exactly one CEFR
@@ -55,6 +56,12 @@ wording, not for build work.
 - `python3` is 3.10.16 (pyenv default; 3.11.5 also installed). No `uv`, no `pipx`, and
   `genanki` is **not** installed. Create a repo-local `.venv` and pin deps; never
   install packages into the pyenv global interpreter.
+- **`edge-tts` 7.3.1** is installed and working (`en-US` female neural voices,
+  `--list-voices` to enumerate). The user installed it into the pyenv global interpreter,
+  which bends the rule above — pin `edge-tts==7.3.1` in the repo `.venv` when one exists.
+  Synthesis needs network access; it fails offline.
+- `ffmpeg`, `lame` and `afinfo` are present but **not** used: one edge-tts call per card
+  produces the whole three-part script, so no concat/mux step is needed.
 
 ## Anki-specific pitfalls (these corrupt or duplicate data)
 
@@ -75,6 +82,9 @@ wording, not for build work.
 - Every note now needs an image, so a silently missing file is a blank card, not a
   cosmetic bug. Name image files from the note's content hash (the GUID), keep them in
   `media/`, and assert every referenced file exists before writing the package.
+- Audio is `[sound:<key>.mp3]` in the `Audio` field, same key as the image, and plays on
+  the **back only** — on the front it would read the answer aloud. A missing mp3 imports
+  silently, exactly like a missing image.
 - Verify output programmatically — unzip the `.apkg` and query the bundled sqlite
   (`select count(*) from notes`) — but still do one manual import to check card
   template rendering, which the note count cannot validate.

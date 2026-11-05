@@ -27,8 +27,9 @@ stale_after: "2027-05-05"
 - **Images are AI-generated and committed to the repo** under `media/`. They are licensed
   for use here and regenerable, at the cost of being invented scenes rather than real
   stills.
-- **Dialog is text only**: the line(s) plus attribution. No audio clip, no video, so no
-  `[sound:...]` entries and no clip-cutting step in v1.
+- **Audio is synthesized speech, not the movie clip.** One mp3 per note, read by a pinned
+  female US voice (edge-tts), containing the target, then the definition, then the dialog
+  line. This gives listening practice without sourcing or licensing audio from the film.
 - **No `Kind` field.** The model already encodes the kind; add a tag only if cross-deck
   filtering is ever needed.
 - **Every note carries one or more semantic categories as Anki tags** (`category::color`,
@@ -54,10 +55,9 @@ stale_after: "2027-05-05"
 Field **order** is part of the pinned schema too: it drives the editor layout and the
 `{{Field}}` references, and reordering a field list is as destructive as renaming one.
 
-`Audio` is **reserved and always empty in v1**. It is pinned now because adding a field
-later means a new model id and a migration; if audio clips are ever wanted for the same
-dialog line, the slot already exists. Anything that would make it non-empty (mp3s,
-timestamps) is out of scope until the user asks.
+`Audio` is **required on every note** and holds `[sound:<key>.mp3]`. It was reserved empty
+in the first draft precisely so that turning audio on later would not require a new model
+id — that is now what happened: the field list is unchanged.
 
 ### Field contract
 
@@ -75,7 +75,9 @@ timestamps) is out of scope until the user asks.
 - `Dialog` — the quoted line(s), attributed to a speaker inside the text (e.g.
   `"I'll be there for you." — Rachel`). One or two short lines; no scene description.
 - `Source` — title plus episode (`Friends, S01E01`), and a timestamp only if it is known.
-- `Audio` — empty in v1.
+- `Audio` — `[sound:<key>.mp3]` with the bare filename and no path (Anki resolves it from
+  the media map). The clip reads, in this fixed order: the target, the definition, the
+  dialog line — synthesized, never the film's audio.
 
 ## Categories (all kinds)
 
@@ -136,6 +138,30 @@ so the deck can be studied by difficulty: `level::a1`, `level::a2`, `level::b1`,
   working range and mixed-frequency decks should be split by filter.
 - **Display is a template concern,** same as categories: nothing is printed in v1.
 
+## Audio rules
+
+Audio is generated with **edge-tts** (installed 7.3.1, `en-US` neural voices) using a
+pinned female voice and rate, so every card sounds the same person.
+
+- **Voice is a constant, not a per-card choice:** `en-US-AvaNeural` (female, US,
+  conversational), `--rate=-10%`. Alternatives on this machine if that one disappoints:
+  `en-US-AriaNeural`, `en-US-JennyNeural`, `en-US-EmmaNeural`. Never `en-US-AnaNeural` —
+  it is a child voice, not a woman.
+- **One file per note**, named from the same content key as the image
+  (`<key>.mp3`), so a note's three media artifacts share one stem.
+- **Script, fixed order:** target → definition → dialog. Assemble it as
+  `<target>. <definition>. <dialog>` in a single call; punctuation supplies the pauses,
+  which avoids an ffmpeg concat step and keeps the pipeline to one dependency.
+- **Strip what must not be spoken:** the speaker attribution after the last `—` (or ` - `)
+  in `Dialog`, the surrounding quotation marks, and any `[sound:]`/HTML markup. A card
+  whose definition contains symbols, parentheses or slashes needs the spoken version
+  written out; if the definition cannot be read aloud cleanly, fix the definition.
+- **Audio plays on the back only.** On the front it would read the answer out loud.
+- Regenerate on explicit request, never on a plain build: edge-tts is a cloud service, so
+  byte-identical output is not guaranteed. Like images, committed audio is an **input**.
+- Guard against the failure that does not error: a note whose `Audio` is empty or points at
+  a missing mp3 renders silent. Assert both the field and the file, same as images.
+
 ## Media rules
 
 - Images live in `media/` in the repo, named from the note's stable key: kind prefix plus
@@ -187,17 +213,20 @@ Anki indexes a model's fields by name and position. Editing the field list of a 
 that already has notes remaps or destroys those notes and requires a new model id, a new
 note type and a migration — while scheduling history stays on the old notes. A GUID only
 deduplicates within one model+deck, so a late field change typically yields a parallel
-duplicate deck instead of an update. This is why `Audio` is pinned even though it is
-empty.
+duplicate deck instead of an update. This is why `Audio` was pinned before it was used:
+when audio was requested, the schema did not move.
 
 ## Consequences for code
 
 - One constants block: `VOC_MODEL_ID`, `PV_MODEL_ID`, `COL_MODEL_ID`, plus the deck id
   once layout is chosen. Never derived from time or randomness.
-- GUIDs are content-derived and prefixed per kind (`voc:` / `pv:` / `col:`), and the image
-  filename is derived from the same key.
-- The package now always has a media map: build it from the referenced images, verify it,
-  and fail generation if a note is missing an image or a dialog.
+- TTS constants live there too: `EDGE_VOICE = "en-US-AvaNeural"`, `EDGE_RATE = "-10%"`, and
+  the segment order (target → definition → dialog). Changing the voice is a one-line edit
+  and a regeneration of media, not a schema change.
+- GUIDs are content-derived and prefixed per kind (`voc:` / `pv:` / `col:`), and both media
+  filenames (`<key>.jpg`, `<key>.mp3`) are derived from the same key.
+- The package now always has a media map: build it from the referenced images and mp3s,
+  verify it, and fail generation if a note is missing either, or if `Audio` is empty.
 - Every note must carry at least one `category::<slug>` tag, and every slug must be in
   the allowed list. Enforce this at build time; a category typo silently empties a
   filtered deck rather than failing.

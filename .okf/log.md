@@ -9,6 +9,31 @@ status: active
 
 Newest entries first. ISO dates (`YYYY-MM-DD`).
 
+## 2026-11-05 — Audio via edge-tts, female voice, three-part script
+
+- User installed `edge-tts` and asked for audio on the cards, in a **woman's voice**.
+  Confirmed scope: one clip per card reading **target → definition → dialog**.
+- Not the film's audio: a real clip means sourcing, cutting, licensing and file size, and
+  it would not cover the definition. Synthesized speech covers all three parts and stays
+  small (~53 KB / 8.9 s for one card).
+- **No schema change.** `Audio` was pinned empty in the first draft exactly for this; it
+  is now simply populated with `[sound:<key>.mp3]`. A field change here would have cost a
+  new model id and a parallel duplicate deck.
+- Voice pinned as a constant: `en-US-AvaNeural`, `--rate=-10%`. Female `en-US` alternatives
+  on this machine: Aria, Jenny, Emma, Michelle. `AnaNeural` is a child voice and is
+  excluded. Changing the voice later is a one-line edit plus media regeneration.
+- Assembly: one edge-tts call with `<target>. <definition>. <dialog>`; punctuation supplies
+  the pauses, so no ffmpeg concat step and no second dependency. The speaker attribution
+  after the last em dash and the surrounding quotes are stripped before speaking.
+- Audio plays on the **back only**; on the front it reads the answer out loud.
+- Determinism: TTS is a cloud call, so mp3s are committed **inputs**, regenerated only on
+  explicit request — the same rule as AI images.
+- Failure mode to guard: a missing or empty mp3 imports silently and the card just has no
+  sound, so the build must assert the field and the file.
+- Environment note: `edge-tts` 7.3.1 lives in the pyenv global 3.10.16 interpreter (the
+  user installed it there), which deviates from the repo rule; pin it in the `.venv` when
+  one exists. `ffmpeg`/`lame` exist but are deliberately unused.
+
 ## 2026-11-05 — Categories apply to all three kinds
 
 - User asked whether phrasal verbs and collocations can have category groups like
