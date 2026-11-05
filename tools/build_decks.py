@@ -1,10 +1,15 @@
 #!/usr/bin/env python3
-"""Build the three anki-english deck packages.
+"""Build the anki-english deck packages.
 
 Each package contains exactly one deck and one note type, and **no notes** — this is the
 baseline that puts the pinned deck ids, deck names and note-type ids into the collection
 before any content exists. Re-importing a later build updates those same objects instead
 of creating parallel ones.
+
+Production output goes to `decks/` and is committed. Test output goes to `decks/tests/`,
+which is gitignored: it is for rehearsing an import (or a new batch) without committing a
+package. Test packages carry the same pinned ids and names as production, so importing one
+touches the real deck — use a temporary Anki profile for a dry run.
 
 Ids are pinned constants from `.okf/concepts/deck-schema.md`. Never derive them at runtime
 and never let them drift: a new id means a duplicate deck or note type in Anki.
@@ -12,6 +17,7 @@ and never let them drift: a new id means a duplicate deck or note type in Anki.
 
 from __future__ import annotations
 
+import argparse
 import sys
 import zipfile
 from pathlib import Path
@@ -21,7 +27,9 @@ import genanki
 # Fixed so repeated builds of unchanged input are equivalent (no wall-clock ids/timestamps).
 BUILD_TIMESTAMP = 1730000000
 
-OUTPUT_DIR = Path(__file__).resolve().parent.parent / "decks"
+REPO_ROOT = Path(__file__).resolve().parent.parent
+DECKS_DIR = REPO_ROOT / "decks"
+TEST_DIR = DECKS_DIR / "tests"
 
 CSS = """\
 .card {
@@ -126,24 +134,42 @@ def _make_zip_hermetic(path: Path) -> None:
     tmp.replace(path)
 
 
-def build(kind: dict) -> Path:
+def build(kind: dict, out_dir: Path) -> Path:
     deck = genanki.Deck(kind["deck_id"], kind["deck_name"])
     # Attach the note type explicitly: with no notes, the model would not be written and
     # the import would create a deck without a note type.
     deck.add_model(build_model(kind))
 
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    path = OUTPUT_DIR / f"{kind['slug']}.apkg"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    path = out_dir / f"{kind['slug']}.apkg"
     genanki.Package(deck).write_to_file(str(path), timestamp=BUILD_TIMESTAMP)
     _make_zip_hermetic(path)
     return path
 
 
 def main() -> int:
-    for kind in KINDS:
-        path = build(kind)
-        print(f"{path.relative_to(path.parent.parent)}  deck={kind['deck_name']!r} "
-              f"deck_id={kind['deck_id']} model_id={kind['model_id']}")
+    parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    parser.add_argument(
+        "--test",
+        action="store_true",
+        help="write to decks/tests/ (gitignored) instead of decks/",
+    )
+    parser.add_argument(
+        "--only",
+        choices=[kind["slug"] for kind in KINDS],
+        help="build a single kind instead of all three",
+    )
+    args = parser.parse_args()
+
+    out_dir = TEST_DIR if args.test else DECKS_DIR
+    kinds = [kind for kind in KINDS if args.only in (None, kind["slug"])]
+
+    for kind in kinds:
+        path = build(kind, out_dir)
+        print(
+            f"{path.relative_to(REPO_ROOT)}  deck={kind['deck_name']!r} "
+            f"deck_id={kind['deck_id']} model_id={kind['model_id']}"
+        )
     return 0
 
 

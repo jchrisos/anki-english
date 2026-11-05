@@ -9,6 +9,21 @@ status: active
 
 Newest entries first. ISO dates (`YYYY-MM-DD`).
 
+## 2026-11-05 — Test packages go to gitignored `decks/tests/`
+
+- User rule: when a deck is being tested, build it into `decks/tests/`, and that folder must
+  be gitignored.
+- Implemented as `tools/build_decks.py --test`, which writes the same three packages under
+  `decks/tests/` instead of `decks/`; `.gitignore` now excludes `decks/tests/` while still
+  re-including `decks/*.apkg` for the committed baseline.
+- Test packages keep the **same pinned ids and names** as production so they exercise the
+  real templates and fields. The flip side is that importing one does touch the real deck,
+  so a dry run belongs in a temporary Anki profile — documented in `AGENTS.md`.
+- Added `--only <slug>` while the flag parser was open; it saves rebuilding all three while
+  iterating on one card.
+- Why this is safe: production output stayed byte-identical after the change (the zip is
+  hermetic), so the refactor did not dirty the committed packages.
+
 ## 2026-11-05 — Content is added only on explicit demand
 
 - User rule: flashcards go into the decks **only when they ask**. The committed packages
