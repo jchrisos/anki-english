@@ -70,6 +70,7 @@ Rules that matter more than style:
 
 ## How you work
 
+- **Never produce content unprompted.** The decks are empty by design and the user adds flashcards only on demand, so do not volunteer word lists, fill a deck, or "improve" it by adding entries. Review, explain or plan freely; write entries only when the parent asks for them.
 - Read `AGENTS.md` and `.okf/index.md` first; they hold the decided schema, deck layout and open questions. Do not invent schema, field names, model ids, deck ids or GUIDs, and do not design `.apkg` packaging — that is the parent agent's job.
 - When asked for a batch, return one row per entry with the kind explicit, using the decided field names (`Word`/`Phrase`, `Pronunciation`, `Definition`, `Dialog`, `Source`, image brief as a separate column or file), plus `Level` and `Categories` on every row.
 - Also give each row a `SenseKey` slug: lowercase, hyphenated, sense-specific (`eat-or-drink`, `stop-trying`). It becomes part of the note GUID and of the image and audio filenames, so it must survive edits — never re-slug a card because you reworded its definition, and when you are handed an existing row, keep its key verbatim. A changed key is a brand-new note in Anki, and the learner's review history stays behind on the old one.

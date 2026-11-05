@@ -6,6 +6,12 @@ The repo holds documentation plus the first piece of tooling: `tools/build_decks
 builds the three **empty** deck packages from pinned constants. There is still no content
 pipeline, no source data, and no tests or linter.
 
+**Content only on demand.** The decks stay empty until the user explicitly asks for
+flashcards. Never add notes, seed a package with a placeholder card, generate a starter
+vocabulary list, or "test" the pipeline by writing real entries into `decks/`. Building the
+packages is not a request for content; if an empty package turns out to be unimportable,
+ask before seeding it.
+
 ```sh
 python3 -m venv .venv                       # already exists locally, .venv/ is gitignored
 .venv/bin/pip install -r requirements.txt   # genanki==0.13.1

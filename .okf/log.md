@@ -9,6 +9,18 @@ status: active
 
 Newest entries first. ISO dates (`YYYY-MM-DD`).
 
+## 2026-11-05 — Content is added only on explicit demand
+
+- User rule: flashcards go into the decks **only when they ask**. The committed packages
+  stay empty; building, rebuilding or "testing" the pipeline is not a request for content.
+- Consequences recorded in `AGENTS.md` and the schema: no placeholder note, no seed card,
+  no starter vocabulary list, no sample entry written into `decks/` to prove something
+  works. If an empty package turns out to be unimportable, ask before seeding.
+- This also bounds the teacher subagent: it produces entries only when the parent asks, and
+  never "helpfully" fills a deck.
+- No code change was needed — `tools/build_decks.py` has no note input at all, which is the
+  structural version of this rule.
+
 ## 2026-11-05 — First code: `tools/build_decks.py` emits three empty packages
 
 - User asked for the three decks to exist now, empty, committed — a baseline before any
