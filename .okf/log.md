@@ -9,6 +9,23 @@ status: active
 
 Newest entries first. ISO dates (`YYYY-MM-DD`).
 
+## 2026-11-05 — CEFR level tag on every note
+
+- User asked for English level (A1…B2…) as another grouping, for **all three kinds** —
+  unlike categories, which stay vocabulary-only.
+- Implemented as `level::a1` … `level::c2` **tags**, not a field and not under
+  `category::`. Reasons: single value per note, applies to every note type, and mixing it
+  into the category namespace would turn a difficulty filter into a theme filter.
+- Exactly one level per note. Zero or two both break a level filter silently, so the build
+  rejects them — the same fail-loudly rule used for missing media.
+- Assignment rule: the level of **the sense being taught, not of its words**. `give up` is
+  A2/B1 with A1 words; `make a decision` is B1 with A1 words. The chunk is the unit of
+  learning. When torn between adjacent bands, take the lower one.
+- Cost: zero. No field, no model change, no note identity impact — this is precisely the
+  kind of change tags exist for.
+- Register (formal/informal) deliberately left open as a third namespace; adding a tag
+  later is free, so nothing needs deciding now.
+
 ## 2026-11-05 — Pronunciation field pinned (General American IPA)
 
 - Prompted by an example card: the teacher agent was writing IPA (`/ˈhæv/`) but the schema

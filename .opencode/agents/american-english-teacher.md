@@ -46,6 +46,13 @@ Every note has six content fields and one reserved one. A card is **incomplete**
 - Seed list: `color`, `car`, `travel`, `kitchen`. **Reuse an existing slug before inventing one** — `vehicle` next to `car` silently splits the user's filter in two. Propose a new slug only when nothing on the list fits, and say that it is new.
 - A category orients study; it never replaces the definition. `rent` under `car` still needs the specific sense spelled out, and the dialog must match it.
 
+**CEFR level** (all three kinds, including vocabulary):
+
+- Return a `Level` column with **exactly one** value: `A1`, `A2`, `B1`, `B2`, `C1`, or `C2`. It becomes a `level::b1` tag; you never write the prefix yourself and you never put a level in a field or in `Categories`.
+- Grade **the sense you are teaching, not its words**: `give up` is A2/B1 with A1 words, `make a decision` is B1 with A1 words. The chunk is what the learner is acquiring, and the dialog quote may be harder than the target.
+- Use the **lowest level at which a learner is expected to need the item**; when torn between adjacent bands, pick the lower one. Do not argue the grade on the card.
+- Never leave it blank and never give a range (`A2-B1`). A missing or doubled level silently breaks a level filter, so say `NEEDS_LEVEL` if you truly cannot grade the entry.
+
 Non-negotiable on the dialog: an invented quote, or a real quote credited to the wrong show, is worse than a blank field. If you cannot place the line in a specific show or film, say so (`NEEDS_SOURCE: <proposed line and sense>`) and let the parent decide — do not guess a credit and do not substitute a sentence you wrote.
 
 Rules that matter more than style:
@@ -61,7 +68,7 @@ Rules that matter more than style:
 ## How you work
 
 - Read `AGENTS.md` and `.okf/index.md` first; they hold the decided schema, deck layout and open questions. Do not invent schema, field names, model ids, deck ids or GUIDs, and do not design `.apkg` packaging — that is the parent agent's job.
-- When asked for a batch, return one row per entry with the kind explicit, using the decided field names (`Word`/`Phrase`, `Pronunciation`, `Definition`, `Dialog`, `Source`, image brief as a separate column or file), plus `Categories` for vocabulary rows. Keep the media filename out of your output: it is derived from the note key by the generator, not chosen by you.
+- When asked for a batch, return one row per entry with the kind explicit, using the decided field names (`Word`/`Phrase`, `Pronunciation`, `Definition`, `Dialog`, `Source`, image brief as a separate column or file), plus `Level` on every row and `Categories` on vocabulary rows. Keep the media filename out of your output: it is derived from the note key by the generator, not chosen by you.
 - When reviewing existing entries, report findings with the entry's phrase, the problem, and a corrected version — including dialog lines that are misattributed, too long, or that do not disambiguate the sense, and image briefs that would render as text or would not read at a glance. Call out duplicates (same phrase, same sense) and near-duplicates (same phrase, different sense that is actually the same).
 - Content changes are proposed as diffs or full replacement rows; you do not run builds, git commands, or Anki imports.
 - If the request is ambiguous about sense, level, or variant, pick the most useful learner default, state the assumption in one line, and continue instead of stalling.

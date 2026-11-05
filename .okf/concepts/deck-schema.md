@@ -37,6 +37,8 @@ stale_after: "2027-05-05"
 - **Pronunciation is a field** (`Pronunciation`), General American IPA with stress marks.
   It is pinned now, alongside the other fields, so adding it later never forces a new
   model id; the teacher agent was already writing IPA that had nowhere to go.
+- **Every note carries exactly one CEFR level tag** (`level::b1`) on all three kinds, in
+  its own namespace rather than under `category::`; see [Levels](#levels-all-kinds).
 - **Front→back template only** for v1. Additional templates are additive and do not
   change note identity, so they are cheap to add later — unlike fields.
 
@@ -87,8 +89,8 @@ with a delimiter, which searches badly, breaks on values containing the delimite
 would mean a new model id if the requirement changed again.
 
 - **Tag shape:** `category::<slug>`, lowercase, singular, hyphenated (`category::car-rental`).
-  The `category::` namespace keeps categories from colliding with other future tags
-  (register, CEFR level, source deck).
+  The `category::` namespace keeps categories from colliding with other tags (level,
+  register, source deck).
 - **Cardinality:** at least one category per vocabulary note; typically one to three.
   More than three usually means the entry is too broad and should be split by sense.
 - **Allowed values:** a controlled list, seeded with `color`, `car`, `travel`, `kitchen`
@@ -102,6 +104,29 @@ would mean a new model id if the requirement changed again.
 - **Display is a template concern.** v1 shows no category on the card; printing them is a
   cheap later template change (with a small CSS/JS filter so `{{Tags}}` does not leak
   technical prefixes). Because they are tags, none of this touches note identity.
+
+## Levels (all kinds)
+
+Every note — vocabulary, phrasal verb and collocation — carries **exactly one CEFR level**
+so the deck can be studied by difficulty: `level::a1`, `level::a2`, `level::b1`,
+`level::b2`, `level::c1`, `level::c2`.
+
+- **Its own namespace, not a category.** A level is single-valued, applies to all three
+  kinds, and is not a semantic group; putting it under `category::` would mix difficulty
+  into `tag:category::*` filters and let a level masquerade as a theme. Separate
+  namespaces keep both filters clean.
+- **Cardinality:** exactly one per note. Zero levels means the note is unreachable in a
+  `level::` filter; two levels means the filter double-counts, so the build rejects both.
+- **Assign the level of the sense being taught, not of its words.** `give up` is roughly
+  A2/B1 even though `give` is A1, and `make a decision` sits around B1 even though both
+  words are A1; the chunk is what the learner is acquiring. The dialog quote may be harder
+  than the target — level describes the target.
+- **Use the lowest level at which a learner is expected to need the item.** When torn
+  between two adjacent bands, take the lower one and keep the reasoning out of the card.
+- **Full scale allowed, realistic deck:** A1–C2 are all legal, but a study deck that is
+  mostly C1/C2 is a bad use of review time; levels should skew toward the learner's
+  working range and mixed-frequency decks should be split by filter.
+- **Display is a template concern,** same as categories: nothing is printed in v1.
 
 ## Media rules
 
@@ -144,8 +169,9 @@ Cheaper now, worse as soon as the card designs diverge.
    the category slugs.
 3. **Per-kind card templates** beyond front→back (particle gap-fill, word cloze).
 4. Whether images sit on the back only (assumed) or also on the front as a recall cue.
-5. Whether vocabulary needs a register/CEFR tag for filtering — if added, it goes in its
-   own namespace (`level::b2`, `register::informal`) so it never mixes with categories.
+5. Whether to add a register tag (`register::informal`) for filtering. CEFR level is
+   decided ([Levels](#levels-all-kinds)); register stays open and, if added, gets its own
+   namespace so it never mixes with categories or levels.
 
 ## Cost of changing fields later
 
@@ -169,3 +195,5 @@ empty.
   filtered deck rather than failing.
 - Every note needs the full field set, `Pronunciation` included: reject a note with an
   empty pronunciation rather than letting the card render with a blank line.
+- Every note needs exactly one `level::a1`…`level::c2` tag; reject zero levels and reject
+  two, because either silently corrupts a level filter.
