@@ -31,9 +31,10 @@ stale_after: "2027-05-05"
   `[sound:...]` entries and no clip-cutting step in v1.
 - **No `Kind` field.** The model already encodes the kind; add a tag only if cross-deck
   filtering is ever needed.
-- **Vocabulary entries carry one or more categories as Anki tags** (`category::color`,
-  `category::kitchen`, …), not as a field. Categories are multi-valued and likely to
-  change, which is exactly what tags are for; see [Categories](#categories-vocabulary).
+- **Every note carries one or more semantic categories as Anki tags** (`category::color`,
+  `category::kitchen`, …) across all three kinds, not as a field. Categories are
+  multi-valued and likely to change, which is exactly what tags are for; see
+  [Categories](#categories-all-kinds).
 - **Pronunciation is a field** (`Pronunciation`), General American IPA with stress marks.
   It is pinned now, alongside the other fields, so adding it later never forces a new
   model id; the teacher agent was already writing IPA that had nowhere to go.
@@ -76,10 +77,12 @@ timestamps) is out of scope until the user asks.
 - `Source` — title plus episode (`Friends, S01E01`), and a timestamp only if it is known.
 - `Audio` — empty in v1.
 
-## Categories (vocabulary)
+## Categories (all kinds)
 
-A vocabulary entry belongs to **one or more semantic groups** — `color`, `car`, `travel`,
-`kitchen`, and so on — so the deck can be studied or filtered by theme.
+Every entry belongs to **one or more semantic groups** — `color`, `car`, `travel`,
+`kitchen`, and so on — so the deck can be studied or filtered by theme, whichever kind the
+entry is. A phrasal verb like `get up` fits `daily-routine`, a collocation like
+`make an offer` fits `money`, and a vocabulary item like `have` fits `kitchen`.
 
 **Categories are tags, not a field.** The requirement is multi-valued (`car` *and*
 `travel` for `rent`), and tags are Anki's native multi-value mechanism: space-separated,
@@ -88,17 +91,22 @@ and — unlike fields — free to change forever. A field would have to encode s
 with a delimiter, which searches badly, breaks on values containing the delimiter, and
 would mean a new model id if the requirement changed again.
 
+Extending categories to phrasal verbs and collocations cost **nothing**: no field, no
+model id, no migration, because the value lives in tags rather than in the note type. That
+is the whole reason categories were not a field.
+
 - **Tag shape:** `category::<slug>`, lowercase, singular, hyphenated (`category::car-rental`).
   The `category::` namespace keeps categories from colliding with other tags (level,
   register, source deck).
-- **Cardinality:** at least one category per vocabulary note; typically one to three.
+- **Cardinality (all kinds):** at least one category per note; typically one to three.
   More than three usually means the entry is too broad and should be split by sense.
-- **Allowed values:** a controlled list, seeded with `color`, `car`, `travel`, `kitchen`
-  and extended deliberately. Reuse an existing category before inventing a near-duplicate
-  (`car` and `vehicle` would split a filter in two); when a new one is justified, add it
-  to this list in the same change.
-- **Required only for vocabulary.** Phrasal verbs and collocations are not categorised in
-  v1; if they are later, they use the same `category::` namespace.
+- **Allowed values:** one controlled list shared by all three kinds, seeded with `color`,
+  `car`, `travel`, `kitchen` and extended deliberately. Reuse an existing category before
+  inventing a near-duplicate (`car` and `vehicle` would split a filter in two); when a new
+  one is justified, add it to this list in the same change.
+- **Cross-kind filtering is expected.** `tag:category::kitchen` returns vocabulary,
+  phrasal verbs and collocations together; narrow it with the note type
+  (`tag:category::kitchen note:PhrasalVerb`) when only one kind is wanted.
 - **Not a substitute for `Definition`.** The category orients study; it never explains the
   sense, and `rent` under `car` must still say which sense of `rent` is meant.
 - **Display is a template concern.** v1 shows no category on the card; printing them is a
@@ -190,8 +198,8 @@ empty.
   filename is derived from the same key.
 - The package now always has a media map: build it from the referenced images, verify it,
   and fail generation if a note is missing an image or a dialog.
-- Vocabulary notes must carry at least one `category::<slug>` tag, and every slug must be
-  in the allowed list. Enforce this at build time; a category typo silently empties a
+- Every note must carry at least one `category::<slug>` tag, and every slug must be in
+  the allowed list. Enforce this at build time; a category typo silently empties a
   filtered deck rather than failing.
 - Every note needs the full field set, `Pronunciation` included: reject a note with an
   empty pronunciation rather than letting the card render with a blank line.

@@ -28,9 +28,10 @@ headword/phrase, pronunciation (General American IPA), definition, image, dialog
 source. **Every card has an illustration
 and a quoted movie/TV line** as its example — there is no "make up a sentence" example
 field. Images are AI-generated and committed under `media/`; dialog quotes are text only
-(no audio clip). **Vocabulary words also carry one or more categories** (`color`, `car`,
-`travel`, `kitchen`, …) stored as `category::<slug>` **tags, never a field** — a word can
-belong to several groups. **Every note in all three kinds also carries exactly one CEFR
+(no audio clip). **Every note — vocabulary, phrasal verb or collocation — carries one or
+more categories** (`color`, `car`, `travel`, `kitchen`, …) stored as `category::<slug>`
+**tags, never a field** — an entry can belong to several groups. **Every note in all three
+kinds also carries exactly one CEFR
 level tag** (`level::a1` … `level::c2`), assigned to the sense being taught rather than to
 its individual words. Still open: source vocabulary format (CSV/Markdown/API), deck
 layout, and card templates beyond front→back. Adding a template later is cheap; changing a

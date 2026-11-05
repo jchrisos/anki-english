@@ -9,6 +9,23 @@ status: active
 
 Newest entries first. ISO dates (`YYYY-MM-DD`).
 
+## 2026-11-05 — Categories apply to all three kinds
+
+- User asked whether phrasal verbs and collocations can have category groups like
+  vocabulary. Yes — and it costs nothing, because categories are **tags**, not a field.
+- Decision: categories are now **required on every note**, one to three slugs from the
+  same controlled list, shared across kinds (`get up` → `daily-routine`, `make an offer`
+  → `money`).
+- Cross-kind filtering is accepted and expected: `tag:category::kitchen` returns
+  vocabulary, phrasal verbs and collocations together; narrow with `note:PhrasalVerb`.
+- This is the payoff of the earlier tag-not-field choice: if categories had been a field
+  on the vocabulary model, extending them to two more models would now mean two new model
+  ids, a re-import and a parallel duplicate deck.
+- Levels stay in `level::`, unchanged; categories and levels remain orthogonal, so an A2
+  kitchen phrasal verb filters cleanly on both.
+- Consequence for code: build-time validation of ≥1 category moves from the vocabulary
+  model to all three.
+
 ## 2026-11-05 — CEFR level tag on every note
 
 - User asked for English level (A1…B2…) as another grouping, for **all three kinds** —
