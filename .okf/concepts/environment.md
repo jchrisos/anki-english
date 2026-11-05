@@ -34,7 +34,9 @@ pyenv versions drift, and missing tooling is the usual cause of a failed first r
 - `python3` resolves through pyenv to **3.10.16** (global default); **3.11.5** is also
   installed.
 - **No `uv`, no `pipx`.**
-- **`genanki` is not installed** in the default interpreter.
+- **`genanki` is not installed** in the default interpreter; **`genanki==0.13.1` is
+  installed in the repo-local `.venv`** (`requirements.txt`), which is what
+  `tools/build_decks.py` uses.
 - **`edge-tts` 7.3.1 is installed** (`/Users/julio/.pyenv/shims/edge-tts`), imported by the
   pyenv global 3.10.16 interpreter. The user installed it there; it works, but it bends the
   rule below, so pin `edge-tts==7.3.1` in the repo `.venv` before relying on it.

@@ -9,6 +9,25 @@ status: active
 
 Newest entries first. ISO dates (`YYYY-MM-DD`).
 
+## 2026-11-05 — First code: `tools/build_decks.py` emits three empty packages
+
+- User asked for the three decks to exist now, empty, committed — a baseline before any
+  content.
+- Added `tools/build_decks.py` (genanki 0.13.1 in the repo `.venv`, pinned in
+  `requirements.txt`) with the deck ids, deck names, model ids and field lists as literals.
+  First code in the repo; `AGENTS.md` moved from "greenfield" to "early skeleton" with the
+  real commands.
+- Each package carries one deck and one note type and **zero notes** (verified: `notes`
+  and `cards` both 0, correct deck/model ids and field order). With no notes genanki would
+  omit the model, so the script attaches it explicitly — otherwise the import would create
+  a deck with no note type.
+- `.gitignore` still ignores `*.apkg` but re-includes `decks/*.apkg`, so the baseline is
+  committed while future builds stay regenerable. This is a deliberate exception to the
+  "build output is not committed" rule, recorded here and in the schema.
+- Risk to verify on the first manual import: Anki may decline a package with no notes. If
+  it does, the baseline has to be a seeded package (one real card) instead; the ids and
+  names would not change, so nothing else in the plan moves.
+
 ## 2026-11-05 — Incremental rebuilds: review progress must survive
 
 - User requirement: the deck grows over time and re-importing it must not reset study

@@ -1,16 +1,24 @@
 # AGENTS.md
 
-## Status: greenfield
+## Status: early skeleton
 
-The repo holds only documentation — no code, no manifests, no tooling. There are **no**
-build/test/lint commands to run, and no `Makefile`, `pyproject.toml`, or `package.json`
-to infer from. Add the real commands to this file once tooling exists instead of
-assuming defaults.
+The repo holds documentation plus the first piece of tooling: `tools/build_decks.py`
+builds the three **empty** deck packages from pinned constants. There is still no content
+pipeline, no source data, and no tests or linter.
+
+```sh
+python3 -m venv .venv                       # already exists locally, .venv/ is gitignored
+.venv/bin/pip install -r requirements.txt   # genanki==0.13.1
+.venv/bin/python tools/build_decks.py       # writes decks/{vocabulary,phrasal-verbs,collocations}.apkg
+```
+
+The build writes packages, not notes: verifying them means unzipping and querying the
+bundled sqlite (`select count(*) from notes` should be 0) — there is no test suite yet.
 
 Git is set up: branch `main`, remote `origin` →
-`https://github.com/jchrisos/anki-english.git`, one commit so far. There is **no CI, no
-pre-commit hooks and no PR template**, so nothing verifies a change automatically —
-run whatever checks you create yourself.
+`https://github.com/jchrisos/anki-english.git`. There is **no CI, no pre-commit hooks and no
+PR template**, so nothing verifies a change automatically — run whatever checks you create
+yourself.
 
 ## Project intent
 
