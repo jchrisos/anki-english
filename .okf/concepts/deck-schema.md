@@ -175,13 +175,12 @@ the card directly under the pronunciation (`noun`, `verb`, `adverb`, …).
 - **Display:** the card template extracts `pos::` from `{{Tags}}` with JS, exactly like the
   level badge; the line hides itself when the tag is absent.
 
-**Card order on the back:** headword → pronunciation → part of speech → level badge →
-▶ word → **rule** → definition → ▶ explanation → **rule** → image → quote → source →
-▶ dialog. The word, its IPA, its word class and its level form one block; the level is
-deliberately the **last** line of that block, and the word's player comes after it so the
-block is never split. The three sections (headword block, definition, illustration + quote)
-are separated by the same plain `<hr>` — no custom CSS, so they match the `#answer` rule by
-construction.
+**Card order on the back:** three flex rows, each with its text on the left and its play
+button on the right — headword (with pronunciation, word class and level, level last) + ▶
+word, definition + ▶ explanation, quote + source + ▶ dialog. The rows are separated by the
+same plain `<hr>` — no custom CSS, so they match the `#answer` rule by construction. The back
+renders the headword itself instead of `{{FrontSide}}`, because the button has to sit beside
+it in the same row.
 
 ## Audio rules
 

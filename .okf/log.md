@@ -9,6 +9,29 @@ status: active
 
 Newest entries first. ISO dates (`YYYY-MM-DD`).
 
+## 2026-11-06 — YouTube embeds tried and dropped
+
+- User asked for the dialog clip embedded at the foot of the card; 29 of 30 were found and
+  every id passed YouTube's `oembed` check (exists + embeddable).
+- User then called it a distraction. The feature was removed completely: template markup,
+  JS, CSS, the `video` key in `tests/src/*.json` and its validation.
+- Nothing was committed while it existed, so no collection ever saw it. `BUILD_MOD` was
+  raised to `1795000000` anyway, so a collection that did import the short-lived build
+  returns to the plain card.
+- Kept in the log only as a "do not re-propose this" marker: the blocker was not the finding
+  of clips but that a video adds a player, a network dependency and a codec caveat to a card
+  that already has an illustration, three audio clips and a quote.
+
+## 2026-11-06 — Play buttons inline, at the right of each row
+
+- Players move from under the text to the right of it: each block is a flex row with the
+  text on the left and the button on the right (headword block, definition, quote+source).
+- The back can no longer start with `{{FrontSide}}`, because the headword has to share a row
+  with its button — so the back template is now formatted per kind with the headword field
+  name, exactly like the front.
+- Template and CSS only; `BUILD_MOD` raised to `1794800000`, same model ids, so a normal
+  re-import applies it.
+
 ## 2026-11-06 — Section rules between the three card blocks
 
 - The card reads as three blocks — headword (with IPA/word class/level), definition, and
