@@ -49,9 +49,9 @@ notes in place**, never replace them. Anki does this — but only if identity is
 3. **Generation is a full rebuild; the merge happens inside Anki.** Do not delete and
    re-create notes to "refresh" them, and do not try to ship deltas — a rebuilt package
    with stable GUIDs is the incremental mechanism.
-4. **Media filenames derive from the same key** (`<key>.jpg`, `<key>.mp3`) and are never
-   renamed. Renaming orphans the old file and, worse, is a visible symptom of identity
-   churn.
+4. **Media filenames derive from the same key** (`<key>.jpg`, `<key>-word.mp3`,
+   `<key>-explanation.mp3`, `<key>-dialog.mp3`) and are never renamed. Renaming orphans the
+   old file and, worse, is a visible symptom of identity churn.
 5. **A note never changes kind in place.** Moving `give up` from phrasal verb to
    collocation is a new model and a new GUID — a new note. If that is ever needed, move the
    card between note types in Anki instead.

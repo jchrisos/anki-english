@@ -9,6 +9,75 @@ status: active
 
 Newest entries first. ISO dates (`YYYY-MM-DD`).
 
+## 2026-11-06 — Section rules between the three card blocks
+
+- The card reads as three blocks — headword (with IPA/word class/level), definition, and
+  illustration + quote — and only the first had a divider. Two plain `<hr>` elements were
+  added so each block is separated the same way.
+- No CSS was added for them: a bare `<hr>` picks up the same default styling as the existing
+  `<hr id="answer">`, which is what makes them match. Template-only change, so a normal
+  re-import applies it; `BUILD_MOD` raised to `1794700000`.
+
+## 2026-11-06 — Headword block regrouped, level last
+
+- The word's play button sat between the headword and its IPA/word-class/level, splitting
+  one visual block. The player now comes **after** that block.
+- Level badge moved to the **end** of the block (pronunciation → part of speech → level), as
+  requested, so the meta line reads as one unit under the word.
+- Template and CSS only: same fields, same model ids, so a normal re-import applies it.
+  `BUILD_MOD` raised to `1794600000`.
+
+## 2026-11-06 — Dialog player moved below the source line
+
+- The quote and its attribution (`"Show me the money!" — Rod Tidwell` / `Jerry Maguire`) are
+  one block; the player between them split it. `{{AudioDialog}}` now renders after
+  `{{Source}}`, at the foot of the card.
+- Template-only change: same field list, same model ids, so **no deck deletion is needed** —
+  a normal re-import with *Update note types: If newer* applies it. `BUILD_MOD` raised to
+  `1794500000`.
+- Worth noting the asymmetry: a template edit is a cheap update; a field edit is not (it
+  trips `equal_schema` and the notes are logged as conflicting). The cheap/expensive split
+  is enforced by Anki, not just by convention.
+
+## 2026-11-06 — Each player sits under its text: three audio fields, new model ids
+
+- User rule: the play button belongs directly under the text it reads (word, definition,
+  dialog), not stacked at the bottom, and without the `WORD`/`EXPLANATION`/`DIALOG` labels.
+- That needs one field per clip, so `AudioExplanation` and `AudioDialog` were appended to
+  each model. `Audio` keeps the word clip: renaming a field is destructive, so the old name
+  stayed and the docs say what it now holds.
+- **This forced new model ids** (`sha1("anki-english:v2:model:<kind>")`), and the reason is
+  in Anki's source: `apkg/import/notes.rs` compares `equal_schema()`, and
+  `maybe_update_existing_note()` logs a GUID match with a different notetype as
+  **conflicting** and does not update it. A field change under the same id would have left
+  every existing card untouched, with no error.
+- Consequence for the user: the notes already in a collection are on the old note type, so
+  the old `(test)` decks must be **deleted before importing** the rebuilt packages. The old
+  note types stay behind as unused entries in Manage Note Types.
+- Deck ids and names are unchanged, so the decks themselves are reused rather than
+  duplicated.
+- Template now renders `{{Audio}}` under the headword, `{{AudioExplanation}}` under the
+  definition and `{{AudioDialog}}` under the dialog; the `.audio` block is a small centred
+  margin and the label CSS is gone.
+
+## 2026-11-06 — Audio split in three, dialog voice follows the character
+
+- User rule: one clip per part — word, explanation, dialog — because a single combined mp3
+  cannot be replayed from the line the learner actually wants to hear again.
+- Word and explanation are always the pinned female voice (`en-US-AvaNeural`); the dialog
+  uses a male voice (`en-US-AndrewNeural`) when the character who says it is a man, and the
+  female voice when it is a woman. Rate stays `-10%`; both are conversational `en-US`.
+- **`speaker_gender` is authored data**, required in `src/<kind>.json` (`female`/`male`) and
+  validated. Inferring it from the speaker's name would break on exactly the entries we
+  have: `Alfred`, `Lilo`, `Miracle Max`, `Brooke`.
+- No schema change: `Audio` still holds `[sound:...]` references, now three of them, each on
+  its own labelled line (`word`, `explanation`, `dialog`). Filenames gained a `-<part>`
+  suffix: `<key>-word.mp3`, `<key>-explanation.mp3`, `<key>-dialog.mp3`.
+- Cost: 3× the TTS calls and 3× the media map entries (4 files per note instead of 2). The
+  three clips are shorter than the old combined one, so the package grew only slightly.
+- `BUILD_MOD` raised to `1794300000` for the template/CSS change. Old `<key>.mp3` files were
+  deleted, since their names are now ambiguous.
+
 ## 2026-11-06 — Test builds moved to their own `tests/` tree
 
 - User rule: test source, media and packages must live in `tests/src`, `tests/media` and

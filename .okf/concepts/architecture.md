@@ -41,9 +41,10 @@ and the audio tool cannot disagree about what an entry is called.
    a row number or a timestamp, so rewording a definition cannot strand review history.
 3. **Images** — `media/<key>.jpg`, AI-generated, committed, an **input**: nothing is
    regenerated on a build. `prepare_media.py` only re-encodes what already exists.
-4. **Audio** — `media/<key>.mp3`, one edge-tts call reading target → definition → dialog
-   (attribution and quotes stripped). Also an input; `build_audio.py` skips existing files
-   unless `--force`.
+4. **Audio** — three files per entry, `media/<key>-{word,explanation,dialog}.mp3`. One
+   edge-tts call each, attribution and quotes stripped from the dialog. Word and
+   explanation use the pinned female voice; the dialog follows the character's gender.
+   Also an input; `build_audio.py` skips existing files unless `--force`.
 5. **Validation** — every note is rejected unless all text fields are non-empty, the
    pronunciation is IPA in slashes, there is exactly one `level::` tag, at least one
    `category::` tag from the controlled list, the phrase is unique within its kind, and

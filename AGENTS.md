@@ -67,16 +67,19 @@ single token or a row index — and GUIDs are prefixed per kind (`voc:`/`pv:`/`c
 the same string cannot collide across kinds.
 
 Decided for v1: **one note type per kind** (three pinned model ids) with fields
-headword/phrase, pronunciation (General American IPA), definition, image, dialog and
-source. **Three decks, one per kind**, each built as its own package under `decks/` —
-`vocabulary.apkg`, `phrasal-verbs.apkg`, `collocations.apkg` — with pinned deck ids and
-flat names (no `English::` parent; a parent would be a different id, not a rename).
+headword/phrase, pronunciation (General American IPA), definition, image, dialog, source and
+three audio fields (word, explanation, dialog). **Three decks, one per kind**, each built as
+its own package under `decks/` — `vocabulary.apkg`, `phrasal-verbs.apkg`,
+`collocations.apkg` — with pinned deck ids and flat names (no `English::` parent; a parent
+would be a different id, not a rename).
 
 **Every card has an illustration and a quoted movie/TV line** as its example — there is no
 "make up a sentence" example field. Images are AI-generated and committed under `media/`;
-**audio is synthesized with edge-tts** (pinned female US voice, `en-US-AvaNeural`,
-`--rate=-10%`), one mp3 per note reading target → definition → dialog. It is never the
-film's audio.
+**audio is synthesized with edge-tts** in three separate clips per note — `-word`,
+`-explanation`, `-dialog` — so the line can be replayed on its own. Word and explanation are
+always the pinned female voice (`en-US-AvaNeural`); the dialog uses a male voice
+(`en-US-AndrewNeural`) when the character who says the line is a man, and the female voice
+when it is a woman. Rate is `-10%` throughout. It is never the film's audio.
 
 **Every note — vocabulary, phrasal verb or collocation — carries one or more categories**
 (`color`, `car`, `travel`, `kitchen`, …) stored as `category::<slug>` **tags, never a
@@ -143,9 +146,10 @@ wording, not for build work.
 - Every note now needs an image, so a silently missing file is a blank card, not a
   cosmetic bug. Name image files from the note's content hash (the GUID), keep them in
   `media/`, and assert every referenced file exists before writing the package.
-- Audio is `[sound:<key>.mp3]` in the `Audio` field, same key as the image, and plays on
-  the **back only** — on the front it would read the answer aloud. A missing mp3 imports
-  silently, exactly like a missing image.
+- Audio is three `[sound:<key>-<part>.mp3]` references in the `Audio` field — `word`,
+  `explanation`, `dialog`, each on its own labelled line — and plays on the **back only**;
+  on the front it would read the answer aloud. A missing mp3 imports silently, exactly like
+  a missing image, so all three are asserted.
 - Verify output programmatically — unzip the `.apkg` and query the bundled sqlite
   (`select count(*) from notes`) — but still do one manual import to check card
   template rendering, which the note count cannot validate.

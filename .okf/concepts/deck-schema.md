@@ -27,9 +27,11 @@ stale_after: "2027-05-05"
 - **Images are AI-generated and committed to the repo** under `media/`. They are licensed
   for use here and regenerable, at the cost of being invented scenes rather than real
   stills.
-- **Audio is synthesized speech, not the movie clip.** One mp3 per note, read by a pinned
-  female US voice (edge-tts), containing the target, then the definition, then the dialog
-  line. This gives listening practice without sourcing or licensing audio from the film.
+- **Audio is synthesized speech, not the movie clip.** Three clips per note — `word`,
+  `explanation`, `dialog` — so the line can be replayed on its own. Word and explanation
+  always use the pinned female voice; the dialog follows the character who says it (male
+  character → male voice, female → female). This gives listening practice without sourcing
+  or licensing audio from the film.
 - **Three decks, one per kind**, each exported as its own `.apkg` under `decks/`:
   `decks/vocabulary.apkg`, `decks/phrasal-verbs.apkg`, `decks/collocations.apkg`. Deck
   layout was open; it is now decided — see [Decks and output](#decks-and-output).
@@ -51,16 +53,22 @@ stale_after: "2027-05-05"
 
 | Model | Fields | Note |
 |---|---|---|
-| Vocabulary | `Word`, `Pronunciation`, `Definition`, `Image`, `Dialog`, `Source`, `Audio` | homographs need a sense in the GUID, not extra fields |
-| Phrasal verb | `Phrase`, `Pronunciation`, `Definition`, `Image`, `Dialog`, `Source`, `Audio` | phrase stored whole; particle splitting is deferred |
-| Collocation | `Phrase`, `Pronunciation`, `Definition`, `Image`, `Dialog`, `Source`, `Audio` | same shape as phrasal verb, separate model so ids stay independent |
+| Vocabulary | `Word`, `Pronunciation`, `Definition`, `Image`, `Dialog`, `Source`, `Audio`, `AudioExplanation`, `AudioDialog` | homographs need a sense in the GUID, not extra fields |
+| Phrasal verb | `Phrase`, `Pronunciation`, `Definition`, `Image`, `Dialog`, `Source`, `Audio`, `AudioExplanation`, `AudioDialog` | phrase stored whole; particle splitting is deferred |
+| Collocation | `Phrase`, `Pronunciation`, `Definition`, `Image`, `Dialog`, `Source`, `Audio`, `AudioExplanation`, `AudioDialog` | same shape as phrasal verb, separate model so ids stay independent |
+
+The three audio fields are one clip each — `Audio` is the **word** clip (the name predates
+the split; renaming a field is destructive, so it stayed), `AudioExplanation` and
+`AudioDialog` follow. Separate fields are what let the template put each player directly
+under the text it reads instead of stacking all three at the bottom.
 
 Field **order** is part of the pinned schema too: it drives the editor layout and the
 `{{Field}}` references, and reordering a field list is as destructive as renaming one.
 
-`Audio` is **required on every note** and holds `[sound:<key>.mp3]`. It was reserved empty
-in the first draft precisely so that turning audio on later would not require a new model
-id — that is now what happened: the field list is unchanged.
+`Audio` is **required on every note** and holds three `[sound:<key>-<part>.mp3]` references —
+`word`, `explanation`, `dialog`. It was reserved empty in the first draft precisely so that
+turning audio on later would not require a new model id — that is now what happened: the
+field list is unchanged, and splitting the clip into three parts cost nothing either.
 
 ### Field contract
 
@@ -80,9 +88,9 @@ id — that is now what happened: the field list is unchanged.
 - `Dialog` — the quoted line(s), attributed to a speaker inside the text (e.g.
   `"I'll be there for you." — Rachel`). One or two short lines; no scene description.
 - `Source` — title plus episode (`Friends, S01E01`), and a timestamp only if it is known.
-- `Audio` — `[sound:<key>.mp3]` with the bare filename and no path (Anki resolves it from
-  the media map). The clip reads, in this fixed order: the target, the definition, the
-  dialog line — synthesized, never the film's audio.
+- `Audio` — three `[sound:<key>-<part>.mp3]` references, one per line and each labelled on
+  the card: `word`, `explanation`, `dialog`. Bare filenames, no paths (Anki resolves them
+  from the media map). Synthesized, never the film's audio.
 
 ## Categories (all kinds)
 
@@ -167,20 +175,34 @@ the card directly under the pronunciation (`noun`, `verb`, `adverb`, …).
 - **Display:** the card template extracts `pos::` from `{{Tags}}` with JS, exactly like the
   level badge; the line hides itself when the tag is absent.
 
+**Card order on the back:** headword → pronunciation → part of speech → level badge →
+▶ word → **rule** → definition → ▶ explanation → **rule** → image → quote → source →
+▶ dialog. The word, its IPA, its word class and its level form one block; the level is
+deliberately the **last** line of that block, and the word's player comes after it so the
+block is never split. The three sections (headword block, definition, illustration + quote)
+are separated by the same plain `<hr>` — no custom CSS, so they match the `#answer` rule by
+construction.
+
 ## Audio rules
 
-Audio is generated with **edge-tts** (installed 7.3.1, `en-US` neural voices) using a
-pinned female voice and rate, so every card sounds the same person.
+Audio is generated with **edge-tts** (installed 7.3.1, `en-US` neural voices) at `--rate=-10%`.
 
-- **Voice is a constant, not a per-card choice:** `en-US-AvaNeural` (female, US,
-  conversational), `--rate=-10%`. Alternatives on this machine if that one disappoints:
-  `en-US-AriaNeural`, `en-US-JennyNeural`, `en-US-EmmaNeural`. Never `en-US-AnaNeural` —
-  it is a child voice, not a woman.
-- **One file per note**, named from the same content key as the image
-  (`<key>.mp3`), so a note's three media artifacts share one stem.
-- **Script, fixed order:** target → definition → dialog. Assemble it as
-  `<target>. <definition>. <dialog>` in a single call; punctuation supplies the pauses,
-  which avoids an ffmpeg concat step and keeps the pipeline to one dependency.
+- **Three clips per note, never one.** `word`, `explanation`, `dialog` — a learner replays
+  the movie line far more often than the definition, and a single combined clip makes that
+  impossible. Each lives in its own field (`Audio`, `AudioExplanation`, `AudioDialog`) and
+  renders as a bare play button under its text — no labels, no stack of players at the
+  bottom. The dialog player is the exception: it sits **after** the source line, at the foot
+  of the card, so the quote and its attribution stay together.
+- **Voices are pinned constants, and gender-aware:** `en-US-AvaNeural` (female, US,
+  conversational) reads the word and the explanation **always**; `en-US-AndrewNeural` (male,
+  US, conversational) reads the dialog **only when the character who says the line is a
+  man**. A female character keeps the female voice. Never `en-US-AnaNeural` — child voice.
+- **`speaker_gender` is authored data**, not inferred from the speaker's name: it is a
+  required field in `src/<kind>.json` (`female` / `male`) and the build rejects anything
+  else. Guessing from names breaks on `Alfred`, `Lilo`, `Miracle Max`.
+- **One file per part**, named from the same content key as the image
+  (`<key>-word.mp3`, `<key>-explanation.mp3`, `<key>-dialog.mp3`), so a note's four media
+  artifacts share one stem.
 - **Strip what must not be spoken:** the speaker attribution after the last `—` (or ` - `)
   in `Dialog`, the surrounding quotation marks, and any `[sound:]`/HTML markup. A card
   whose definition contains symbols, parentheses or slashes needs the spoken version
@@ -224,9 +246,9 @@ Three decks, one per kind, each in its own package:
 
 | Kind | Deck name | Deck id | Model id | Output file |
 |---|---|---|---|---|
-| Vocabulary | `Vocabulary` | `517813484872` | `104320564501` | `decks/vocabulary.apkg` |
-| Phrasal verb | `Phrasal Verbs` | `807523115129` | `1030950240795` | `decks/phrasal-verbs.apkg` |
-| Collocation | `Collocations` | `221110591407` | `834857214829` | `decks/collocations.apkg` |
+| Vocabulary | `Vocabulary` | `517813484872` | `552622157608` | `decks/vocabulary.apkg` |
+| Phrasal verb | `Phrasal Verbs` | `807523115129` | `726156055118` | `decks/phrasal-verbs.apkg` |
+| Collocation | `Collocations` | `221110591407` | `889236578191` | `decks/collocations.apkg` |
 
 Test builds (`--test`) get a **second, fully separate identity** so a rehearsal can never
 touch the real deck — different ids *and* different names, because Anki matches decks by
@@ -234,9 +256,9 @@ name and note types by id:
 
 | Kind | Test deck name | Test deck id | Test model id | Output file |
 |---|---|---|---|---|
-| Vocabulary | `Vocabulary (test)` | `804850451889` | `531323591665` | `tests/decks/vocabulary-test.apkg` |
-| Phrasal verb | `Phrasal Verbs (test)` | `567855487385` | `481099566258` | `tests/decks/phrasal-verbs-test.apkg` |
-| Collocation | `Collocations (test)` | `242142671948` | `20500778516` | `tests/decks/collocations-test.apkg` |
+| Vocabulary | `Vocabulary (test)` | `804850451889` | `817309927966` | `tests/decks/vocabulary-test.apkg` |
+| Phrasal verb | `Phrasal Verbs (test)` | `567855487385` | `618605022273` | `tests/decks/phrasal-verbs-test.apkg` |
+| Collocation | `Collocations (test)` | `242142671948` | `499896888196` | `tests/decks/collocations-test.apkg` |
 
 Test ids were derived once from `sha1("anki-english:test:deck:<slug>")` /
 `sha1("anki-english:test:model:<slug>")` and pinned like the production ones. The `(test)`
@@ -249,6 +271,11 @@ suffix on both names is the load-bearing part: ids alone would not stop the merg
   `sha1("anki-english:deck:<name>")` / `sha1("anki-english:model:<name>")` and are now
   recorded here. Never recompute them at runtime and never derive them from time or
   randomness — that is what produces a duplicate deck on every import.
+- **The model ids are on their second generation** (`sha1("anki-english:v2:model:<kind>")`)
+  because adding the two extra audio fields changed the field list. That is not a cosmetic
+  bump: Anki's importer compares schemas and treats a GUID match with a different schema as
+  a **conflict**, leaving the existing note untouched. A new id is the only way to carry a
+  field change into a collection that already has the old note type.
 - **Flat names, no `English::` parent deck.** Anki matches an incoming deck by **name**, so
   a new name creates a parallel deck rather than grouping the existing one; the pinned id
   is what a fresh collection receives. Decide the hierarchy now, while no notes exist.
@@ -332,8 +359,9 @@ when audio was requested, the schema did not move.
   the segment order (target → definition → dialog). Changing the voice is a one-line edit
   and a regeneration of media, not a schema change.
 - GUIDs are `voc:` / `pv:` / `col:` + normalized phrase + an **explicit sense-key slug**
-  (`voc:have:eat-or-drink`), and both media filenames (`<key>.jpg`, `<key>.mp3`) derive
-  from the same key. The slug is authored, never derived from `Definition` — see
+  (`voc:have:eat-or-drink`), and all media filenames (`<key>.jpg`, `<key>-word.mp3`,
+  `<key>-explanation.mp3`, `<key>-dialog.mp3`) derive from the same key. The slug is
+  authored, never derived from `Definition` — see
   [incremental updates](incremental-updates.md) for why that rule is load-bearing.
 - The package now always has a media map: build it from the referenced images and mp3s,
   verify it, and fail generation if a note is missing either, or if `Audio` is empty.
