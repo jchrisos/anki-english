@@ -60,7 +60,7 @@ from deck_common import (
 # value whenever the fields, templates or CSS change, or the new template never reaches a
 # collection that already has the note type — which is how a stale `<img src="{{Image}}">`
 # template survived a re-import and rendered the image tag as literal text.
-BUILD_MOD = 1794700000
+BUILD_MOD = 1795000000
 
 CSS = """\
 .card {
@@ -90,26 +90,37 @@ CSS = """\
 .image img { max-width: 100%; max-height: 320px; border-radius: 8px; }
 .dialog { font-style: italic; margin-top: 16px; }
 .source { color: #777; font-size: 15px; }
-.audio { margin: 6px 0 12px; }
+.row { display: flex; align-items: center; gap: 10px; margin: 0 auto 10px; max-width: 34em; }
+.row-text { flex: 1 1 auto; min-width: 0; }
+.row-audio { flex: 0 0 auto; }
 """
 
 FRONT_TEMPLATE = '<div class="headword">{{%(headword)s}}</div>\n'
 
 BACK_TEMPLATE = """\
-{{FrontSide}}
+<div class="row">
+  <div class="row-text">
+    <div class="headword">{{%(headword)s}}</div>
+    <div class="pronunciation">{{Pronunciation}}</div>
+    <div class="pos" id="pos"></div>
+    <div class="meta"><span class="level" id="level"></span></div>
+  </div>
+  <div class="row-audio">{{Audio}}</div>
+</div>
 <hr id="answer">
-<div class="pronunciation">{{Pronunciation}}</div>
-<div class="pos" id="pos"></div>
-<div class="meta"><span class="level" id="level"></span></div>
-<div class="audio">{{Audio}}</div>
-<hr>
-<div class="definition">{{Definition}}</div>
-<div class="audio">{{AudioExplanation}}</div>
+<div class="row">
+  <div class="row-text"><div class="definition">{{Definition}}</div></div>
+  <div class="row-audio">{{AudioExplanation}}</div>
+</div>
 <hr>
 <div class="image">{{Image}}</div>
-<div class="dialog">{{Dialog}}</div>
-<div class="source">{{Source}}</div>
-<div class="audio">{{AudioDialog}}</div>
+<div class="row">
+  <div class="row-text">
+    <div class="dialog">{{Dialog}}</div>
+    <div class="source">{{Source}}</div>
+  </div>
+  <div class="row-audio">{{AudioDialog}}</div>
+</div>
 <script>
 // Part of speech and CEFR level are tags, not fields, so they are extracted at render time.
 // Tags arrive space-separated and the vocabulary is controlled (`level::a2`, `pos::verb`),
@@ -210,7 +221,7 @@ def build_model(kind: dict, ident: dict) -> genanki.Model:
             {
                 "name": "Card 1",
                 "qfmt": FRONT_TEMPLATE % {"headword": headword},
-                "afmt": BACK_TEMPLATE,
+                "afmt": BACK_TEMPLATE % {"headword": headword},
             }
         ],
         css=CSS,
