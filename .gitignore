@@ -10,8 +10,8 @@ dist/
 # ...except the empty baseline packages, which pin the deck and note-type ids
 !decks/*.apkg
 
-# Test packages: throwaway import rehearsals, never committed
-decks/tests/
+# Test builds: throwaway source, media and packages, never committed
+tests/
 
 # macOS
 .DS_Store
