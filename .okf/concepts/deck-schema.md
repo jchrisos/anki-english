@@ -202,6 +202,20 @@ Three decks, one per kind, each in its own package:
 | Phrasal verb | `Phrasal Verbs` | `807523115129` | `1030950240795` | `decks/phrasal-verbs.apkg` |
 | Collocation | `Collocations` | `221110591407` | `834857214829` | `decks/collocations.apkg` |
 
+Test builds (`--test`) get a **second, fully separate identity** so a rehearsal can never
+touch the real deck — different ids *and* different names, because Anki matches decks by
+name and note types by id:
+
+| Kind | Test deck name | Test deck id | Test model id | Output file |
+|---|---|---|---|---|
+| Vocabulary | `Vocabulary (test)` | `804850451889` | `531323591665` | `decks/tests/vocabulary-test.apkg` |
+| Phrasal verb | `Phrasal Verbs (test)` | `567855487385` | `481099566258` | `decks/tests/phrasal-verbs-test.apkg` |
+| Collocation | `Collocations (test)` | `242142671948` | `20500778516` | `decks/tests/collocations-test.apkg` |
+
+Test ids were derived once from `sha1("anki-english:test:deck:<slug>")` /
+`sha1("anki-english:test:model:<slug>")` and pinned like the production ones. The `(test)`
+suffix on both names is the load-bearing part: ids alone would not stop the merge.
+
 - **Why three packages and not one:** each kind is studied separately, so a phrasal-verb
   session should not draw collocations; each package carries only its own kind's images and
   mp3s, so they stay small; and re-importing one kind cannot disturb the other two.
@@ -218,7 +232,9 @@ Three decks, one per kind, each in its own package:
   purpose (`.gitignore` re-includes `decks/*.apkg`) so the deck and note-type ids exist in
   Anki before any content is imported; every later rebuild overwrites them from source.
   `decks/tests/` is the throwaway area (`--test`) and is **gitignored**: test packages are
-  for rehearsing an import, never for committing. Never hand-edit a package.
+  for rehearsing an import, never for committing. They carry their own ids, names and
+  filenames (see the test table above) so an import lands in a `(test)` deck instead of the
+  real one. Never hand-edit a package.
 - **Rebuilds are incremental.** Importing a rebuilt package updates existing notes in place
   and keeps their scheduling, provided the GUIDs, deck names and model ids stay put; see
   [incremental updates](incremental-updates.md).

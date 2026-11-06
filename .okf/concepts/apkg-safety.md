@@ -38,6 +38,10 @@ damages a collection that may hold months of review history.
 - Re-importing a rebuilt package updates existing notes in place and keeps their cards and
   review history; that is the intended workflow, so never delete and re-create a note to
   refresh it.
+- **Test builds need a third identity, not a copy of the production one.** Give them their
+  own deck ids, model ids, deck/model names and GUID prefix (`test:voc:` …). Deck names and
+  note type ids are match keys on import, so a "test" package that reuses them writes into
+  the real deck no matter what its filename says.
 
 ## Media
 

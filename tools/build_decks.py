@@ -8,8 +8,13 @@ of creating parallel ones.
 
 Production output goes to `decks/` and is committed. Test output goes to `decks/tests/`,
 which is gitignored: it is for rehearsing an import (or a new batch) without committing a
-package. Test packages carry the same pinned ids and names as production, so importing one
-touches the real deck — use a temporary Anki profile for a dry run.
+package.
+
+Test builds are fully isolated: they use their own pinned deck ids and model ids, their own
+deck/model names (suffixed `(test)`) and their own filenames (`<kind>-test.apkg`). Anki
+matches decks by **name** and note types by **id**, so both have to differ — a test package
+that reused either one would merge into the real deck. When notes arrive, test builds must
+also prefix their GUIDs (`test:` + the kind prefix) for the same reason.
 
 Ids are pinned constants from `.okf/concepts/deck-schema.md`. Never derive them at runtime
 and never let them drift: a new id means a duplicate deck or note type in Anki.
@@ -69,6 +74,8 @@ KINDS = (
         "model_id": 104320564501,
         "model_name": "English Vocabulary",
         "headword": "Word",
+        "test_deck_id": 804850451889,
+        "test_model_id": 531323591665,
     },
     {
         "slug": "phrasal-verbs",
@@ -77,6 +84,8 @@ KINDS = (
         "model_id": 1030950240795,
         "model_name": "English Phrasal Verb",
         "headword": "Phrase",
+        "test_deck_id": 567855487385,
+        "test_model_id": 481099566258,
     },
     {
         "slug": "collocations",
@@ -85,15 +94,40 @@ KINDS = (
         "model_id": 834857214829,
         "model_name": "English Collocation",
         "headword": "Phrase",
+        "test_deck_id": 242142671948,
+        "test_model_id": 20500778516,
     },
 )
 
+# Appended to both the deck and the model name of a test build. Different names, not just
+# different ids: Anki looks a deck up by name, so a matching name would still merge.
+TEST_NAME_SUFFIX = " (test)"
 
-def build_model(kind: dict) -> genanki.Model:
+
+def variant(kind: dict, test: bool) -> dict:
+    """Resolve the deck/model identity and filename for a production or test build."""
+    if not test:
+        return {
+            "deck_id": kind["deck_id"],
+            "deck_name": kind["deck_name"],
+            "model_id": kind["model_id"],
+            "model_name": kind["model_name"],
+            "filename": f"{kind['slug']}.apkg",
+        }
+    return {
+        "deck_id": kind["test_deck_id"],
+        "deck_name": f"{kind['deck_name']}{TEST_NAME_SUFFIX}",
+        "model_id": kind["test_model_id"],
+        "model_name": f"{kind['model_name']}{TEST_NAME_SUFFIX}",
+        "filename": f"{kind['slug']}-test.apkg",
+    }
+
+
+def build_model(kind: dict, ident: dict) -> genanki.Model:
     headword = kind["headword"]
     return genanki.Model(
-        kind["model_id"],
-        kind["model_name"],
+        ident["model_id"],
+        ident["model_name"],
         fields=[
             {"name": headword},
             {"name": "Pronunciation"},
@@ -134,17 +168,18 @@ def _make_zip_hermetic(path: Path) -> None:
     tmp.replace(path)
 
 
-def build(kind: dict, out_dir: Path) -> Path:
-    deck = genanki.Deck(kind["deck_id"], kind["deck_name"])
+def build(kind: dict, out_dir: Path, test: bool) -> tuple[Path, dict]:
+    ident = variant(kind, test)
+    deck = genanki.Deck(ident["deck_id"], ident["deck_name"])
     # Attach the note type explicitly: with no notes, the model would not be written and
     # the import would create a deck without a note type.
-    deck.add_model(build_model(kind))
+    deck.add_model(build_model(kind, ident))
 
     out_dir.mkdir(parents=True, exist_ok=True)
-    path = out_dir / f"{kind['slug']}.apkg"
+    path = out_dir / ident["filename"]
     genanki.Package(deck).write_to_file(str(path), timestamp=BUILD_TIMESTAMP)
     _make_zip_hermetic(path)
-    return path
+    return path, ident
 
 
 def main() -> int:
@@ -152,7 +187,7 @@ def main() -> int:
     parser.add_argument(
         "--test",
         action="store_true",
-        help="write to decks/tests/ (gitignored) instead of decks/",
+        help="write isolated <kind>-test packages to decks/tests/ (gitignored)",
     )
     parser.add_argument(
         "--only",
@@ -165,10 +200,10 @@ def main() -> int:
     kinds = [kind for kind in KINDS if args.only in (None, kind["slug"])]
 
     for kind in kinds:
-        path = build(kind, out_dir)
+        path, ident = build(kind, out_dir, args.test)
         print(
-            f"{path.relative_to(REPO_ROOT)}  deck={kind['deck_name']!r} "
-            f"deck_id={kind['deck_id']} model_id={kind['model_id']}"
+            f"{path.relative_to(REPO_ROOT)}  deck={ident['deck_name']!r} "
+            f"deck_id={ident['deck_id']} model_id={ident['model_id']}"
         )
     return 0
 
