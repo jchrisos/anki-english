@@ -35,6 +35,10 @@ damages a collection that may hold months of review history.
   GUIDs between runs. See [incremental updates](incremental-updates.md).
 - Import deduplicates by GUID only inside the same model and deck. A new model id means a
   new note type, so plan the migration rather than reusing an id with different fields.
+- An existing note type is updated only when the incoming `mod` is **newer** (Anki's
+  `update_notetypes` defaults to *if newer*), so raise `BUILD_MOD` in
+  `tools/build_decks.py` whenever fields, templates or CSS change. Otherwise the package
+  imports cleanly, the notes update, and the collection keeps rendering the old template.
 - Re-importing a rebuilt package updates existing notes in place and keeps their cards and
   review history; that is the intended workflow, so never delete and re-create a note to
   refresh it.
@@ -45,8 +49,11 @@ damages a collection that may hold months of review history.
 
 ## Media
 
-- Register files in the package media map and reference them by bare filename in fields
-  and templates. Absolute or relative paths import as broken references.
+- Register files in the package media map **and** reference them from a field with a real
+  media tag — `<img src="key.jpg">` or `[sound:key.mp3]`. A bare filename is not a reference:
+  Anki's importer only copies media it finds in the field text, so the file is skipped and
+  the card shows a broken image while the package looked complete. Absolute or relative paths
+  break the same way.
 - Every note is incomplete without its image and its dialog quote, so missing media is a
   content bug, not a cosmetic one. Generate nothing silently: fail the run and report the
   entry instead of importing a blank card.

@@ -9,6 +9,125 @@ status: active
 
 Newest entries first. ISO dates (`YYYY-MM-DD`).
 
+## 2026-11-06 — Test builds moved to their own `tests/` tree
+
+- User rule: test source, media and packages must live in `tests/src`, `tests/media` and
+  `tests/decks`, and **all** of `tests/` must be gitignored.
+- Implemented as a `Layout` in `deck_common.py`: `--test` on any of the three tools switches
+  `src/media/out` together, so a test build cannot read production art or write a package
+  into `decks/`. One flag, one tree — the three paths can no longer drift apart.
+- `.gitignore` replaced `decks/tests/` with `tests/`. Verified with `git check-ignore` on a
+  package, an image and a source file: all three ignored.
+- Moved the existing 30 entries, 60 media files and three packages into `tests/`. Production
+  `src/` and `media/` do not exist yet — a `--notes` production build fails loudly with
+  `FileNotFoundError` rather than silently shipping test content.
+- Consequence worth stating: test content is now **unversioned**. The 30 cards and their art
+  exist only on this machine until they are promoted to `src/` and `media/` and built
+  without `--test`. That is the intended trade — test decks are rehearsal, not a library.
+
+## 2026-11-05 — Part of speech under the IPA (vocabulary)
+
+- User: the word class (verb, noun, adverb, …) must appear below the pronunciation.
+- Implemented as a `pos::` **tag**, not a field — single-valued per sense, filterable as
+  `tag:pos::verb`, and free of any model change. Same reasoning as level and categories,
+  and the third namespace so each filter stays exact.
+- Display: the card template extracts `pos::` from `{{Tags}}` in the same JS that already
+  pulls `level::`; `.pos:empty` hides the line, so phrasal verbs and collocations — which do
+  not carry the tag yet — show nothing rather than a blank row.
+- `pos` is **required on vocabulary** and validated against a controlled list (a typo would
+  otherwise render a card with no word class, silently). Optional on the other two kinds:
+  their deck already implies the shape, and adding it later stays free.
+- Source data gained a `pos` key for the 10 vocabulary entries. No GUID changed, so review
+  history is untouched; `BUILD_MOD` was raised to `1794200000` because the template and CSS
+  changed.
+
+## 2026-11-05 — CEFR level shown on the card back
+
+- User: "I don't see the english level". The level was only a `level::` tag, filterable in
+  the browser but invisible while reviewing — the schema had deliberately deferred display.
+- Implemented as a template change, which is the cheap kind: a `.level` badge above the
+  pronunciation, filled by a few lines of JS that pull the `level::` tag out of `{{Tags}}`.
+  No new field, no new model id, no change to note identity.
+- `BUILD_MOD` raised to `1794000000` in the same change — the rule from the previous entry,
+  exercised on its first real use. Without it the badge would never reach an existing
+  collection, because note types only update `if newer`.
+- Categories remain undisplayed on purpose: the level is the one tag worth seeing during
+  review, and printing `category::` slugs would leak technical prefixes onto the card.
+
+## 2026-11-05 — Stale template: the note type is only updated `if newer`
+
+- Symptom: after the media fix, the card showed `%3Cimg%20src="%3Cimg%20src="voc_6a648cec.jpg">">`
+  as literal text — the image tag nested inside the old `<img src="{{Image}}">` template.
+- Cause: Anki's apkg importer takes `update_notetypes` from
+  `ImportAnkiPackageOptions`, whose default is `IF_NEWER`
+  (`proto/anki/import_export.proto`). genanki stamps the note type's `mod` with the
+  `timestamp` passed to `write_to_file`, and ours was the fixed `1730000000` — the same
+  value the first import already stored. Equal mods are not newer, so the template was never
+  updated while the notes were.
+- Fix: the constant is now `BUILD_MOD = 1793900000` and the docstring states the rule —
+  **raise it whenever fields, templates or CSS change**. Re-imports now carry a newer mod,
+  so the notetype updates and the card renders `<img src="key.jpg">` once.
+- The images themselves had already imported correctly (10 JPEGs in `collection.media`), so
+  the two bugs were independent: field-not-referenced, then template-not-updated.
+- Rule recorded in `AGENTS.md`: keep "Update note types" at *If newer* or *Always*; leaving
+  it at *Never* will strand a collection on an old template forever, with no error.
+
+## 2026-11-05 — Broken images: media must be referenced in the field, not the template
+
+- Symptom: the test decks imported with 20 notes and all 30 mp3s, but **not one image**;
+  `collection.media` held every `*.mp3` and zero `*.jpg`.
+- Cause, confirmed in Anki's source (`rslib/src/import_export/package/apkg/import/media.rs`
+  → `notes.rs::munge_media` → `rslib/src/text.rs::replace_media_refs`): the importer builds a
+  media-use map and copies **only** entries it marks used, and a filename is marked used only
+  when it appears in a field inside `HTML_MEDIA_TAGS` (`<img|audio|video|object|source src=…`)
+  or `AV_TAGS` (`[sound:…]`). Our `Image` field held a bare filename and the *template*
+  wrapped it in `<img src>`, so the JPEG was never referenced and was skipped. Audio survived
+  because `[sound:…]` is a real reference.
+- Fix: the `Image` field now carries the whole tag (`<img src="voc_6a648cec.jpg">`) and the
+  back template renders `{{Image}}` bare. `deck-schema.md` previously *required* the bare
+  filename, so that rule was wrong and is reversed there and in `apkg-safety.md`.
+- This also explains why "the media map is correct" is not a sufficient check: the package
+  can be internally consistent and still import with no images. Verification now mirrors
+  Anki's own regexes and asserts every registered file is referenced by a field.
+- User-facing consequence: re-importing is enough. GUIDs did not change, so the existing
+  notes update in place and only the missing media is copied.
+
+## 2026-11-05 — First content: 30 notes, three test packages
+
+- User asked for three **test** decks of 10 entries each, at full card contract, so all 30
+  notes carry IPA, definition, a real attributed movie/TV line, category and level tags, an
+  AI image and an edge-tts mp3.
+- Source format decided: `src/<kind>.json`, one array per kind. JSON over CSV/Markdown
+  because an entry holds a nested category list, a quoted dialog and an authored sense slug.
+  `image_brief` is authoring metadata and is not written to the note.
+- Content is opt-in via a new `--notes` flag. A plain build still emits the empty baseline,
+  which keeps "content only on demand" enforceable in code rather than in prose.
+- New `tools/deck_common.py` holds the identity rules (kind prefix, media key, spoken
+  script) so `build_decks.py` and `build_audio.py` cannot disagree about an entry's name.
+  The media key is `prefix_sha1(prefix:phrase:sense)[:8]`; the test GUID prefix `test:` is
+  now implemented, closing the gap left open when test ids were introduced.
+- Validation is fail-loud before packaging: text fields, IPA in slashes, exactly one
+  `level::`, ≥1 known `category::`, unique phrase per kind, and **both media files on disk**.
+  Missing media is the failure that imports silently, so it is a build error.
+- Two content fixes before the data was written: vocabulary `offer` was dropped because it
+  duplicated the collocation `make an offer` (same sense, same Godfather line) — replaced by
+  `hire`; and several multi-word IPA strings had primary stress on the function word
+  (`/ˈdu ˈriˌsɝtʃ/`), normalized to `/du ˈriˌsɝtʃ/`.
+- Images arrive at 1–3 MB PNG. Added `tools/prepare_media.py` (sips, 900 px, JPEG q82):
+  a package is now ~2 MB instead of ~25 MB. `media/` stays an input, never regenerated.
+- `edge-tts==7.3.1` is now pinned in `requirements.txt` and installed in the repo `.venv`,
+  ending the deviation where it lived only in the pyenv global interpreter.
+- Operational note: 10 of 30 image generations failed with "Insufficient account funds"
+  after the first 20, and one tripped moderation ("teenage boys creep along a corridor").
+  Both cleared on retry — the moderation one only after softening the prompt. Budget for
+  image generation is a real constraint on content batches.
+- Verified per package: 10 notes / 10 cards, unique GUIDs, one `(test)` deck and model, 20
+  media-map entries present in the zip and byte-identical to `media/`, fields referencing
+  exactly those filenames. Production packages were not rebuilt and still hold 0 notes.
+- Still unverified: the quotes themselves are the one thing a script cannot check. They are
+  well-known lines with checkable sources, but a manual pass is worth doing before this
+  content is promoted out of the test decks.
+
 ## 2026-11-05 — Test builds get their own ids, names and filenames
 
 - User rule: `--test` output must not collide with production, and its files must be named

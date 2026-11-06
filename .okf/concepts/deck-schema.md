@@ -72,9 +72,11 @@ id — that is now what happened: the field list is unchanged.
   reduction is worth teaching, keep it to a short trailing parenthetical
   (`/ˈhæv/ (have to → /ˈhæftə/)`), never a sentence.
 - `Definition` — one plain sentence per sense, no circular definition.
-- `Image` — **bare filename only** (`voc_9f2c1ab3.jpg`), never a path and never an
-  `<img>` tag; the template renders `{{Image}}` into `<img src="...">`, so the package
-  media map and the field agree by construction.
+- `Image` — the **whole tag**: `<img src="voc_9f2c1ab3.jpg">`, bare filename, no path. It must
+  *not* be a bare filename that the template wraps later: Anki's importer copies only the
+  media it can see referenced in the field text (`<img src>` and `[sound:]`), so a filename
+  wrapped by the template is silently dropped and the card imports with a broken image. The
+  template therefore renders `{{Image}}` on its own.
 - `Dialog` — the quoted line(s), attributed to a speaker inside the text (e.g.
   `"I'll be there for you." — Rachel`). One or two short lines; no scene description.
 - `Source` — title plus episode (`Friends, S01E01`), and a timestamp only if it is known.
@@ -139,7 +141,31 @@ so the deck can be studied by difficulty: `level::a1`, `level::a2`, `level::b1`,
 - **Full scale allowed, realistic deck:** A1–C2 are all legal, but a study deck that is
   mostly C1/C2 is a bad use of review time; levels should skew toward the learner's
   working range and mixed-frequency decks should be split by filter.
-- **Display is a template concern,** same as categories: nothing is printed in v1.
+- **Displayed as a badge on the back**, next to the pronunciation: `A1`…`C2`. The level is a
+  tag, so the card template extracts it from `{{Tags}}` with a few lines of JS — no field,
+  no model change. Categories stay undisplayed; only the level is worth seeing while
+  reviewing.
+
+## Part of speech (vocabulary)
+
+Every vocabulary note carries **one part of speech for the sense being taught**, shown on
+the card directly under the pronunciation (`noun`, `verb`, `adverb`, …).
+
+- **A tag, not a field:** `pos::verb`. Single-valued, filterable (`tag:pos::verb`), and it
+  costs no model change — the same reasoning that put level and categories in tags.
+- **Own namespace.** `pos::` never mixes with `category::` (themes) or `level::`
+  (difficulty), so each filter stays exact.
+- **Controlled list:** `noun`, `verb`, `adjective`, `adverb`, `pronoun`, `preposition`,
+  `conjunction`, `interjection`, `determiner`, `numeral`, `modal-verb`, `auxiliary-verb`.
+  A typo would silently produce a card with no word class, so the build rejects unknown
+  values and requires one on every vocabulary entry.
+- **The sense decides it, not the spelling.** `run` here is a verb because the note teaches
+  "move fast on foot"; a noun sense of `run` is a different entry with a different sense
+  slug and its own `pos::noun`.
+- Phrasal verbs and collocations do not carry it yet: their kind already implies the shape.
+  Adding it later is a tag, so it stays free.
+- **Display:** the card template extracts `pos::` from `{{Tags}}` with JS, exactly like the
+  level badge; the line hides itself when the tag is absent.
 
 ## Audio rules
 
@@ -208,9 +234,9 @@ name and note types by id:
 
 | Kind | Test deck name | Test deck id | Test model id | Output file |
 |---|---|---|---|---|
-| Vocabulary | `Vocabulary (test)` | `804850451889` | `531323591665` | `decks/tests/vocabulary-test.apkg` |
-| Phrasal verb | `Phrasal Verbs (test)` | `567855487385` | `481099566258` | `decks/tests/phrasal-verbs-test.apkg` |
-| Collocation | `Collocations (test)` | `242142671948` | `20500778516` | `decks/tests/collocations-test.apkg` |
+| Vocabulary | `Vocabulary (test)` | `804850451889` | `531323591665` | `tests/decks/vocabulary-test.apkg` |
+| Phrasal verb | `Phrasal Verbs (test)` | `567855487385` | `481099566258` | `tests/decks/phrasal-verbs-test.apkg` |
+| Collocation | `Collocations (test)` | `242142671948` | `20500778516` | `tests/decks/collocations-test.apkg` |
 
 Test ids were derived once from `sha1("anki-english:test:deck:<slug>")` /
 `sha1("anki-english:test:model:<slug>")` and pinned like the production ones. The `(test)`
@@ -231,10 +257,11 @@ suffix on both names is the load-bearing part: ids alone would not stop the merg
 - **`decks/` holds build output.** The three empty baseline packages are committed on
   purpose (`.gitignore` re-includes `decks/*.apkg`) so the deck and note-type ids exist in
   Anki before any content is imported; every later rebuild overwrites them from source.
-  `decks/tests/` is the throwaway area (`--test`) and is **gitignored**: test packages are
-  for rehearsing an import, never for committing. They carry their own ids, names and
-  filenames (see the test table above) so an import lands in a `(test)` deck instead of the
-  real one. Never hand-edit a package.
+  `tests/` is the throwaway tree (`--test`) and is **gitignored** as a whole — `tests/src/`,
+  `tests/media/` and `tests/decks/`: test source, art and packages never mix with production
+  and can never be committed. They carry their own ids, names and filenames (see the test
+  table above) so an import lands in a `(test)` deck instead of the real one. Never hand-edit
+  a package.
 - **Rebuilds are incremental.** Importing a rebuilt package updates existing notes in place
   and keeps their scheduling, provided the GUIDs, deck names and model ids stay put; see
   [incremental updates](incremental-updates.md).
@@ -252,16 +279,40 @@ Rejected: one note type with a `Kind` field would force a single template onto t
 shapes, and the only per-kind difference would live in data rather than in the model.
 Cheaper now, worse as soon as the card designs diverge.
 
+## Source format
+
+**Decided 2026-11-05: one JSON array per kind under `src/`** — `src/vocabulary.json`,
+`src/phrasal-verbs.json`, `src/collocations.json`. Chosen over CSV and Markdown because an
+entry carries a nested list (categories), a quoted multi-line dialog and an authored sense
+slug; JSON holds all three without inventing a delimiter or an escape rule.
+
+| Key | Written to the note | Notes |
+|---|---|---|
+| `phrase` | `Word` / `Phrase` | the target form, lowercase |
+| `sense` | — | kebab-case slug, becomes the GUID's identity half; reword freely, rename never |
+| `pronunciation` | `Pronunciation` | GenAm IPA in slashes |
+| `definition` | `Definition` | one sentence |
+| `dialog` | `Dialog` | quoted line plus `— Speaker` attribution |
+| `source` | `Source` | title, plus episode when known |
+| `categories` | `category::*` tags | 1–3 slugs from the controlled list |
+| `level` | `level::*` tag | exactly one |
+| `image_brief` | — | authoring metadata for regenerating the illustration |
+
+`src/` is an **input** and is committed; it is not a cache of the packages. The image and
+mp3 filenames are not in the source at all — they are derived from `phrase` + `sense`, so a
+typo in a filename is impossible and renaming a file by hand is never necessary.
+
+Content is included only with `--notes`; a plain build still emits the empty baseline.
+
 ## Still open — do not invent
 
-1. **Source vocabulary format**: CSV, Markdown, JSON, or a dictionary API — it must carry
-   the dialog quote, the attribution, the image reference, the category slugs, and the
-   stable sense-key slug that the GUID is built from.
-2. **Per-kind card templates** beyond front→back (particle gap-fill, word cloze).
-3. Whether images sit on the back only (assumed) or also on the front as a recall cue.
-4. Whether to add a register tag (`register::informal`) for filtering. CEFR level is
+1. **Per-kind card templates** beyond front→back (particle gap-fill, word cloze).
+2. Whether images sit on the back only (assumed) or also on the front as a recall cue.
+3. Whether to add a register tag (`register::informal`) for filtering. CEFR level is
    decided ([Levels](#levels-all-kinds)); register stays open and, if added, gets its own
    namespace so it never mixes with categories or levels.
+4. Whether production content ships at all, or the decks stay empty and only test builds
+   carry entries.
 
 ## Cost of changing fields later
 

@@ -1,67 +1,78 @@
 ---
 type: architecture
-title: "Planned .apkg generation pipeline"
-description: "Intended flow for turning vocabulary sources into importable Anki packages. Nothing is implemented yet."
-status: draft
+title: "Implemented .apkg generation pipeline"
+description: "How src/<kind>.json plus media/ become three importable packages: key derivation, validation, packaging, and what is deliberately not automated."
+status: active
 verified:
   - by: "OpenCode session"
     at: "2026-11-05"
 sources:
-  - uri: "file:///Users/julio/Projects/anki-english/AGENTS.md"
+  - uri: "file:///Users/julio/Projects/anki-english/tools/build_decks.py"
     credibility: high
-  - uri: "local://machine-inspection"
-    credibility: medium
+  - uri: "file:///Users/julio/Projects/anki-english/tools/deck_common.py"
+    credibility: high
+  - uri: "file:///Users/julio/Projects/anki-english/tools/build_audio.py"
+    credibility: high
 stale_after: "2027-05-05"
 ---
 
-# Planned .apkg generation pipeline
+# Implemented .apkg generation pipeline
 
-**This is a plan, not an implemented architecture.** At initialization the repo held no
-source files, so no entrypoint, module layout, or data flow could be observed. Treat
-every stage below as provisional until code exists. The three content kinds
-(vocabulary, phrasal verbs, collocations) are confirmed; the layout serving them is not.
+Four scripts, no framework. `tools/deck_common.py` owns the identity rules so the builder
+and the audio tool cannot disagree about what an entry is called.
 
-## Intended stages
+| Script | Job |
+|---|---|
+| `tools/build_decks.py` | validate the layout's `src/` and `media/`, assemble the three packages |
+| `tools/deck_common.py` | kind prefixes, media key, spoken script, allowed tags |
+| `tools/build_audio.py` | one edge-tts mp3 per entry, skipping files that exist |
+| `tools/prepare_media.py` | PNG → 900 px JPEG, so a package stays ~2 MB |
 
-1. **Vocabulary source** — format is undecided (CSV, Markdown, JSON, or a dictionary
-   API). Whatever is chosen must carry all three content kinds: vocabulary, phrasal
-   verbs, collocations, and, per entry, the dialog quote, its attribution and the image
-   reference.
-2. **Normalization** — dedupe *within* a kind and derive a stable per-note key. That key
-   becomes the note GUID: full phrase plus sense, prefixed with the kind
-   (`voc:` / `pv:` / `col:`), never a row index or `hash()` of an unordered structure.
-   The same key names the image file, so an entry always maps to one picture.
-3. **Image assets** — resolve `media/<key>.jpg` for every entry and generate it only if
-   missing (AI-generated, then committed). The media folder is an input, not a build
-   product: image models are not deterministic, so nothing is regenerated on a plain run.
-4. **Audio assets** — synthesize `media/<key>.mp3` with edge-tts when missing: pinned
-   female US voice, one call reading target → definition → dialog. Also an input, for the
-   same non-determinism reason; synthesis needs network access.
-5. **Note construction** — map normalized entries onto that kind's pinned model. Decided:
-   one model per kind, fields `Word`/`Phrase`, `Pronunciation`, `Definition`, `Image`,
-   `Dialog`, `Source` and `Audio` (see `concepts/deck-schema.md`). A note lacking an image,
-   a dialog quote, a pronunciation or audio is rejected, not emitted.
-6. **Package assembly** — one package per kind, built with that kind's fixed deck id and
-   model id plus the shared GUID function; register every referenced image and mp3 in that
-   package's media map and verify the map matches the field values before writing.
-7. **Verification** — inspect each generated package programmatically (prevents silent
-   missing-media gaps), then do one manual import to confirm template rendering.
-8. **Delivery** — three files in `decks/` (`vocabulary.apkg`, `phrasal-verbs.apkg`,
-   `collocations.apkg`) that the user imports by hand; there is no Anki CLI on this
-   machine.
+## Stages
+
+1. **Source** — `src/<kind>.json`, one array per kind, one object per entry: `phrase`,
+   `sense`, `pronunciation`, `definition`, `dialog`, `source`, `categories`, `level`, and
+   `image_brief` (authoring metadata, never written to the note). JSON because it is the
+   one format that holds nested category lists and multi-line quotes without a delimiter
+   argument.
+2. **Identity** — `media_key()` = `f"{prefix}_{sha1(prefix:phrase:sense)[:8]}"`, with
+   prefix `voc` / `pv` / `col`. The GUID is `prefix:phrase:sense`, prefixed `test:` for a
+   test build. Both derive from the *authored sense slug*, never from the definition text,
+   a row number or a timestamp, so rewording a definition cannot strand review history.
+3. **Images** — `media/<key>.jpg`, AI-generated, committed, an **input**: nothing is
+   regenerated on a build. `prepare_media.py` only re-encodes what already exists.
+4. **Audio** — `media/<key>.mp3`, one edge-tts call reading target → definition → dialog
+   (attribution and quotes stripped). Also an input; `build_audio.py` skips existing files
+   unless `--force`.
+5. **Validation** — every note is rejected unless all text fields are non-empty, the
+   pronunciation is IPA in slashes, there is exactly one `level::` tag, at least one
+   `category::` tag from the controlled list, the phrase is unique within its kind, and
+   both media files exist. Missing media is the failure that does not announce itself.
+6. **Package assembly** — one deck and one note type per package, with the pinned deck id,
+   model id and name; media registered in the package map by bare filename. With no notes
+   the model is attached explicitly, otherwise Anki would create a deck with no note type.
+7. **Hermetic zip** — `_make_zip_hermetic()` pins entry timestamps, so rebuilding unchanged
+   input leaves the committed `.apkg` byte-identical instead of dirtying git.
+8. **Verification** — unzip and query the bundled sqlite: note and card counts, GUID
+   uniqueness, media-map entries present in the zip and byte-identical to `media/`, and
+   fields referencing exactly the registered filenames. Then one manual import, because
+   counts cannot validate template rendering.
 
 ## Structural rules that survive refactors
 
-- Deck id, model id, and GUID derivation belong in one place guarded as constants, not
-  scattered through generation code.
-- Generation must be deterministic: same input, byte-identical output. This makes
-  regeneration safe and diffs meaningful.
-- The bundle is a build artifact. Keep it out of version control (or commit only under
-  an explicit `dist/` policy the user approves) and regenerate instead of patching.
+- Deck ids, model ids, deck names and the GUID/media-key derivation live in one place as
+  pinned constants (`build_decks.py` + `deck_common.py`), never inline at a call site.
+- Generation is deterministic: same input, byte-identical output.
+- `decks/` is build output and `tests/` is a fully gitignored tree; `media/` and `src/` are
+  inputs and are committed. `--test` on any tool switches the whole layout to
+  `tests/src` + `tests/media` + `tests/decks`, so test content is never versioned.
+- Content is opt-in (`--notes`). A plain build emits the empty baseline, so "add
+  flashcards" can never happen by accident.
 
-## Unknown until code lands
+## Not automated, on purpose
 
-Entrypoints, dependency management, test strategy, and whether a CLI argument or config
-file drives generation. Also unresolved: whether the three kinds land in one deck or
-several. Update this concept when the first implementation exists, and promote it from
-`draft` to `active` only then.
+- **Image generation.** Not deterministic and not free, so it stays an explicit action that
+  writes into `media/`, never a build step.
+- **Importing into Anki.** There is no `anki` binary on `PATH` and no AnkiConnect; the
+  user imports the `.apkg` by hand.
+- **Delta builds.** Every build is a full rebuild; Anki merges by GUID on import.

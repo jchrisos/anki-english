@@ -11,7 +11,7 @@ operational version; concepts below hold the reasoning.
 
 ## Concepts
 
-- [architecture](concepts/architecture.md) — Planned `.apkg` generation pipeline. No code exists yet.
+- [architecture](concepts/architecture.md) — Implemented pipeline: `src/<kind>.json` + `media/` → three packages, with fail-loud validation.
 - [deck schema](concepts/deck-schema.md) — v1 decided: one model and one deck per kind, three pinned ids each, output to `decks/<kind>.apkg`; every card carrying IPA, an AI image, an attributed movie/TV dialog and a female-voice TTS mp3, grouped by `category::` tags and tagged with one CEFR `level::`.
 - [incremental updates](concepts/incremental-updates.md) — re-importing a rebuilt package updates notes in place, so stable GUIDs and frozen ids are what keep review progress.
 - [environment](concepts/environment.md) — Verified local Anki/Python setup and the tooling that is missing.
