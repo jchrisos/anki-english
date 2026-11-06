@@ -9,6 +9,23 @@ status: active
 
 Newest entries first. ISO dates (`YYYY-MM-DD`).
 
+## 2026-11-05 — Test builds get their own ids, names and filenames
+
+- User rule: `--test` output must not collide with production, and its files must be named
+  `<kind>-test.apkg` (e.g. `decks/tests/vocabulary-test.apkg`).
+- Ids alone would not have been enough. Anki resolves an incoming deck **by name** and a
+  note type **by id**, so a test package reusing either key still merges into the real
+  deck. Fixed on all three: pinned `test_deck_id` / `test_model_id` per kind (derived once
+  from `sha1("anki-english:test:deck:<slug>")`), names suffixed `(test)`
+  (`Vocabulary (test)`, `English Vocabulary (test)`), filenames suffixed `-test`.
+- Same `--test` directory and the same gitignore rule as before, so nothing new is
+  committed; production packages stayed **byte-identical** after the change, confirming the
+  refactor touched only the test path.
+- Consequence recorded in `AGENTS.md` and `concepts/apkg-safety.md`: when notes arrive,
+  test GUIDs must carry a `test:` prefix on top of the kind prefix. Nothing to code yet —
+  there is still no note input — but the rule belongs with the ids, since all three keys
+  are what import matches on.
+
 ## 2026-11-05 — Test packages go to gitignored `decks/tests/`
 
 - User rule: when a deck is being tested, build it into `decks/tests/`, and that folder must

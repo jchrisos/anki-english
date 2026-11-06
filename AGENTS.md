@@ -16,12 +16,15 @@ ask before seeding it.
 python3 -m venv .venv                       # already exists locally, .venv/ is gitignored
 .venv/bin/pip install -r requirements.txt   # genanki==0.13.1
 .venv/bin/python tools/build_decks.py       # writes decks/{vocabulary,phrasal-verbs,collocations}.apkg
-.venv/bin/python tools/build_decks.py --test  # same packages under decks/tests/ (gitignored)
+.venv/bin/python tools/build_decks.py --test  # isolated <kind>-test packages under decks/tests/
 ```
 
 `decks/tests/` is the scratch area for trying a build before committing it, and it is
-gitignored. Test packages carry the same pinned ids and names as production, so importing
-one affects the real deck — do a dry run in a temporary Anki profile.
+gitignored. Test builds are **isolated**, not clones of production: their own pinned deck
+and model ids, their own names (`Vocabulary (test)`), and their own filenames
+(`vocabulary-test.apkg`). Anki matches decks by name and note types by id, so reusing
+either would merge a rehearsal into the real deck. When notes arrive, test builds must also
+prefix their GUIDs (`test:` + kind prefix) — same rule, third key.
 
 The build writes packages, not notes: verifying them means unzipping and querying the
 bundled sqlite (`select count(*) from notes` should be 0) — there is no test suite yet.
