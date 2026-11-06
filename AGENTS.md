@@ -14,20 +14,41 @@ ask before seeding it.
 
 ```sh
 python3 -m venv .venv                       # already exists locally, .venv/ is gitignored
-.venv/bin/pip install -r requirements.txt   # genanki==0.13.1
-.venv/bin/python tools/build_decks.py       # writes decks/{vocabulary,phrasal-verbs,collocations}.apkg
-.venv/bin/python tools/build_decks.py --test  # isolated <kind>-test packages under decks/tests/
+.venv/bin/pip install -r requirements.txt   # genanki==0.13.1, edge-tts==7.3.1
+.venv/bin/python tools/build_decks.py       # empty baseline: decks/{vocabulary,phrasal-verbs,collocations}.apkg
+.venv/bin/python tools/build_decks.py --test  # tests/src + tests/media -> tests/decks (all gitignored)
+.venv/bin/python tools/build_decks.py --test --notes  # same, with the entries from tests/src/
+.venv/bin/python tools/build_audio.py --test  # mp3s into tests/media (production: omit --test)
+.venv/bin/python tools/prepare_media.py --test  # PNG -> 900px JPEG in tests/media
 ```
 
-`decks/tests/` is the scratch area for trying a build before committing it, and it is
-gitignored. Test builds are **isolated**, not clones of production: their own pinned deck
-and model ids, their own names (`Vocabulary (test)`), and their own filenames
-(`vocabulary-test.apkg`). Anki matches decks by name and note types by id, so reusing
-either would merge a rehearsal into the real deck. When notes arrive, test builds must also
-prefix their GUIDs (`test:` + kind prefix) — same rule, third key.
+Content lives in `src/<kind>.json` (one array per kind) and is included **only** with
+`--notes`; a plain build still ships empty packages. Media lives in `media/`, named from the
+entry's key (`voc_6a648cec.jpg`), and is an input: nothing regenerates art on a plain build.
 
-The build writes packages, not notes: verifying them means unzipping and querying the
-bundled sqlite (`select count(*) from notes` should be 0) — there is no test suite yet.
+`tests/` is a **separate, fully gitignored tree**: `tests/src/`, `tests/media/` and
+`tests/decks/`. `--test` on any of the three tools switches the whole layout there, so test
+source, images, audio and packages never mix with production and can never be committed.
+Test builds are also isolated in Anki: their own pinned deck and model ids, their own names
+(`Vocabulary (test)`), their own filenames (`vocabulary-test.apkg`) and a `test:` GUID
+prefix. Anki matches decks by name, note types by id and notes by GUID, so reusing any one
+of them would merge a rehearsal into the real deck.
+
+The build validates every note before writing: all text fields, exactly one `level::` tag,
+at least one known `category::` tag, and both the image and the mp3 present on disk. A
+failure is a build error, not a card with a blank panel. Verifying a package still means
+unzipping it and querying the bundled sqlite; there is no test suite yet.
+
+**Two rules that bite on import, both learned the hard way:**
+
+1. Media must be referenced *in the field*, not by the template: `Image` holds
+   `<img src="key.jpg">` and `Audio` holds `[sound:key.mp3]`. Anki's importer only copies
+   media it can see referenced in field text, so a bare filename wrapped by the template is
+   silently dropped.
+2. `BUILD_MOD` in `tools/build_decks.py` is the note type's `mod`, and Anki updates an
+   existing note type only when the incoming mod is **newer**. Raise it whenever fields,
+   templates or CSS change, or the new template never reaches a collection that already has
+   the note type. In the import dialog keep "Update note types" at *If newer* (or *Always*).
 
 Git is set up: branch `main`, remote `origin` →
 `https://github.com/jchrisos/anki-english.git`. There is **no CI, no pre-commit hooks and no
