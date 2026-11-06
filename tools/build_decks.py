@@ -1,20 +1,26 @@
 #!/usr/bin/env python3
 """Build the anki-english deck packages.
 
-Each package contains exactly one deck and one note type, and **no notes** — this is the
-baseline that puts the pinned deck ids, deck names and note-type ids into the collection
-before any content exists. Re-importing a later build updates those same objects instead
-of creating parallel ones.
+Each package contains exactly one deck and one note type. By default it also contains **no
+notes**: that is the baseline which puts the pinned deck ids, deck names and note-type ids
+into the collection before any content exists, and re-importing a later build updates those
+same objects instead of creating parallel ones.
 
-Production output goes to `decks/` and is committed. Test output goes to `decks/tests/`,
-which is gitignored: it is for rehearsing an import (or a new batch) without committing a
-package.
+Content from `src/<kind>.json` is included only with `--notes`. Content is added on demand,
+so a plain build must never quietly ship entries.
+
+Every note is validated before the package is written: all text fields present, exactly one
+CEFR level, at least one known category, and both its image and its mp3 on disk. A note
+missing any of them is a build failure, not a card with a blank panel.
+
+Production output goes to `decks/` and is committed. Test output goes to `tests/decks/`,
+which is gitignored together with the rest of `tests/`: test builds read `tests/src/` and
+`tests/media/`, so no test artifact ever mixes with production.
 
 Test builds are fully isolated: they use their own pinned deck ids and model ids, their own
 deck/model names (suffixed `(test)`) and their own filenames (`<kind>-test.apkg`). Anki
-matches decks by **name** and note types by **id**, so both have to differ — a test package
-that reused either one would merge into the real deck. When notes arrive, test builds must
-also prefix their GUIDs (`test:` + the kind prefix) for the same reason.
+matches decks by **name**, note types by **id** and notes by **GUID**, so all three have to
+differ — a test package that reused any one of them would merge into the real deck.
 
 Ids are pinned constants from `.okf/concepts/deck-schema.md`. Never derive them at runtime
 and never let them drift: a new id means a duplicate deck or note type in Anki.
@@ -29,12 +35,30 @@ from pathlib import Path
 
 import genanki
 
-# Fixed so repeated builds of unchanged input are equivalent (no wall-clock ids/timestamps).
-BUILD_TIMESTAMP = 1730000000
+from deck_common import (
+    ALLOWED_CATEGORIES,
+    ALLOWED_POS,
+    GUID_PREFIX,
+    LEVELS,
+    REPO_ROOT,
+    REQUIRED_TEXT_FIELDS,
+    TEST_GUID_PREFIX,
+    Layout,
+    audio_file,
+    image_file,
+    layout,
+    load_entries,
+    media_key,
+)
 
-REPO_ROOT = Path(__file__).resolve().parent.parent
-DECKS_DIR = REPO_ROOT / "decks"
-TEST_DIR = DECKS_DIR / "tests"
+# Fixed so repeated builds of unchanged input are equivalent (no wall-clock ids/timestamps).
+#
+# This is also the note type's `mod`, and Anki's apkg importer updates an existing note type
+# only when the incoming mod is **newer** (`update_notetypes = if_newer`). So: raise this
+# value whenever the fields, templates or CSS change, or the new template never reaches a
+# collection that already has the note type — which is how a stale `<img src="{{Image}}">`
+# template survived a re-import and rendered the image tag as literal text.
+BUILD_MOD = 1794200000
 
 CSS = """\
 .card {
@@ -45,7 +69,21 @@ CSS = """\
   background: #fdfdfd;
 }
 .headword { font-size: 34px; font-weight: 600; }
-.pronunciation { color: #666; font-size: 18px; margin: 6px 0 14px; }
+.pronunciation { color: #666; font-size: 18px; margin: 6px 0 2px; }
+.pos { color: #777; font-size: 15px; font-style: italic; margin: 0 0 14px; }
+.pos:empty { display: none; }
+.meta { margin: 0 0 14px; }
+.level {
+  display: inline-block;
+  padding: 2px 10px 3px;
+  border-radius: 10px;
+  background: #eef1f5;
+  color: #445;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
 .definition { margin: 0 auto 16px; max-width: 34em; }
 .image img { max-width: 100%; max-height: 320px; border-radius: 8px; }
 .dialog { font-style: italic; margin-top: 16px; }
@@ -58,12 +96,33 @@ FRONT_TEMPLATE = '<div class="headword">{{%(headword)s}}</div>\n'
 BACK_TEMPLATE = """\
 {{FrontSide}}
 <hr id="answer">
+<div class="meta"><span class="level" id="level"></span></div>
 <div class="pronunciation">{{Pronunciation}}</div>
+<div class="pos" id="pos"></div>
 <div class="definition">{{Definition}}</div>
-<div class="image"><img src="{{Image}}"></div>
+<div class="image">{{Image}}</div>
 <div class="dialog">{{Dialog}}</div>
 <div class="source">{{Source}}</div>
 <div class="audio">{{Audio}}</div>
+<script>
+// Part of speech and CEFR level are tags, not fields, so they are extracted at render time.
+// Tags arrive space-separated and the vocabulary is controlled (`level::a2`, `pos::verb`),
+// so no escaping is needed.
+(function () {
+  var tags = "{{Tags}}".split(" ");
+  var level = "";
+  var pos = "";
+  for (var i = 0; i < tags.length; i++) {
+    if (tags[i].indexOf("level::") === 0) {
+      level = tags[i].slice(7);
+    } else if (tags[i].indexOf("pos::") === 0) {
+      pos = tags[i].slice(5);
+    }
+  }
+  document.getElementById("level").textContent = level;
+  document.getElementById("pos").textContent = pos;
+})();
+</script>
 """
 
 KINDS = (
@@ -168,18 +227,102 @@ def _make_zip_hermetic(path: Path) -> None:
     tmp.replace(path)
 
 
-def build(kind: dict, out_dir: Path, test: bool) -> tuple[Path, dict]:
+class BuildError(Exception):
+    """A note that must not reach a package: missing field, bad tag, missing media."""
+
+
+def validate(entry: dict, key: str, seen: set[str], slug: str, lay: Layout) -> None:
+    """Reject an entry instead of emitting a card with a blank panel.
+
+    Missing media is the failure that does not announce itself: Anki imports the note and
+    renders an empty image or a silent card, so both files are asserted here.
+    """
+    label = f"{entry.get('phrase', '?')} ({key})"
+    for field in REQUIRED_TEXT_FIELDS:
+        if not str(entry.get(field, "")).strip():
+            raise BuildError(f"{label}: empty {field}")
+    if not entry["pronunciation"].startswith("/") or not entry["pronunciation"].endswith("/"):
+        raise BuildError(f"{label}: pronunciation must be IPA in slashes")
+    level = entry.get("level")
+    if level not in LEVELS:
+        raise BuildError(f"{label}: level must be one of {', '.join(LEVELS)}, got {level!r}")
+    pos = entry.get("pos")
+    if pos is None:
+        # Vocabulary cards are the ones where the word class is not obvious from the deck.
+        if slug == "vocabulary":
+            raise BuildError(f"{label}: vocabulary needs a part of speech (pos)")
+    elif pos not in ALLOWED_POS:
+        raise BuildError(f"{label}: unknown part of speech {pos!r}")
+    categories = entry.get("categories") or []
+    if not categories:
+        raise BuildError(f"{label}: needs at least one category")
+    unknown = [c for c in categories if c not in ALLOWED_CATEGORIES]
+    if unknown:
+        raise BuildError(f"{label}: unknown categories {unknown}")
+    if entry["phrase"] in seen:
+        raise BuildError(f"{label}: duplicate phrase within the kind")
+    seen.add(entry["phrase"])
+    for path in (image_file(lay, key), audio_file(lay, key)):
+        if not path.exists():
+            raise BuildError(f"{label}: missing media file {path.name}")
+
+
+def make_note(
+    kind: dict, model: genanki.Model, entry: dict, test: bool, lay: Layout
+) -> genanki.Note:
+    prefix = GUID_PREFIX[kind["slug"]]
+    key = media_key(prefix, entry)
+    # Authored sense slug, never the definition text: rewording a definition must not
+    # strand a card's review history on a new note.
+    guid = f"{prefix}:{entry['phrase']}:{entry['sense']}"
+    if test:
+        guid = TEST_GUID_PREFIX + guid
+    return genanki.Note(
+        model=model,
+        fields=[
+            entry["phrase"],
+            entry["pronunciation"],
+            entry["definition"],
+            # The field carries the whole tag, not a bare filename. Anki's importer only
+            # copies media that it can see referenced in the field text (`<img src>` and
+            # `[sound:]`), so a filename the template wrapped later is silently skipped.
+            f'<img src="{image_file(lay, key).name}">',
+            entry["dialog"],
+            entry["source"],
+            f"[sound:{audio_file(lay, key).name}]",
+        ],
+        tags=[f"category::{c}" for c in entry["categories"]]
+        + [f"level::{entry['level']}"]
+        + ([f"pos::{entry['pos']}"] if entry.get("pos") else []),
+        guid=guid,
+    )
+
+
+def build(kind: dict, test: bool, notes: bool) -> tuple[Path, dict, int]:
     ident = variant(kind, test)
+    lay = layout(test)
     deck = genanki.Deck(ident["deck_id"], ident["deck_name"])
+    model = build_model(kind, ident)
     # Attach the note type explicitly: with no notes, the model would not be written and
     # the import would create a deck without a note type.
-    deck.add_model(build_model(kind, ident))
+    deck.add_model(model)
 
-    out_dir.mkdir(parents=True, exist_ok=True)
-    path = out_dir / ident["filename"]
-    genanki.Package(deck).write_to_file(str(path), timestamp=BUILD_TIMESTAMP)
+    media: list[Path] = []
+    entries = load_entries(lay, kind["slug"]) if notes else []
+    seen: set[str] = set()
+    for entry in entries:
+        key = media_key(GUID_PREFIX[kind["slug"]], entry)
+        validate(entry, key, seen, kind["slug"], lay)
+        deck.add_note(make_note(kind, model, entry, test, lay))
+        media.extend([image_file(lay, key), audio_file(lay, key)])
+
+    lay.out.mkdir(parents=True, exist_ok=True)
+    path = lay.out / ident["filename"]
+    genanki.Package(deck, media_files=[str(p) for p in media]).write_to_file(
+        str(path), timestamp=BUILD_MOD
+    )
     _make_zip_hermetic(path)
-    return path, ident
+    return path, ident, len(entries)
 
 
 def main() -> int:
@@ -187,7 +330,12 @@ def main() -> int:
     parser.add_argument(
         "--test",
         action="store_true",
-        help="write isolated <kind>-test packages to decks/tests/ (gitignored)",
+        help="build from tests/src + tests/media into tests/decks (all gitignored)",
+    )
+    parser.add_argument(
+        "--notes",
+        action="store_true",
+        help="include the entries in src/<kind>.json (content is on demand only)",
     )
     parser.add_argument(
         "--only",
@@ -196,13 +344,16 @@ def main() -> int:
     )
     args = parser.parse_args()
 
-    out_dir = TEST_DIR if args.test else DECKS_DIR
     kinds = [kind for kind in KINDS if args.only in (None, kind["slug"])]
 
     for kind in kinds:
-        path, ident = build(kind, out_dir, args.test)
+        try:
+            path, ident, count = build(kind, args.test, args.notes)
+        except (BuildError, FileNotFoundError) as exc:
+            print(f"error: {kind['slug']}: {exc}", file=sys.stderr)
+            return 1
         print(
-            f"{path.relative_to(REPO_ROOT)}  deck={ident['deck_name']!r} "
+            f"{path.relative_to(REPO_ROOT)}  notes={count}  deck={ident['deck_name']!r} "
             f"deck_id={ident['deck_id']} model_id={ident['model_id']}"
         )
     return 0
