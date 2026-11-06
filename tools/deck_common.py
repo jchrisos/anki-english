@@ -94,20 +94,43 @@ def image_file(layout: Layout, key: str) -> Path:
     raise FileNotFoundError(f"{layout.media}/{key}.{{{exts}}} is missing")
 
 
-def audio_file(layout: Layout, key: str) -> Path:
-    return layout.media / f"{key}.mp3"
+def audio_file(layout: Layout, key: str, part: str) -> Path:
+    """One mp3 per spoken part: `word`, `explanation`, `dialog`."""
+    return layout.media / f"{key}-{part}.mp3"
 
 
-def spoken_script(entry: dict) -> str:
-    """Target, definition, dialog — with the speaker attribution and quotes stripped.
-
-    The voice must not read `— Rachel` or the quotation marks aloud; punctuation already
-    supplies the pauses, so no ffmpeg concat step is needed.
-    """
+def dialog_line(entry: dict) -> str:
+    """The quoted line alone, without the attribution or the quotation marks."""
     dialog = entry["dialog"]
     for sep in (" — ", " – ", " - "):
         if sep in dialog:
             dialog = dialog.rsplit(sep, 1)[0]
             break
-    dialog = dialog.strip().strip('"“”').strip()
-    return f"{entry['phrase']}. {entry['definition']}. {dialog}"
+    return dialog.strip().strip('"“”').strip()
+
+
+# Spoken parts, in the order they are played. Each gets its own mp3: a learner replays the
+# movie line far more often than the definition, and one long clip makes that impossible.
+AUDIO_PARTS = ("word", "explanation", "dialog")
+
+# Pinned voices. The word and the explanation are always the same woman; the dialog follows
+# the character who says the line, so a male character is not read by a female voice.
+VOICE_FEMALE = "en-US-AvaNeural"
+VOICE_MALE = "en-US-AndrewNeural"
+RATE = "-10%"
+
+SPEAKER_GENDERS = ("female", "male")
+
+
+def part_text(entry: dict, part: str) -> str:
+    return {
+        "word": entry["phrase"],
+        "explanation": entry["definition"],
+        "dialog": dialog_line(entry),
+    }[part]
+
+
+def part_voice(entry: dict, part: str) -> str:
+    if part == "dialog":
+        return VOICE_MALE if entry["speaker_gender"] == "male" else VOICE_FEMALE
+    return VOICE_FEMALE

@@ -38,10 +38,12 @@ import genanki
 from deck_common import (
     ALLOWED_CATEGORIES,
     ALLOWED_POS,
+    AUDIO_PARTS,
     GUID_PREFIX,
     LEVELS,
     REPO_ROOT,
     REQUIRED_TEXT_FIELDS,
+    SPEAKER_GENDERS,
     TEST_GUID_PREFIX,
     Layout,
     audio_file,
@@ -58,7 +60,7 @@ from deck_common import (
 # value whenever the fields, templates or CSS change, or the new template never reaches a
 # collection that already has the note type — which is how a stale `<img src="{{Image}}">`
 # template survived a re-import and rendered the image tag as literal text.
-BUILD_MOD = 1794200000
+BUILD_MOD = 1794700000
 
 CSS = """\
 .card {
@@ -70,9 +72,9 @@ CSS = """\
 }
 .headword { font-size: 34px; font-weight: 600; }
 .pronunciation { color: #666; font-size: 18px; margin: 6px 0 2px; }
-.pos { color: #777; font-size: 15px; font-style: italic; margin: 0 0 14px; }
+.pos { color: #777; font-size: 15px; font-style: italic; margin: 0 0 4px; }
 .pos:empty { display: none; }
-.meta { margin: 0 0 14px; }
+.meta { margin: 0 0 12px; }
 .level {
   display: inline-block;
   padding: 2px 10px 3px;
@@ -88,7 +90,7 @@ CSS = """\
 .image img { max-width: 100%; max-height: 320px; border-radius: 8px; }
 .dialog { font-style: italic; margin-top: 16px; }
 .source { color: #777; font-size: 15px; }
-.audio { margin-top: 10px; }
+.audio { margin: 6px 0 12px; }
 """
 
 FRONT_TEMPLATE = '<div class="headword">{{%(headword)s}}</div>\n'
@@ -96,14 +98,18 @@ FRONT_TEMPLATE = '<div class="headword">{{%(headword)s}}</div>\n'
 BACK_TEMPLATE = """\
 {{FrontSide}}
 <hr id="answer">
-<div class="meta"><span class="level" id="level"></span></div>
 <div class="pronunciation">{{Pronunciation}}</div>
 <div class="pos" id="pos"></div>
+<div class="meta"><span class="level" id="level"></span></div>
+<div class="audio">{{Audio}}</div>
+<hr>
 <div class="definition">{{Definition}}</div>
+<div class="audio">{{AudioExplanation}}</div>
+<hr>
 <div class="image">{{Image}}</div>
 <div class="dialog">{{Dialog}}</div>
 <div class="source">{{Source}}</div>
-<div class="audio">{{Audio}}</div>
+<div class="audio">{{AudioDialog}}</div>
 <script>
 // Part of speech and CEFR level are tags, not fields, so they are extracted at render time.
 // Tags arrive space-separated and the vocabulary is controlled (`level::a2`, `pos::verb`),
@@ -130,31 +136,31 @@ KINDS = (
         "slug": "vocabulary",
         "deck_id": 517813484872,
         "deck_name": "Vocabulary",
-        "model_id": 104320564501,
+        "model_id": 552622157608,
         "model_name": "English Vocabulary",
         "headword": "Word",
         "test_deck_id": 804850451889,
-        "test_model_id": 531323591665,
+        "test_model_id": 817309927966,
     },
     {
         "slug": "phrasal-verbs",
         "deck_id": 807523115129,
         "deck_name": "Phrasal Verbs",
-        "model_id": 1030950240795,
+        "model_id": 726156055118,
         "model_name": "English Phrasal Verb",
         "headword": "Phrase",
         "test_deck_id": 567855487385,
-        "test_model_id": 481099566258,
+        "test_model_id": 618605022273,
     },
     {
         "slug": "collocations",
         "deck_id": 221110591407,
         "deck_name": "Collocations",
-        "model_id": 834857214829,
+        "model_id": 889236578191,
         "model_name": "English Collocation",
         "headword": "Phrase",
         "test_deck_id": 242142671948,
-        "test_model_id": 20500778516,
+        "test_model_id": 499896888196,
     },
 )
 
@@ -194,7 +200,11 @@ def build_model(kind: dict, ident: dict) -> genanki.Model:
             {"name": "Image"},
             {"name": "Dialog"},
             {"name": "Source"},
+            # `Audio` is the word clip: the name predates the split, and renaming a field is
+            # destructive, so the two new parts were appended instead.
             {"name": "Audio"},
+            {"name": "AudioExplanation"},
+            {"name": "AudioDialog"},
         ],
         templates=[
             {
@@ -253,6 +263,11 @@ def validate(entry: dict, key: str, seen: set[str], slug: str, lay: Layout) -> N
             raise BuildError(f"{label}: vocabulary needs a part of speech (pos)")
     elif pos not in ALLOWED_POS:
         raise BuildError(f"{label}: unknown part of speech {pos!r}")
+    gender = entry.get("speaker_gender")
+    if gender not in SPEAKER_GENDERS:
+        raise BuildError(
+            f"{label}: speaker_gender must be one of {', '.join(SPEAKER_GENDERS)}, got {gender!r}"
+        )
     categories = entry.get("categories") or []
     if not categories:
         raise BuildError(f"{label}: needs at least one category")
@@ -262,7 +277,7 @@ def validate(entry: dict, key: str, seen: set[str], slug: str, lay: Layout) -> N
     if entry["phrase"] in seen:
         raise BuildError(f"{label}: duplicate phrase within the kind")
     seen.add(entry["phrase"])
-    for path in (image_file(lay, key), audio_file(lay, key)):
+    for path in [image_file(lay, key)] + [audio_file(lay, key, p) for p in AUDIO_PARTS]:
         if not path.exists():
             raise BuildError(f"{label}: missing media file {path.name}")
 
@@ -289,7 +304,11 @@ def make_note(
             f'<img src="{image_file(lay, key).name}">',
             entry["dialog"],
             entry["source"],
-            f"[sound:{audio_file(lay, key).name}]",
+            # Each clip lives in its own field so the template can place it directly under
+            # the text it reads, instead of stacking three players at the bottom.
+            f"[sound:{audio_file(lay, key, 'word').name}]",
+            f"[sound:{audio_file(lay, key, 'explanation').name}]",
+            f"[sound:{audio_file(lay, key, 'dialog').name}]",
         ],
         tags=[f"category::{c}" for c in entry["categories"]]
         + [f"level::{entry['level']}"]
@@ -314,7 +333,7 @@ def build(kind: dict, test: bool, notes: bool) -> tuple[Path, dict, int]:
         key = media_key(GUID_PREFIX[kind["slug"]], entry)
         validate(entry, key, seen, kind["slug"], lay)
         deck.add_note(make_note(kind, model, entry, test, lay))
-        media.extend([image_file(lay, key), audio_file(lay, key)])
+        media.extend([image_file(lay, key), *(audio_file(lay, key, p) for p in AUDIO_PARTS)])
 
     lay.out.mkdir(parents=True, exist_ok=True)
     path = lay.out / ident["filename"]

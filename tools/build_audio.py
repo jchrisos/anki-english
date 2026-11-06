@@ -19,28 +19,28 @@ import sys
 import edge_tts
 
 from deck_common import (
+    AUDIO_PARTS,
     GUID_PREFIX,
+    RATE,
     Layout,
     audio_file,
     layout,
     load_entries,
     media_key,
-    spoken_script,
+    part_text,
+    part_voice,
 )
 
-# Pinned so every card sounds like the same person. Never en-US-AnaNeural (child voice).
-VOICE = "en-US-AvaNeural"
-RATE = "-10%"
 CONCURRENCY = 3
 
 
-async def synthesize(entry: dict, key: str, force: bool, lay: Layout) -> str:
-    path = audio_file(lay, key)
+async def synthesize(entry: dict, key: str, part: str, force: bool, lay: Layout) -> str:
+    path = audio_file(lay, key, part)
     if path.exists() and not force:
         return f"skip {path.name} (exists)"
-    communicate = edge_tts.Communicate(spoken_script(entry), VOICE, rate=RATE)
+    communicate = edge_tts.Communicate(part_text(entry, part), part_voice(entry, part), rate=RATE)
     await communicate.save(str(path))
-    return f"wrote {path.name}"
+    return f"wrote {path.name} ({part_voice(entry, part)})"
 
 
 async def run(slugs: list[str], force: bool, test: bool) -> int:
@@ -51,13 +51,13 @@ async def run(slugs: list[str], force: bool, test: bool) -> int:
         prefix = GUID_PREFIX[slug]
         for entry in load_entries(lay, slug):
             key = media_key(prefix, entry)
-            jobs.append((entry, key))
+            jobs.extend((entry, key, part) for part in AUDIO_PARTS)
 
-    async def guarded(entry: dict, key: str) -> str:
+    async def guarded(entry: dict, key: str, part: str) -> str:
         async with semaphore:
-            return await synthesize(entry, key, force, lay)
+            return await synthesize(entry, key, part, force, lay)
 
-    results = await asyncio.gather(*(guarded(e, k) for e, k in jobs), return_exceptions=True)
+    results = await asyncio.gather(*(guarded(e, k, p) for e, k, p in jobs), return_exceptions=True)
     failures = 0
     for result in results:
         if isinstance(result, Exception):
