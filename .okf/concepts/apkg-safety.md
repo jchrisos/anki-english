@@ -57,9 +57,10 @@ damages a collection that may hold months of review history.
 - Every note is incomplete without its image and its dialog quote, so missing media is a
   content bug, not a cosmetic one. Generate nothing silently: fail the run and report the
   entry instead of importing a blank card.
-- Audio counts as required media: the `Audio` field holds `[sound:<key>.mp3]`, and an
-  empty field or a missing file is a silent, soundless card. Check both the reference and
-  the file, and never point two notes at the same mp3.
+- Audio counts as required media: the `Audio` field holds three
+  `[sound:<key>-<part>.mp3]` references (`word`, `explanation`, `dialog`), and a missing
+  file is a silent, soundless card. Check every reference and every file, and never point
+  two notes at the same mp3.
 - Name an image from the note's stable content key (kind prefix + deterministic hash of
   phrase + sense), keep it under `media/`, and never reuse a filename for a different
   entry — the media map has no notion of "which card this belongs to". The mp3 uses the
