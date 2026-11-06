@@ -9,6 +9,13 @@ status: active
 
 Newest entries first. ISO dates (`YYYY-MM-DD`).
 
+## 2026-11-06 — Play buttons hug the text instead of the card edge
+
+- `.row-text` had `flex: 1 1 auto`, so it ate the free space and pushed each button to the
+  right margin. It is now `flex: 0 1 auto` and the row centres its two children, which puts
+  the button next to the text while still letting a long definition shrink and wrap.
+- CSS-only; `BUILD_MOD` raised to `1795100000`.
+
 ## 2026-11-06 — YouTube embeds tried and dropped
 
 - User asked for the dialog clip embedded at the foot of the card; 29 of 30 were found and

@@ -60,7 +60,7 @@ from deck_common import (
 # value whenever the fields, templates or CSS change, or the new template never reaches a
 # collection that already has the note type — which is how a stale `<img src="{{Image}}">`
 # template survived a re-import and rendered the image tag as literal text.
-BUILD_MOD = 1795000000
+BUILD_MOD = 1795100000
 
 CSS = """\
 .card {
@@ -90,8 +90,8 @@ CSS = """\
 .image img { max-width: 100%; max-height: 320px; border-radius: 8px; }
 .dialog { font-style: italic; margin-top: 16px; }
 .source { color: #777; font-size: 15px; }
-.row { display: flex; align-items: center; gap: 10px; margin: 0 auto 10px; max-width: 34em; }
-.row-text { flex: 1 1 auto; min-width: 0; }
+.row { display: flex; align-items: center; justify-content: center; gap: 10px; margin: 0 auto 10px; max-width: 34em; }
+.row-text { flex: 0 1 auto; min-width: 0; }
 .row-audio { flex: 0 0 auto; }
 """
 
