@@ -67,7 +67,15 @@ ALLOWED_CATEGORIES = frozenset(
     """.split()
 )
 
-REQUIRED_TEXT_FIELDS = ("phrase", "sense", "pronunciation", "definition", "dialog", "source")
+REQUIRED_TEXT_FIELDS = (
+    "phrase",
+    "sense",
+    "pronunciation",
+    "definition",
+    "dialog",
+    "source",
+    "example",
+)
 
 # Extra text a **verb** carries: one short example sentence per form, shown as the block under
 # the movie quote. The sentences are authored, not quotes — a real film line that happens to
@@ -123,7 +131,8 @@ def dialog_line(entry: dict) -> str:
 
 # Spoken parts, in the order they are played. Each gets its own mp3: a learner replays the
 # movie line far more often than the definition, and one long clip makes that impossible.
-AUDIO_PARTS = ("word", "explanation", "dialog")
+# `example` is the authored sentence under the quote: a second usage of the target.
+AUDIO_PARTS = ("word", "explanation", "dialog", "example")
 
 # Verb-only clips: one per example row under the quote. Ordered after the base three so a
 # non-verb note keeps exactly the three files it always had.
@@ -131,7 +140,7 @@ VERB_AUDIO_PARTS = ("present-example", "past-simple-example", "past-participle-e
 
 
 def audio_parts(entry: dict) -> tuple[str, ...]:
-    """Every clip this entry needs: three, or six when it is a verb."""
+    """Every clip this entry needs: four, or seven when it is a verb."""
     return AUDIO_PARTS + VERB_AUDIO_PARTS if is_verb(entry) else AUDIO_PARTS
 
 
@@ -149,15 +158,25 @@ RATE = "-10%"
 SPEAKER_GENDERS = ("female", "male")
 
 
+# Parts whose text is the authored field of the same name (plus the three verb examples).
+PLAIN_PART_KEYS = {
+    "example": "example",
+    "present-example": "present_example",
+    "past-simple-example": "past_simple_example",
+    "past-participle-example": "past_participle_example",
+}
+
+
 def part_text(entry: dict, part: str) -> str:
-    return {
-        "word": entry["phrase"],
-        "explanation": entry["definition"],
-        "dialog": dialog_line(entry),
-        "present-example": entry["present_example"],
-        "past-simple-example": entry["past_simple_example"],
-        "past-participle-example": entry["past_participle_example"],
-    }[part]
+    # Not a dict literal over every part: a non-verb has no example keys, and building the
+    # whole mapping would raise KeyError on the parts it will never be asked for.
+    if part == "word":
+        return entry["phrase"]
+    if part == "explanation":
+        return entry["definition"]
+    if part == "dialog":
+        return dialog_line(entry)
+    return entry[PLAIN_PART_KEYS[part]]
 
 
 def part_voice(entry: dict, part: str) -> str:
