@@ -9,6 +9,39 @@ status: active
 
 Newest entries first. ISO dates (`YYYY-MM-DD`).
 
+## 2026-11-07 — Every quote gets a second authored example sentence
+
+- User: "sometimes the movie quote is too short — always add a second authored phrase below
+  the movie quote with more context", then clarified: "i dont want a context for the movie
+  quote, i want a new authored phrase."
+- So the added line is **another example of the target**, not an explanation of the quote:
+  `round up` gets `The teacher rounded up the children and took them back inside.` It sits
+  under the quote and its source, labelled `Example`, and is required on every note of every
+  kind. The first attempt was a context *about* the quote (who says it, to whom, what is
+  happening); it was written for all 30 test entries and replaced the same day, so no field
+  or key is called `Context`.
+- Authored, never attributed, and never a second credit. This is only the second place a card
+  carries text we wrote (the first is the verb form rows); the quote keeps its own rule — a
+  real line with a checkable source, or no card.
+- **A clip of its own**, `-example.mp3`, on the pinned female voice: nobody in the film says
+  it. Every note now has four clips, a verb seven.
+- `example` joined `REQUIRED_TEXT_FIELDS`, so a missing line is a build error rather than a
+  card with a short quote and nothing else.
+- **Fifth generation of model ids** (`sha1("anki-english:v5:model:<kind>")`, 17 fields) and
+  `BUILD_MOD = 1796200000`, for the same reason as every previous field change.
+- **Both lines use the entry's own form.** First stated as "quote and example in the same
+  tense", then corrected: the *entry* is the reference, so the movie quote and the authored
+  sentence must both show the target in the base form printed on the front. `hire` was the
+  example given — `"You're hired."` plus `The school hired three new teachers this year.`
+  became `"I want to hire you."` (It's a Wonderful Life) plus `We need to hire two more
+  nurses this month.` Six quotes were replaced (hire, make a mistake, leave behind, be up to,
+  be into, be good at) so the base form appears in the line, and seven examples were
+  rewritten to match. Other tenses stay in the Present/Past/Past participle rows where they
+  belong.
+- Source data gained `example` for the 30 test entries and 30 mp3s were generated. Verified
+  per package: 10 notes, 17 fields, 7 sound references per verb and 4 per non-verb, every
+  reference present in the media map, production baselines rebuilt with 0 notes.
+
 ## 2026-11-06 — Verb form examples under the quote; the tense table dropped
 
 - Two requests in a row: show the past forms (`write` → `wrote`, `written`) and then the

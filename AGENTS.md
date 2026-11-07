@@ -34,11 +34,12 @@ Test builds are also isolated in Anki: their own pinned deck and model ids, thei
 prefix. Anki matches decks by name, note types by id and notes by GUID, so reusing any one
 of them would merge a rehearsal into the real deck.
 
-The build validates every note before writing: all text fields, a part of speech, exactly one
-`level::` tag, at least one known `category::` tag, and every image and mp3 present on disk.
-A verb also needs one example sentence for each form; a non-verb carrying those keys is
-rejected. A failure is a build error, not a card with a blank panel. Verifying a package
-still means unzipping it and querying the bundled sqlite; there is no test suite yet.
+The build validates every note before writing: all text fields (the authored example
+included), a part of speech, exactly one `level::` tag, at least one known `category::` tag,
+and every image and mp3 present on disk. A verb also needs one example sentence for each
+form; a non-verb carrying those keys is rejected. A failure is a build error, not a card with
+a blank panel. Verifying a package still means unzipping it and querying the bundled sqlite;
+there is no test suite yet.
 
 **Two rules that bite on import, both learned the hard way:**
 
@@ -68,23 +69,30 @@ single token or a row index — and GUIDs are prefixed per kind (`voc:`/`pv:`/`c
 the same string cannot collide across kinds.
 
 Decided for v1: **one note type per kind** (three pinned model ids) with fields
-headword/phrase, pronunciation (General American IPA), definition, image, dialog, source and
-three audio fields (word, explanation, dialog), plus a verb-only block: one example sentence
-per form (present, past, past participle) and three matching audio fields. **Three decks,
-one per kind**, each built as its own package under `decks/` — `vocabulary.apkg`,
-`phrasal-verbs.apkg`, `collocations.apkg` — with pinned deck ids and flat names (no
-`English::` parent; a parent would be a different id, not a rename).
+headword/phrase, pronunciation (General American IPA), definition, image, dialog, source,
+example and four audio fields (word, explanation, dialog, example), plus a verb-only block:
+one example sentence per form (present, past, past participle) and three matching audio
+fields. **Three decks, one per kind**, each built as its own package under `decks/` —
+`vocabulary.apkg`, `phrasal-verbs.apkg`, `collocations.apkg` — with pinned deck ids and flat
+names (no `English::` parent; a parent would be a different id, not a rename).
 
-**Every card has an illustration and a quoted movie/TV line** as its example — there is no
-"make up a sentence" example field. Images are AI-generated and committed under `media/`;
-**audio is synthesized with edge-tts** in three separate clips per note — `-word`,
-`-explanation`, `-dialog` — so the line can be replayed on its own. Word and explanation are
-always the pinned female voice (`en-US-AvaNeural`); the dialog uses a male voice
-(`en-US-AndrewNeural`) when the character who says the line is a man, and the female voice
-when it is a woman. Rate is `-10%` throughout. It is never the film's audio.
+**Every card has an illustration, a quoted movie/TV line and a second authored example
+sentence under it.** The quote is the example and is never invented; the authored line is
+ours and exists because a short quote ("Round up the usual suspects.") shows the target in one
+situation only, so every note adds one full everyday sentence that uses it. **Both the quote
+and the authored sentence must show the target in the entry's own form** — the base form on
+the front: `hire` quotes `"I want to hire you."`, never `"You're hired."`, and the example
+says `We need to hire two more nurses this month.` The other tenses are what the verb's form
+rows are for. Images are
+AI-generated and committed under `media/`; **audio is synthesized with edge-tts** in four
+separate clips per note — `-word`, `-explanation`, `-dialog`, `-example` — so each part can be
+replayed on its own. Word, explanation and the authored example are always the pinned female
+voice (`en-US-AvaNeural`); the dialog uses a male voice (`en-US-AndrewNeural`) when the
+character who says the line is a man, and the female voice when it is a woman. Rate is
+`-10%` throughout. It is never the film's audio.
 
 **A note whose part of speech is `verb` also gets a block of example sentences under the
-movie quote** — `Present`, `Past`, `Past participle`, each one labelled, spoken and shown on
+authored example** — `Present`, `Past`, `Past participle`, each one labelled, spoken and shown on
 its own row. This is **all** the card shows about conjugation: there is deliberately no
 `wrote / written` table under the headword, which was tried and judged to read like a
 dictionary entry. The sentences are **authored, not quotes**: a real film line that happens

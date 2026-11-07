@@ -63,7 +63,7 @@ from deck_common import (
 # value whenever the fields, templates or CSS change, or the new template never reaches a
 # collection that already has the note type — which is how a stale `<img src="{{Image}}">`
 # template survived a re-import and rendered the image tag as literal text.
-BUILD_MOD = 1796100000
+BUILD_MOD = 1796200000
 
 CSS = """\
 .card {
@@ -109,9 +109,9 @@ CSS = """\
 
 FRONT_TEMPLATE = '<div class="headword">{{%(headword)s}}</div>\n'
 
-# One authored example per form, appended after the movie quote. The labels name the form the
-# sentence demonstrates; they are the only example rows on a card that are not quotes, and the
-# label keeps that visible. A non-verb note leaves the fields empty, so the `{{#...}}` sections
+# One authored example per form, appended after the authored example row. The labels name the form
+# the sentence demonstrates; they are the only example rows on a card that are not quotes, and
+# the label keeps that visible. A non-verb note leaves the fields empty, so the `{{#...}}` sections
 # render nothing at all — no empty rows, no stray dividers.
 EXAMPLE_BLOCKS = """\
 {{#PresentExample}}
@@ -170,6 +170,13 @@ BACK_TEMPLATE = """\
   </div>
   <div class="row-audio">{{AudioDialog}}</div>
 </div>
+<div class="row">
+  <div class="row-text">
+    <div class="block-label">Example</div>
+    <div class="example">{{Example}}</div>
+  </div>
+  <div class="row-audio">{{AudioExample}}</div>
+</div>
 """ + EXAMPLE_BLOCKS + """\
 <script>
 // Part of speech and CEFR level are tags, not fields, so they are extracted at render time.
@@ -197,31 +204,31 @@ KINDS = (
         "slug": "vocabulary",
         "deck_id": 517813484872,
         "deck_name": "Vocabulary",
-        "model_id": 145594572691,
+        "model_id": 556808103576,
         "model_name": "English Vocabulary",
         "headword": "Word",
         "test_deck_id": 804850451889,
-        "test_model_id": 508936285996,
+        "test_model_id": 429987648287,
     },
     {
         "slug": "phrasal-verbs",
         "deck_id": 807523115129,
         "deck_name": "Phrasal Verbs",
-        "model_id": 143525141992,
+        "model_id": 994478520429,
         "model_name": "English Phrasal Verb",
         "headword": "Phrase",
         "test_deck_id": 567855487385,
-        "test_model_id": 703766918383,
+        "test_model_id": 898746046976,
     },
     {
         "slug": "collocations",
         "deck_id": 221110591407,
         "deck_name": "Collocations",
-        "model_id": 573397697437,
+        "model_id": 689907847381,
         "model_name": "English Collocation",
         "headword": "Phrase",
         "test_deck_id": 242142671948,
-        "test_model_id": 534902278227,
+        "test_model_id": 748715823550,
     },
 )
 
@@ -275,6 +282,10 @@ def build_model(kind: dict, ident: dict) -> genanki.Model:
             {"name": "AudioPresentExample"},
             {"name": "AudioPastSimpleExample"},
             {"name": "AudioPastParticipleExample"},
+            # The authored example under the quote. Required on every note, so it is
+            # appended after the verb block to keep both earlier groups in order.
+            {"name": "Example"},
+            {"name": "AudioExample"},
         ],
         templates=[
             {
@@ -401,6 +412,9 @@ def make_note(
                 if is_verb(entry)
                 else [""] * 6
             ),
+            # The authored example, required on every note.
+            entry["example"],
+            f"[sound:{audio_file(lay, key, 'example').name}]",
         ],
         tags=[f"category::{c}" for c in entry["categories"]]
         + [f"level::{entry['level']}", f"pos::{entry['pos']}"],

@@ -5,14 +5,20 @@ Generate Anki flashcard decks (`.apkg`) for English study across three content k
 committed images and audio.
 
 Every card carries: General American IPA, a part of speech, a CEFR level, a one-sentence
-definition, an AI-generated illustration, a quoted movie/TV line with attribution, three
-separate audio clips (word, explanation, dialog) and a set of `category::` tags for
-filtering. A **verb** card also carries one extra example sentence per form — `Present`,
-`Past`, `Past participle` — each shown and spoken on its own row under the movie quote.
+definition, an AI-generated illustration, a quoted movie/TV line with attribution, a second
+authored example sentence, four separate audio clips (word, explanation, dialog, example) and
+a set of `category::` tags for filtering. A **verb** card also carries one example sentence
+per form — `Present`, `Past`, `Past participle` — each shown and spoken on its own row under
+the authored example.
 
-Verbs are the one place the examples are not movie quotes: real lines that use a given past
-form of an arbitrary verb are too rare to require, so those sentences are authored. There is
-no conjugation table on the card — that was tried and dropped.
+The authored example is required because many quotes are a single short line ("Round up the
+usual suspects.") and show the target in only one situation; the extra sentence gives a
+second, everyday use. **Both the quote and that sentence use the target in the entry's own
+form** — the base form on the front — so `hire` quotes `"I want to hire you."` (not
+`"You're hired."`) and its example reads `We need to hire two more nurses this month.` It is
+ours, the quote never is. Verbs are the other place the text is
+not a movie quote, because real lines that use a given past form of an arbitrary verb are too
+rare to require. There is no conjugation table on the card — that was tried and dropped.
 
 ## Status
 
@@ -72,6 +78,7 @@ Each entry in `src/<kind>.json` becomes one note:
 | `pronunciation` | `Pronunciation` |
 | `definition` | `Definition` |
 | `dialog`, `source` | `Dialog`, `Source` |
+| `example` | `Example` — a second authored sentence using the target, under the quote |
 | `speaker_gender` | picks the dialog voice (male/female) |
 | `present_example`, `past_simple_example`, `past_participle_example` | the three example rows under the quote (verbs only) |
 | `categories`, `level`, `pos` | `category::*`, `level::*`, `pos::*` tags |
@@ -85,6 +92,7 @@ media/voc_6a648cec.jpg
 media/voc_6a648cec-word.mp3
 media/voc_6a648cec-explanation.mp3
 media/voc_6a648cec-dialog.mp3
+media/voc_6a648cec-example.mp3
 media/voc_6a648cec-present-example.mp3        # verbs only
 media/voc_6a648cec-past-simple-example.mp3
 media/voc_6a648cec-past-participle-example.mp3
@@ -93,8 +101,8 @@ media/voc_6a648cec-past-participle-example.mp3
 The build **fails** rather than emitting a half-empty card: every text field must be
 present, the pronunciation must be IPA in slashes, a part of speech is required on every
 kind, there must be exactly one `level::` tag, at least one known `category::` tag, and the
-image plus every required mp3 must exist. A verb without all three example sentences fails
-too; a non-verb carrying them fails as well.
+image plus every required mp3 must exist. A missing authored example fails, a verb without
+all three form examples fails, and a non-verb carrying them fails as well.
 
 ## Importing into Anki
 
@@ -121,8 +129,8 @@ These are the ones that bite; the full reasoning is in `.okf/concepts/apkg-safet
   a broken image.
 - **A field-list change needs a new model id.** Anki compares schemas and treats a GUID
   match with a different note type as *conflicting*, leaving the old card untouched. The
-  model ids in this repo are on their **fourth** generation for exactly that reason (the
-  verb example fields are the latest field change).
+  model ids in this repo are on their **fifth** generation for exactly that reason (the
+  authored example is the latest field change).
 - **`BUILD_MOD` must be raised** whenever fields, templates or CSS change — note types only
   update when the incoming `mod` is newer.
 
