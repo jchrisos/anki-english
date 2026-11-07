@@ -34,10 +34,11 @@ Test builds are also isolated in Anki: their own pinned deck and model ids, thei
 prefix. Anki matches decks by name, note types by id and notes by GUID, so reusing any one
 of them would merge a rehearsal into the real deck.
 
-The build validates every note before writing: all text fields, exactly one `level::` tag,
-at least one known `category::` tag, and both the image and the mp3 present on disk. A
-failure is a build error, not a card with a blank panel. Verifying a package still means
-unzipping it and querying the bundled sqlite; there is no test suite yet.
+The build validates every note before writing: all text fields, a part of speech, exactly one
+`level::` tag, at least one known `category::` tag, and every image and mp3 present on disk.
+A verb also needs one example sentence for each form; a non-verb carrying those keys is
+rejected. A failure is a build error, not a card with a blank panel. Verifying a package
+still means unzipping it and querying the bundled sqlite; there is no test suite yet.
 
 **Two rules that bite on import, both learned the hard way:**
 
@@ -68,10 +69,11 @@ the same string cannot collide across kinds.
 
 Decided for v1: **one note type per kind** (three pinned model ids) with fields
 headword/phrase, pronunciation (General American IPA), definition, image, dialog, source and
-three audio fields (word, explanation, dialog). **Three decks, one per kind**, each built as
-its own package under `decks/` — `vocabulary.apkg`, `phrasal-verbs.apkg`,
-`collocations.apkg` — with pinned deck ids and flat names (no `English::` parent; a parent
-would be a different id, not a rename).
+three audio fields (word, explanation, dialog), plus a verb-only block: one example sentence
+per form (present, past, past participle) and three matching audio fields. **Three decks,
+one per kind**, each built as its own package under `decks/` — `vocabulary.apkg`,
+`phrasal-verbs.apkg`, `collocations.apkg` — with pinned deck ids and flat names (no
+`English::` parent; a parent would be a different id, not a rename).
 
 **Every card has an illustration and a quoted movie/TV line** as its example — there is no
 "make up a sentence" example field. Images are AI-generated and committed under `media/`;
@@ -80,6 +82,16 @@ would be a different id, not a rename).
 always the pinned female voice (`en-US-AvaNeural`); the dialog uses a male voice
 (`en-US-AndrewNeural`) when the character who says the line is a man, and the female voice
 when it is a woman. Rate is `-10%` throughout. It is never the film's audio.
+
+**A note whose part of speech is `verb` also gets a block of example sentences under the
+movie quote** — `Present`, `Past`, `Past participle`, each one labelled, spoken and shown on
+its own row. This is **all** the card shows about conjugation: there is deliberately no
+`wrote / written` table under the headword, which was tried and judged to read like a
+dictionary entry. The sentences are **authored, not quotes**: a real film line that happens
+to use `paid attention` or `fastened your seatbelt` in the past barely exists, and inventing
+a credit is worse than not having one. `pos` is therefore required on **all three kinds**
+(`tag:pos::verb` also gives a cross-deck verb filter), and a verb entry without the three
+example keys fails the build.
 
 **Every note — vocabulary, phrasal verb or collocation — carries one or more categories**
 (`color`, `car`, `travel`, `kitchen`, …) stored as `category::<slug>` **tags, never a

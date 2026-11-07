@@ -41,14 +41,19 @@ and the audio tool cannot disagree about what an entry is called.
    a row number or a timestamp, so rewording a definition cannot strand review history.
 3. **Images** — `media/<key>.jpg`, AI-generated, committed, an **input**: nothing is
    regenerated on a build. `prepare_media.py` only re-encodes what already exists.
-4. **Audio** — three files per entry, `media/<key>-{word,explanation,dialog}.mp3`. One
-   edge-tts call each, attribution and quotes stripped from the dialog. Word and
-   explanation use the pinned female voice; the dialog follows the character's gender.
-   Also an input; `build_audio.py` skips existing files unless `--force`.
+4. **Audio** — three files per entry, six for a verb:
+   `media/<key>-{word,explanation,dialog}.mp3` and, for verbs,
+   `media/<key>-present-example.mp3`, `-past-simple-example.mp3`,
+   `-past-participle-example.mp3`. One edge-tts call each, attribution and quotes stripped
+   from the dialog. Word, explanation and the example rows use the pinned female voice; the
+   dialog follows the character's gender. Also an input; `build_audio.py` skips existing
+   files unless `--force`.
 5. **Validation** — every note is rejected unless all text fields are non-empty, the
-   pronunciation is IPA in slashes, there is exactly one `level::` tag, at least one
-   `category::` tag from the controlled list, the phrase is unique within its kind, and
-   both media files exist. Missing media is the failure that does not announce itself.
+   pronunciation is IPA in slashes, a `pos::` tag is present, there is exactly one
+   `level::` tag, at least one `category::` tag from the controlled list, the phrase is
+   unique within its kind, and every required media file exists. A verb must also carry the
+   three form examples; a non-verb carrying them is rejected. Missing media is the failure
+   that does not announce itself.
 6. **Package assembly** — one deck and one note type per package, with the pinned deck id,
    model id and name; media registered in the package map by bare filename. With no notes
    the model is attached explicitly, otherwise Anki would create a deck with no note type.
