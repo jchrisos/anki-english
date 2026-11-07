@@ -19,11 +19,11 @@ import sys
 import edge_tts
 
 from deck_common import (
-    AUDIO_PARTS,
     GUID_PREFIX,
     RATE,
     Layout,
     audio_file,
+    audio_parts,
     layout,
     load_entries,
     media_key,
@@ -51,7 +51,7 @@ async def run(slugs: list[str], force: bool, test: bool) -> int:
         prefix = GUID_PREFIX[slug]
         for entry in load_entries(lay, slug):
             key = media_key(prefix, entry)
-            jobs.extend((entry, key, part) for part in AUDIO_PARTS)
+            jobs.extend((entry, key, part) for part in audio_parts(entry))
 
     async def guarded(entry: dict, key: str, part: str) -> str:
         async with semaphore:

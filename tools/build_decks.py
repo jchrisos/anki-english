@@ -38,16 +38,19 @@ import genanki
 from deck_common import (
     ALLOWED_CATEGORIES,
     ALLOWED_POS,
-    AUDIO_PARTS,
     GUID_PREFIX,
     LEVELS,
     REPO_ROOT,
     REQUIRED_TEXT_FIELDS,
     SPEAKER_GENDERS,
     TEST_GUID_PREFIX,
+    VERB_AUDIO_PARTS,
+    VERB_TEXT_KEYS,
     Layout,
     audio_file,
+    audio_parts,
     image_file,
+    is_verb,
     layout,
     load_entries,
     media_key,
@@ -60,7 +63,7 @@ from deck_common import (
 # value whenever the fields, templates or CSS change, or the new template never reaches a
 # collection that already has the note type — which is how a stale `<img src="{{Image}}">`
 # template survived a re-import and rendered the image tag as literal text.
-BUILD_MOD = 1795100000
+BUILD_MOD = 1796100000
 
 CSS = """\
 .card {
@@ -90,12 +93,58 @@ CSS = """\
 .image img { max-width: 100%; max-height: 320px; border-radius: 8px; }
 .dialog { font-style: italic; margin-top: 16px; }
 .source { color: #777; font-size: 15px; }
+.block-label {
+  display: block;
+  color: #777;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  margin: 0 0 2px;
+}
 .row { display: flex; align-items: center; justify-content: center; gap: 10px; margin: 0 auto 10px; max-width: 34em; }
 .row-text { flex: 0 1 auto; min-width: 0; }
 .row-audio { flex: 0 0 auto; }
 """
 
 FRONT_TEMPLATE = '<div class="headword">{{%(headword)s}}</div>\n'
+
+# One authored example per form, appended after the movie quote. The labels name the form the
+# sentence demonstrates; they are the only example rows on a card that are not quotes, and the
+# label keeps that visible. A non-verb note leaves the fields empty, so the `{{#...}}` sections
+# render nothing at all — no empty rows, no stray dividers.
+EXAMPLE_BLOCKS = """\
+{{#PresentExample}}
+<hr>
+<div class="row">
+  <div class="row-text">
+    <div class="block-label">Present</div>
+    <div class="dialog">{{PresentExample}}</div>
+  </div>
+  <div class="row-audio">{{AudioPresentExample}}</div>
+</div>
+{{/PresentExample}}
+{{#PastSimpleExample}}
+<hr>
+<div class="row">
+  <div class="row-text">
+    <div class="block-label">Past</div>
+    <div class="dialog">{{PastSimpleExample}}</div>
+  </div>
+  <div class="row-audio">{{AudioPastSimpleExample}}</div>
+</div>
+{{/PastSimpleExample}}
+{{#PastParticipleExample}}
+<hr>
+<div class="row">
+  <div class="row-text">
+    <div class="block-label">Past participle</div>
+    <div class="dialog">{{PastParticipleExample}}</div>
+  </div>
+  <div class="row-audio">{{AudioPastParticipleExample}}</div>
+</div>
+{{/PastParticipleExample}}
+"""
 
 BACK_TEMPLATE = """\
 <div class="row">
@@ -121,6 +170,7 @@ BACK_TEMPLATE = """\
   </div>
   <div class="row-audio">{{AudioDialog}}</div>
 </div>
+""" + EXAMPLE_BLOCKS + """\
 <script>
 // Part of speech and CEFR level are tags, not fields, so they are extracted at render time.
 // Tags arrive space-separated and the vocabulary is controlled (`level::a2`, `pos::verb`),
@@ -147,31 +197,31 @@ KINDS = (
         "slug": "vocabulary",
         "deck_id": 517813484872,
         "deck_name": "Vocabulary",
-        "model_id": 552622157608,
+        "model_id": 145594572691,
         "model_name": "English Vocabulary",
         "headword": "Word",
         "test_deck_id": 804850451889,
-        "test_model_id": 817309927966,
+        "test_model_id": 508936285996,
     },
     {
         "slug": "phrasal-verbs",
         "deck_id": 807523115129,
         "deck_name": "Phrasal Verbs",
-        "model_id": 726156055118,
+        "model_id": 143525141992,
         "model_name": "English Phrasal Verb",
         "headword": "Phrase",
         "test_deck_id": 567855487385,
-        "test_model_id": 618605022273,
+        "test_model_id": 703766918383,
     },
     {
         "slug": "collocations",
         "deck_id": 221110591407,
         "deck_name": "Collocations",
-        "model_id": 889236578191,
+        "model_id": 573397697437,
         "model_name": "English Collocation",
         "headword": "Phrase",
         "test_deck_id": 242142671948,
-        "test_model_id": 499896888196,
+        "test_model_id": 534902278227,
     },
 )
 
@@ -216,6 +266,15 @@ def build_model(kind: dict, ident: dict) -> genanki.Model:
             {"name": "Audio"},
             {"name": "AudioExplanation"},
             {"name": "AudioDialog"},
+            # Verb-only example block, appended so the first nine fields keep their order.
+            # Empty on every other part of speech, which is what the template's `{{#...}}`
+            # sections test.
+            {"name": "PresentExample"},
+            {"name": "PastSimpleExample"},
+            {"name": "PastParticipleExample"},
+            {"name": "AudioPresentExample"},
+            {"name": "AudioPastSimpleExample"},
+            {"name": "AudioPastParticipleExample"},
         ],
         templates=[
             {
@@ -252,7 +311,7 @@ class BuildError(Exception):
     """A note that must not reach a package: missing field, bad tag, missing media."""
 
 
-def validate(entry: dict, key: str, seen: set[str], slug: str, lay: Layout) -> None:
+def validate(entry: dict, key: str, seen: set[str], lay: Layout) -> None:
     """Reject an entry instead of emitting a card with a blank panel.
 
     Missing media is the failure that does not announce itself: Anki imports the note and
@@ -269,16 +328,26 @@ def validate(entry: dict, key: str, seen: set[str], slug: str, lay: Layout) -> N
         raise BuildError(f"{label}: level must be one of {', '.join(LEVELS)}, got {level!r}")
     pos = entry.get("pos")
     if pos is None:
-        # Vocabulary cards are the ones where the word class is not obvious from the deck.
-        if slug == "vocabulary":
-            raise BuildError(f"{label}: vocabulary needs a part of speech (pos)")
-    elif pos not in ALLOWED_POS:
+        # The word class is what decides whether the example rows are required, so every kind
+        # carries it — a phrasal verb is a verb, and a collocation's head word may be one.
+        raise BuildError(f"{label}: needs a part of speech (pos)")
+    if pos not in ALLOWED_POS:
         raise BuildError(f"{label}: unknown part of speech {pos!r}")
     gender = entry.get("speaker_gender")
     if gender not in SPEAKER_GENDERS:
         raise BuildError(
             f"{label}: speaker_gender must be one of {', '.join(SPEAKER_GENDERS)}, got {gender!r}"
         )
+    # A verb card teaches the verb, so its three example rows are part of the card, not an
+    # optional extra: a missing one would vanish silently with the rest of its section.
+    if is_verb(entry):
+        for field in VERB_TEXT_KEYS:
+            if not str(entry.get(field, "")).strip():
+                raise BuildError(f"{label}: verb needs {field}")
+    else:
+        stray = [f for f in VERB_TEXT_KEYS if entry.get(f)]
+        if stray:
+            raise BuildError(f"{label}: {pos} must not carry verb examples {stray}")
     categories = entry.get("categories") or []
     if not categories:
         raise BuildError(f"{label}: needs at least one category")
@@ -288,7 +357,7 @@ def validate(entry: dict, key: str, seen: set[str], slug: str, lay: Layout) -> N
     if entry["phrase"] in seen:
         raise BuildError(f"{label}: duplicate phrase within the kind")
     seen.add(entry["phrase"])
-    for path in [image_file(lay, key)] + [audio_file(lay, key, p) for p in AUDIO_PARTS]:
+    for path in [image_file(lay, key)] + [audio_file(lay, key, p) for p in audio_parts(entry)]:
         if not path.exists():
             raise BuildError(f"{label}: missing media file {path.name}")
 
@@ -320,10 +389,21 @@ def make_note(
             f"[sound:{audio_file(lay, key, 'word').name}]",
             f"[sound:{audio_file(lay, key, 'explanation').name}]",
             f"[sound:{audio_file(lay, key, 'dialog').name}]",
+            # Verb-only example rows; empty on other parts of speech, which is what the
+            # template's `{{#...}}` sections test.
+            *(
+                [
+                    entry["present_example"],
+                    entry["past_simple_example"],
+                    entry["past_participle_example"],
+                    *(f"[sound:{audio_file(lay, key, p).name}]" for p in VERB_AUDIO_PARTS),
+                ]
+                if is_verb(entry)
+                else [""] * 6
+            ),
         ],
         tags=[f"category::{c}" for c in entry["categories"]]
-        + [f"level::{entry['level']}"]
-        + ([f"pos::{entry['pos']}"] if entry.get("pos") else []),
+        + [f"level::{entry['level']}", f"pos::{entry['pos']}"],
         guid=guid,
     )
 
@@ -342,9 +422,9 @@ def build(kind: dict, test: bool, notes: bool) -> tuple[Path, dict, int]:
     seen: set[str] = set()
     for entry in entries:
         key = media_key(GUID_PREFIX[kind["slug"]], entry)
-        validate(entry, key, seen, kind["slug"], lay)
+        validate(entry, key, seen, lay)
         deck.add_note(make_note(kind, model, entry, test, lay))
-        media.extend([image_file(lay, key), *(audio_file(lay, key, p) for p in AUDIO_PARTS)])
+        media.extend([image_file(lay, key), *(audio_file(lay, key, p) for p in audio_parts(entry))])
 
     lay.out.mkdir(parents=True, exist_ok=True)
     path = lay.out / ident["filename"]

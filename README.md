@@ -7,7 +7,12 @@ committed images and audio.
 Every card carries: General American IPA, a part of speech, a CEFR level, a one-sentence
 definition, an AI-generated illustration, a quoted movie/TV line with attribution, three
 separate audio clips (word, explanation, dialog) and a set of `category::` tags for
-filtering.
+filtering. A **verb** card also carries one extra example sentence per form — `Present`,
+`Past`, `Past participle` — each shown and spoken on its own row under the movie quote.
+
+Verbs are the one place the examples are not movie quotes: real lines that use a given past
+form of an arbitrary verb are too rare to require, so those sentences are authored. There is
+no conjugation table on the card — that was tried and dropped.
 
 ## Status
 
@@ -68,6 +73,7 @@ Each entry in `src/<kind>.json` becomes one note:
 | `definition` | `Definition` |
 | `dialog`, `source` | `Dialog`, `Source` |
 | `speaker_gender` | picks the dialog voice (male/female) |
+| `present_example`, `past_simple_example`, `past_participle_example` | the three example rows under the quote (verbs only) |
 | `categories`, `level`, `pos` | `category::*`, `level::*`, `pos::*` tags |
 | `sense` | the stable half of the note GUID — never derived from the definition |
 | `image_brief` | authoring metadata for regenerating the illustration |
@@ -79,11 +85,16 @@ media/voc_6a648cec.jpg
 media/voc_6a648cec-word.mp3
 media/voc_6a648cec-explanation.mp3
 media/voc_6a648cec-dialog.mp3
+media/voc_6a648cec-present-example.mp3        # verbs only
+media/voc_6a648cec-past-simple-example.mp3
+media/voc_6a648cec-past-participle-example.mp3
 ```
 
 The build **fails** rather than emitting a half-empty card: every text field must be
-present, the pronunciation must be IPA in slashes, there must be exactly one `level::` tag,
-at least one known `category::` tag, and the image plus all three mp3s must exist.
+present, the pronunciation must be IPA in slashes, a part of speech is required on every
+kind, there must be exactly one `level::` tag, at least one known `category::` tag, and the
+image plus every required mp3 must exist. A verb without all three example sentences fails
+too; a non-verb carrying them fails as well.
 
 ## Importing into Anki
 
@@ -110,7 +121,8 @@ These are the ones that bite; the full reasoning is in `.okf/concepts/apkg-safet
   a broken image.
 - **A field-list change needs a new model id.** Anki compares schemas and treats a GUID
   match with a different note type as *conflicting*, leaving the old card untouched. The
-  model ids in this repo are on their second generation for exactly that reason.
+  model ids in this repo are on their **fourth** generation for exactly that reason (the
+  verb example fields are the latest field change).
 - **`BUILD_MOD` must be raised** whenever fields, templates or CSS change — note types only
   update when the incoming `mod` is newer.
 

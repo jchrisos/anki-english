@@ -9,6 +9,34 @@ status: active
 
 Newest entries first. ISO dates (`YYYY-MM-DD`).
 
+## 2026-11-06 — Verb form examples under the quote; the tense table dropped
+
+- Two requests in a row: show the past forms (`write` → `wrote`, `written`) and then the
+  present third-person form (`I have` → `she has`), each with an example. The first build was
+  a labelled table under the headword — present, past, past participle, each with its own
+  clip — and a screenshot of it drew "this is not necessary".
+- Removed: **the table**. `PresentSimple` / `PastSimple` / `PastParticiple` and their two
+  `-forms` clips are gone; the card never lists the forms, and the base form is the front
+  anyway.
+- Kept, as asked ("the dialogs must stay… only the block below the movie quote"): **one
+  example sentence per form**, rendered as three labelled rows under the quote —
+  `Present` / `Past` / `Past participle` — each with its own play button. They are the only
+  examples on a card that are not movie quotes, because no checkable film line uses an
+  arbitrary past form (`paid attention`, `fastened your seatbelt`) and inventing a credit is
+  worse than a plain sentence.
+- Net schema: **six** verb fields (`PresentExample`, `PastSimpleExample`,
+  `PastParticipleExample` + their three audio fields), 15 fields per model, six clips for a
+  verb instead of three. `pos` stays required on all three kinds because it is what decides
+  whether an entry owes the examples (`tag:pos::verb` also filters verbs across decks).
+- **New model ids (v4)** rather than reusing v3: v3 was the interim 20-field table, and a
+  build of it was imported while it existed. Anki will not carry a field change into an
+  already-imported note type, so the rehearsal `(test)` decks must be deleted before importing
+  the rebuilt packages; the unused v3 note types can be removed in Manage Note Types.
+  `BUILD_MOD` raised to `1796100000`.
+- Validation is unchanged in spirit: a verb without all three examples fails, a non-verb
+  carrying them fails, and a missing example mp3 fails. Test content extended for the 24
+  verb entries; 72 new mp3s generated.
+
 ## 2026-11-06 — Play buttons hug the text instead of the card edge
 
 - `.row-text` had `flex: 1 1 auto`, so it ate the free space and pushed each button to the

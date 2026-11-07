@@ -69,6 +69,18 @@ ALLOWED_CATEGORIES = frozenset(
 
 REQUIRED_TEXT_FIELDS = ("phrase", "sense", "pronunciation", "definition", "dialog", "source")
 
+# Extra text a **verb** carries: one short example sentence per form, shown as the block under
+# the movie quote. The sentences are authored, not quotes — a real film line that happens to
+# use `paid attention` or `fastened your seatbelt` in the past barely exists, and inventing a
+# credit is worse than not having one. Absent on every other part of speech, and required on
+# `pos::verb`, so a verb card cannot render an empty example row — the same fail-loud rule as
+# a missing image.
+VERB_TEXT_KEYS = (
+    "present_example",
+    "past_simple_example",
+    "past_participle_example",
+)
+
 # Prefix on the GUID of a test build. Deck/model ids and names already differ, but Anki
 # also matches notes by GUID, so a rehearsal must not share one with production.
 TEST_GUID_PREFIX = "test:"
@@ -113,6 +125,21 @@ def dialog_line(entry: dict) -> str:
 # movie line far more often than the definition, and one long clip makes that impossible.
 AUDIO_PARTS = ("word", "explanation", "dialog")
 
+# Verb-only clips: one per example row under the quote. Ordered after the base three so a
+# non-verb note keeps exactly the three files it always had.
+VERB_AUDIO_PARTS = ("present-example", "past-simple-example", "past-participle-example")
+
+
+def audio_parts(entry: dict) -> tuple[str, ...]:
+    """Every clip this entry needs: three, or six when it is a verb."""
+    return AUDIO_PARTS + VERB_AUDIO_PARTS if is_verb(entry) else AUDIO_PARTS
+
+
+def is_verb(entry: dict) -> bool:
+    """The tag decides, not the spelling: a noun sense of `run` is not a verb card."""
+    return entry.get("pos") == "verb"
+
+
 # Pinned voices. The word and the explanation are always the same woman; the dialog follows
 # the character who says the line, so a male character is not read by a female voice.
 VOICE_FEMALE = "en-US-AvaNeural"
@@ -127,10 +154,14 @@ def part_text(entry: dict, part: str) -> str:
         "word": entry["phrase"],
         "explanation": entry["definition"],
         "dialog": dialog_line(entry),
+        "present-example": entry["present_example"],
+        "past-simple-example": entry["past_simple_example"],
+        "past-participle-example": entry["past_participle_example"],
     }[part]
 
 
 def part_voice(entry: dict, part: str) -> str:
+    # Only the movie quote follows a character; the example rows belong to no one.
     if part == "dialog":
         return VOICE_MALE if entry["speaker_gender"] == "male" else VOICE_FEMALE
     return VOICE_FEMALE

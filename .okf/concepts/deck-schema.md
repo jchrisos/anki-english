@@ -1,7 +1,7 @@
 ---
 type: decision
 title: "v1 schema: one model and one deck per kind, media-rich cards"
-description: "Decided 2026-11-05: one note type and one deck per content kind with pinned ids; every note carries IPA, an AI-generated image, an attributed movie/TV dialog and a female-voice TTS mp3. Card templates and source format remain open."
+description: "Decided 2026-11-05, revised 2026-11-06: one note type and one deck per content kind with pinned ids; every note carries IPA, an AI-generated image, an attributed movie/TV dialog and female-voice TTS mp3s, and every verb adds three authored example sentences (present, past, past participle) under the quote. Card templates beyond front→back remain open."
 status: active
 verified:
   - by: "OpenCode session"
@@ -53,14 +53,20 @@ stale_after: "2027-05-05"
 
 | Model | Fields | Note |
 |---|---|---|
-| Vocabulary | `Word`, `Pronunciation`, `Definition`, `Image`, `Dialog`, `Source`, `Audio`, `AudioExplanation`, `AudioDialog` | homographs need a sense in the GUID, not extra fields |
-| Phrasal verb | `Phrase`, `Pronunciation`, `Definition`, `Image`, `Dialog`, `Source`, `Audio`, `AudioExplanation`, `AudioDialog` | phrase stored whole; particle splitting is deferred |
-| Collocation | `Phrase`, `Pronunciation`, `Definition`, `Image`, `Dialog`, `Source`, `Audio`, `AudioExplanation`, `AudioDialog` | same shape as phrasal verb, separate model so ids stay independent |
+| Vocabulary | `Word`, `Pronunciation`, `Definition`, `Image`, `Dialog`, `Source`, `Audio`, `AudioExplanation`, `AudioDialog`, `PresentExample`, `PastSimpleExample`, `PastParticipleExample`, `AudioPresentExample`, `AudioPastSimpleExample`, `AudioPastParticipleExample` | homographs need a sense in the GUID, not extra fields |
+| Phrasal verb | `Phrase`, `Pronunciation`, `Definition`, `Image`, `Dialog`, `Source`, `Audio`, `AudioExplanation`, `AudioDialog`, `PresentExample`, `PastSimpleExample`, `PastParticipleExample`, `AudioPresentExample`, `AudioPastSimpleExample`, `AudioPastParticipleExample` | phrase stored whole; particle splitting is deferred |
+| Collocation | `Phrase`, `Pronunciation`, `Definition`, `Image`, `Dialog`, `Source`, `Audio`, `AudioExplanation`, `AudioDialog`, `PresentExample`, `PastSimpleExample`, `PastParticipleExample`, `AudioPresentExample`, `AudioPastSimpleExample`, `AudioPastParticipleExample` | same shape as phrasal verb, separate model so ids stay independent |
 
 The three audio fields are one clip each — `Audio` is the **word** clip (the name predates
 the split; renaming a field is destructive, so it stayed), `AudioExplanation` and
 `AudioDialog` follow. Separate fields are what let the template put each player directly
-under the text it reads instead of stacking all three at the bottom.
+under the text it reads instead of stacking all three at the bottom. The same pattern
+repeats for a verb: each of the three example rows has its own text and audio field.
+
+The last six fields are the **verb-only example block**, appended at the end so the first
+nine keep their order. They are empty on a non-verb note, and the template's
+`{{#PresentExample}}` / `{{#PastSimpleExample}}` / `{{#PastParticipleExample}}` sections then
+render nothing at all — no empty rows, no stray dividers.
 
 Field **order** is part of the pinned schema too: it drives the editor layout and the
 `{{Field}}` references, and reordering a field list is as destructive as renaming one.
@@ -88,9 +94,15 @@ field list is unchanged, and splitting the clip into three parts cost nothing ei
 - `Dialog` — the quoted line(s), attributed to a speaker inside the text (e.g.
   `"I'll be there for you." — Rachel`). One or two short lines; no scene description.
 - `Source` — title plus episode (`Friends, S01E01`), and a timestamp only if it is known.
+- `PresentExample` / `PastSimpleExample` / `PastParticipleExample` — **one short authored
+  sentence per form**, shown as a labelled row under the movie quote: `She has coffee with
+  breakfast every day.` / `We had pizza at the new place downtown.` / `I have had the same
+  breakfast all week.` Verbs only; the only non-quoted examples on a card.
 - `Audio` — three `[sound:<key>-<part>.mp3]` references, one per line and each labelled on
   the card: `word`, `explanation`, `dialog`. Bare filenames, no paths (Anki resolves them
   from the media map). Synthesized, never the film's audio.
+- `AudioPresentExample` / `AudioPastSimpleExample` / `AudioPastParticipleExample` — the same
+  `[sound:]` shape, one per example row; verbs only.
 
 ## Categories (all kinds)
 
@@ -154,10 +166,10 @@ so the deck can be studied by difficulty: `level::a1`, `level::a2`, `level::b1`,
   no model change. Categories stay undisplayed; only the level is worth seeing while
   reviewing.
 
-## Part of speech (vocabulary)
+## Part of speech (all kinds)
 
-Every vocabulary note carries **one part of speech for the sense being taught**, shown on
-the card directly under the pronunciation (`noun`, `verb`, `adverb`, …).
+Every note carries **one part of speech for the sense being taught**, shown on the card
+directly under the pronunciation (`noun`, `verb`, `adverb`, …).
 
 - **A tag, not a field:** `pos::verb`. Single-valued, filterable (`tag:pos::verb`), and it
   costs no model change — the same reasoning that put level and categories in tags.
@@ -166,43 +178,74 @@ the card directly under the pronunciation (`noun`, `verb`, `adverb`, …).
 - **Controlled list:** `noun`, `verb`, `adjective`, `adverb`, `pronoun`, `preposition`,
   `conjunction`, `interjection`, `determiner`, `numeral`, `modal-verb`, `auxiliary-verb`.
   A typo would silently produce a card with no word class, so the build rejects unknown
-  values and requires one on every vocabulary entry.
+  values and requires one on every entry of every kind.
 - **The sense decides it, not the spelling.** `run` here is a verb because the note teaches
   "move fast on foot"; a noun sense of `run` is a different entry with a different sense
   slug and its own `pos::noun`.
-- Phrasal verbs and collocations do not carry it yet: their kind already implies the shape.
-  Adding it later is a tag, so it stays free.
+- **It now rules the schema, not just the display.** `pos::verb` is what requires the example
+  block: a phrasal verb is a verb by nature, and a collocation's head word may be one
+  (`make a mistake` → verb, `heavy rain` → noun). This is why `pos` moved from
+  vocabulary-only to every kind.
 - **Display:** the card template extracts `pos::` from `{{Tags}}` with JS, exactly like the
   level badge; the line hides itself when the tag is absent.
 
+## Form examples (verbs)
+
+A note with `pos::verb` carries **three extra example sentences**, one per grammatical form:
+`Present` (`She runs every morning before work.`), `Past` (`She ran to catch the bus.`) and
+`Past participle` (`He has run this route many times.`). They render as three labelled rows
+**under the movie quote**, each with its own play button.
+
+- **Under the quote, not under the headword.** A `wrote / written` table under the word was
+  built first and dropped: it read like a dictionary entry on the back of a flashcard. The
+  example rows are the part that earned its space, so they are the whole feature.
+- **Authored sentences, not quotes.** A real film line that uses `paid attention`,
+  `fastened your seatbelt` or `had a problem` in the past barely exists; requiring one would
+  either block the entry or invite a fabricated credit. The label says which form the
+  sentence demonstrates, so nothing pretends to be a quote. This is the only place on a card
+  where the example is not a movie line (see [Dialog rules](#dialog-rules)).
+- **The forms themselves are not shown.** The learner infers them from the sentences; the
+  base form is the front of the card. Adding the tense table back would mean new fields and
+  a new model id.
+- **Required, not optional.** A verb entry without any of the three keys fails the build, and
+  a non-verb carrying them fails too — the second rule catches a copy-pasted block that
+  would otherwise print `Present` on a noun.
+- **Three more clips**: `-present-example`, `-past-simple-example`,
+  `-past-participle-example`, all on the pinned female voice because no character says them.
+
 **Card order on the back:** three flex rows, each with its text and its play button side by
 side, the pair centred — headword (with pronunciation, word class and level, level last) + ▶
-word, definition + ▶ explanation, quote + source + ▶ dialog. The button hugs the text rather
-than sitting at the card edge, and the text is allowed to shrink so a long definition still
-wraps. The rows are separated by the same plain `<hr>` — no custom CSS, so they match the
-`#answer` rule by construction. The back renders the headword itself instead of
+word, definition + ▶ explanation, quote + source + ▶ dialog — then, for a verb, the three
+labelled example rows, each with its own play button. The button hugs the text rather than
+sitting at the card edge, and the text is allowed to shrink so a long definition still
+wraps. Everything is separated by the same plain `<hr>` — no custom CSS, so the dividers
+match the `#answer` rule by construction. The back renders the headword itself instead of
 `{{FrontSide}}`, because the button has to sit beside it in the same row.
 
 ## Audio rules
 
 Audio is generated with **edge-tts** (installed 7.3.1, `en-US` neural voices) at `--rate=-10%`.
 
-- **Three clips per note, never one.** `word`, `explanation`, `dialog` — a learner replays
-  the movie line far more often than the definition, and a single combined clip makes that
-  impossible. Each lives in its own field (`Audio`, `AudioExplanation`, `AudioDialog`) and
-  renders as a bare play button under its text — no labels, no stack of players at the
-  bottom. The dialog player is the exception: it sits **after** the source line, at the foot
-  of the card, so the quote and its attribution stay together.
+- **Three clips per note, never one** — six for a verb. `word`, `explanation`, `dialog`
+  plus `present-example`, `past-simple-example`, `past-participle-example`. A learner
+  replays the movie line far more often than the definition, and one long clip makes that
+  impossible. Each lives in its own field (`Audio`, `AudioExplanation`, `AudioDialog`,
+  `AudioPresentExample`, `AudioPastSimpleExample`, `AudioPastParticipleExample`) and renders
+  as a bare play button under its text — no labels, no stack of players at the bottom. The
+  dialog player is the exception: it sits **after** the source line, so the quote and its
+  attribution stay together.
 - **Voices are pinned constants, and gender-aware:** `en-US-AvaNeural` (female, US,
-  conversational) reads the word and the explanation **always**; `en-US-AndrewNeural` (male,
-  US, conversational) reads the dialog **only when the character who says the line is a
-  man**. A female character keeps the female voice. Never `en-US-AnaNeural` — child voice.
+  conversational) reads the word, the explanation and the three example rows **always**;
+  `en-US-AndrewNeural` (male, US, conversational) reads the dialog **only when the
+  character who says the line is a man**. A female character keeps the female voice. Never
+  `en-US-AnaNeural` — child voice.
 - **`speaker_gender` is authored data**, not inferred from the speaker's name: it is a
   required field in `src/<kind>.json` (`female` / `male`) and the build rejects anything
   else. Guessing from names breaks on `Alfred`, `Lilo`, `Miracle Max`.
 - **One file per part**, named from the same content key as the image
-  (`<key>-word.mp3`, `<key>-explanation.mp3`, `<key>-dialog.mp3`), so a note's four media
-  artifacts share one stem.
+  (`<key>-word.mp3`, `<key>-explanation.mp3`, `<key>-dialog.mp3`, and for verbs
+  `<key>-present-example.mp3`, `<key>-past-simple-example.mp3`,
+  `<key>-past-participle-example.mp3`), so a note's media artifacts share one stem.
 - **Strip what must not be spoken:** the speaker attribution after the last `—` (or ` - `)
   in `Dialog`, the surrounding quotation marks, and any `[sound:]`/HTML markup. A card
   whose definition contains symbols, parentheses or slashes needs the spoken version
@@ -246,9 +289,9 @@ Three decks, one per kind, each in its own package:
 
 | Kind | Deck name | Deck id | Model id | Output file |
 |---|---|---|---|---|
-| Vocabulary | `Vocabulary` | `517813484872` | `552622157608` | `decks/vocabulary.apkg` |
-| Phrasal verb | `Phrasal Verbs` | `807523115129` | `726156055118` | `decks/phrasal-verbs.apkg` |
-| Collocation | `Collocations` | `221110591407` | `889236578191` | `decks/collocations.apkg` |
+| Vocabulary | `Vocabulary` | `517813484872` | `145594572691` | `decks/vocabulary.apkg` |
+| Phrasal verb | `Phrasal Verbs` | `807523115129` | `143525141992` | `decks/phrasal-verbs.apkg` |
+| Collocation | `Collocations` | `221110591407` | `573397697437` | `decks/collocations.apkg` |
 
 Test builds (`--test`) get a **second, fully separate identity** so a rehearsal can never
 touch the real deck — different ids *and* different names, because Anki matches decks by
@@ -256,9 +299,9 @@ name and note types by id:
 
 | Kind | Test deck name | Test deck id | Test model id | Output file |
 |---|---|---|---|---|
-| Vocabulary | `Vocabulary (test)` | `804850451889` | `817309927966` | `tests/decks/vocabulary-test.apkg` |
-| Phrasal verb | `Phrasal Verbs (test)` | `567855487385` | `618605022273` | `tests/decks/phrasal-verbs-test.apkg` |
-| Collocation | `Collocations (test)` | `242142671948` | `499896888196` | `tests/decks/collocations-test.apkg` |
+| Vocabulary | `Vocabulary (test)` | `804850451889` | `508936285996` | `tests/decks/vocabulary-test.apkg` |
+| Phrasal verb | `Phrasal Verbs (test)` | `567855487385` | `703766918383` | `tests/decks/phrasal-verbs-test.apkg` |
+| Collocation | `Collocations (test)` | `242142671948` | `534902278227` | `tests/decks/collocations-test.apkg` |
 
 Test ids were derived once from `sha1("anki-english:test:deck:<slug>")` /
 `sha1("anki-english:test:model:<slug>")` and pinned like the production ones. The `(test)`
@@ -271,11 +314,12 @@ suffix on both names is the load-bearing part: ids alone would not stop the merg
   `sha1("anki-english:deck:<name>")` / `sha1("anki-english:model:<name>")` and are now
   recorded here. Never recompute them at runtime and never derive them from time or
   randomness — that is what produces a duplicate deck on every import.
-- **The model ids are on their second generation** (`sha1("anki-english:v2:model:<kind>")`)
-  because adding the two extra audio fields changed the field list. That is not a cosmetic
-  bump: Anki's importer compares schemas and treats a GUID match with a different schema as
-  a **conflict**, leaving the existing note untouched. A new id is the only way to carry a
-  field change into a collection that already has the old note type.
+- **The model ids are on their fourth generation** (`sha1("anki-english:v4:model:<kind>")`)
+  because the verb example fields changed the field list — v2 came with the two extra audio
+  fields, and v3 was an interim conjugation table that shipped no further. That is not a
+  cosmetic bump: Anki's importer compares schemas and treats a GUID match with a different
+  schema as a **conflict**, leaving the existing note untouched. A new id is the only way to
+  carry a field change into a collection that already has the old note type.
 - **Flat names, no `English::` parent deck.** Anki matches an incoming deck by **name**, so
   a new name creates a parallel deck rather than grouping the existing one; the pinned id
   is what a fresh collection receives. Decide the hierarchy now, while no notes exist.
@@ -321,6 +365,8 @@ slug; JSON holds all three without inventing a delimiter or an escape rule.
 | `definition` | `Definition` | one sentence |
 | `dialog` | `Dialog` | quoted line plus `— Speaker` attribution |
 | `source` | `Source` | title, plus episode when known |
+| `pos` | `pos::*` tag | part of speech, required on all three kinds |
+| `present_example`, `past_simple_example`, `past_participle_example` | `PresentExample`, `PastSimpleExample`, `PastParticipleExample` | verbs only; one authored sentence per form |
 | `categories` | `category::*` tags | 1–3 slugs from the controlled list |
 | `level` | `level::*` tag | exactly one |
 | `image_brief` | — | authoring metadata for regenerating the illustration |
@@ -356,18 +402,24 @@ when audio was requested, the schema did not move.
   `PV_DECK_ID`, `COL_DECK_ID`, and the three output paths — literals from the table above,
   never derived at runtime.
 - TTS constants live there too: `EDGE_VOICE = "en-US-AvaNeural"`, `EDGE_RATE = "-10%"`, and
-  the segment order (target → definition → dialog). Changing the voice is a one-line edit
-  and a regeneration of media, not a schema change.
+  the segment order (target → definition → dialog, then the verb's three examples). Changing
+  the voice is a one-line edit and a regeneration of media, not a schema change.
 - GUIDs are `voc:` / `pv:` / `col:` + normalized phrase + an **explicit sense-key slug**
   (`voc:have:eat-or-drink`), and all media filenames (`<key>.jpg`, `<key>-word.mp3`,
-  `<key>-explanation.mp3`, `<key>-dialog.mp3`) derive from the same key. The slug is
-  authored, never derived from `Definition` — see
-  [incremental updates](incremental-updates.md) for why that rule is load-bearing.
+  `<key>-explanation.mp3`, `<key>-dialog.mp3`, plus the verb parts
+  `<key>-present-example.mp3`, `<key>-past-simple-example.mp3`,
+  `<key>-past-participle-example.mp3`) derive from the same key. The slug is authored, never
+  derived from `Definition` — see [incremental updates](incremental-updates.md) for why that
+  rule is load-bearing.
 - The package now always has a media map: build it from the referenced images and mp3s,
   verify it, and fail generation if a note is missing either, or if `Audio` is empty.
 - Every note must carry at least one `category::<slug>` tag, and every slug must be in
   the allowed list. Enforce this at build time; a category typo silently empties a
   filtered deck rather than failing.
+- Every note needs a `pos::` tag from the controlled list — the build rejects a missing or
+  unknown word class, because it decides whether the example block is required.
+- Every `pos::verb` note needs all three example sentences; a non-verb carrying them is
+  rejected, so a copy-pasted block cannot print `Present` on a noun.
 - Every note needs the full field set, `Pronunciation` included: reject a note with an
   empty pronunciation rather than letting the card render with a blank line.
 - Every note needs exactly one `level::a1`…`level::c2` tag; reject zero levels and reject
