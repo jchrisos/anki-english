@@ -11,15 +11,16 @@ Newest entries first. ISO dates (`YYYY-MM-DD`).
 
 ## 2026-11-08 — Image briefs come from the definition, not the example
 
-- User: "the image brief must be based on definition instead of example." The rule was already
-  written that way, but eight test briefs had leaked props from their authored example —
-  `run` carried a shopping bag, `road` a post-storm sky, `back` the office from the example,
-  `hire` a uniform, `boat` the lake, `make a mistake` the paper form, `have fun` the party and
-  `have a problem` the hotel booking.
-- All eight were rewritten from the definition alone (`run` → the act of moving faster than a
-  walk; `have a problem` → a washing machine flooding the floor) and `make an offer` lost a
-  stray "flat" that echoed the example's flat/apartment. The other 22 briefs already read
-  from their definitions and were left alone.
+- User: "the image brief must be based on definition instead of example." Eight test briefs had
+  leaked props from their authored example — `run` carried a shopping bag, `road` a
+  post-storm sky, `back` the office from the example, `hire` a uniform, `boat` the lake,
+  `make a mistake` the paper form, `have fun` the party and `have a problem` the hotel
+  booking — and `make an offer` echoed the example's flat with the word "flat".
+- On request, **all 30 briefs were then re-authored from the definition alone**: the scene now
+  illustrates what the definition says (showing the object or action the phrase names), with
+  the example's props and situations written out (`have a problem` → a washing machine
+  flooding the floor, not a hotel booking; `run` → the act of moving faster than a walk, not
+  running an errand).
 - The rule is now stated as **definition-only**: the phrase fixes what must be visible and the
   sense slug picks the meaning, but the definition is the only scene source. Docs, README and
   the teacher agent say so.
