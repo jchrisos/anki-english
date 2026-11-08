@@ -32,15 +32,15 @@ and the audio tool cannot disagree about what an entry is called.
 
 1. **Source** — `src/<kind>.json`, one array per kind, one object per entry: `phrase`,
    `sense`, `pronunciation`, `definition`, `dialog`, `source`, `categories`, `level`, and
-   `image_brief` (authoring metadata, never written to the note). JSON because it is the
+   `image_brief` (a paste-ready Midjourney prompt, never written to the note). JSON because it is the
    one format that holds nested category lists and multi-line quotes without a delimiter
    argument.
 2. **Identity** — `media_key()` = `f"{prefix}_{sha1(prefix:phrase:sense)[:8]}"`, with
    prefix `voc` / `pv` / `col`. The GUID is `prefix:phrase:sense`, prefixed `test:` for a
    test build. Both derive from the *authored sense slug*, never from the definition text,
    a row number or a timestamp, so rewording a definition cannot strand review history.
-3. **Images** — `media/<key>.jpg`, AI-generated, committed, an **input**: nothing is
-   regenerated on a build. `prepare_media.py` only re-encodes what already exists.
+3. **Images** — `media/<key>.jpg`, rendered in Midjourney outside the repo, committed, an
+   **input**: the project writes the prompt but never the picture, and nothing is regenerated on a build. `prepare_media.py` only re-encodes what already exists.
 4. **Audio** — four files per entry, seven for a verb:
    `media/<key>-{word,explanation,dialog,example}.mp3` and, for verbs,
    `media/<key>-present-example.mp3`, `-past-simple-example.mp3`,
@@ -77,8 +77,8 @@ and the audio tool cannot disagree about what an entry is called.
 
 ## Not automated, on purpose
 
-- **Image generation.** Not deterministic and not free, so it stays an explicit action that
-  writes into `media/`, never a build step.
+- **Image generation.** Not deterministic, not free, and outside this repo's scope, so it
+  happens by hand before a build and writes into `media/`. It is never a build step.
 - **Importing into Anki.** There is no `anki` binary on `PATH` and no AnkiConnect; the
   user imports the `.apkg` by hand.
 - **Delta builds.** Every build is a full rebuild; Anki merges by GUID on import.

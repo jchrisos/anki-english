@@ -9,6 +9,19 @@ status: active
 
 Newest entries first. ISO dates (`YYYY-MM-DD`).
 
+## 2026-11-08 — Briefs are Midjourney prompts; images are rendered outside the repo
+
+- User: "the project still generate image brief for midjourney, the project itself does not
+  generate image." So the boundary is the picture, not the prompt: `image_brief` **is** a
+  paste-ready Midjourney prompt (shared `--ar 3:2 --raw --s 50 --v 8.2 --no …` block), authored
+  here from `phrase`, `sense` and `definition` and never written to the note.
+- The image it produces is an **input**: rendered in Midjourney by hand, committed under
+  `media/`, read by the build. Nothing in `tools/` renders, upscales or calls an image model, no
+  image service or MCP is part of the toolchain (the short-lived Draw Things MCP was removed),
+  and a missing image is a build error.
+- Art direction (camera position, distance, people count, no rendered text) lives in the prompt
+  rules; `prepare_media.py` only re-encodes files that already exist.
+
 ## 2026-11-07 — Every quote gets a second authored example sentence
 
 - User: "sometimes the movie quote is too short — always add a second authored phrase below

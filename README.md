@@ -5,7 +5,7 @@ Generate Anki flashcard decks (`.apkg`) for English study across three content k
 committed images and audio.
 
 Every card carries: General American IPA, a part of speech, a CEFR level, a one-sentence
-definition, an AI-generated illustration, a quoted movie/TV line with attribution, a second
+definition, a committed illustration, a quoted movie/TV line with attribution, a second
 authored example sentence, four separate audio clips (word, explanation, dialog, example) and
 a set of `category::` tags for filtering. A **verb** card also carries one example sentence
 per form — `Present`, `Past`, `Past participle` — each shown and spoken on its own row under
@@ -59,7 +59,7 @@ tests/            the whole test tree — gitignored
 tools/
   build_decks.py    validate, assemble and pack the decks
   build_audio.py    edge-tts clips, three per note
-  prepare_media.py  downsize generated images
+  prepare_media.py  normalize committed images to 900px JPEG
   deck_common.py    identity rules shared by all of the above
 .okf/             design rationale, schema, decision log (start at .okf/index.md)
 AGENTS.md         operating notes for agents working in this repo
@@ -83,7 +83,7 @@ Each entry in `src/<kind>.json` becomes one note:
 | `present_example`, `past_simple_example`, `past_participle_example` | the three example rows under the quote (verbs only) |
 | `categories`, `level`, `pos` | `category::*`, `level::*`, `pos::*` tags |
 | `sense` | the stable half of the note GUID — never derived from the definition |
-| `image_brief` | authoring metadata for regenerating the illustration |
+| `image_brief` | the Midjourney prompt for the illustration — rendered outside the repo, never written to the note |
 
 Media filenames come from the phrase and sense, so they cannot drift:
 

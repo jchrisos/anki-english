@@ -26,15 +26,15 @@ Content lives in `src/<kind>.json` (one array per kind) and is included **only**
 `--notes`; a plain build still ships empty packages. Media lives in `media/`, named from the
 entry's key (`voc_6a648cec.jpg`), and is an input: nothing regenerates art on a plain build.
 
-**Art is made in Midjourney from the entry's `image_brief`.** Each brief is a finished,
-paste-ready `/imagine` prompt: a compressed scene description, then the shared parameter block
-`--ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated,
-HDR`. V8.2 is the default model and spells raw mode `--raw`; `--style raw` belongs to V7 only.
-`--s 50` and `--raw` keep the render literal and photographic instead of Midjourney's glossy
-house look, and `--no` replaces the separate negative prompt. Render at 3:2, save the PNG under
-`media/` (or `tests/media/`) named from the entry key, and let `tools/prepare_media.py` derive
-the 900px JPEG the deck wants. The prompts draw on the **phrase, sense and definition**, never
-the movie quote or the authored example.
+**The project writes image briefs; it does not render the images.** Every entry's `image_brief`
+is a finished, paste-ready Midjourney prompt: a compressed scene description, then the shared
+parameter block `--ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile,
+oversaturated, HDR`. V8.2 is the default model and spells raw mode `--raw`; `--style raw` belongs
+to V7 only. `--s 50` and `--raw` keep the render literal and photographic instead of Midjourney's
+glossy house look, and `--no` replaces the separate negative prompt. Rendering happens outside
+the repo: the PNG is made in Midjourney, committed under `media/` (or `tests/media/`) named from
+the entry key, and `tools/prepare_media.py` derives the 900px JPEG. Nothing in `tools/` renders,
+upscales or calls an image model, and a missing image is a build error.
 
 **Prompts are written like a documentary shot, not a stock portrait.** Each one names the camera
 position (`from behind`, `from the side`, `from across the room`, `low angle`, `over the
@@ -130,9 +130,8 @@ Draw the sense, and make the target the subject of the frame:
 The `image_brief` is rewritten when the sense or the definition changes, not when a quote or an
 example is swapped.
 
-Images are committed under `media/` and are **rendered in Midjourney from the `image_brief`** —
-never with a stock photo or another generator, and never committed without being produced that
-way. **Audio is synthesized with edge-tts** in four
+Images are committed under `media/` and are **inputs** — the project writes the prompt, never the
+picture. **Audio is synthesized with edge-tts** in four
 separate clips per note — `-word`, `-explanation`, `-dialog`, `-example` — so each part can be
 replayed on its own. Word, explanation and the authored example are always the pinned female
 voice (`en-US-AvaNeural`); the dialog uses a male voice (`en-US-AndrewNeural`) when the
@@ -165,8 +164,8 @@ it invalidates existing notes.
 decks (definitions, General American pronunciation, register, pt-BR interference, dialog
 quotes with attribution, image briefs). It has no shell access and asks before editing,
 and it does not touch schema, model/deck ids, GUIDs or `.apkg` packaging — launch it for
-wording, not for build work. It writes **image briefs**, never images: rendering happens in
-Midjourney, which the agent cannot reach.
+wording, not for build work. It writes the **Midjourney prompts**, never the images: rendering
+happens outside the repo.
 
 ## Verified local environment (macOS, this machine)
 
