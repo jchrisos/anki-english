@@ -79,7 +79,7 @@ Each entry in `src/<kind>.json` becomes one note:
 | `present_example`, `present_participle_example`, `past_simple_example`, `past_participle_example` | the four example rows under the authored example, in card order (verbs only) |
 | `categories`, `level`, `pos` | `category::*`, `level::*`, `pos::*` tags |
 | `sense` | the stable half of the note GUID — never derived from the definition |
-| `image_brief` | the Midjourney prompt for the illustration — rendered outside the repo, never written to the note |
+| `image_brief` | the Midjourney prompt for the illustration, derived from `definition` (never `example`) and rendered outside the repo, never written to the note |
 
 Media filenames come from the phrase and sense, so they cannot drift:
 

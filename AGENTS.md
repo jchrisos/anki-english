@@ -112,12 +112,12 @@ span is authored, not derived: the sentence inflects (`runs`, `ran`, `running`) 
 separates the particles, so the build cannot find the target on its own. A missing or
 unbalanced marker pair is a build error.
 
-**The illustration is built from `phrase`, `sense` and `definition` — never the example.**
-The three fields are the whole brief: the phrase fixes what must be visible, the
-sense slug fixes which meaning of it, and the definition says what that meaning is, so the
-picture and the back of the card agree. The example is one sentence about the item, not a
-definition of it, so it is not allowed to steer the art — it drifts away from the sense
-(`hire` drawn from a ward corridor says "understaffed", not "give someone a job").
+**The illustration is built from the `definition` — never the authored example.** The phrase
+fixes what object must be visible and the sense slug fixes which meaning of it, but the
+definition is the only scene source: it says what that meaning is, so the picture and the
+back of the card agree. The example is one sentence about the item, not a definition of it,
+and it drifts away from the sense (`hire` drawn from a ward corridor says "understaffed", not
+"give someone a job"), so it is never allowed to steer the art.
 
 Draw the sense, and make the target the subject of the frame:
 
@@ -130,8 +130,8 @@ Draw the sense, and make the target the subject of the frame:
 - **abstract noun or adverb** (`truth`, `back`) — show the one situation the definition describes
   and nothing else (the plain telling of what happened; the return to the place you came from).
 
-The `image_brief` is rewritten when the sense or the definition changes, not when an example is
-swapped.
+The `image_brief` is rewritten when the definition or the sense changes, never because an
+example was swapped.
 
 Images are committed under `media/` and are **inputs** — the project writes the prompt, never the
 picture. **Audio is synthesized with edge-tts** in three

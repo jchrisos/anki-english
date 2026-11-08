@@ -289,6 +289,10 @@ Audio is generated with **edge-tts** (installed 7.3.1, `en-US` neural voices) at
 - One image per note, showing the sense concretely. No text, logos, or captions baked
   into the image: AI-rendered lettering is unreliable, and on the back of a word card the
   meaning is already spelled out by `Definition`.
+- The `image_brief` is derived from the **`Definition`** (the phrase fixes what must be
+  visible; the sense slug picks the meaning) and never from the authored `Example`, which
+  drifts into a different situation. It is authoring metadata for a re-render, not a card
+  field.
 - Images are committed, not regenerated at build time. Regenerating would break the
   "same input, same output" rule because image models are not deterministic; the media
   folder is therefore an **input** to generation, and only missing files are generated.
