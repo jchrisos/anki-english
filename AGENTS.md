@@ -92,29 +92,32 @@ single token or a row index — and GUIDs are prefixed per kind (`voc:`/`pv:`/`c
 the same string cannot collide across kinds.
 
 Decided for v1: **one note type per kind** (three pinned model ids) with fields
-headword/phrase, pronunciation (General American IPA), definition, image, dialog, source,
-example and four audio fields (word, explanation, dialog, example), plus a verb-only block:
-one example sentence per form (present, past, past participle) and three matching audio
+headword/phrase, pronunciation (General American IPA), definition, image, example and three
+audio fields (word, explanation, example), plus a verb-only block:
+one example sentence per form (present, present participle, past, past participle) and four matching audio
 fields. **Three decks, one per kind**, each built as its own package under `decks/` —
 `vocabulary.apkg`, `phrasal-verbs.apkg`, `collocations.apkg` — with pinned deck ids and flat
 names (no `English::` parent; a parent would be a different id, not a rename).
 
-**Every card has an illustration, a quoted movie/TV line and a second authored example
-sentence under it.** The quote is the example and is never invented; the authored line is
-ours and exists because a short quote ("Round up the usual suspects.") shows the target in one
-situation only, so every note adds one full everyday sentence that uses it. **Both the quote
-and the authored sentence must show the target in the entry's own form** — the base form on
-the front: `hire` quotes `"I want to hire you."`, never `"You're hired."`, and the example
-says `We need to hire two more nurses this month.` The other tenses are what the verb's form
-rows are for.
+**Every card has an illustration and one authored example sentence.** The example is ours —
+the only usage evidence on the card — and it exists because the definition names the sense
+rather than showing it in use. **It must show the target in the entry's own form** — the base
+form on the front: `hire` says `We need to hire two more nurses this month.`, never
+`You're hired.` The other tenses are what the verb's form rows are for.
 
-**The illustration is built from `phrase`, `sense` and `definition` — never the quote, never the
-example.** The three fields are the whole brief: the phrase fixes what must be visible, the
+**The target is bold in every authored example.** The author wraps it in `**...**` (one pair,
+or two when a phrasal verb splits: `Never **leave** a teammate **behind**.`), and the build
+turns that into `<b>` for the card and strips the markers before TTS reads the sentence. The
+span is authored, not derived: the sentence inflects (`runs`, `ran`, `running`) and sometimes
+separates the particles, so the build cannot find the target on its own. A missing or
+unbalanced marker pair is a build error.
+
+**The illustration is built from `phrase`, `sense` and `definition` — never the example.**
+The three fields are the whole brief: the phrase fixes what must be visible, the
 sense slug fixes which meaning of it, and the definition says what that meaning is, so the
-picture and the back of the card agree. The quote belongs to a film, so its scene is that
-film's story; the example is one sentence about the item, not a definition of it. Neither is
-allowed to steer the art, because both drift away from the sense (`hire` drawn from a ward
-corridor says "understaffed", not "give someone a job").
+picture and the back of the card agree. The example is one sentence about the item, not a
+definition of it, so it is not allowed to steer the art — it drifts away from the sense
+(`hire` drawn from a ward corridor says "understaffed", not "give someone a job").
 
 Draw the sense, and make the target the subject of the frame:
 
@@ -127,25 +130,24 @@ Draw the sense, and make the target the subject of the frame:
 - **abstract noun or adverb** (`truth`, `back`) — show the one situation the definition describes
   and nothing else (the plain telling of what happened; the return to the place you came from).
 
-The `image_brief` is rewritten when the sense or the definition changes, not when a quote or an
-example is swapped.
+The `image_brief` is rewritten when the sense or the definition changes, not when an example is
+swapped.
 
 Images are committed under `media/` and are **inputs** — the project writes the prompt, never the
-picture. **Audio is synthesized with edge-tts** in four
-separate clips per note — `-word`, `-explanation`, `-dialog`, `-example` — so each part can be
-replayed on its own. Word, explanation and the authored example are always the pinned female
-voice (`en-US-AvaNeural`); the dialog uses a male voice (`en-US-AndrewNeural`) when the
-character who says the line is a man, and the female voice when it is a woman. Rate is
-`-10%` throughout. It is never the film's audio.
+picture. **Audio is synthesized with edge-tts** in three
+separate clips per note — `-word`, `-explanation`, `-example` — so each part can be
+replayed on its own. Every clip uses the pinned female voice (`en-US-AvaNeural`); nothing on
+the card is a character's line. Rate is `-10%` throughout.
 
 **A note whose part of speech is `verb` also gets a block of example sentences under the
-authored example** — `Present`, `Past`, `Past participle`, each one labelled, spoken and shown on
-its own row. This is **all** the card shows about conjugation: there is deliberately no
+authored example** — `Present`, `Present participle`, `Past`, `Past participle`, each one
+labelled, spoken and shown on its own row, and each one bolding the target the same way. This
+is **all** the card shows about conjugation: there is deliberately no
 `wrote / written` table under the headword, which was tried and judged to read like a
-dictionary entry. The sentences are **authored, not quotes**: a real film line that happens
+dictionary entry. The sentences are **authored**: a real line that happens
 to use `paid attention` or `fastened your seatbelt` in the past barely exists, and inventing
 a credit is worse than not having one. `pos` is therefore required on **all three kinds**
-(`tag:pos::verb` also gives a cross-deck verb filter), and a verb entry without the three
+(`tag:pos::verb` also gives a cross-deck verb filter), and a verb entry without the four
 example keys fails the build.
 
 **Every note — vocabulary, phrasal verb or collocation — carries one or more categories**
@@ -161,8 +163,8 @@ it invalidates existing notes.
 ## Repo-local agent
 
 `.opencode/agents/american-english-teacher.md` is a `subagent` for the **content** of the
-decks (definitions, General American pronunciation, register, pt-BR interference, dialog
-quotes with attribution, image briefs). It has no shell access and asks before editing,
+decks (definitions, General American pronunciation, register, pt-BR interference, authored
+example sentences, image briefs). It has no shell access and asks before editing,
 and it does not touch schema, model/deck ids, GUIDs or `.apkg` packaging — launch it for
 wording, not for build work. It writes the **Midjourney prompts**, never the images: rendering
 happens outside the repo.
@@ -181,8 +183,8 @@ happens outside the repo.
   `--list-voices` to enumerate). The user installed it into the pyenv global interpreter,
   which bends the rule above — pin `edge-tts==7.3.1` in the repo `.venv` when one exists.
   Synthesis needs network access; it fails offline.
-- `ffmpeg`, `lame` and `afinfo` are present but **not** used: one edge-tts call per card
-  produces the whole three-part script, so no concat/mux step is needed.
+- `ffmpeg`, `lame` and `afinfo` are present but **not** used: one edge-tts call per spoken
+  part produces each clip, so no concat/mux step is needed.
 
 ## Anki-specific pitfalls (these corrupt or duplicate data)
 
@@ -214,10 +216,10 @@ happens outside the repo.
 - Every note now needs an image, so a silently missing file is a blank card, not a
   cosmetic bug. Name image files from the note's content hash (the GUID), keep them in
   `media/`, and assert every referenced file exists before writing the package.
-- Audio is three `[sound:<key>-<part>.mp3]` references in the `Audio` field — `word`,
-  `explanation`, `dialog`, each on its own labelled line — and plays on the **back only**;
-  on the front it would read the answer aloud. A missing mp3 imports silently, exactly like
-  a missing image, so all three are asserted.
+- Audio is a `[sound:<key>-<part>.mp3]` reference per part — `word`, `explanation`,
+  `example` in their own fields, plus one per verb form row — and plays on the
+  **back only**; on the front it would read the answer aloud. A missing mp3 imports
+  silently, exactly like a missing image, so every one of them is asserted.
 - Verify output programmatically — unzip the `.apkg` and query the bundled sqlite
   (`select count(*) from notes`) — but still do one manual import to check card
   template rendering, which the note count cannot validate.

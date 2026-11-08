@@ -9,6 +9,74 @@ status: active
 
 Newest entries first. ISO dates (`YYYY-MM-DD`).
 
+## 2026-11-08 — The movie/TV quote block is removed
+
+- User: "remove movie/tv show quote." `Dialog`, `Source` and `AudioDialog` are gone from all
+  three models, and `speaker_gender` from the source schema with them — there is no character
+  left to voice.
+- The card is now: headword + word clip, definition + explanation clip, illustration, the
+  labelled authored **Example** + example clip, and (verbs only) the four form rows.
+- Audio is three clips per note (seven for a verb); every part uses the pinned female voice
+  `en-US-AvaNeural`. `VOICE_MALE`, `SPEAKER_GENDERS`, `dialog_line()` and the `dialog` audio
+  part were deleted.
+- The build rejects a source entry that still carries `dialog`, `source` or `speaker_gender`,
+  so stale content cannot import with part of its data silently dropped. All 30 test entries
+  were cleaned.
+- **Seventh generation of model ids** — `sha1("anki-english:v7:model:<kind>")` for production,
+  `sha1("anki-english:test:v7:model:<kind>")` for the test tree — 16 fields,
+  `BUILD_MOD = 1796600000`.
+- The real-line citation rule is retired, not forgotten: it stays in this log's earlier
+  entries, which are history. The authored example is now the card's only usage evidence, so
+  it carries the target in the base form and in bold.
+- Verified on the three test packages: 16 fields, no `Dialog`/`Source`/`AudioDialog` field,
+  no dialog row in the template, 3 sound references per non-verb and 7 per verb, every
+  reference present in the media map. Production baselines rebuilt with 0 notes.
+
+## 2026-11-08 — The target is bold inside every authored example
+
+- User: "the word must be bold in examples." Only the authored examples are ours to change;
+  the movie quote is a real line and is left exactly as spoken.
+- The source marks the span with `**...**` (`I spent all my **money** on rent.`) instead of
+  letting the build find it: the sentence inflects (`runs`, `ran`, `running`) and a phrasal
+  verb splits (`Never **leave** a teammate **behind**.`), so a match against `phrase` would
+  either miss the form or over-mark.
+- The build turns the markers into `<b>` when it writes the note field, and `part_text()`
+  strips them before edge-tts, so the voice never reads asterisks and the committed mp3s stay
+  valid — the spoken text is byte-for-byte the sentence that was already recorded.
+- Validation rejects an authored example with no `**...**` span, an empty span, or an odd
+  number of markers, so a missing bold is a build error, not a plain card.
+- All 30 test entries were marked (126 sentences: 30 `example` + 96 form rows). Verified on
+  the rebuilt test packages: no `**` survives in any field, every `Example` and verb row has
+  one or two `<b>` spans, and the hex byte-identity of the production baselines is unaffected
+  because notes never enter them.
+
+## 2026-11-08 — The `-ing` row joins the verb form examples
+
+- User: "when the word is a verb add ing example." The block under the quote had `Present`,
+  `Past` and `Past participle`, so the continuous form (`is running`, `being into`) had no row
+  at all — the one shape a learner needs in production that the card left out.
+- Added `PresentParticipleExample` + `AudioPresentParticipleExample` and one clip per note
+  (`-present-participle-example.mp3`): a verb now carries four authored form sentences and
+  eight clips, a non-verb still four.
+- **Labelled `Present participle`**, matching the `Past participle` row: the sentence itself
+  shows the `-ing` form in use. Its place is second, right after `Present` — see the row-order
+  note below.
+- Stative `be` expressions (`be up to`, `be into`, `be good at`) take the gerund, because
+  `is being into` does not exist (`Being into someone you work with makes the week
+  complicated.`). The 24 verbs in `tests/src/` were authored that way; the new clips were
+  generated with the existing pinned voice.
+- **Sixth generation of model ids** — `sha1("anki-english:v6:model:<kind>")` for production,
+  `sha1("anki-english:test:v6:model:<kind>")` for the test tree — 19 fields,
+  `BUILD_MOD = 1796400000`. A field change still moves the id; appending to the old note type
+  would be treated as a schema conflict on import.
+- **Rows read `Present`, `Present participle`, `Past`, `Past participle`** (user correction,
+  same day): the recent change moved the `-ing` row from last to second, pairing the two
+  present forms and then the two past forms. Only the template order moved; the field list
+  keeps its existing order, so the model id did not change again.
+- Verified on the three test packages: 19 fields, 8 `[sound:]` references and 10/10 mapped
+  `-present-participle-example.mp3` per verb kind (4 in vocabulary), 4 per non-verb, no
+  reference missing from the media map. Production baselines rebuilt with 0 notes.
+
 ## 2026-11-08 — Briefs are Midjourney prompts; images are rendered outside the repo
 
 - User: "the project still generate image brief for midjourney, the project itself does not

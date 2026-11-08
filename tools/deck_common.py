@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -72,22 +73,44 @@ REQUIRED_TEXT_FIELDS = (
     "sense",
     "pronunciation",
     "definition",
-    "dialog",
-    "source",
     "example",
 )
 
 # Extra text a **verb** carries: one short example sentence per form, shown as the block under
-# the movie quote. The sentences are authored, not quotes — a real film line that happens to
+# the authored example. The sentences are authored: a real line that happens to
 # use `paid attention` or `fastened your seatbelt` in the past barely exists, and inventing a
 # credit is worse than not having one. Absent on every other part of speech, and required on
 # `pos::verb`, so a verb card cannot render an empty example row — the same fail-loud rule as
-# a missing image.
+# a missing image. The last key is the `-ing` form (present participle); it is its own row
+# because continuous forms are the third shape a learner uses far more often than the perfect.
 VERB_TEXT_KEYS = (
     "present_example",
     "past_simple_example",
     "past_participle_example",
+    "present_participle_example",
 )
+
+# The target is shown in **bold** inside every authored example, because an example is read as a
+# sentence first and the learner has to see which words are the item being taught. The author
+# marks those words with `**...**`: a phrase inflects and sometimes splits (`pick yourself up`,
+# `made that mistake`), so the span cannot be recomputed from `phrase` at build time. Markup is
+# stripped before the text is spoken — the voice must not read the asterisks.
+MARKUP = "**"
+MARKUP_RE = re.compile(r"\*\*(.+?)\*\*")
+
+
+def markup_spans(text: str) -> list[str]:
+    return MARKUP_RE.findall(text)
+
+
+def strip_markup(text: str) -> str:
+    return text.replace(MARKUP, "")
+
+
+def bold_markup(text: str) -> str:
+    """Turn the author's `**target**` into the `<b>` the card renders."""
+    return MARKUP_RE.sub(r"<b>\1</b>", text)
+
 
 # Prefix on the GUID of a test build. Deck/model ids and names already differ, but Anki
 # also matches notes by GUID, so a rehearsal must not share one with production.
@@ -115,32 +138,27 @@ def image_file(layout: Layout, key: str) -> Path:
 
 
 def audio_file(layout: Layout, key: str, part: str) -> Path:
-    """One mp3 per spoken part: `word`, `explanation`, `dialog`."""
+    """One mp3 per spoken part: `word`, `explanation`, `example`, and the verb rows."""
     return layout.media / f"{key}-{part}.mp3"
 
 
-def dialog_line(entry: dict) -> str:
-    """The quoted line alone, without the attribution or the quotation marks."""
-    dialog = entry["dialog"]
-    for sep in (" — ", " – ", " - "):
-        if sep in dialog:
-            dialog = dialog.rsplit(sep, 1)[0]
-            break
-    return dialog.strip().strip('"“”').strip()
-
-
 # Spoken parts, in the order they are played. Each gets its own mp3: a learner replays the
-# movie line far more often than the definition, and one long clip makes that impossible.
-# `example` is the authored sentence under the quote: a second usage of the target.
-AUDIO_PARTS = ("word", "explanation", "dialog", "example")
+# example far more often than the definition, and one long clip makes that impossible.
+# `example` is the authored sentence under the definition: a second usage of the target.
+AUDIO_PARTS = ("word", "explanation", "example")
 
-# Verb-only clips: one per example row under the quote. Ordered after the base three so a
-# non-verb note keeps exactly the three files it always had.
-VERB_AUDIO_PARTS = ("present-example", "past-simple-example", "past-participle-example")
+# Verb-only clips: one per example row under the authored example. Ordered after the base
+# three so a non-verb note keeps exactly the three files it always had.
+VERB_AUDIO_PARTS = (
+    "present-example",
+    "past-simple-example",
+    "past-participle-example",
+    "present-participle-example",
+)
 
 
 def audio_parts(entry: dict) -> tuple[str, ...]:
-    """Every clip this entry needs: four, or seven when it is a verb."""
+    """Every clip this entry needs: three, or seven when it is a verb."""
     return AUDIO_PARTS + VERB_AUDIO_PARTS if is_verb(entry) else AUDIO_PARTS
 
 
@@ -149,21 +167,19 @@ def is_verb(entry: dict) -> bool:
     return entry.get("pos") == "verb"
 
 
-# Pinned voices. The word and the explanation are always the same woman; the dialog follows
-# the character who says the line, so a male character is not read by a female voice.
+# Pinned voice. Every part is read by the same woman: nothing on the card is a character's
+# line any more, so there is no gender to match.
 VOICE_FEMALE = "en-US-AvaNeural"
-VOICE_MALE = "en-US-AndrewNeural"
 RATE = "-10%"
 
-SPEAKER_GENDERS = ("female", "male")
 
-
-# Parts whose text is the authored field of the same name (plus the three verb examples).
+# Parts whose text is the authored field of the same name (plus the four verb examples).
 PLAIN_PART_KEYS = {
     "example": "example",
     "present-example": "present_example",
     "past-simple-example": "past_simple_example",
     "past-participle-example": "past_participle_example",
+    "present-participle-example": "present_participle_example",
 }
 
 
@@ -174,13 +190,5 @@ def part_text(entry: dict, part: str) -> str:
         return entry["phrase"]
     if part == "explanation":
         return entry["definition"]
-    if part == "dialog":
-        return dialog_line(entry)
-    return entry[PLAIN_PART_KEYS[part]]
-
-
-def part_voice(entry: dict, part: str) -> str:
-    # Only the movie quote follows a character; the example rows belong to no one.
-    if part == "dialog":
-        return VOICE_MALE if entry["speaker_gender"] == "male" else VOICE_FEMALE
-    return VOICE_FEMALE
+    # Authored examples carry `**` around the target for the card; the voice reads plain text.
+    return strip_markup(entry[PLAIN_PART_KEYS[part]])

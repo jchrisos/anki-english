@@ -31,9 +31,9 @@ and the audio tool cannot disagree about what an entry is called.
 ## Stages
 
 1. **Source** — `src/<kind>.json`, one array per kind, one object per entry: `phrase`,
-   `sense`, `pronunciation`, `definition`, `dialog`, `source`, `categories`, `level`, and
+   `sense`, `pronunciation`, `definition`, `example`, `categories`, `level`, and
    `image_brief` (a paste-ready Midjourney prompt, never written to the note). JSON because it is the
-   one format that holds nested category lists and multi-line quotes without a delimiter
+   one format that holds nested category lists and multi-line sentences without a delimiter
    argument.
 2. **Identity** — `media_key()` = `f"{prefix}_{sha1(prefix:phrase:sense)[:8]}"`, with
    prefix `voc` / `pv` / `col`. The GUID is `prefix:phrase:sense`, prefixed `test:` for a
@@ -41,18 +41,18 @@ and the audio tool cannot disagree about what an entry is called.
    a row number or a timestamp, so rewording a definition cannot strand review history.
 3. **Images** — `media/<key>.jpg`, rendered in Midjourney outside the repo, committed, an
    **input**: the project writes the prompt but never the picture, and nothing is regenerated on a build. `prepare_media.py` only re-encodes what already exists.
-4. **Audio** — four files per entry, seven for a verb:
-   `media/<key>-{word,explanation,dialog,example}.mp3` and, for verbs,
-   `media/<key>-present-example.mp3`, `-past-simple-example.mp3`,
-   `-past-participle-example.mp3`. One edge-tts call each, attribution and quotes stripped
-   from the dialog. Word, explanation, the authored example and the form rows use the
-   pinned female voice; the dialog follows the character's gender. Also an input; `build_audio.py` skips
+4. **Audio** — three files per entry, seven for a verb:
+   `media/<key>-{word,explanation,example}.mp3` and, for verbs,
+   `media/<key>-present-example.mp3`, `-present-participle-example.mp3`,
+   `-past-simple-example.mp3`, `-past-participle-example.mp3`. One edge-tts call each. Every
+   part uses the pinned female voice; nothing on the card is a character's line. Also an input; `build_audio.py` skips
    existing files unless `--force`.
 5. **Validation** — every note is rejected unless all text fields are non-empty, the
    pronunciation is IPA in slashes, a `pos::` tag is present, there is exactly one
    `level::` tag, at least one `category::` tag from the controlled list, the phrase is
    unique within its kind, and every required media file exists. The authored example is
-   required on every note; a verb must also carry the three form examples, and a non-verb
+   required on every note and must bold its target with `**...**`; a verb must also carry the
+   four form examples, and a non-verb
    carrying them is rejected. Missing media is the failure that does not announce itself.
 6. **Package assembly** — one deck and one note type per package, with the pinned deck id,
    model id and name; media registered in the package map by bare filename. With no notes

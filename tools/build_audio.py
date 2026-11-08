@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Synthesize one mp3 per entry with edge-tts.
+"""Synthesize one mp3 per spoken part with edge-tts.
 
-Fixed script order: the target, then the definition, then the dialog line. The speaker
-attribution and the quotation marks are stripped (see `deck_common.spoken_script`), because
-the voice should not read them aloud.
+Each part gets its own clip — the target, the definition, the authored example, and one per
+verb form row (`present`, `present participle`, `past`, `past participle`) — so a learner
+replays only the piece they need. Every part uses the pinned female voice; nothing on the card
+is a character's line.
 
 Existing files are never rewritten. TTS is a cloud call and not guaranteed to be
 byte-identical between runs, so the mp3s are committed **inputs** to the build, exactly
@@ -21,6 +22,7 @@ import edge_tts
 from deck_common import (
     GUID_PREFIX,
     RATE,
+    VOICE_FEMALE,
     Layout,
     audio_file,
     audio_parts,
@@ -28,7 +30,6 @@ from deck_common import (
     load_entries,
     media_key,
     part_text,
-    part_voice,
 )
 
 CONCURRENCY = 3
@@ -38,9 +39,9 @@ async def synthesize(entry: dict, key: str, part: str, force: bool, lay: Layout)
     path = audio_file(lay, key, part)
     if path.exists() and not force:
         return f"skip {path.name} (exists)"
-    communicate = edge_tts.Communicate(part_text(entry, part), part_voice(entry, part), rate=RATE)
+    communicate = edge_tts.Communicate(part_text(entry, part), VOICE_FEMALE, rate=RATE)
     await communicate.save(str(path))
-    return f"wrote {path.name} ({part_voice(entry, part)})"
+    return f"wrote {path.name} ({VOICE_FEMALE})"
 
 
 async def run(slugs: list[str], force: bool, test: bool) -> int:

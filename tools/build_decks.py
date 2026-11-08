@@ -40,19 +40,21 @@ from deck_common import (
     ALLOWED_POS,
     GUID_PREFIX,
     LEVELS,
+    MARKUP,
     REPO_ROOT,
     REQUIRED_TEXT_FIELDS,
-    SPEAKER_GENDERS,
     TEST_GUID_PREFIX,
     VERB_AUDIO_PARTS,
     VERB_TEXT_KEYS,
     Layout,
     audio_file,
     audio_parts,
+    bold_markup,
     image_file,
     is_verb,
     layout,
     load_entries,
+    markup_spans,
     media_key,
 )
 
@@ -63,7 +65,7 @@ from deck_common import (
 # value whenever the fields, templates or CSS change, or the new template never reaches a
 # collection that already has the note type — which is how a stale `<img src="{{Image}}">`
 # template survived a re-import and rendered the image tag as literal text.
-BUILD_MOD = 1796200000
+BUILD_MOD = 1796600000
 
 CSS = """\
 .card {
@@ -91,8 +93,7 @@ CSS = """\
 }
 .definition { margin: 0 auto 16px; max-width: 34em; }
 .image img { max-width: 100%; max-height: 320px; border-radius: 8px; }
-.dialog { font-style: italic; margin-top: 16px; }
-.source { color: #777; font-size: 15px; }
+.sentence { font-style: italic; }
 .block-label {
   display: block;
   color: #777;
@@ -110,26 +111,38 @@ CSS = """\
 FRONT_TEMPLATE = '<div class="headword">{{%(headword)s}}</div>\n'
 
 # One authored example per form, appended after the authored example row. The labels name the form
-# the sentence demonstrates; they are the only example rows on a card that are not quotes, and
-# the label keeps that visible. A non-verb note leaves the fields empty, so the `{{#...}}` sections
-# render nothing at all — no empty rows, no stray dividers.
+# the sentence demonstrates. Rows run simple present, `-ing`, simple past, past participle:
+# tense pairs first, perfect last. The `-ing` row is labelled "Present participle" so it reads
+# as a form name beside "Past participle" and is not mistaken for the simple present. A non-verb
+# note leaves the fields empty, so the `{{#...}}` sections render nothing at all — no empty rows,
+# no stray dividers.
 EXAMPLE_BLOCKS = """\
 {{#PresentExample}}
 <hr>
 <div class="row">
   <div class="row-text">
     <div class="block-label">Present</div>
-    <div class="dialog">{{PresentExample}}</div>
+    <div class="sentence">{{PresentExample}}</div>
   </div>
   <div class="row-audio">{{AudioPresentExample}}</div>
 </div>
 {{/PresentExample}}
+{{#PresentParticipleExample}}
+<hr>
+<div class="row">
+  <div class="row-text">
+    <div class="block-label">Present participle</div>
+    <div class="sentence">{{PresentParticipleExample}}</div>
+  </div>
+  <div class="row-audio">{{AudioPresentParticipleExample}}</div>
+</div>
+{{/PresentParticipleExample}}
 {{#PastSimpleExample}}
 <hr>
 <div class="row">
   <div class="row-text">
     <div class="block-label">Past</div>
-    <div class="dialog">{{PastSimpleExample}}</div>
+    <div class="sentence">{{PastSimpleExample}}</div>
   </div>
   <div class="row-audio">{{AudioPastSimpleExample}}</div>
 </div>
@@ -139,7 +152,7 @@ EXAMPLE_BLOCKS = """\
 <div class="row">
   <div class="row-text">
     <div class="block-label">Past participle</div>
-    <div class="dialog">{{PastParticipleExample}}</div>
+    <div class="sentence">{{PastParticipleExample}}</div>
   </div>
   <div class="row-audio">{{AudioPastParticipleExample}}</div>
 </div>
@@ -163,13 +176,6 @@ BACK_TEMPLATE = """\
 </div>
 <hr>
 <div class="image">{{Image}}</div>
-<div class="row">
-  <div class="row-text">
-    <div class="dialog">{{Dialog}}</div>
-    <div class="source">{{Source}}</div>
-  </div>
-  <div class="row-audio">{{AudioDialog}}</div>
-</div>
 <div class="row">
   <div class="row-text">
     <div class="block-label">Example</div>
@@ -204,31 +210,31 @@ KINDS = (
         "slug": "vocabulary",
         "deck_id": 517813484872,
         "deck_name": "Vocabulary",
-        "model_id": 556808103576,
+        "model_id": 691519255953,
         "model_name": "English Vocabulary",
         "headword": "Word",
         "test_deck_id": 804850451889,
-        "test_model_id": 429987648287,
+        "test_model_id": 220571904367,
     },
     {
         "slug": "phrasal-verbs",
         "deck_id": 807523115129,
         "deck_name": "Phrasal Verbs",
-        "model_id": 994478520429,
+        "model_id": 350528611282,
         "model_name": "English Phrasal Verb",
         "headword": "Phrase",
         "test_deck_id": 567855487385,
-        "test_model_id": 898746046976,
+        "test_model_id": 355844549585,
     },
     {
         "slug": "collocations",
         "deck_id": 221110591407,
         "deck_name": "Collocations",
-        "model_id": 689907847381,
+        "model_id": 377855104706,
         "model_name": "English Collocation",
         "headword": "Phrase",
         "test_deck_id": 242142671948,
-        "test_model_id": 748715823550,
+        "test_model_id": 202971465130,
     },
 )
 
@@ -266,23 +272,21 @@ def build_model(kind: dict, ident: dict) -> genanki.Model:
             {"name": "Pronunciation"},
             {"name": "Definition"},
             {"name": "Image"},
-            {"name": "Dialog"},
-            {"name": "Source"},
             # `Audio` is the word clip: the name predates the split, and renaming a field is
-            # destructive, so the two new parts were appended instead.
+            # destructive, so the explanation clip was appended instead.
             {"name": "Audio"},
             {"name": "AudioExplanation"},
-            {"name": "AudioDialog"},
-            # Verb-only example block, appended so the first nine fields keep their order.
-            # Empty on every other part of speech, which is what the template's `{{#...}}`
-            # sections test.
+            # Verb-only example block. Empty on every other part of speech, which is what the
+            # template's `{{#...}}` sections test.
             {"name": "PresentExample"},
             {"name": "PastSimpleExample"},
             {"name": "PastParticipleExample"},
+            {"name": "PresentParticipleExample"},
             {"name": "AudioPresentExample"},
             {"name": "AudioPastSimpleExample"},
             {"name": "AudioPastParticipleExample"},
-            # The authored example under the quote. Required on every note, so it is
+            {"name": "AudioPresentParticipleExample"},
+            # The authored example under the definition. Required on every note, so it is
             # appended after the verb block to keep both earlier groups in order.
             {"name": "Example"},
             {"name": "AudioExample"},
@@ -322,6 +326,28 @@ class BuildError(Exception):
     """A note that must not reach a package: missing field, bad tag, missing media."""
 
 
+# Keys that belonged to the retired movie/TV quote block. They are not silently ignored: a
+# source entry still carrying one is a build error, so stale content is cleaned up rather than
+# imported with part of its data missing.
+REMOVED_KEYS = ("dialog", "source", "speaker_gender")
+
+
+def check_markup(entry: dict, field: str, label: str) -> None:
+    """An authored example must bold its target and leave no stray `**` behind.
+
+    The span is authored rather than derived: the sentence uses an inflected form and a phrasal
+    verb may be split (`pick yourself up`), so the build cannot find the target on its own.
+    """
+    text = str(entry.get(field) or "")
+    spans = markup_spans(text)
+    if not spans:
+        raise BuildError(f"{label}: {field} must bold the target with **...**")
+    if any(not span.strip() for span in spans):
+        raise BuildError(f"{label}: {field} has an empty **...** span")
+    if text.count(MARKUP) != 2 * len(spans):
+        raise BuildError(f"{label}: {field} has unbalanced ** markers")
+
+
 def validate(entry: dict, key: str, seen: set[str], lay: Layout) -> None:
     """Reject an entry instead of emitting a card with a blank panel.
 
@@ -344,21 +370,23 @@ def validate(entry: dict, key: str, seen: set[str], lay: Layout) -> None:
         raise BuildError(f"{label}: needs a part of speech (pos)")
     if pos not in ALLOWED_POS:
         raise BuildError(f"{label}: unknown part of speech {pos!r}")
-    gender = entry.get("speaker_gender")
-    if gender not in SPEAKER_GENDERS:
-        raise BuildError(
-            f"{label}: speaker_gender must be one of {', '.join(SPEAKER_GENDERS)}, got {gender!r}"
-        )
-    # A verb card teaches the verb, so its three example rows are part of the card, not an
+    # The movie-quote block was removed on 2026-11-08. A source entry still carrying its keys
+    # would import a card with the quote silently dropped, so the build stops instead.
+    removed = [stale_key for stale_key in REMOVED_KEYS if stale_key in entry]
+    if removed:
+        raise BuildError(f"{label}: remove the retired movie-quote keys {removed}")
+    # A verb card teaches the verb, so its four example rows are part of the card, not an
     # optional extra: a missing one would vanish silently with the rest of its section.
     if is_verb(entry):
         for field in VERB_TEXT_KEYS:
             if not str(entry.get(field, "")).strip():
                 raise BuildError(f"{label}: verb needs {field}")
+            check_markup(entry, field, label)
     else:
         stray = [f for f in VERB_TEXT_KEYS if entry.get(f)]
         if stray:
             raise BuildError(f"{label}: {pos} must not carry verb examples {stray}")
+    check_markup(entry, "example", label)
     categories = entry.get("categories") or []
     if not categories:
         raise BuildError(f"{label}: needs at least one category")
@@ -393,27 +421,25 @@ def make_note(
             # copies media that it can see referenced in the field text (`<img src>` and
             # `[sound:]`), so a filename the template wrapped later is silently skipped.
             f'<img src="{image_file(lay, key).name}">',
-            entry["dialog"],
-            entry["source"],
             # Each clip lives in its own field so the template can place it directly under
-            # the text it reads, instead of stacking three players at the bottom.
+            # the text it reads, instead of stacking players at the bottom.
             f"[sound:{audio_file(lay, key, 'word').name}]",
             f"[sound:{audio_file(lay, key, 'explanation').name}]",
-            f"[sound:{audio_file(lay, key, 'dialog').name}]",
             # Verb-only example rows; empty on other parts of speech, which is what the
             # template's `{{#...}}` sections test.
             *(
                 [
-                    entry["present_example"],
-                    entry["past_simple_example"],
-                    entry["past_participle_example"],
+                    bold_markup(entry["present_example"]),
+                    bold_markup(entry["past_simple_example"]),
+                    bold_markup(entry["past_participle_example"]),
+                    bold_markup(entry["present_participle_example"]),
                     *(f"[sound:{audio_file(lay, key, p).name}]" for p in VERB_AUDIO_PARTS),
                 ]
                 if is_verb(entry)
-                else [""] * 6
+                else [""] * 8
             ),
             # The authored example, required on every note.
-            entry["example"],
+            bold_markup(entry["example"]),
             f"[sound:{audio_file(lay, key, 'example').name}]",
         ],
         tags=[f"category::{c}" for c in entry["categories"]]
