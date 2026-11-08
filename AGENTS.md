@@ -26,6 +26,29 @@ Content lives in `src/<kind>.json` (one array per kind) and is included **only**
 `--notes`; a plain build still ships empty packages. Media lives in `media/`, named from the
 entry's key (`voc_6a648cec.jpg`), and is an input: nothing regenerates art on a plain build.
 
+**Art is made in Midjourney from the entry's `image_brief`.** Each brief is a finished,
+paste-ready `/imagine` prompt: a compressed scene description, then the shared parameter block
+`--ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated,
+HDR`. V8.2 is the default model and spells raw mode `--raw`; `--style raw` belongs to V7 only.
+`--s 50` and `--raw` keep the render literal and photographic instead of Midjourney's glossy
+house look, and `--no` replaces the separate negative prompt. Render at 3:2, save the PNG under
+`media/` (or `tests/media/`) named from the entry key, and let `tools/prepare_media.py` derive
+the 900px JPEG the deck wants. The prompts draw on the **phrase, sense and definition**, never
+the movie quote or the authored example.
+
+**Prompts are written like a documentary shot, not a stock portrait.** Each one names the camera
+position (`from behind`, `from the side`, `from across the room`, `low angle`, `over the
+shoulder`, `wide shot`) and keeps the subject at medium or wide distance; a prompt that reads
+"a man looks at the camera" produces the plastic, front-lit look the deck must avoid. At most
+**two people** in frame — one primary subject plus, when the definition needs them, a second —
+with background figures indistinct or absent; group scenes are out. Add the ordinary clutter of
+the place (empty desks, dishes, boxes, shadows) so the frame says where it is, and end the scene
+with the mood. Never ask for a close-up, a frontal portrait or eye contact with the lens.
+
+Keep one shared look across a deck: the parameter block above is identical on every prompt, and
+if the set drifts, add the same `--sref <code>` to all of them rather than rewriting the scene
+text. The scene carries the meaning, the parameters carry the style.
+
 `tests/` is a **separate, fully gitignored tree**: `tests/src/`, `tests/media/` and
 `tests/decks/`. `--test` on any of the three tools switches the whole layout there, so test
 source, images, audio and packages never mix with production and can never be committed.
@@ -83,8 +106,33 @@ situation only, so every note adds one full everyday sentence that uses it. **Bo
 and the authored sentence must show the target in the entry's own form** — the base form on
 the front: `hire` quotes `"I want to hire you."`, never `"You're hired."`, and the example
 says `We need to hire two more nurses this month.` The other tenses are what the verb's form
-rows are for. Images are
-AI-generated and committed under `media/`; **audio is synthesized with edge-tts** in four
+rows are for.
+
+**The illustration is built from `phrase`, `sense` and `definition` — never the quote, never the
+example.** The three fields are the whole brief: the phrase fixes what must be visible, the
+sense slug fixes which meaning of it, and the definition says what that meaning is, so the
+picture and the back of the card agree. The quote belongs to a film, so its scene is that
+film's story; the example is one sentence about the item, not a definition of it. Neither is
+allowed to steer the art, because both drift away from the sense (`hire` drawn from a ward
+corridor says "understaffed", not "give someone a job").
+
+Draw the sense, and make the target the subject of the frame:
+
+- **concrete noun** (`money`, `boat`, `road`) — the thing is in the frame, in focus, at a usable
+  size, ideally in use: `money` shows bills and coins being handed over, not a man who happens
+  to be short of cash.
+- **verb** (`wear`, `hire`, `run`) — the action is caught in progress and readable from the
+  silhouette: clothes already on the body, a pen and contract crossing a desk, a stride with
+  both feet off the ground.
+- **abstract noun or adverb** (`truth`, `back`) — show the one situation the definition describes
+  and nothing else (the plain telling of what happened; the return to the place you came from).
+
+The `image_brief` is rewritten when the sense or the definition changes, not when a quote or an
+example is swapped.
+
+Images are committed under `media/` and are **rendered in Midjourney from the `image_brief`** —
+never with a stock photo or another generator, and never committed without being produced that
+way. **Audio is synthesized with edge-tts** in four
 separate clips per note — `-word`, `-explanation`, `-dialog`, `-example` — so each part can be
 replayed on its own. Word, explanation and the authored example are always the pinned female
 voice (`en-US-AvaNeural`); the dialog uses a male voice (`en-US-AndrewNeural`) when the
@@ -117,7 +165,8 @@ it invalidates existing notes.
 decks (definitions, General American pronunciation, register, pt-BR interference, dialog
 quotes with attribution, image briefs). It has no shell access and asks before editing,
 and it does not touch schema, model/deck ids, GUIDs or `.apkg` packaging — launch it for
-wording, not for build work.
+wording, not for build work. It writes **image briefs**, never images: rendering happens in
+Midjourney, which the agent cannot reach.
 
 ## Verified local environment (macOS, this machine)
 
