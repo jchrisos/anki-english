@@ -9,6 +9,50 @@ status: active
 
 Newest entries first. ISO dates (`YYYY-MM-DD`).
 
+## 2026-11-09 — Collocations deck completed at 800 cards
+
+- Finished the production target in **sixteen 50-card chunks**: 800 entries planned in
+  `src/index.csv` and written to `src/collocations.json` before the final build. Composition:
+  **516 verbs, 274 nouns, 10 adjectives**; levels **168 A1 / 254 A2 / 243 B1 / 135 B2**;
+  all **26 allowed categories** used (work 162, communication 123, education 91, health 74,
+  money 72, food 68, …). No phrase carries two senses; every `(phrase, sense)` is unique.
+- Chunks 2–16 were authored by one subagent per chunk against a frozen field contract and
+  written to `staging/chunkNN.{csv,json}`; the parent merged, deduplicated and linted after
+  each batch. Staging was removed once the merge was verified, so `src/` remains the only
+  source of truth.
+- Synthesized **4,464 mp3s** under `media/` (7 per verb, 3 per noun/adjective) with
+  `edge-tts` and the pinned `en-US-AvaNeural` voice at `-10%`; no zero-byte files.
+- Built `decks/collocations.apkg` with `--notes --only collocations` at **800/800**. Verified
+  by unzipping and querying `collection.anki2`: 800 notes, 800 cards, 800 unique `col:` GUIDs,
+  4,464 media-map entries with 4,464 field references and none missing, correct sound count
+  on every note, deck id `221110591407`, model id `377855104706`. Package size ~75 MB.
+- **All 800 illustrations are still unrendered.** Every entry carries its complete
+  `image_brief` and no `image` field, so the cards are text and audio until Midjourney
+  renders are committed to `media/` and named per entry. Rebuilding will then pick them up
+  without changing note identity.
+- `README.md` now describes the completed deck; vocabulary and phrasal verbs remain empty
+  baselines.
+
+## 2026-11-09 — First production batch: 50 collocations
+
+- Planned 50 collocation senses in `src/index.csv` (A1 8, A2 14, B1 18, B2 10; 42 verbs,
+  8 nouns) before writing any card, then filled `src/collocations.json` from the manifest.
+  Phrases cover daily routine, transport, work, study, relationships, money, food, weather,
+  city and communication; the sense slug stays the frozen GUID half.
+- Authored with the `american-english-teacher` subagent in six parallel groups, then merged
+  and normalized by the parent: base-form examples, General American participles (`gotten`),
+  lowercase definitions, one outdoor camera position, and the ordinary verb-row wording.
+- Synthesized **318 mp3s** with `edge-tts` (`en-US-AvaNeural`, rate `-10%`) under `media/`:
+  seven clips per verb (three parts plus four form rows) and three per noun.
+- Built `decks/collocations.apkg` with `--notes --only collocations`: 50 notes, 50 cards,
+  318 media entries, GUID prefix `col:`, levels 8/14/18/10, `pos::verb` 42 and
+  `pos::noun` 8. The package was verified by unzipping it and querying `collection.anki2`.
+- **Illustrations are not rendered.** Every entry carries a complete `image_brief` and no
+  `image` field yet, so all 50 cards build without a picture; this is the expected state
+  until the Midjourney renders are committed to `media/` and named per entry.
+- Documented the production collocations commands in `README.md`; vocabulary and phrasal
+  verbs remain empty baselines.
+
 ## 2026-11-09 — Manifest-first content workflow and the lint pass
 
 - The teacher's assessment of 6,650 cards put the risk in consistency, not volume: duplicate

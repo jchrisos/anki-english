@@ -21,9 +21,12 @@ card — that was tried and dropped.
 
 ## Status
 
-Early, but working. The generator builds real packages; the committed decks are deliberately
-**empty baselines** that pin the deck and note-type ids. Content is added only on explicit
-request, and the only real content currently lives in `tests/`, which is not versioned.
+Early, but working. The generator builds real packages. The committed **vocabulary** and
+**phrasal-verb** decks are still empty baselines that pin the deck and note-type ids; the
+**collocations** deck is complete at its **800-card target** (A1–B2). Content is added only
+on explicit request. Illustrations for the collocation batch are still pending: every entry
+has a paste-ready Midjourney brief, but no image files are committed yet, so those cards are
+text and audio only until the renders land in `media/`.
 
 ## Quick start
 
@@ -42,6 +45,11 @@ python3 -m venv .venv                        # already exists locally
 
 # one mp3 per entry (skips files that already exist)
 .venv/bin/python tools/build_audio.py --test
+
+# production collocations batch (lint first, then audio, then the package)
+.venv/bin/python tools/lint_content.py --report
+.venv/bin/python tools/build_audio.py --only collocations
+.venv/bin/python tools/build_decks.py --notes --only collocations
 
 # PNG -> 900px JPEG, keeps a package near 2 MB
 .venv/bin/python tools/prepare_media.py --test
@@ -184,8 +192,12 @@ These are the ones that bite; the full reasoning is in `.okf/concepts/apkg-safet
 
 ## Content
 
-Content is added **only on demand**. The committed packages stay empty; nothing seeds a deck
-with a placeholder card or a starter list to prove the pipeline works.
+Content is added **only on demand**. Nothing seeds a deck with a placeholder card or a starter
+list to prove the pipeline works. The collocations deck is complete: 800 A1–B2 entries in
+`src/index.csv` and `src/collocations.json`, authored in sixteen 50-card chunks. The other two
+decks remain empty until their own batch is requested. Every entry's `image_brief` is ready to
+paste into Midjourney, and the `image` field stays empty until the rendered file is committed
+under `media/`.
 
 Design decisions, the schema and the trade-offs behind them live in `.okf/` (start at
 `.okf/index.md`, with the reverse-chronological log at `.okf/log.md`).

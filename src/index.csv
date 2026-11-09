@@ -1,1 +1,801 @@
 kind,phrase,sense,pos,level,categories,gloss
+collocations,have fun,enjoy-yourself,verb,a1,daily-routine;emotions,to enjoy yourself and have a good time
+collocations,get dressed,put-clothes-on,verb,a1,clothes;daily-routine,to put on your clothes
+collocations,take a shower,wash-your-body,verb,a1,body;home,to wash your body under running water
+collocations,make breakfast,prepare-morning-food,verb,a1,food;kitchen,to prepare the first meal of the day
+collocations,listen to music,hear-songs,verb,a1,music,to play and pay attention to songs
+collocations,ride a bike,travel-by-bicycle,verb,a1,transport;sports,to travel on a bicycle
+collocations,do the dishes,wash-plates,verb,a1,kitchen;home,to wash the plates and cups after a meal
+collocations,watch a movie,view-a-film,verb,a1,daily-routine,to watch a film for entertainment
+collocations,take a photo,capture-an-image,verb,a2,technology,to use a camera to record a picture
+collocations,make a call,phone-someone,verb,a2,communication,to use a phone to speak to someone
+collocations,catch a bus,board-public-transport,verb,a2,transport;travel,to get on a bus before it leaves
+collocations,miss the bus,fail-to-catch-transport,verb,a2,transport;time,to arrive too late and fail to get on a bus
+collocations,do homework,complete-school-tasks,verb,a2,education,to complete the schoolwork you take home
+collocations,take a break,rest-for-a-while,verb,a2,work;daily-routine,to stop working for a short time and rest
+collocations,have a headache,pain-in-your-head,verb,a2,health;body,to feel pain in your head
+collocations,keep a promise,do-what-you-said,verb,a2,relationships,to do what you said you would do
+collocations,tell the truth,say-what-is-true,verb,a2,communication,to say what really happened
+collocations,save money,keep-money-for-later,verb,a2,money,to keep money instead of spending it
+collocations,get a job,find-employment,verb,a2,work,to be hired to do work for pay
+collocations,make friends,form-friendships,verb,a2,relationships,to meet people and become friendly with them
+collocations,heavy rain,intense-rainfall,noun,a2,weather;nature,rain that falls hard and in large amounts
+collocations,fast food,quick-restaurant-meal,noun,a2,food,cheap food prepared and served very quickly
+collocations,make a decision,choose-an-option,verb,b1,work,to choose one option after thinking about it
+collocations,meet a deadline,finish-on-time,verb,b1,work;time,to finish work by the required time
+collocations,make progress,advance-in-skills,verb,b1,education;work,to improve or move forward in what you are doing
+collocations,take responsibility,accept-blame,verb,b1,work;relationships,to accept that you are the one at fault
+collocations,make an appointment,schedule-a-meeting,verb,b1,work;health,to arrange a time to see someone
+collocations,make an effort,try-hard,verb,b1,work,to try hard to do something
+collocations,raise awareness,increase-knowledge,verb,b1,communication;health,to make more people know about a problem
+collocations,pay a compliment,praise-someone,verb,b1,communication;relationships,to say something nice about someone
+collocations,keep a secret,not-tell-others,verb,b1,relationships,to not tell other people something private
+collocations,break the news,announce-bad-news,verb,b1,communication,to tell someone about something bad that happened
+collocations,make a difference,have-a-positive-effect,verb,b1,work,to cause a change that matters
+collocations,take notes,write-key-points,verb,b1,education,to write down the important points you hear or read
+collocations,set a goal,define-an-objective,verb,b1,work;education,to decide what you want to achieve
+collocations,make a suggestion,propose-an-idea,verb,b1,work;communication,to offer an idea for others to consider
+collocations,strong coffee,concentrated-brew,noun,b1,food,coffee with a lot of flavor and caffeine
+collocations,close friend,intimate-friend,noun,b1,relationships,a friend you know well and trust
+collocations,heavy traffic,congested-roads,noun,b1,city;transport,a large number of vehicles moving slowly
+collocations,common sense,practical-judgment,noun,b1,daily-routine,the ordinary good judgment people use in daily life
+collocations,reach an agreement,conclude-negotiation,verb,b2,work;communication,to both accept the same terms after discussion
+collocations,meet expectations,perform-as-hoped,verb,b2,work,to be as good as people expected
+collocations,pose a threat,create-danger,verb,b2,health;city,to be likely to cause harm
+collocations,play a role,be-part-of-a-cause,verb,b2,work,to be one of the things that cause a result
+collocations,draw attention,attract-notice,verb,b2,communication,to make people notice something
+collocations,make an assumption,suppose-without-proof,verb,b2,education,to believe something is true without checking
+collocations,have an impact,produce-an-effect,verb,b2,work,to cause a noticeable change in something
+collocations,draw a conclusion,decide-from-evidence,verb,b2,education,to decide what the facts mean
+collocations,wide range,broad-variety,noun,b2,shopping,many different things of the same general type
+collocations,key factor,important-cause,noun,b2,work,one of the main things that affect a result
+collocations,make the bed,make-bed-tidy,verb,a1,home;daily-routine,to pull the covers straight and smooth after getting out of bed
+collocations,brush your teeth,clean-your-teeth,verb,a1,body;health,to clean the hard white parts in your mouth with toothpaste and a small brush
+collocations,wash your hands,clean-your-hands,verb,a1,body;health,to clean the fingers and palms with soap and water
+collocations,walk the dog,take-dog-for-walk,verb,a1,animals;daily-routine,to take an animal on a leash outside for exercise
+collocations,set the table,put-plates-out,verb,a1,kitchen;food,"to put plates, glasses and forks out before a meal"
+collocations,feed the cat,give-cat-food,verb,a1,animals;daily-routine,to give a small pet its food
+collocations,water the plants,give-plants-water,verb,a1,nature;home,to pour liquid onto the soil of the green things growing in pots
+collocations,do the laundry,wash-clothes,verb,a1,home;clothes,to wash the clothes and towels that have been worn
+collocations,sweep the floor,brush-floor-clean,verb,a1,home;daily-routine,to push dust and crumbs off the ground with a long-handled brush
+collocations,make dinner,cook-evening-meal,verb,a1,food;kitchen,to cook the evening meal at home
+collocations,take a nap,sleep-briefly-daytime,verb,a1,daily-routine;body,to sleep for a short time during the day
+collocations,brush your hair,comb-your-hair,verb,a1,body;daily-routine,to pull a small comb through the strands on your head so they lie neat
+collocations,empty the trash,clear-waste-basket,verb,a1,home;daily-routine,to remove the waste from a bin and put in a fresh bag
+collocations,wipe the table,clean-table-surface,verb,a1,kitchen;home,to clean a flat surface with a cloth after eating
+collocations,open the curtains,let-daylight-in,verb,a1,home;daily-routine,to pull the cloth covers aside so daylight comes in
+collocations,busy morning,rushed-start-of-day,noun,a1,daily-routine;time,the first hours of the day when there is too much to do and little time
+collocations,clean house,tidy-home,noun,a1,home,a home where everything is tidy and put in its place
+collocations,dirty dishes,unwashed-plates,noun,a1,kitchen;home,"plates, bowls and cups that still have food on them after a meal"
+collocations,morning routine,regular-early-habits,noun,a1,daily-routine;time,the same set of actions a person repeats every day after waking
+collocations,laundry basket,clothes-container,noun,a1,home;clothes,a container where you put worn clothes before they are washed
+collocations,clean the bathroom,scrub-bathroom,verb,a2,home;daily-routine,to scrub the room with the toilet and bathtub until it is free of dirt
+collocations,fold the clothes,fold-laundry,verb,a2,home;clothes,to bend washed garments neatly so they fit in a drawer
+collocations,change the sheets,replace-bedding,verb,a2,home,to take the covers off a bed and put clean ones on
+collocations,vacuum the carpet,clean-with-vacuum,verb,a2,home;daily-routine,to pull dirt out of a soft floor covering with a machine that sucks
+collocations,mow the lawn,cut-grass,verb,a2,home;nature,to cut the grass in a yard with a machine
+collocations,mop the floor,wash-floor-wet,verb,a2,home;daily-routine,to wash a hard surface with a wet tool on a long handle
+collocations,iron a shirt,press-clothing,verb,a2,clothes;home,to press a piece of clothing flat with a hot tool so the creases come out
+collocations,wash the car,clean-vehicle,verb,a2,car;home,to clean the outside of a vehicle with water and soap
+collocations,load the dishwasher,fill-dishwasher,verb,a2,kitchen;home,to fill the machine that cleans plates with dirty dishes
+collocations,scrub the sink,clean-basin,verb,a2,kitchen;home,to rub the basin hard with a brush until the stains come off
+collocations,dust the shelves,remove-dust,verb,a2,home;daily-routine,to wipe the fine gray powder off the flat boards where things are stored
+collocations,hang the laundry,air-dry-clothes,verb,a2,home;clothes,to fix wet clothes to a line outside so they dry in the air
+collocations,pack your bag,prepare-your-bag,verb,a2,daily-routine;travel,to put everything you need into something you carry for a trip or a day out
+collocations,set an alarm,schedule-wake-time,verb,a2,daily-routine;time,to choose a time for a device to make a sound and wake you
+collocations,fresh sheets,newly-washed-bedding,noun,a2,home,"newly washed covers for a bed, still smelling of soap"
+collocations,household chores,home-tasks,noun,a2,home;daily-routine,"the regular jobs that keep a home in order, such as cleaning and washing"
+collocations,kitchen sink,washing-basin,noun,a2,kitchen;home,the deep basin set into the counter where food is prepared and pots are washed
+collocations,bathroom mirror,vanity-glass,noun,a2,home;body,the glass on the wall above the basin where you check your face
+collocations,messy room,untidy-bedroom,noun,a2,home,"a bedroom with clothes, papers and objects spread over the floor and furniture"
+collocations,quiet evening,peaceful-night-hours,noun,a2,daily-routine;time,the calm hours after dinner when the day's noise has stopped
+collocations,run the dishwasher,operate-dishwasher,verb,b1,home;technology,to switch on the machine that cleans the plates after a meal
+collocations,pay the bills,settle-household-costs,verb,b1,money;home,"to send the money you owe for electricity, water and other services"
+collocations,run errands,do-small-tasks,verb,b1,daily-routine;city,"to go out and do a series of small necessary jobs, like buying food or going to the bank"
+collocations,sort the laundry,separate-clothes,verb,b1,home;clothes,to separate clothes by color and fabric before they are washed
+collocations,change a light bulb,replace-bulb,verb,b1,home,to put a new glass globe into a lamp that has gone dark
+collocations,split the chores,divide-housework,verb,b1,home;relationships,to divide the housework so each person does an equal part
+collocations,pay rent,pay-housing-cost,verb,b1,money;home,to give the owner of your home the money you owe each month for living there
+collocations,crowded closet,full-wardrobe,noun,b1,home;clothes,a small storage space so full of clothes that the door barely shuts
+collocations,spotless kitchen,perfectly-clean-kitchen,noun,b1,home;kitchen,a cooking area with no dirt or grease anywhere on the surfaces
+collocations,daily habit,repeated-practice,noun,b1,daily-routine,something a person does at the same time every day without thinking about it
+collocations,cook dinner,cook-dinner,verb,a1,kitchen;food,"to prepare the main meal of the evening, usually hot food."
+collocations,boil an egg,boil-egg,verb,a1,kitchen;food,to cook an egg in very hot water until it is firm.
+collocations,eat breakfast,eat-breakfast,verb,a1,food;daily-routine,to have your first meal of the day in the morning.
+collocations,make a sandwich,make-sandwich,verb,a1,food;kitchen,to put food between two pieces of bread so you can eat it.
+collocations,peel a banana,peel-banana,verb,a1,food;daily-routine,to pull the skin off a banana before eating it.
+collocations,wash the vegetables,wash-vegetables,verb,a1,kitchen;food,to clean vegetables with water before you cook them.
+collocations,have lunch,have-lunch,verb,a1,food;daily-routine,to eat a meal in the middle of the day.
+collocations,cut the cake,cut-cake,verb,a1,food;kitchen,to divide a cake into pieces so people can eat it.
+collocations,taste the soup,taste-soup,verb,a1,kitchen;food,to put a small amount of soup in your mouth to check its flavor.
+collocations,serve breakfast,serve-breakfast,verb,a1,food;work,"to give the morning meal to people, usually in a hotel or a home."
+collocations,pour the milk,pour-milk,verb,a1,kitchen;food,to make milk flow from a container into a cup or bowl.
+collocations,fresh bread,bread-just-baked,noun,a1,food,bread that was baked a short time ago and is still soft.
+collocations,fresh fruit,fruit-not-processed,noun,a1,food;health,"fruit that has not been cooked, canned or frozen."
+collocations,cold drink,drink-served-cold,noun,a1,food,a drink that is served chilled rather than at room temperature.
+collocations,grocery store,store-selling-food,noun,a1,shopping;food,a shop where you buy food and things for the home.
+collocations,buy groceries,buy-food-supplies,verb,a2,shopping;food,to buy the food and household items you need.
+collocations,order dessert,ask-for-sweet-course,verb,a2,food,to ask a restaurant worker to bring you a sweet dish after the meal.
+collocations,order takeout,order-food-to-go,verb,a2,food;daily-routine,to ask a restaurant to prepare food for you to eat somewhere else.
+collocations,slice the bread,cut-bread-in-slices,verb,a2,kitchen;food,to cut bread into thin flat pieces.
+collocations,fry the onions,cook-onions-in-oil,verb,a2,kitchen;food,to cook chopped onions in hot oil until they are soft.
+collocations,bake a cake,cook-cake-in-oven,verb,a2,kitchen;food,"to cook a sweet food made from flour, eggs and sugar in an oven."
+collocations,mix the ingredients,combine-recipe-parts,verb,a2,kitchen,to stir all the parts of a recipe together in one bowl.
+collocations,add some salt,put-in-small-salt,verb,a2,kitchen;food,to put a small amount of salt into food to improve the flavor.
+collocations,grate the cheese,shred-cheese,verb,a2,kitchen;food,to rub cheese against a rough tool so it falls in thin strips.
+collocations,stir the sauce,move-sauce-around,verb,a2,kitchen;food,to move a spoon around in a sauce so it cooks evenly.
+collocations,book a table,reserve-restaurant-table,verb,a2,food;time,to reserve a place at a restaurant for a certain time.
+collocations,leave a tip,give-extra-money-server,verb,a2,money;food,to give extra money to a restaurant worker for good service.
+collocations,pack a lunch,prepare-food-to-carry,verb,a2,food;work,to put food in a bag or box to eat later at work or school.
+collocations,read the menu,look-at-food-list,verb,a2,food,to look at the list of food and drinks in a restaurant.
+collocations,frozen vegetables,vegetables-stored-frozen,noun,a2,food;kitchen,vegetables that are kept very cold in a freezer until you cook them.
+collocations,local restaurant,nearby-eating-place,noun,a2,food;city,a restaurant near your home that is not part of a large company.
+collocations,vegetarian dish,meal-without-meat,noun,a2,food;health,a prepared food with no meat or fish in it.
+collocations,spicy food,food-with-hot-flavor,noun,a2,food,food that has a strong hot taste from pepper or chili.
+collocations,lunch break,midday-work-pause,noun,a2,work;food;time,the short time in the middle of the workday when you eat.
+collocations,table for two,seats-for-two-people,noun,a2,food,a restaurant table arranged for two people to eat.
+collocations,follow a recipe,cook-by-instructions,verb,b1,kitchen;food,to prepare food by doing the steps that a cooking guide lists.
+collocations,split the bill,share-restaurant-cost,verb,b1,money;food,to divide the total cost of a meal among the people who ate.
+collocations,reheat leftovers,warm-cooked-food-again,verb,b1,kitchen;food,to warm food that was cooked earlier so you can eat it again.
+collocations,season the chicken,add-flavor-to-chicken,verb,b1,kitchen;food,"to add salt, pepper or herbs to chicken before or during cooking."
+collocations,skip breakfast,not-eat-first-meal,verb,b1,food;daily-routine;health,to not eat your first meal of the day.
+collocations,grab a quick bite,eat-something-fast,verb,b1,food;work,to eat a small amount of food fast when you are busy.
+collocations,home-cooked meal,meal-made-at-home,noun,b1,food;home,a meal prepared at home rather than bought already made.
+collocations,balanced diet,varied-healthy-eating,noun,b1,health;food,a way of eating that includes the right amount of each kind of food.
+collocations,eating habits,usual-food-choices,noun,b1,health;food,the usual way a person chooses and eats food.
+collocations,grocery list,shopping-food-list,noun,b1,shopping;food,a written plan of the food you need to buy.
+collocations,lose your appetite,stop-feeling-hungry,verb,b2,health;food,"to stop feeling hungry, often because you are sick or upset."
+collocations,spoil your appetite,ruin-hunger-before-meal,verb,b2,food;health,to eat or drink something that makes you too full for the next meal.
+collocations,food poisoning,illness-from-bad-food,noun,b2,health;food,an illness caused by eating food that has gone bad.
+collocations,expiration date,last-safe-day,noun,b2,food;time,the last day a food package is still safe to eat.
+collocations,processed food,factory-made-food,noun,b2,food;health,food that a factory has changed a lot before selling it.
+collocations,take a trip,take-a-trip,verb,a1,travel,to go to another place for a few days or longer
+collocations,buy a ticket,buy-a-ticket,verb,a1,travel;transport,"to pay for the right to travel on a bus, train or plane"
+collocations,take a taxi,take-a-taxi,verb,a1,transport;travel,to travel in a car with a driver you pay
+collocations,pack a suitcase,pack-a-suitcase,verb,a1,travel;clothes,to put clothes and other things into a case for a journey
+collocations,drive a car,drive-a-car,verb,a1,car;transport,to control a vehicle and make it move along the road
+collocations,cross the street,cross-the-street,verb,a1,city;travel,to walk from one side of the road to the other
+collocations,lock the car,lock-the-car,verb,a1,car;city,to close a vehicle with a key so nobody can open it
+collocations,bus stop,bus-stop,noun,a1,travel;city,a place beside the road where people wait for a bus to arrive
+collocations,train station,train-station,noun,a1,transport;travel,the building where trains stop so people can get on and off
+collocations,hotel room,hotel-room,noun,a1,travel;home,a space with a bed that a traveler pays to use for the night
+collocations,taxi driver,taxi-driver,noun,a1,transport;work,a person whose job is to carry passengers in a car for money
+collocations,summer vacation,summer-vacation,noun,a1,travel;time,the warm weeks of the year when school is closed and families travel
+collocations,morning flight,morning-flight,noun,a1,travel;time,a plane journey that leaves early in the day
+collocations,beach towel,beach-towel,noun,a1,travel;clothes,a large cloth you take to the shore to lie on and dry yourself
+collocations,train ticket,train-ticket,noun,a1,transport;travel,a small card that shows you have paid to travel by rail
+collocations,book a room,book-a-room,verb,a2,travel,to arrange in advance to have a place to sleep at a hotel
+collocations,book a flight,book-a-flight,verb,a2,travel;transport,to arrange and pay for a seat on a plane before you travel
+collocations,rent a car,rent-a-car,verb,a2,car;travel,to pay to use a vehicle for a short time
+collocations,call a taxi,call-a-taxi,verb,a2,transport,to phone a company and ask them to send a car with a driver
+collocations,ride a ferry,ride-a-ferry,verb,a2,travel;transport,to travel on a boat that carries people across water
+collocations,fill the tank,fill-the-tank,verb,a2,car;travel,to put fuel into a car until the container is full
+collocations,park the car,park-the-car,verb,a2,car;city,to leave a vehicle standing in a place for a time
+collocations,change trains,change-trains,verb,a2,transport;travel,to get off one train and get on another to continue
+collocations,take the subway,take-the-subway,verb,a2,transport;city,to travel around a city on the railway that runs under the streets
+collocations,visit a museum,visit-a-museum,verb,a2,travel;city,to go into a building full of art or old objects and look around
+collocations,take a tour,take-a-tour,verb,a2,travel;city,to go around a place with someone who explains what you see
+collocations,buy a souvenir,buy-a-souvenir,verb,a2,shopping;travel,to pay for a small object that reminds you of a place
+collocations,follow the signs,follow-the-signs,verb,a2,travel;city,to walk or drive the way the notices point
+collocations,load the car,load-the-car,verb,a2,car;travel,to put bags and boxes into a vehicle before a journey
+collocations,window seat,window-seat,noun,a2,travel;transport,the seat beside the glass in a plane or train
+collocations,round trip,round-trip,noun,a2,travel,a journey to a place and back again
+collocations,local train,local-train,noun,a2,transport;travel,a train that stops at every small station on its way
+collocations,traffic jam,traffic-jam,noun,a2,city;transport,a long line of vehicles that can barely move
+collocations,gas station,gas-station,noun,a2,car;travel,a place beside the road where you put fuel in a car
+collocations,one-way ticket,one-way-ticket,noun,a2,travel;transport,a ticket for travel to a place with no trip back
+collocations,board a plane,board-a-plane,verb,b1,transport;travel,to get on an aircraft before it leaves
+collocations,check your bags,check-your-bags,verb,b1,travel,to give your suitcases to the airline before you fly
+collocations,fasten your seatbelt,fasten-your-seatbelt,verb,b1,travel;transport,to close the strap that holds you in your seat
+collocations,pay the fare,pay-the-fare,verb,b1,money;transport,to give the money charged for a ride
+collocations,miss your connection,miss-your-connection,verb,b1,travel;time,to arrive too late for the next plane or train
+collocations,renew your passport,renew-your-passport,verb,b1,travel,to get more years added to the official book that lets you travel
+collocations,get a visa,get-a-visa,verb,b1,travel,to receive the official permission to enter a country
+collocations,boarding pass,boarding-pass,noun,b1,travel,the card that lets you walk onto a plane
+collocations,carry-on bag,carry-on-bag,noun,b1,travel;clothes,a small piece of luggage you keep with you on a plane
+collocations,road trip,road-trip,noun,b1,travel;car,a long journey by car for pleasure
+collocations,claim your baggage,claim-your-baggage,verb,b2,travel,to ask for your suitcases back after a flight
+collocations,upgrade your seat,upgrade-your-seat,verb,b2,travel,to move to a better place on the plane by paying more
+collocations,extend your stay,extend-your-stay,verb,b2,travel;time,to remain longer than you first planned
+collocations,beat the traffic,beat-the-traffic,verb,b2,city;transport,to travel before the roads fill with cars
+collocations,peak season,peak-season,noun,b2,travel;time,the busiest weeks of the year when prices are highest
+collocations,job interview,hiring-meeting,noun,a2,work,a formal meeting to decide whether to hire someone
+collocations,full-time job,forty-hour-work,noun,a2,work,a paid position of about forty hours a week
+collocations,monthly budget,monthly-spending-plan,noun,a2,money,a plan for spending within one month
+collocations,steady income,reliable-earnings,noun,a2,money;work,money that arrives regularly
+collocations,small business,local-company,noun,a2,work;money,a company with few employees
+collocations,office job,desk-based-position,noun,a2,work,a position done at a desk inside a building
+collocations,earn a salary,receive-fixed-pay,verb,a2,money;work,to receive fixed pay for your work
+collocations,answer emails,answer-messages,verb,a2,work;communication,to read and reply to messages at work
+collocations,pay cash,pay-with-bills,verb,a2,money;shopping,to give bills and coins instead of using a card
+collocations,start a business,open-own-company,verb,a2,work;money,to open your own company
+collocations,lead a team,guide-workgroup,verb,b1,work,to guide a group of employees
+collocations,run a company,manage-business,verb,b1,work;money,to control the daily operations of a business
+collocations,sign a contract,make-agreement-official,verb,b1,work;money,to make a formal agreement official with your name
+collocations,attend a meeting,be-present-at-discussion,verb,b1,work;communication,to be present at a planned discussion
+collocations,send an invoice,mail-payment-bill,verb,b1,money;work,to mail a bill for work already done
+collocations,negotiate a deal,bargain-terms,verb,b1,work;money,to discuss terms until both sides agree
+collocations,set a budget,plan-spending-limit,verb,b1,money;work,to decide in advance how money will be spent
+collocations,cut costs,reduce-spending,verb,b1,money;work,to reduce what a business spends
+collocations,increase sales,sell-more-goods,verb,b1,work;money,to sell more than before
+collocations,offer a discount,lower-the-price,verb,b1,shopping;money,to sell for less than the usual price
+collocations,train new staff,teach-new-hires,verb,b1,work,to teach recently hired people their tasks
+collocations,accept a job offer,say-yes-to-position,verb,b1,work,to agree to take a position you were offered
+collocations,handle a complaint,deal-with-customer-problem,verb,b1,work;communication,to deal with a customer who reports a problem
+collocations,give a presentation,speak-to-a-group,verb,b1,work;communication,to explain a topic to a group
+collocations,write a report,produce-written-account,verb,b1,work;communication,to produce a written account of facts
+collocations,meet a client,sit-down-with-customer,verb,b1,work,to sit down with a customer to discuss business
+collocations,borrow money,take-money-to-repay,verb,b1,money,to take money and agree to return it
+collocations,earn a living,make-enough-to-live,verb,b1,work;money,to make enough money to support yourself
+collocations,change jobs,switch-employer,verb,b1,work,to move to a different employer
+collocations,make a profit,earn-more-than-spent,verb,b1,money;work,to earn more than you spend
+collocations,annual salary,yearly-pay-total,noun,b1,money;work,the total pay for one year
+collocations,performance review,manager-evaluates-work,noun,b1,work,a manager's scheduled judgment of your work
+collocations,sick leave,time-off-when-ill,noun,b1,work;health,time off because you are ill
+collocations,business trip,employer-paid-journey,noun,b1,work;travel,a work journey paid for by your employer
+collocations,customer service,help-for-buyers,noun,b1,work;communication,help given to people who buy a product
+collocations,expand the business,grow-into-new-markets,verb,b2,work;money,to grow a company into new areas
+collocations,attract investors,win-backers,verb,b2,money;work,to persuade people to put money into your company
+collocations,generate revenue,bring-in-earnings,verb,b2,money;work,to bring in money from sales
+collocations,delegate tasks,assign-work-to-others,verb,b2,work,to give parts of your work to others
+collocations,implement a strategy,put-plan-into-action,verb,b2,work,to put a plan into action
+collocations,secure funding,obtain-project-money,verb,b2,money;work,to obtain the money a project needs
+collocations,forecast demand,predict-what-buyers-want,verb,b2,work;money,to estimate future customer demand
+collocations,submit a proposal,send-formal-plan,verb,b2,work;communication,to send a formal plan for approval
+collocations,resolve a conflict,settle-disagreement,verb,b2,work;relationships,to settle a serious disagreement
+collocations,build a reputation,earn-good-name,verb,b2,work,to earn a good name over time
+collocations,pursue a career,develop-professional-life,verb,b2,work,to develop your professional life in a field
+collocations,cover the costs,pay-for-everything-needed,verb,b2,money;work,to pay for everything a project requires
+collocations,profit margin,share-left-after-expenses,noun,b2,money;work,the share of a sale left after expenses
+collocations,market share,portion-of-sales,noun,b2,work;money,the portion of sales held by one company
+collocations,financial risk,chance-of-money-loss,noun,b2,money,the chance of losing money in a business choice
+collocations,go to school,attend-school,verb,a1,education,to spend the day in a place where children learn.
+collocations,read a book,read-book,verb,a1,education,to look at printed pages and follow the story or the facts in them.
+collocations,take a test,take-test,verb,a1,education,to answer a set of questions that shows how much you know.
+collocations,ask a question,ask-question,verb,a1,education;communication,to say something because you want to know the answer.
+collocations,spell a word,spell-word,verb,a1,education;communication,to say or write the letters of something in the right order.
+collocations,learn the alphabet,learn-alphabet,verb,a1,education,to memorize the full set of letters used to write a language.
+collocations,open your book,open-book,verb,a1,education,to pull the cover back so you can see the pages.
+collocations,write your name,write-name,verb,a1,education,to put the letters of what you are called on paper.
+collocations,learn new words,learn-new-words,verb,a1,education,to find out what unfamiliar expressions mean and remember them.
+collocations,school bag,bag-for-school,noun,a1,education,a container with straps that a child carries supplies in.
+collocations,school bus,bus-for-school,noun,a1,education;transport,a large yellow vehicle that takes children to their classes.
+collocations,language class,language-lesson,noun,a1,education,a lesson where people study a system of words used for speaking.
+collocations,school teacher,teacher-at-school,noun,a1,education;work,a person whose job is to help children learn in a classroom.
+collocations,new student,recently-enrolled-student,noun,a1,education,a person who has just started at a place of study and knows nobody.
+collocations,pencil case,pencil-container,noun,a1,education,a small container that holds the tools you write and draw with.
+collocations,learn a language,learn-language,verb,a2,education;communication,to become able to speak and understand the speech of another country.
+collocations,review your notes,go-over-notes,verb,a2,education,to read again what you wrote in class before a test.
+collocations,pass an exam,succeed-in-exam,verb,a2,education,to get a high enough score on an official test to succeed.
+collocations,fail a test,fail-test,verb,a2,education;emotions,to get a score that is too low to count as a success.
+collocations,take a class,enroll-in-class,verb,a2,education,to sign up for and attend a series of lessons on one subject.
+collocations,teach a class,instruct-class,verb,a2,education;work,to plan and lead a lesson for a group of learners.
+collocations,answer a question,reply-to-question,verb,a2,education;communication,to give the information that someone has asked for.
+collocations,write an essay,compose-essay,verb,a2,education,to produce a short piece of writing that explains one idea.
+collocations,raise your hand,signal-to-speak,verb,a2,education,to lift your arm in the air to show you want to speak.
+collocations,pay attention,focus-in-class,verb,a2,education,to keep your mind on what is happening around you.
+collocations,follow instructions,obey-steps,verb,a2,education,to do each step in the order someone told you.
+collocations,miss a class,be-absent-from-class,verb,a2,education,to be absent from a lesson you were supposed to attend.
+collocations,join a club,become-member,verb,a2,education;relationships,to become a member of a group that meets to share an interest.
+collocations,borrow a book,take-book-temporarily,verb,a2,education,to take a printed work from a library for a while and return it later.
+collocations,check your answers,review-responses,verb,a2,education,to look again at what you wrote to find your mistakes.
+collocations,final exam,end-of-term-test,noun,a2,education,the most important set of questions at the end of a course.
+collocations,good grade,high-mark,noun,a2,education,a high mark that shows strong work in a class.
+collocations,group project,team-assignment,noun,a2,education;work,a piece of schoolwork that several learners do together.
+collocations,online course,web-based-class,noun,a2,education;technology,a series of lessons that you follow on the internet.
+collocations,study group,students-studying-together,noun,a2,education;relationships,a small number of learners who meet to prepare together.
+collocations,attend a lecture,go-to-lecture,verb,b1,education,to be present at a long talk given to many students by an expert.
+collocations,solve a problem,work-out-answer,verb,b1,education,to work out the answer to a difficult question or situation.
+collocations,correct a mistake,fix-an-error,verb,b1,education,to find an error and make it right.
+collocations,memorize vocabulary,learn-words-by-heart,verb,b1,education,to fix a list of words and their meanings in your memory.
+collocations,get a degree,earn-degree,verb,b1,education,to finish a program at a college and receive its official document.
+collocations,choose a major,pick-main-subject,verb,b1,education,to decide which main subject you will study for your degree.
+collocations,skip class,miss-on-purpose,verb,b1,education,to stay away from a lesson on purpose without permission.
+collocations,improve your grades,raise-school-marks,verb,b1,education,to work so that your marks at school become higher.
+collocations,native speaker,fluent-first-language-user,noun,b1,education;communication,a person who learned a language as a child and uses it easily.
+collocations,study habits,learning-routines,noun,b1,education,the regular ways a person prepares for lessons and tests.
+collocations,submit an assignment,submit-finished-work,verb,b2,education;technology,to send finished schoolwork to a teacher by the deadline.
+collocations,do research,investigate-topic,verb,b2,education,to read and test things carefully to find new facts about a subject.
+collocations,win a scholarship,receive-study-funding,verb,b2,education;money,to be chosen to receive money that pays for your study.
+collocations,college tuition,university-cost,noun,b2,education;money,the money a university charges for teaching its students.
+collocations,term paper,long-course-essay,noun,b2,education,a long written report required during one part of the school year.
+collocations,catch a cold,catch-cold,verb,a1,health;body,to become sick with a mild infection that makes your nose run and your throat hurt.
+collocations,take medicine,take-medicine,verb,a1,health,to swallow a drug that a doctor or a pharmacist gives you to treat an illness.
+collocations,see a doctor,visit-a-doctor,verb,a1,health,to visit a medical professional so they can examine you and explain what is wrong.
+collocations,get some rest,rest-your-body,verb,a1,health;daily-routine,to stop working or moving for a while so your body can recover.
+collocations,cover your mouth,block-a-cough,verb,a1,health;body,to put your hand or a tissue in front of your face when you cough or sneeze.
+collocations,blow your nose,clear-your-nose,verb,a1,body;health,to push air out of your nose into a tissue so you can breathe again.
+collocations,cut your finger,cut-a-finger,verb,a1,body;health,to make a small opening in the skin of your hand with something sharp.
+collocations,have a fever,higher-body-heat,verb,a1,health;body,to be hotter than normal inside your body because you are sick.
+collocations,wash your face,clean-your-face,verb,a1,body;daily-routine,to clean the skin of your head with water and soap.
+collocations,sore throat,throat-pain,noun,a1,body;health,a painful scratchy feeling inside your neck that makes swallowing hard.
+collocations,runny nose,dripping-nose,noun,a1,body;health,a condition in which too much liquid keeps dripping from your nose.
+collocations,healthy diet,healthful-eating-plan,noun,a1,health;food,a way of eating that gives your body the right food to stay well.
+collocations,waiting room,clinic-seating-area,noun,a1,health,a place where people sit until it is their turn to be seen.
+collocations,first aid kit,home-medical-box,noun,a1,health;home,a box of bandages and simple medicines kept for small injuries.
+collocations,fire alarm,smoke-warning-device,noun,a1,home,a device that makes a loud noise when it detects smoke or heat.
+collocations,take your temperature,measure-body-heat,verb,a2,health;body,to use a small device to measure how hot your body is.
+collocations,wear a mask,face-covering,verb,a2,health;clothes,to cover your nose and mouth with a soft protective piece of cloth or paper.
+collocations,get a checkup,routine-medical-exam,verb,a2,health,to have a routine medical examination when nothing is wrong.
+collocations,take a painkiller,pain-relief-tablet,verb,a2,health,to swallow a tablet that makes the pain in your body weaker.
+collocations,take a deep breath,slow-deep-inhalation,verb,a2,health;body,to fill your lungs slowly with air and then let it out.
+collocations,break your arm,crack-an-arm-bone,verb,a2,body;health,to crack one of the long bones between your shoulder and your hand.
+collocations,twist your ankle,roll-an-ankle-joint,verb,a2,body;sports,to turn your foot too far so the joint above it hurts and swells.
+collocations,burn your hand,skin-hurt-by-heat,verb,a2,body;kitchen,"to hurt your skin with fire, hot water or steam."
+collocations,hurt your back,back-muscle-damage,verb,a2,body;health,to damage the muscles or bones behind you so moving becomes painful.
+collocations,see a dentist,visit-a-tooth-doctor,verb,a2,health,to visit a specialist who checks and repairs teeth.
+collocations,go to the pharmacy,buy-medicine-shop,verb,a2,health;shopping,to walk into a shop where medicines are sold and prescriptions are filled.
+collocations,call an ambulance,request-emergency-vehicle,verb,a2,health;city,to phone for a vehicle that takes sick people to a hospital.
+collocations,get a shot,receive-an-injection,verb,a2,health,to receive medicine through a thin needle in your arm.
+collocations,lift weights,exercise-with-heavy-objects,verb,a2,sports;body,to pick up heavy objects as exercise to make your muscles stronger.
+collocations,join a gym,become-a-gym-member,verb,a2,sports;health,to become a paying member of a place where people exercise.
+collocations,get enough sleep,enough-night-rest,verb,a2,health;daily-routine,to rest at night for as many hours as your body needs.
+collocations,get some fresh air,breathe-outdoor-air,verb,a2,health;nature,to go outside for a short time to breathe clean air.
+collocations,apply sunscreen,sun-protection-cream,verb,a2,health;body;weather,to rub a cream on your skin so the sun does not burn it.
+collocations,emergency exit,quick-way-out,noun,a2,city;transport,a door at the side of a building that people use to get out fast in danger.
+collocations,blood pressure,heart-pumping-force,noun,a2,health;body,the force your heart creates each time it pumps.
+collocations,lose weight,body-gets-lighter,verb,b1,health;body,to become lighter because your body uses more energy than it takes in.
+collocations,quit smoking,stop-cigarettes,verb,b1,health,to stop using cigarettes for good.
+collocations,manage stress,handle-daily-pressure,verb,b1,health;work,to keep the pressure of daily life at a level you can handle.
+collocations,prevent an infection,stop-germs-spreading,verb,b1,health,to stop germs from spreading inside a wound or your body.
+collocations,treat a patient,give-medical-help,verb,b1,health;work,to give medical help to a sick person.
+collocations,run a blood test,check-blood-in-lab,verb,b1,health;technology,to have a small amount of your blood checked in a laboratory.
+collocations,protect your skin,shield-your-skin,verb,b1,health;body;weather,"to keep your body's outer surface safe from sun, wind or chemicals."
+collocations,side effect,unwanted-medicine-reaction,noun,b1,health,an unwanted change in your body caused by a medicine.
+collocations,medical insurance,cover-doctor-costs,noun,b1,health;money,a plan you pay for that covers the cost of doctors and hospitals.
+collocations,emergency room,urgent-hospital-ward,noun,b1,health;city,the part of a hospital that treats people who need help at once.
+collocations,have surgery,body-repair-operation,verb,b2,health,to have an operation in which a doctor cuts your body to repair it.
+collocations,fight an infection,beat-germs-in-body,verb,b2,health,to use medicine and rest so your body can beat germs.
+collocations,fill a prescription,get-medicine-order,verb,b2,health;shopping,to take a doctor's written order to a pharmacy and receive the medicine.
+collocations,mental health,mind-wellbeing,noun,b2,health;emotions,the condition of your mind and how well you cope with feelings.
+collocations,allergic reaction,body-response-to-allergen,noun,b2,health;body,a sudden harmful response of your body to something usually harmless.
+collocations,spend time,be-together-for-a-while,verb,a1,relationships;time,to be with someone for a while because you enjoy their company
+collocations,call your mom,phone-your-mother,verb,a1,relationships;communication,to phone the woman who raised you for a short talk
+collocations,tell a story,narrate-events,verb,a1,communication;relationships,to describe a set of events out loud so that listeners can picture them
+collocations,hold hands,join-fingers-affectionately,verb,a1,relationships;body,to keep your fingers joined with another person's fingers as a sign of closeness
+collocations,give a gift,present-something,verb,a1,relationships;shopping,to hand someone a present without expecting money in return
+collocations,invite a friend,ask-guest-over,verb,a1,relationships;communication,to ask someone you like to come to your home or to an event
+collocations,have a party,host-a-celebration,verb,a1,relationships;home,"to bring people together at your home or another place for food, music and talk"
+collocations,have a baby,become-a-parent,verb,a1,relationships;health,to become a parent when a child is born to you
+collocations,write a letter,send-news-on-paper,verb,a1,communication,to put your news on paper and send it to someone by mail
+collocations,best friend,closest-companion,noun,a1,relationships,the person you like most and tell your news to first
+collocations,family member,person-in-your-family,noun,a1,relationships;home,a person who belongs to the same group of parents and children as you
+collocations,birthday party,celebration-of-birth,noun,a1,relationships;food,a gathering with cake and guests held to mark the yearly date of someone's birth
+collocations,family dinner,shared-evening-meal,noun,a1,food;home;relationships,an evening meal that parents and children eat together at home
+collocations,family vacation,trip-with-children,noun,a1,travel;relationships,a trip that parents and children take together for rest and fun
+collocations,family home,house-where-you-grew-up,noun,a1,home;relationships,the house where your parents live and where you grew up
+collocations,share a meal,eat-together,verb,a2,food;relationships,to eat food together with other people at one table
+collocations,tell a joke,say-something-funny,verb,a2,communication;emotions,to say something funny so that the people around you laugh
+collocations,have an argument,disagree-angrily,verb,a2,relationships;emotions;communication,to speak angrily with someone because you disagree about something
+collocations,say sorry,express-regret,verb,a2,communication;relationships,to tell someone that you regret something you did to them
+collocations,introduce yourself,state-your-name,verb,a2,communication;relationships,to tell a new person your name and a little about yourself
+collocations,shake hands,greet-with-hand,verb,a2,body;relationships,to hold and move another person's hand once as a greeting or an agreement
+collocations,text a friend,message-by-phone,verb,a2,communication;technology,to send a short written message by phone to someone you like
+collocations,make plans,arrange-future-activities,verb,a2,relationships;time,to decide what you and other people will do and when
+collocations,do a favor,help-someone-small,verb,a2,relationships,to help someone with a small task because you are kind
+collocations,celebrate a birthday,mark-annual-date,verb,a2,relationships;food,"to mark the yearly date of someone's birth with food, gifts or a party"
+collocations,attend a wedding,be-present-at-marriage,verb,a2,relationships,to be present at the ceremony where two people get married
+collocations,miss your family,long-for-relatives,verb,a2,emotions;relationships,to feel sad because the people you grew up with are far away
+collocations,old friend,long-known-friend,noun,a2,relationships;time,someone you have known for many years and still like
+collocations,only child,child-without-siblings,noun,a2,relationships;home,a person who grew up with no brothers or sisters
+collocations,happy marriage,contented-union,noun,a2,relationships;emotions,a lasting partnership of two people who enjoy living together and rarely fight
+collocations,wedding anniversary,yearly-marriage-date,noun,a2,relationships;time,the yearly date that marks the day two people got married
+collocations,dinner party,meal-with-guests,noun,a2,food;relationships;home,a planned evening meal at home with guests and several dishes
+collocations,childhood friend,friend-from-childhood,noun,a2,relationships;time,someone you knew and played with when you were young
+collocations,bad mood,cross-temperament,noun,a2,emotions,a passing state of feeling grumpy and hard to please
+collocations,childhood memory,recollection-from-youth,noun,a2,emotions;time,something you remember from the years when you were young
+collocations,support your family,provide-for-relatives,verb,b1,relationships;money,to earn and provide what your relatives need to live
+collocations,raise a child,care-for-child,verb,b1,relationships;home,to care for a child until they are grown
+collocations,build trust,earn-confidence,verb,b1,relationships;work,to earn someone's confidence slowly through honest acts over time
+collocations,control your emotions,keep-feelings-in-check,verb,b1,emotions;health,to keep strong feelings from deciding what you say or do
+collocations,give advice,offer-guidance,verb,b1,communication;relationships,to tell someone what you think they should do about a problem
+collocations,break a promise,fail-to-do-as-said,verb,b1,relationships;communication,to fail to do what you told someone you would do
+collocations,close family,warm-tight-relatives,noun,b1,relationships;emotions,parents and children who share their feelings and help each other often
+collocations,family gathering,relatives-meeting-up,noun,b1,relationships;home,an occasion when relatives come together in one place
+collocations,strong feelings,intense-emotions,noun,b1,emotions,powerful emotions that are hard to ignore
+collocations,romantic relationship,love-partnership,noun,b1,relationships;emotions,a close connection between two people who love each other
+collocations,lose your temper,become-suddenly-angry,verb,b2,emotions;relationships,to become suddenly angry and stop speaking calmly
+collocations,hide your feelings,conceal-emotions,verb,b2,emotions;communication,to stop other people from seeing what you feel
+collocations,return a favor,repay-kindness,verb,b2,relationships;communication,to help someone who helped you earlier in the same way
+collocations,mutual respect,shared-regard,noun,b2,relationships;work,a shared regard in which each person values the other
+collocations,sudden anger,quick-fury,noun,b2,emotions,a quick rush of fury that comes without warning
+collocations,have a conversation,talk-with-someone,verb,a2,communication,to talk with someone in a relaxed way for a while
+collocations,start a conversation,begin-talking,verb,a2,communication,to be the first person to speak to someone
+collocations,send a message,send-text,verb,a2,communication;technology,to write something to someone and deliver it through a phone or computer
+collocations,leave a message,record-voicemail,verb,a2,communication,to record your voice on a phone when the other person does not answer
+collocations,say hello,greet-with-words,verb,a2,communication,to greet someone with words when you meet them
+collocations,hear the news,learn-what-happened,verb,a2,communication,to find out about something important that has just happened
+collocations,watch the news,view-broadcast,verb,a2,communication,to look at a television program that reports what is happening in the world
+collocations,video call,camera-meeting,noun,a2,technology;communication,a meeting where people see and hear each other through their computers or phones
+collocations,local news,area-reporting,noun,a2,communication,reports about events in the town or area where you live
+collocations,text message,written-phone-note,noun,a2,communication;technology,a short written note that you send to someone on a phone
+collocations,share an opinion,tell-what-you-think,verb,b1,communication,to tell other people what you think about something
+collocations,express concern,show-worry,verb,b1,communication;emotions,to say that you are worried about something
+collocations,make a point,state-main-argument,verb,b1,communication,to say clearly what the most important part of your argument is
+collocations,change your mind,decide-differently,verb,b1,communication,to decide something different from what you decided before
+collocations,join a discussion,take-part-in-talk,verb,b1,communication,to become part of a group that is talking about something
+collocations,follow the news,keep-up-with-events,verb,b1,communication,to read or watch reports often so you know what is happening
+collocations,spread the word,tell-everyone,verb,b1,communication,to tell many people about something so the information travels
+collocations,give an example,illustrate-with-case,verb,b1,communication;education,to mention a case that shows what you mean
+collocations,take advice,follow-guidance,verb,b1,communication,to do what someone suggests you should do
+collocations,change the subject,switch-topic,verb,b1,communication,to start talking about something different
+collocations,raise a question,bring-up-issue,verb,b1,communication,to mention something that needs to be discussed or answered
+collocations,make a complaint,express-dissatisfaction,verb,b1,communication,to tell someone officially that you are not satisfied with something
+collocations,settle an argument,end-dispute,verb,b1,communication,to end a disagreement so that people stop fighting
+collocations,make a statement,say-formally,verb,b1,communication,to say something official or serious in public
+collocations,give a speech,deliver-talk,verb,b1,communication,to speak to a group of people for a planned length of time
+collocations,raise your voice,speak-loudly-angry,verb,b1,communication;emotions,to speak much more loudly because you are angry
+collocations,leave a comment,post-online-reply,verb,b1,communication;technology,to write a short reaction under something you read online
+collocations,hold a meeting,conduct-gathering,verb,b1,work;communication,to bring people together so they can discuss something
+collocations,honest opinion,truthful-view,noun,b1,communication,"a view that someone tells you truthfully, even when it is not nice"
+collocations,lively discussion,energetic-talk,noun,b1,communication,a talk in which people are excited and everyone has something to say
+collocations,brief conversation,short-talk,noun,b1,communication,a quick talk with someone that lasts only a few minutes
+collocations,awkward silence,uncomfortable-quiet,noun,b1,communication;emotions,a moment when nobody speaks and everyone feels uncomfortable
+collocations,clear explanation,easy-to-understand-account,noun,b1,communication,a description that is easy to follow and leaves nothing confusing
+collocations,strong opinion,firm-belief,noun,b1,communication,a belief that someone holds firmly and is not likely to change
+collocations,news report,broadcast-story,noun,b1,communication,"a description of recent events that appears on television, radio or in a paper"
+collocations,speak your mind,say-openly-what-you-think,verb,b2,communication,"to say exactly what you believe, even when others may not like it"
+collocations,take sides,support-one-party,verb,b2,communication,to choose one person or group in a disagreement and support them
+collocations,set the record straight,correct-false-impression,verb,b2,communication,to explain the facts so that a wrong idea stops spreading
+collocations,clear the air,resolve-tension,verb,b2,communication;emotions,to talk about a problem so that people stop feeling angry or awkward
+collocations,fact-check a claim,verify-statement,verb,b2,communication,to find out whether a public statement is actually true
+collocations,make small talk,chat-politely,verb,b2,communication,to have a polite conversation about unimportant things
+collocations,get the gist,understand-main-idea,verb,b2,communication,to understand the main idea without every detail
+collocations,keep an open mind,stay-receptive,verb,b2,communication,to be willing to consider ideas that are new or different
+collocations,lead a discussion,guide-conversation,verb,b2,communication;work,to control a group talk so that everyone gets a chance to speak
+collocations,heated debate,angry-discussion,noun,b2,communication,an argument in which people speak strongly and refuse to agree
+collocations,public opinion,views-of-many,noun,b2,communication,what most people in a society think about an issue
+collocations,open question,unresolved-issue,noun,b2,communication,a problem that still has no clear answer
+collocations,constructive criticism,helpful-evaluation,noun,b2,communication;work,comments about your work that point out problems and suggest ways to fix them
+collocations,press release,official-statement,noun,b2,communication;work,a short official text that a company gives to reporters
+collocations,mixed signals,conflicting-hints,noun,b2,communication,messages that seem to point in different directions and confuse people
+collocations,go shopping,visit-stores,verb,a1,shopping;daily-routine,to visit one or more stores in order to buy things.
+collocations,buy clothes,purchase-garments,verb,a1,shopping;clothes,"to pay money for the shirts, pants and other things you wear."
+collocations,wear a dress,have-dress-on,verb,a1,clothes,to have a one-piece outfit with a skirt on your body.
+collocations,wear a sweater,have-sweater-on,verb,a1,clothes;weather,to have a warm knitted top on your body.
+collocations,spend money,use-earnings-to-buy,verb,a1,money;shopping,to use part of what you earn to pay for things.
+collocations,try a jacket,try-jacket-for-fit,verb,a1,clothes;shopping,to put on a short coat for a moment to see how it looks and feels.
+collocations,buy a gift,purchase-gift,verb,a1,shopping;relationships,to pay money for something you will give to another person.
+collocations,count the change,add-up-returned-coins,verb,a1,money;shopping,to add up the coins and bills that someone hands back to you.
+collocations,black dress,dark-formal-dress,noun,a1,clothes;color,a very dark one-piece outfit with a skirt that is worn to work or to a party.
+collocations,new shoes,recently-bought-pair,noun,a1,clothes,a pair of coverings for your feet that someone has just bought or received.
+collocations,low price,small-amount-paid,noun,a1,money;shopping,a small amount of money that you pay for something.
+collocations,shopping cart,wheeled-store-basket,noun,a1,shopping,a large basket on wheels that you push around a store to hold what you pick up.
+collocations,winter coat,heavy-cold-weather-coat,noun,a1,clothes;weather,a long heavy piece of outer clothing worn in cold weather.
+collocations,blue jeans,dark-denim-pants,noun,a1,clothes;color,pants made of strong cotton cloth that are dyed a dark blue.
+collocations,big sale,store-wide-price-cut,noun,a1,shopping;money,a short period when a store sells many things at lower prices.
+collocations,check the price,look-up-cost,verb,a2,shopping;money,to look at how much something costs before you decide.
+collocations,check the size,read-clothing-label,verb,a2,clothes;shopping,to look at the label inside a piece of clothing to see whether it will fit you.
+collocations,compare prices,check-costs-across-stores,verb,a2,shopping;money,to look at what several stores charge for the same thing before you buy.
+collocations,get a refund,receive-money-back,verb,a2,money;shopping,to receive your money back for something you take back to a store.
+collocations,keep the receipt,hold-proof-of-payment,verb,a2,shopping;money,"to hold on to the small paper that proves you paid, in case you return something."
+collocations,exchange a shirt,swap-bought-clothing,verb,a2,clothes;shopping,to give back clothing you bought and take a different one from the store.
+collocations,return an item,bring-purchase-back,verb,a2,shopping,to bring something you bought back to the store.
+collocations,make a shopping list,write-before-shopping,verb,a2,shopping;daily-routine,to write down the things you plan to buy before you go to the store.
+collocations,use a credit card,pay-by-plastic,verb,a2,money;shopping,to pay for something by putting a small plastic piece from your bank into a machine.
+collocations,wear a suit,have-formal-set-on,verb,a2,clothes;work,to have a matching jacket and pants on for work or a formal event.
+collocations,get a discount,pay-below-usual,verb,a2,money;shopping,to pay less than the usual amount for something.
+collocations,wrap a gift,cover-present-in-paper,verb,a2,shopping;relationships,to cover something you are giving away in colored paper.
+collocations,special offer,limited-better-deal,noun,a2,shopping;money,"a deal that a store gives for a short time, with a lower cost than usual."
+collocations,clothing store,shop-selling-garments,noun,a2,shopping;clothes,a shop where you can buy things to wear.
+collocations,price tag,label-showing-cost,noun,a2,shopping;money,a small piece of paper or plastic that shows how much something costs.
+collocations,fitting room,cabin-for-trying-clothes,noun,a2,shopping;clothes,a small closed space in a store where you put clothes on to see if they fit.
+collocations,cotton shirt,soft-natural-cloth-top,noun,a2,clothes,a top made from a soft natural cloth that breathes well in warm weather.
+collocations,leather jacket,animal-hide-coat,noun,a2,clothes,a short coat made from the treated skin of an animal.
+collocations,good deal,worthwhile-purchase,noun,a2,money;shopping,something you buy for less money than it is really worth.
+collocations,online store,internet-shop,noun,a2,shopping;technology,a business that sells things on the internet and sends them to your home.
+collocations,find a bargain,come-across-cheap-good,verb,b1,shopping;money,to come across something good that costs much less than usual.
+collocations,choose an outfit,pick-clothes-to-wear,verb,b1,clothes,to decide which set of clothes to put on.
+collocations,set a trend,start-a-fashion,verb,b1,clothes,to be the first to wear or do something that many people then copy.
+collocations,lower the price,cut-cost,verb,b1,shopping;money,to make something cost less than before.
+collocations,keep the change,leave-extra-money,verb,b1,money,to let the cashier have the extra coins from your payment.
+collocations,pay a deposit,pay-part-in-advance,verb,b1,money;shopping,to hand over part of the cost now so the store will hold something for you.
+collocations,checkout line,queue-for-registers,noun,b1,shopping,the row of people waiting to pay near the front of a store.
+collocations,fashion show,runway-clothing-event,noun,b1,clothes,an event where models walk in new clothes so people can see them.
+collocations,designer clothes,brand-name-garments,noun,b1,clothes;shopping,expensive items to wear that carry the name of a famous maker.
+collocations,full price,cost-without-reduction,noun,b1,money;shopping,"the whole amount a store asks, before any reduction."
+collocations,browse the racks,scan-hanging-clothes,verb,b2,shopping,to walk slowly along the rows of hanging clothes without a clear goal.
+collocations,negotiate a price,bargain-over-cost,verb,b2,money;shopping,to talk with a seller until you both accept an amount.
+collocations,brand loyalty,repeat-brand-buying,noun,b2,shopping;money,the habit of always buying from the same company because you trust it.
+collocations,sustainable fashion,eco-friendly-clothing,noun,b2,clothes;nature,the making and wearing of clothes in a way that does not harm the planet.
+collocations,clearance sale,leftover-stock-event,noun,b2,shopping;money,an event where a store sells the last of its stock very cheaply.
+collocations,plant a tree,put-tree-in-ground,verb,a1,nature;city,to put a young tree into the ground so that it can grow there.
+collocations,fly a kite,send-kite-into-air,verb,a1,nature;sports,to send a light object with a long string up into the air and keep it there.
+collocations,feed the birds,give-food-to-birds,verb,a1,animals;nature,to give food to the small birds that live outside.
+collocations,take a walk,walk-for-pleasure,verb,a1,nature;daily-routine,"to go outside and walk for a while, usually for pleasure."
+collocations,sit on a bench,rest-on-bench,verb,a1,city,"to rest on a long seat for two or more people, usually outdoors."
+collocations,cross the bridge,go-over-bridge,verb,a1,city;transport,to walk or drive over a structure that carries a road across a river or another road.
+collocations,pick flowers,gather-flowers,verb,a1,nature,to take flowers from a plant or a field with your hands.
+collocations,climb a hill,go-up-hill,verb,a1,nature;sports,to walk up a raised piece of land that is smaller than a mountain.
+collocations,city center,middle-of-city,noun,a1,city,the area in the middle of a city where most shops and offices are.
+collocations,public park,open-space-for-everyone,noun,a1,city;nature,an open area with grass and trees that anyone can use.
+collocations,sunny day,bright-day,noun,a1,weather,a day when the sun shines and there are few clouds.
+collocations,strong wind,powerful-wind,noun,a1,weather,air that moves quickly and with force.
+collocations,clear sky,cloudless-sky,noun,a1,weather,the open space above you when there are no clouds in it.
+collocations,wild animal,untamed-creature,noun,a1,animals;nature,a creature that lives in nature and is not kept by people.
+collocations,open field,land-with-no-buildings,noun,a1,nature,a wide area of land with no buildings or trees on it.
+collocations,go hiking,walk-in-nature,verb,a2,nature;sports,to walk for a long time in the countryside or mountains for pleasure.
+collocations,build a fire,make-a-fire,verb,a2,nature,to arrange wood and light it so that it burns for warmth or cooking.
+collocations,rake the leaves,gather-fallen-leaves,verb,a2,nature;home,to pull fallen leaves into a pile with a long garden tool.
+collocations,shovel the snow,clear-snow-from-ground,verb,a2,weather;home,to move snow away from a path or road with a wide flat tool.
+collocations,watch the sunset,see-sun-go-down,verb,a2,nature,to look at the sun as it goes down at the end of the day.
+collocations,go camping,sleep-outdoors-in-tent,verb,a2,nature;travel,to spend a night or more outdoors in a tent.
+collocations,swim in the lake,swim-in-lake-water,verb,a2,nature;sports,to move through the water of a lake for fun or exercise.
+collocations,row a boat,move-boat-with-oars,verb,a2,nature;sports,to move a small boat through the water with long wooden poles.
+collocations,grow vegetables,raise-food-plants,verb,a2,nature;food,to plant and care for plants that you can eat.
+collocations,go fishing,catch-fish-for-pleasure,verb,a2,nature,"to try to catch fish with a line and hook, usually for pleasure."
+collocations,look at the stars,watch-night-sky,verb,a2,nature,to watch the small lights in the night sky.
+collocations,enjoy the view,admire-scenery,verb,a2,nature;travel,to take pleasure in the things you can see from a place.
+collocations,play in the snow,have-fun-in-snow,verb,a2,weather,to have fun outside in the soft white flakes that fall in winter.
+collocations,build a snowman,make-snow-figure,verb,a2,weather,"to make a figure out of snow, usually with a round body and head."
+collocations,wear a raincoat,have-raincoat-on,verb,a2,weather;clothes,to have a waterproof coat on your body.
+collocations,carry an umbrella,take-umbrella-along,verb,a2,weather,to take a folding cover for rain with you when you go out.
+collocations,check the weather,look-up-forecast,verb,a2,weather,to find out what the temperature and rain will be like today or tomorrow.
+collocations,weather forecast,prediction-of-weather,noun,a2,weather,a report that says what the temperature and rain will be like soon.
+collocations,apartment building,block-of-apartments,noun,a2,city;home,a large building with many homes inside it.
+collocations,public library,free-library,noun,a2,city;education,a place where anyone can borrow books without paying.
+collocations,take shelter,hide-from-weather,verb,b1,weather,to go inside or under something so that rain or wind cannot reach you.
+collocations,sweep the sidewalk,clean-sidewalk,verb,b1,city,to clean the path beside a street with a long brush.
+collocations,take a shortcut,use-shorter-way,verb,b1,city;transport,to use a way that is shorter than the usual one.
+collocations,avoid the crowds,stay-away-from-crowds,verb,b1,city;travel,to stay away from places where many people are together.
+collocations,pitch a tent,raise-tent-for-sleeping,verb,b1,nature;travel,to raise a small cloth shelter on poles so that you can sleep outside.
+collocations,reach the summit,get-to-top,verb,b1,nature;sports,to arrive at the highest point of a mountain.
+collocations,heat wave,hot-weather-period,noun,b1,weather,a period of unusually hot weather that lasts several days.
+collocations,thick fog,heavy-fog,noun,b1,weather,a cloud near the ground that makes it hard to see far.
+collocations,icy road,frozen-road,noun,b1,weather;transport,a street covered with a thin layer of ice that makes driving dangerous.
+collocations,dense forest,thick-forest,noun,b1,nature,a large area of land where trees grow close together.
+collocations,brave the cold,go-out-in-cold,verb,b2,weather,to go outside and face very low temperatures.
+collocations,combat climate change,fight-climate-change,verb,b2,nature;city,to take action to reduce the long-term rise in world temperatures.
+collocations,draw a crowd,attract-many-people,verb,b2,city;music,to make a large number of people come to watch or listen.
+collocations,urban sprawl,city-spread,noun,b2,city,the spread of a city into the open land around it.
+collocations,carbon footprint,pollution-measure,noun,b2,nature,the amount of pollution that a person or an activity adds to the air over time.
+collocations,charge a phone,charge-phone,verb,a2,technology;daily-routine,to put electricity into a phone so its battery can work again.
+collocations,download an app,download-app,verb,a2,technology,to copy a program from the internet onto your phone so you can use it.
+collocations,save a file,save-file,verb,a2,technology;work,to store a document in a computer so you can open it again later.
+collocations,delete a file,delete-file,verb,a2,technology;work,to remove a document from a computer for good.
+collocations,answer a call,answer-call,verb,a2,communication;technology,to pick up the phone when someone is ringing you and speak to them.
+collocations,check the time,check-time,verb,a2,time;daily-routine,to look at a clock or phone to see the hour and minute.
+collocations,buy a charger,buy-charger,verb,a2,technology;shopping,to pay for a small device that puts electricity into a battery.
+collocations,dead battery,battery-no-power,noun,a2,technology,a battery that has no power left and cannot make a device work.
+collocations,free time,free-time,noun,a2,time;daily-routine,the hours when you have no work or duties and can choose what to do.
+collocations,alarm clock,alarm-clock,noun,a2,home;time,a small clock beside the bed that makes a loud sound to wake you.
+collocations,print a document,print-document,verb,b1,technology;work,to send a computer file to a machine that puts it on paper.
+collocations,attach a file,attach-file,verb,b1,technology;work,to add a document to an email so the other person receives it too.
+collocations,reply to an email,reply-email,verb,b1,work;communication,to write an answer and send it back to the person who wrote to you.
+collocations,forward an email,forward-email,verb,b1,work;communication,to send a message you received on to another person.
+collocations,create an account,create-account,verb,b1,technology,to set up a personal profile with a password so you can use a service.
+collocations,reset a password,reset-password,verb,b1,technology,to choose a new secret word for a service because you cannot remember the old one.
+collocations,share your screen,share-screen,verb,b1,technology;work,to show what is on your computer to other people in an online meeting.
+collocations,restart the computer,restart-computer,verb,b1,technology,to turn a machine off and on again so it starts fresh.
+collocations,stream a movie,stream-movie,verb,b1,technology;daily-routine,to watch a film over the internet instead of from a disc.
+collocations,update the software,update-software,verb,b1,technology,to put the newest version of a program on a device.
+collocations,connect to the internet,connect-internet,verb,b1,technology,to join a network so a device can go online.
+collocations,lose the signal,lose-signal,verb,b1,technology;communication,to stop receiving the connection that lets a phone make calls or go online.
+collocations,check your schedule,check-schedule,verb,b1,time;work,to look at your list of appointments to see what is planned.
+collocations,cancel a meeting,cancel-meeting,verb,b1,work;time,to decide that a planned discussion will not happen.
+collocations,miss an appointment,miss-appointment,verb,b1,time;health,to fail to go to a time you had arranged to see someone.
+collocations,lose track of time,lose-track-time,verb,b1,time;daily-routine,to become so busy that you do not notice how late it is.
+collocations,waste time,waste-time,verb,b1,time;work,to spend hours on things that are not useful or necessary.
+collocations,daily schedule,daily-schedule,noun,b1,time;daily-routine,the plan of what you do at each hour of an ordinary day.
+collocations,tight schedule,tight-schedule,noun,b1,work;time,a plan with so much in it that there is almost no free time.
+collocations,rush hour,rush-hour,noun,b1,city;time,the time of day when roads and trains are busiest because people travel to or from work.
+collocations,day off,day-off,noun,b1,work;time,a day when you do not go to work and can rest.
+collocations,screen time,screen-time,noun,b1,technology;health,"the hours a person spends looking at a phone, computer or television."
+collocations,charging cable,charging-cable,noun,b1,technology,a wire that carries electricity from a plug to a device.
+collocations,social media,social-media,noun,b1,technology;communication,websites and apps where people post updates and talk with friends.
+collocations,search engine,search-engine,noun,b1,technology,a website that helps you find pages on the internet by typing words.
+collocations,reschedule a meeting,reschedule-meeting,verb,b2,work;time,to change the time of a planned discussion to a different hour.
+collocations,mute your microphone,mute-microphone,verb,b2,technology;work,to turn off the part that carries your voice during an online meeting.
+collocations,clear the cache,clear-cache,verb,b2,technology,to empty the stored data that a browser keeps and that can slow a device down.
+collocations,adjust the volume,adjust-volume,verb,b2,technology,to make the sound of a device quieter or louder.
+collocations,decline a call,decline-call,verb,b2,communication;technology,to press the button that refuses an incoming phone call.
+collocations,extend a deadline,extend-deadline,verb,b2,work;time,to move the final date for a piece of work to a later day.
+collocations,restore a backup,restore-backup,verb,b2,technology,to put saved copies of your data back on a device after losing them.
+collocations,protect your privacy,protect-privacy,verb,b2,technology;communication,to keep your personal information safe from people who should not see it.
+collocations,sync your calendar,sync-calendar,verb,b2,technology;time,to make the same events appear on every device you use.
+collocations,track your time,track-time,verb,b2,time;work,to record how many hours you spend on each task.
+collocations,time management,time-management,noun,b2,time;work,the skill of using your hours well so that tasks get done.
+collocations,battery life,battery-life,noun,b2,technology,the length of time a device can run before its battery is empty.
+collocations,technical support,technical-support,noun,b2,technology;work,help from a company when a device or program stops working.
+collocations,time zone,time-zone,noun,b2,time;travel,one of the regions of the world that share the same clock time.
+collocations,internet speed,internet-speed,noun,b2,technology,how fast data moves to and from your device.
+collocations,play tennis,play-tennis,verb,a1,sports,to take part in the sport where players hit a ball over a net
+collocations,play soccer,play-soccer,verb,a1,sports,to take part in the sport where two teams kick a ball
+collocations,play a game,play-a-game,verb,a1,sports,to take part in an activity with rules for fun or competition
+collocations,sing a song,sing-a-song,verb,a1,music,to make music with your voice
+collocations,play the piano,play-the-piano,verb,a1,music,to make music on a large keyboard instrument
+collocations,watch a game,watch-a-game,verb,a1,sports,to look at a sports competition
+collocations,kick a ball,kick-a-ball,verb,a1,sports,to hit a round object with your foot
+collocations,catch a ball,catch-a-ball,verb,a1,sports,to take hold of a moving round object with your hands
+collocations,play cards,play-cards,verb,a1,home,to take part in a table game with printed pieces of stiff paper
+collocations,play video games,play-video-games,verb,a1,technology,to play electronic games on a screen
+collocations,score a goal,score-a-goal,verb,a2,sports,to get a point by sending the ball into the net
+collocations,win a match,win-a-match,verb,a2,sports,to finish a competition with a better result
+collocations,lose a game,lose-a-game,verb,a2,sports,to finish a competition with a worse result
+collocations,join a team,join-a-team,verb,a2,sports,to become a member of a group that competes in a sport
+collocations,play chess,play-chess,verb,a2,home,to take part in a board game about trapping the other king
+collocations,catch a fish,catch-a-fish,verb,a2,nature,to use a line and hook to take a water animal from a river or lake
+collocations,paint a picture,paint-a-picture,verb,a2,home,to make an image with a brush and colored liquid
+collocations,write a song,write-a-song,verb,a2,music,to create words and music for a piece people can sing
+collocations,download a song,download-a-song,verb,a2,technology,to copy a piece of music from the internet onto a device
+collocations,play the drums,play-the-drums,verb,a2,music,to make music by hitting round instruments with sticks
+collocations,support a team,support-a-team,verb,a2,sports,to follow a sports club and want it to win
+collocations,score a point,score-a-point,verb,a2,sports,to get a single unit in the count of a game
+collocations,record a song,record-a-song,verb,b1,music,to capture a performance of a piece of music
+collocations,attend a concert,attend-a-concert,verb,b1,music,to go to a public performance of musicians
+collocations,break a record,break-a-record,verb,b1,sports,to achieve a better result than anyone before in a sport
+collocations,run a marathon,run-a-marathon,verb,b1,sports;health,to complete a long race on foot of about twenty six miles
+collocations,edit a video,edit-a-video,verb,b1,technology,to cut and arrange recorded footage into a finished piece
+collocations,tune a guitar,tune-a-guitar,verb,b1,music,to adjust the strings of an instrument so each sounds correct
+collocations,climb a mountain,climb-a-mountain,verb,b1,travel;nature,to go up a very high hill on foot
+collocations,release an album,release-an-album,verb,b1,music,to make a collection of recorded songs available
+collocations,favorite song,favorite-song,noun,a1,music,the piece of music you like more than any other
+collocations,sports team,sports-team,noun,a1,sports,a group of players who compete under the same name
+collocations,video game,video-game,noun,a1,technology,an electronic activity on a screen with a controlled character or world
+collocations,pop song,pop-song,noun,a1,music,a short piece of popular music with a catchy melody
+collocations,tennis ball,tennis-ball,noun,a1,sports,a small round object covered in soft fabric that players hit over a net
+collocations,movie theater,movie-theater,noun,a1,city,a building where people watch films on a large screen
+collocations,free ticket,free-ticket,noun,a1,music;money,a pass that lets you enter an event without paying
+collocations,live music,live-music,noun,a1,music,songs performed in front of an audience
+collocations,music class,music-class,noun,a1,music;education,a period at school when students learn about songs and sound
+collocations,running shoes,running-shoes,noun,a1,clothes;sports,soft shoes with thick soles made for jogging
+collocations,soccer game,soccer-game,noun,a2,sports,a single competition between two teams that kick a ball
+collocations,board game,board-game,noun,a2,home,an activity played on a flat surface with pieces and rules
+collocations,rock band,rock-band,noun,a2,music,a group of musicians who play loud guitar music
+collocations,music festival,music-festival,noun,a2,music;city,an outdoor event with many musical performances over several days
+collocations,sports car,sports-car,noun,a2,car,a low fast vehicle built for speed and quick handling
+collocations,tennis racket,tennis-racket,noun,a2,sports,a light bat with strings used to hit a ball over a net
+collocations,guitar lesson,guitar-lesson,noun,a2,music;education,a class where someone teaches you to play a stringed instrument
+collocations,sports fan,sports-fan,noun,a2,sports,a person who follows and supports a team or athlete
+collocations,concert hall,concert-hall,noun,b1,music;city,a large room built for live performances with good sound
+collocations,drum kit,drum-kit,noun,b1,music,a set of round percussion instruments for one player
+collocations,hard work,sustained-effort,noun,a2,work,effort that takes real energy and does not come easily.
+collocations,terrible headache,very-painful-head,noun,a2,health;body,a pain in your head that is strong enough to stop you working.
+collocations,long weekend,three-day-break,noun,a2,time,a break from work that lasts three days because a Monday or Friday is free.
+collocations,bad weather,stormy-conditions,noun,a2,weather,wind and rain that make it unpleasant or unsafe to be outside.
+collocations,busy street,crowded-road,noun,a2,city,a road with many cars and people on it at the same time.
+collocations,small apartment,limited-living-space,noun,a2,home,a home with few rooms and not much space to move around.
+collocations,hot shower,warm-washing-water,noun,a2,daily-routine;home,a wash under warm running water that relaxes your muscles.
+collocations,green tea,tea-from-green-leaves,noun,a2,food,"a hot drink made from leaves that are never roasted, pale in the cup and mild in taste."
+collocations,long line,row-of-waiting-people,noun,a2,shopping,a row of people waiting one behind another for the same thing.
+collocations,heavy jacket,thick-warm-coat,noun,a2,clothes,a thick outer piece of clothing that keeps you warm in cold air.
+collocations,deep sleep,rest-without-waking,noun,b1,health;daily-routine,rest in which you do not wake up during the night.
+collocations,major problem,serious-difficulty,noun,b1,work,a difficulty big enough to stop something working as it should.
+collocations,close attention,careful-focus,noun,b1,education,the act of watching or listening with great care so nothing is missed.
+collocations,steady progress,even-improvement,noun,b1,education;work,change for the better that keeps happening at a similar rate.
+collocations,serious injury,bad-bodily-harm,noun,b1,health;sports,damage to the body that needs medical care and time to heal.
+collocations,light rain,gentle-falling-water,noun,b1,weather,water falling in small drops that does not soak you quickly.
+collocations,warm welcome,friendly-reception,noun,b1,relationships;communication,a kind and friendly way of greeting someone who arrives.
+collocations,public transport,shared-transit-system,noun,b1,transport,buses and trains that anyone can pay to ride.
+collocations,natural light,daylight-through-windows,noun,b1,home,daylight that comes from the sun through a window rather than from a lamp.
+collocations,tough decision,hard-choice,noun,b1,work;emotions,a choice between options that each cost you something.
+collocations,sharp knife,cutting-blade,noun,b1,kitchen,a tool with a thin metal edge that cuts cleanly.
+collocations,flat tire,deflated-wheel,noun,b1,car;transport,a wheel with a rubber ring that has lost its air.
+collocations,stray cat,homeless-feline,noun,b1,animals;city,an animal with soft fur and whiskers that has no owner and lives outdoors.
+collocations,slow connection,weak-internet-link,noun,b1,technology,an internet link that takes a long time to load pages and videos.
+collocations,rough sea,stormy-ocean,noun,b1,nature;travel,water with big waves that tosses a boat around.
+collocations,severe drought,long-water-shortage,noun,b2,nature;weather,a long period with almost no rain that dries up the land.
+collocations,widespread damage,broad-harm,noun,b2,nature,harm that reaches many places or affects many things at once.
+collocations,mounting pressure,growing-strain,noun,b2,work;emotions,stress that keeps building up as more is expected of you.
+collocations,slight delay,short-wait,noun,b2,transport;time,a wait that lasts a little longer than planned.
+collocations,bitter disappointment,sharp-letdown,noun,b2,emotions,a strong feeling of sadness when something hoped for does not happen.
+collocations,sheer determination,pure-resolve,noun,b2,emotions,"the quality of refusing to give up, with nothing else helping you."
+collocations,growing concern,rising-worry,noun,b2,health;emotions,worry that more and more people feel as a situation gets worse.
+collocations,harsh criticism,severe-disapproval,noun,b2,communication,strong words that point out faults without softening them.
+collocations,acute shortage,critical-lack,noun,b2,money;work,a situation where far too little of something is available.
+collocations,fierce competition,intense-rivalry,noun,b2,sports;work,a contest in which everyone tries very hard to win.
+collocations,subtle difference,fine-distinction,noun,b2,education;communication,a small change in meaning or detail that is easy to miss.
+collocations,unanimous decision,shared-agreement,noun,b2,work,a choice that every person in the group votes for.
+collocations,thorough investigation,full-inquiry,noun,b2,city;work,a careful search for facts that checks every part of a case.
+collocations,marked improvement,clear-betterment,noun,b2,education;health,a change for the better that is easy to see.
+collocations,sharp increase,sudden-rise,noun,b2,money,a quick and large jump in an amount or number.
+collocations,extremely tired,very-worn-out,adjective,b1,daily-routine;health,so low on energy that you can barely stay awake.
+collocations,perfectly clear,easy-to-understand,adjective,b1,communication,put in words so plain that nobody could misread them.
+collocations,seriously ill,very-sick,adjective,b1,health,sick enough to need hospital care.
+collocations,slightly different,a-little-unlike,adjective,b1,shopping;clothes,not exactly the same in a small way.
+collocations,extremely important,of-great-weight,adjective,b1,work,so significant that the result depends on it.
+collocations,highly effective,very-successful,adjective,b2,work,producing the result you want almost every time.
+collocations,deeply concerned,very-worried,adjective,b2,emotions,troubled enough about something that you keep thinking about it.
+collocations,widely available,easy-to-find,adjective,b2,shopping;technology,sold or offered in many places at once.
+collocations,badly damaged,heavily-broken,adjective,b2,nature;transport,in such poor condition that it needs major repair or cannot be used.
+collocations,fully aware,completely-informed,adjective,b2,communication,"knowing all the facts about a situation, including the risks."
+collocations,give an answer,reply-to-question,verb,a2,work;education;communication,to say or write a reply to a question.
+collocations,get permission,receive-approval,verb,a2,work;communication,to be allowed by someone in charge to do something.
+collocations,share an idea,tell-your-thought,verb,a2,work;communication,to tell other people a thought or a plan that you have.
+collocations,learn a skill,gain-ability,verb,a2,education;work,to become able to do something well through practice.
+collocations,work experience,time-spent-in-jobs,noun,a2,work;education,the time you have spent doing paid jobs in the past.
+collocations,offer support,give-help,verb,b1,work;relationships;communication,to tell someone that you are ready to help them with a problem.
+collocations,gain confidence,become-more-assured,verb,b1,work;emotions;education,to start to feel more sure that you can do something well.
+collocations,propose a solution,suggest-an-answer,verb,b1,work;communication,to suggest an answer to a difficulty for other people to consider.
+collocations,tackle a problem,deal-with-difficulty,verb,b1,work;education,to start dealing with a difficult situation in a direct and determined way.
+collocations,reject an offer,say-no-to-proposal,verb,b1,work;money,to refuse a proposal that someone has made to you.
+collocations,offer a choice,present-options,verb,b1,work;communication,to let someone pick between two or more things.
+collocations,receive feedback,be-told-how-work-went,verb,b1,work;education;communication,to be told how well or badly your work went.
+collocations,collect data,gather-facts,verb,b1,work;education;technology,to bring together facts and numbers for study or for a report.
+collocations,conduct a survey,ask-many-people,verb,b1,work;communication;education,to ask a large group of people the same set of questions.
+collocations,test a theory,check-an-idea,verb,b1,education;technology,to do an experiment to see whether an idea is true.
+collocations,manage a project,run-a-piece-of-work,verb,b1,work;time,to plan and control a piece of work from start to finish.
+collocations,complete a task,finish-a-job,verb,b1,work;education,to finish a piece of work that someone has given you.
+collocations,accept criticism,take-comments-calmly,verb,b1,work;emotions;communication,to listen to comments about your faults without arguing.
+collocations,share information,pass-on-facts,verb,b1,work;communication,to give facts to other people who need them.
+collocations,follow a procedure,use-set-steps,verb,b1,work;education,to do each step of an official process in the right order.
+collocations,break a rule,fail-to-obey,verb,b1,work;education;sports,to do something that you are officially not allowed to do.
+collocations,earn respect,win-regard,verb,b1,work;relationships,to become valued by other people because of the way you act.
+collocations,make a commitment,promise-to-do,verb,b1,work;relationships;time,to promise to do something and accept that you must do it.
+collocations,make a contribution,add-your-part,verb,b1,work;education,to give something useful to a group or to a piece of work.
+collocations,express interest,say-you-want-it,verb,b1,work;education;communication,to tell people that you would like to have or join something.
+collocations,lose interest,stop-caring,verb,b1,education;emotions,to stop caring about something that you once enjoyed.
+collocations,share knowledge,give-what-you-know,verb,b1,work;education;communication,to teach other people what you have learned.
+collocations,job security,feeling-of-keeping-job,noun,b1,work;money,the confidence that you will keep your place at work.
+collocations,common goal,shared-aim,noun,b1,work;relationships;education,a result that everyone in a group is trying to reach together.
+collocations,career path,series-of-jobs,noun,b1,work;education,the series of jobs that a person does over a working life.
+collocations,allocate resources,divide-what-is-available,verb,b2,work;money;time,to decide which part of a limited supply each person or task gets.
+collocations,meet a requirement,satisfy-needed-condition,verb,b2,work;education,to have everything that an official rule asks for.
+collocations,improve quality,raise-the-standard,verb,b2,work,to make something better in the way it is made or done.
+collocations,reduce emissions,cut-pollution-output,verb,b2,nature;transport;city,to make engines and factories release less harmful gas.
+collocations,protect the environment,keep-nature-safe,verb,b2,nature;city,"to keep air, water and land free from serious harm."
+collocations,raise funds,collect-money-for-a-cause,verb,b2,money;work,to collect money for a project or an organization.
+collocations,launch a campaign,start-a-planned-effort,verb,b2,work;communication;city,to begin a planned series of actions that aim at a change.
+collocations,create jobs,add-paid-work,verb,b2,work;money;city,to make new paid positions available in a place.
+collocations,boost morale,lift-group-spirits,verb,b2,work;emotions,to make a group of people feel more positive and confident.
+collocations,pass a law,approve-a-rule,verb,b2,city;communication,to officially accept a new rule that everyone must follow.
+collocations,pay taxes,give-money-to-government,verb,b2,money;work;city,to give part of your income or profit to the government.
+collocations,reach a compromise,settle-by-sharing,verb,b2,work;communication;relationships,to end a disagreement by each side accepting less than it wanted.
+collocations,submit an application,send-a-formal-request,verb,b2,work;education;communication,"to send a formal request for a job, a place or a grant."
+collocations,conduct an investigation,find-facts-officially,verb,b2,work;city;communication,to look into a serious matter officially and find the facts.
+collocations,renew a contract,extend-formal-agreement,verb,b2,work;money,to arrange for a formal agreement to continue for another period.
+collocations,fill a position,hire-for-a-role,verb,b2,work,to find and hire someone for a job that is open.
+collocations,earn a promotion,get-a-higher-role,verb,b2,work;money,to be moved to a more important job because your work was good.
+collocations,build consensus,create-shared-agreement,verb,b2,work;communication,to help a group of people come to agree on a decision.
+collocations,monitor progress,watch-work-advance,verb,b2,work;time;education,to check regularly how much of a task is finished.
+collocations,economic growth,rise-in-output,noun,b2,money;work;city,an increase in the amount of goods and services a country produces.
+collocations,take a seat,sit-down-on-chair,verb,a1,daily-routine,to lower yourself onto a chair or bench and stay there.
+collocations,give a ride,drive-someone-in-car,verb,a1,transport;car,to drive someone to a place in your car.
+collocations,have a look,look-briefly-at-something,verb,a1,communication,to turn your eyes toward something for a short time.
+collocations,make a mess,leave-place-untidy,verb,a1,home;daily-routine,to leave a place dirty and untidy after you use it.
+collocations,have a drink,take-liquid-with-meal,verb,a1,food,"to take water, juice or coffee into your body, especially with a meal."
+collocations,go to bed,lie-down-to-sleep,verb,a1,daily-routine;home,to lie down at night in the place where you sleep.
+collocations,do your best,try-as-hard-as-possible,verb,a1,education;work,to try as hard as you can even when a task is difficult.
+collocations,say goodbye,speak-words-on-leaving,verb,a1,communication,to speak words to someone when you leave them.
+collocations,clean your room,tidy-your-bedroom,verb,a1,home;daily-routine,to tidy and wipe the surfaces of the space where you sleep.
+collocations,make a wish,hope-silently,verb,a1,relationships;emotions,to say silently what you hope will happen.
+collocations,birthday cake,cake-for-birth-date,noun,a1,food;relationships,"a sweet baked food with candles on top, served at a party that marks a birth date."
+collocations,coffee shop,place-selling-hot-drinks,noun,a1,food;city,a small place where you buy hot drinks and sit at a table.
+collocations,rainy day,day-of-falling-rain,noun,a1,weather,a day when water keeps falling from the sky.
+collocations,swimming pool,basin-for-swimming,noun,a1,sports;city,a large basin filled with water where people move through the water for fun.
+collocations,phone number,digits-to-reach-a-phone,noun,a1,communication;technology,the set of digits you press to reach one particular device.
+collocations,have a picnic,eat-outdoors,verb,a2,food;nature,to eat a meal outdoors on a blanket or at a table in a park.
+collocations,have a snack,eat-between-meals,verb,a2,food,to eat a small amount of food between your main meals.
+collocations,get a haircut,have-hair-cut,verb,a2,body;shopping,to have someone cut the strands on your head shorter.
+collocations,take a message,write-down-callers-words,verb,a2,communication,to write down what a caller says so another person can hear it later.
+collocations,wait in line,stand-until-your-turn,verb,a2,shopping;city,to stand behind other people until it is your turn to be served.
+collocations,make a list,write-items-down,verb,a2,daily-routine;shopping,to write things one under another so you do not forget them.
+collocations,take turns,do-one-after-another,verb,a2,relationships;education,to do something one person after another instead of all at the same time.
+collocations,call the police,phone-law-enforcement,verb,a2,city,to phone the people whose job is to keep order and catch criminals.
+collocations,good mood,cheerful-feeling,noun,a2,emotions,a feeling of being cheerful and ready to enjoy the day.
+collocations,traffic light,signal-for-drivers,noun,a2,city;transport,the post with colored lamps that tells drivers when to stop and go.
+collocations,washing machine,clothes-washing-device,noun,a2,home;technology,a machine that cleans clothes in soapy water.
+collocations,coffee break,short-pause-for-drink,noun,a2,work;food;time,a short pause at work for a hot drink.
+collocations,school uniform,required-school-clothes,noun,a2,clothes;education,the set of clothes that all the children at one school must wear.
+collocations,weekend trip,short-journey-at-weekend,noun,a2,travel;time,a short journey away from home that lasts one or two days at the end of the week.
+collocations,full moon,fully-lit-moon,noun,a2,nature;time,the moon on the night when its whole round face is lit.
+collocations,break a habit,stop-a-routine,verb,b1,daily-routine,to stop doing something you have done regularly for a long time.
+collocations,keep a diary,write-daily-entries,verb,b1,daily-routine;communication,to write about what happens each day in a book.
+collocations,gain experience,get-skill-by-doing,verb,b1,work;education,to get knowledge and skill by doing a job over time.
+collocations,set a reminder,arrange-a-warning,verb,b1,technology;time,to arrange for a device to warn you at a chosen hour.
+collocations,gain weight,become-heavier,verb,b1,health;body,to become heavier than you were before.
+collocations,make an excuse,give-a-reason-for-a-fault,verb,b1,communication;relationships,to give a reason for a mistake so that people do not blame you.
+collocations,save time,finish-sooner,verb,b1,time;work,to do something in a quicker way so you have spare minutes left.
+collocations,lose contact,stop-hearing-from-someone,verb,b1,relationships;communication,to stop hearing from someone you used to speak to often.
+collocations,take your time,act-without-rushing,verb,b1,time;daily-routine,to do something slowly and without rushing.
+collocations,body language,silent-physical-signals,noun,b1,communication;body,the way you hold your face and hands when you are not speaking.
+collocations,first impression,opinion-at-first-meeting,noun,b1,relationships;communication,the opinion you form of someone the first time you meet them.
+collocations,job market,jobs-available-and-seekers,noun,b1,work;money,the number of jobs available and the people looking for them.
+collocations,long-term goal,aim-for-far-future,noun,b1,work;time,something you want to reach after many months or years.
+collocations,healthy lifestyle,healthful-way-of-living,noun,b1,health;daily-routine,"a way of living with good food, regular movement and enough rest."
+collocations,team effort,work-done-together,noun,b1,work;sports,work that everyone in a group does together.
+collocations,strike a balance,give-equal-weight-to-both,verb,b2,work;daily-routine,to give the right amount of time and energy to two things at once.
+collocations,bridge the gap,reduce-a-difference,verb,b2,work;education,to reduce the difference between two groups or two ideas.
+collocations,raise concerns,say-you-are-worried,verb,b2,work;communication,to say that something worries you.
+collocations,cost of living,money-needed-for-daily-needs,noun,b2,money;city,"the amount people must spend on food, housing and daily needs."
+collocations,peer pressure,influence-of-same-age-friends,noun,b2,relationships;education,the influence of friends your own age who push you to do what they do.
