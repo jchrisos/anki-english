@@ -107,6 +107,17 @@ Every authored example must bold its target with
 `**...**` (split phrasal verbs use two pairs), every verb needs all four form examples, and a
 non-verb carrying them fails as well.
 
+## Production targets
+
+| Deck | Target level | Cards | Content focus |
+|---|---|---|---|
+| Vocabulary | A1–C1 | 5,500 | Basic lexicon through abstract concepts and analytical verbs (`mitigate`, `feasible`). |
+| Phrasal verbs | A1–B2 | 350 | High-frequency structures for daily life and work (`figure out`, `carry out`, `bring up`). |
+| Collocations | A1–B2 | 800 | Natural word pairings (`make a decision`, `meet a deadline`, `heavily reliant on`). |
+
+Card counts are planning targets; the build prints progress as `notes=<count>/<target>`.
+Level ranges are enforced — an entry outside its deck's range fails the build.
+
 ## Importing into Anki
 
 There is no Anki CLI on this machine and no AnkiConnect, so you import the file by hand:

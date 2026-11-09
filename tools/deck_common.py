@@ -56,6 +56,25 @@ IMAGE_FIELD = "image"
 
 LEVELS = ("a1", "a2", "b1", "b2", "c1", "c2")
 
+# Production scope per deck. A grade outside the deck's range is a source error, not a card
+# with a level the deck is not meant to teach (C1 is the top of Vocabulary; the other two stop
+# at B2). `LEVELS` stays the full CEFR vocabulary so the tags and templates do not depend on
+# this table.
+KIND_LEVELS = {
+    "vocabulary": ("a1", "a2", "b1", "b2", "c1"),
+    "phrasal-verbs": ("a1", "a2", "b1", "b2"),
+    "collocations": ("a1", "a2", "b1", "b2"),
+}
+
+# Card-count targets for the production decks. Planning targets, not build assertions: content
+# arrives in batches, so a build only reports how far along it is. The same numbers live in
+# AGENTS.md and `.okf/concepts/deck-schema.md`.
+KIND_TARGET_CARDS = {
+    "vocabulary": 5500,
+    "phrasal-verbs": 350,
+    "collocations": 800,
+}
+
 # Part of speech of the sense being taught. Single-valued, so it gets its own namespace:
 # `tag:pos::verb` stays exact and never mixes with themes or levels.
 ALLOWED_POS = frozenset(

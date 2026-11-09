@@ -41,7 +41,8 @@ from deck_common import (
     ALLOWED_CATEGORIES,
     ALLOWED_POS,
     GUID_PREFIX,
-    LEVELS,
+    KIND_LEVELS,
+    KIND_TARGET_CARDS,
     MARKUP,
     REPO_ROOT,
     REQUIRED_TEXT_FIELDS,
@@ -350,7 +351,7 @@ def check_markup(entry: dict, field: str, label: str) -> None:
         raise BuildError(f"{label}: {field} has unbalanced ** markers")
 
 
-def validate(entry: dict, key: str, seen: set[str], lay: Layout) -> None:
+def validate(entry: dict, key: str, seen: set[str], lay: Layout, levels: tuple[str, ...]) -> None:
     """Reject an entry instead of emitting a card with a blank panel.
 
     Missing media is the failure that does not announce itself: Anki imports the note and
@@ -363,8 +364,10 @@ def validate(entry: dict, key: str, seen: set[str], lay: Layout) -> None:
     if not entry["pronunciation"].startswith("/") or not entry["pronunciation"].endswith("/"):
         raise BuildError(f"{label}: pronunciation must be IPA in slashes")
     level = entry.get("level")
-    if level not in LEVELS:
-        raise BuildError(f"{label}: level must be one of {', '.join(LEVELS)}, got {level!r}")
+    if level not in levels:
+        raise BuildError(
+            f"{label}: level must be one of {', '.join(levels)} for this deck, got {level!r}"
+        )
     pos = entry.get("pos")
     if pos is None:
         # The word class is what decides whether the example rows are required, so every kind
@@ -473,7 +476,7 @@ def build(kind: dict, test: bool, notes: bool) -> tuple[Path, dict, int]:
     seen: set[str] = set()
     for entry in entries:
         key = media_key(GUID_PREFIX[kind["slug"]], entry)
-        validate(entry, key, seen, lay)
+        validate(entry, key, seen, lay, KIND_LEVELS[kind["slug"]])
         deck.add_note(make_note(kind, model, entry, test, lay))
         image = image_for(lay, entry)
         if image is None:
@@ -523,8 +526,8 @@ def main() -> int:
             print(f"error: {kind['slug']}: {exc}", file=sys.stderr)
             return 1
         print(
-            f"{path.relative_to(REPO_ROOT)}  notes={count}  deck={ident['deck_name']!r} "
-            f"deck_id={ident['deck_id']} model_id={ident['model_id']}"
+            f"{path.relative_to(REPO_ROOT)}  notes={count}/{KIND_TARGET_CARDS[kind['slug']]}  "
+            f"deck={ident['deck_name']!r} deck_id={ident['deck_id']} model_id={ident['model_id']}"
         )
     return 0
 

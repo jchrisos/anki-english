@@ -178,9 +178,19 @@ so the deck can be studied by difficulty: `level::a1`, `level::a2`, `level::b1`,
   the surrounding sentence.
 - **Use the lowest level at which a learner is expected to need the item.** When torn
   between two adjacent bands, take the lower one and keep the reasoning out of the card.
-- **Full scale allowed, realistic deck:** A1–C2 are all legal, but a study deck that is
-  mostly C1/C2 is a bad use of review time; levels should skew toward the learner's
-  working range and mixed-frequency decks should be split by filter.
+- **Full namespace, but per-deck scope:** the CEFR scale is `a1`–`c2`, yet each production
+  deck accepts only its own range — Vocabulary A1–C1, Phrasal verbs and Collocations A1–B2.
+  A level outside that range is a build error, so a C2 item cannot land in any of the three
+  decks as scoped today.
+- **Production deck targets** (planning targets, not build assertions):
+
+  | Deck | Target level | Cards | Content focus |
+  |---|---|---|---|
+  | Vocabulary | A1–C1 | 5,500 | Basic lexicon through abstract concepts and analytical verbs (`mitigate`, `feasible`). |
+  | Phrasal verbs | A1–B2 | 350 | High-frequency structures for daily life and work (`figure out`, `carry out`, `bring up`). |
+  | Collocations | A1–B2 | 800 | Natural word pairings (`make a decision`, `meet a deadline`, `heavily reliant on`). |
+
+  The build reports progress as `notes=<count>/<target>`; only the level ranges are enforced.
 - **Displayed as a badge on the back**, next to the pronunciation: `A1`…`C2`. The level is a
   tag, so the card template extracts it from `{{Tags}}` with a few lines of JS — no field,
   no model change. Categories stay undisplayed; only the level is worth seeing while
@@ -442,9 +452,11 @@ when audio was requested, the schema did not move.
 - The package now always has a media map: build it from the referenced images and mp3s,
   verify it, and fail generation if a note is missing an mp3 or if `Audio` is empty. A missing
   image is skipped, not fatal.
-- Every note must carry at least one `category::<slug>` tag, and every slug must be in
-  the allowed list. Enforce this at build time; a category typo silently empties a
-  filtered deck rather than failing.
+- Every note must carry at least one `category::<slug>` tag, and every slug must be in the
+  allowed list. Enforce this at build time; a category typo silently empties a filtered deck
+  rather than failing. Exactly one `level::` tag is required, and its value must be inside
+  `KIND_LEVELS[slug]`. Production card counts live in `KIND_TARGET_CARDS` and are reported as
+  progress, never asserted.
 - Every note needs a `pos::` tag from the controlled list — the build rejects a missing or
   unknown word class, because it decides whether the example block is required.
 - Every `pos::verb` note needs all four example sentences; a non-verb carrying them is

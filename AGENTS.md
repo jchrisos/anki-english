@@ -62,7 +62,8 @@ prefix. Anki matches decks by name, note types by id and notes by GUID, so reusi
 of them would merge a rehearsal into the real deck.
 
 The build validates every note before writing: all text fields (the authored example
-included), a part of speech, exactly one `level::` tag, at least one known `category::` tag,
+included), a part of speech, exactly one `level::` tag inside the deck's range, at least one
+known `category::` tag,
 and every required mp3 present on disk. The image is optional: an `image` field that names
 no file leaves the card without an illustration. A verb also needs one example sentence for
 each form; a non-verb carrying those keys is rejected. A failure is a build error, not a card with
@@ -103,6 +104,20 @@ one example sentence per form (present, present participle, past, past participl
 fields. **Three decks, one per kind**, each built as its own package under `decks/` —
 `vocabulary.apkg`, `phrasal-verbs.apkg`, `collocations.apkg` — with pinned deck ids and flat
 names (no `English::` parent; a parent would be a different id, not a rename).
+
+**Production deck targets** — the scope each deck is generated against:
+
+| Deck | Target level | Cards | Content focus |
+|---|---|---|---|
+| Vocabulary | A1–C1 | 5,500 | Basic lexicon through abstract concepts and analytical verbs (`mitigate`, `feasible`). |
+| Phrasal verbs | A1–B2 | 350 | High-frequency structures for daily life and work (`figure out`, `carry out`, `bring up`). |
+| Collocations | A1–B2 | 800 | Natural word pairings (`make a decision`, `meet a deadline`, `heavily reliant on`). |
+
+The card counts are **planning targets, not build assertions** — content arrives in batches,
+so a build only reports progress (`notes=120/5500`). The level ranges **are** enforced: a
+source entry outside its deck's range is a build error (`KIND_LEVELS` in
+`tools/deck_common.py`). Vocabulary stops at C1; the other two stop at B2, and no deck takes
+C2.
 
 **Every card has one authored example sentence, and an illustration when its `image` field
 names a file in `media/`.** The example is ours —

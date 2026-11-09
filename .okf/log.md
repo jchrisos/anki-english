@@ -9,6 +9,22 @@ status: active
 
 Newest entries first. ISO dates (`YYYY-MM-DD`).
 
+## 2026-11-09 — Production deck scope and card targets
+
+- User fixed the generation target for the three production decks:
+
+  | Deck | Target level | Cards | Content focus |
+  |---|---|---|---|
+  | Vocabulary | A1–C1 | 5,500 | Basic lexicon through abstract concepts and analytical verbs (`mitigate`, `feasible`). |
+  | Phrasal verbs | A1–B2 | 350 | High-frequency structures for daily life and work (`figure out`, `carry out`, `bring up`). |
+  | Collocations | A1–B2 | 800 | Natural word pairings (`make a decision`, `meet a deadline`, `heavily reliant on`). |
+
+- The level ranges are now **enforced** by the builder (`KIND_LEVELS`): an entry outside its
+  deck's range fails validation. Vocabulary stops at C1, the other two at B2; no deck accepts
+  C2.
+- Card counts are **planning targets**, not assertions. The builder reports progress as
+  `notes=<count>/<target>` (`KIND_TARGET_CARDS`) so a partial batch never fails.
+
 ## 2026-11-09 — The image filename is authored on the entry
 
 - User: "add a field in /src/*.json with the hash name of image … if the image is not found, do
