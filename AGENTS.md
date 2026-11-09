@@ -24,10 +24,11 @@ python3 -m venv .venv                       # already exists locally, .venv/ is 
 ```
 
 Content lives in `src/<kind>.json` (one array per kind) and is included **only** with
-`--notes`; a plain build still ships empty packages. Media lives in `media/`, and is an
-input: nothing regenerates art on a plain build. Audio is named from the entry's key
-(`voc_6a648cec-word.mp3`); the illustration is named by the entry's own `image` field
-(`"image": "voc_6a648cec"`).
+`--notes`; a plain build still ships empty packages. Images under `media/` are inputs and are
+committed — nothing regenerates art on a plain build. Audio is generated locally by
+`tools/build_audio.py` and is **gitignored**: a clone has the images but no mp3s until that
+step runs. Audio is named from the entry's key (`voc_6a648cec-word.mp3`); the illustration is
+named by the entry's own `image` field (`"image": "voc_6a648cec"`).
 
 **Packages are build artifacts.** `.gitignore` excludes every `*.apkg` (and `tests/`), so
 nothing under `decks/` is committed — build locally and import the file by hand. The 71 MB

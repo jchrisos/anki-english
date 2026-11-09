@@ -9,6 +9,19 @@ status: active
 
 Newest entries first. ISO dates (`YYYY-MM-DD`).
 
+## 2026-11-09 — Stop committing generated mp3 audio
+
+- Added `*.mp3` to `.gitignore` and removed the 4,464 tracked clips from the index with
+  `git rm --cached` (the files stay on disk). Images under `media/` remain committed inputs;
+  audio is now a local build product of `tools/build_audio.py`.
+- Consequence: a fresh clone has no audio until the synthesis step runs, and that step needs
+  network access to edge-tts. The build already fails loudly on a missing mp3, so the failure
+  mode is a clear error, not a silent card.
+- Updated `README.md`, `AGENTS.md`, `concepts/deck-schema.md`, `concepts/environment.md` and
+  `concepts/architecture.md` to stop describing mp3s as committed inputs.
+- History is unchanged: the mp3 blobs from commit `b58986a` remain reachable until a history
+  rewrite. Local `.git` stays ~72 MiB even though `HEAD` no longer tracks audio.
+
 ## 2026-11-09 — Stop committing `.apkg` packages
 
 - GitHub warned on the 800-card push that `decks/collocations.apkg` is 71.6 MB, above its

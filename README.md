@@ -2,7 +2,7 @@
 
 Generate Anki flashcard decks (`.apkg`) for English study across three content kinds —
 **vocabulary**, **phrasal verbs** and **collocations** — from plain JSON source plus
-committed images and audio.
+committed images and locally generated audio.
 
 Every card carries: General American IPA, a part of speech, a CEFR level, a one-sentence
 definition, an illustration (when the entry's image file exists), an authored example sentence,
@@ -96,7 +96,7 @@ decks/            build output (.apkg, gitignored; .gitkeep keeps the folder)
 src/              production source
   index.csv         the reviewed manifest: one row per planned sense
   <kind>.json       the written entries, included only with --notes
-media/            production images and mp3s                  (does not exist yet)
+media/            committed images + generated mp3s (mp3s gitignored)
 tests/            the whole test tree — gitignored
   src/  media/  decks/
 tools/
@@ -200,7 +200,8 @@ list to prove the pipeline works. The collocations deck is complete: 800 A1–B2
 `src/index.csv` and `src/collocations.json`, authored in sixteen 50-card chunks. The other two
 decks remain empty until their own batch is requested. Every entry's `image_brief` is ready to
 paste into Midjourney, and the `image` field stays empty until the rendered file is committed
-under `media/`.
+under `media/`. Audio is synthesized locally with `tools/build_audio.py`; its mp3s are
+gitignored, so run that step after cloning before building.
 
 Design decisions, the schema and the trade-offs behind them live in `.okf/` (start at
 `.okf/index.md`, with the reverse-chronological log at `.okf/log.md`).

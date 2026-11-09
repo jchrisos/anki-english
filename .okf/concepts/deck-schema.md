@@ -289,7 +289,9 @@ Audio is generated with **edge-tts** (installed 7.3.1, `en-US` neural voices) at
   the definition.
 - **Audio plays on the back only.** On the front it would read the answer out loud.
 - Regenerate on explicit request, never on a plain build: edge-tts is a cloud service, so
-  byte-identical output is not guaranteed. Like images, committed audio is an **input**.
+  byte-identical output is not guaranteed. The mp3s are **generated locally and gitignored**,
+  so a fresh clone has no audio until `tools/build_audio.py` runs; images remain committed
+  inputs.
 - Guard against the failure that does not error: a note whose `Audio` is empty or points at
   a missing mp3 renders silent. Assert both the field and the file, same as images.
 

@@ -83,8 +83,8 @@ and the audio tool cannot disagree about what an entry is called.
 - Deck ids, model ids, deck names and the GUID/media-key derivation live in one place as
   pinned constants (`build_decks.py` + `deck_common.py`), never inline at a call site.
 - Generation is deterministic: same input, byte-identical output.
-- `decks/` is build output and `tests/` is a fully gitignored tree; `media/` and `src/` are
-  inputs and are committed. `--test` on any tool switches the whole layout to
+- `decks/` and generated `*.mp3` are build output, `tests/` is a fully gitignored tree;
+  committed `media/` images and `src/` are the real inputs. `--test` on any tool switches the whole layout to
   `tests/src` + `tests/media` + `tests/decks`, so test content is never versioned.
 - Content is opt-in (`--notes`). A plain build emits the empty baseline, so "add
   flashcards" can never happen by accident.

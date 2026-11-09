@@ -50,7 +50,8 @@ pyenv versions drift, and missing tooling is the usual cause of a failed first r
   `AvaNeural`, `AriaNeural`, `JennyNeural`, `EmmaNeural`, `MichelleNeural`, plus
   `AnaNeural` (a child voice — not used). Pinned voice: `en-US-AvaNeural`, `--rate=-10%`.
 - Synthesis is a **network call** to Microsoft's service; it fails offline and is not
-  guaranteed byte-identical between runs, so generated mp3s are committed artifacts.
+  guaranteed byte-identical between runs, so the generated mp3s are **gitignored** and
+  rebuilt locally with `tools/build_audio.py` instead of being versioned.
 - `ffmpeg`, `lame` and `afinfo` exist on this machine. They are **not** part of the
   pipeline: one edge-tts call per card already yields the target + definition + dialog in
   one file. Keep them optional so the build does not grow a dependency for nothing.
