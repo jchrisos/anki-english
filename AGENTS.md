@@ -15,7 +15,7 @@ ask before seeding it.
 ```sh
 python3 -m venv .venv                       # already exists locally, .venv/ is gitignored
 .venv/bin/pip install -r requirements.txt   # genanki==0.13.1, edge-tts==7.3.1
-.venv/bin/python tools/build_decks.py       # empty baseline: decks/{vocabulary,phrasal-verbs,collocations}.apkg
+.venv/bin/python tools/build_decks.py       # empty baseline: decks/*.apkg (gitignored)
 .venv/bin/python tools/build_decks.py --test  # tests/src + tests/media -> tests/decks (all gitignored)
 .venv/bin/python tools/build_decks.py --test --notes  # same, with the entries from tests/src/
 .venv/bin/python tools/lint_content.py --test --report  # manifest + source checks (production: omit --test)
@@ -28,6 +28,10 @@ Content lives in `src/<kind>.json` (one array per kind) and is included **only**
 input: nothing regenerates art on a plain build. Audio is named from the entry's key
 (`voc_6a648cec-word.mp3`); the illustration is named by the entry's own `image` field
 (`"image": "voc_6a648cec"`).
+
+**Packages are build artifacts.** `.gitignore` excludes every `*.apkg` (and `tests/`), so
+nothing under `decks/` is committed — build locally and import the file by hand. The 71 MB
+collocation package would otherwise trip GitHub's large-file warning on every push.
 
 **The manifest comes first.** `src/index.csv` is the reviewed plan — one row per *sense*
 (`kind,phrase,sense,pos,level,categories,gloss`), written and deduplicated before any card is.

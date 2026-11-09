@@ -361,9 +361,10 @@ suffix on both names is the load-bearing part: ids alone would not stop the merg
   is what a fresh collection receives. Decide the hierarchy now, while no notes exist.
 - **The names are part of the contract.** Renaming a deck inside Anki keeps its id, but
   changing the name the generator emits means Anki sees a new deck, not the old one.
-- **`decks/` holds build output.** The three empty baseline packages are committed on
-  purpose (`.gitignore` re-includes `decks/*.apkg`) so the deck and note-type ids exist in
-  Anki before any content is imported; every later rebuild overwrites them from source.
+- **`decks/` holds build output.** Every `*.apkg` is **gitignored**, so no package is
+  versioned: build locally and import it by hand. The empty baseline build still exists to
+  put the deck and note-type ids into Anki before any content is imported; every later
+  rebuild overwrites the local file from source.
   `tests/` is the throwaway tree (`--test`) and is **gitignored** as a whole — `tests/src/`,
   `tests/media/` and `tests/decks/`: test source, art and packages never mix with production
   and can never be committed. They carry their own ids, names and filenames (see the test
@@ -372,8 +373,8 @@ suffix on both names is the load-bearing part: ids alone would not stop the merg
 - **Rebuilds are incremental.** Importing a rebuilt package updates existing notes in place
   and keeps their scheduling, provided the GUIDs, deck names and model ids stay put; see
   [incremental updates](incremental-updates.md).
-- **Content is added only on demand.** The committed packages are deliberately empty and
-  stay that way until the user asks for flashcards. Nothing seeds a deck to make it
+- **Content is added only on demand.** A plain build ships empty packages and they stay
+  that way until the user asks for flashcards. Nothing seeds a deck to make it
   "testable": no placeholder note, no starter list, no sample entry. The baseline exists to
   pin ids, not to hold content.
 - **GUID scope:** import deduplicates within one model *and* one deck, so with one model

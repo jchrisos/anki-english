@@ -72,7 +72,7 @@ and the audio tool cannot disagree about what an entry is called.
    model id and name; media registered in the package map by bare filename. With no notes
    the model is attached explicitly, otherwise Anki would create a deck with no note type.
 7. **Hermetic zip** — `_make_zip_hermetic()` pins entry timestamps, so rebuilding unchanged
-   input leaves the committed `.apkg` byte-identical instead of dirtying git.
+   input reproduces an identical `.apkg` instead of a spurious byte-level difference.
 8. **Verification** — unzip and query the bundled sqlite: note and card counts, GUID
    uniqueness, media-map entries present in the zip and byte-identical to `media/`, and
    fields referencing exactly the registered filenames. Then one manual import, because

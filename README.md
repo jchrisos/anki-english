@@ -21,7 +21,7 @@ card — that was tried and dropped.
 
 ## Status
 
-Early, but working. The generator builds real packages. The committed **vocabulary** and
+Early, but working. The generator builds real packages. The generated **vocabulary** and
 **phrasal-verb** decks are still empty baselines that pin the deck and note-type ids; the
 **collocations** deck is complete at its **800-card target** (A1–B2). Content is added only
 on explicit request. Illustrations for the collocation batch are still pending: every entry
@@ -34,7 +34,7 @@ text and audio only until the renders land in `media/`.
 python3 -m venv .venv                        # already exists locally
 .venv/bin/pip install -r requirements.txt    # genanki 0.13.1, edge-tts 7.3.1
 
-# empty baseline packages that pin the ids (committed)
+# empty baseline packages that pin the ids (written to decks/, not committed)
 .venv/bin/python tools/build_decks.py
 
 # test build: reads tests/src + tests/media, writes tests/decks (all gitignored)
@@ -57,6 +57,9 @@ python3 -m venv .venv                        # already exists locally
 
 `--only vocabulary|phrasal-verbs|collocations` restricts any of these to one kind.
 `--notes` is what makes the build include entries; without it you get the empty baseline.
+
+Packages are build artifacts: the build writes them under `decks/`, and `.gitignore` keeps
+them out of git. Build locally before importing; nothing in the repository ships a package.
 
 ## Content workflow: manifest first
 
@@ -89,7 +92,7 @@ gone monotone is caught early.
 ## Repository layout
 
 ```
-decks/            committed baseline packages (0 notes, ids only)
+decks/            build output (.apkg, gitignored; .gitkeep keeps the folder)
 src/              production source
   index.csv         the reviewed manifest: one row per planned sense
   <kind>.json       the written entries, included only with --notes

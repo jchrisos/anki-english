@@ -3,12 +3,9 @@
 __pycache__/
 *.py[cod]
 
-# Generated deck packages (build artifacts — regenerate, don't commit)
+# Generated deck packages (build artifacts — rebuild from source, never commit)
 *.apkg
 dist/
-
-# ...except the empty baseline packages, which pin the deck and note-type ids
-!decks/*.apkg
 
 # Test builds: throwaway source, media and packages, never committed
 tests/

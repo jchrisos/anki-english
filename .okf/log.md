@@ -9,6 +9,21 @@ status: active
 
 Newest entries first. ISO dates (`YYYY-MM-DD`).
 
+## 2026-11-09 — Stop committing `.apkg` packages
+
+- GitHub warned on the 800-card push that `decks/collocations.apkg` is 71.6 MB, above its
+  50 MB recommendation. Packages are reproducible from `src/` + `media/`, so they are now
+  treated as pure build artifacts.
+- Removed the `!decks/*.apkg` exception from `.gitignore`; every `*.apkg` is ignored, and
+  the three tracked packages were removed from the index with `git rm --cached` (the local
+  files stay on disk). `decks/.gitkeep` still keeps the directory in the tree.
+- The empty baseline is still built and imported to pin the deck and note-type ids, but it
+  is no longer versioned. Tests remain fully gitignored as before.
+- History is unchanged: the 71.6 MB blob from commit `2d2cfe8` remains in the repository
+  history, so a fresh clone still downloads it until a history rewrite (not done here).
+- Updated `README.md`, `AGENTS.md`, `concepts/deck-schema.md` and
+  `concepts/architecture.md` so they no longer describe packages as committed.
+
 ## 2026-11-09 — Collocations deck completed at 800 cards
 
 - Finished the production target in **sixteen 50-card chunks**: 800 entries planned in
