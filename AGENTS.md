@@ -23,8 +23,10 @@ python3 -m venv .venv                       # already exists locally, .venv/ is 
 ```
 
 Content lives in `src/<kind>.json` (one array per kind) and is included **only** with
-`--notes`; a plain build still ships empty packages. Media lives in `media/`, named from the
-entry's key (`voc_6a648cec.jpg`), and is an input: nothing regenerates art on a plain build.
+`--notes`; a plain build still ships empty packages. Media lives in `media/`, and is an
+input: nothing regenerates art on a plain build. Audio is named from the entry's key
+(`voc_6a648cec-word.mp3`); the illustration is named by the entry's own `image` field
+(`"image": "voc_6a648cec"`).
 
 **The project writes image briefs; it does not render the images.** Every entry's `image_brief`
 is a finished, paste-ready Midjourney prompt: a compressed scene description, then the shared
@@ -32,9 +34,11 @@ parameter block `--ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, lo
 oversaturated, HDR`. V8.2 is the default model and spells raw mode `--raw`; `--style raw` belongs
 to V7 only. `--s 50` and `--raw` keep the render literal and photographic instead of Midjourney's
 glossy house look, and `--no` replaces the separate negative prompt. Rendering happens outside
-the repo: the PNG is made in Midjourney, committed under `media/` (or `tests/media/`) named from
-the entry key, and `tools/prepare_media.py` derives the 900px JPEG. Nothing in `tools/` renders,
-upscales or calls an image model, and a missing image is a build error.
+the repo: the PNG is made in Midjourney, committed under `media/` (or `tests/media/`), and its
+filename is written into that entry's `image` field so the build can find it;
+`tools/prepare_media.py` derives the 900px JPEG. Nothing in `tools/` renders, upscales or
+calls an image model. An `image` that names no file on disk is not an error: the card is
+built without an illustration.
 
 **Prompts are written like a documentary shot, not a stock portrait.** Each one names the camera
 position (`from behind`, `from the side`, `from across the room`, `low angle`, `over the
@@ -59,8 +63,9 @@ of them would merge a rehearsal into the real deck.
 
 The build validates every note before writing: all text fields (the authored example
 included), a part of speech, exactly one `level::` tag, at least one known `category::` tag,
-and every image and mp3 present on disk. A verb also needs one example sentence for each
-form; a non-verb carrying those keys is rejected. A failure is a build error, not a card with
+and every required mp3 present on disk. The image is optional: an `image` field that names
+no file leaves the card without an illustration. A verb also needs one example sentence for
+each form; a non-verb carrying those keys is rejected. A failure is a build error, not a card with
 a blank panel. Verifying a package still means unzipping it and querying the bundled sqlite;
 there is no test suite yet.
 
@@ -99,7 +104,8 @@ fields. **Three decks, one per kind**, each built as its own package under `deck
 `vocabulary.apkg`, `phrasal-verbs.apkg`, `collocations.apkg` — with pinned deck ids and flat
 names (no `English::` parent; a parent would be a different id, not a rename).
 
-**Every card has an illustration and one authored example sentence.** The example is ours —
+**Every card has one authored example sentence, and an illustration when its `image` field
+names a file in `media/`.** The example is ours —
 the only usage evidence on the card — and it exists because the definition names the sense
 rather than showing it in use. **It must show the target in the entry's own form** — the base
 form on the front: `hire` says `We need to hire two more nurses this month.`, never
@@ -213,9 +219,11 @@ happens outside the repo.
   `tag:category::*` stays a clean list of themes and level filters stay exact.
 - Media must be registered in the package's media map and referenced by bare filename
   in fields/templates. Absolute or relative paths import as broken references.
-- Every note now needs an image, so a silently missing file is a blank card, not a
-  cosmetic bug. Name image files from the note's content hash (the GUID), keep them in
-  `media/`, and assert every referenced file exists before writing the package.
+- The illustration is optional. The entry names its file in an `image` field; if that file is
+  absent, the card is built without a picture and the build prints a warning. Audio is not
+  optional: a missing mp3 imports silently as a silent card, so every one of them is asserted.
+- Image names are authored (`"image": "voc_6a648cec"`, no extension), never derived. Keep them in
+  `media/`, and reference them by bare filename — a path in the field imports as broken.
 - Audio is a `[sound:<key>-<part>.mp3]` reference per part — `word`, `explanation`,
   `example` in their own fields, plus one per verb form row — and plays on the
   **back only**; on the front it would read the answer aloud. A missing mp3 imports

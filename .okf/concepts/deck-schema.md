@@ -1,7 +1,7 @@
 ---
 type: decision
 title: "v1 schema: one model and one deck per kind, media-rich cards"
-description: "Decided 2026-11-05, revised 2026-11-08: one note type and one deck per content kind with pinned ids; every note carries IPA, an AI-generated image, an authored example sentence with the target in bold, and female-voice TTS mp3s, and every verb adds four authored example sentences (present, present participle, past, past participle). The movie/TV quote block was removed on 2026-11-08. Card templates beyond front→back remain open."
+description: "Decided 2026-11-05, revised 2026-11-09: one note type and one deck per content kind with pinned ids; every note carries IPA, an authored example sentence with the target in bold, and female-voice TTS mp3s, plus an AI-generated image named by its own `image` field when that file exists, and every verb adds four authored example sentences (present, present participle, past, past participle). The movie/TV quote block was removed on 2026-11-08. Card templates beyond front→back remain open."
 status: active
 verified:
   - by: "OpenCode session"
@@ -20,7 +20,8 @@ stale_after: "2027-05-05"
 
 - **One note type per content kind**, i.e. three models with three pinned ids, rather
   than one shared model plus a `Kind` field.
-- **Every note has an image and one authored example sentence.** The example shows the target
+- **Every note has one authored example sentence, plus an image when its `image` field names
+  a file in `media/`.** The example shows the target
   in use, is written by us and is never attributed. It **uses the target in the entry's own
   form** — the base form on the front — so `hire` reads `We need to hire two more nurses this
   month.`, never `You're hired.`; an inflected example would put a form on the card that the
@@ -98,7 +99,9 @@ now what happened: the field list grew only for the explanation and example clip
   *not* be a bare filename that the template wraps later: Anki's importer copies only the
   media it can see referenced in the field text (`<img src>` and `[sound:]`), so a filename
   wrapped by the template is silently dropped and the card imports with a broken image. The
-  template therefore renders `{{Image}}` on its own.
+  template therefore renders `{{Image}}` on its own. **Optional:** the filename is authored in
+  the entry's `image` field; when the file is not on disk the field is left empty and the card
+  renders without an illustration.
 - `Example` — **one authored sentence** using the target sense in an everyday
   situation, shown directly under the illustration: `Round up everyone who was near
   the bank.` Required on every note, at every level. It is not attributed, it never describes
@@ -282,10 +285,14 @@ Audio is generated with **edge-tts** (installed 7.3.1, `en-US` neural voices) at
 
 ## Media rules
 
-- Images live in `media/` in the repo, named from the note's stable key: kind prefix plus
-  a short deterministic hash of `phrase + sense` (the same string the GUID uses), so a
-  re-run maps an entry to the same file and a renamed entry never silently reuses another
-  card's picture.
+- Images live in `media/` in the repo. The filename is **authored**, not derived: an entry's
+  `image` field names the file without an extension (`"image": "voc_6a648cec"`), because the picture is pasted
+  in by hand from Midjourney. The field names the image, not its format: the stem is tried
+  against `.jpg`, `.jpeg`, `.png`, `.gif` and `.webp`, and a written extension that does not
+  match the file falls back to the same stem.
+- An `image` that names no file on disk is **not an error**: the note is built with an empty
+  `Image` field and a warning, so the card has no illustration rather than a broken `<img>`.
+  Audio keeps the fail-loud rule below.
 - One image per note, showing the sense concretely. No text, logos, or captions baked
   into the image: AI-rendered lettering is unreliable, and on the back of a word card the
   meaning is already spelled out by `Definition`.
@@ -297,8 +304,9 @@ Audio is generated with **edge-tts** (installed 7.3.1, `en-US` neural voices) at
   "same input, same output" rule because image models are not deterministic; the media
   folder is therefore an **input** to generation, and only missing files are generated.
 - The package registers every referenced image in its media map. Missing media does not
-  fail the import — it silently yields an empty card — so the generator asserts that each
-  referenced filename exists before writing the `.apkg`.
+  fail the import — it silently yields an empty panel — so the generator asserts that each
+  referenced **mp3** exists before writing the `.apkg`, while an absent image simply leaves
+  the `Image` field empty.
 
 ## Decks and output
 
@@ -381,6 +389,7 @@ sentences; JSON holds all three without inventing a delimiter or an escape rule.
 | `sense` | — | kebab-case slug, becomes the GUID's identity half; reword freely, rename never |
 | `pronunciation` | `Pronunciation` | GenAm IPA in slashes |
 | `definition` | `Definition` | one sentence |
+| `image` | `Image` | name of the illustration in `media/` without an extension, e.g. `voc_6a648cec` (the file may be `.jpg`, `.png`, `.gif`, …); optional — no matching file leaves the card without a picture |
 | `example` | `Example` | an authored sentence using the target, required on every entry; the target is wrapped in `**...**` |
 | `pos` | `pos::*` tag | part of speech, required on all three kinds |
 | `present_example`, `present_participle_example`, `past_simple_example`, `past_participle_example` | `PresentExample`, `PresentParticipleExample`, `PastSimpleExample`, `PastParticipleExample` | verbs only; one authored sentence per form, target marked `**...**`, shown in this order |
@@ -388,9 +397,10 @@ sentences; JSON holds all three without inventing a delimiter or an escape rule.
 | `level` | `level::*` tag | exactly one |
 | `image_brief` | — | authoring metadata for regenerating the illustration |
 
-`src/` is an **input** and is committed; it is not a cache of the packages. The image and
-mp3 filenames are not in the source at all — they are derived from `phrase` + `sense`, so a
-typo in a filename is impossible and renaming a file by hand is never necessary.
+`src/` is an **input** and is committed; it is not a cache of the packages. The image
+filename is authored in the entry's `image` field, and the mp3 filenames are derived from
+`phrase` + `sense`, so a typo in an audio filename is impossible. A hand-named image that
+does not exist is tolerated — the card is built without it.
 
 Content is included only with `--notes`; a plain build still emits the empty baseline.
 
@@ -422,15 +432,16 @@ when audio was requested, the schema did not move.
   the segment order (target → definition → example, then the verb's four form examples).
   Changing the voice is a one-line edit and a regeneration of media, not a schema change.
 - GUIDs are `voc:` / `pv:` / `col:` + normalized phrase + an **explicit sense-key slug**
-  (`voc:have:eat-or-drink`), and all media filenames (`<key>.jpg`, `<key>-word.mp3`,
+  (`voc:have:eat-or-drink`), and the mp3 filenames (`<key>-word.mp3`,
   `<key>-explanation.mp3`, `<key>-example.mp3`, plus the verb parts
   `<key>-present-example.mp3`, `<key>-present-participle-example.mp3`,
   `<key>-past-simple-example.mp3`, `<key>-past-participle-example.mp3`) derive from the same
-  key. The slug is authored, never
+  key. The `image` filename is authored on the entry instead. The slug is authored, never
   derived from `Definition` — see [incremental updates](incremental-updates.md) for why that
   rule is load-bearing.
 - The package now always has a media map: build it from the referenced images and mp3s,
-  verify it, and fail generation if a note is missing either, or if `Audio` is empty.
+  verify it, and fail generation if a note is missing an mp3 or if `Audio` is empty. A missing
+  image is skipped, not fatal.
 - Every note must carry at least one `category::<slug>` tag, and every slug must be in
   the allowed list. Enforce this at build time; a category typo silently empties a
   filtered deck rather than failing.

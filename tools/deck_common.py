@@ -45,7 +45,14 @@ GUID_PREFIX = {
 }
 
 # Order matters: the first extension found wins, so a converted .jpg beats a stale .png.
-IMAGE_EXTS = (".jpg", ".png", ".webp")
+# The source field may name the file with or without an extension; these are the extensions
+# that are looked up for a bare stem.
+IMAGE_EXTS = (".jpg", ".jpeg", ".png", ".gif", ".webp")
+
+# The source key that names the illustration. Midjourney renders happen outside the repo and
+# are pasted into `media/` by hand, so the filename is authored in the entry instead of being
+# derived from the phrase: `"image": "voc_6a648cec.jpg"`.
+IMAGE_FIELD = "image"
 
 LEVELS = ("a1", "a2", "b1", "b2", "c1", "c2")
 
@@ -128,13 +135,27 @@ def load_entries(layout: Layout, slug: str) -> list[dict]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def image_file(layout: Layout, key: str) -> Path:
-    for ext in IMAGE_EXTS:
-        path = layout.media / f"{key}{ext}"
-        if path.exists():
-            return path
-    exts = "|".join(e.lstrip(".") for e in IMAGE_EXTS)
-    raise FileNotFoundError(f"{layout.media}/{key}.{{{exts}}} is missing")
+def image_for(layout: Layout, entry: dict) -> Path | None:
+    """Return the image the entry names, or `None` when it has none.
+
+    The image is named in the entry's `image` field, never from the media key: the picture is
+    rendered by hand outside the repo. The field holds the **name without an extension**
+    (`"image": "voc_6a648cec"`); the file's format is whatever exists on disk — `.jpg`,
+    `.jpeg`, `.png`, `.gif` or `.webp` is tried in that order. A written extension is still
+    accepted and retried against the same stem, so neither form can strand an image.
+    A missing file is not an error — the card is built without the illustration rather than
+    with a broken `<img>`.
+    """
+    name = str(entry.get(IMAGE_FIELD) or "").strip()
+    if not name:
+        return None
+    path = layout.media / name
+    candidates = [path]
+    if path.suffix.lower() not in IMAGE_EXTS:
+        candidates.extend(path.with_name(path.name + ext) for ext in IMAGE_EXTS)
+    else:
+        candidates.extend(path.with_suffix(ext) for ext in IMAGE_EXTS)
+    return next((candidate for candidate in candidates if candidate.is_file()), None)
 
 
 def audio_file(layout: Layout, key: str, part: str) -> Path:

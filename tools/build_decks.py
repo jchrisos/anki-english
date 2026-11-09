@@ -10,8 +10,10 @@ Content from `src/<kind>.json` is included only with `--notes`. Content is added
 so a plain build must never quietly ship entries.
 
 Every note is validated before the package is written: all text fields present, exactly one
-CEFR level, at least one known category, and both its image and its mp3 on disk. A note
-missing any of them is a build failure, not a card with a blank panel.
+CEFR level, at least one known category, and every mp3 on disk. The illustration is optional:
+an entry names its image with an `image` field, and a name that resolves to no file on disk
+leaves the card without a picture rather than with a broken `<img>`. A note missing any other
+required part is a build failure, not a card with a blank panel.
 
 Production output goes to `decks/` and is committed. Test output goes to `tests/decks/`,
 which is gitignored together with the rest of `tests/`: test builds read `tests/src/` and
@@ -50,7 +52,7 @@ from deck_common import (
     audio_file,
     audio_parts,
     bold_markup,
-    image_file,
+    image_for,
     is_verb,
     layout,
     load_entries,
@@ -396,7 +398,14 @@ def validate(entry: dict, key: str, seen: set[str], lay: Layout) -> None:
     if entry["phrase"] in seen:
         raise BuildError(f"{label}: duplicate phrase within the kind")
     seen.add(entry["phrase"])
-    for path in [image_file(lay, key)] + [audio_file(lay, key, p) for p in audio_parts(entry)]:
+    # The illustration is optional: an entry whose `image` names no file on disk is built
+    # without one, instead of importing a card with a broken `<img>`. A path in the field
+    # would be baked into the note and break on import, so only a bare filename is allowed.
+    image_name = str(entry.get("image") or "").strip()
+    if image_name and Path(image_name).name != image_name:
+        raise BuildError(f"{label}: image must be a bare filename, got {image_name!r}")
+    # Audio is still mandatory: a missing mp3 renders a silent card with no visible clue.
+    for path in [audio_file(lay, key, p) for p in audio_parts(entry)]:
         if not path.exists():
             raise BuildError(f"{label}: missing media file {path.name}")
 
@@ -411,6 +420,7 @@ def make_note(
     guid = f"{prefix}:{entry['phrase']}:{entry['sense']}"
     if test:
         guid = TEST_GUID_PREFIX + guid
+    image = image_for(lay, entry)
     return genanki.Note(
         model=model,
         fields=[
@@ -420,7 +430,8 @@ def make_note(
             # The field carries the whole tag, not a bare filename. Anki's importer only
             # copies media that it can see referenced in the field text (`<img src>` and
             # `[sound:]`), so a filename the template wrapped later is silently skipped.
-            f'<img src="{image_file(lay, key).name}">',
+            # No resolvable image means an empty field: the card simply has no illustration.
+            f'<img src="{image.name}">' if image else "",
             # Each clip lives in its own field so the template can place it directly under
             # the text it reads, instead of stacking players at the bottom.
             f"[sound:{audio_file(lay, key, 'word').name}]",
@@ -464,7 +475,16 @@ def build(kind: dict, test: bool, notes: bool) -> tuple[Path, dict, int]:
         key = media_key(GUID_PREFIX[kind["slug"]], entry)
         validate(entry, key, seen, lay)
         deck.add_note(make_note(kind, model, entry, test, lay))
-        media.extend([image_file(lay, key), *(audio_file(lay, key, p) for p in audio_parts(entry))])
+        image = image_for(lay, entry)
+        if image is None:
+            print(
+                f"warning: {entry['phrase']} ({key}): no image file named "
+                f"{entry.get('image') or '(none)'}; card built without an illustration",
+                file=sys.stderr,
+            )
+        else:
+            media.append(image)
+        media.extend(audio_file(lay, key, p) for p in audio_parts(entry))
 
     lay.out.mkdir(parents=True, exist_ok=True)
     path = lay.out / ident["filename"]

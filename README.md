@@ -5,8 +5,9 @@ Generate Anki flashcard decks (`.apkg`) for English study across three content k
 committed images and audio.
 
 Every card carries: General American IPA, a part of speech, a CEFR level, a one-sentence
-definition, a committed illustration, an authored example sentence, three separate audio clips
-(word, explanation, example) and a set of `category::` tags for filtering. A **verb** card also
+definition, an illustration (when the entry's image file exists), an authored example sentence,
+three separate audio clips (word, explanation, example) and a set of `category::` tags for
+filtering. A **verb** card also
 carries one example sentence per form — `Present`, `Present participle`, `Past`, `Past
 participle` — each shown and spoken on its own row under the authored example. The target is
 **bold** in every authored example: the source wraps it in `**...**` and the build renders
@@ -75,16 +76,19 @@ Each entry in `src/<kind>.json` becomes one note:
 | `phrase` | `Word` / `Phrase` |
 | `pronunciation` | `Pronunciation` |
 | `definition` | `Definition` |
+| `image` | `Image` — name of the illustration in `media/` without an extension (e.g. `voc_6a648cec`, resolved to `.jpg`/`.png`/`.gif`/…); if no file is found the card is built without a picture |
 | `example` | `Example` — an authored sentence using the target; the target is wrapped in `**...**` |
 | `present_example`, `present_participle_example`, `past_simple_example`, `past_participle_example` | the four example rows under the authored example, in card order (verbs only) |
 | `categories`, `level`, `pos` | `category::*`, `level::*`, `pos::*` tags |
 | `sense` | the stable half of the note GUID — never derived from the definition |
 | `image_brief` | the Midjourney prompt for the illustration, derived from `definition` (never `example`) and rendered outside the repo, never written to the note |
 
-Media filenames come from the phrase and sense, so they cannot drift:
+The illustration comes from the entry's `image` field, which names the image rather than its
+format — a stem without an extension is tried against `.jpg`, `.jpeg`, `.png`, `.gif` and
+`.webp`. Audio filenames come from the phrase and sense, so they cannot drift:
 
 ```
-media/voc_6a648cec.jpg
+media/voc_6a648cec.jpg                          # "image": "voc_6a648cec"
 media/voc_6a648cec-word.mp3
 media/voc_6a648cec-explanation.mp3
 media/voc_6a648cec-example.mp3
@@ -96,8 +100,10 @@ media/voc_6a648cec-past-participle-example.mp3
 
 The build **fails** rather than emitting a half-empty card: every text field must be
 present, the pronunciation must be IPA in slashes, a part of speech is required on every
-kind, there must be exactly one `level::` tag, at least one known `category::` tag, and the
-image plus every required mp3 must exist. Every authored example must bold its target with
+kind, there must be exactly one `level::` tag, at least one known `category::` tag, and
+every required mp3 must exist. The image is the exception: an `image` that names no file on
+disk leaves the card without an illustration (with a warning) instead of failing the build.
+Every authored example must bold its target with
 `**...**` (split phrasal verbs use two pairs), every verb needs all four form examples, and a
 non-verb carrying them fails as well.
 

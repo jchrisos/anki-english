@@ -9,6 +9,21 @@ status: active
 
 Newest entries first. ISO dates (`YYYY-MM-DD`).
 
+## 2026-11-09 — The image filename is authored on the entry
+
+- User: "add a field in /src/*.json with the hash name of image … if the image is not found, do
+  not add the image in the card." Midjourney renders are pasted into `media/` by hand, so the
+  build can no longer assume `media/<media_key>.jpg` exists or carries the right name.
+- Source entries gain an optional `image` key holding the illustration's bare filename
+  (`"image": "voc_6a648cec"`, no extension). The field names the image, not its format: the stem is
+  tried against `.jpg`, `.jpeg`, `.png`, `.gif` and `.webp`, and a written extension that does
+  not match the file falls back to the same stem.
+- An `image` that names no file is **not** a build error: the `Image` field stays empty, the
+  file is left out of the media map, and the build prints a warning. Audio keeps the older
+  fail-loud rule because a missing mp3 is silent and invisible on the card.
+- No model, deck or template change, so `BUILD_MOD` and the pinned ids are untouched; only
+  the source schema and the builder moved.
+
 ## 2026-11-08 — Image briefs come from the definition, not the example
 
 - User: "the image brief must be based on definition instead of example." Eight test briefs had

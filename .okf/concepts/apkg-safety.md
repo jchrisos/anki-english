@@ -54,20 +54,22 @@ damages a collection that may hold months of review history.
   Anki's importer only copies media it finds in the field text, so the file is skipped and
   the card shows a broken image while the package looked complete. Absolute or relative paths
   break the same way.
-- Every note is incomplete without its image and its dialog quote, so missing media is a
-  content bug, not a cosmetic one. Generate nothing silently: fail the run and report the
-  entry instead of importing a blank card.
+- The illustration is optional: an entry names its file in the `image` field, and a name that
+  finds no file on disk builds the card without a picture (with a warning) rather than with a
+  broken `<img>`. Audio stays mandatory — a missing mp3 is a silent card with no visible clue,
+  so fail the run and report the entry instead.
 - Audio counts as required media: the `Audio` field holds three
   `[sound:<key>-<part>.mp3]` references (`word`, `explanation`, `dialog`), `AudioExample`
   adds the authored example clip, a verb adds `present-example`, `past-simple-example` and
   `past-participle-example`, and a missing file is a silent, soundless card. Check every
   reference and every file, and never point two notes at the same mp3.
-- Name an image from the note's stable content key (kind prefix + deterministic hash of
-  phrase + sense), keep it under `media/`, and never reuse a filename for a different
-  entry — the media map has no notion of "which card this belongs to". The mp3 uses the
-  same key with a different extension.
-- Missing media does not fail the import; it produces silent gaps, so assert that every
-  referenced filename is present before writing the package.
+- Name the image explicitly in the entry (`"image": "voc_6a648cec"`, no extension) and keep it under
+  `media/`; never reuse a filename for a different entry — the media map has no notion of
+  "which card this belongs to". The mp3s derive from the stable content key (kind prefix +
+  deterministic hash of phrase + sense).
+- Missing media does not fail the import; it produces empty panels, so assert that every
+  required mp3 is present before writing the package. An absent image is intentional and is
+  simply left out of the media map.
 - Never regenerate existing images on a normal build. AI image output is not
   deterministic, so regeneration would churn committed files and break the
   same-input-same-output rule; regenerate only on explicit request.
