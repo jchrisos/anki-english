@@ -94,6 +94,11 @@ ALLOWED_CATEGORIES = frozenset(
     """.split()
 )
 
+# Keys that belonged to the retired movie/TV quote block. They are not silently ignored: a
+# source entry still carrying one is a build error, so stale content is cleaned up rather than
+# imported with part of its data missing.
+REMOVED_KEYS = ("dialog", "source", "speaker_gender")
+
 REQUIRED_TEXT_FIELDS = (
     "phrase",
     "sense",

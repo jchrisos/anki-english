@@ -9,6 +9,24 @@ status: active
 
 Newest entries first. ISO dates (`YYYY-MM-DD`).
 
+## 2026-11-09 — Manifest-first content workflow and the lint pass
+
+- The teacher's assessment of 6,650 cards put the risk in consistency, not volume: duplicate
+  senses, example monotony, image-brief repetition and IPA/level drift. The answer is a
+  reviewed plan and a mechanical check, so both now exist.
+- **`src/index.csv`** is the manifest: `kind,phrase,sense,pos,level,categories,gloss`, one row
+  per sense, written and deduplicated before any card. Glosses are cheap to review; the sense
+  slug is identity and must be frozen before import.
+- **`tools/lint_content.py`** checks the manifest (shape, slugs, level range, tags, unique
+  `kind + phrase + sense`) and each source entry (present in the manifest, agrees with it,
+  required text, IPA slashes, bolded targets, verb rows, Midjourney parameter block).
+  `--report` prints repeated example openers, image-brief openers and camera angles.
+- **Duplicate identity is now `(phrase, sense)`**, not the phrase alone, in both the builder
+  and the lint: homographs are two notes with different GUIDs, while a repeated sense is a
+  real collision.
+- Production `src/index.csv` ships header-only; the 30 test entries have a matching manifest
+  under `tests/src/index.csv`.
+
 ## 2026-11-09 — Production deck scope and card targets
 
 - User fixed the generation target for the three production decks:

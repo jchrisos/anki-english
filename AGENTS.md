@@ -18,6 +18,7 @@ python3 -m venv .venv                       # already exists locally, .venv/ is 
 .venv/bin/python tools/build_decks.py       # empty baseline: decks/{vocabulary,phrasal-verbs,collocations}.apkg
 .venv/bin/python tools/build_decks.py --test  # tests/src + tests/media -> tests/decks (all gitignored)
 .venv/bin/python tools/build_decks.py --test --notes  # same, with the entries from tests/src/
+.venv/bin/python tools/lint_content.py --test --report  # manifest + source checks (production: omit --test)
 .venv/bin/python tools/build_audio.py --test  # mp3s into tests/media (production: omit --test)
 .venv/bin/python tools/prepare_media.py --test  # PNG -> 900px JPEG in tests/media
 ```
@@ -27,6 +28,14 @@ Content lives in `src/<kind>.json` (one array per kind) and is included **only**
 input: nothing regenerates art on a plain build. Audio is named from the entry's key
 (`voc_6a648cec-word.mp3`); the illustration is named by the entry's own `image` field
 (`"image": "voc_6a648cec"`).
+
+**The manifest comes first.** `src/index.csv` is the reviewed plan — one row per *sense*
+(`kind,phrase,sense,pos,level,categories,gloss`), written and deduplicated before any card is.
+Fixing a gloss is cheap; re-slugging a sense after import orphans review history. Write the
+batch into the manifest, then fill `src/<kind>.json`, then run
+`tools/lint_content.py` (manifest + source agreement, repetition report) and only then build.
+The lint fails on unknown tags, a level outside the deck's range, duplicate
+`kind + phrase + sense`, source entries missing from the manifest, and broken examples.
 
 **The project writes image briefs; it does not render the images.** Every entry's `image_brief`
 is a finished, paste-ready Midjourney prompt: a compressed scene description, then the shared

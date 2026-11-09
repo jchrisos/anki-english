@@ -24,12 +24,19 @@ and the audio tool cannot disagree about what an entry is called.
 | Script | Job |
 |---|---|
 | `tools/build_decks.py` | validate the layout's `src/` and `media/`, assemble the three packages |
+| `tools/lint_content.py` | check `src/index.csv` against `src/<kind>.json` before a build |
 | `tools/deck_common.py` | kind prefixes, media key, spoken script, allowed tags |
 | `tools/build_audio.py` | one edge-tts mp3 per entry, skipping files that exist |
 | `tools/prepare_media.py` | PNG → 900 px JPEG, so a package stays ~2 MB |
 
 ## Stages
 
+0. **Manifest** — `src/index.csv`, one row per planned sense
+   (`kind,phrase,sense,pos,level,categories,gloss`), reviewed and deduplicated before any
+   card is written. It is deliberately cheap to review and freeze the sense slugs, because
+   the slug is the note's identity and re-slugging after import orphans review history.
+   `lint_content.py` checks it against the written entries and reports progress and
+   repetition (`--report`).
 1. **Source** — `src/<kind>.json`, one array per kind, one object per entry: `phrase`,
    `sense`, `pronunciation`, `definition`, `image` (the illustration name, no extension), `example`,
    `categories`, `level`, and `image_brief` (a paste-ready Midjourney prompt, never written to

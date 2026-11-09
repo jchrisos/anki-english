@@ -393,6 +393,12 @@ Cheaper now, worse as soon as the card designs diverge.
 entry carries a nested list (categories), an authored sense slug and multi-line example
 sentences; JSON holds all three without inventing a delimiter or an escape rule.
 
+**The manifest comes first (2026-11-09).** `src/index.csv` is the reviewed plan, one row per
+sense: `kind,phrase,sense,pos,level,categories,gloss` (categories semicolon-separated). It is
+written and deduplicated before any card, because a wrong gloss is cheap to fix and a
+re-slugged sense orphans review history. `tools/lint_content.py` checks the manifest against
+the JSON and reports progress and repetition; only a clean lint should reach a build.
+
 | Key | Written to the note | Notes |
 |---|---|---|
 | `phrase` | `Word` / `Phrase` | the target form, lowercase |
@@ -449,6 +455,12 @@ when audio was requested, the schema did not move.
   key. The `image` filename is authored on the entry instead. The slug is authored, never
   derived from `Definition` — see [incremental updates](incremental-updates.md) for why that
   rule is load-bearing.
+- Uniqueness is `(phrase, sense)` within a kind, not the phrase alone: two senses of `run`
+  are two notes with different GUIDs and different media keys, and a repeated sense is the
+  collision that must fail.
+- `src/index.csv` is checked by `tools/lint_content.py` before a build: manifest shape,
+  source/manifest agreement, duplicate `kind + phrase + sense`, level range, tags, and the
+  `**...**`/image-brief rules.
 - The package now always has a media map: build it from the referenced images and mp3s,
   verify it, and fail generation if a note is missing an mp3 or if `Audio` is empty. A missing
   image is skipped, not fatal.

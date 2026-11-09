@@ -37,6 +37,9 @@ python3 -m venv .venv                        # already exists locally
 # test build: reads tests/src + tests/media, writes tests/decks (all gitignored)
 .venv/bin/python tools/build_decks.py --test --notes
 
+# check the manifest and the source entries before building
+.venv/bin/python tools/lint_content.py --test --report
+
 # one mp3 per entry (skips files that already exist)
 .venv/bin/python tools/build_audio.py --test
 
@@ -47,16 +50,47 @@ python3 -m venv .venv                        # already exists locally
 `--only vocabulary|phrasal-verbs|collocations` restricts any of these to one kind.
 `--notes` is what makes the build include entries; without it you get the empty baseline.
 
+## Content workflow: manifest first
+
+`src/index.csv` is the reviewed plan and comes before any card:
+
+```
+kind,phrase,sense,pos,level,categories,gloss
+vocabulary,run,move-fast-on-foot,verb,a1,sports,to move quickly on your feet
+vocabulary,run,manage-an-operation,verb,b1,work,to control or manage something
+```
+
+One row per **sense**, not per word: `sense` is the stable identity half of the GUID, so it is
+frozen before a note exists. `categories` is semicolon-separated. Glosses are one line; the
+full definition is written later in `src/<kind>.json`.
+
+The intended loop is **plan → write → lint → build**:
+
+1. Add the batch to `src/index.csv` and review the glosses and level bands.
+2. Write the matching entries in `src/<kind>.json`.
+3. `tools/lint_content.py` checks both halves and reports progress and repetition.
+4. `tools/build_decks.py --notes` only after the lint is clean.
+
+`lint_content.py` fails on an unknown kind/part of speech/category, a level outside the deck's
+range, a bad sense slug, a duplicate `kind + phrase + sense`, a source entry missing from the
+manifest, a manifest/source disagreement, missing text, bad IPA slashes, unbolded targets, verb
+rows on a non-verb, and a missing Midjourney parameter block. `--report` prints the most
+repeated example openers, image-brief openers and camera angles, which is how a batch that has
+gone monotone is caught early.
+
 ## Repository layout
 
 ```
 decks/            committed baseline packages (0 notes, ids only)
-src/              production source, one JSON array per kind  (does not exist yet)
+src/              production source
+  index.csv         the reviewed manifest: one row per planned sense
+  <kind>.json       the written entries, included only with --notes
 media/            production images and mp3s                  (does not exist yet)
 tests/            the whole test tree — gitignored
   src/  media/  decks/
 tools/
   build_decks.py    validate, assemble and pack the decks
+  lint_content.py   manifest + source checks and the repetition report
   build_audio.py    edge-tts clips, one per spoken part
   prepare_media.py  normalize committed images to 900px JPEG
   deck_common.py    identity rules shared by all of the above

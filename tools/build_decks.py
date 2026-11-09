@@ -44,6 +44,7 @@ from deck_common import (
     KIND_LEVELS,
     KIND_TARGET_CARDS,
     MARKUP,
+    REMOVED_KEYS,
     REPO_ROOT,
     REQUIRED_TEXT_FIELDS,
     TEST_GUID_PREFIX,
@@ -329,12 +330,6 @@ class BuildError(Exception):
     """A note that must not reach a package: missing field, bad tag, missing media."""
 
 
-# Keys that belonged to the retired movie/TV quote block. They are not silently ignored: a
-# source entry still carrying one is a build error, so stale content is cleaned up rather than
-# imported with part of its data missing.
-REMOVED_KEYS = ("dialog", "source", "speaker_gender")
-
-
 def check_markup(entry: dict, field: str, label: str) -> None:
     """An authored example must bold its target and leave no stray `**` behind.
 
@@ -351,7 +346,9 @@ def check_markup(entry: dict, field: str, label: str) -> None:
         raise BuildError(f"{label}: {field} has unbalanced ** markers")
 
 
-def validate(entry: dict, key: str, seen: set[str], lay: Layout, levels: tuple[str, ...]) -> None:
+def validate(
+    entry: dict, key: str, seen: set[tuple[str, str]], lay: Layout, levels: tuple[str, ...]
+) -> None:
     """Reject an entry instead of emitting a card with a blank panel.
 
     Missing media is the failure that does not announce itself: Anki imports the note and
@@ -398,9 +395,10 @@ def validate(entry: dict, key: str, seen: set[str], lay: Layout, levels: tuple[s
     unknown = [c for c in categories if c not in ALLOWED_CATEGORIES]
     if unknown:
         raise BuildError(f"{label}: unknown categories {unknown}")
-    if entry["phrase"] in seen:
-        raise BuildError(f"{label}: duplicate phrase within the kind")
-    seen.add(entry["phrase"])
+    identity = (entry["phrase"], entry["sense"])
+    if identity in seen:
+        raise BuildError(f"{label}: duplicate phrase+sense within the kind")
+    seen.add(identity)
     # The illustration is optional: an entry whose `image` names no file on disk is built
     # without one, instead of importing a card with a broken `<img>`. A path in the field
     # would be baked into the note and break on import, so only a bare filename is allowed.
@@ -473,7 +471,7 @@ def build(kind: dict, test: bool, notes: bool) -> tuple[Path, dict, int]:
 
     media: list[Path] = []
     entries = load_entries(lay, kind["slug"]) if notes else []
-    seen: set[str] = set()
+    seen: set[tuple[str, str]] = set()
     for entry in entries:
         key = media_key(GUID_PREFIX[kind["slug"]], entry)
         validate(entry, key, seen, lay, KIND_LEVELS[kind["slug"]])
