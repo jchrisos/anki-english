@@ -14557,5 +14557,1505 @@
     "image": "voc_72dd1e3d",
     "image_brief": "an office worker standing up slowly from a desk chair holding their lower back, from the side at medium distance, a keyboard, a mug and a window, stiff end-of-day mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
     "example": "My legs are **stiff** after the long hike."
+  },
+  {
+    "phrase": "angry",
+    "pos": "adjective",
+    "sense": "feeling-strong-displeasure",
+    "pronunciation": "/ˈæŋɡri/",
+    "definition": "feeling strong displeasure and wanting to shout or fight.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_44682b86",
+    "image_brief": "a man standing in a kitchen with his hands flat on the counter after an argument, one other person at the door, from across the room at medium distance, a knocked cup, a chair pushed back and a newspaper, tight hot mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He was **angry** about the late train."
+  },
+  {
+    "phrase": "excited",
+    "pos": "adjective",
+    "sense": "very-happy-about-what-comes",
+    "pronunciation": "/ɪkˈsaɪtɪd/",
+    "definition": "very happy and eager about something that is going to happen.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_3a3282e1",
+    "image_brief": "two children by a front door with bags packed, one pointing at the window, from behind at medium distance, coats on hooks, a suitcase and a calendar, bright eager mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The children are **excited** about the trip."
+  },
+  {
+    "phrase": "nervous",
+    "pos": "adjective",
+    "sense": "worried-and-unable-to-relax",
+    "pronunciation": "/ˈnɝvəs/",
+    "definition": "worried and unable to relax, especially before something important.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_125ff558",
+    "image_brief": "a woman waiting outside an office door with a folder in both hands, from across the corridor at medium distance, a clock, a water cooler and a bench, tense quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She felt **nervous** before the interview."
+  },
+  {
+    "phrase": "afraid",
+    "pos": "adjective",
+    "sense": "feeling-fear",
+    "pronunciation": "/əˈfreɪd/",
+    "definition": "feeling fear about something.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_747bfd1b",
+    "image_brief": "a man stopping at the edge of a dark path while his dog pulls back, from behind at medium distance, a low lamp, trees and a bin, cautious night mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I am **afraid** of large dogs."
+  },
+  {
+    "phrase": "scared",
+    "pos": "adjective",
+    "sense": "frightened-of-something-bad",
+    "pronunciation": "/skɛrd/",
+    "definition": "frightened or worried that something bad may happen.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_7ceb9ff6",
+    "image_brief": "a child standing still on a beach as a wave rolls in, one parent reaching out, from the side at medium distance, a bucket, a towel and footprints, startled bright mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The loud noise made the baby **scared**."
+  },
+  {
+    "phrase": "worried",
+    "pos": "adjective",
+    "sense": "uneasy-about-a-problem",
+    "pronunciation": "/ˈwɝid/",
+    "definition": "thinking about a problem and feeling that something bad may happen.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_096ae985",
+    "image_brief": "a woman looking at a phone at a kitchen table late in the evening, from across the room at medium distance, a cold cup, keys and a coat over a chair, anxious quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We were **worried** when he did not call."
+  },
+  {
+    "phrase": "surprised",
+    "pos": "adjective",
+    "sense": "unexpected-thing-happened",
+    "pronunciation": "/sɚˈpraɪzd/",
+    "definition": "feeling that something unexpected has happened.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_a95758f0",
+    "image_brief": "a man opening a box at a birthday table with a party hat in his hand, two friends leaning in, from the side at medium distance, plates, ribbons and a cake, bright delighted mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Everyone was **surprised** by the news."
+  },
+  {
+    "phrase": "bored",
+    "pos": "adjective",
+    "sense": "tired-of-nothing-happening",
+    "pronunciation": "/bɔrd/",
+    "definition": "tired and unhappy because nothing interesting is happening.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_b8699c65",
+    "image_brief": "a boy at a school desk with his chin on his hand looking at a clock, from the back of the room at wide distance, notebooks, a bag and a window, flat slow mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The students looked **bored** in the last class."
+  },
+  {
+    "phrase": "proud",
+    "pos": "adjective",
+    "sense": "pleased-about-good-work",
+    "pronunciation": "/praʊd/",
+    "definition": "pleased about something good that you or someone close to you has done.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_8337c61c",
+    "image_brief": "a father watching a girl hold up a school certificate, from behind at medium distance in a hallway, a coat rack, shoes and a wall poster, warm proud mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her parents are **proud** of her work."
+  },
+  {
+    "phrase": "shy",
+    "pos": "adjective",
+    "sense": "nervous-with-strangers",
+    "pronunciation": "/ʃaɪ/",
+    "definition": "nervous and uncomfortable with people you do not know.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_4ee9b197",
+    "image_brief": "a boy half hidden behind his mother at a doorway while visitors wait, from the side at medium distance, coats, bags and a mat, gentle awkward mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He is too **shy** to speak in class."
+  },
+  {
+    "phrase": "jealous",
+    "pos": "adjective",
+    "sense": "unhappy-someone-has-it",
+    "pronunciation": "/ˈdʒɛləs/",
+    "definition": "unhappy because someone has something that you want.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_92480aa8",
+    "image_brief": "a girl watching another child ride a new bicycle from a garden gate, from behind at medium distance, a scooter, a ball and a fence, quiet envious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She was **jealous** of his new bike."
+  },
+  {
+    "phrase": "lonely",
+    "pos": "adjective",
+    "sense": "sad-because-alone",
+    "pronunciation": "/ˈloʊnli/",
+    "definition": "sad because you are alone or have no one to talk to.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_0f27c886",
+    "image_brief": "a man eating alone at a small table by a window in a cafe, one couple far off, from outside at wide distance, a laptop, a cup and a coat on the chair, muted evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He felt **lonely** in the new city."
+  },
+  {
+    "phrase": "calm",
+    "pos": "adjective",
+    "sense": "relaxed-and-not-worried",
+    "pronunciation": "/kɑm/",
+    "definition": "relaxed and not worried or excited.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_5c5d01ff",
+    "image_brief": "a woman sitting on a jetty with her eyes closed and a book in her lap, wide shot from the shore, a boat, a thermos and gulls on the water, still evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Try to stay **calm** and breathe."
+  },
+  {
+    "phrase": "upset",
+    "pos": "adjective",
+    "sense": "unhappy-after-bad-news",
+    "pronunciation": "/ʌpˈsɛt/",
+    "definition": "unhappy or worried because something bad has happened.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_60e0fc42",
+    "image_brief": "a woman kneeling by a broken plate on a kitchen floor with a dustpan nearby, from the doorway at medium distance, a cat, a chair and a mop, shaken quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She was **upset** about the broken glass."
+  },
+  {
+    "phrase": "annoyed",
+    "pos": "adjective",
+    "sense": "a-little-angry",
+    "pronunciation": "/əˈnɔɪd/",
+    "definition": "a little angry about something that keeps bothering you.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_8e713a68",
+    "image_brief": "a man at a desk turning toward a loud radio on the shelf, one coworker at the next desk, from the side at medium distance, papers, a mug and a fan, irritated office mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I was **annoyed** by the noise next door."
+  },
+  {
+    "phrase": "confused",
+    "pos": "adjective",
+    "sense": "unable-to-understand",
+    "pronunciation": "/kənˈfjuːzd/",
+    "definition": "unable to understand what is happening or what something means.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_940f0cc1",
+    "image_brief": "a man standing in a train station holding a map the wrong way up, one traveler passing with a bag, from across the hall at wide distance, a clock, benches and a kiosk, lost midday mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The map left us **confused**."
+  },
+  {
+    "phrase": "embarrassed",
+    "pos": "adjective",
+    "sense": "uncomfortable-in-front-of-others",
+    "pronunciation": "/ɪmˈbærəst/",
+    "definition": "feeling uncomfortable and foolish in front of other people.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_bf287049",
+    "image_brief": "a woman at a party with a spilled drink on her shirt, one guest handing her a napkin, from the side at medium distance, a table, plates and a dropped bag, awkward party mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He felt **embarrassed** when he forgot her name."
+  },
+  {
+    "phrase": "grateful",
+    "pos": "adjective",
+    "sense": "thankful-for-help",
+    "pronunciation": "/ˈɡreɪtfəl/",
+    "definition": "feeling thankful for something that someone has done.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_05975b6b",
+    "image_brief": "a man shaking hands with a neighbor at a front door over a returned parcel, from behind at medium distance, a bike, a plant and a step, warm ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We are **grateful** for your help."
+  },
+  {
+    "phrase": "hopeful",
+    "pos": "adjective",
+    "sense": "believing-good-may-happen",
+    "pronunciation": "/ˈhoʊpfəl/",
+    "definition": "believing that something good may happen.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_2bd117fa",
+    "image_brief": "a woman standing in a doorway looking at an envelope in her hand, from across the room at medium distance, a coat, a bag and a lamp, quiet expectant mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She feels **hopeful** about the test."
+  },
+  {
+    "phrase": "disappointed",
+    "pos": "adjective",
+    "sense": "sad-it-was-not-better",
+    "pronunciation": "/ˌdɪsəˈpɔɪntɪd/",
+    "definition": "sad because something is not as good as you expected.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_5d3e194f",
+    "image_brief": "a boy sitting on a bench with a test paper in his hand, a friend beside him, from across the playground at wide distance, a ball, a bag and a climbing frame, flat afternoon mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He was **disappointed** with his score."
+  },
+  {
+    "phrase": "delighted",
+    "pos": "adjective",
+    "sense": "very-pleased",
+    "pronunciation": "/dɪˈlaɪtɪd/",
+    "definition": "very pleased and happy about something.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_1492295a",
+    "image_brief": "an older woman opening a gift at a kitchen table with two family members watching, from the side at medium distance, wrapping paper, a cake and cups, warm joyful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They were **delighted** to see us."
+  },
+  {
+    "phrase": "furious",
+    "pos": "adjective",
+    "sense": "extremely-angry",
+    "pronunciation": "/ˈfjʊriəs/",
+    "definition": "extremely angry.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_91ebd7b0",
+    "image_brief": "a man at a car with a dented door pointing at the damage while another driver stands back, from across the street at wide distance, traffic, a cone and a phone, sharp angry mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My father was **furious** about the dent."
+  },
+  {
+    "phrase": "anxious",
+    "pos": "adjective",
+    "sense": "worried-about-what-may-happen",
+    "pronunciation": "/ˈæŋkʃəs/",
+    "definition": "worried and nervous about what may happen.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_e6ad04f7",
+    "image_brief": "a woman in an airport seat holding a boarding pass with both hands, from the side at medium distance, a suitcase, a coffee and a departures screen, restless travel mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She gets **anxious** before flights."
+  },
+  {
+    "phrase": "cheerful",
+    "pos": "adjective",
+    "sense": "happy-and-friendly",
+    "pronunciation": "/ˈtʃɪrfəl/",
+    "definition": "happy and smiling in a friendly way.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_fa44df6a",
+    "image_brief": "a nurse greeting an older patient in a clinic corridor with a smile, from behind at medium distance, a chart, a chair and a plant, bright friendly mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The nurse was **cheerful** all morning."
+  },
+  {
+    "phrase": "grumpy",
+    "pos": "adjective",
+    "sense": "in-a-bad-mood",
+    "pronunciation": "/ˈɡrʌmpi/",
+    "definition": "in a bad mood and easily annoyed.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_acb567bb",
+    "image_brief": "a man at a breakfast table with a newspaper and no coffee yet, one partner at the stove, from the side at medium distance, a toaster, a mug and a chair, slow sour mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He is **grumpy** before breakfast."
+  },
+  {
+    "phrase": "guilty",
+    "pos": "adjective",
+    "sense": "feeling-bad-about-a-wrong",
+    "pronunciation": "/ˈɡɪlti/",
+    "definition": "feeling bad because you did something wrong.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_4af3e3d1",
+    "image_brief": "a boy standing by a broken window with a ball at his feet, one adult looking at the glass, from the side at medium distance, a garden hose, a bike and a fence, small caught mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I feel **guilty** about forgetting the call."
+  },
+  {
+    "phrase": "ashamed",
+    "pos": "adjective",
+    "sense": "embarrassed-about-a-wrong",
+    "pronunciation": "/əˈʃeɪmd/",
+    "definition": "feeling bad and embarrassed about something wrong that you did.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_6bb04cb5",
+    "image_brief": "a teenager sitting on the edge of a bed with a phone face down, one parent in the doorway, from across the room at medium distance, a bag, a lamp and a poster, heavy quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She felt **ashamed** of her old post."
+  },
+  {
+    "phrase": "curious",
+    "pos": "adjective",
+    "sense": "wanting-to-know",
+    "pronunciation": "/ˈkjʊriəs/",
+    "definition": "wanting to know or learn about something.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_d745b7fe",
+    "image_brief": "a child kneeling in front of an open box on the floor, one adult watching from a chair, from behind at medium distance, toys, wrapping paper and a cat, bright wondering mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The children are **curious** about the box."
+  },
+  {
+    "phrase": "serious",
+    "pos": "adjective",
+    "sense": "not-joking",
+    "pronunciation": "/ˈsɪriəs/",
+    "definition": "not joking and thinking carefully about something important.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_26404b0b",
+    "image_brief": "two people at a table with a document between them, one holding a pen, from across the table at medium distance, cups, a laptop and a folder, focused quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He looked **serious** during the meeting."
+  },
+  {
+    "phrase": "glad",
+    "pos": "adjective",
+    "sense": "pleased-and-happy",
+    "pronunciation": "/ɡlæd/",
+    "definition": "pleased and happy about something.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_747b08c8",
+    "image_brief": "a woman greeting a friend at a station with open arms, from the side at medium distance, a suitcase, a bench and a coffee cup, warm reunion mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I am **glad** you came."
+  },
+  {
+    "phrase": "joy",
+    "pos": "noun",
+    "sense": "strong-great-happiness",
+    "pronunciation": "/dʒɔɪ/",
+    "definition": "a strong feeling of great happiness.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_ff80a557",
+    "image_brief": "children running through a sprinkler in a garden with their arms up, one adult watching from the step, from a low angle at wide distance, a hose, towels and a paddling pool, bright summer mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The kids shouted with **joy**."
+  },
+  {
+    "phrase": "anger",
+    "pos": "noun",
+    "sense": "feeling-at-something-unfair",
+    "pronunciation": "/ˈæŋɡɚ/",
+    "definition": "the strong feeling you have when something is very unfair or wrong.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_c6050c62",
+    "image_brief": "a man slamming a drawer in a small office, one coworker turning in their chair, from across the room at medium distance, papers, a phone and a knocked bin, hot tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He could not hide his **anger**."
+  },
+  {
+    "phrase": "mood",
+    "pos": "noun",
+    "sense": "way-you-feel-now",
+    "pronunciation": "/muːd/",
+    "definition": "the way you feel at a particular time.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_ba8ca670",
+    "image_brief": "a woman sitting at a kitchen table staring out of the window, from across the room at medium distance, a cold cup, a letter and a coat on a chair, gray thoughtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She is in a good **mood** today."
+  },
+  {
+    "phrase": "happiness",
+    "pos": "noun",
+    "sense": "feeling-of-being-content",
+    "pronunciation": "/ˈhæpinəs/",
+    "definition": "the feeling of being pleased and content.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_0dbce36c",
+    "image_brief": "an older couple dancing in a living room while a grandchild watches from the sofa, from the doorway at medium distance, a record player, cups and slippers, warm evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The news brought him great **happiness**."
+  },
+  {
+    "phrase": "sadness",
+    "pos": "noun",
+    "sense": "feeling-of-being-unhappy",
+    "pronunciation": "/ˈsædnəs/",
+    "definition": "the feeling of being unhappy.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_b1437cda",
+    "image_brief": "a man sitting alone on a bench in the rain under a small shelter, from across the park at wide distance, a bag, a lamp and wet leaves, muted gray mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "There was **sadness** in her voice."
+  },
+  {
+    "phrase": "surprise",
+    "pos": "noun",
+    "sense": "feeling-when-something-unexpected",
+    "pronunciation": "/sɚˈpraɪz/",
+    "definition": "the feeling you have when something unexpected happens.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_e85c0d0b",
+    "image_brief": "a woman walking into a room where friends wait behind a table with a cake, from behind her at medium distance, balloons, plates and a party hat, bright sudden mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The party was a complete **surprise**."
+  },
+  {
+    "phrase": "stress",
+    "pos": "noun",
+    "sense": "tension-from-too-much-work",
+    "pronunciation": "/strɛs/",
+    "definition": "a worried, tense feeling caused by too much work or pressure.",
+    "categories": [
+      "emotions",
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_e680948d",
+    "image_brief": "a man at a desk covered in papers with a phone at his ear, from across the room at medium distance, a clock, a cold cup and a bag on the floor, overloaded late mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Too much work causes **stress**."
+  },
+  {
+    "phrase": "pride",
+    "pos": "noun",
+    "sense": "good-feeling-about-good-work",
+    "pronunciation": "/praɪd/",
+    "definition": "a good feeling about something that you or others have done well.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_2283625e",
+    "image_brief": "a woman watching her daughter receive a medal on a small stage, from the side at medium distance, chairs, a flag and a folder, glowing warm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He spoke with **pride** about his son."
+  },
+  {
+    "phrase": "shame",
+    "pos": "noun",
+    "sense": "bad-feeling-after-a-wrong",
+    "pronunciation": "/ʃeɪm/",
+    "definition": "the bad feeling you have after doing something wrong.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_84ae111d",
+    "image_brief": "a man standing alone at the back of a meeting room, one person leaving, from across the room at medium distance, chairs, a screen and a dropped folder, heavy low mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She felt deep **shame** after the lie."
+  },
+  {
+    "phrase": "relief",
+    "pos": "noun",
+    "sense": "good-feeling-when-worry-stops",
+    "pronunciation": "/rɪˈliːf/",
+    "definition": "the good feeling you have when a worry or pain stops.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_e2b78ab7",
+    "image_brief": "a woman sitting down on a sofa with a phone in her hand and her head back, one friend beside her, from across the room at medium distance, a coat, a bag and a cold cup, released breath mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "It was a **relief** to hear the news."
+  },
+  {
+    "phrase": "worry",
+    "pos": "verb",
+    "sense": "think-about-problems",
+    "pronunciation": "/ˈwɝi/",
+    "definition": "to think about problems and feel unhappy or nervous.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "present_example": "She **worries** about everything.",
+    "past_simple_example": "We **worried** all night.",
+    "past_participle_example": "I have **worried** about this for days.",
+    "present_participle_example": "He is **worrying** about the bill.",
+    "image": "voc_3ebf4cab",
+    "image_brief": "a father pacing in a hospital corridor with a phone in his hand, from the far end at wide distance, chairs, a clock and a plant, tense night mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Do not **worry** about the test."
+  },
+  {
+    "phrase": "panic",
+    "pos": "verb",
+    "sense": "feel-sudden-fear",
+    "pronunciation": "/ˈpænɪk/",
+    "definition": "to feel sudden strong fear and be unable to think clearly.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "present_example": "She **panics** in small spaces.",
+    "past_simple_example": "He **panicked** at the noise.",
+    "past_participle_example": "They have **panicked** for nothing.",
+    "present_participle_example": "The crowd is **panicking** at the gate.",
+    "image": "voc_32969f67",
+    "image_brief": "a man in a crowded station turning quickly between platforms with a bag, one traveler stepping aside, from across the hall at wide distance, a clock, signs and a dropped ticket, rushed alarmed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Do not **panic** if you get lost."
+  },
+  {
+    "phrase": "hate",
+    "pos": "verb",
+    "sense": "dislike-very-much",
+    "pronunciation": "/heɪt/",
+    "definition": "to dislike something very much.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "present_example": "She **hates** cold weather.",
+    "past_simple_example": "He **hated** the food at that place.",
+    "past_participle_example": "They have **hated** that song for years.",
+    "present_participle_example": "He is **hating** every minute of the trip.",
+    "image": "voc_3d6b66ea",
+    "image_brief": "a girl at a table pushing a plate of vegetables away, one parent at the sink, from the side at medium distance, a glass, a napkin and a chair, stubborn family mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I **hate** waiting in line."
+  },
+  {
+    "phrase": "hope",
+    "pos": "verb",
+    "sense": "want-good-things-to-happen",
+    "pronunciation": "/hoʊp/",
+    "definition": "to want something good to happen.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "present_example": "We **hope** for good weather.",
+    "past_simple_example": "She **hoped** for a call.",
+    "past_participle_example": "They have **hoped** for this for years.",
+    "present_participle_example": "He is **hoping** for a new job.",
+    "image": "voc_af737d59",
+    "image_brief": "a farmer standing at a fence looking at a dry field and a few clouds, from behind at wide distance, a tractor, a water tank and a dog, patient quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I **hope** you feel better soon."
+  },
+  {
+    "phrase": "fear",
+    "pos": "verb",
+    "sense": "be-afraid-of",
+    "pronunciation": "/fɪr/",
+    "definition": "to feel afraid of something.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "present_example": "She **fears** the dark.",
+    "past_simple_example": "He **feared** the worst.",
+    "past_participle_example": "They have **feared** this for months.",
+    "present_participle_example": "She is **fearing** the results.",
+    "image": "voc_f4a85246",
+    "image_brief": "a woman at the top of a climbing wall looking down, one instructor below, from above at medium distance, ropes, mats and chalk, tight nervous mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Many people **fear** speaking in public."
+  },
+  {
+    "phrase": "trust",
+    "pos": "verb",
+    "sense": "believe-someone-is-honest",
+    "pronunciation": "/trʌst/",
+    "definition": "to believe that someone is honest and will not hurt you.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "present_example": "She **trusts** her team.",
+    "past_simple_example": "We **trusted** the map.",
+    "past_participle_example": "He has **trusted** her since school.",
+    "present_participle_example": "She is **trusting** the wrong person.",
+    "image": "voc_03a4b195",
+    "image_brief": "a child jumping into a pool toward an adult with open arms, from the side at medium distance, goggles, a float and a towel, bright trusting mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I **trust** my doctor."
+  },
+  {
+    "phrase": "admire",
+    "pos": "verb",
+    "sense": "respect-and-like-someone",
+    "pronunciation": "/ədˈmaɪɚ/",
+    "definition": "to respect and like someone because of what they do.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "present_example": "He **admires** his coach.",
+    "past_simple_example": "We **admired** the view from the hill.",
+    "past_participle_example": "She has **admired** him for years.",
+    "present_participle_example": "They are **admiring** the painting.",
+    "image": "voc_9e011e27",
+    "image_brief": "a group standing in front of a large painting in a gallery, one person leaning closer, from behind at wide distance, benches, a guard rail and a brochure, quiet appreciative mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I **admire** her courage."
+  },
+  {
+    "phrase": "complain",
+    "pos": "verb",
+    "sense": "say-you-are-unhappy",
+    "pronunciation": "/kəmˈpleɪn/",
+    "definition": "to say that you are unhappy about something.",
+    "categories": [
+      "communication"
+    ],
+    "level": "a2",
+    "present_example": "He **complains** about the noise.",
+    "past_simple_example": "She **complained** to the front desk.",
+    "past_participle_example": "They have **complained** twice.",
+    "present_participle_example": "He is **complaining** again.",
+    "image": "voc_6b40736a",
+    "image_brief": "a man at a hotel desk pointing at a form while the clerk listens, from the side at medium distance, a key rack, a suitcase and a plant, tired annoyed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Please **complain** to the manager."
+  },
+  {
+    "phrase": "apologize",
+    "pos": "verb",
+    "sense": "say-sorry",
+    "pronunciation": "/əˈpɑlədʒaɪz/",
+    "definition": "to say sorry for something that you did.",
+    "categories": [
+      "communication"
+    ],
+    "level": "a2",
+    "present_example": "She **apologizes** too often.",
+    "past_simple_example": "He **apologized** for the delay.",
+    "past_participle_example": "They have **apologized** already.",
+    "present_participle_example": "She is **apologizing** to the class.",
+    "image": "voc_88e1f03e",
+    "image_brief": "a boy standing at a door with flowers behind his back while a neighbor listens, from the side at medium distance, a step, a bike and a mat, sheepish hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "You should **apologize** to your sister."
+  },
+  {
+    "phrase": "forgive",
+    "pos": "verb",
+    "sense": "stop-being-angry",
+    "pronunciation": "/fɚˈɡɪv/",
+    "definition": "to stop being angry with someone who did something wrong.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "present_example": "She **forgives** easily.",
+    "past_simple_example": "He **forgave** his brother.",
+    "past_participle_example": "They have **forgiven** each other.",
+    "present_participle_example": "She is **forgiving** herself now.",
+    "image": "voc_abe6dc74",
+    "image_brief": "two friends sitting on a bench facing each other after a talk, from behind at medium distance, a bag, a coffee cup and a tree, quiet repaired mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I can **forgive** a small mistake."
+  },
+  {
+    "phrase": "mother",
+    "pos": "noun",
+    "sense": "woman-who-is-your-parent",
+    "pronunciation": "/ˈmʌðɚ/",
+    "definition": "the woman who gave birth to you or who raised you.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_993faf11",
+    "image_brief": "a mother tying a boy's shoelace at a school gate with a backpack beside them, from behind at medium distance, bikes, a notice board and a crossing guard, ordinary morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My **mother** calls me every Sunday."
+  },
+  {
+    "phrase": "father",
+    "pos": "noun",
+    "sense": "man-who-is-your-parent",
+    "pronunciation": "/ˈfɑðɚ/",
+    "definition": "the man who is your parent.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_4dfad151",
+    "image_brief": "a father teaching a teenager to drive in a quiet car park, from behind at medium distance, cones, a phone on the dashboard and a coffee cup, patient afternoon mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "His **father** taught him to drive."
+  },
+  {
+    "phrase": "brother",
+    "pos": "noun",
+    "sense": "boy-with-the-same-parents",
+    "pronunciation": "/ˈbrʌðɚ/",
+    "definition": "a boy or man who has the same parents as you.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_4e2bcc0e",
+    "image_brief": "two boys sharing a room, one at a desk and one on a bunk bed, from the doorway at medium distance, posters, shoes and a games console, easy family mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I have one older **brother**."
+  },
+  {
+    "phrase": "sister",
+    "pos": "noun",
+    "sense": "girl-with-the-same-parents",
+    "pronunciation": "/ˈsɪstɚ/",
+    "definition": "a girl or woman who has the same parents as you.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_39f642b6",
+    "image_brief": "two young women unpacking boxes in a new flat, one holding a lamp, from across the room at medium distance, a sofa on its side, tape and a kettle, busy moving mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **sister** lives in Boston."
+  },
+  {
+    "phrase": "son",
+    "pos": "noun",
+    "sense": "male-child-of-a-parent",
+    "pronunciation": "/sʌn/",
+    "definition": "a male child of a parent.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_4a1f820c",
+    "image_brief": "a boy in a school uniform at a kitchen table showing a drawing to his father, from across the table at medium distance, a cereal bowl, a bag and a wall calendar, ordinary morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Their **son** starts school this year."
+  },
+  {
+    "phrase": "daughter",
+    "pos": "noun",
+    "sense": "female-child-of-a-parent",
+    "pronunciation": "/ˈdɔtɚ/",
+    "definition": "a female child of a parent.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_0905ff97",
+    "image_brief": "a girl drawing at a low table while a woman cooks behind her, from the side at medium distance, crayons, a fridge and a stool, warm weekday mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My **daughter** loves drawing."
+  },
+  {
+    "phrase": "aunt",
+    "pos": "noun",
+    "sense": "sister-of-a-parent",
+    "pronunciation": "/ænt/",
+    "definition": "the sister of your mother or father, or the wife of your uncle.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_197a11e3",
+    "image_brief": "a woman pulling a tray of bread from an oven while a girl waits at the table, from across the kitchen at medium distance, flour, a kettle and a recipe card, warm family mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My **aunt** makes the best bread."
+  },
+  {
+    "phrase": "uncle",
+    "pos": "noun",
+    "sense": "brother-of-a-parent",
+    "pronunciation": "/ˈʌŋkəl/",
+    "definition": "the brother of your mother or father, or the husband of your aunt.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_144bdf5b",
+    "image_brief": "a man in a work jacket showing a boy an engine part in a garage, from the side at medium distance, tools, a bike and a stool, easy teaching mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My **uncle** works at the airport."
+  },
+  {
+    "phrase": "cousin",
+    "pos": "noun",
+    "sense": "child-of-an-aunt-or-uncle",
+    "pronunciation": "/ˈkʌzən/",
+    "definition": "a child of your aunt or uncle.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_2d92bf25",
+    "image_brief": "two teenagers on a garden wall with a football, one passing a phone, from the side at medium distance, a fence, a shed and a hose, relaxed summer mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We visit our **cousin** every summer."
+  },
+  {
+    "phrase": "grandmother",
+    "pos": "noun",
+    "sense": "mother-of-a-parent",
+    "pronunciation": "/ˈɡrænmʌðɚ/",
+    "definition": "the mother of your mother or father.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_74c7ab10",
+    "image_brief": "an older woman telling a story to a child on a sofa, from across the room at medium distance, a blanket, a photo frame and a cup of tea, gentle afternoon mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My **grandmother** tells long stories."
+  },
+  {
+    "phrase": "grandfather",
+    "pos": "noun",
+    "sense": "father-of-a-parent",
+    "pronunciation": "/ˈɡrænfɑðɚ/",
+    "definition": "the father of your mother or father.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_fb2c4493",
+    "image_brief": "an older man walking a small dog with a child beside him, from behind at medium distance in a park, a bench, a stick and a path, slow morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "His **grandfather** walks every morning."
+  },
+  {
+    "phrase": "grandson",
+    "pos": "noun",
+    "sense": "son-of-your-child",
+    "pronunciation": "/ˈɡrænsʌn/",
+    "definition": "the son of your son or daughter.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_c5893397",
+    "image_brief": "a small boy on a step helping an older man with a toolbox, from the side at medium distance, screws, a bike and a mat, patient weekend mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Their **grandson** is three years old."
+  },
+  {
+    "phrase": "granddaughter",
+    "pos": "noun",
+    "sense": "daughter-of-your-child",
+    "pronunciation": "/ˈɡrændɔtɚ/",
+    "definition": "the daughter of your son or daughter.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_2136ccb3",
+    "image_brief": "an older woman reading a book to a girl in bed, from the doorway at medium distance, a lamp, a teddy and slippers, quiet bedtime mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She reads to her **granddaughter** every night."
+  },
+  {
+    "phrase": "nephew",
+    "pos": "noun",
+    "sense": "son-of-your-sibling",
+    "pronunciation": "/ˈnɛfjuː/",
+    "definition": "the son of your brother or sister.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_e6c37cdb",
+    "image_brief": "a boy in a sports kit tying his boots on a bench while a man watches, from the side at medium distance, a bag, a ball and a water bottle, proud sideline mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My **nephew** plays on the school team."
+  },
+  {
+    "phrase": "niece",
+    "pos": "noun",
+    "sense": "daughter-of-your-sibling",
+    "pronunciation": "/niːs/",
+    "definition": "the daughter of your brother or sister.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_4b6c171d",
+    "image_brief": "a girl at an upright piano with an adult turning the page, from the side at medium distance, a music book, a stool and a lamp, gentle practice mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "His **niece** is learning the piano."
+  },
+  {
+    "phrase": "husband",
+    "pos": "noun",
+    "sense": "man-a-woman-marries",
+    "pronunciation": "/ˈhʌzbənd/",
+    "definition": "the man that a woman is married to.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_6ffc2029",
+    "image_brief": "a man cooking at a stove while a woman sets the table, from across the room at medium distance, a pan, plates and a recipe card, easy evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **husband** cooks dinner on Fridays."
+  },
+  {
+    "phrase": "wife",
+    "pos": "noun",
+    "sense": "woman-a-man-marries",
+    "pronunciation": "/waɪf/",
+    "definition": "the woman that a man is married to.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_c3c16688",
+    "image_brief": "a woman in scrubs leaving for work while a man holds the door, from behind at medium distance, a bag, keys and a coat, ordinary early mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "His **wife** works at the hospital."
+  },
+  {
+    "phrase": "partner",
+    "pos": "noun",
+    "sense": "person-you-live-with",
+    "pronunciation": "/ˈpɑrtnɚ/",
+    "definition": "the person you are married to or in a long romantic relationship with.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_66537366",
+    "image_brief": "two people arriving at a party together, one holding a bottle and the other a coat, from across the room at medium distance, a table, glasses and a lamp, relaxed social mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She came to the party with her **partner**."
+  },
+  {
+    "phrase": "classmate",
+    "pos": "noun",
+    "sense": "person-in-your-class",
+    "pronunciation": "/ˈklæsmeɪt/",
+    "definition": "a person who is in the same class as you at school.",
+    "categories": [
+      "education",
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_1bcadfae",
+    "image_brief": "two students sharing notes at a library table, one pointing at a page, from across the table at medium distance, laptops, bags and a window, quiet study mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **classmate** helped me with the homework."
+  },
+  {
+    "phrase": "roommate",
+    "pos": "noun",
+    "sense": "person-sharing-your-home",
+    "pronunciation": "/ˈruːmmeɪt/",
+    "definition": "a person who shares a room or home with you.",
+    "categories": [
+      "home",
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_2216ef6a",
+    "image_brief": "a person leaving a shared flat early with a bag while another sleeps on the sofa, from behind at medium distance, shoes, a kettle and a note on the table, hush early mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My **roommate** leaves early for work."
+  },
+  {
+    "phrase": "wedding",
+    "pos": "noun",
+    "sense": "ceremony-of-getting-married",
+    "pronunciation": "/ˈwɛdɪŋ/",
+    "definition": "a ceremony where two people get married.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_f1099848",
+    "image_brief": "a bride and groom walking between rows of chairs in a garden while guests stand, from behind at wide distance, flowers, a table and a small band, warm celebratory mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They met at a friend's **wedding**."
+  },
+  {
+    "phrase": "marriage",
+    "pos": "noun",
+    "sense": "relationship-of-married-people",
+    "pronunciation": "/ˈmærɪdʒ/",
+    "definition": "the relationship between two people who are married.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_dd5cdeea",
+    "image_brief": "an older couple on a sofa looking at a photo album, from across the room at medium distance, a lamp, cups and a folded blanket, long quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Their **marriage** lasted fifty years."
+  },
+  {
+    "phrase": "engagement",
+    "pos": "noun",
+    "sense": "agreement-to-marry",
+    "pronunciation": "/ɪnˈɡeɪdʒmənt/",
+    "definition": "an agreement between two people to marry each other.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_9a989fee",
+    "image_brief": "a couple at a kitchen table showing a ring to a friend, from across the table at medium distance, plates, a phone and a bottle, happy news mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They announced their **engagement** last week."
+  },
+  {
+    "phrase": "couple",
+    "pos": "noun",
+    "sense": "two-people-in-love",
+    "pronunciation": "/ˈkʌpəl/",
+    "definition": "two people who are married or in a romantic relationship.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_70b0ee37",
+    "image_brief": "a couple walking a dog along a beach at low tide, from behind at wide distance, a ball, a towel and footprints, easy weekend mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **couple** walked along the beach."
+  },
+  {
+    "phrase": "parent",
+    "pos": "noun",
+    "sense": "mother-or-father",
+    "pronunciation": "/ˈpɛrənt/",
+    "definition": "a mother or father of a child.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_19ce72c2",
+    "image_brief": "a parent kneeling to zip a child's coat at a doorway, from behind at medium distance, boots, a bag and an umbrella stand, rushed morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Every **parent** worries sometimes."
+  },
+  {
+    "phrase": "child",
+    "pos": "noun",
+    "sense": "young-person-not-adult",
+    "pronunciation": "/tʃaɪld/",
+    "definition": "a young person who is not yet an adult.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_2b26e8ba",
+    "image_brief": "a child holding an adult's hand at a busy crossing, from behind at medium distance, a school bag, a traffic light and a pram, ordinary city mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **child** held her hand at the crossing."
+  },
+  {
+    "phrase": "baby",
+    "pos": "noun",
+    "sense": "very-young-child",
+    "pronunciation": "/ˈbeɪbi/",
+    "definition": "a very young child who cannot walk or talk yet.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_467c5024",
+    "image_brief": "a baby asleep in a cot with a mobile above, one parent at the door, from across the room at medium distance, a blanket, a bottle and a lamp, quiet night mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **baby** slept through the night."
+  },
+  {
+    "phrase": "twin",
+    "pos": "noun",
+    "sense": "one-of-two-born-together",
+    "pronunciation": "/twɪn/",
+    "definition": "one of two children born to the same mother at the same time.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_8b8fee65",
+    "image_brief": "two girls in matching coats holding hands at a bus stop, one adult behind them, from the side at medium distance, a bag, a pram and a shelter, bright everyday mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She is a **twin**, and her brother looks just like her."
+  },
+  {
+    "phrase": "relative",
+    "pos": "noun",
+    "sense": "member-of-your-family",
+    "pronunciation": "/ˈrɛlətɪv/",
+    "definition": "a member of your family.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_6ffef433",
+    "image_brief": "a visitor with a suitcase being welcomed at a front door by two family members, from behind at medium distance, a hallway, coats and a plant, warm arrival mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **relative** from Canada is staying with us."
+  },
+  {
+    "phrase": "stranger",
+    "pos": "noun",
+    "sense": "person-you-do-not-know",
+    "pronunciation": "/ˈstreɪndʒɚ/",
+    "definition": "a person that you do not know.",
+    "categories": [
+      "relationships",
+      "city"
+    ],
+    "level": "a2",
+    "image": "voc_ecf861dd",
+    "image_brief": "a man asking a woman for directions on a street corner while she holds her phone, from across the street at medium distance, a map stand, a bench and passing traffic, ordinary city mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **stranger** asked me for directions."
+  },
+  {
+    "phrase": "boyfriend",
+    "pos": "noun",
+    "sense": "man-in-a-relationship",
+    "pronunciation": "/ˈbɔɪfrɛnd/",
+    "definition": "a man that someone is in a romantic relationship with.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_40a10ad3",
+    "image_brief": "a young man holding flowers at a doorway while a woman opens the door, from the side at medium distance, a step, a bike and a mat, sweet awkward mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **boyfriend** brought her flowers."
+  },
+  {
+    "phrase": "girlfriend",
+    "pos": "noun",
+    "sense": "woman-in-a-relationship",
+    "pronunciation": "/ˈɡɝlfrɛnd/",
+    "definition": "a woman that someone is in a romantic relationship with.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_bd86e9a0",
+    "image_brief": "a young woman and a man studying at a cafe table with books between them, from across the room at medium distance, cups, a laptop and a bag, easy couple mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "His **girlfriend** studies law."
+  },
+  {
+    "phrase": "bride",
+    "pos": "noun",
+    "sense": "woman-on-her-wedding-day",
+    "pronunciation": "/braɪd/",
+    "definition": "a woman on the day that she gets married.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_5ad913be",
+    "image_brief": "a bride in a simple dress fixing her veil in a bedroom mirror with a friend behind her, from behind at medium distance, a bouquet, shoes and a box, excited quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **bride** arrived a little late."
+  },
+  {
+    "phrase": "married",
+    "pos": "adjective",
+    "sense": "having-a-husband-or-wife",
+    "pronunciation": "/ˈmærid/",
+    "definition": "having a husband or wife.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_36d2cd61",
+    "image_brief": "an older couple holding hands at a bus stop, from the side at medium distance, a bag, a bench and a newspaper, steady everyday mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They have been **married** for ten years."
+  },
+  {
+    "phrase": "single",
+    "pos": "adjective",
+    "sense": "not-married",
+    "pronunciation": "/ˈsɪŋɡəl/",
+    "definition": "not married and not in a serious romantic relationship.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_6c5680ca",
+    "image_brief": "a man eating dinner alone at a small table with a book, from across the room at medium distance, a plate, a glass and a lamp, content quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He is still **single** and lives alone."
+  },
+  {
+    "phrase": "engaged",
+    "pos": "adjective",
+    "sense": "agreed-to-marry",
+    "pronunciation": "/ɪnˈɡeɪdʒd/",
+    "definition": "having agreed to marry someone.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_787acb54",
+    "image_brief": "a woman showing a ring to a friend over coffee, from across the table at medium distance, cups, a phone and a scarf, happy news mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They got **engaged** in June."
+  },
+  {
+    "phrase": "hug",
+    "pos": "verb",
+    "sense": "put-arms-around-someone",
+    "pronunciation": "/hʌɡ/",
+    "definition": "to put your arms around someone to show love or friendship.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "present_example": "She **hugs** her son at the gate.",
+    "past_simple_example": "He **hugged** me at the airport.",
+    "past_participle_example": "They have **hugged** every time they meet.",
+    "present_participle_example": "The girls are **hugging** on the step.",
+    "image": "voc_ad64ccd3",
+    "image_brief": "a woman hugging a returning traveler at an airport gate, from behind at medium distance, a suitcase, a sign and other passengers, warm reunion mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She likes to **hug** her friends."
+  },
+  {
+    "phrase": "kiss",
+    "pos": "verb",
+    "sense": "touch-with-the-lips",
+    "pronunciation": "/kɪs/",
+    "definition": "to touch someone with your lips to show love or affection.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "present_example": "She **kisses** her baby on the head.",
+    "past_simple_example": "He **kissed** her cheek.",
+    "past_participle_example": "They have **kissed** and made up.",
+    "present_participle_example": "The couple is **kissing** by the car.",
+    "image": "voc_44fc0fe7",
+    "image_brief": "a man kissing his daughter on the head at a school gate, from the side at medium distance, a bag, bikes and a fence, ordinary morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Parents often **kiss** their children goodnight."
+  },
+  {
+    "phrase": "argue",
+    "pos": "verb",
+    "sense": "speak-angrily-when-disagreeing",
+    "pronunciation": "/ˈɑrɡjuː/",
+    "definition": "to speak angrily with someone because you disagree about something.",
+    "categories": [
+      "communication"
+    ],
+    "level": "a2",
+    "present_example": "They **argue** about the dishes.",
+    "past_simple_example": "We **argued** for an hour.",
+    "past_participle_example": "They have **argued** all week.",
+    "present_participle_example": "The brothers are **arguing** again.",
+    "image": "voc_e88a9755",
+    "image_brief": "two people arguing across a kitchen table, one standing with a plate, from across the room at medium distance, dishes, a kettle and a chair, tense evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We **argue** about money sometimes."
+  },
+  {
+    "phrase": "introduce",
+    "pos": "verb",
+    "sense": "tell-someones-name",
+    "pronunciation": "/ˌɪntrəˈduːs/",
+    "definition": "to tell someone another person's name when they meet for the first time.",
+    "categories": [
+      "communication"
+    ],
+    "level": "a2",
+    "present_example": "She **introduces** new staff to the team.",
+    "past_simple_example": "He **introduced** me to his parents.",
+    "past_participle_example": "They have **introduced** the plan to everyone.",
+    "present_participle_example": "The host is **introducing** the guests.",
+    "image": "voc_93eb0bce",
+    "image_brief": "a host introducing two guests at a doorway, one holding out a hand, from the side at medium distance, a table, coats and a lamp, polite social mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Let me **introduce** my sister."
+  },
+  {
+    "phrase": "invite",
+    "pos": "verb",
+    "sense": "ask-someone-to-come",
+    "pronunciation": "/ɪnˈvaɪt/",
+    "definition": "to ask someone to come to an event or to your home.",
+    "categories": [
+      "communication"
+    ],
+    "level": "a2",
+    "present_example": "We **invite** friends every Sunday.",
+    "past_simple_example": "She **invited** me to lunch.",
+    "past_participle_example": "They have **invited** the whole street.",
+    "present_participle_example": "He is **inviting** his class to the party.",
+    "image": "voc_778dd9c6",
+    "image_brief": "a woman writing invitations at a table with envelopes around her, from across the room at medium distance, a phone, a pen and a cup, busy pleasant mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We will **invite** the neighbors for dinner."
+  },
+  {
+    "phrase": "marry",
+    "pos": "verb",
+    "sense": "become-husband-or-wife",
+    "pronunciation": "/ˈmæri/",
+    "definition": "to become the husband or wife of someone.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "present_example": "Most couples **marry** in summer.",
+    "past_simple_example": "They **married** last June.",
+    "past_participle_example": "She has **married** into a large family.",
+    "present_participle_example": "They are **marrying** next month.",
+    "image": "voc_f791a08f",
+    "image_brief": "a couple signing a register in a small office while an official waits, from the side at medium distance, flowers, a pen and a folder, quiet formal mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They plan to **marry** next spring."
+  },
+  {
+    "phrase": "adopt",
+    "pos": "verb",
+    "sense": "take-a-child-as-your-own",
+    "pronunciation": "/əˈdɑpt/",
+    "definition": "to take a child into your family and care for them as your own.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "present_example": "They **adopt** older children.",
+    "past_simple_example": "The family **adopted** a girl from Peru.",
+    "past_participle_example": "They have **adopted** two dogs.",
+    "present_participle_example": "She is **adopting** a child this year.",
+    "image": "voc_ae26ad92",
+    "image_brief": "a family filling out papers at a desk while a child plays on the floor, from across the room at medium distance, a folder, toys and a plant, hopeful careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They decided to **adopt** a child."
+  },
+  {
+    "phrase": "raise",
+    "pos": "verb",
+    "sense": "care-for-a-child",
+    "pronunciation": "/reɪz/",
+    "definition": "to care for a child until they are an adult.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "present_example": "They **raise** their children on a farm.",
+    "past_simple_example": "Her parents **raised** four kids.",
+    "past_participle_example": "They have **raised** a happy family.",
+    "present_participle_example": "She is **raising** two children alone.",
+    "image": "voc_6d8bc2da",
+    "image_brief": "a mother feeding two children at a kitchen table, from across the room at medium distance, plates, a school bag and a fridge, busy family mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "It is hard to **raise** children alone."
+  },
+  {
+    "phrase": "support",
+    "pos": "verb",
+    "sense": "help-someone",
+    "pronunciation": "/səˈpɔrt/",
+    "definition": "to help someone with money, time or kindness.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "present_example": "Families **support** each other.",
+    "past_simple_example": "He **supported** her during the exam.",
+    "past_participle_example": "They have **supported** the school for years.",
+    "present_participle_example": "She is **supporting** her parents now.",
+    "image": "voc_6d9002d7",
+    "image_brief": "a man helping an older woman carry shopping bags up the steps, from behind at medium distance, a stick, a door and a mat, kind everyday mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We **support** each other through hard times."
+  },
+  {
+    "phrase": "promise",
+    "pos": "verb",
+    "sense": "say-you-will-do-it",
+    "pronunciation": "/ˈprɑmɪs/",
+    "definition": "to say that you will surely do something.",
+    "categories": [
+      "communication"
+    ],
+    "level": "a2",
+    "present_example": "She **promises** to visit soon.",
+    "past_simple_example": "He **promised** to call.",
+    "past_participle_example": "They have **promised** to help.",
+    "present_participle_example": "She is **promising** too much.",
+    "image": "voc_deca7260",
+    "image_brief": "a girl holding up a small hand with one finger raised to a friend in a playground, from the side at medium distance, a ball, a bench and a bag, earnest childhood mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I **promise** to call you tonight."
+  },
+  {
+    "phrase": "divorce",
+    "pos": "verb",
+    "sense": "end-a-marriage-legally",
+    "pronunciation": "/dɪˈvɔrs/",
+    "definition": "to legally end a marriage.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "present_example": "Few people **divorce** after fifty years.",
+    "past_simple_example": "They **divorced** two years ago.",
+    "past_participle_example": "They have **divorced** and sold the house.",
+    "present_participle_example": "They are **divorcing** after a long marriage.",
+    "image": "voc_3e6bccbf",
+    "image_brief": "two people at a table with papers between them and a folder open, from across the room at medium distance, cups, a pen and a coat on a chair, tired serious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They decided to **divorce** after twenty years."
+  },
+  {
+    "phrase": "celebrate",
+    "pos": "verb",
+    "sense": "do-something-for-a-special-day",
+    "pronunciation": "/ˈsɛləbreɪt/",
+    "definition": "to do something enjoyable for a special day or event.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "present_example": "We **celebrate** every spring.",
+    "past_simple_example": "They **celebrated** their anniversary.",
+    "past_participle_example": "They have **celebrated** there for years.",
+    "present_participle_example": "The family is **celebrating** tonight.",
+    "image": "voc_5bf9fd9a",
+    "image_brief": "a family raising glasses at a table with a cake while one person cuts it, from the side at medium distance, plates, a bottle and balloons, warm festive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **celebrate** with a big dinner."
+  },
+  {
+    "phrase": "respect",
+    "pos": "verb",
+    "sense": "show-someone-is-important",
+    "pronunciation": "/rɪˈspɛkt/",
+    "definition": "to show that you think someone is good and important.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "present_example": "She **respects** her teacher.",
+    "past_simple_example": "We **respected** his decision.",
+    "past_participle_example": "They have **respected** the rules.",
+    "present_participle_example": "He is **respecting** her wish for space.",
+    "image": "voc_15f06dee",
+    "image_brief": "a student standing to greet a teacher at a classroom door, from the side at medium distance, desks, a bag and a poster, polite school mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "You should **respect** other people's opinions."
+  },
+  {
+    "phrase": "separate",
+    "pos": "verb",
+    "sense": "stop-living-with-a-partner",
+    "pronunciation": "/ˈsɛpəreɪt/",
+    "definition": "to stop living with your husband, wife or partner.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "present_example": "Some couples **separate** but stay friends.",
+    "past_simple_example": "They **separated** last spring.",
+    "past_participle_example": "They have **separated** for now.",
+    "present_participle_example": "They are **separating** this month.",
+    "image": "voc_8349b1cb",
+    "image_brief": "two people packing boxes in a flat, one carrying a bag to the door, from across the room at medium distance, tape, a lamp and a bare shelf, sad quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They decided to **separate** last summer."
   }
 ]

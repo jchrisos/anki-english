@@ -2099,3 +2099,103 @@ vocabulary,healthy,well-and-strong,adjective,a2,health;body,strong and well with
 vocabulary,broken,damaged-in-pieces,adjective,a2,health;body,damaged so that it is in pieces
 vocabulary,sore,painful-to-touch,adjective,a2,health;body,painful when you touch or move it
 vocabulary,stiff,hard-to-move,adjective,a2,health;body,hard to move and painful after exercise
+vocabulary,angry,feeling-strong-displeasure,adjective,a2,emotions,feeling strong displeasure and wanting to shout
+vocabulary,excited,very-happy-about-what-comes,adjective,a2,emotions,very happy about something that will happen
+vocabulary,nervous,worried-and-unable-to-relax,adjective,a2,emotions,worried and unable to relax
+vocabulary,afraid,feeling-fear,adjective,a2,emotions,feeling fear about something
+vocabulary,scared,frightened-of-something-bad,adjective,a2,emotions,frightened that something bad may happen
+vocabulary,worried,uneasy-about-a-problem,adjective,a2,emotions,thinking about a problem with unease
+vocabulary,surprised,unexpected-thing-happened,adjective,a2,emotions,feeling that something unexpected happened
+vocabulary,bored,tired-of-nothing-happening,adjective,a2,emotions,tired because nothing interesting is happening
+vocabulary,proud,pleased-about-good-work,adjective,a2,emotions,pleased about something good you did
+vocabulary,shy,nervous-with-strangers,adjective,a2,emotions,nervous with people you do not know
+vocabulary,jealous,unhappy-someone-has-it,adjective,a2,emotions,unhappy because someone has what you want
+vocabulary,lonely,sad-because-alone,adjective,a2,emotions,sad because you are alone
+vocabulary,calm,relaxed-and-not-worried,adjective,a2,emotions,relaxed and not worried
+vocabulary,upset,unhappy-after-bad-news,adjective,a2,emotions,unhappy because something bad happened
+vocabulary,annoyed,a-little-angry,adjective,a2,emotions,a little angry about a repeated problem
+vocabulary,confused,unable-to-understand,adjective,a2,emotions,unable to understand what is happening
+vocabulary,embarrassed,uncomfortable-in-front-of-others,adjective,a2,emotions,uncomfortable and foolish in front of others
+vocabulary,grateful,thankful-for-help,adjective,a2,emotions,thankful for something someone did
+vocabulary,hopeful,believing-good-may-happen,adjective,a2,emotions,believing something good may happen
+vocabulary,disappointed,sad-it-was-not-better,adjective,a2,emotions,sad because something was not as good
+vocabulary,delighted,very-pleased,adjective,a2,emotions,very pleased and happy
+vocabulary,furious,extremely-angry,adjective,a2,emotions,extremely angry
+vocabulary,anxious,worried-about-what-may-happen,adjective,a2,emotions,worried about what may happen
+vocabulary,cheerful,happy-and-friendly,adjective,a2,emotions,happy and friendly in a bright way
+vocabulary,grumpy,in-a-bad-mood,adjective,a2,emotions,in a bad mood and easily annoyed
+vocabulary,guilty,feeling-bad-about-a-wrong,adjective,a2,emotions,feeling bad about something you did
+vocabulary,ashamed,embarrassed-about-a-wrong,adjective,a2,emotions,embarrassed about something wrong you did
+vocabulary,curious,wanting-to-know,adjective,a2,emotions,wanting to know about something
+vocabulary,serious,not-joking,adjective,a2,emotions,not joking and thinking carefully
+vocabulary,glad,pleased-and-happy,adjective,a2,emotions,pleased and happy about something
+vocabulary,joy,strong-great-happiness,noun,a2,emotions,a strong feeling of great happiness
+vocabulary,anger,feeling-at-something-unfair,noun,a2,emotions,strong feeling at something unfair
+vocabulary,mood,way-you-feel-now,noun,a2,emotions,the way you feel at a time
+vocabulary,happiness,feeling-of-being-content,noun,a2,emotions,the feeling of being pleased and content
+vocabulary,sadness,feeling-of-being-unhappy,noun,a2,emotions,the feeling of being unhappy
+vocabulary,surprise,feeling-when-something-unexpected,noun,a2,emotions,the feeling when something unexpected happens
+vocabulary,stress,tension-from-too-much-work,noun,a2,emotions;work,worried tension from too much work
+vocabulary,pride,good-feeling-about-good-work,noun,a2,emotions,good feeling about something done well
+vocabulary,shame,bad-feeling-after-a-wrong,noun,a2,emotions,bad feeling after doing something wrong
+vocabulary,relief,good-feeling-when-worry-stops,noun,a2,emotions,good feeling when a worry stops
+vocabulary,worry,think-about-problems,verb,a2,emotions,think about problems with unease
+vocabulary,panic,feel-sudden-fear,verb,a2,emotions,feel sudden strong fear
+vocabulary,hate,dislike-very-much,verb,a2,emotions,dislike something very much
+vocabulary,hope,want-good-things-to-happen,verb,a2,emotions,want something good to happen
+vocabulary,fear,be-afraid-of,verb,a2,emotions,feel afraid of something
+vocabulary,trust,believe-someone-is-honest,verb,a2,relationships,believe someone is honest
+vocabulary,admire,respect-and-like-someone,verb,a2,emotions,respect and like someone for what they do
+vocabulary,complain,say-you-are-unhappy,verb,a2,communication,say you are unhappy about something
+vocabulary,apologize,say-sorry,verb,a2,communication,say sorry for something you did
+vocabulary,forgive,stop-being-angry,verb,a2,relationships,stop being angry with someone
+vocabulary,mother,woman-who-is-your-parent,noun,a2,relationships,woman who is your parent
+vocabulary,father,man-who-is-your-parent,noun,a2,relationships,man who is your parent
+vocabulary,brother,boy-with-the-same-parents,noun,a2,relationships,boy or man with your parents
+vocabulary,sister,girl-with-the-same-parents,noun,a2,relationships,girl or woman with your parents
+vocabulary,son,male-child-of-a-parent,noun,a2,relationships,male child of a parent
+vocabulary,daughter,female-child-of-a-parent,noun,a2,relationships,female child of a parent
+vocabulary,aunt,sister-of-a-parent,noun,a2,relationships,sister of your mother or father
+vocabulary,uncle,brother-of-a-parent,noun,a2,relationships,brother of your mother or father
+vocabulary,cousin,child-of-an-aunt-or-uncle,noun,a2,relationships,child of your aunt or uncle
+vocabulary,grandmother,mother-of-a-parent,noun,a2,relationships,mother of your mother or father
+vocabulary,grandfather,father-of-a-parent,noun,a2,relationships,father of your mother or father
+vocabulary,grandson,son-of-your-child,noun,a2,relationships,son of your son or daughter
+vocabulary,granddaughter,daughter-of-your-child,noun,a2,relationships,daughter of your son or daughter
+vocabulary,nephew,son-of-your-sibling,noun,a2,relationships,son of your brother or sister
+vocabulary,niece,daughter-of-your-sibling,noun,a2,relationships,daughter of your brother or sister
+vocabulary,husband,man-a-woman-marries,noun,a2,relationships,man that a woman is married to
+vocabulary,wife,woman-a-man-marries,noun,a2,relationships,woman that a man is married to
+vocabulary,partner,person-you-live-with,noun,a2,relationships,person you are married or live with
+vocabulary,classmate,person-in-your-class,noun,a2,education;relationships,person in your class at school
+vocabulary,roommate,person-sharing-your-home,noun,a2,home;relationships,person who shares your home
+vocabulary,wedding,ceremony-of-getting-married,noun,a2,relationships,ceremony where two people get married
+vocabulary,marriage,relationship-of-married-people,noun,a2,relationships,relationship between two married people
+vocabulary,engagement,agreement-to-marry,noun,a2,relationships,agreement to marry someone
+vocabulary,couple,two-people-in-love,noun,a2,relationships,two people in a romantic relationship
+vocabulary,parent,mother-or-father,noun,a2,relationships,mother or father of a child
+vocabulary,child,young-person-not-adult,noun,a2,relationships,young person who is not an adult
+vocabulary,baby,very-young-child,noun,a2,relationships,very young child who cannot walk
+vocabulary,twin,one-of-two-born-together,noun,a2,relationships,one of two children born together
+vocabulary,relative,member-of-your-family,noun,a2,relationships,member of your family
+vocabulary,stranger,person-you-do-not-know,noun,a2,relationships;city,person you do not know
+vocabulary,boyfriend,man-in-a-relationship,noun,a2,relationships,man someone is in a relationship with
+vocabulary,girlfriend,woman-in-a-relationship,noun,a2,relationships,woman someone is in a relationship with
+vocabulary,bride,woman-on-her-wedding-day,noun,a2,relationships,woman on her wedding day
+vocabulary,married,having-a-husband-or-wife,adjective,a2,relationships,having a husband or wife
+vocabulary,single,not-married,adjective,a2,relationships,not married and not in a relationship
+vocabulary,engaged,agreed-to-marry,adjective,a2,relationships,having agreed to marry someone
+vocabulary,hug,put-arms-around-someone,verb,a2,relationships,put your arms around someone
+vocabulary,kiss,touch-with-the-lips,verb,a2,relationships,touch someone with your lips
+vocabulary,argue,speak-angrily-when-disagreeing,verb,a2,communication,speak angrily because you disagree
+vocabulary,introduce,tell-someones-name,verb,a2,communication,tell someone another person's name
+vocabulary,invite,ask-someone-to-come,verb,a2,communication,ask someone to come to an event
+vocabulary,marry,become-husband-or-wife,verb,a2,relationships,become the husband or wife of someone
+vocabulary,adopt,take-a-child-as-your-own,verb,a2,relationships,take a child into your family
+vocabulary,raise,care-for-a-child,verb,a2,relationships,care for a child until they are adult
+vocabulary,support,help-someone,verb,a2,relationships,help someone with money or kindness
+vocabulary,promise,say-you-will-do-it,verb,a2,communication,say that you will surely do something
+vocabulary,divorce,end-a-marriage-legally,verb,a2,relationships,legally end a marriage
+vocabulary,celebrate,do-something-for-a-special-day,verb,a2,relationships,do something enjoyable for a special day
+vocabulary,respect,show-someone-is-important,verb,a2,relationships,show that you think someone is important
+vocabulary,separate,stop-living-with-a-partner,verb,a2,relationships,stop living with your husband or partner
