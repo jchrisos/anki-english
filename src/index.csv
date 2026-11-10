@@ -2799,3 +2799,103 @@ vocabulary,flask,small-bottle-for-drinks,noun,a2,kitchen,a small bottle for carr
 vocabulary,lunchbox,box-for-a-packed-meal,noun,a2,kitchen;education,a box for carrying a packed meal
 vocabulary,cooler,box-that-keeps-food-cold,noun,a2,kitchen;travel,a box that keeps food and drinks cold
 vocabulary,jug,container-for-pouring-liquid,noun,a2,kitchen,a large container for pouring liquid
+vocabulary,staff,people-who-work-somewhere,noun,a2,work,all the people who work somewhere
+vocabulary,employee,person-paid-to-work,noun,a2,work,a person who is paid to work
+vocabulary,employer,person-or-company-that-pays,noun,a2,work,a person or company that pays workers
+vocabulary,resume,paper-describing-your-work,noun,a2,work,a paper describing your education and work
+vocabulary,application,written-request-for-a-job,noun,a2,work,a written request for a job or place
+vocabulary,contract,official-work-agreement,noun,a2,work,an official agreement about work
+vocabulary,shift,period-of-work-time,noun,a2,work,a period of time that you work
+vocabulary,overtime,extra-hours-of-work,noun,a2,work,hours worked beyond your normal time
+vocabulary,client,person-you-do-work-for,noun,a2,work,a person who pays for your service
+vocabulary,task,piece-of-work-to-do,noun,a2,work,a piece of work that must be done
+vocabulary,department,part-of-a-company,noun,a2,work,one part of a large company
+vocabulary,training,teaching-for-a-job,noun,a2,work,teaching that prepares you for a job
+vocabulary,promotion,better-job-in-the-same-place,noun,a2,work,a move to a more important job
+vocabulary,wage,money-paid-per-hour,noun,a2,work;money,money paid for each hour of work
+vocabulary,income,money-you-receive,noun,a2,work;money,money that you receive regularly
+vocabulary,career,work-you-do-for-years,noun,a2,work,the work you do over many years
+vocabulary,profession,job-that-needs-training,noun,a2,work,a job that needs special training
+vocabulary,accountant,person-who-checks-money-records,noun,a2,work,a person who keeps money records
+vocabulary,lawyer,person-who-works-with-laws,noun,a2,work,a person trained to advise about laws
+vocabulary,chef,person-who-cooks-in-a-restaurant,noun,a2,work;kitchen,a person who cooks in a restaurant
+vocabulary,receptionist,person-who-greets-visitors,noun,a2,work,a person who greets visitors at a desk
+vocabulary,secretary,person-who-handles-office-work,noun,a2,work,a person who does office tasks for others
+vocabulary,assistant,person-who-helps-another-worker,noun,a2,work,a person who helps someone in their work
+vocabulary,director,person-who-leads-a-company-part,noun,a2,work,a senior person who leads a department
+vocabulary,president,top-leader-of-a-company,noun,a2,work,the top leader of a company or country
+vocabulary,owner,person-who-owns-something,noun,a2,work,a person who owns a business or thing
+vocabulary,volunteer,person-who-works-for-free,noun,a2,work,a person who works without being paid
+vocabulary,intern,person-learning-by-working,noun,a2,work,a student who learns by working for a time
+vocabulary,workplace,place-where-people-work,noun,a2,work;home,the building or place where you work
+vocabulary,workload,amount-of-work-to-do,noun,a2,work,the amount of work a person must do
+vocabulary,paperwork,forms-and-documents,noun,a2,work,the forms and documents for a job
+vocabulary,badge,card-that-shows-who-you-are,noun,a2,work,a card worn to show who you are
+vocabulary,spreadsheet,computer-page-of-numbers,noun,a2,work,a computer page of rows of numbers
+vocabulary,colleague,person-you-work-with,noun,a2,work,a person who works with you
+vocabulary,benefit,extra-thing-a-job-gives-you,noun,a2,work;money,an extra thing a job gives you
+vocabulary,bonus,extra-money-for-good-work,noun,a2,work;money,extra money paid for good work
+vocabulary,resign,leave-a-job-officially,verb,a2,work,leave a job officially
+vocabulary,retire,stop-working-after-many-years,verb,a2,work,stop working at the end of a career
+vocabulary,hire,give-someone-a-job,verb,a2,work,give someone a job
+vocabulary,apply,ask-formally-for-a-job,verb,a2,work,ask formally for a job or place
+vocabulary,manage,be-in-charge-of-people,verb,a2,work,be in charge of people or work
+vocabulary,lead,guide-a-group-of-people,verb,a2,work,guide and direct a group of people
+vocabulary,assist,help-someone-with-work,verb,a2,work,help someone with their work
+vocabulary,freelance,working-for-yourself,adjective,a2,work,working for yourself not one company
+vocabulary,skilled,having-special-abilities,adjective,a2,work,having special training or ability
+vocabulary,experienced,having-done-it-for-years,adjective,a2,work,having done a job for a long time
+vocabulary,professional,doing-a-job-well,adjective,a2,work,showing the standards of a good worker
+vocabulary,temporary,lasting-a-short-time,adjective,a2,work,lasting only a short time
+vocabulary,permanent,lasting-for-a-long-time,adjective,a2,work,lasting for a long time
+vocabulary,reliable,able-to-be-trusted,adjective,a2,work,able to be trusted to do good work
+vocabulary,visa,permission-to-enter-a-country,noun,a2,travel,an official mark that lets you enter a country
+vocabulary,itinerary,plan-of-a-trip,noun,a2,travel,a detailed plan of a journey
+vocabulary,souvenir,thing-you-buy-to-remember-a-place,noun,a2,travel,an object bought to remember a place
+vocabulary,customs,place-that-checks-goods-at-a-border,noun,a2,travel,the office that checks bags at a border
+vocabulary,boarding,getting-on-a-plane-or-ship,noun,a2,travel;transport,the act of getting on a plane or ship
+vocabulary,terminal,building-for-departing-travelers,noun,a2,travel;transport,a building where travelers arrive and leave
+vocabulary,layover,wait-between-two-flights,noun,a2,travel,a wait between two flights
+vocabulary,cruise,holiday-on-a-ship,noun,a2,travel,a holiday on a large ship
+vocabulary,resort,place-hotel-for-holidays,noun,a2,travel,a place with a hotel for holidays
+vocabulary,booking,arrangement-made-in-advance,noun,a2,travel,an arrangement for a room or seat made early
+vocabulary,reservation,seat-or-room-kept-for-you,noun,a2,travel,a seat or room that is kept for you
+vocabulary,compass,tool-that-shows-north,noun,a2,travel,a small tool that shows direction
+vocabulary,coast,land-next-to-the-sea,noun,a2,travel;nature,the land beside the sea
+vocabulary,countryside,land-outside-towns,noun,a2,travel;nature,land with fields and small villages
+vocabulary,sightseeing,visiting-famous-places,noun,a2,travel,visiting interesting places as a tourist
+vocabulary,hostel,cheap-place-to-sleep,noun,a2,travel,a cheap place where travelers sleep
+vocabulary,campsite,place-where-tents-stand,noun,a2,travel;nature,a place where people put up tents
+vocabulary,trek,long-walk-in-nature,noun,a2,travel;nature,a long walk in the countryside
+vocabulary,journey,travel-from-one-place-to-another,noun,a2,travel,the act of traveling to a place
+vocabulary,border,line-between-two-countries,noun,a2,travel,the line between two countries
+vocabulary,stamp,mark-in-a-passport,noun,a2,travel,an official mark in a passport
+vocabulary,airline,company-that-flies-planes,noun,a2,travel;transport,a company that runs flights
+vocabulary,runway,long-strip-for-planes,noun,a2,travel;transport,the long strip where planes take off
+vocabulary,crew,people-who-work-on-a-plane,noun,a2,travel;transport,the people who work on a plane or ship
+vocabulary,cabin,the-room-inside-a-plane,noun,a2,travel;transport,the inside space where passengers sit
+vocabulary,aisle,narrow-walkway-between-seats,noun,a2,travel;transport,the narrow space between seats
+vocabulary,reception,desk-where-guests-arrive,noun,a2,travel;home,the desk where hotel guests arrive
+vocabulary,suite,set-of-hotel-rooms,noun,a2,travel,a set of connected hotel rooms
+vocabulary,lobby,large-room-at-an-entrance,noun,a2,travel;home,the large room inside a hotel entrance
+vocabulary,canyon,deep-valley-with-steep-sides,noun,a2,travel;nature,a deep valley with steep rock sides
+vocabulary,glacier,huge-slow-moving-ice,noun,a2,travel;nature,a huge mass of ice that moves slowly
+vocabulary,volcano,mountain-that-throws-out-lava,noun,a2,travel;nature,a mountain that can throw out hot rock
+vocabulary,yacht,large-expensive-boat,noun,a2,travel,a large private boat
+vocabulary,canoe,small-narrow-boat,noun,a2,travel,a small narrow boat moved with a paddle
+vocabulary,kayak,small-boat-for-one-person,noun,a2,travel,a small boat for one person with a paddle
+vocabulary,agency,business-that-arranges-trips,noun,a2,travel;work,a business that arranges travel or services
+vocabulary,agent,person-who-arranges-trips,noun,a2,travel;work,a person who arranges travel for others
+vocabulary,departure,act-of-leaving-a-place,noun,a2,travel;transport,the act of leaving on a journey
+vocabulary,arrival,act-of-reaching-a-place,noun,a2,travel;transport,the act of reaching a place
+vocabulary,fare,money-paid-for-a-journey,noun,a2,travel;transport,the money you pay for a seat
+vocabulary,stopover,short-stay-between-flights,noun,a2,travel,a short stay between two flights
+vocabulary,phrasebook,book-of-useful-foreign-phrases,noun,a2,travel,a book of useful phrases in another language
+vocabulary,adapter,plug-for-a-different-socket,noun,a2,travel,a plug that fits a foreign socket
+vocabulary,abroad,in-another-country,adverb,a2,travel,in or to another country
+vocabulary,depart,leave-on-a-journey,verb,a2,travel;transport,leave a place on a journey
+vocabulary,cancel,say-a-booking-will-not-happen,verb,a2,travel,say that a booking will not happen
+vocabulary,exchange,give-one-thing-for-another,verb,a2,travel;money,give money of one kind for another
+vocabulary,scenic,with-beautiful-views,adjective,a2,travel;nature,having beautiful natural views
+vocabulary,remote,far-from-other-places,adjective,a2,travel;nature,far away from towns and people
+vocabulary,international,between-two-countries,adjective,a2,travel,between or involving two countries

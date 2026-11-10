@@ -25143,5 +25143,1476 @@
     "image": "voc_31381264",
     "image_brief": "a jug of lemonade on a garden table with one person pouring, from the side at medium distance, glasses, a plate and a chair, summer lunch mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
     "example": "She filled the **jug** with water."
+  },
+  {
+    "phrase": "staff",
+    "pos": "noun",
+    "sense": "people-who-work-somewhere",
+    "pronunciation": "/stæf/",
+    "definition": "all the people who work at a place.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_2c04b69e",
+    "image_brief": "a shift of staff gathering in a hotel back room before work, one manager pointing at a board, from the doorway at medium distance, lockers, coats and a clock, start-of-day mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The hotel **staff** were very helpful."
+  },
+  {
+    "phrase": "employee",
+    "pos": "noun",
+    "sense": "person-paid-to-work",
+    "pronunciation": "/ɪmˈplɔɪiː/",
+    "definition": "a person who is paid to work for a company.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_fffa7cbf",
+    "image_brief": "a new employee being shown a desk by a colleague in an office, from behind at medium distance, a chair, a folder and a plant, welcoming mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Every **employee** gets two weeks of holiday."
+  },
+  {
+    "phrase": "employer",
+    "pos": "noun",
+    "sense": "person-or-company-that-pays",
+    "pronunciation": "/ɪmˈplɔɪɚ/",
+    "definition": "a person or company that pays people to work.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_15ca335b",
+    "image_brief": "a small shop owner talking with two workers at a counter, from the side at medium distance, boxes, a till and a clipboard, ordinary business mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **employer** pays for the training."
+  },
+  {
+    "phrase": "resume",
+    "pos": "noun",
+    "sense": "paper-describing-your-work",
+    "pronunciation": "/ˈrɛzəmeɪ/",
+    "definition": "a paper that describes your education and work experience.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_3f6d8c72",
+    "image_brief": "a person checking a printed resume at a kitchen table, one friend beside them, from across the table at medium distance, a laptop, a cup and a pen, applying-for-work mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He sent his **resume** to three companies."
+  },
+  {
+    "phrase": "application",
+    "pos": "noun",
+    "sense": "written-request-for-a-job",
+    "pronunciation": "/ˌæpləˈkeɪʃən/",
+    "definition": "a written request for a job or a place on a course.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_b4f0b270",
+    "image_brief": "a woman filling in an application form at a library desk, one staff member helping, from the side at medium distance, books, a pen and a lamp, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **application** must arrive by Friday."
+  },
+  {
+    "phrase": "contract",
+    "pos": "noun",
+    "sense": "official-work-agreement",
+    "pronunciation": "/ˈkɑntrækt/",
+    "definition": "an official written agreement about work.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_7bf69015",
+    "image_brief": "two people signing a contract at a table with one pen between them, from across the table at medium distance, a folder, glasses and a cup, settled business mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She signed a one-year **contract**."
+  },
+  {
+    "phrase": "shift",
+    "pos": "noun",
+    "sense": "period-of-work-time",
+    "pronunciation": "/ʃɪft/",
+    "definition": "a period of time that you work in a day.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_33fb0617",
+    "image_brief": "a nurse handing over a ward to another at a desk, one clock on the wall, from the side at medium distance, a chart, a chair and a lamp, end-of-shift mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He works the night **shift** this week."
+  },
+  {
+    "phrase": "overtime",
+    "pos": "noun",
+    "sense": "extra-hours-of-work",
+    "pronunciation": "/ˈoʊvɚtaɪm/",
+    "definition": "extra hours that you work beyond your normal time.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_e91bf918",
+    "image_brief": "an office at night with one person still at a desk, a cleaner passing with a bin, from across the room at medium distance, a lamp, papers and a cold cup, quiet overtime mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She did **overtime** to finish the report."
+  },
+  {
+    "phrase": "client",
+    "pos": "noun",
+    "sense": "person-you-do-work-for",
+    "pronunciation": "/ˈklaɪənt/",
+    "definition": "a person who pays a company or worker for a service.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_35350e6d",
+    "image_brief": "a designer showing work to a client at a table, one laptop turned toward them, from the side at medium distance, notebooks, cups and a window, attentive meeting mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **client** wants a simpler design."
+  },
+  {
+    "phrase": "task",
+    "pos": "noun",
+    "sense": "piece-of-work-to-do",
+    "pronunciation": "/tæsk/",
+    "definition": "a piece of work that must be done.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_dd14b6a3",
+    "image_brief": "a worker checking items off a list on a clipboard in a warehouse, one colleague carrying a box, from the side at medium distance, shelves, a trolley and a lamp, busy morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My first **task** is to call the supplier."
+  },
+  {
+    "phrase": "department",
+    "pos": "noun",
+    "sense": "part-of-a-company",
+    "pronunciation": "/dɪˈpɑrtmənt/",
+    "definition": "one part of a large company or organization.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_8fc214f4",
+    "image_brief": "two workers talking at the door of a department office, one holding a folder, from behind at medium distance, desks, a printer and a plant, ordinary office mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She moved to the sales **department**."
+  },
+  {
+    "phrase": "training",
+    "pos": "noun",
+    "sense": "teaching-for-a-job",
+    "pronunciation": "/ˈtreɪnɪŋ/",
+    "definition": "teaching that prepares you for a job.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_1ab87f16",
+    "image_brief": "a trainer showing a small group how to use a machine, one worker taking notes, from the side at medium distance, a table, tools and a screen, focused learning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "New staff get a week of **training**."
+  },
+  {
+    "phrase": "promotion",
+    "pos": "noun",
+    "sense": "better-job-in-the-same-place",
+    "pronunciation": "/prəˈmoʊʃən/",
+    "definition": "a move to a more important job in the same place.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_85f3d662",
+    "image_brief": "a manager shaking hands with a worker in an office while two colleagues watch, from the side at medium distance, desks, a lamp and a folder, pleased mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He got a **promotion** after two years."
+  },
+  {
+    "phrase": "wage",
+    "pos": "noun",
+    "sense": "money-paid-per-hour",
+    "pronunciation": "/weɪdʒ/",
+    "definition": "money that is paid for each hour of work.",
+    "categories": [
+      "work",
+      "money"
+    ],
+    "level": "a2",
+    "image": "voc_00ae491c",
+    "image_brief": "a worker looking at a pay slip at a kitchen table, one partner beside them, from across the table at medium distance, a cup, keys and a letter, thoughtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The hourly **wage** went up this year."
+  },
+  {
+    "phrase": "income",
+    "pos": "noun",
+    "sense": "money-you-receive",
+    "pronunciation": "/ˈɪnkʌm/",
+    "definition": "the money that you receive regularly from work or investments.",
+    "categories": [
+      "work",
+      "money"
+    ],
+    "level": "a2",
+    "image": "voc_09a29ee2",
+    "image_brief": "a couple going over bills and a bank letter at a table, from above at medium distance, a calculator, a cup and a folder, serious household mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Their **income** covers the rent."
+  },
+  {
+    "phrase": "career",
+    "pos": "noun",
+    "sense": "work-you-do-for-years",
+    "pronunciation": "/kəˈrɪr/",
+    "definition": "the work that you do over many years of your life.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_2c75bae9",
+    "image_brief": "a woman looking at a wall of framed certificates and photos in an office, from the side at medium distance, a desk, a plant and a lamp, reflective mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She changed **career** at thirty."
+  },
+  {
+    "phrase": "profession",
+    "pos": "noun",
+    "sense": "job-that-needs-training",
+    "pronunciation": "/prəˈfɛʃən/",
+    "definition": "a job that needs special training and education.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_a0015a37",
+    "image_brief": "a teacher and a nurse talking at a bus stop in work clothes, from across the pavement at medium distance, a bench, bags and a sign, ordinary weekday mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Teaching is a demanding **profession**."
+  },
+  {
+    "phrase": "accountant",
+    "pos": "noun",
+    "sense": "person-who-checks-money-records",
+    "pronunciation": "/əˈkaʊntənt/",
+    "definition": "a person whose job is to keep or check money records.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_9cab3ed5",
+    "image_brief": "an accountant working through a stack of papers at a desk, one client sitting opposite, from the side at medium distance, a calculator, a lamp and a cup, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Our **accountant** does the yearly books."
+  },
+  {
+    "phrase": "lawyer",
+    "pos": "noun",
+    "sense": "person-who-works-with-laws",
+    "pronunciation": "/ˈlɔjɚ/",
+    "definition": "a person who is trained to advise people about the law.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_6999f7db",
+    "image_brief": "a lawyer spreading papers on a table beside a client, from the side at medium distance, a briefcase, a cup and a window, serious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She called her **lawyer** after the accident."
+  },
+  {
+    "phrase": "chef",
+    "pos": "noun",
+    "sense": "person-who-cooks-in-a-restaurant",
+    "pronunciation": "/ʃɛf/",
+    "definition": "a person who cooks food in a restaurant.",
+    "categories": [
+      "work",
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_7912e33c",
+    "image_brief": "a chef plating a dish in a busy restaurant kitchen, one cook behind at the stove, from the side at medium distance, pans, towels and tickets, service mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **chef** came out to say hello."
+  },
+  {
+    "phrase": "receptionist",
+    "pos": "noun",
+    "sense": "person-who-greets-visitors",
+    "pronunciation": "/rɪˈsɛpʃənɪst/",
+    "definition": "a person who greets visitors and answers the phone at a desk.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_baa40b04",
+    "image_brief": "a receptionist greeting a visitor at a front desk, one key rack and a phone behind, from across the lobby at medium distance, chairs, a plant and a folder, polite arrival mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **receptionist** gave me a badge."
+  },
+  {
+    "phrase": "secretary",
+    "pos": "noun",
+    "sense": "person-who-handles-office-work",
+    "pronunciation": "/ˈsɛkrətɛri/",
+    "definition": "a person who does office tasks such as typing and answering calls.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_9cb4c72c",
+    "image_brief": "a secretary sorting papers at a desk with a phone at one ear, from the side at medium distance, a calendar, a cup and a filing cabinet, busy office mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **secretary** booked the meeting room."
+  },
+  {
+    "phrase": "assistant",
+    "pos": "noun",
+    "sense": "person-who-helps-another-worker",
+    "pronunciation": "/əˈsɪstənt/",
+    "definition": "a person who helps someone else with their work.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_7f77fbd6",
+    "image_brief": "an assistant carrying folders behind a manager in a corridor, one door open ahead, from behind at medium distance, a lift, a plant and a clock, quick office mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The manager's **assistant** answered."
+  },
+  {
+    "phrase": "director",
+    "pos": "noun",
+    "sense": "person-who-leads-a-company-part",
+    "pronunciation": "/dəˈrɛktɚ/",
+    "definition": "a senior person who leads a part of a company.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_65ac07b2",
+    "image_brief": "a director speaking to a small team around a table, one screen behind, from the far door at wide distance, chairs, cups and a window, formal meeting mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **director** approved the budget."
+  },
+  {
+    "phrase": "president",
+    "pos": "noun",
+    "sense": "top-leader-of-a-company",
+    "pronunciation": "/ˈprɛzɪdənt/",
+    "definition": "the top leader of a company or a country.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_89444c89",
+    "image_brief": "a company president greeting staff in a lobby, one worker holding a folder, from across the room at wide distance, a desk, a flag and a plant, formal warm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **president** visited the new office."
+  },
+  {
+    "phrase": "owner",
+    "pos": "noun",
+    "sense": "person-who-owns-something",
+    "pronunciation": "/ˈoʊnɚ/",
+    "definition": "a person who owns a business or a thing.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_d5088ad6",
+    "image_brief": "a shop owner unlocking the door in the morning, one early customer waiting, from across the street at medium distance, a sign, a bin and a bike, ordinary opening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **owner** works in the shop every day."
+  },
+  {
+    "phrase": "volunteer",
+    "pos": "noun",
+    "sense": "person-who-works-for-free",
+    "pronunciation": "/ˌvɑlənˈtɪr/",
+    "definition": "a person who works without being paid.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_d527ae72",
+    "image_brief": "volunteers sorting donations in a community hall, one handing out gloves, from across the room at wide distance, boxes, tables and a sign, cheerful helpful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She works as a **volunteer** on Saturdays."
+  },
+  {
+    "phrase": "intern",
+    "pos": "noun",
+    "sense": "person-learning-by-working",
+    "pronunciation": "/ˈɪntɝn/",
+    "definition": "a student or new graduate who learns by working for a time.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_eba5a549",
+    "image_brief": "an intern taking notes beside a colleague at a desk, one laptop open, from behind at medium distance, papers, a cup and a window, learning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He started as an **intern** last summer."
+  },
+  {
+    "phrase": "workplace",
+    "pos": "noun",
+    "sense": "place-where-people-work",
+    "pronunciation": "/ˈwɝkpleɪs/",
+    "definition": "the building or place where you work.",
+    "categories": [
+      "work",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_1769b576",
+    "image_brief": "an open office with people at desks and one person walking through, from the doorway at wide distance, plants, screens and coats, everyday work mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **workplace** is close to the station."
+  },
+  {
+    "phrase": "workload",
+    "pos": "noun",
+    "sense": "amount-of-work-to-do",
+    "pronunciation": "/ˈwɝkloʊd/",
+    "definition": "the amount of work that a person must do.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_27031d72",
+    "image_brief": "a worker looking at a full inbox and a tall stack of papers, one colleague passing, from behind at medium distance, a lamp, a mug and a clock, heavy pressure mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **workload** doubled this month."
+  },
+  {
+    "phrase": "paperwork",
+    "pos": "noun",
+    "sense": "forms-and-documents",
+    "pronunciation": "/ˈpeɪpɚwɝk/",
+    "definition": "the forms and documents that you must complete for a job.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_b87ed854",
+    "image_brief": "a man working through a stack of forms at a kitchen table, one partner making tea behind, from the side at medium distance, a pen, a folder and a cup, tired admin mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "There is a lot of **paperwork** for a new car."
+  },
+  {
+    "phrase": "badge",
+    "pos": "noun",
+    "sense": "card-that-shows-who-you-are",
+    "pronunciation": "/bædʒ/",
+    "definition": "a card that you wear to show who you are.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_dd22a46c",
+    "image_brief": "a worker clipping a badge onto a shirt at an office entrance, one guard at a desk, from the side at medium distance, a turnstile, a bag and a lamp, morning-at-work mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Show your **badge** at the door."
+  },
+  {
+    "phrase": "spreadsheet",
+    "pos": "noun",
+    "sense": "computer-page-of-numbers",
+    "pronunciation": "/ˈsprɛdʃiːt/",
+    "definition": "a computer page with rows of numbers for keeping records.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_09417863",
+    "image_brief": "a woman checking a spreadsheet on a laptop at a desk, one colleague pointing at a number, from behind at medium distance, papers, a cup and a window, focused office mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Put the numbers in a **spreadsheet**."
+  },
+  {
+    "phrase": "colleague",
+    "pos": "noun",
+    "sense": "person-you-work-with",
+    "pronunciation": "/ˈkɑliːɡ/",
+    "definition": "a person who works with you.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_684c6a57",
+    "image_brief": "two colleagues walking together with coffees in an office corridor, from behind at medium distance, a notice board, a plant and a window, friendly break mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **colleague** dropped me at the station."
+  },
+  {
+    "phrase": "benefit",
+    "pos": "noun",
+    "sense": "extra-thing-a-job-gives-you",
+    "pronunciation": "/ˈbɛnəfɪt/",
+    "definition": "an extra thing that a job gives you in addition to pay.",
+    "categories": [
+      "work",
+      "money"
+    ],
+    "level": "a2",
+    "image": "voc_a31469c7",
+    "image_brief": "two workers reading a staff benefits page at a table, one pointing at a line, from the side at medium distance, a folder, cups and a plant, ordinary office mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The job comes with health **benefit** cover."
+  },
+  {
+    "phrase": "bonus",
+    "pos": "noun",
+    "sense": "extra-money-for-good-work",
+    "pronunciation": "/ˈboʊnəs/",
+    "definition": "extra money that is paid for good work.",
+    "categories": [
+      "work",
+      "money"
+    ],
+    "level": "a2",
+    "image": "voc_1d654fb9",
+    "image_brief": "a worker opening a pay envelope at a desk, one colleague beside, from behind at medium distance, a laptop, a cup and a lamp, pleased mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The team got a **bonus** in December."
+  },
+  {
+    "phrase": "resign",
+    "pos": "verb",
+    "sense": "leave-a-job-officially",
+    "pronunciation": "/rɪˈzaɪn/",
+    "definition": "to leave a job officially.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "present_example": "She **resigns** at the end of the month.",
+    "past_simple_example": "He **resigned** after two years.",
+    "past_participle_example": "Two managers have **resigned**.",
+    "present_participle_example": "He is **resigning** for family reasons.",
+    "image": "voc_52c7a98f",
+    "image_brief": "a woman handing a letter to a manager at a desk, from the side at medium distance, a folder, a cup and a window, quiet serious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He decided to **resign** in June."
+  },
+  {
+    "phrase": "retire",
+    "pos": "verb",
+    "sense": "stop-working-after-many-years",
+    "pronunciation": "/rɪˈtaɪɚ/",
+    "definition": "to stop working at the end of your career, usually because of age.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "present_example": "She **retires** next spring.",
+    "past_simple_example": "My father **retired** at sixty-five.",
+    "past_participle_example": "He has **retired** from teaching.",
+    "present_participle_example": "They are **retiring** at the same time.",
+    "image": "voc_92930ea5",
+    "image_brief": "a small office party for someone retiring with a cake and cards, one colleague speaking, from the side at medium distance, desks, a plant and a window, fond farewell mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She plans to **retire** at sixty."
+  },
+  {
+    "phrase": "hire",
+    "pos": "verb",
+    "sense": "give-someone-a-job",
+    "pronunciation": "/ˈhaɪɚ/",
+    "definition": "to give someone a job.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "present_example": "The shop **hires** extra staff at Christmas.",
+    "past_simple_example": "They **hired** two new drivers.",
+    "past_participle_example": "A new manager has been **hired**.",
+    "present_participle_example": "The company is **hiring** again.",
+    "image": "voc_149d5056",
+    "image_brief": "a manager interviewing a young candidate at a table, from across the room at medium distance, a laptop, a resume and a cup, hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We need to **hire** a new cook."
+  },
+  {
+    "phrase": "apply",
+    "pos": "verb",
+    "sense": "ask-formally-for-a-job",
+    "pronunciation": "/əˈplaɪ/",
+    "definition": "to ask formally for a job, a place or permission.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "present_example": "She **applies** for every job she sees.",
+    "past_simple_example": "He **applied** for the course.",
+    "past_participle_example": "They have **applied** for a loan.",
+    "present_participle_example": "She is **applying** for a new post.",
+    "image": "voc_7cd0255b",
+    "image_brief": "a man filling in a job application on a laptop at a cafe, one friend beside him, from the side at medium distance, a cup, a notebook and a window, determined mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "You should **apply** before Friday."
+  },
+  {
+    "phrase": "manage",
+    "pos": "verb",
+    "sense": "be-in-charge-of-people",
+    "pronunciation": "/ˈmænɪdʒ/",
+    "definition": "to be in charge of people or work.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "present_example": "She **manages** a team of eight.",
+    "past_simple_example": "He **managed** the shop for years.",
+    "past_participle_example": "The project has been **managed** well.",
+    "present_participle_example": "She is **managing** two offices now.",
+    "image": "voc_0dd8d409",
+    "image_brief": "a manager talking through a plan with two workers at a table, one pointing at a laptop, from the side at medium distance, cups, papers and a window, steady leadership mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He learned to **manage** a small team."
+  },
+  {
+    "phrase": "lead",
+    "pos": "verb",
+    "sense": "guide-a-group-of-people",
+    "pronunciation": "/liːd/",
+    "definition": "to guide and direct a group of people.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "present_example": "She **leads** the morning meeting.",
+    "past_simple_example": "He **led** the project last year.",
+    "past_participle_example": "The team has been **led** well.",
+    "present_participle_example": "She is **leading** the new group.",
+    "image": "voc_6851d9f9",
+    "image_brief": "a team leader walking ahead through a warehouse with three workers behind, from behind at wide distance, shelves, a trolley and a light, purposeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She will **lead** the new project."
+  },
+  {
+    "phrase": "assist",
+    "pos": "verb",
+    "sense": "help-someone-with-work",
+    "pronunciation": "/əˈsɪst/",
+    "definition": "to help someone with their work.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "present_example": "He **assists** the head chef on Fridays.",
+    "past_simple_example": "She **assisted** with the training.",
+    "past_participle_example": "The client has been **assisted** by our team.",
+    "present_participle_example": "He is **assisting** at the front desk.",
+    "image": "voc_2ae0320a",
+    "image_brief": "a junior worker helping an older colleague carry boxes up steps, from behind at medium distance, a door, a van and a clipboard, helpful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Can you **assist** with the delivery?"
+  },
+  {
+    "phrase": "freelance",
+    "pos": "adjective",
+    "sense": "working-for-yourself",
+    "pronunciation": "/ˈfriːlæns/",
+    "definition": "working for yourself rather than for one company.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_42a2a3be",
+    "image_brief": "a freelance designer working at a kitchen table with a laptop, one client call on speaker, from the side at medium distance, a cup, a notebook and a plant, independent mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She does **freelance** work from home."
+  },
+  {
+    "phrase": "skilled",
+    "pos": "adjective",
+    "sense": "having-special-abilities",
+    "pronunciation": "/skɪld/",
+    "definition": "having special training or ability.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_687a1a8d",
+    "image_brief": "a skilled carpenter shaping a piece of wood in a workshop, one apprentice watching, from the side at medium distance, tools, shavings and a bench, exact mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They need a **skilled** mechanic."
+  },
+  {
+    "phrase": "experienced",
+    "pos": "adjective",
+    "sense": "having-done-it-for-years",
+    "pronunciation": "/ɪkˈspɪriənst/",
+    "definition": "having done a job for a long time.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_74d8f8c0",
+    "image_brief": "an experienced nurse showing a younger one how to prepare a tray, from the side at medium distance, a chart, a lamp and a chair, teaching mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We are looking for an **experienced** driver."
+  },
+  {
+    "phrase": "professional",
+    "pos": "adjective",
+    "sense": "doing-a-job-well",
+    "pronunciation": "/prəˈfɛʃənəl/",
+    "definition": "showing the standards of a good and careful worker.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_c55b8370",
+    "image_brief": "a plumber in clean work clothes explaining a repair to a homeowner, from the side at medium distance, a toolbox, a towel and a sink, trustworthy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He gave a **professional** answer."
+  },
+  {
+    "phrase": "temporary",
+    "pos": "adjective",
+    "sense": "lasting-a-short-time",
+    "pronunciation": "/ˈtɛmpərɛri/",
+    "definition": "lasting only for a short time.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_3ec10f64",
+    "image_brief": "a worker setting up a temporary desk in a store room, one colleague with a box, from the door at medium distance, shelves, a lamp and a chair, improvised mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "It is a **temporary** job for three months."
+  },
+  {
+    "phrase": "permanent",
+    "pos": "adjective",
+    "sense": "lasting-for-a-long-time",
+    "pronunciation": "/ˈpɝmənənt/",
+    "definition": "lasting for a long time or forever.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_3b032bde",
+    "image_brief": "a worker signing a permanent contract at a desk, one manager beside them, from across the desk at medium distance, a folder, a pen and a plant, settled mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "After a year she got a **permanent** contract."
+  },
+  {
+    "phrase": "reliable",
+    "pos": "adjective",
+    "sense": "able-to-be-trusted",
+    "pronunciation": "/rɪˈlaɪəbəl/",
+    "definition": "able to be trusted to do good work.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_eb5b117f",
+    "image_brief": "a delivery driver arriving on time at a shop with a parcel, one shopkeeper checking a watch, from the side at medium distance, a van, boxes and a sign, dependable mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She is the most **reliable** person on the team."
+  },
+  {
+    "phrase": "visa",
+    "pos": "noun",
+    "sense": "permission-to-enter-a-country",
+    "pronunciation": "/ˈviːzə/",
+    "definition": "an official mark or document that allows you to enter a country.",
+    "categories": [
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_a51b951e",
+    "image_brief": "a traveler holding a passport open to a visa page at an airport desk, one officer behind, from the side at medium distance, a stamp, a tray and a bag, routine check mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She applied for a **visa** in March."
+  },
+  {
+    "phrase": "itinerary",
+    "pos": "noun",
+    "sense": "plan-of-a-trip",
+    "pronunciation": "/aɪˈtɪnərɛri/",
+    "definition": "a detailed plan of a journey.",
+    "categories": [
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_8f96e2f8",
+    "image_brief": "two people looking at a printed itinerary on a hotel bed, one pointing at a day, from above at medium distance, a map, a camera and a cup, planning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Our **itinerary** includes three cities."
+  },
+  {
+    "phrase": "souvenir",
+    "pos": "noun",
+    "sense": "thing-you-buy-to-remember-a-place",
+    "pronunciation": "/ˌsuːvəˈnɪr/",
+    "definition": "an object that you buy to remember a place.",
+    "categories": [
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_63d13849",
+    "image_brief": "a tourist choosing a small souvenir from a shop shelf, one shopkeeper behind the counter, from the side at medium distance, postcards, a bag and a lamp, holiday mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She bought a **souvenir** for her sister."
+  },
+  {
+    "phrase": "customs",
+    "pos": "noun",
+    "sense": "place-that-checks-goods-at-a-border",
+    "pronunciation": "/ˈkʌstəmz/",
+    "definition": "the office at a border that checks bags and goods.",
+    "categories": [
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_d698aba6",
+    "image_brief": "travelers opening their bags for a customs officer at an airport, from behind at medium distance, a desk, a scanner and a queue, official mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We went through **customs** quickly."
+  },
+  {
+    "phrase": "boarding",
+    "pos": "noun",
+    "sense": "getting-on-a-plane-or-ship",
+    "pronunciation": "/ˈbɔrdɪŋ/",
+    "definition": "the act of getting on a plane or a ship.",
+    "categories": [
+      "travel",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_aca8e4c8",
+    "image_brief": "a line of passengers boarding a plane at a gate, one staff member checking passes, from behind at wide distance, a desk, bags and a window, orderly travel mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Boarding** starts twenty minutes before the flight."
+  },
+  {
+    "phrase": "terminal",
+    "pos": "noun",
+    "sense": "building-for-departing-travelers",
+    "pronunciation": "/ˈtɝmənəl/",
+    "definition": "a building where travelers arrive and leave.",
+    "categories": [
+      "travel",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_baeb8f91",
+    "image_brief": "travelers walking through a bright airport terminal with bags, one family stopping at a screen, from above at wide distance, shops, seats and signs, busy travel mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The bus leaves from the main **terminal**."
+  },
+  {
+    "phrase": "layover",
+    "pos": "noun",
+    "sense": "wait-between-two-flights",
+    "pronunciation": "/ˈleɪoʊvɚ/",
+    "definition": "a period of waiting between two flights.",
+    "categories": [
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_7dba2083",
+    "image_brief": "a passenger waiting with a coffee between flights in an airport seat, one cleaning cart passing, from the side at medium distance, a suitcase, a screen and a charger, tired waiting mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We had a three-hour **layover** in Chicago."
+  },
+  {
+    "phrase": "cruise",
+    "pos": "noun",
+    "sense": "holiday-on-a-ship",
+    "pronunciation": "/kruːz/",
+    "definition": "a holiday that you spend on a large ship.",
+    "categories": [
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_eaaf0709",
+    "image_brief": "a large white ship leaving a harbor with passengers on deck, one family waving from the rail, from the shore at wide distance, a jetty, crates and gulls, holiday departure mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They took a **cruise** in the Caribbean."
+  },
+  {
+    "phrase": "resort",
+    "pos": "noun",
+    "sense": "place-hotel-for-holidays",
+    "pronunciation": "/rɪˈzɔrt/",
+    "definition": "a place with a hotel where people go on holiday.",
+    "categories": [
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_660e3b18",
+    "image_brief": "a resort pool with two guests on loungers and one waiter carrying drinks, from across the pool at wide distance, towels, umbrellas and plants, lazy holiday mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **resort** was right on the beach."
+  },
+  {
+    "phrase": "booking",
+    "pos": "noun",
+    "sense": "arrangement-made-in-advance",
+    "pronunciation": "/ˈbʊkɪŋ/",
+    "definition": "an arrangement for a room, seat or table made before you go.",
+    "categories": [
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_33745fd1",
+    "image_brief": "a traveler showing a booking on a phone at a hotel desk, one receptionist checking a screen, from the side at medium distance, a key, a bag and a lamp, arrival mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I made a **booking** for two nights."
+  },
+  {
+    "phrase": "reservation",
+    "pos": "noun",
+    "sense": "seat-or-room-kept-for-you",
+    "pronunciation": "/ˌrɛzɚˈveɪʃən/",
+    "definition": "a seat or room that is kept for you.",
+    "categories": [
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_309b3675",
+    "image_brief": "a couple checking in for a dinner reservation at a restaurant desk, one host with a book, from the side at medium distance, a lamp, menus and a plant, polite evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We have a **reservation** for seven."
+  },
+  {
+    "phrase": "compass",
+    "pos": "noun",
+    "sense": "tool-that-shows-north",
+    "pronunciation": "/ˈkʌmpəs/",
+    "definition": "a small tool that shows which direction is north.",
+    "categories": [
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_790e6e55",
+    "image_brief": "a hiker holding a compass on a ridge above a valley, one friend behind with a map, from the side at medium distance, a backpack, a bottle and rocks, navigating mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He checked the **compass** before the hike."
+  },
+  {
+    "phrase": "coast",
+    "pos": "noun",
+    "sense": "land-next-to-the-sea",
+    "pronunciation": "/koʊst/",
+    "definition": "the land that is next to the sea.",
+    "categories": [
+      "travel",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_10e0d578",
+    "image_brief": "a winding road along a rocky coast with one car driving, from above at wide distance, a fence, a lighthouse and the sea, open dramatic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We drove along the **coast** for hours."
+  },
+  {
+    "phrase": "countryside",
+    "pos": "noun",
+    "sense": "land-outside-towns",
+    "pronunciation": "/ˈkʌntrisaɪd/",
+    "definition": "land with fields and small villages, away from towns.",
+    "categories": [
+      "travel",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_4f0dd7e3",
+    "image_brief": "a narrow lane through green fields with one cyclist and a farm gate, from the hedgerow at wide distance, a sign, a barn and trees, slow rural mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They moved to the **countryside** last year."
+  },
+  {
+    "phrase": "sightseeing",
+    "pos": "noun",
+    "sense": "visiting-famous-places",
+    "pronunciation": "/ˈsaɪtsiːɪŋ/",
+    "definition": "visiting interesting or famous places as a tourist.",
+    "categories": [
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_b90297e2",
+    "image_brief": "a small group of tourists with a map looking up at an old tower, one guide pointing, from behind at medium distance, cameras, bags and a bench, curious holiday mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We spent the morning **sightseeing**."
+  },
+  {
+    "phrase": "hostel",
+    "pos": "noun",
+    "sense": "cheap-place-to-sleep",
+    "pronunciation": "/ˈhɑstəl/",
+    "definition": "a cheap place where travelers can sleep.",
+    "categories": [
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_f9252844",
+    "image_brief": "two backpackers making a bunk bed in a hostel room, one reading a notice, from the door at medium distance, lockers, bags and a lamp, easy travel mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **hostel** was cheap and friendly."
+  },
+  {
+    "phrase": "campsite",
+    "pos": "noun",
+    "sense": "place-where-tents-stand",
+    "pronunciation": "/ˈkæmpsaɪt/",
+    "definition": "a place where people put up tents.",
+    "categories": [
+      "travel",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_63d32ce9",
+    "image_brief": "two tents on a campsite at dusk with one person lighting a stove, from the edge of the field at wide distance, a table, a car and trees, quiet outdoor mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **campsite** is near the river."
+  },
+  {
+    "phrase": "trek",
+    "pos": "noun",
+    "sense": "long-walk-in-nature",
+    "pronunciation": "/trɛk/",
+    "definition": "a long walk in the countryside or mountains.",
+    "categories": [
+      "travel",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_41b5cea9",
+    "image_brief": "two walkers on a mountain path with sticks, one stopping to look back, from behind at wide distance, a ridge, a backpack and a marker, tired grand mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **trek** took six hours."
+  },
+  {
+    "phrase": "journey",
+    "pos": "noun",
+    "sense": "travel-from-one-place-to-another",
+    "pronunciation": "/ˈdʒɝni/",
+    "definition": "the act of traveling from one place to another.",
+    "categories": [
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_e99658c1",
+    "image_brief": "a family with bags waiting on a platform for a long journey, one child asleep on a case, from the end of the platform at wide distance, a bench, a clock and a train, weary travel mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **journey** took all day."
+  },
+  {
+    "phrase": "border",
+    "pos": "noun",
+    "sense": "line-between-two-countries",
+    "pronunciation": "/ˈbɔrdɚ/",
+    "definition": "the line between two countries.",
+    "categories": [
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_c6a84246",
+    "image_brief": "cars queuing at a border crossing with one guard checking papers, from the side at wide distance, a barrier, a sign and hills, slow official mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We crossed the **border** at night."
+  },
+  {
+    "phrase": "stamp",
+    "pos": "noun",
+    "sense": "mark-in-a-passport",
+    "pronunciation": "/stæmp/",
+    "definition": "an official mark that is put in a passport.",
+    "categories": [
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_54f5bf82",
+    "image_brief": "a passport open on a counter with a fresh stamp, one officer holding the stamp, from the side at medium distance, a desk, a laser light and a queue, official routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The officer put a **stamp** in my passport."
+  },
+  {
+    "phrase": "airline",
+    "pos": "noun",
+    "sense": "company-that-flies-planes",
+    "pronunciation": "/ˈɛrlaɪn/",
+    "definition": "a company that runs flights.",
+    "categories": [
+      "travel",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_3f628577",
+    "image_brief": "check-in staff in uniform behind an airline desk with one passenger approaching, from across the hall at medium distance, a screen, bags and a rope line, calm travel mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **airline** lost his bag."
+  },
+  {
+    "phrase": "runway",
+    "pos": "noun",
+    "sense": "long-strip-for-planes",
+    "pronunciation": "/ˈrʌnweɪ/",
+    "definition": "the long strip of ground where planes take off and land.",
+    "categories": [
+      "travel",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_ebbd1c11",
+    "image_brief": "a plane speeding down a runway with one spotter watching from a fence, from the side at wide distance, lights, a sign and grass, loud takeoff mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The plane waited on the **runway**."
+  },
+  {
+    "phrase": "crew",
+    "pos": "noun",
+    "sense": "people-who-work-on-a-plane",
+    "pronunciation": "/kruː/",
+    "definition": "the people who work on a plane or a ship.",
+    "categories": [
+      "travel",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_909656b9",
+    "image_brief": "a cabin crew member showing two passengers where to sit, one colleague at the galley, from the aisle at medium distance, seats, bags and a trolley, welcoming mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **crew** helped us find our seats."
+  },
+  {
+    "phrase": "cabin",
+    "pos": "noun",
+    "sense": "the-room-inside-a-plane",
+    "pronunciation": "/ˈkæbɪn/",
+    "definition": "the inside space of a plane where passengers sit.",
+    "categories": [
+      "travel",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_4474e1f0",
+    "image_brief": "passengers settling into a plane cabin with one closing the overhead bin, from the back of the cabin at medium distance, seats, blankets and a window, boarding mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **cabin** was quiet after takeoff."
+  },
+  {
+    "phrase": "aisle",
+    "pos": "noun",
+    "sense": "narrow-walkway-between-seats",
+    "pronunciation": "/aɪl/",
+    "definition": "a narrow walkway between rows of seats.",
+    "categories": [
+      "travel",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_c3a51cc6",
+    "image_brief": "a flight attendant pushing a trolley down the aisle of a plane, one passenger turning, from behind at medium distance, seats, a curtain and a call button, calm flight mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He stood in the **aisle** to stretch."
+  },
+  {
+    "phrase": "reception",
+    "pos": "noun",
+    "sense": "desk-where-guests-arrive",
+    "pronunciation": "/rɪˈsɛpʃən/",
+    "definition": "the desk where guests arrive at a hotel or office.",
+    "categories": [
+      "travel",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_0d6bebad",
+    "image_brief": "a guest handing a passport over a hotel reception desk, one clerk typing, from across the lobby at medium distance, a key rack, plants and a bag, arrival mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Ask at **reception** for a map."
+  },
+  {
+    "phrase": "suite",
+    "pos": "noun",
+    "sense": "set-of-hotel-rooms",
+    "pronunciation": "/swiːt/",
+    "definition": "a set of connected rooms in a hotel.",
+    "categories": [
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_ec901e5c",
+    "image_brief": "a hotel suite with two travelers opening the curtains, one pointing at the view, from behind at medium distance, a sofa, a table and a lamp, pleased arrival mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They booked a **suite** for the family."
+  },
+  {
+    "phrase": "lobby",
+    "pos": "noun",
+    "sense": "large-room-at-an-entrance",
+    "pronunciation": "/ˈlɑbi/",
+    "definition": "the large room inside the entrance of a hotel or building.",
+    "categories": [
+      "travel",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_b0ad4323",
+    "image_brief": "a hotel lobby with one guest waiting on a sofa and a porter passing, from the entrance at wide distance, a desk, plants and lamps, quiet afternoon mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We met in the hotel **lobby**."
+  },
+  {
+    "phrase": "canyon",
+    "pos": "noun",
+    "sense": "deep-valley-with-steep-sides",
+    "pronunciation": "/ˈkænjən/",
+    "definition": "a deep valley with steep rock sides.",
+    "categories": [
+      "travel",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_a99d26c9",
+    "image_brief": "a river far below the rim of a wide canyon with one hiker at the edge, from the rim at wide distance, rocks, a railing and a bird, vast quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **canyon** is famous for its colors."
+  },
+  {
+    "phrase": "glacier",
+    "pos": "noun",
+    "sense": "huge-slow-moving-ice",
+    "pronunciation": "/ˈɡleɪʃɚ/",
+    "definition": "a huge mass of ice that moves slowly down a mountain.",
+    "categories": [
+      "travel",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_8c86def8",
+    "image_brief": "a glacier ending in a cold lake with one small boat near the ice, from the shore at wide distance, rocks, a path and a marker, remote cold mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **glacier** was bigger than I imagined."
+  },
+  {
+    "phrase": "volcano",
+    "pos": "noun",
+    "sense": "mountain-that-throws-out-lava",
+    "pronunciation": "/vɑlˈkeɪnoʊ/",
+    "definition": "a mountain that can throw out hot rock and ash.",
+    "categories": [
+      "travel",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_7946094f",
+    "image_brief": "a volcano smoking above green slopes with two hikers on a ridge, from a distance at wide angle, a sign, a fence and clouds, awe-struck mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **volcano** last erupted in 1998."
+  },
+  {
+    "phrase": "yacht",
+    "pos": "noun",
+    "sense": "large-expensive-boat",
+    "pronunciation": "/jɑt/",
+    "definition": "a large private boat used for pleasure.",
+    "categories": [
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_afaed407",
+    "image_brief": "a white yacht anchored in a quiet bay with two people on the deck, from the cliff above at wide distance, a dinghy, rocks and seabirds, wealthy calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **yacht** was anchored in the bay."
+  },
+  {
+    "phrase": "canoe",
+    "pos": "noun",
+    "sense": "small-narrow-boat",
+    "pronunciation": "/kəˈnuː/",
+    "definition": "a small narrow boat that is moved with a paddle.",
+    "categories": [
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_11c0c9a9",
+    "image_brief": "two people paddling a canoe along a quiet river, one steering at the back, from the bank at medium distance, trees, a cooler and a rope, peaceful outdoor mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We rented a **canoe** for the afternoon."
+  },
+  {
+    "phrase": "kayak",
+    "pos": "noun",
+    "sense": "small-boat-for-one-person",
+    "pronunciation": "/ˈkaɪæk/",
+    "definition": "a small boat for one person that is moved with a paddle.",
+    "categories": [
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_4978105e",
+    "image_brief": "a kayaker paddling between rocks near a shore, one friend waiting on the sand, from the water at medium distance, a paddle, a bag and a helmet, active coastal mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He took his **kayak** out on the lake."
+  },
+  {
+    "phrase": "agency",
+    "pos": "noun",
+    "sense": "business-that-arranges-trips",
+    "pronunciation": "/ˈeɪdʒənsi/",
+    "definition": "a business that arranges travel or another service for people.",
+    "categories": [
+      "travel",
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_b3e0b99c",
+    "image_brief": "two people planning a trip at a travel agency desk, one agent pointing at a screen, from the side at medium distance, brochures, a phone and a plant, helpful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We booked the tour through an **agency**."
+  },
+  {
+    "phrase": "agent",
+    "pos": "noun",
+    "sense": "person-who-arranges-trips",
+    "pronunciation": "/ˈeɪdʒənt/",
+    "definition": "a person who arranges travel or another service for others.",
+    "categories": [
+      "travel",
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_5bb8f389",
+    "image_brief": "a travel agent on the phone at a desk while one customer waits, from the side at medium distance, a screen, brochures and a cup, busy office mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **agent** found us a cheaper flight."
+  },
+  {
+    "phrase": "departure",
+    "pos": "noun",
+    "sense": "act-of-leaving-a-place",
+    "pronunciation": "/dɪˈpɑrtʃɚ/",
+    "definition": "the act of leaving a place at the start of a journey.",
+    "categories": [
+      "travel",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_41f358c1",
+    "image_brief": "travelers checking a departure board at an airport with one pointing, from behind at medium distance, bags, seats and a kiosk, focused travel mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Our **departure** is at six in the morning."
+  },
+  {
+    "phrase": "arrival",
+    "pos": "noun",
+    "sense": "act-of-reaching-a-place",
+    "pronunciation": "/əˈraɪvəl/",
+    "definition": "the act of reaching a place.",
+    "categories": [
+      "travel",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_60b883c3",
+    "image_brief": "a family waiting at an arrivals gate with a sign, one traveler coming through, from behind at medium distance, trolleys, a clock and a cafe, happy reunion mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Our **arrival** was delayed by an hour."
+  },
+  {
+    "phrase": "fare",
+    "pos": "noun",
+    "sense": "money-paid-for-a-journey",
+    "pronunciation": "/fɛr/",
+    "definition": "the money that you pay for a seat on a bus, train or plane.",
+    "categories": [
+      "travel",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_17999e3b",
+    "image_brief": "a passenger paying a bus fare at the front of a bus, one driver behind a screen, from the side at medium distance, a card reader, a bag and a handrail, ordinary commute mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The bus **fare** went up again."
+  },
+  {
+    "phrase": "stopover",
+    "pos": "noun",
+    "sense": "short-stay-between-flights",
+    "pronunciation": "/ˈstɑpoʊvɚ/",
+    "definition": "a short stay in a place between two parts of a journey.",
+    "categories": [
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_0bc5ae95",
+    "image_brief": "two travelers leaving an airport for one night with small bags, one checking a phone, from the door at medium distance, a taxi, a sign and a suitcase, brief city mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We had a **stopover** in Rome."
+  },
+  {
+    "phrase": "phrasebook",
+    "pos": "noun",
+    "sense": "book-of-useful-foreign-phrases",
+    "pronunciation": "/ˈfreɪzbʊk/",
+    "definition": "a small book of useful phrases in another language.",
+    "categories": [
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_b67062f7",
+    "image_brief": "a traveler showing a phrasebook to a market seller, one pointing at a page, from the side at medium distance, fruit boxes, a bag and a scale, friendly attempt mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She bought a small **phrasebook** for the trip."
+  },
+  {
+    "phrase": "adapter",
+    "pos": "noun",
+    "sense": "plug-for-a-different-socket",
+    "pronunciation": "/əˈdæptɚ/",
+    "definition": "a small plug that lets you use a device in another country.",
+    "categories": [
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_0bd1c012",
+    "image_brief": "a traveler plugging a charger into a wall adapter in a hotel room, from the side at medium distance, a lamp, a phone and a bag, settling-in mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I forgot my travel **adapter**."
+  },
+  {
+    "phrase": "abroad",
+    "pos": "adverb",
+    "sense": "in-another-country",
+    "pronunciation": "/əˈbrɔd/",
+    "definition": "in or to another country.",
+    "categories": [
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_f8c146d2",
+    "image_brief": "a young person with a backpack at a station gate leaving for another country, one parent waving behind, from behind at medium distance, a passport, a sign and a train, hopeful parting mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She studied **abroad** for a year."
+  },
+  {
+    "phrase": "depart",
+    "pos": "verb",
+    "sense": "leave-on-a-journey",
+    "pronunciation": "/dɪˈpɑrt/",
+    "definition": "to leave a place at the start of a journey.",
+    "categories": [
+      "travel",
+      "transport"
+    ],
+    "level": "a2",
+    "present_example": "The train **departs** from platform three.",
+    "past_simple_example": "We **departed** before dawn.",
+    "past_participle_example": "The flight has **departed** already.",
+    "present_participle_example": "The bus is **departing** now.",
+    "image": "voc_28077b38",
+    "image_brief": "a train pulling out of a station while one passenger watches from the platform, from the end at wide distance, a bench, a kiosk and a clock, leaving mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The bus will **depart** at noon."
+  },
+  {
+    "phrase": "cancel",
+    "pos": "verb",
+    "sense": "say-a-booking-will-not-happen",
+    "pronunciation": "/ˈkænsəl/",
+    "definition": "to say that a booking or plan will not happen.",
+    "categories": [
+      "travel"
+    ],
+    "level": "a2",
+    "present_example": "She **cancels** plans when she is ill.",
+    "past_simple_example": "They **canceled** the flight.",
+    "past_participle_example": "The trip has been **canceled**.",
+    "present_participle_example": "We are **canceling** the hotel room.",
+    "image": "voc_07b99b27",
+    "image_brief": "a traveler calling to cancel a hotel booking at a desk, one clerk waiting, from the side at medium distance, a phone, a folder and a lamp, apologetic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We had to **cancel** our trip."
+  },
+  {
+    "phrase": "exchange",
+    "pos": "verb",
+    "sense": "give-one-thing-for-another",
+    "pronunciation": "/ɪksˈtʃeɪndʒ/",
+    "definition": "to give money or goods of one kind in return for another.",
+    "categories": [
+      "travel",
+      "money"
+    ],
+    "level": "a2",
+    "present_example": "He **exchanges** dollars at the airport.",
+    "past_simple_example": "She **exchanged** the ticket for a later one.",
+    "past_participle_example": "The money has been **exchanged**.",
+    "present_participle_example": "They are **exchanging** currency at the desk.",
+    "image": "voc_b7555349",
+    "image_brief": "a traveler exchanging money at a bank counter, one clerk counting notes, from the side at medium distance, a screen, a passport and a bag, practical travel mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Where can I **exchange** these notes?"
+  },
+  {
+    "phrase": "scenic",
+    "pos": "adjective",
+    "sense": "with-beautiful-views",
+    "pronunciation": "/ˈsiːnɪk/",
+    "definition": "having beautiful views of the natural world.",
+    "categories": [
+      "travel",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_85eecdf9",
+    "image_brief": "a viewpoint over a valley with two people taking photos, from behind at wide distance, a railing, a car and a path, breathtaking mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We took the **scenic** road along the river."
+  },
+  {
+    "phrase": "remote",
+    "pos": "adjective",
+    "sense": "far-from-other-places",
+    "pronunciation": "/rɪˈmoʊt/",
+    "definition": "far away from towns and other people.",
+    "categories": [
+      "travel",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_37981859",
+    "image_brief": "a single house on a wide empty plain with one person at the gate, from a distance at wide angle, a track, a fence and a windmill, isolated mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The village is **remote** but peaceful."
+  },
+  {
+    "phrase": "international",
+    "pos": "adjective",
+    "sense": "between-two-countries",
+    "pronunciation": "/ˌɪntɚˈnæʃənəl/",
+    "definition": "between or involving two or more countries.",
+    "categories": [
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_703a36c0",
+    "image_brief": "travelers from different places waiting at an international terminal gate, one reading a passport, from behind at wide distance, bags, a screen and seats, busy world-travel mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They flew on an **international** flight."
   }
 ]
