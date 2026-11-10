@@ -2449,3 +2449,53 @@ vocabulary,applaud,clap-to-show-you-liked-it,verb,a2,music,clap your hands to sh
 vocabulary,musical,relating-to-music,adjective,a2,music,relating to music
 vocabulary,acoustic,played-without-electricity,adjective,a2,music,played without electric equipment
 vocabulary,soft,quiet-and-gentle,adjective,a2,music,quiet and gentle and not loud
+vocabulary,second,sixty-in-a-minute,noun,a2,time,a very short unit of time
+vocabulary,moment,very-short-period,noun,a2,time,a very short period of time
+vocabulary,calendar,chart-of-days-and-months,noun,a2,time,a chart that shows the days and months
+vocabulary,date,particular-day-of-a-month,noun,a2,time,a particular day of a month or year
+vocabulary,noon,twelve-in-the-day,noun,a2,time,twelve o'clock in the middle of the day
+vocabulary,midnight,twelve-at-night,noun,a2,time,twelve o'clock at night
+vocabulary,past,time-before-now,noun,a2,time,the time before now
+vocabulary,future,time-after-now,noun,a2,time,the time after now
+vocabulary,century,period-of-one-hundred-years,noun,a2,time,a period of one hundred years
+vocabulary,decade,period-of-ten-years,noun,a2,time,a period of ten years
+vocabulary,age,years-someone-has-lived,noun,a2,time,the number of years someone has lived
+vocabulary,alarm,signal-that-wakes-you,noun,a2,time,a sound that wakes you or warns you
+vocabulary,timer,device-that-measures-time,noun,a2,time;technology,a device that measures a period of time
+vocabulary,period,length-of-time,noun,a2,time,a length of time
+vocabulary,era,long-period-of-history,noun,a2,time,a long period of history
+vocabulary,instant,single-moment,noun,a2,time,a moment or a very short time
+vocabulary,deadline,last-time-to-finish,noun,a2,time;work,the last time by which work must be done
+vocabulary,weekday,monday-to-friday,noun,a2,time,any day from Monday to Friday
+vocabulary,anniversary,yearly-date-of-an-event,noun,a2,time;relationships,the date each year of a special event
+vocabulary,daytime,light-part-of-the-day,noun,a2,time,the part of the day when it is light
+vocabulary,timetable,plan-of-times,noun,a2,time;education,a plan that shows times of classes or trains
+vocabulary,yesterday,the-day-before-today,adverb,a2,time,on the day before today
+vocabulary,daily,every-day,adverb,a2,time,every day
+vocabulary,weekly,every-week,adverb,a2,time,every week
+vocabulary,monthly,every-month,adverb,a2,time,every month
+vocabulary,yearly,every-year,adverb,a2,time,every year
+vocabulary,lately,in-recent-days,adverb,a2,time,in the recent days or weeks
+vocabulary,already,before-now,adverb,a2,time,before now or earlier than expected
+vocabulary,yet,until-now,adverb,a2,time,until now in questions and negatives
+vocabulary,still,continuing-until-now,adverb,a2,time,continuing up to now
+vocabulary,recently,a-short-time-ago,adverb,a2,time,a short time ago
+vocabulary,immediately,at-once,adverb,a2,time,at once and without waiting
+vocabulary,eventually,in-the-end,adverb,a2,time,in the end after a long time
+vocabulary,afterwards,after-that-time,adverb,a2,time,after that time
+vocabulary,meanwhile,while-something-else-happens,adverb,a2,time,while something else is happening
+vocabulary,suddenly,quickly-and-unexpectedly,adverb,a2,time,quickly and without warning
+vocabulary,overnight,during-the-night,adverb,a2,time,during the night
+vocabulary,shortly,soon,adverb,a2,time,soon or in a short time
+vocabulary,during,through-a-period,preposition,a2,time,through a period of time
+vocabulary,until,up-to-a-time,preposition,a2,time,up to the time something happens
+vocabulary,since,from-a-past-time-to-now,preposition,a2,time,from a past time until now
+vocabulary,while,during-the-same-time,conjunction,a2,time,during the time something happens
+vocabulary,before,earlier-than,conjunction,a2,time,earlier than a time or event
+vocabulary,after,later-than,conjunction,a2,time,later than a time or event
+vocabulary,end,finish-or-stop,verb,a2,time,finish or stop
+vocabulary,continue,keep-doing-something,verb,a2,time,keep doing something without stopping
+vocabulary,delay,make-something-later,verb,a2,time,make something happen later
+vocabulary,brief,lasting-a-short-time,adjective,a2,time,lasting only a short time
+vocabulary,recent,happening-a-short-time-ago,adjective,a2,time,happening a short time ago
+vocabulary,current,happening-now,adjective,a2,time,happening or existing now

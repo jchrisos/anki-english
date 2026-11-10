@@ -19925,5 +19925,721 @@
     "image": "voc_dd90cfab",
     "image_brief": "a woman playing soft music on a speaker while reading, one cat asleep on the sofa, from across the room at medium distance, a lamp, a blanket and a cup, calm night mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
     "example": "The music was **soft** in the background."
+  },
+  {
+    "phrase": "second",
+    "pos": "noun",
+    "sense": "sixty-in-a-minute",
+    "pronunciation": "/ˈsɛkənd/",
+    "definition": "a very short unit of time; there are sixty of them in a minute.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_f4bc4962",
+    "image_brief": "a runner frozen at the start line as the starter raises a hand, from the side at medium distance, blocks, a stopwatch and a lane rope, tense second mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Wait a **second**, I forgot my keys."
+  },
+  {
+    "phrase": "moment",
+    "pos": "noun",
+    "sense": "very-short-period",
+    "pronunciation": "/ˈmoʊmənt/",
+    "definition": "a very short period of time.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_4c0c7417",
+    "image_brief": "a man holding a door open for a woman carrying boxes, from the side at medium distance, a lift, a bag and a plant, brief polite mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Can you wait a **moment**?"
+  },
+  {
+    "phrase": "calendar",
+    "pos": "noun",
+    "sense": "chart-of-days-and-months",
+    "pronunciation": "/ˈkæləndɚ/",
+    "definition": "a chart that shows the days, weeks and months of a year.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_ddd9a15a",
+    "image_brief": "a kitchen calendar with days marked in pen while one person adds a date, from above at medium distance, a cup, keys and a shopping list, planning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I marked the trip on the **calendar**."
+  },
+  {
+    "phrase": "date",
+    "pos": "noun",
+    "sense": "particular-day-of-a-month",
+    "pronunciation": "/deɪt/",
+    "definition": "a particular day of a month or year.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_b2123c2f",
+    "image_brief": "a clerk writing a date on a form at a counter while a visitor waits, from the side at medium distance, a clock, a stamp and a plant, routine office mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "What is the **date** today?"
+  },
+  {
+    "phrase": "noon",
+    "pos": "noun",
+    "sense": "twelve-in-the-day",
+    "pronunciation": "/nuːn/",
+    "definition": "twelve o'clock in the middle of the day.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_06274b1c",
+    "image_brief": "workers eating lunch on a bench at noon while one checks a watch, from across the path at wide distance, bags, a bin and a tree, ordinary midday mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We stopped for lunch at **noon**."
+  },
+  {
+    "phrase": "midnight",
+    "pos": "noun",
+    "sense": "twelve-at-night",
+    "pronunciation": "/ˈmɪdnaɪt/",
+    "definition": "twelve o'clock at night.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_32937984",
+    "image_brief": "a nearly empty platform at midnight with one traveler and a suitcase, from the far end at wide distance, a lit sign, a bin and closed shutters, quiet late mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The train leaves at **midnight**."
+  },
+  {
+    "phrase": "past",
+    "pos": "noun",
+    "sense": "time-before-now",
+    "pronunciation": "/pæst/",
+    "definition": "the time before now.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_688255f7",
+    "image_brief": "an older man looking through old photos at a table while a grandchild sits beside him, from the side at medium distance, a lamp, a cup and an album, nostalgic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She rarely talks about the **past**."
+  },
+  {
+    "phrase": "future",
+    "pos": "noun",
+    "sense": "time-after-now",
+    "pronunciation": "/ˈfjuːtʃɚ/",
+    "definition": "the time after now.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_32afadc8",
+    "image_brief": "a couple looking at a house plan on a kitchen table, from across the table at medium distance, a laptop, cups and a folder, hopeful planning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "No one knows the **future**."
+  },
+  {
+    "phrase": "century",
+    "pos": "noun",
+    "sense": "period-of-one-hundred-years",
+    "pronunciation": "/ˈsɛntʃɚi/",
+    "definition": "a period of one hundred years.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_93c75cdc",
+    "image_brief": "an old stone house with a modern extension in a village while one walker passes, from across the lane at wide distance, a gate, a bike and ivy, long-history mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The house is over a **century** old."
+  },
+  {
+    "phrase": "decade",
+    "pos": "noun",
+    "sense": "period-of-ten-years",
+    "pronunciation": "/ˈdɛkeɪd/",
+    "definition": "a period of ten years.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_f234acac",
+    "image_brief": "a woman comparing two photos of the same street on a table, from above at medium distance, a lamp, a magnifier and a cup, measuring-time mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Prices doubled in the last **decade**."
+  },
+  {
+    "phrase": "age",
+    "pos": "noun",
+    "sense": "years-someone-has-lived",
+    "pronunciation": "/eɪdʒ/",
+    "definition": "the number of years that someone has lived.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_740d6915",
+    "image_brief": "a child marking their height against a door frame while a parent holds a pencil, from the side at medium distance, a hallway, shoes and a coat, growing-up mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She started school at the **age** of five."
+  },
+  {
+    "phrase": "alarm",
+    "pos": "noun",
+    "sense": "signal-that-wakes-you",
+    "pronunciation": "/əˈlɑrm/",
+    "definition": "a sound or signal that wakes you or warns you.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_28c1da9e",
+    "image_brief": "a hand reaching to silence an alarm clock on a bedside table, from above at medium distance, a lamp, a glass and a phone, half-asleep mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My **alarm** goes off at six."
+  },
+  {
+    "phrase": "timer",
+    "pos": "noun",
+    "sense": "device-that-measures-time",
+    "pronunciation": "/ˈtaɪmɚ/",
+    "definition": "a device that measures a period of time or counts down.",
+    "categories": [
+      "time",
+      "technology"
+    ],
+    "level": "a2",
+    "image": "voc_29071f66",
+    "image_brief": "a cook setting a kitchen timer while something simmers on the stove, from the side at medium distance, a pan, a spoon rest and a towel, busy cooking mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Set the **timer** for ten minutes."
+  },
+  {
+    "phrase": "period",
+    "pos": "noun",
+    "sense": "length-of-time",
+    "pronunciation": "/ˈpɪriəd/",
+    "definition": "a length of time.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_12aceb67",
+    "image_brief": "a farmer waiting by a fence through a long dry spell, from behind at wide distance, a water tank, a tractor and a dog, patient dry mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We waited for a long **period**."
+  },
+  {
+    "phrase": "era",
+    "pos": "noun",
+    "sense": "long-period-of-history",
+    "pronunciation": "/ˈɪrə/",
+    "definition": "a long period of history with a particular character.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_c2fd5113",
+    "image_brief": "a museum room set up like an old workshop while one visitor reads a label, from across the room at wide distance, tools, a bench and a rope barrier, quiet historical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "That **era** ended long ago."
+  },
+  {
+    "phrase": "instant",
+    "pos": "noun",
+    "sense": "single-moment",
+    "pronunciation": "/ˈɪnstənt/",
+    "definition": "a moment; a very short time.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_56adc1f3",
+    "image_brief": "a photographer raising a camera at a street corner as a cyclist passes, from the side at medium distance, a bag, a lamp and a crossing, quick moment mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He knew the answer in an **instant**."
+  },
+  {
+    "phrase": "deadline",
+    "pos": "noun",
+    "sense": "last-time-to-finish",
+    "pronunciation": "/ˈdɛdlaɪn/",
+    "definition": "the last time by which something must be finished.",
+    "categories": [
+      "time",
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_a7939879",
+    "image_brief": "a man stacking papers on a desk late at night with a clock above him, from behind at medium distance, a lamp, a cold cup and a bag, pressured night mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **deadline** is Friday at noon."
+  },
+  {
+    "phrase": "weekday",
+    "pos": "noun",
+    "sense": "monday-to-friday",
+    "pronunciation": "/ˈwiːkdeɪ/",
+    "definition": "any day from Monday to Friday.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_7f4534c8",
+    "image_brief": "a quiet shopping street on a Tuesday morning while one shopkeeper opens a door, from across the street at wide distance, shutters, a bin and a bike, slow weekday mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The shop is quiet on a **weekday**."
+  },
+  {
+    "phrase": "anniversary",
+    "pos": "noun",
+    "sense": "yearly-date-of-an-event",
+    "pronunciation": "/ˌænəˈvɝsɚi/",
+    "definition": "the date each year when something special happened.",
+    "categories": [
+      "time",
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_68093b5d",
+    "image_brief": "a couple with a small cake at a kitchen table, one candle lit, from the side at medium distance, flowers, two glasses and a card, warm memory mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They celebrate their **anniversary** in May."
+  },
+  {
+    "phrase": "daytime",
+    "pos": "noun",
+    "sense": "light-part-of-the-day",
+    "pronunciation": "/ˈdeɪtaɪm/",
+    "definition": "the part of the day when it is light.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_337d30c6",
+    "image_brief": "a busy market street in bright daylight while one trader calls out, from above at wide distance, awnings, crates and a fountain, lively day mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The street is busy in the **daytime**."
+  },
+  {
+    "phrase": "timetable",
+    "pos": "noun",
+    "sense": "plan-of-times",
+    "pronunciation": "/ˈtaɪmteɪbəl/",
+    "definition": "a plan that shows the times of classes, trains or events.",
+    "categories": [
+      "time",
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_f6025281",
+    "image_brief": "a student checking a timetable on a wall beside a bag and a cup, from the side at medium distance, a corridor, a notice board and a clock, ordinary school mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My **timetable** is full on Mondays."
+  },
+  {
+    "phrase": "yesterday",
+    "pos": "adverb",
+    "sense": "the-day-before-today",
+    "pronunciation": "/ˈjɛstɚdeɪ/",
+    "definition": "on the day before today.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_8e5bf993",
+    "image_brief": "a man pointing at yesterday's date on a wall calendar while a colleague stands beside him, from behind at medium distance, a desk, a mug and a phone, small checking mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He called me **yesterday**."
+  },
+  {
+    "phrase": "daily",
+    "pos": "adverb",
+    "sense": "every-day",
+    "pronunciation": "/ˈdeɪli/",
+    "definition": "every day.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_818c9203",
+    "image_brief": "a woman walking the same path with her dog each morning, from behind at medium distance, a bench, a lamp and trees, steady routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I read the news **daily**."
+  },
+  {
+    "phrase": "weekly",
+    "pos": "adverb",
+    "sense": "every-week",
+    "pronunciation": "/ˈwiːkli/",
+    "definition": "every week.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_19fecaed",
+    "image_brief": "a team meeting around a table while one person stands at a whiteboard, from across the room at wide distance, cups, laptops and a clock, regular work mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The team meets **weekly**."
+  },
+  {
+    "phrase": "monthly",
+    "pos": "adverb",
+    "sense": "every-month",
+    "pronunciation": "/ˈmʌnθli/",
+    "definition": "every month.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_222929cb",
+    "image_brief": "a man paying a bill at a kitchen table with a stack of envelopes, from above at medium distance, a laptop, a cup and a calendar, routine admin mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She pays the bill **monthly**."
+  },
+  {
+    "phrase": "yearly",
+    "pos": "adverb",
+    "sense": "every-year",
+    "pronunciation": "/ˈjɪrli/",
+    "definition": "every year.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_5d51610b",
+    "image_brief": "a family standing for a photo in front of the same tree while one person sets a camera, from the side at wide distance, a picnic blanket, a basket and a dog, annual tradition mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They travel abroad **yearly**."
+  },
+  {
+    "phrase": "lately",
+    "pos": "adverb",
+    "sense": "in-recent-days",
+    "pronunciation": "/ˈleɪtli/",
+    "definition": "in the recent days or weeks.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_53e71718",
+    "image_brief": "a woman looking at an unused bicycle in a hallway, from the side at medium distance, shoes, a bag and a mirror, thinking mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I have not seen him **lately**."
+  },
+  {
+    "phrase": "already",
+    "pos": "adverb",
+    "sense": "before-now",
+    "pronunciation": "/ɔlˈrɛdi/",
+    "definition": "before now, or earlier than expected.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_8e40ee60",
+    "image_brief": "a traveler at an empty gate looking at a boarding pass with a plane visible outside, from behind at medium distance, a suitcase, a coffee cup and seats, early arrival mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She has **already** left."
+  },
+  {
+    "phrase": "yet",
+    "pos": "adverb",
+    "sense": "until-now",
+    "pronunciation": "/jɛt/",
+    "definition": "until now, used mostly in questions and negative sentences.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_a3bec0db",
+    "image_brief": "a child at a window watching for a delivery van while one adult folds washing behind, from behind at medium distance, a sofa, a basket and a clock, waiting mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Haven't you finished **yet**?"
+  },
+  {
+    "phrase": "still",
+    "pos": "adverb",
+    "sense": "continuing-until-now",
+    "pronunciation": "/stɪl/",
+    "definition": "continuing up to now.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_86c91d7f",
+    "image_brief": "a man waiting on a platform as one train leaves, from behind at wide distance, a bench, a bag and a sign, patient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He is **still** waiting outside."
+  },
+  {
+    "phrase": "recently",
+    "pos": "adverb",
+    "sense": "a-short-time-ago",
+    "pronunciation": "/ˈriːsəntli/",
+    "definition": "a short time ago.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_ff2f409b",
+    "image_brief": "a woman unpacking boxes in a new flat while one friend helps, from across the room at medium distance, tape, a lamp and a kettle, fresh-start mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They moved here **recently**."
+  },
+  {
+    "phrase": "immediately",
+    "pos": "adverb",
+    "sense": "at-once",
+    "pronunciation": "/ɪˈmiːdiətli/",
+    "definition": "at once and without waiting.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_6491b416",
+    "image_brief": "a driver pulling over as an ambulance passes, from behind at medium distance, a phone on the seat, a bag and a crossing, urgent careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Call the doctor **immediately**."
+  },
+  {
+    "phrase": "eventually",
+    "pos": "adverb",
+    "sense": "in-the-end",
+    "pronunciation": "/ɪˈvɛntʃuəli/",
+    "definition": "in the end, after a long time.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_7caf6440",
+    "image_brief": "a hiker finally reaching a hilltop marker after a long climb, from behind at wide distance, a backpack, a bottle and a fence, tired rewarded mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The bus **eventually** arrived."
+  },
+  {
+    "phrase": "afterwards",
+    "pos": "adverb",
+    "sense": "after-that-time",
+    "pronunciation": "/ˈæftɚwɚdz/",
+    "definition": "after that time.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_5e65fc22",
+    "image_brief": "people leaving a cinema with coats on while a cleaner waits, from across the foyer at wide distance, posters, a bin and a kiosk, easy late mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We ate and went home **afterwards**."
+  },
+  {
+    "phrase": "meanwhile",
+    "pos": "adverb",
+    "sense": "while-something-else-happens",
+    "pronunciation": "/ˈmiːnwaɪl/",
+    "definition": "while something else is happening.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_40a1a125",
+    "image_brief": "one person cooking at a stove while another lays the table, from across the kitchen at medium distance, a pan, plates and a window, parallel evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I cooked; **meanwhile** she set the table."
+  },
+  {
+    "phrase": "suddenly",
+    "pos": "adverb",
+    "sense": "quickly-and-unexpectedly",
+    "pronunciation": "/ˈsʌdənli/",
+    "definition": "quickly and without warning.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_082611a7",
+    "image_brief": "people on a street looking up as a sudden shower starts while one opens an umbrella, from across the road at wide distance, a bus, a kiosk and a puddle, surprised wet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The lights went out **suddenly**."
+  },
+  {
+    "phrase": "overnight",
+    "pos": "adverb",
+    "sense": "during-the-night",
+    "pronunciation": "/ˌoʊvɚˈnaɪt/",
+    "definition": "during the night.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_334e977a",
+    "image_brief": "a garden covered in fresh snow in the morning while one person stands at the door, from behind at medium distance, a fence, a bin and footprints, quiet changed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The snow fell **overnight**."
+  },
+  {
+    "phrase": "shortly",
+    "pos": "adverb",
+    "sense": "soon",
+    "pronunciation": "/ˈʃɔrtli/",
+    "definition": "soon, in a short time.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_d9c1afef",
+    "image_brief": "a waiting room with one person checking the door as a nurse appears, from the side at medium distance, chairs, a clock and a plant, expectant mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He will be back **shortly**."
+  },
+  {
+    "phrase": "during",
+    "pos": "preposition",
+    "sense": "through-a-period",
+    "pronunciation": "/ˈdʊrɪŋ/",
+    "definition": "through a period of time.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_2f304a34",
+    "image_brief": "a student taking notes during a lecture while others listen, from the back at wide distance, desks, a screen and bags, attentive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Do not talk **during** the film."
+  },
+  {
+    "phrase": "until",
+    "pos": "preposition",
+    "sense": "up-to-a-time",
+    "pronunciation": "/ənˈtɪl/",
+    "definition": "up to the time that something happens.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_6c4d4c5b",
+    "image_brief": "a cyclist waiting at a red light with a bag and one car beside, from the side at medium distance, a crossing, a shop and a lamp, ordinary pause mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We waited **until** six."
+  },
+  {
+    "phrase": "since",
+    "pos": "preposition",
+    "sense": "from-a-past-time-to-now",
+    "pronunciation": "/sɪns/",
+    "definition": "from a time in the past until now.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_14dc286a",
+    "image_brief": "a couple at a kitchen table with a photo of their first flat, from across the table at medium distance, a cup, a letter and a plant, memory mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She has lived here **since** 2015."
+  },
+  {
+    "phrase": "while",
+    "pos": "conjunction",
+    "sense": "during-the-same-time",
+    "pronunciation": "/waɪl/",
+    "definition": "during the time that something happens.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_49e6aeeb",
+    "image_brief": "a man listening to music while cooking with one friend at the table, from the side at medium distance, a pan, headphones and a book, relaxed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He listened to music **while** he cooked."
+  },
+  {
+    "phrase": "before",
+    "pos": "conjunction",
+    "sense": "earlier-than",
+    "pronunciation": "/bɪˈfɔr/",
+    "definition": "earlier than a time or event.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_065e4928",
+    "image_brief": "a runner stretching at a start line before a race, from the side at medium distance, a bottle, a bag and cones, focused pre-race mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Wash your hands **before** you eat."
+  },
+  {
+    "phrase": "after",
+    "pos": "conjunction",
+    "sense": "later-than",
+    "pronunciation": "/ˈæftɚ/",
+    "definition": "later than a time or event.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_da30a2d3",
+    "image_brief": "two teammates shaking hands after a match, from the side at medium distance, a bench, bags and a net, tired decent mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We left **after** the show."
+  },
+  {
+    "phrase": "end",
+    "pos": "verb",
+    "sense": "finish-or-stop",
+    "pronunciation": "/ɛnd/",
+    "definition": "to finish or stop.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "present_example": "The class **ends** at noon.",
+    "past_simple_example": "The meeting **ended** early.",
+    "past_participle_example": "The season has **ended**.",
+    "present_participle_example": "The day is **ending** soon.",
+    "image": "voc_7faceed5",
+    "image_brief": "a teacher closing a book at the end of a lesson while students pack, from the back at wide distance, desks, bags and a clock, relieved mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The film will **end** at nine."
+  },
+  {
+    "phrase": "continue",
+    "pos": "verb",
+    "sense": "keep-doing-something",
+    "pronunciation": "/kənˈtɪnjuː/",
+    "definition": "to keep doing something without stopping.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "present_example": "The rain **continues** all day.",
+    "past_simple_example": "She **continued** talking.",
+    "past_participle_example": "They have **continued** the project.",
+    "present_participle_example": "The show is **continuing** until May.",
+    "image": "voc_da716859",
+    "image_brief": "a walker carrying on up a path in light rain with one friend behind, from behind at medium distance, a map, a stick and trees, determined mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Please **continue** with your work."
+  },
+  {
+    "phrase": "delay",
+    "pos": "verb",
+    "sense": "make-something-later",
+    "pronunciation": "/dɪˈleɪ/",
+    "definition": "to make something happen later than planned.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "present_example": "The company **delays** payments often.",
+    "past_simple_example": "They **delayed** the start.",
+    "past_participle_example": "The match has been **delayed**.",
+    "present_participle_example": "The workers are **delaying** the repairs.",
+    "image": "voc_4bf3716e",
+    "image_brief": "a crowd waiting in a departure hall as a board shows a delay while one person calls, from behind at wide distance, suitcases, seats and a kiosk, frustrated travel mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Bad weather may **delay** the flight."
+  },
+  {
+    "phrase": "brief",
+    "pos": "adjective",
+    "sense": "lasting-a-short-time",
+    "pronunciation": "/briːf/",
+    "definition": "lasting only a short time.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_0444b5f8",
+    "image_brief": "a short phone call at a doorway while one person leaves, from the side at medium distance, a step, a bike and a bag, quick goodbye mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He made a **brief** call."
+  },
+  {
+    "phrase": "recent",
+    "pos": "adjective",
+    "sense": "happening-a-short-time-ago",
+    "pronunciation": "/ˈriːsənt/",
+    "definition": "happening or starting a short time ago.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_2bb5d971",
+    "image_brief": "a notice board with a recent photo and a date while one person pins it up, from the side at medium distance, a desk, a mug and a folder, small update mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **recent** study supports this."
+  },
+  {
+    "phrase": "current",
+    "pos": "adjective",
+    "sense": "happening-now",
+    "pronunciation": "/ˈkɝənt/",
+    "definition": "happening or existing now.",
+    "categories": [
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_da2cfe73",
+    "image_brief": "a woman writing her current address on a form at a counter, from the side at medium distance, a pen, a folder and a plant, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "What is your **current** address?"
   }
 ]
