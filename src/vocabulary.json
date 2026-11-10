@@ -13064,5 +13064,1498 @@
     "image": "voc_02128ab5",
     "image_brief": "a small wet bird pushing out of a cracked egg in a straw nest, one person watching through a lamp-lit window, from above at medium distance, an incubator tray, a notebook and a timer on the shelf, quiet expectant mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
     "example": "The eggs need warmth to **hatch**."
+  },
+  {
+    "phrase": "head",
+    "pos": "noun",
+    "sense": "top-part-above-neck",
+    "pronunciation": "/hɛd/",
+    "definition": "the top part of your body above your neck, with your eyes, nose and mouth.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_a5b7b897",
+    "image_brief": "a man ducking through a low wooden doorway in a workshop with one hand on the frame, seen from behind at medium distance, sawdust, tools on a bench and a hanging lamp, careful everyday mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He hit his **head** on the low door."
+  },
+  {
+    "phrase": "face",
+    "pos": "noun",
+    "sense": "front-of-the-head",
+    "pronunciation": "/feɪs/",
+    "definition": "the front of your head, from your forehead down to your chin.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_32e38026",
+    "image_brief": "a woman at a small sink splashing water on her face, seen from the side at medium distance in a plain bathroom, a towel, a toothbrush and a mirror with a crack, quiet morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She washed her **face** with cold water."
+  },
+  {
+    "phrase": "eye",
+    "pos": "noun",
+    "sense": "part-used-to-see",
+    "pronunciation": "/aɪ/",
+    "definition": "one of the two parts of your face that you see with.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_586b31eb",
+    "image_brief": "a man on a windy street shielding one eye with his hand, a second person walking past, from the side at medium distance, a bus stop, grit on the pavement and a dropped scarf, squinting uncomfortable mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Something got into my **eye**."
+  },
+  {
+    "phrase": "ear",
+    "pos": "noun",
+    "sense": "part-used-to-hear",
+    "pronunciation": "/ɪr/",
+    "definition": "one of the two parts on the sides of your head that you hear with.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_f6f6256b",
+    "image_brief": "a woman at a concert pressing one hand to her ear while the speakers stack behind her, from across the room at medium distance, cups, cables and a jacket on a chair, loud overwhelming mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The music was so loud it hurt my **ear**."
+  },
+  {
+    "phrase": "nose",
+    "pos": "noun",
+    "sense": "part-used-to-smell",
+    "pronunciation": "/noʊz/",
+    "definition": "the part in the middle of your face that you breathe and smell through.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_6f630462",
+    "image_brief": "a child in a winter coat with a red nose waiting at a crossing, one adult beside them, from behind at medium distance, slush, a traffic light and a school bag, cold bright mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My **nose** is cold."
+  },
+  {
+    "phrase": "mouth",
+    "pos": "noun",
+    "sense": "opening-for-eating",
+    "pronunciation": "/maʊθ/",
+    "definition": "the opening in your face that you use to eat and speak.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_504a41e7",
+    "image_brief": "a man at a meeting table opening his mouth to speak, other hands and papers around him, from across the table at medium distance, laptops, cups and a whiteboard, ordinary work mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He opened his **mouth** to say something."
+  },
+  {
+    "phrase": "tongue",
+    "pos": "noun",
+    "sense": "soft-part-in-mouth",
+    "pronunciation": "/tʌŋ/",
+    "definition": "the soft part inside your mouth that moves and helps you speak and taste.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_b198f78e",
+    "image_brief": "a woman at a kitchen counter touching her tongue after tasting hot soup, seen from the side at medium distance, a pot, a spoon rest and a tea towel, small comic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I burned my **tongue** on the soup."
+  },
+  {
+    "phrase": "lip",
+    "pos": "noun",
+    "sense": "edge-around-the-mouth",
+    "pronunciation": "/lɪp/",
+    "definition": "one of the two soft edges around your mouth.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_c49903f2",
+    "image_brief": "a man on a cold beach with a dry lip and wind-blown hair, a dog beside him, from the side at medium distance, a folded jacket, driftwood and a thermos, raw coastal mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **lip** was dry from the wind."
+  },
+  {
+    "phrase": "neck",
+    "pos": "noun",
+    "sense": "part-joining-head-and-body",
+    "pronunciation": "/nɛk/",
+    "definition": "the part of your body that joins your head to your shoulders.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_c2ab5eaa",
+    "image_brief": "a woman unwinding a scarf from her neck in a warm hallway, seen from behind at medium distance, boots by the door, a coat hook and a parcel, cozy winter mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He wore a scarf around his **neck**."
+  },
+  {
+    "phrase": "shoulder",
+    "pos": "noun",
+    "sense": "where-arm-joins-body",
+    "pronunciation": "/ˈʃoʊldɚ/",
+    "definition": "one of the two parts of your body where your arms join your neck and chest.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_b63e80ad",
+    "image_brief": "a traveler with a heavy bag on one shoulder walking along a platform, from behind at wide distance, a bench, a coffee cup and a stopped train, tired travel mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The bag hung from her **shoulder**."
+  },
+  {
+    "phrase": "arm",
+    "pos": "noun",
+    "sense": "limb-from-shoulder-to-hand",
+    "pronunciation": "/ɑrm/",
+    "definition": "one of the two long parts of your body from your shoulder down to your hand.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_0fe1214f",
+    "image_brief": "a man holding his arm after a fall on a sports field, a teammate beside him, from the side at medium distance, a ball, a water bottle and white line markings, worried afternoon mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He broke his **arm** last summer."
+  },
+  {
+    "phrase": "elbow",
+    "pos": "noun",
+    "sense": "joint-in-the-arm",
+    "pronunciation": "/ˈɛlboʊ/",
+    "definition": "the joint in the middle of your arm that lets it bend.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_da33baee",
+    "image_brief": "a woman bumping her elbow on a kitchen table corner, seen from across the room at medium distance, plates, a folder and a chair pushed back, ordinary clumsy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She bumped her **elbow** on the table."
+  },
+  {
+    "phrase": "wrist",
+    "pos": "noun",
+    "sense": "joint-before-the-hand",
+    "pronunciation": "/rɪst/",
+    "definition": "the joint between your hand and your arm.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_7b98690c",
+    "image_brief": "a man at an office desk rubbing his wrist after typing, from over the shoulder at medium distance, a keyboard, a mug and a stack of papers, quiet late-work mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My **wrist** hurts from typing."
+  },
+  {
+    "phrase": "hand",
+    "pos": "noun",
+    "sense": "part-at-end-of-arm",
+    "pronunciation": "/hænd/",
+    "definition": "the part at the end of your arm, with fingers and a thumb.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_56cab078",
+    "image_brief": "several hands raised in a classroom, one child at the front, from the back of the room at wide distance, desks, notebooks and a chalkboard, eager school mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Raise your **hand** if you know the answer."
+  },
+  {
+    "phrase": "finger",
+    "pos": "noun",
+    "sense": "long-part-of-the-hand",
+    "pronunciation": "/ˈfɪŋɡɚ/",
+    "definition": "one of the long thin parts on your hand.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_0721864c",
+    "image_brief": "a man pointing a finger at a map spread on a car hood, one friend beside him, from across the hood at medium distance, a thermos, keys and a camera, planning travel mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He pointed his **finger** at the map."
+  },
+  {
+    "phrase": "thumb",
+    "pos": "noun",
+    "sense": "short-thick-finger",
+    "pronunciation": "/θʌm/",
+    "definition": "the short thick finger on the side of your hand.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_c030286f",
+    "image_brief": "a woman cutting vegetables with a bandage on her thumb, seen from the side at medium distance, a board, peelings and a knife, careful kitchen mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I cut my **thumb** on the knife."
+  },
+  {
+    "phrase": "nail",
+    "pos": "noun",
+    "sense": "hard-part-on-a-finger",
+    "pronunciation": "/neɪl/",
+    "definition": "the hard flat part that grows at the end of a finger or toe.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_98836f7e",
+    "image_brief": "a woman painting her nails at a small table, seen from across the room at medium distance, a lamp, a mug and an open magazine, relaxed evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She painted each **nail** red."
+  },
+  {
+    "phrase": "chest",
+    "pos": "noun",
+    "sense": "front-of-the-upper-body",
+    "pronunciation": "/tʃɛst/",
+    "definition": "the front part of your body between your neck and your stomach.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_c7802332",
+    "image_brief": "a man sitting on a bench with a hand on his chest, a passerby stopping, from across the path at wide distance, a bicycle, a water bottle and fallen leaves, concerned quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He felt a pain in his **chest**."
+  },
+  {
+    "phrase": "back",
+    "pos": "noun",
+    "sense": "rear-part-of-the-body",
+    "pronunciation": "/bæk/",
+    "definition": "the part of your body behind you, from your shoulders down to your hips.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_36592e7c",
+    "image_brief": "a man bending to lift a box with one hand on his back, from behind at medium distance in a garage, shelves, tools and a broom, strained weekend mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My **back** hurts after the long drive."
+  },
+  {
+    "phrase": "stomach",
+    "pos": "noun",
+    "sense": "where-food-goes",
+    "pronunciation": "/ˈstʌmək/",
+    "definition": "the part of your body where food goes after you swallow it.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_dd08f856",
+    "image_brief": "a child sitting at a table with a hand on their stomach and half a sandwich left, one adult nearby, from the side at medium distance, a lunchbox, a cup and crumbs, queasy lunchtime mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My **stomach** hurts after lunch."
+  },
+  {
+    "phrase": "waist",
+    "pos": "noun",
+    "sense": "narrow-part-above-hips",
+    "pronunciation": "/weɪst/",
+    "definition": "the narrow part of your body between your chest and your hips.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_fdee2e17",
+    "image_brief": "a woman wading in a river with the water up to her waist, a friend on the bank, from the side at wide distance, a backpack, reeds and a fallen log, fresh river mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The water came up to her **waist**."
+  },
+  {
+    "phrase": "hip",
+    "pos": "noun",
+    "sense": "side-part-below-waist",
+    "pronunciation": "/hɪp/",
+    "definition": "one of the two parts at the sides of your body below your waist.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_c162e94b",
+    "image_brief": "an older man steadying himself on a chair after a fall in a hallway, one helper beside him, from across the hall at medium distance, a cane, a rug and a phone on the floor, careful worried mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He broke his **hip** in the fall."
+  },
+  {
+    "phrase": "leg",
+    "pos": "noun",
+    "sense": "limb-used-for-walking",
+    "pronunciation": "/lɛɡ/",
+    "definition": "one of the two long parts of your body that you stand and walk on.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_2d1109f9",
+    "image_brief": "a dog lying on a vet table with one leg wrapped, the owner standing back, from the side at medium distance, a clipboard, a lamp and a water bowl, gentle clinical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The dog hurt its **leg**."
+  },
+  {
+    "phrase": "knee",
+    "pos": "noun",
+    "sense": "joint-in-the-leg",
+    "pronunciation": "/niː/",
+    "definition": "the joint in the middle of your leg that lets it bend.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_c3a4599a",
+    "image_brief": "a runner sitting on a curb holding a scraped knee, from the side at medium distance, a water bottle, a towel and a bicycle passing, tired summer mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She fell and cut her **knee**."
+  },
+  {
+    "phrase": "ankle",
+    "pos": "noun",
+    "sense": "joint-above-the-foot",
+    "pronunciation": "/ˈæŋkəl/",
+    "definition": "the joint between your foot and your leg.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_ca6ce859",
+    "image_brief": "a woman on stairs holding the rail with one ankle lifted, seen from below at medium distance, a bag, a letter and a doormat, sudden careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I twisted my **ankle** on the stairs."
+  },
+  {
+    "phrase": "foot",
+    "pos": "noun",
+    "sense": "part-at-end-of-leg",
+    "pronunciation": "/fʊt/",
+    "definition": "the part at the end of your leg that you stand on.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_8db40511",
+    "image_brief": "a man stepping into a shallow puddle with one foot, from a low angle at medium distance on a city street, a folded newspaper, a bench and a bus sign, wet gray mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My **foot** is wet from the rain."
+  },
+  {
+    "phrase": "toe",
+    "pos": "noun",
+    "sense": "small-part-on-the-foot",
+    "pronunciation": "/toʊ/",
+    "definition": "one of the five small parts at the front of your foot.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_236d1c6d",
+    "image_brief": "a child in the sand stubbing a toe on a buried rock, a parent nearby, from the side at medium distance, a bucket, a spade and a towel, beach afternoon mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I hit my **toe** on the chair."
+  },
+  {
+    "phrase": "heel",
+    "pos": "noun",
+    "sense": "back-of-the-foot",
+    "pronunciation": "/hiːl/",
+    "definition": "the back part of your foot, under your ankle.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_10eb1f71",
+    "image_brief": "a walker sitting on a rock taking off a boot and rubbing a heel, from the side at medium distance on a trail, a backpack, a map and a water bottle, tired outdoor mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My new boots hurt my **heel**."
+  },
+  {
+    "phrase": "skin",
+    "pos": "noun",
+    "sense": "outer-cover-of-the-body",
+    "pronunciation": "/skɪn/",
+    "definition": "the soft outer cover of your body.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_41ecbf75",
+    "image_brief": "a man on a boat with red skin on his shoulders, a friend handing him a shirt, from across the deck at medium distance, a cooler, rope and a fishing rod, sunny holiday mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The sun made his **skin** red."
+  },
+  {
+    "phrase": "bone",
+    "pos": "noun",
+    "sense": "hard-part-inside-body",
+    "pronunciation": "/boʊn/",
+    "definition": "one of the hard white parts inside your body that hold it up.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_5f6f7e20",
+    "image_brief": "a dog digging for a bone in a garden bed, one person watching from the step, from behind at medium distance, a spade, a flowerpot and scattered soil, ordinary backyard mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The dog buried a **bone** in the yard."
+  },
+  {
+    "phrase": "muscle",
+    "pos": "noun",
+    "sense": "body-part-for-moving",
+    "pronunciation": "/ˈmʌsəl/",
+    "definition": "one of the soft parts inside your body that you use to move.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_d01b1afe",
+    "image_brief": "a woman stretching her calf muscle on a park bench after a run, from the side at medium distance, a towel, a bottle and a dog on a lead, tired good mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My **muscle** is sore after the game."
+  },
+  {
+    "phrase": "blood",
+    "pos": "noun",
+    "sense": "red-liquid-in-the-body",
+    "pronunciation": "/blʌd/",
+    "definition": "the red liquid that moves around inside your body.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_790f64b8",
+    "image_brief": "a boy at a kitchen sink with a bloody nose and a towel, a parent beside him, from the side at medium distance, a first aid box, a chair and a cup, alarmed family mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "There was **blood** on his shirt."
+  },
+  {
+    "phrase": "heart",
+    "pos": "noun",
+    "sense": "organ-that-moves-blood",
+    "pronunciation": "/hɑrt/",
+    "definition": "the organ in your chest that moves blood around your body.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_37db992c",
+    "image_brief": "a nurse placing a stethoscope on a patient's chest in a small clinic room, from the side at medium distance, a chart, a chair and a curtain, calm medical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **heart** was beating fast."
+  },
+  {
+    "phrase": "brain",
+    "pos": "noun",
+    "sense": "organ-that-controls-thinking",
+    "pronunciation": "/breɪn/",
+    "definition": "the organ inside your head that controls your thoughts and movements.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_be7d5f69",
+    "image_brief": "a student asleep over books in a library with their head on one arm, from across the table at medium distance, a lamp, notes and a cold cup, exhausted study mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **brain** needs oxygen to work."
+  },
+  {
+    "phrase": "throat",
+    "pos": "noun",
+    "sense": "passage-behind-the-mouth",
+    "pronunciation": "/θroʊt/",
+    "definition": "the passage at the back of your mouth that goes down your neck.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_1f386a95",
+    "image_brief": "a singer backstage holding their throat with a worried face, one crew member nearby, from the side at medium distance, cables, a water bottle and a set list, anxious pre-show mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I have a sore **throat** today."
+  },
+  {
+    "phrase": "cheek",
+    "pos": "noun",
+    "sense": "soft-side-of-the-face",
+    "pronunciation": "/tʃiːk/",
+    "definition": "one of the soft parts on each side of your face below your eyes.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_1a1002b0",
+    "image_brief": "a mother touching a child's cheek to check for fever, from across the room at medium distance, a sofa, a blanket and a thermometer on the table, tender worried mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The child's **cheek** was warm."
+  },
+  {
+    "phrase": "chin",
+    "pos": "noun",
+    "sense": "lowest-part-of-the-face",
+    "pronunciation": "/tʃɪn/",
+    "definition": "the lowest part of your face, below your mouth.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_4031e5e9",
+    "image_brief": "a man resting his chin on his hand at a kitchen table, from across the table at medium distance, a cup, a letter and a clock, thoughtful quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He rested his **chin** on his hand."
+  },
+  {
+    "phrase": "forehead",
+    "pos": "noun",
+    "sense": "flat-part-above-eyes",
+    "pronunciation": "/ˈfɔrhɛd/",
+    "definition": "the flat part of your face above your eyes.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_76ffa296",
+    "image_brief": "a woman pressing a cool cloth to a child's forehead on a sofa, from the side at medium distance, a bowl of water, a blanket and a toy on the floor, gentle caring mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She put her hand on his **forehead**."
+  },
+  {
+    "phrase": "eyebrow",
+    "pos": "noun",
+    "sense": "hair-above-the-eye",
+    "pronunciation": "/ˈaɪbraʊ/",
+    "definition": "the line of hair above your eye.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_cd281a21",
+    "image_brief": "a teenager raising one eyebrow at a phone screen, one friend beside them, from across the room at medium distance, a sofa, a game controller and a snack bowl, amused skeptical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He raised one **eyebrow** at the news."
+  },
+  {
+    "phrase": "beard",
+    "pos": "noun",
+    "sense": "hair-on-the-chin",
+    "pronunciation": "/bɪrd/",
+    "definition": "the hair that grows on a man's chin and cheeks.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_36da90b7",
+    "image_brief": "an older man trimming his beard at a bathroom mirror, seen from behind at medium distance, a towel rail, a comb and a shaving brush, unhurried morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My grandfather has a white **beard**."
+  },
+  {
+    "phrase": "breathe",
+    "pos": "verb",
+    "sense": "take-air-in-and-out",
+    "pronunciation": "/briːð/",
+    "definition": "to take air into your body and let it out again.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "present_example": "She **breathes** slowly when she is nervous.",
+    "past_simple_example": "He **breathed** in the cold air.",
+    "past_participle_example": "The patient has **breathed** on his own all night.",
+    "present_participle_example": "She is **breathing** through her mouth.",
+    "image": "voc_0e20eb84",
+    "image_brief": "a runner bent over with hands on knees catching their breath on a track, from the side at medium distance, a stopwatch, a bottle and lane markings, exhausted effort mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "It is hard to **breathe** in this hot room."
+  },
+  {
+    "phrase": "sweat",
+    "pos": "verb",
+    "sense": "wet-skin-from-heat",
+    "pronunciation": "/swɛt/",
+    "definition": "to have wet skin because you are hot or working hard.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "present_example": "He **sweats** in the hot kitchen.",
+    "past_simple_example": "We **sweated** in the sun all day.",
+    "past_participle_example": "The players have **sweated** through two games.",
+    "present_participle_example": "The runners are **sweating** in the heat.",
+    "image": "voc_03193210",
+    "image_brief": "a cook wiping sweat from their forehead in a hot kitchen, from across the room at medium distance, steaming pots, towels and an open window, busy hot mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I **sweat** a lot when I run."
+  },
+  {
+    "phrase": "swallow",
+    "pos": "verb",
+    "sense": "food-down-the-throat",
+    "pronunciation": "/ˈswɑloʊ/",
+    "definition": "to make food or drink go down your throat.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "present_example": "She **swallows** the pill with water.",
+    "past_simple_example": "He **swallowed** the last piece of cake.",
+    "past_participle_example": "The child has **swallowed** a coin.",
+    "present_participle_example": "He is **swallowing** the medicine now.",
+    "image": "voc_ff1ed39e",
+    "image_brief": "a patient at a kitchen table taking a pill with a glass of water, from across the table at medium distance, a medicine bottle, a plate and a newspaper, ordinary careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "It hurts to **swallow** with a sore throat."
+  },
+  {
+    "phrase": "chew",
+    "pos": "verb",
+    "sense": "bite-food-again-and-again",
+    "pronunciation": "/tʃuː/",
+    "definition": "to bite food again and again with your teeth until it is soft.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "present_example": "He **chews** gum in class.",
+    "past_simple_example": "The dog **chewed** my shoe.",
+    "past_participle_example": "The puppy has **chewed** the chair leg.",
+    "present_participle_example": "She is **chewing** a piece of bread.",
+    "image": "voc_0f3fbc05",
+    "image_brief": "a man chewing a piece of bread at a lunch counter, a second person reading beside him, from the side at medium distance, plates, a coffee cup and a newspaper, easy midday mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "You should **chew** your food slowly."
+  },
+  {
+    "phrase": "blink",
+    "pos": "verb",
+    "sense": "close-and-open-eyes",
+    "pronunciation": "/blɪŋk/",
+    "definition": "to close and open your eyes quickly.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "present_example": "He **blinks** when the light is bright.",
+    "past_simple_example": "She **blinked** in the sudden sun.",
+    "past_participle_example": "The light has **blinked** all evening.",
+    "present_participle_example": "She is **blinking** at the bright screen.",
+    "image": "voc_2a90edc9",
+    "image_brief": "a driver blinking in low sun at a traffic light, from over the shoulder at medium distance, a coffee cup, a map and a bag on the seat, bright annoying mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Cats **blink** slowly when they trust you."
+  },
+  {
+    "phrase": "nod",
+    "pos": "verb",
+    "sense": "move-head-up-and-down",
+    "pronunciation": "/nɑd/",
+    "definition": "to move your head up and down, usually to say yes.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "present_example": "She **nods** when she understands.",
+    "past_simple_example": "He **nodded** and closed the door.",
+    "past_participle_example": "She has **nodded** at every question.",
+    "present_participle_example": "He is **nodding** to the music.",
+    "image": "voc_5528d4b5",
+    "image_brief": "two people at a meeting table, one nodding to the other, from across the room at medium distance, laptops, papers and a wall clock, agreeable work mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Just **nod** if you agree."
+  },
+  {
+    "phrase": "shrug",
+    "pos": "verb",
+    "sense": "lift-shoulders-in-doubt",
+    "pronunciation": "/ʃrʌɡ/",
+    "definition": "to lift your shoulders for a moment to show that you do not know or do not care.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "present_example": "She **shrugs** and says nothing.",
+    "past_simple_example": "He **shrugged** and walked away.",
+    "past_participle_example": "He has **shrugged** at every warning.",
+    "present_participle_example": "She is **shrugging** at the question.",
+    "image": "voc_65efc32b",
+    "image_brief": "a teenager shrugging at a parent in a hallway, from the side at medium distance, a school bag, shoes by the door and a coat hook, awkward evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Do not **shrug** when I ask you a question."
+  },
+  {
+    "phrase": "stretch",
+    "pos": "verb",
+    "sense": "straighten-arms-or-legs",
+    "pronunciation": "/strɛtʃ/",
+    "definition": "to make your arms or legs straight and long, often to relax your muscles.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "present_example": "He **stretches** his arms every morning.",
+    "past_simple_example": "She **stretched** after the long flight.",
+    "past_participle_example": "The cat has **stretched** out on the sofa.",
+    "present_participle_example": "The team is **stretching** on the field.",
+    "image": "voc_2eafc7d0",
+    "image_brief": "an office worker stretching both arms above their head by a window, from across the room at medium distance, a desk, a mug and a jacket on the chair, tired afternoon mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I **stretch** before I run."
+  },
+  {
+    "phrase": "bend",
+    "pos": "verb",
+    "sense": "move-body-downward",
+    "pronunciation": "/bɛnd/",
+    "definition": "to move the top part of your body down and forward.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "present_example": "He **bends** down to tie his shoes.",
+    "past_simple_example": "She **bent** over to pick up the coin.",
+    "past_participle_example": "The branch has **bent** under the snow.",
+    "present_participle_example": "He is **bending** the wire into a circle.",
+    "image": "voc_911fbcf8",
+    "image_brief": "a gardener bending to pick up a tool in a flower bed, from behind at medium distance, a wheelbarrow, gloves and a watering can, slow sunny mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Bend** your knees to pick it up."
+  },
+  {
+    "phrase": "touch",
+    "pos": "verb",
+    "sense": "put-hand-on-something",
+    "pronunciation": "/tʌtʃ/",
+    "definition": "to put your hand or finger on something.",
+    "categories": [
+      "body"
+    ],
+    "level": "a2",
+    "present_example": "She **touches** her face when she is tired.",
+    "past_simple_example": "He **touched** my arm to stop me.",
+    "past_participle_example": "Someone has **touched** this chair.",
+    "present_participle_example": "The baby is **touching** the glass.",
+    "image": "voc_e0afe72a",
+    "image_brief": "a child reaching to touch a museum display, one guard nearby, from behind at medium distance, a rope barrier, a bench and a polished floor, curious hushed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Do not **touch** the hot pan."
+  },
+  {
+    "phrase": "medicine",
+    "pos": "noun",
+    "sense": "something-taken-when-ill",
+    "pronunciation": "/ˈmɛdəsən/",
+    "definition": "something you take when you are ill, such as a pill or a liquid.",
+    "categories": [
+      "health"
+    ],
+    "level": "a2",
+    "image": "voc_94479538",
+    "image_brief": "a man at a kitchen table pouring liquid medicine into a spoon, from across the table at medium distance, a glass of water, a plate and a paper bag from the pharmacy, ordinary careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Take this **medicine** after dinner."
+  },
+  {
+    "phrase": "pill",
+    "pos": "noun",
+    "sense": "small-round-medicine",
+    "pronunciation": "/pɪl/",
+    "definition": "a small round piece of medicine that you swallow.",
+    "categories": [
+      "health"
+    ],
+    "level": "a2",
+    "image": "voc_619962e3",
+    "image_brief": "a woman holding a small white pill over a glass of water at a bathroom sink, seen from the side at medium distance, a mirror cabinet, a towel and a phone on the edge, quiet morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She takes one **pill** every morning."
+  },
+  {
+    "phrase": "pain",
+    "pos": "noun",
+    "sense": "bad-feeling-in-the-body",
+    "pronunciation": "/peɪn/",
+    "definition": "the bad feeling you have when part of your body is hurt.",
+    "categories": [
+      "health",
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_19a86aaa",
+    "image_brief": "a man gripping his knee on a park bench with his jaw tight, one friend kneeling beside him, from the side at medium distance, a bicycle, a water bottle and fallen leaves, sharp sudden mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I felt a sharp **pain** in my knee."
+  },
+  {
+    "phrase": "ache",
+    "pos": "noun",
+    "sense": "long-dull-pain",
+    "pronunciation": "/eɪk/",
+    "definition": "a pain that continues for a long time but is not very strong.",
+    "categories": [
+      "health",
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_7962d4e6",
+    "image_brief": "a woman at a desk pressing her lower back after a long day, from behind at medium distance, a lamp, papers and a cold mug of tea, dull tired mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A dull **ache** stayed in my back all day."
+  },
+  {
+    "phrase": "headache",
+    "pos": "noun",
+    "sense": "pain-in-the-head",
+    "pronunciation": "/ˈhɛdeɪk/",
+    "definition": "a pain in your head.",
+    "categories": [
+      "health",
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_15de5db9",
+    "image_brief": "a man with his hand over his eyes at a dim kitchen table, from across the room at medium distance, an unwashed cup, a folded newspaper and a closed curtain, gray quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I have a **headache** and need to lie down."
+  },
+  {
+    "phrase": "stomachache",
+    "pos": "noun",
+    "sense": "pain-in-the-stomach",
+    "pronunciation": "/ˈstʌməkeɪk/",
+    "definition": "a pain in your stomach.",
+    "categories": [
+      "health",
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_e0a2c2b9",
+    "image_brief": "a girl curled on a sofa with a blanket over her stomach, a parent nearby, from across the room at medium distance, a mug, a school bag and a folded jumper, uneasy afternoon mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The child had a **stomachache** after lunch."
+  },
+  {
+    "phrase": "toothache",
+    "pos": "noun",
+    "sense": "pain-in-a-tooth",
+    "pronunciation": "/ˈtuːθeɪk/",
+    "definition": "a pain in your tooth.",
+    "categories": [
+      "health",
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_85bcfbfd",
+    "image_brief": "a man at night holding his jaw in front of a bathroom mirror, from behind at medium distance, a toothbrush, a towel and a dim lamp, restless night mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **toothache** kept him awake."
+  },
+  {
+    "phrase": "fever",
+    "pos": "noun",
+    "sense": "high-body-temperature",
+    "pronunciation": "/ˈfiːvɚ/",
+    "definition": "a body temperature that is higher than normal because you are ill.",
+    "categories": [
+      "health",
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_addc1dab",
+    "image_brief": "a child under a blanket with a damp cloth on the forehead, one adult taking a thermometer reading, from the side at medium distance, a water glass, a medicine box and a curtain, worried hushed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **fever** went down after two days."
+  },
+  {
+    "phrase": "cough",
+    "pos": "noun",
+    "sense": "loud-air-from-the-throat",
+    "pronunciation": "/kɔf/",
+    "definition": "the act of pushing air out of your throat with a sudden loud sound.",
+    "categories": [
+      "health",
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_ea7fc79c",
+    "image_brief": "a man covering his mouth with his elbow at a bus stop, one person stepping away, from across the pavement at medium distance, a bench, a bag and a wet road, gray winter mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "His **cough** was worse at night."
+  },
+  {
+    "phrase": "flu",
+    "pos": "noun",
+    "sense": "illness-like-a-bad-cold",
+    "pronunciation": "/fluː/",
+    "definition": "an illness like a bad cold, with a fever and aches in your body.",
+    "categories": [
+      "health"
+    ],
+    "level": "a2",
+    "image": "voc_4f36f338",
+    "image_brief": "a woman wrapped in a blanket on a sofa with used tissues on the table, from across the room at medium distance, a remote, a mug and a half-eaten plate, flat miserable mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She missed a week of work with the **flu**."
+  },
+  {
+    "phrase": "injection",
+    "pos": "noun",
+    "sense": "medicine-put-in-with-a-needle",
+    "pronunciation": "/ɪnˈdʒɛkʃən/",
+    "definition": "medicine that is put into your body with a needle.",
+    "categories": [
+      "health"
+    ],
+    "level": "a2",
+    "image": "voc_c939bd5e",
+    "image_brief": "a nurse preparing a needle while a patient sits with one sleeve rolled up, from the side at medium distance, a tray, cotton balls and a small bin, calm clinical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **injection** did not hurt much."
+  },
+  {
+    "phrase": "vaccine",
+    "pos": "noun",
+    "sense": "protection-against-disease",
+    "pronunciation": "/vækˈsiːn/",
+    "definition": "a medicine that protects you from a disease.",
+    "categories": [
+      "health"
+    ],
+    "level": "a2",
+    "image": "voc_797cc97d",
+    "image_brief": "a health worker filling a syringe at a table in a community hall, one older person waiting in a chair, from across the room at medium distance, a cool box, forms and a folding chair, calm orderly mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **vaccine** protects children from the disease."
+  },
+  {
+    "phrase": "bandage",
+    "pos": "noun",
+    "sense": "cloth-cover-for-a-cut",
+    "pronunciation": "/ˈbændɪdʒ/",
+    "definition": "a long strip of cloth used to cover a cut or an injury.",
+    "categories": [
+      "health",
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_d1e0f584",
+    "image_brief": "a nurse wrapping a white bandage around a man's forearm, from the side at medium distance, scissors, a tray and a chair, steady careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The nurse put a **bandage** on his arm."
+  },
+  {
+    "phrase": "plaster",
+    "pos": "noun",
+    "sense": "sticky-cover-for-a-cut",
+    "pronunciation": "/ˈplæstɚ/",
+    "definition": "a small piece of sticky material that you put on a cut.",
+    "categories": [
+      "health",
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_987bca69",
+    "image_brief": "a woman putting a plaster on a child's finger at a kitchen table, from the side at medium distance, a first aid tin, a cup and a school bag, gentle everyday mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I need a **plaster** for this cut."
+  },
+  {
+    "phrase": "wound",
+    "pos": "noun",
+    "sense": "cut-or-hole-in-skin",
+    "pronunciation": "/wuːnd/",
+    "definition": "a cut or hole in your skin caused by a weapon or an accident.",
+    "categories": [
+      "health",
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_0ef40c6b",
+    "image_brief": "a man sitting on a step with a cut on his hand while a friend looks at it, from the side at medium distance, a dropped tool, a bicycle and a gravel path, concerned afternoon mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **wound** took two weeks to heal."
+  },
+  {
+    "phrase": "bruise",
+    "pos": "noun",
+    "sense": "dark-mark-from-a-hit",
+    "pronunciation": "/bruːz/",
+    "definition": "a dark mark on your skin where you were hit.",
+    "categories": [
+      "health",
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_f79113d2",
+    "image_brief": "a woman in a changing room looking at a dark mark on her leg, from behind at medium distance, a bench, a towel and a gym bag, quiet annoyed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A dark **bruise** appeared on her leg."
+  },
+  {
+    "phrase": "germ",
+    "pos": "noun",
+    "sense": "tiny-thing-that-makes-you-ill",
+    "pronunciation": "/dʒɝm/",
+    "definition": "a very small living thing that can make you ill.",
+    "categories": [
+      "health"
+    ],
+    "level": "a2",
+    "image": "voc_5e2e1bc3",
+    "image_brief": "a child washing their hands at a school sink while a teacher watches, from behind at medium distance, paper towels, a tap and small bags on hooks, ordinary school mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **germ** can spread from your hands to your food."
+  },
+  {
+    "phrase": "virus",
+    "pos": "noun",
+    "sense": "tiny-spreading-cause-of-illness",
+    "pronunciation": "/ˈvaɪrəs/",
+    "definition": "a very small living thing that spreads between people and makes them ill.",
+    "categories": [
+      "health"
+    ],
+    "level": "a2",
+    "image": "voc_e3c3bc04",
+    "image_brief": "a classroom with several empty chairs and one student at a desk, the teacher at the front, from the doorway at wide distance, coats on hooks, a whiteboard and scattered books, quiet empty mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **virus** spread through the whole school."
+  },
+  {
+    "phrase": "infection",
+    "pos": "noun",
+    "sense": "illness-from-germs",
+    "pronunciation": "/ɪnˈfɛkʃən/",
+    "definition": "an illness caused by germs getting into a part of your body.",
+    "categories": [
+      "health"
+    ],
+    "level": "a2",
+    "image": "voc_54f1f63d",
+    "image_brief": "a man at a clinic showing a red swollen cut on his arm to a nurse, from the side at medium distance, a chart, a lamp and a tray, serious calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The cut turned red and became an **infection**."
+  },
+  {
+    "phrase": "allergy",
+    "pos": "noun",
+    "sense": "bad-reaction-to-something",
+    "pronunciation": "/ˈælɚdʒi/",
+    "definition": "a bad reaction of your body to something such as dust or nuts.",
+    "categories": [
+      "health",
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_1376b40b",
+    "image_brief": "a woman at a cafe table reading a menu closely while a friend points at a dish, from across the table at medium distance, plates, a bag and a water glass, cautious lunch mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He has an **allergy** to nuts."
+  },
+  {
+    "phrase": "rash",
+    "pos": "noun",
+    "sense": "red-spots-on-the-skin",
+    "pronunciation": "/ræʃ/",
+    "definition": "red spots on your skin caused by an illness or an allergy.",
+    "categories": [
+      "health",
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_27b57c86",
+    "image_brief": "a boy at a bathroom mirror holding up his arm with red spots, a parent behind him, from behind at medium distance, a towel, a soap dish and a lamp, puzzled worried mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A red **rash** covered her arms."
+  },
+  {
+    "phrase": "checkup",
+    "pos": "noun",
+    "sense": "regular-doctor-visit",
+    "pronunciation": "/ˈtʃɛkʌp/",
+    "definition": "a regular visit to a doctor to see if you are healthy.",
+    "categories": [
+      "health"
+    ],
+    "level": "a2",
+    "image": "voc_0e51a78a",
+    "image_brief": "a patient sitting on an examination table while a doctor checks a chart, from across the room at medium distance, a scale, a chair and a curtain, routine calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I have a **checkup** with my doctor on Friday."
+  },
+  {
+    "phrase": "surgery",
+    "pos": "noun",
+    "sense": "medical-treatment-with-cutting",
+    "pronunciation": "/ˈsɝdʒɚi/",
+    "definition": "medical treatment in which a doctor cuts your body open to fix a problem.",
+    "categories": [
+      "health"
+    ],
+    "level": "a2",
+    "image": "voc_fba569bf",
+    "image_brief": "a patient being wheeled down a hospital corridor by two staff, seen from the side at wide distance, doors, a waiting chair and a trolley, tense quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She needs **surgery** on her knee."
+  },
+  {
+    "phrase": "operation",
+    "pos": "noun",
+    "sense": "medical-work-inside-the-body",
+    "pronunciation": "/ˌɑpəˈreɪʃən/",
+    "definition": "a medical treatment in which a doctor works inside your body.",
+    "categories": [
+      "health"
+    ],
+    "level": "a2",
+    "image": "voc_9ba6848e",
+    "image_brief": "a surgeon scrubbing at a sink outside a theatre, seen from behind at medium distance, a mask, gloves and a closed door, focused serious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He had an **operation** on his heart last year."
+  },
+  {
+    "phrase": "patient",
+    "pos": "noun",
+    "sense": "person-receiving-medical-care",
+    "pronunciation": "/ˈpeɪʃənt/",
+    "definition": "a person who is receiving medical care.",
+    "categories": [
+      "health"
+    ],
+    "level": "a2",
+    "image": "voc_5286e282",
+    "image_brief": "an older patient waiting in a clinic chair with a coat on their lap, from across the room at medium distance, a clock, a plant and a stack of magazines, patient waiting mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **patient** waited in a chair by the door."
+  },
+  {
+    "phrase": "injury",
+    "pos": "noun",
+    "sense": "damage-to-the-body",
+    "pronunciation": "/ˈɪndʒɚi/",
+    "definition": "damage to your body caused by an accident.",
+    "categories": [
+      "health",
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_b0393def",
+    "image_brief": "a football player on the sideline with an ice pack on his ankle, a coach beside him, from the side at medium distance, a bench, bottles and a bag of kit, disappointed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **injury** kept him off the field for a month."
+  },
+  {
+    "phrase": "painkiller",
+    "pos": "noun",
+    "sense": "medicine-against-pain",
+    "pronunciation": "/ˈpeɪnkɪlɚ/",
+    "definition": "a medicine that makes pain go away.",
+    "categories": [
+      "health"
+    ],
+    "level": "a2",
+    "image": "voc_d1487e13",
+    "image_brief": "a woman taking a tablet from a strip on a kitchen counter, from across the room at medium distance, a glass, a kettle and an open drawer, quick practical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "This **painkiller** works in about twenty minutes."
+  },
+  {
+    "phrase": "tissue",
+    "pos": "noun",
+    "sense": "soft-paper-for-the-nose",
+    "pronunciation": "/ˈtɪʃuː/",
+    "definition": "a soft paper that you use to wipe your nose.",
+    "categories": [
+      "health",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_0b86db74",
+    "image_brief": "a man pulling a tissue from a box at a desk, from the side at medium distance, a keyboard, a mug and a bin, ordinary office mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She took a **tissue** from her bag."
+  },
+  {
+    "phrase": "thermometer",
+    "pos": "noun",
+    "sense": "tool-that-shows-temperature",
+    "pronunciation": "/θɚˈmɑmətɚ/",
+    "definition": "a small tool that shows your body temperature.",
+    "categories": [
+      "health",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_28186fd5",
+    "image_brief": "a parent reading a thermometer by lamplight in a child's bedroom, from the side at medium distance, a blanket, a toy and a glass of water, hushed night mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **thermometer** showed a high temperature."
+  },
+  {
+    "phrase": "toothbrush",
+    "pos": "noun",
+    "sense": "brush-for-the-teeth",
+    "pronunciation": "/ˈtuːθbrʌʃ/",
+    "definition": "a small brush that you use to clean your teeth.",
+    "categories": [
+      "health",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_d59c8356",
+    "image_brief": "a woman packing a toothbrush into a wash bag on a bed, from above at medium distance, a suitcase, a towel and a passport, busy travel mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I packed a **toothbrush** for the trip."
+  },
+  {
+    "phrase": "symptom",
+    "pos": "noun",
+    "sense": "sign-of-illness",
+    "pronunciation": "/ˈsɪmptəm/",
+    "definition": "a sign in your body that shows you are ill.",
+    "categories": [
+      "health",
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_3b28274a",
+    "image_brief": "a man looking at a health website on a laptop at night, from over the shoulder at medium distance, a cup, a notebook and a dim lamp, anxious late mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A sore throat is a common **symptom** of a cold."
+  },
+  {
+    "phrase": "cure",
+    "pos": "noun",
+    "sense": "treatment-that-ends-illness",
+    "pronunciation": "/kjʊr/",
+    "definition": "a medicine or treatment that makes an illness go away.",
+    "categories": [
+      "health"
+    ],
+    "level": "a2",
+    "image": "voc_2bec04fe",
+    "image_brief": "a researcher looking at sample tubes in a lab, one colleague at a bench behind, from the side at medium distance, notebooks, a microscope and a cold room, hopeful serious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "There is still no **cure** for that disease."
+  },
+  {
+    "phrase": "rest",
+    "pos": "noun",
+    "sense": "time-to-relax",
+    "pronunciation": "/rɛst/",
+    "definition": "a period of time when you relax and do not work.",
+    "categories": [
+      "health"
+    ],
+    "level": "a2",
+    "image": "voc_0174c7c1",
+    "image_brief": "a woman lying on a sofa with a blanket and a closed book on her chest, from across the room at medium distance, a mug, a phone and drawn curtains, quiet recovering mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "You need **rest** after the operation."
+  },
+  {
+    "phrase": "diet",
+    "pos": "noun",
+    "sense": "usual-food-you-eat",
+    "pronunciation": "/ˈdaɪət/",
+    "definition": "the food and drink that you usually have.",
+    "categories": [
+      "health",
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_6ce43e6f",
+    "image_brief": "a man writing a shopping list beside an open fridge, from the side at medium distance, vegetables, a carton and a magnet on the door, ordinary planning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A good **diet** includes fruit and vegetables."
+  },
+  {
+    "phrase": "vitamin",
+    "pos": "noun",
+    "sense": "substance-food-needs",
+    "pronunciation": "/ˈvaɪtəmɪn/",
+    "definition": "a substance in food that your body needs to stay healthy.",
+    "categories": [
+      "health",
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_7aa3f507",
+    "image_brief": "a woman shaking a vitamin bottle over her hand at breakfast, from across the table at medium distance, a bowl, a glass and a newspaper, ordinary healthy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "This **vitamin** helps your body use calcium."
+  },
+  {
+    "phrase": "appointment",
+    "pos": "noun",
+    "sense": "agreed-time-to-see-a-doctor",
+    "pronunciation": "/əˈpɔɪntmənt/",
+    "definition": "an agreed time to see a doctor or another professional.",
+    "categories": [
+      "health"
+    ],
+    "level": "a2",
+    "image": "voc_58cce147",
+    "image_brief": "a man at a clinic desk writing his name in a book while a receptionist points, from the side at medium distance, a phone, a plant and a waiting chair, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I made an **appointment** for next Monday."
+  },
+  {
+    "phrase": "health",
+    "pos": "noun",
+    "sense": "state-of-the-body",
+    "pronunciation": "/hɛlθ/",
+    "definition": "the state of your body and how well or ill you are.",
+    "categories": [
+      "health",
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_4ff33945",
+    "image_brief": "a man walking briskly in a park with a bottle in his hand, wide shot from a distance, a bench, a dog and a path, steady improving mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "His **health** improved after the surgery."
+  },
+  {
+    "phrase": "illness",
+    "pos": "noun",
+    "sense": "state-of-being-ill",
+    "pronunciation": "/ˈɪlnəs/",
+    "definition": "the state of being ill, or a period when you are ill.",
+    "categories": [
+      "health"
+    ],
+    "level": "a2",
+    "image": "voc_142811dc",
+    "image_brief": "a woman lying in bed with a book and a cup, one friend putting a glass on the table, from the doorway at medium distance, a blanket, tissues and a lamp, gentle quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She recovered from a long **illness**."
+  },
+  {
+    "phrase": "disease",
+    "pos": "noun",
+    "sense": "illness-of-the-body",
+    "pronunciation": "/dɪˈziːz/",
+    "definition": "an illness of the body caused by germs or other problems.",
+    "categories": [
+      "health"
+    ],
+    "level": "a2",
+    "image": "voc_a09b9310",
+    "image_brief": "a doctor pointing at a chart on a wall while a patient listens, from across the room at medium distance, a desk, a chair and a folder, serious informative mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **disease** spreads through dirty water."
+  },
+  {
+    "phrase": "hurt",
+    "pos": "verb",
+    "sense": "feel-or-cause-pain",
+    "pronunciation": "/hɝt/",
+    "definition": "to feel pain, or to cause pain to someone.",
+    "categories": [
+      "health",
+      "body"
+    ],
+    "level": "a2",
+    "present_example": "My back **hurts** after sitting all day.",
+    "past_simple_example": "I **hurt** my foot on the stairs.",
+    "past_participle_example": "She has **hurt** her wrist before.",
+    "present_participle_example": "His shoulder is **hurting** again.",
+    "image": "voc_ba289f37",
+    "image_brief": "a boy on a playground holding his wrist with a scraped hand, a teacher kneeling beside him, from the side at medium distance, a ball, a bench and a water fountain, sudden upset mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "It can **hurt** to walk on a sprained ankle."
+  },
+  {
+    "phrase": "sneeze",
+    "pos": "verb",
+    "sense": "push-air-out-noisily",
+    "pronunciation": "/sniːz/",
+    "definition": "to push air out of your nose and mouth with a sudden loud sound.",
+    "categories": [
+      "health",
+      "body"
+    ],
+    "level": "a2",
+    "present_example": "He **sneezes** when dust is in the air.",
+    "past_simple_example": "She **sneezed** three times in a row.",
+    "past_participle_example": "The child has **sneezed** all morning.",
+    "present_participle_example": "He is **sneezing** near the window.",
+    "image": "voc_84e46855",
+    "image_brief": "a woman sneezing into a tissue at a bus stop, one person stepping back, from across the pavement at medium distance, a bag, a bench and a passing bus, everyday winter mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Dust can make you **sneeze**."
+  },
+  {
+    "phrase": "recover",
+    "pos": "verb",
+    "sense": "become-well-again",
+    "pronunciation": "/rɪˈkʌvɚ/",
+    "definition": "to become healthy again after an illness.",
+    "categories": [
+      "health"
+    ],
+    "level": "a2",
+    "present_example": "She **recovers** quickly from colds.",
+    "past_simple_example": "He **recovered** after two weeks.",
+    "past_participle_example": "The patient has **recovered** fully.",
+    "present_participle_example": "She is **recovering** at home.",
+    "image": "voc_1225c486",
+    "image_brief": "a man walking slowly in a hospital garden with a nurse beside him, from behind at medium distance, a bench, a drip stand and a path, gradual hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Most people **recover** from the flu in a week."
+  },
+  {
+    "phrase": "treat",
+    "pos": "verb",
+    "sense": "give-medical-care",
+    "pronunciation": "/triːt/",
+    "definition": "to give medical care to a person who is ill.",
+    "categories": [
+      "health"
+    ],
+    "level": "a2",
+    "present_example": "The clinic **treats** hundreds of patients.",
+    "past_simple_example": "The nurse **treated** the wound.",
+    "past_participle_example": "The wound has been **treated**.",
+    "present_participle_example": "They are **treating** him for an infection.",
+    "image": "voc_200d0d52",
+    "image_brief": "a nurse cleaning and covering a cut on a boy's knee in a clinic room, from the side at medium distance, a tray, a chair and a poster, gentle careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They can **treat** the pain with ice."
+  },
+  {
+    "phrase": "heal",
+    "pos": "verb",
+    "sense": "become-healthy-again",
+    "pronunciation": "/hiːl/",
+    "definition": "to become healthy again, or to make a cut or wound close.",
+    "categories": [
+      "health",
+      "body"
+    ],
+    "level": "a2",
+    "present_example": "The wound **heals** slowly.",
+    "past_simple_example": "The bruise **healed** after ten days.",
+    "past_participle_example": "The injury has **healed** well.",
+    "present_participle_example": "The cut is **healing** nicely.",
+    "image": "voc_e2bc9a35",
+    "image_brief": "a man checking a healing cut on his hand in daylight by a window, from the side at medium distance, a mug, a plant and a folded towel, calm improving mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The cut will **heal** in a week."
+  },
+  {
+    "phrase": "bleed",
+    "pos": "verb",
+    "sense": "lose-blood",
+    "pronunciation": "/bliːd/",
+    "definition": "to lose blood from your body.",
+    "categories": [
+      "health",
+      "body"
+    ],
+    "level": "a2",
+    "present_example": "A small cut **bleeds** for a moment.",
+    "past_simple_example": "His nose **bled** for ten minutes.",
+    "past_participle_example": "The wound has **bled** through the bandage.",
+    "present_participle_example": "The cut is **bleeding** again.",
+    "image": "voc_038a52e3",
+    "image_brief": "a man holding a cloth to a bleeding finger at a workshop bench, from the side at medium distance, tools, wood shavings and a first aid box, sudden practical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A deep cut can **bleed** for a while."
+  },
+  {
+    "phrase": "ill",
+    "pos": "adjective",
+    "sense": "not-healthy",
+    "pronunciation": "/ɪl/",
+    "definition": "not healthy and having a disease.",
+    "categories": [
+      "health"
+    ],
+    "level": "a2",
+    "image": "voc_b4942483",
+    "image_brief": "a woman sitting on the edge of a bed with a blanket around her shoulders, from the doorway at medium distance, a bin, a glass and closed curtains, low quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She felt **ill** after lunch."
+  },
+  {
+    "phrase": "healthy",
+    "pos": "adjective",
+    "sense": "well-and-strong",
+    "pronunciation": "/ˈhɛlθi/",
+    "definition": "strong and well, with a body that works normally.",
+    "categories": [
+      "health",
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_63b2d4f7",
+    "image_brief": "a family walking up a hill path with water bottles, from behind at wide distance, a bench, a sign and a dog, bright steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He stays **healthy** by walking every day."
+  },
+  {
+    "phrase": "broken",
+    "pos": "adjective",
+    "sense": "damaged-in-pieces",
+    "pronunciation": "/ˈbroʊkən/",
+    "definition": "damaged so that it is in pieces or does not work.",
+    "categories": [
+      "health",
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_5b737e9c",
+    "image_brief": "a boy with a cast on his arm sitting on a bench while a friend signs it, from the side at medium distance, a ball, a bag and a playground rail, cheerful recovering mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My **broken** arm is in a cast."
+  },
+  {
+    "phrase": "sore",
+    "pos": "adjective",
+    "sense": "painful-to-touch",
+    "pronunciation": "/sɔr/",
+    "definition": "painful when you touch it or move it.",
+    "categories": [
+      "health",
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_1f1b1ca8",
+    "image_brief": "a singer at a microphone touching their throat between songs, from across the stage at medium distance, a water bottle, cables and a stool, tired cautious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **sore** throat made it hard to speak."
+  },
+  {
+    "phrase": "stiff",
+    "pos": "adjective",
+    "sense": "hard-to-move",
+    "pronunciation": "/stɪf/",
+    "definition": "hard to move and painful, especially after exercise or sleep.",
+    "categories": [
+      "health",
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_72dd1e3d",
+    "image_brief": "an office worker standing up slowly from a desk chair holding their lower back, from the side at medium distance, a keyboard, a mug and a window, stiff end-of-day mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My legs are **stiff** after the long hike."
   }
 ]

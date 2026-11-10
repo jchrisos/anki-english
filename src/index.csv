@@ -1999,3 +1999,103 @@ vocabulary,sting,hurt-with-a-sharp-point,verb,a2,health;animals,hurt with a shar
 vocabulary,hunt,chase-animals-for-food,verb,a2,animals;nature,chase and catch animals for food
 vocabulary,feed,give-food-to-someone,verb,a2,animals;food,give food to a person or animal
 vocabulary,hatch,break-out-of-an-egg,verb,a2,animals;nature,break out of an egg
+vocabulary,head,top-part-above-neck,noun,a2,body,top part of the body above the neck
+vocabulary,face,front-of-the-head,noun,a2,body,front of the head with eyes and mouth
+vocabulary,eye,part-used-to-see,noun,a2,body,part of the face used to see
+vocabulary,ear,part-used-to-hear,noun,a2,body,part of the head used to hear
+vocabulary,nose,part-used-to-smell,noun,a2,body,part of the face used to smell
+vocabulary,mouth,opening-for-eating,noun,a2,body,opening used to eat and speak
+vocabulary,tongue,soft-part-in-mouth,noun,a2,body,soft part inside the mouth
+vocabulary,lip,edge-around-the-mouth,noun,a2,body,one of the soft edges around the mouth
+vocabulary,neck,part-joining-head-and-body,noun,a2,body,part joining the head to the shoulders
+vocabulary,shoulder,where-arm-joins-body,noun,a2,body,part where the arm joins the body
+vocabulary,arm,limb-from-shoulder-to-hand,noun,a2,body,long body part from shoulder to hand
+vocabulary,elbow,joint-in-the-arm,noun,a2,body,joint in the middle of the arm
+vocabulary,wrist,joint-before-the-hand,noun,a2,body,joint between the hand and arm
+vocabulary,hand,part-at-end-of-arm,noun,a2,body,part at the end of the arm
+vocabulary,finger,long-part-of-the-hand,noun,a2,body,one of the long parts of the hand
+vocabulary,thumb,short-thick-finger,noun,a2,body,short thick finger on the hand
+vocabulary,nail,hard-part-on-a-finger,noun,a2,body,hard flat part on a finger
+vocabulary,chest,front-of-the-upper-body,noun,a2,body,front of the body above the stomach
+vocabulary,back,rear-part-of-the-body,noun,a2,body,part of the body behind you
+vocabulary,stomach,where-food-goes,noun,a2,body,part where food goes after eating
+vocabulary,waist,narrow-part-above-hips,noun,a2,body,narrow part between chest and hips
+vocabulary,hip,side-part-below-waist,noun,a2,body,part at the side below the waist
+vocabulary,leg,limb-used-for-walking,noun,a2,body,long body part used for walking
+vocabulary,knee,joint-in-the-leg,noun,a2,body,joint in the middle of the leg
+vocabulary,ankle,joint-above-the-foot,noun,a2,body,joint between the foot and leg
+vocabulary,foot,part-at-end-of-leg,noun,a2,body,part at the end of the leg
+vocabulary,toe,small-part-on-the-foot,noun,a2,body,one of the small parts on the foot
+vocabulary,heel,back-of-the-foot,noun,a2,body,back part of the foot
+vocabulary,skin,outer-cover-of-the-body,noun,a2,body,soft outer cover of the body
+vocabulary,bone,hard-part-inside-body,noun,a2,body,hard part inside the body
+vocabulary,muscle,body-part-for-moving,noun,a2,body,soft body part used for moving
+vocabulary,blood,red-liquid-in-the-body,noun,a2,body,red liquid inside the body
+vocabulary,heart,organ-that-moves-blood,noun,a2,body,organ that moves blood around
+vocabulary,brain,organ-that-controls-thinking,noun,a2,body,organ inside the head that thinks
+vocabulary,throat,passage-behind-the-mouth,noun,a2,body,passage at the back of the mouth
+vocabulary,cheek,soft-side-of-the-face,noun,a2,body,soft side of the face
+vocabulary,chin,lowest-part-of-the-face,noun,a2,body,lowest part of the face
+vocabulary,forehead,flat-part-above-eyes,noun,a2,body,flat part above the eyes
+vocabulary,eyebrow,hair-above-the-eye,noun,a2,body,line of hair above the eye
+vocabulary,beard,hair-on-the-chin,noun,a2,body,hair on a man's chin
+vocabulary,breathe,take-air-in-and-out,verb,a2,body,take air in and out
+vocabulary,sweat,wet-skin-from-heat,verb,a2,body,have wet skin from heat
+vocabulary,swallow,food-down-the-throat,verb,a2,body,make food go down the throat
+vocabulary,chew,bite-food-again-and-again,verb,a2,body,bite food again and again
+vocabulary,blink,close-and-open-eyes,verb,a2,body,close and open the eyes
+vocabulary,nod,move-head-up-and-down,verb,a2,body,move the head up and down
+vocabulary,shrug,lift-shoulders-in-doubt,verb,a2,body,lift the shoulders to show doubt
+vocabulary,stretch,straighten-arms-or-legs,verb,a2,body,make arms or legs straight
+vocabulary,bend,move-body-downward,verb,a2,body,move the top of the body down
+vocabulary,touch,put-hand-on-something,verb,a2,body,put a hand on something
+vocabulary,medicine,something-taken-when-ill,noun,a2,health,something you take when you are ill
+vocabulary,pill,small-round-medicine,noun,a2,health,small round piece of medicine
+vocabulary,pain,bad-feeling-in-the-body,noun,a2,health;body,the bad feeling when your body is hurt
+vocabulary,ache,long-dull-pain,noun,a2,health;body,a pain that continues but is not strong
+vocabulary,headache,pain-in-the-head,noun,a2,health;body,a pain in your head
+vocabulary,stomachache,pain-in-the-stomach,noun,a2,health;body,a pain in your stomach
+vocabulary,toothache,pain-in-a-tooth,noun,a2,health;body,a pain in your tooth
+vocabulary,fever,high-body-temperature,noun,a2,health;body,a body temperature higher than normal
+vocabulary,cough,loud-air-from-the-throat,noun,a2,health;body,pushing air out with a loud sound
+vocabulary,flu,illness-like-a-bad-cold,noun,a2,health,an illness like a bad cold
+vocabulary,injection,medicine-put-in-with-a-needle,noun,a2,health,medicine put into your body with a needle
+vocabulary,vaccine,protection-against-disease,noun,a2,health,medicine that protects you from a disease
+vocabulary,bandage,cloth-cover-for-a-cut,noun,a2,health;body,long cloth used to cover a cut
+vocabulary,plaster,sticky-cover-for-a-cut,noun,a2,health;body,small sticky cover you put on a cut
+vocabulary,wound,cut-or-hole-in-skin,noun,a2,health;body,a cut or hole in your skin
+vocabulary,bruise,dark-mark-from-a-hit,noun,a2,health;body,a dark mark on your skin where you were hit
+vocabulary,germ,tiny-thing-that-makes-you-ill,noun,a2,health,a very small living thing that causes illness
+vocabulary,virus,tiny-spreading-cause-of-illness,noun,a2,health,a very small thing that spreads and makes people ill
+vocabulary,infection,illness-from-germs,noun,a2,health,an illness caused by germs in your body
+vocabulary,allergy,bad-reaction-to-something,noun,a2,health;body,a bad reaction of your body to something
+vocabulary,rash,red-spots-on-the-skin,noun,a2,health;body,red spots on your skin
+vocabulary,checkup,regular-doctor-visit,noun,a2,health,a regular visit to a doctor
+vocabulary,surgery,medical-treatment-with-cutting,noun,a2,health,treatment where a doctor cuts your body open
+vocabulary,operation,medical-work-inside-the-body,noun,a2,health,treatment where a doctor works inside your body
+vocabulary,patient,person-receiving-medical-care,noun,a2,health,a person who is receiving medical care
+vocabulary,injury,damage-to-the-body,noun,a2,health;body,damage to your body from an accident
+vocabulary,painkiller,medicine-against-pain,noun,a2,health,a medicine that makes pain go away
+vocabulary,tissue,soft-paper-for-the-nose,noun,a2,health;home,soft paper you use to wipe your nose
+vocabulary,thermometer,tool-that-shows-temperature,noun,a2,health;home,a small tool that shows body temperature
+vocabulary,toothbrush,brush-for-the-teeth,noun,a2,health;home,a small brush for cleaning your teeth
+vocabulary,symptom,sign-of-illness,noun,a2,health;body,a sign in your body that shows illness
+vocabulary,cure,treatment-that-ends-illness,noun,a2,health,medicine that makes an illness go away
+vocabulary,rest,time-to-relax,noun,a2,health,a time when you relax and do not work
+vocabulary,diet,usual-food-you-eat,noun,a2,health;food,the food and drink you usually have
+vocabulary,vitamin,substance-food-needs,noun,a2,health;food,a substance in food your body needs
+vocabulary,appointment,agreed-time-to-see-a-doctor,noun,a2,health,an agreed time to see a doctor
+vocabulary,health,state-of-the-body,noun,a2,health;body,how well or ill your body is
+vocabulary,illness,state-of-being-ill,noun,a2,health,the state of being ill
+vocabulary,disease,illness-of-the-body,noun,a2,health,an illness caused by germs or other problems
+vocabulary,hurt,feel-or-cause-pain,verb,a2,health;body,feel pain or cause pain
+vocabulary,sneeze,push-air-out-noisily,verb,a2,health;body,push air out with a sudden loud sound
+vocabulary,recover,become-well-again,verb,a2,health,become healthy again after an illness
+vocabulary,treat,give-medical-care,verb,a2,health,give medical care to a person who is ill
+vocabulary,heal,become-healthy-again,verb,a2,health;body,become healthy again or close a wound
+vocabulary,bleed,lose-blood,verb,a2,health;body,lose blood from your body
+vocabulary,ill,not-healthy,adjective,a2,health,not healthy and having a disease
+vocabulary,healthy,well-and-strong,adjective,a2,health;body,strong and well with a working body
+vocabulary,broken,damaged-in-pieces,adjective,a2,health;body,damaged so that it is in pieces
+vocabulary,sore,painful-to-touch,adjective,a2,health;body,painful when you touch or move it
+vocabulary,stiff,hard-to-move,adjective,a2,health;body,hard to move and painful after exercise
