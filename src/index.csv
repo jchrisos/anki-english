@@ -2599,3 +2599,103 @@ vocabulary,refuel,fill-a-vehicle-with-fuel,verb,a2,car;transport,fill a vehicle 
 vocabulary,reverse,drive-a-vehicle-backward,verb,a2,car;transport,drive a vehicle backward
 vocabulary,overtake,pass-another-vehicle,verb,a2,car;transport,pass another vehicle on the road
 vocabulary,rear,at-the-back,adjective,a2,car,at the back of something
+vocabulary,shorts,short-trousers,noun,a2,clothes,trousers that end above the knee
+vocabulary,sandals,open-shoes-with-straps,noun,a2,clothes,light open shoes with straps
+vocabulary,slippers,soft-shoes-for-the-house,noun,a2,clothes;home,soft shoes worn inside the house
+vocabulary,belt,strip-worn-around-the-waist,noun,a2,clothes,a strip worn around the waist
+vocabulary,tie,narrow-cloth-around-the-neck,noun,a2,clothes,a narrow cloth worn at the neck
+vocabulary,suit,jacket-and-trousers-set,noun,a2,clothes,a jacket and trousers of the same cloth
+vocabulary,blouse,shirt-for-women,noun,a2,clothes,a shirt for women
+vocabulary,vest,sleeveless-top-over-a-shirt,noun,a2,clothes,a sleeveless piece worn over a shirt
+vocabulary,hoodie,sweatshirt-with-a-hood,noun,a2,clothes,a sweatshirt with a hood
+vocabulary,swimsuit,clothing-for-swimming,noun,a2,clothes,clothing worn for swimming
+vocabulary,underwear,clothes-under-other-clothes,noun,a2,clothes,clothes worn under other clothes
+vocabulary,pajamas,soft-clothes-for-bed,noun,a2,clothes;home,soft clothes worn in bed
+vocabulary,button,small-round-fastener,noun,a2,clothes,a small round object that fastens clothes
+vocabulary,zipper,toothed-fastener,noun,a2,clothes,a toothed track that closes clothes
+vocabulary,collar,part-around-the-neck,noun,a2,clothes,the part of a shirt around the neck
+vocabulary,sleeve,part-covering-the-arm,noun,a2,clothes,the part of a shirt that covers your arm
+vocabulary,bracelet,band-worn-on-the-wrist,noun,a2,clothes,a band worn around the wrist
+vocabulary,earring,jewelry-worn-on-the-ear,noun,a2,clothes,a piece of jewelry worn on the ear
+vocabulary,ring,band-worn-on-a-finger,noun,a2,clothes,a round band worn on a finger
+vocabulary,necklace,jewelry-around-the-neck,noun,a2,clothes,a piece of jewelry worn at the neck
+vocabulary,jewelry,decorative-objects-you-wear,noun,a2,clothes,objects such as rings worn for decoration
+vocabulary,fashion,popular-style-of-clothes,noun,a2,clothes,the popular style of clothes at a time
+vocabulary,style,particular-way-of-dressing,noun,a2,clothes,a particular way of dressing
+vocabulary,wardrobe,cupboard-for-clothes,noun,a2,clothes;home,a large cupboard for clothes
+vocabulary,hanger,object-for-hanging-clothes,noun,a2,clothes,a shaped object for hanging clothes
+vocabulary,fabric,cloth-made-from-fibers,noun,a2,clothes,cloth made from cotton or other material
+vocabulary,cotton,soft-plant-cloth,noun,a2,clothes,soft white material made from a plant
+vocabulary,wool,soft-cloth-from-sheep,noun,a2,clothes,soft thick material from sheep
+vocabulary,silk,smooth-fine-cloth,noun,a2,clothes,smooth fine cloth made by insects
+vocabulary,leather,material-from-animal-skin,noun,a2,clothes,material made from animal skin
+vocabulary,denim,strong-cloth-for-jeans,noun,a2,clothes,strong cotton cloth used for jeans
+vocabulary,lace,fine-cloth-with-holes,noun,a2,clothes,fine cloth with holes in a pattern
+vocabulary,scarf,cloth-worn-around-the-neck,noun,a2,clothes,cloth worn around the neck
+vocabulary,outfit,set-of-clothes-worn-together,noun,a2,clothes,a set of clothes worn together
+vocabulary,sneakers,soft-shoes-for-walking,noun,a2,clothes,soft shoes for sport or walking
+vocabulary,tights,thin-tight-leg-clothing,noun,a2,clothes,thin tight clothing for the legs
+vocabulary,tracksuit,loose-sport-clothes,noun,a2,clothes,sports clothes of loose top and trousers
+vocabulary,cardigan,knitted-top-that-opens,noun,a2,clothes,a knitted top that opens at the front
+vocabulary,apron,cloth-that-keeps-clothes-clean,noun,a2,clothes;home,cloth tied over clothes to keep them clean
+vocabulary,cap,soft-hat-with-a-front-part,noun,a2,clothes,a soft hat with a curved front
+vocabulary,costume,clothes-for-looking-like-someone,noun,a2,clothes,clothes worn to look like someone else
+vocabulary,gown,long-dress-for-special-days,noun,a2,clothes,a long dress worn on special occasions
+vocabulary,veil,thin-cloth-over-the-face,noun,a2,clothes,thin cloth worn over the face
+vocabulary,mittens,gloves-for-all-fingers-together,noun,a2,clothes,gloves with one part for all fingers
+vocabulary,sunglasses,dark-glasses-for-the-sun,noun,a2,clothes;weather,dark glasses that protect the eyes
+vocabulary,zip,close-with-a-zipper,verb,a2,clothes,close clothes with a zipper
+vocabulary,iron,make-clothes-smooth,verb,a2,clothes;home,make clothes smooth with a hot tool
+vocabulary,fold,bend-cloth-onto-itself,verb,a2,clothes;home,bend cloth so one part lies on another
+vocabulary,mend,repair-a-hole-in-cloth,verb,a2,clothes,repair a hole or tear in cloth
+vocabulary,sew,join-cloth-with-needle-and-thread,verb,a2,clothes,join cloth with a needle and thread
+vocabulary,carpet,thick-cover-for-a-floor,noun,a2,home,thick soft material that covers a floor
+vocabulary,tile,flat-square-floor-piece,noun,a2,home,a flat piece used to cover floors
+vocabulary,blind,cover-for-a-window,noun,a2,home,a cover for a window pulled down
+vocabulary,cupboard,furniture-with-shelves,noun,a2,home,furniture with doors and shelves
+vocabulary,blender,machine-that-mixes-food,noun,a2,home;kitchen,a machine that mixes food into liquid
+vocabulary,detergent,cleaning-liquid-or-powder,noun,a2,home,a cleaning liquid or powder
+vocabulary,dryer,machine-that-dries-clothes,noun,a2,home,a machine that dries clothes
+vocabulary,washer,machine-that-washes-clothes,noun,a2,home,a machine that washes clothes
+vocabulary,faucet,tap-for-water,noun,a2,home;kitchen,the tap that lets water out
+vocabulary,drain,pipe-that-carries-water-away,noun,a2,home,a pipe that carries water away
+vocabulary,socket,hole-for-a-plug,noun,a2,home,a hole in a wall where a plug goes
+vocabulary,switch,part-that-turns-power-on,noun,a2,home,a small part you press for power
+vocabulary,bulb,glass-part-that-gives-light,noun,a2,home,the glass part that gives light
+vocabulary,heater,machine-that-warms-a-room,noun,a2,home,a machine that makes a room warm
+vocabulary,radiator,metal-panel-that-heats,noun,a2,home,a metal panel that heats a room
+vocabulary,mattress,soft-part-of-a-bed,noun,a2,home,the thick soft part of a bed
+vocabulary,sheet,large-cloth-for-a-bed,noun,a2,home,a large flat cloth used on a bed
+vocabulary,duvet,thick-cover-for-a-bed,noun,a2,home,a thick soft cover for a bed
+vocabulary,quilt,warm-cover-with-filling,noun,a2,home,a warm cover with soft filling
+vocabulary,attic,space-under-the-roof,noun,a2,home,the space under the roof
+vocabulary,basement,room-below-the-ground,noun,a2,home,a room below the ground floor
+vocabulary,terrace,flat-outdoor-area,noun,a2,home,a flat outdoor area by a house
+vocabulary,porch,covered-area-at-the-door,noun,a2,home,a covered area at the entrance
+vocabulary,patio,paved-area-for-sitting-outside,noun,a2,home,a flat paved area for sitting out
+vocabulary,shed,small-building-for-tools,noun,a2,home,a small building for tools
+vocabulary,driveway,private-road-to-a-house,noun,a2,home;car,house path from the street to a house
+vocabulary,chimney,pipe-that-carries-smoke-away,noun,a2,home,the pipe that carries smoke out
+vocabulary,fireplace,place-where-a-fire-burns,noun,a2,home,the place in a room for a fire
+vocabulary,cutlery,knives-forks-and-spoons,noun,a2,home;kitchen,knives forks and spoons
+vocabulary,crockery,plates-bowls-and-cups,noun,a2,home;kitchen,plates bowls and cups
+vocabulary,saucepan,deep-pot-with-a-handle,noun,a2,kitchen,a deep metal pot with a handle
+vocabulary,whisk,tool-for-beating-food,noun,a2,kitchen,a tool with wires for mixing food
+vocabulary,sofa,long-soft-seat,noun,a2,home,a long soft seat for two or more
+vocabulary,armchair,chair-with-arm-supports,noun,a2,home,a soft chair with arm supports
+vocabulary,bookshelf,shelves-for-books,noun,a2,home,a shelf or set of shelves for books
+vocabulary,dresser,furniture-with-drawers,noun,a2,home,furniture with drawers for clothes
+vocabulary,tidy,put-things-in-their-places,verb,a2,home,put things in their correct places
+vocabulary,mop,clean-a-floor-with-water,verb,a2,home,clean a floor with a wet tool
+vocabulary,vacuum,clean-with-a-sucking-machine,verb,a2,home,clean a floor with a suction machine
+vocabulary,dust,remove-dust-from-surfaces,verb,a2,home,remove dust from surfaces
+vocabulary,wipe,clean-with-a-cloth,verb,a2,home,clean a surface with a cloth
+vocabulary,scrub,clean-hard-with-a-brush,verb,a2,home,clean hard by rubbing with a brush
+vocabulary,rinse,wash-with-clean-water,verb,a2,home,wash with clean water to remove soap
+vocabulary,soak,leave-something-in-water,verb,a2,home,leave something in water for a time
+vocabulary,unpack,take-things-out-of-bags,verb,a2,home,take things out of bags or boxes
+vocabulary,undress,take-off-your-clothes,verb,a2,home;clothes,take off your clothes
+vocabulary,recycle,use-old-things-again,verb,a2,home;nature,use old paper or plastic again
+vocabulary,compost,turn-food-waste-into-soil,verb,a2,home;nature,turn food waste into soil
+vocabulary,floss,clean-between-your-teeth,verb,a2,health,clean between your teeth with thread
+vocabulary,shave,cut-hair-from-the-body,verb,a2,body;health,cut hair from your face or body

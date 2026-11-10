@@ -22172,5 +22172,1497 @@
     "image": "voc_6cf2503b",
     "image_brief": "the rear door of a car open with shopping bags inside while one person reaches in, from behind at medium distance, a lamp, a cart and a wall, ordinary errand mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
     "example": "The **rear** door does not close well."
+  },
+  {
+    "phrase": "shorts",
+    "pos": "noun",
+    "sense": "short-trousers",
+    "pronunciation": "/ʃɔrts/",
+    "definition": "trousers that end above the knee.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_83f39e04",
+    "image_brief": "a runner tying shoe laces in shorts on a track while one teammate stands beside, from the side at medium distance, a bag, a bottle and a bench, warm-up mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He wears **shorts** when he runs."
+  },
+  {
+    "phrase": "sandals",
+    "pos": "noun",
+    "sense": "open-shoes-with-straps",
+    "pronunciation": "/ˈsændəlz/",
+    "definition": "light open shoes with straps.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_98d57306",
+    "image_brief": "a woman trying on sandals at a market stall while one seller holds a box, from the side at medium distance, other shoes, a stool and a bag, sunny choosing mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She bought **sandals** for the beach."
+  },
+  {
+    "phrase": "slippers",
+    "pos": "noun",
+    "sense": "soft-shoes-for-the-house",
+    "pronunciation": "/ˈslɪpɚz/",
+    "definition": "soft comfortable shoes that you wear inside the house.",
+    "categories": [
+      "clothes",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_c4384029",
+    "image_brief": "a pair of slippers by a bed in the morning while one person reaches for them, from above at medium distance, a lamp, a book and a glass, slow start mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My **slippers** are by the bed."
+  },
+  {
+    "phrase": "belt",
+    "pos": "noun",
+    "sense": "strip-worn-around-the-waist",
+    "pronunciation": "/bɛlt/",
+    "definition": "a strip of leather or cloth worn around the waist.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_ddfeb18a",
+    "image_brief": "a man tightening a belt in a hallway, from the side at medium distance, a mirror, a coat and shoes, getting-ready mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "His **belt** is too tight."
+  },
+  {
+    "phrase": "tie",
+    "pos": "noun",
+    "sense": "narrow-cloth-around-the-neck",
+    "pronunciation": "/taɪ/",
+    "definition": "a long narrow cloth that is worn around the neck with a shirt.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_0fc24451",
+    "image_brief": "a man fixing a tie in a bedroom mirror, from behind at medium distance, a bed, a jacket and a bag, interview morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He wore a blue **tie** to the interview."
+  },
+  {
+    "phrase": "suit",
+    "pos": "noun",
+    "sense": "jacket-and-trousers-set",
+    "pronunciation": "/suːt/",
+    "definition": "a jacket and trousers made from the same cloth.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_28487680",
+    "image_brief": "a suit on a hanger held up by a tailor while one customer watches, from the side at medium distance, a mirror, pins and a tape, fitting mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **suit** fits him well."
+  },
+  {
+    "phrase": "blouse",
+    "pos": "noun",
+    "sense": "shirt-for-women",
+    "pronunciation": "/blaʊs/",
+    "definition": "a shirt for women.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_c021ab15",
+    "image_brief": "a woman choosing a blouse from a rail in a small shop while one friend points, from behind at medium distance, a mirror, a bag and a lamp, deciding mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She wore a white **blouse** to work."
+  },
+  {
+    "phrase": "vest",
+    "pos": "noun",
+    "sense": "sleeveless-top-over-a-shirt",
+    "pronunciation": "/vɛst/",
+    "definition": "a sleeveless piece of clothing worn over a shirt.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_ba6bfce1",
+    "image_brief": "a man pulling a vest over a shirt in a hallway, from behind at medium distance, a coat rack, a bag and a phone, early start mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He put a **vest** on under his jacket."
+  },
+  {
+    "phrase": "hoodie",
+    "pos": "noun",
+    "sense": "sweatshirt-with-a-hood",
+    "pronunciation": "/ˈhʊdi/",
+    "definition": "a sweatshirt with a hood.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_9dfaa4bd",
+    "image_brief": "a teenager pulling a hoodie over their head on a cold morning, from the side at medium distance, a bike, a bag and a fence, freezing mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I wear a **hoodie** on cold mornings."
+  },
+  {
+    "phrase": "swimsuit",
+    "pos": "noun",
+    "sense": "clothing-for-swimming",
+    "pronunciation": "/ˈswɪmsuːt/",
+    "definition": "clothing that you wear for swimming.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_854428f8",
+    "image_brief": "a swimsuit hanging on a line by a beach hut while one person packs a bag, from the side at medium distance, towels, a bucket and sand, holiday prep mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She packed a **swimsuit** for the trip."
+  },
+  {
+    "phrase": "underwear",
+    "pos": "noun",
+    "sense": "clothes-under-other-clothes",
+    "pronunciation": "/ˈʌndɚwɛr/",
+    "definition": "clothes that you wear under other clothes.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_7dca88b9",
+    "image_brief": "an open drawer of folded underwear in a bedroom while one person packs a bag, from above at medium distance, a case, socks and a lamp, trip packing mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Pack clean **underwear** for the week."
+  },
+  {
+    "phrase": "pajamas",
+    "pos": "noun",
+    "sense": "soft-clothes-for-bed",
+    "pronunciation": "/pəˈdʒɑməz/",
+    "definition": "soft clothes that you wear in bed.",
+    "categories": [
+      "clothes",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_3622ba11",
+    "image_brief": "two children in pajamas eating breakfast at a kitchen table while one parent stands at the stove, from across the room at medium distance, bowls, a kettle and a clock, slow morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The children were still in their **pajamas**."
+  },
+  {
+    "phrase": "button",
+    "pos": "noun",
+    "sense": "small-round-fastener",
+    "pronunciation": "/ˈbʌtən/",
+    "definition": "a small round object that fastens clothes.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_ce955655",
+    "image_brief": "a woman sewing a button onto a coat at a table, from above at medium distance, a needle, thread and scissors, patient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **button** came off my coat."
+  },
+  {
+    "phrase": "zipper",
+    "pos": "noun",
+    "sense": "toothed-fastener",
+    "pronunciation": "/ˈzɪpɚ/",
+    "definition": "a metal or plastic track with teeth that closes clothes or bags.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_1c1e75b5",
+    "image_brief": "a man pulling a zipper on a bag at an airport counter while one clerk stands behind, from the side at medium distance, a passport, a case and a sign, travel check mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **zipper** on my bag is broken."
+  },
+  {
+    "phrase": "collar",
+    "pos": "noun",
+    "sense": "part-around-the-neck",
+    "pronunciation": "/ˈkɑlɚ/",
+    "definition": "the part of a shirt that goes around the neck.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_a66c0843",
+    "image_brief": "a barber adjusting a collar around a man's neck, from the side at medium distance, a mirror, scissors and a comb, quiet shop mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "His **collar** was too tight."
+  },
+  {
+    "phrase": "sleeve",
+    "pos": "noun",
+    "sense": "part-covering-the-arm",
+    "pronunciation": "/sliːv/",
+    "definition": "the part of a shirt that covers your arm.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_fb18f4d6",
+    "image_brief": "a woman rolling up one sleeve at a sink, from the side at medium distance, a towel, a soap dish and a window, everyday mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "There is a stain on my **sleeve**."
+  },
+  {
+    "phrase": "bracelet",
+    "pos": "noun",
+    "sense": "band-worn-on-the-wrist",
+    "pronunciation": "/ˈbreɪslət/",
+    "definition": "a band or chain worn around the wrist.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_c6b57f67",
+    "image_brief": "a woman fastening a bracelet on her wrist at a table, from above at medium distance, a box, a cup and a lamp, small gift mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She wears a gold **bracelet** every day."
+  },
+  {
+    "phrase": "earring",
+    "pos": "noun",
+    "sense": "jewelry-worn-on-the-ear",
+    "pronunciation": "/ˈɪrɪŋ/",
+    "definition": "a piece of jewelry worn on the ear.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_35adf9bb",
+    "image_brief": "a woman putting on an earring in front of a mirror, from behind at medium distance, a box, a lamp and a dress on a hanger, dressing mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "One **earring** fell on the floor."
+  },
+  {
+    "phrase": "ring",
+    "pos": "noun",
+    "sense": "band-worn-on-a-finger",
+    "pronunciation": "/rɪŋ/",
+    "definition": "a round band worn on a finger.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_097c9829",
+    "image_brief": "a man sliding a ring onto a woman's finger at a table, from the side at medium distance, a candle, two glasses and a card, tender mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He put a **ring** on her finger."
+  },
+  {
+    "phrase": "necklace",
+    "pos": "noun",
+    "sense": "jewelry-around-the-neck",
+    "pronunciation": "/ˈnɛkləs/",
+    "definition": "a piece of jewelry worn around the neck.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_7e32f738",
+    "image_brief": "an older woman showing a necklace to a granddaughter, from across the table at medium distance, a box, photos and a cup, family memory mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **necklace** belonged to her grandmother."
+  },
+  {
+    "phrase": "jewelry",
+    "pos": "noun",
+    "sense": "decorative-objects-you-wear",
+    "pronunciation": "/ˈdʒuːəlri/",
+    "definition": "objects such as rings and necklaces worn as decoration.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_95acfe6c",
+    "image_brief": "a jewelry box open on a dresser with rings and chains while one person chooses, from above at medium distance, a lamp, a mirror and a scarf, quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She keeps her **jewelry** in a small box."
+  },
+  {
+    "phrase": "fashion",
+    "pos": "noun",
+    "sense": "popular-style-of-clothes",
+    "pronunciation": "/ˈfæʃən/",
+    "definition": "the popular style of clothes at a particular time.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_07732062",
+    "image_brief": "people walking past a shop window with mannequins in new clothes while one person stops, from the street at wide distance, a bus, a sign and a plant, city style mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She follows **fashion** in magazines."
+  },
+  {
+    "phrase": "style",
+    "pos": "noun",
+    "sense": "particular-way-of-dressing",
+    "pronunciation": "/staɪl/",
+    "definition": "a particular way of dressing or doing something.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_c8e6a1c7",
+    "image_brief": "a man in a simple dark outfit standing on a street corner while one passerby glances, from across the street at medium distance, a bike, a lamp and a shop, understated mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "His **style** is simple and dark."
+  },
+  {
+    "phrase": "wardrobe",
+    "pos": "noun",
+    "sense": "cupboard-for-clothes",
+    "pronunciation": "/ˈwɔrdroʊb/",
+    "definition": "a large cupboard for clothes, or all of your clothes.",
+    "categories": [
+      "clothes",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_81d064cf",
+    "image_brief": "a woman looking into a full wardrobe while one friend sits on the bed, from the side at medium distance, hangers, shoes and a mirror, deciding mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I need a bigger **wardrobe**."
+  },
+  {
+    "phrase": "hanger",
+    "pos": "noun",
+    "sense": "object-for-hanging-clothes",
+    "pronunciation": "/ˈhæŋɚ/",
+    "definition": "a shaped object that you hang clothes on.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_2168171b",
+    "image_brief": "a row of coats on hangers by a door while one person lifts one down, from the side at medium distance, boots, an umbrella stand and a mat, leaving mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Put the coat on a **hanger**."
+  },
+  {
+    "phrase": "fabric",
+    "pos": "noun",
+    "sense": "cloth-made-from-fibers",
+    "pronunciation": "/ˈfæbrɪk/",
+    "definition": "cloth made from cotton, wool or another material.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_9e966451",
+    "image_brief": "two people comparing fabric on a cutting table in a shop, one holding scissors, from above at medium distance, rolls, a ruler and a lamp, choosing mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "This **fabric** is too thin for winter."
+  },
+  {
+    "phrase": "cotton",
+    "pos": "noun",
+    "sense": "soft-plant-cloth",
+    "pronunciation": "/ˈkɑtən/",
+    "definition": "soft white material made from a plant and used for cloth.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_07a0dadd",
+    "image_brief": "a woman folding a cotton shirt at a shop table, from above at medium distance, other shirts, a bag and a sign, tidy shop mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I prefer **cotton** in summer."
+  },
+  {
+    "phrase": "wool",
+    "pos": "noun",
+    "sense": "soft-cloth-from-sheep",
+    "pronunciation": "/wʊl/",
+    "definition": "soft thick material that comes from sheep.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_de4cd619",
+    "image_brief": "a knitter working with wool in an armchair while one cat sits on the floor, from the side at medium distance, a basket, a lamp and a blanket, cozy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "This sweater is made of **wool**."
+  },
+  {
+    "phrase": "silk",
+    "pos": "noun",
+    "sense": "smooth-fine-cloth",
+    "pronunciation": "/sɪlk/",
+    "definition": "smooth fine cloth made by insects.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_a6c261d5",
+    "image_brief": "a silk scarf held up against the light in a shop while one customer looks, from the side at medium distance, a mirror, a box and a lamp, delicate mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **silk** feels very smooth."
+  },
+  {
+    "phrase": "leather",
+    "pos": "noun",
+    "sense": "material-from-animal-skin",
+    "pronunciation": "/ˈlɛðɚ/",
+    "definition": "material made from animal skin.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_7832cf78",
+    "image_brief": "a leather jacket hanging on a chair while one person checks the sleeve, from the side at medium distance, a bag, a table and a lamp, admiring mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He bought a **leather** wallet."
+  },
+  {
+    "phrase": "denim",
+    "pos": "noun",
+    "sense": "strong-cloth-for-jeans",
+    "pronunciation": "/ˈdɛnɪm/",
+    "definition": "strong cotton cloth that is used for jeans.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_2e39d3ce",
+    "image_brief": "a stack of denim jeans on a shop table while one person holds a pair up, from across the room at medium distance, a mirror, a sign and a bag, shopping mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She wears **denim** jackets all year."
+  },
+  {
+    "phrase": "lace",
+    "pos": "noun",
+    "sense": "fine-cloth-with-holes",
+    "pronunciation": "/leɪs/",
+    "definition": "fine cloth with holes in a pattern.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_af7785bc",
+    "image_brief": "a lace dress on a mannequin in a small shop while one customer looks closely, from the side at medium distance, a lamp, a box and a mirror, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The dress has **lace** at the neck."
+  },
+  {
+    "phrase": "scarf",
+    "pos": "noun",
+    "sense": "cloth-worn-around-the-neck",
+    "pronunciation": "/skɑrf/",
+    "definition": "a piece of cloth that you wear around your neck.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_70c4dc8b",
+    "image_brief": "a man wrapping a scarf around his neck at a door, from behind at medium distance, a coat, boots and a bag, cold morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He wrapped a **scarf** around his neck."
+  },
+  {
+    "phrase": "outfit",
+    "pos": "noun",
+    "sense": "set-of-clothes-worn-together",
+    "pronunciation": "/ˈaʊtfɪt/",
+    "definition": "a set of clothes that you wear together.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_1f30d570",
+    "image_brief": "a woman checking her outfit in a hallway mirror while one friend waits at the door, from behind at medium distance, shoes, a bag and a lamp, night-out mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She chose a red **outfit** for the party."
+  },
+  {
+    "phrase": "sneakers",
+    "pos": "noun",
+    "sense": "soft-shoes-for-walking",
+    "pronunciation": "/ˈsniːkɚz/",
+    "definition": "soft shoes that are worn for sport or walking.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_a3f7df61",
+    "image_brief": "a runner sitting on a step lacing sneakers, from the side at medium distance, a bottle, a towel and a bag, pre-run mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My **sneakers** are wet from the rain."
+  },
+  {
+    "phrase": "tights",
+    "pos": "noun",
+    "sense": "thin-tight-leg-clothing",
+    "pronunciation": "/taɪts/",
+    "definition": "thin tight clothing that covers the legs.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_b4e3fa7a",
+    "image_brief": "a woman pulling on tights beside a bed, from the side at medium distance, a dress on a hanger, shoes and a lamp, getting-ready mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She wore black **tights** with the dress."
+  },
+  {
+    "phrase": "tracksuit",
+    "pos": "noun",
+    "sense": "loose-sport-clothes",
+    "pronunciation": "/ˈtræksuːt/",
+    "definition": "a loose top and trousers that are worn for sport.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_e355dc79",
+    "image_brief": "a man in a tracksuit stretching by a football pitch while one coach stands behind, from the side at medium distance, a bag, cones and a bottle, training mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He wears a **tracksuit** to the gym."
+  },
+  {
+    "phrase": "cardigan",
+    "pos": "noun",
+    "sense": "knitted-top-that-opens",
+    "pronunciation": "/ˈkɑrdɪɡən/",
+    "definition": "a knitted top that opens at the front.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_e92e6b0b",
+    "image_brief": "a woman pulling on a cardigan in a cool room while one child reads nearby, from across the room at medium distance, a lamp, a book and a blanket, quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She pulled on a **cardigan**."
+  },
+  {
+    "phrase": "apron",
+    "pos": "noun",
+    "sense": "cloth-that-keeps-clothes-clean",
+    "pronunciation": "/ˈeɪprən/",
+    "definition": "a cloth that is tied over your clothes to keep them clean.",
+    "categories": [
+      "clothes",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_880c3452",
+    "image_brief": "a man tying an apron before cooking, from the side at medium distance, a pan, a recipe and a kettle, homely mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Put on an **apron** before you cook."
+  },
+  {
+    "phrase": "cap",
+    "pos": "noun",
+    "sense": "soft-hat-with-a-front-part",
+    "pronunciation": "/kæp/",
+    "definition": "a soft hat with a curved part at the front.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_5b48ab06",
+    "image_brief": "a boy in a cap holding a baseball glove while one parent stands nearby, from the side at medium distance, a fence, a ball and a bench, sunny mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He wore a baseball **cap**."
+  },
+  {
+    "phrase": "costume",
+    "pos": "noun",
+    "sense": "clothes-for-looking-like-someone",
+    "pronunciation": "/ˈkɑstuːm/",
+    "definition": "clothes that you wear to look like someone or something else.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_18ad931a",
+    "image_brief": "a child in a pirate costume at a school party while one teacher laughs behind, from behind at medium distance, decorations, a table and bags, festive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The child wore a pirate **costume**."
+  },
+  {
+    "phrase": "gown",
+    "pos": "noun",
+    "sense": "long-dress-for-special-days",
+    "pronunciation": "/ɡaʊn/",
+    "definition": "a long dress that is worn on special occasions.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_1b16ccdc",
+    "image_brief": "a long gown laid out on a bed while one woman looks at it, from above at medium distance, a lamp, shoes and a box, big-event mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She wore a long **gown** to the event."
+  },
+  {
+    "phrase": "veil",
+    "pos": "noun",
+    "sense": "thin-cloth-over-the-face",
+    "pronunciation": "/veɪl/",
+    "definition": "thin cloth that is worn over the face.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_3e709958",
+    "image_brief": "a bride's veil hanging by a mirror while one friend adjusts it, from behind at medium distance, a bouquet, a box and a lamp, quiet wedding mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **veil** covered her face."
+  },
+  {
+    "phrase": "mittens",
+    "pos": "noun",
+    "sense": "gloves-for-all-fingers-together",
+    "pronunciation": "/ˈmɪtənz/",
+    "definition": "gloves that have one part for all the fingers together.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_d4736c50",
+    "image_brief": "a child in mittens holding a snowball while one adult stands behind, from the side at medium distance, a sled, a fence and snow, playful cold mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Wear your **mittens** in the snow."
+  },
+  {
+    "phrase": "sunglasses",
+    "pos": "noun",
+    "sense": "dark-glasses-for-the-sun",
+    "pronunciation": "/ˈsʌnɡlæsɪz/",
+    "definition": "dark glasses that protect your eyes from the sun.",
+    "categories": [
+      "clothes",
+      "weather"
+    ],
+    "level": "a2",
+    "image": "voc_e01fd87c",
+    "image_brief": "a woman trying on sunglasses in a shop mirror while one friend watches, from behind at medium distance, a rack, a bag and a lamp, easy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He put on **sunglasses** outside."
+  },
+  {
+    "phrase": "zip",
+    "pos": "verb",
+    "sense": "close-with-a-zipper",
+    "pronunciation": "/zɪp/",
+    "definition": "to close clothes or a bag with a zipper.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "present_example": "She **zips** the bag quickly.",
+    "past_simple_example": "He **zipped** the tent shut.",
+    "past_participle_example": "The dress has **zipped** all the way up.",
+    "present_participle_example": "She is **zipping** her boots.",
+    "image": "voc_47725814",
+    "image_brief": "a man zipping a jacket at a cold door, from the side at medium distance, a scarf, a bag and a step, brisk mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Zip** your jacket before you go out."
+  },
+  {
+    "phrase": "iron",
+    "pos": "verb",
+    "sense": "make-clothes-smooth",
+    "pronunciation": "/ˈaɪɚn/",
+    "definition": "to make clothes smooth with a hot tool.",
+    "categories": [
+      "clothes",
+      "home"
+    ],
+    "level": "a2",
+    "present_example": "He **irons** his shirts on Sunday.",
+    "past_simple_example": "She **ironed** the tablecloth.",
+    "past_participle_example": "The clothes have been **ironed**.",
+    "present_participle_example": "She is **ironing** in the kitchen.",
+    "image": "voc_38b3c6de",
+    "image_brief": "a woman ironing a shirt on a board by a window, from the side at medium distance, a basket, a cup and a radio, quiet chore mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I need to **iron** this shirt."
+  },
+  {
+    "phrase": "fold",
+    "pos": "verb",
+    "sense": "bend-cloth-onto-itself",
+    "pronunciation": "/foʊld/",
+    "definition": "to bend cloth so that one part lies on another.",
+    "categories": [
+      "clothes",
+      "home"
+    ],
+    "level": "a2",
+    "present_example": "He **folds** the clothes every night.",
+    "past_simple_example": "She **folded** the blanket.",
+    "past_participle_example": "The sheets have been **folded**.",
+    "present_participle_example": "She is **folding** the laundry.",
+    "image": "voc_2ea42cce",
+    "image_brief": "a man folding towels on a table while one child stands nearby, from above at medium distance, a basket, a lamp and a shelf, ordinary home mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Fold** the towels and put them away."
+  },
+  {
+    "phrase": "mend",
+    "pos": "verb",
+    "sense": "repair-a-hole-in-cloth",
+    "pronunciation": "/mɛnd/",
+    "definition": "to repair a hole or tear in cloth.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "present_example": "She **mends** her own clothes.",
+    "past_simple_example": "He **mended** the torn pocket.",
+    "past_participle_example": "The coat has been **mended**.",
+    "present_participle_example": "She is **mending** a shirt.",
+    "image": "voc_9b89bead",
+    "image_brief": "a woman mending a hole in a sock by a window, from the side at medium distance, a needle, a basket and a cup, patient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Can you **mend** this hole in my sock?"
+  },
+  {
+    "phrase": "sew",
+    "pos": "verb",
+    "sense": "join-cloth-with-needle-and-thread",
+    "pronunciation": "/soʊ/",
+    "definition": "to join cloth with a needle and thread.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "a2",
+    "present_example": "She **sews** dresses for her daughter.",
+    "past_simple_example": "He **sewed** a button on his coat.",
+    "past_participle_example": "The curtains have been **sewn** by hand.",
+    "present_participle_example": "She is **sewing** a patch on the jeans.",
+    "image": "voc_febe95f8",
+    "image_brief": "a student sewing a patch on a bag in a classroom while one teacher watches, from the side at medium distance, machines, fabric and scissors, learning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I learned to **sew** at school."
+  },
+  {
+    "phrase": "carpet",
+    "pos": "noun",
+    "sense": "thick-cover-for-a-floor",
+    "pronunciation": "/ˈkɑrpət/",
+    "definition": "thick soft material that covers a floor.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_b37f45e2",
+    "image_brief": "an old carpet on a hallway floor with one person rolling up the edge, from the side at medium distance, shoes, a bag and a lamp, sorting-out mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **carpet** in the hall is old."
+  },
+  {
+    "phrase": "tile",
+    "pos": "noun",
+    "sense": "flat-square-floor-piece",
+    "pronunciation": "/taɪl/",
+    "definition": "a flat square piece that is used to cover floors or walls.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_59038c23",
+    "image_brief": "a loose tile lifted from a bathroom floor with one person kneeling beside it, from the side at medium distance, a bucket, a sponge and a tool, small repair mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **tile** came loose in the bathroom."
+  },
+  {
+    "phrase": "blind",
+    "pos": "noun",
+    "sense": "cover-for-a-window",
+    "pronunciation": "/blaɪnd/",
+    "definition": "a cover for a window that can be pulled down.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_97e15bb5",
+    "image_brief": "a woman pulling a blind down over a window in the evening, from across the room at medium distance, a sofa, a lamp and a cup, closing-day mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She pulled the **blind** down."
+  },
+  {
+    "phrase": "cupboard",
+    "pos": "noun",
+    "sense": "furniture-with-shelves",
+    "pronunciation": "/ˈkʌbɚd/",
+    "definition": "a piece of furniture with doors and shelves.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_ed1a9592",
+    "image_brief": "a woman reaching into a high cupboard for a plate, from the side at medium distance, a kitchen counter, a kettle and a towel, ordinary morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The plates are in the top **cupboard**."
+  },
+  {
+    "phrase": "blender",
+    "pos": "noun",
+    "sense": "machine-that-mixes-food",
+    "pronunciation": "/ˈblɛndɚ/",
+    "definition": "a machine that mixes food into a liquid.",
+    "categories": [
+      "home",
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_63d04bf8",
+    "image_brief": "a man making soup in a blender while one child watches from a stool, from the side at medium distance, a counter, vegetables and a jug, busy kitchen mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He made soup in the **blender**."
+  },
+  {
+    "phrase": "detergent",
+    "pos": "noun",
+    "sense": "cleaning-liquid-or-powder",
+    "pronunciation": "/dɪˈtɝdʒənt/",
+    "definition": "a cleaning liquid or powder used for washing.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_9f5212f9",
+    "image_brief": "a person pouring detergent into a washing machine in a small laundry room, from the side at medium distance, a basket, a shelf and a mop, weekly chore mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We need more **detergent** for the wash."
+  },
+  {
+    "phrase": "dryer",
+    "pos": "noun",
+    "sense": "machine-that-dries-clothes",
+    "pronunciation": "/ˈdraɪɚ/",
+    "definition": "a machine that dries clothes.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_9aed37ca",
+    "image_brief": "a woman taking warm towels out of a dryer in a laundry corner, from the side at medium distance, a basket, a shelf and a window, cozy chore mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **dryer** takes an hour."
+  },
+  {
+    "phrase": "washer",
+    "pos": "noun",
+    "sense": "machine-that-washes-clothes",
+    "pronunciation": "/ˈwɑʃɚ/",
+    "definition": "a machine that washes clothes.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_d29a03b7",
+    "image_brief": "a man loading towels into a washer in a basement, from the side at medium distance, a basket, a detergent box and a lamp, weekend chore mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **washer** is full of towels."
+  },
+  {
+    "phrase": "faucet",
+    "pos": "noun",
+    "sense": "tap-for-water",
+    "pronunciation": "/ˈfɔsɪt/",
+    "definition": "the tap that lets water out.",
+    "categories": [
+      "home",
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_0b9edaec",
+    "image_brief": "a dripping faucet over a sink with one person trying to tighten it, from the side at medium distance, a cup, a cloth and a window, small annoyance mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **faucet** is dripping again."
+  },
+  {
+    "phrase": "drain",
+    "pos": "noun",
+    "sense": "pipe-that-carries-water-away",
+    "pronunciation": "/dreɪn/",
+    "definition": "a pipe that carries water away.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_843b1b68",
+    "image_brief": "a blocked drain in a shower with one person kneeling beside it, from above at medium distance, a plunger, a bucket and a towel, unpleasant chore mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **drain** in the shower is blocked."
+  },
+  {
+    "phrase": "socket",
+    "pos": "noun",
+    "sense": "hole-for-a-plug",
+    "pronunciation": "/ˈsɑkɪt/",
+    "definition": "a hole in a wall where you put a plug.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_30279079",
+    "image_brief": "a person plugging a lamp into a socket behind a sofa, from behind at medium distance, a cable, a cushion and a book, settling-in mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **socket** is behind the sofa."
+  },
+  {
+    "phrase": "switch",
+    "pos": "noun",
+    "sense": "part-that-turns-power-on",
+    "pronunciation": "/swɪtʃ/",
+    "definition": "a small part you press to turn power on or off.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_62af499f",
+    "image_brief": "a hand reaching for a light switch by a door, from the side at medium distance, a coat, a bag and a lamp, arriving-home mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **switch** is by the door."
+  },
+  {
+    "phrase": "bulb",
+    "pos": "noun",
+    "sense": "glass-part-that-gives-light",
+    "pronunciation": "/bʌlb/",
+    "definition": "the glass part of a lamp that gives light.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_72e39e12",
+    "image_brief": "a man on a step ladder changing a bulb in a kitchen ceiling light, from below at medium distance, a cupboard, a counter and a cloth, small chore mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "One **bulb** in the kitchen is out."
+  },
+  {
+    "phrase": "heater",
+    "pos": "noun",
+    "sense": "machine-that-warms-a-room",
+    "pronunciation": "/ˈhiːtɚ/",
+    "definition": "a machine that makes a room warm.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_6b0e673d",
+    "image_brief": "two people sitting near a small heater in a cool room, from across the room at medium distance, a sofa, a blanket and a cup, winter evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We put the **heater** on in the evening."
+  },
+  {
+    "phrase": "radiator",
+    "pos": "noun",
+    "sense": "metal-panel-that-heats",
+    "pronunciation": "/ˈreɪdieɪtɚ/",
+    "definition": "a metal panel that heats a room.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_2096a15e",
+    "image_brief": "a child warming hands on a radiator by a window, from the side at medium distance, a bag, a bench and a coat, cold morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **radiator** is cold in this room."
+  },
+  {
+    "phrase": "mattress",
+    "pos": "noun",
+    "sense": "soft-part-of-a-bed",
+    "pronunciation": "/ˈmætrəs/",
+    "definition": "the thick soft part of a bed.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_0ba0156e",
+    "image_brief": "two people turning a mattress on a bed frame, from the side at medium distance, sheets, a lamp and a box, moving-day mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **mattress** is too soft for me."
+  },
+  {
+    "phrase": "sheet",
+    "pos": "noun",
+    "sense": "large-cloth-for-a-bed",
+    "pronunciation": "/ʃiːt/",
+    "definition": "a large flat cloth that is used on a bed.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_5a80c47f",
+    "image_brief": "a woman changing a sheet on a bed in the morning, from the side at medium distance, a pillow, a lamp and a basket, fresh-start mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She changed the **sheet** this morning."
+  },
+  {
+    "phrase": "duvet",
+    "pos": "noun",
+    "sense": "thick-cover-for-a-bed",
+    "pronunciation": "/duːˈveɪ/",
+    "definition": "a thick cover filled with soft material that you use on a bed.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_9bb770c3",
+    "image_brief": "a thick duvet folded back on a bed by a window, one person opening the curtain, from the side at medium distance, a lamp, a book and a glass, slow morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **duvet** is warm enough for winter."
+  },
+  {
+    "phrase": "quilt",
+    "pos": "noun",
+    "sense": "warm-cover-with-filling",
+    "pronunciation": "/kwɪlt/",
+    "definition": "a warm cover made of cloth with soft filling inside.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_961fb3cb",
+    "image_brief": "an older woman folding a patchwork quilt on a sofa, from across the room at medium distance, a lamp, a cup and a photo frame, warm memory mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My grandmother made this **quilt**."
+  },
+  {
+    "phrase": "attic",
+    "pos": "noun",
+    "sense": "space-under-the-roof",
+    "pronunciation": "/ˈætɪk/",
+    "definition": "the space under the roof of a house.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_297c2da5",
+    "image_brief": "boxes stacked in an attic with one person climbing a ladder to reach them, from below at medium distance, a window, dust and old furniture, forgotten-things mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The boxes are stored in the **attic**."
+  },
+  {
+    "phrase": "basement",
+    "pos": "noun",
+    "sense": "room-below-the-ground",
+    "pronunciation": "/ˈbeɪsmənt/",
+    "definition": "a room below the ground floor of a building.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_f08a2e62",
+    "image_brief": "a washer and boxes in a basement with one person carrying a basket down the stairs, from the side at medium distance, a lamp, a shelf and a bike, dim chore mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The washing machine is in the **basement**."
+  },
+  {
+    "phrase": "terrace",
+    "pos": "noun",
+    "sense": "flat-outdoor-area",
+    "pronunciation": "/ˈtɛrəs/",
+    "definition": "a flat outdoor area next to a house.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_372076af",
+    "image_brief": "two people having lunch on a terrace with plants around, from across the terrace at medium distance, chairs, a jug and a parasol, sunny mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We had lunch on the **terrace**."
+  },
+  {
+    "phrase": "porch",
+    "pos": "noun",
+    "sense": "covered-area-at-the-door",
+    "pronunciation": "/pɔrtʃ/",
+    "definition": "a covered area at the entrance of a house.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_de2d64fa",
+    "image_brief": "a parcel left on a porch beside a mat, one person opening the door, from behind at medium distance, a plant, a chair and a lamp, quiet arrival mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He left the parcel on the **porch**."
+  },
+  {
+    "phrase": "patio",
+    "pos": "noun",
+    "sense": "paved-area-for-sitting-outside",
+    "pronunciation": "/ˈpætioʊ/",
+    "definition": "a flat paved area outside a house where people sit.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_8aa3bb4d",
+    "image_brief": "a table and chairs on a sunlit patio with one person carrying out a tray, from the doorway at medium distance, a plant, a broom and a wall, relaxed afternoon mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **patio** gets sun all afternoon."
+  },
+  {
+    "phrase": "shed",
+    "pos": "noun",
+    "sense": "small-building-for-tools",
+    "pronunciation": "/ʃɛd/",
+    "definition": "a small building where tools or garden things are kept.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_594da1e0",
+    "image_brief": "a man taking a spade from a shed in a garden, from the side at medium distance, pots, a bike and a watering can, weekend gardening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The tools are in the **shed**."
+  },
+  {
+    "phrase": "driveway",
+    "pos": "noun",
+    "sense": "private-road-to-a-house",
+    "pronunciation": "/ˈdraɪvweɪ/",
+    "definition": "a private road from the street to a house.",
+    "categories": [
+      "home",
+      "car"
+    ],
+    "level": "a2",
+    "image": "voc_6ffa5bfb",
+    "image_brief": "a car parked on a driveway in front of a house with one person carrying bags to the door, from the street at wide distance, a bin, a hedge and a lamp, arriving-home mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A car was parked in the **driveway**."
+  },
+  {
+    "phrase": "chimney",
+    "pos": "noun",
+    "sense": "pipe-that-carries-smoke-away",
+    "pronunciation": "/ˈtʃɪmni/",
+    "definition": "the pipe that carries smoke out of a house.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_8e8f791e",
+    "image_brief": "smoke rising from a chimney on a snowy roof, one person clearing a path below, from across the street at wide distance, a fence, a lamp and trees, quiet winter mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Smoke came from the **chimney**."
+  },
+  {
+    "phrase": "fireplace",
+    "pos": "noun",
+    "sense": "place-where-a-fire-burns",
+    "pronunciation": "/ˈfaɪɚpleɪs/",
+    "definition": "the place in a room where a fire burns.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_3cdfafe7",
+    "image_brief": "a fire burning in a fireplace with two people sitting nearby, from across the room at medium distance, a rug, a lamp and a cup, warm evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We lit a fire in the **fireplace**."
+  },
+  {
+    "phrase": "cutlery",
+    "pos": "noun",
+    "sense": "knives-forks-and-spoons",
+    "pronunciation": "/ˈkʌtlɚi/",
+    "definition": "knives, forks and spoons.",
+    "categories": [
+      "home",
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_018103d0",
+    "image_brief": "a woman setting cutlery on a table for dinner, from above at medium distance, plates, glasses and a cloth, family meal mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **cutlery** is in the top drawer."
+  },
+  {
+    "phrase": "crockery",
+    "pos": "noun",
+    "sense": "plates-bowls-and-cups",
+    "pronunciation": "/ˈkrɑkɚi/",
+    "definition": "plates, bowls and cups.",
+    "categories": [
+      "home",
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_7d15a3ea",
+    "image_brief": "a woman stacking crockery on a shelf after washing up, from the side at medium distance, a sink, a towel and a window, tidy evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She stacked the **crockery** on the shelf."
+  },
+  {
+    "phrase": "saucepan",
+    "pos": "noun",
+    "sense": "deep-pot-with-a-handle",
+    "pronunciation": "/ˈsɔspæn/",
+    "definition": "a deep metal pot with a handle, used for cooking.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_5bc797bd",
+    "image_brief": "a saucepan of water heating on a stove with one person adding pasta, from the side at medium distance, a colander, a spoon and a towel, busy cooking mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Boil the water in a small **saucepan**."
+  },
+  {
+    "phrase": "whisk",
+    "pos": "noun",
+    "sense": "tool-for-beating-food",
+    "pronunciation": "/wɪsk/",
+    "definition": "a tool with wire loops that is used for mixing food quickly.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_f0649cea",
+    "image_brief": "a cook beating eggs with a whisk in a bowl, one child watching from a stool, from the side at medium distance, flour, a jug and a recipe, baking mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Use a **whisk** to beat the eggs."
+  },
+  {
+    "phrase": "sofa",
+    "pos": "noun",
+    "sense": "long-soft-seat",
+    "pronunciation": "/ˈsoʊfə/",
+    "definition": "a long soft seat for two or more people.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_57730697",
+    "image_brief": "a man asleep on a sofa with a book on his chest, from across the room at medium distance, a lamp, a cup and a blanket, lazy evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He fell asleep on the **sofa**."
+  },
+  {
+    "phrase": "armchair",
+    "pos": "noun",
+    "sense": "chair-with-arm-supports",
+    "pronunciation": "/ˈɑrmtʃɛr/",
+    "definition": "a soft chair with supports for your arms.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_9cbe9ce9",
+    "image_brief": "a woman reading in an armchair by a window, one cat on the arm, from across the room at medium distance, a lamp, a cup and a rug, quiet afternoon mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She read in the **armchair** by the window."
+  },
+  {
+    "phrase": "bookshelf",
+    "pos": "noun",
+    "sense": "shelves-for-books",
+    "pronunciation": "/ˈbʊkʃɛlf/",
+    "definition": "a shelf or set of shelves for books.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_17e530a4",
+    "image_brief": "a man reaching for a book on a tall bookshelf, from behind at medium distance, a lamp, a chair and a plant, quiet study mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **bookshelf** is full of old books."
+  },
+  {
+    "phrase": "dresser",
+    "pos": "noun",
+    "sense": "furniture-with-drawers",
+    "pronunciation": "/ˈdrɛsɚ/",
+    "definition": "a piece of furniture with drawers for clothes.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_4e4c2ef9",
+    "image_brief": "a person opening a dresser drawer in a bedroom, from the side at medium distance, a mirror, a lamp and a bag, getting-dressed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "His clothes are in the **dresser**."
+  },
+  {
+    "phrase": "tidy",
+    "pos": "verb",
+    "sense": "put-things-in-their-places",
+    "pronunciation": "/ˈtaɪdi/",
+    "definition": "to put things in their correct places.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "present_example": "She **tidies** the kitchen every night.",
+    "past_simple_example": "He **tidied** the desk before lunch.",
+    "past_participle_example": "The flat has been **tidied**.",
+    "present_participle_example": "She is **tidying** the shelves.",
+    "image": "voc_35a8686c",
+    "image_brief": "a woman tidying toys into a basket in a living room, one child helping, from across the room at medium distance, a sofa, a lamp and a shelf, ordinary evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I need to **tidy** my room."
+  },
+  {
+    "phrase": "mop",
+    "pos": "verb",
+    "sense": "clean-a-floor-with-water",
+    "pronunciation": "/mɑp/",
+    "definition": "to clean a floor with a wet tool.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "present_example": "He **mops** the floor on Saturdays.",
+    "past_simple_example": "She **mopped** up the water.",
+    "past_participle_example": "The floor has been **mopped**.",
+    "present_participle_example": "He is **mopping** the hallway.",
+    "image": "voc_cbb1668c",
+    "image_brief": "a man mopping a kitchen floor after a spill, one child standing back, from across the room at medium distance, a bucket, a chair and a towel, ordinary chore mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Please **mop** the kitchen floor."
+  },
+  {
+    "phrase": "vacuum",
+    "pos": "verb",
+    "sense": "clean-with-a-sucking-machine",
+    "pronunciation": "/ˈvækjuːm/",
+    "definition": "to clean a floor with a machine that pulls in dirt.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "present_example": "She **vacuums** under the bed.",
+    "past_simple_example": "He **vacuumed** the whole flat.",
+    "past_participle_example": "The carpet has been **vacuumed**.",
+    "present_participle_example": "She is **vacuuming** upstairs.",
+    "image": "voc_a43c3223",
+    "image_brief": "a woman vacuuming a living room carpet with one cat watching from the sofa, from behind at medium distance, a lamp, a shelf and a rug, weekend chore mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I **vacuum** the living room on Sundays."
+  },
+  {
+    "phrase": "dust",
+    "pos": "verb",
+    "sense": "remove-dust-from-surfaces",
+    "pronunciation": "/dʌst/",
+    "definition": "to remove dust from surfaces.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "present_example": "He **dusts** the room every week.",
+    "past_simple_example": "She **dusted** the table.",
+    "past_participle_example": "The shelves have been **dusted**.",
+    "present_participle_example": "He is **dusting** the lamp.",
+    "image": "voc_0b16db19",
+    "image_brief": "a person dusting a shelf with a cloth, one child sneezing nearby, from the side at medium distance, books, a lamp and a window, quiet cleaning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Dust** the shelves before you put the books back."
+  },
+  {
+    "phrase": "wipe",
+    "pos": "verb",
+    "sense": "clean-with-a-cloth",
+    "pronunciation": "/waɪp/",
+    "definition": "to clean a surface with a cloth.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "present_example": "She **wipes** the counter every night.",
+    "past_simple_example": "He **wiped** the window.",
+    "past_participle_example": "The table has been **wiped**.",
+    "present_participle_example": "She is **wiping** the chairs.",
+    "image": "voc_41c40127",
+    "image_brief": "a woman wiping a kitchen table after dinner, one child carrying a plate, from across the room at medium distance, a cloth, a chair and a lamp, ordinary evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Wipe** the table after dinner."
+  },
+  {
+    "phrase": "scrub",
+    "pos": "verb",
+    "sense": "clean-hard-with-a-brush",
+    "pronunciation": "/skrʌb/",
+    "definition": "to clean something hard by rubbing it with a brush.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "present_example": "He **scrubs** the sink on Fridays.",
+    "past_simple_example": "She **scrubbed** the floor.",
+    "past_participle_example": "The pots have been **scrubbed**.",
+    "present_participle_example": "He is **scrubbing** the bath.",
+    "image": "voc_74bfb27a",
+    "image_brief": "a person scrubbing a burnt pan at a sink, one towel over the shoulder, from the side at medium distance, a brush, soap and a window, determined mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "You will need to **scrub** the pan."
+  },
+  {
+    "phrase": "rinse",
+    "pos": "verb",
+    "sense": "wash-with-clean-water",
+    "pronunciation": "/rɪns/",
+    "definition": "to wash something with clean water to remove soap.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "present_example": "She **rinses** the plates quickly.",
+    "past_simple_example": "He **rinsed** the cloth.",
+    "past_participle_example": "The glasses have been **rinsed**.",
+    "present_participle_example": "She is **rinsing** the vegetables.",
+    "image": "voc_eb067f42",
+    "image_brief": "a woman rinsing cups under a faucet, one child at the table, from the side at medium distance, a rack, a towel and a window, after-dinner mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Rinse** the cups before you dry them."
+  },
+  {
+    "phrase": "soak",
+    "pos": "verb",
+    "sense": "leave-something-in-water",
+    "pronunciation": "/soʊk/",
+    "definition": "to leave something in water for a period of time.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "present_example": "She **soaks** the beans before cooking.",
+    "past_simple_example": "He **soaked** the shirt in cold water.",
+    "past_participle_example": "The towels have **soaked** all night.",
+    "present_participle_example": "The dishes are **soaking** in the sink.",
+    "image": "voc_b29aa4e9",
+    "image_brief": "a pan left to soak in a sink full of water, one person leaving the kitchen, from the side at medium distance, a cloth, a bottle and a window, end-of-day mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Leave the pan to **soak** overnight."
+  },
+  {
+    "phrase": "unpack",
+    "pos": "verb",
+    "sense": "take-things-out-of-bags",
+    "pronunciation": "/ʌnˈpæk/",
+    "definition": "to take things out of bags or boxes.",
+    "categories": [
+      "home"
+    ],
+    "level": "a2",
+    "present_example": "She **unpacks** as soon as she arrives.",
+    "past_simple_example": "He **unpacked** his bag.",
+    "past_participle_example": "The cases have been **unpacked**.",
+    "present_participle_example": "They are **unpacking** in the kitchen.",
+    "image": "voc_a52cffdf",
+    "image_brief": "a woman unpacking a suitcase on a bed in a new room, one friend carrying a box, from across the room at medium distance, a lamp, a bag and a window, moving-in mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We need to **unpack** these boxes."
+  },
+  {
+    "phrase": "undress",
+    "pos": "verb",
+    "sense": "take-off-your-clothes",
+    "pronunciation": "/ʌnˈdrɛs/",
+    "definition": "to take off your clothes.",
+    "categories": [
+      "home",
+      "clothes"
+    ],
+    "level": "a2",
+    "present_example": "He **undresses** quickly after work.",
+    "past_simple_example": "She **undressed** and got into bed.",
+    "past_participle_example": "The baby has been **undressed**.",
+    "present_participle_example": "He is **undressing** in the bedroom.",
+    "image": "voc_dc6ca781",
+    "image_brief": "a child taking off a coat in a hallway while a parent waits, from the side at medium distance, boots, a mat and a bag, end-of-day mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The child can **undress** alone now."
+  },
+  {
+    "phrase": "recycle",
+    "pos": "verb",
+    "sense": "use-old-things-again",
+    "pronunciation": "/riˈsaɪkəl/",
+    "definition": "to use old paper, plastic or glass again.",
+    "categories": [
+      "home",
+      "nature"
+    ],
+    "level": "a2",
+    "present_example": "She **recycles** every week.",
+    "past_simple_example": "They **recycled** the old bottles.",
+    "past_participle_example": "The boxes have been **recycled**.",
+    "present_participle_example": "He is **recycling** the magazines.",
+    "image": "voc_c3891fdd",
+    "image_brief": "a man sorting bottles into a recycling bin outside a house, one neighbor passing, from the side at medium distance, bags, a box and a fence, ordinary green mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We **recycle** paper and glass."
+  },
+  {
+    "phrase": "compost",
+    "pos": "verb",
+    "sense": "turn-food-waste-into-soil",
+    "pronunciation": "/ˈkɑmpoʊst/",
+    "definition": "to turn food or plant waste into soil.",
+    "categories": [
+      "home",
+      "nature"
+    ],
+    "level": "a2",
+    "present_example": "She **composts** tea bags and peelings.",
+    "past_simple_example": "They **composted** the leaves.",
+    "past_participle_example": "The scraps have been **composted**.",
+    "present_participle_example": "He is **composting** the garden waste.",
+    "image": "voc_6d94109f",
+    "image_brief": "a gardener emptying vegetable scraps into a compost bin, from the side at medium distance, a spade, a bucket and plants, earthy morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We **compost** vegetable waste in the garden."
+  },
+  {
+    "phrase": "floss",
+    "pos": "verb",
+    "sense": "clean-between-your-teeth",
+    "pronunciation": "/flɔs/",
+    "definition": "to clean between your teeth with a thin thread.",
+    "categories": [
+      "health"
+    ],
+    "level": "a2",
+    "present_example": "She **flosses** after every meal.",
+    "past_simple_example": "He **flossed** before bed.",
+    "past_participle_example": "I have **flossed** twice today.",
+    "present_participle_example": "He is **flossing** in the bathroom.",
+    "image": "voc_027b5eaf",
+    "image_brief": "a person flossing in front of a bathroom mirror, one toothbrush in a cup, from behind at medium distance, a towel, a shelf and a lamp, nightly routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The dentist says to **floss** daily."
+  },
+  {
+    "phrase": "shave",
+    "pos": "verb",
+    "sense": "cut-hair-from-the-body",
+    "pronunciation": "/ʃeɪv/",
+    "definition": "to cut hair from your face or body.",
+    "categories": [
+      "body",
+      "health"
+    ],
+    "level": "a2",
+    "present_example": "She **shaves** her legs in summer.",
+    "past_simple_example": "He **shaved** his beard off.",
+    "past_participle_example": "His hair has been **shaved** short.",
+    "present_participle_example": "He is **shaving** at the mirror.",
+    "image": "voc_21679873",
+    "image_brief": "a man shaving at a bathroom mirror in the morning, from behind at medium distance, a razor, a towel and a cup, slow morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He likes to **shave** before work."
   }
 ]
