@@ -9,6 +9,20 @@ status: active
 
 Newest entries first. ISO dates (`YYYY-MM-DD`).
 
+## 2026-11-09 — Name the image in every finished source entry
+
+- Added the `image` key to all 1,150 finished entries (800 collocations, 350 phrasal verbs).
+  The value is the stable media key the build already derives for audio (`col_…` / `pv_…`,
+  no extension), so the field and the eventual render cannot disagree.
+- The key was previously omitted when the image was optional. That left the build printing
+  `no image file named (none)` and, more importantly, gave a future render no filename to
+  match — dropping a correctly named file into `media/` would have done nothing.
+- No render exists yet, so each field currently names a missing file: the build warns and
+  leaves the note's `Image` field empty, exactly as before. Manifest rows, GUIDs and note
+  identity are untouched; `image` is not part of `phrase + sense`.
+- Key order follows the test tree (`… present_participle_example, image, image_brief,
+  example`), and the diff is insertions only — no entry was rewritten.
+
 ## 2026-11-09 — Complete the 350-card phrasal-verbs deck
 
 - Authored the full production deck in seven 50-card chunks, manifest first: all 350 rows were
@@ -20,8 +34,9 @@ Newest entries first. ISO dates (`YYYY-MM-DD`).
 - Every entry is `pos=verb` and carries the four authored form examples; stative `be` entries
   (`be into`, `be over`, `be up to`, `be up for`, `be off`, `be on`, `be down`, `be away`,
   `be back`) use the gerund in the `-ing` row instead of a nonexistent `is being` form.
-- No `image` field is written yet: every entry has a finished Midjourney brief, but no render
-  exists under `media/`, so those cards build text-and-audio only until the art lands.
+- Every entry has a finished Midjourney brief and names its intended render in `image`
+  (backfilled above); no render exists under `media/` yet, so the cards build text-and-audio
+  only until the art lands.
 - Audio for the batch (2,450 clips: word, explanation, example, four form rows per note) is
   generated locally by `tools/build_audio.py --only phrasal-verbs` and stays gitignored.
 - Updated `README.md` to move phrasal verbs from "empty baseline" to complete at target.

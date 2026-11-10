@@ -201,8 +201,9 @@ list to prove the pipeline works. The collocations deck is complete: 800 A1–B2
 `src/index.csv` and `src/collocations.json`, authored in sixteen 50-card chunks. The phrasal
 verbs deck is complete at 350 A1–B2 entries, authored in seven 50-card chunks. The vocabulary
 deck remains empty until its own batch is requested. Every entry's `image_brief` is ready to
-paste into Midjourney, and the `image` field stays empty until the rendered file is committed
-under `media/`. Audio is synthesized locally with `tools/build_audio.py`; its mp3s are
+paste into Midjourney, and its `image` field already names the file the build will look for
+under `media/` (the media key, without an extension); until that render exists the card is
+text-and-audio only. Audio is synthesized locally with `tools/build_audio.py`; its mp3s are
 gitignored, so run that step after cloning before building.
 
 Design decisions, the schema and the trade-offs behind them live in `.okf/` (start at
