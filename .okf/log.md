@@ -9,6 +9,23 @@ status: active
 
 Newest entries first. ISO dates (`YYYY-MM-DD`).
 
+## 2026-11-09 — Complete the 350-card phrasal-verbs deck
+
+- Authored the full production deck in seven 50-card chunks, manifest first: all 350 rows were
+  written to `src/index.csv` as `kind=phrasal-verbs` before their cards landed in
+  `src/phrasal-verbs.json`. Each chunk was merged and linted on its own, so a bad row was caught
+  before the next batch was written.
+- The phrase list was fixed up front (350 unique phrases, A1–B2, everyday/work/travel/money
+  spread) so chunks could not overlap. Levels came out A1 24, A2 89, B1 157, B2 80.
+- Every entry is `pos=verb` and carries the four authored form examples; stative `be` entries
+  (`be into`, `be over`, `be up to`, `be up for`, `be off`, `be on`, `be down`, `be away`,
+  `be back`) use the gerund in the `-ing` row instead of a nonexistent `is being` form.
+- No `image` field is written yet: every entry has a finished Midjourney brief, but no render
+  exists under `media/`, so those cards build text-and-audio only until the art lands.
+- Audio for the batch (2,450 clips: word, explanation, example, four form rows per note) is
+  generated locally by `tools/build_audio.py --only phrasal-verbs` and stays gitignored.
+- Updated `README.md` to move phrasal verbs from "empty baseline" to complete at target.
+
 ## 2026-11-09 — Stop committing generated mp3 audio
 
 - Added `*.mp3` to `.gitignore` and removed the 4,464 tracked clips from the index with

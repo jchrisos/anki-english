@@ -799,3 +799,353 @@ collocations,bridge the gap,reduce-a-difference,verb,b2,work;education,to reduce
 collocations,raise concerns,say-you-are-worried,verb,b2,work;communication,to say that something worries you.
 collocations,cost of living,money-needed-for-daily-needs,noun,b2,money;city,"the amount people must spend on food, housing and daily needs."
 collocations,peer pressure,influence-of-same-age-friends,noun,b2,relationships;education,the influence of friends your own age who push you to do what they do.
+phrasal-verbs,get up,leave-bed,verb,a1,daily-routine,to leave your bed after waking.
+phrasal-verbs,wake up,stop-sleeping,verb,a1,daily-routine,"to stop sleeping, or to make someone stop sleeping."
+phrasal-verbs,get dressed,put-clothes-on,verb,a1,daily-routine;clothes,to put on your clothes.
+phrasal-verbs,put on,clothing-on-body,verb,a1,clothes,to move a piece of clothing onto your body.
+phrasal-verbs,take off,remove-clothing,verb,a1,clothes,to remove a piece of clothing or something you are wearing.
+phrasal-verbs,sit down,take-a-seat,verb,a1,daily-routine,to move your body into a seat or onto the floor.
+phrasal-verbs,stand up,rise-to-feet,verb,a1,body;daily-routine,to move from a sitting or lying position onto your feet.
+phrasal-verbs,lie down,rest-horizontally,verb,a1,health;daily-routine,to put your body flat on a bed or the floor to rest.
+phrasal-verbs,sit up,straight-back-posture,verb,a2,body;health,to hold your back straight while seated instead of leaning back.
+phrasal-verbs,hurry up,move-faster,verb,a2,time;daily-routine,to move or act more quickly.
+phrasal-verbs,clean up,remove-mess,verb,a2,home;kitchen,to remove dirt or mess from a place.
+phrasal-verbs,tidy up,put-in-order,verb,b1,home,to put things back in their places so a room looks neat.
+phrasal-verbs,wash up,wash-hands-and-face,verb,a2,daily-routine;body,to clean your hands and face with soap and water.
+phrasal-verbs,dry off,remove-water,verb,b1,body;home,to remove water from your body or something else with a towel.
+phrasal-verbs,warm up,reheat-food,verb,b1,kitchen;food,to heat cooked food again until it is ready to eat.
+phrasal-verbs,wear out,damage-by-use,verb,b1,clothes,to damage something by using it a lot over time.
+phrasal-verbs,sleep in,stay-in-bed-late,verb,b1,daily-routine,to remain in bed later than usual in the morning.
+phrasal-verbs,stay up,stay-awake-late,verb,b1,daily-routine;time,to go to bed later than your usual time.
+phrasal-verbs,stay in,remain-home,verb,b1,daily-routine;home,to spend the evening at home instead of going out.
+phrasal-verbs,stay out,remain-out-late,verb,b1,daily-routine,to remain away from home until late at night.
+phrasal-verbs,go out,leave-home-for-fun,verb,a2,daily-routine,to leave your home to do something enjoyable.
+phrasal-verbs,come in,enter-toward-speaker,verb,a2,home,to enter a room or building where the speaker is.
+phrasal-verbs,come back,return-here,verb,a2,travel;home,to return to the place where you were before.
+phrasal-verbs,go back,return-there,verb,a2,travel,to return to a place you have left.
+phrasal-verbs,go in,enter-away-from-speaker,verb,b1,home;city,"to enter a building or room, moving away from where you are."
+phrasal-verbs,get out,leave-vehicle,verb,a2,transport;car,"to leave a car, taxi, or other small vehicle."
+phrasal-verbs,get in,enter-vehicle,verb,a2,car;transport,"to enter a car, taxi, or other small vehicle."
+phrasal-verbs,get on,board-large-vehicle,verb,a2,transport;travel,"to board a bus, train, or plane."
+phrasal-verbs,get off,leave-large-vehicle,verb,a2,transport;travel,"to leave a bus, train, or plane after a trip."
+phrasal-verbs,come over,visit-home,verb,a2,relationships;home,to visit someone at their home.
+phrasal-verbs,come along,make-progress,verb,b2,work,to make progress at a steady pace.
+phrasal-verbs,drop by,short-unplanned-visit,verb,b1,relationships,to visit someone briefly without planning it ahead of time.
+phrasal-verbs,stop by,visit-on-the-way,verb,b1,relationships,to visit a place briefly while on the way somewhere else.
+phrasal-verbs,hang out,spend-time-together,verb,b1,relationships;daily-routine,"to spend time with people in a relaxed way, doing nothing special."
+phrasal-verbs,hang around,wait-aimlessly,verb,b2,daily-routine,to wait in a place with nothing to do.
+phrasal-verbs,mess around,behave-silly,verb,b2,education,to behave in a silly way instead of doing the task at hand.
+phrasal-verbs,calm down,become-calm,verb,b1,emotions,"to become less angry, worried, or excited."
+phrasal-verbs,cheer up,become-happy,verb,b1,emotions,to become happier after feeling sad.
+phrasal-verbs,light up,face-brighten,verb,b2,emotions,to become bright and happy in the face because of a strong feeling.
+phrasal-verbs,zip up,close-zipper,verb,a2,clothes,"to close a jacket, bag, or dress by pulling its zipper."
+phrasal-verbs,dress up,wear-formal-clothes,verb,b1,clothes,to wear nicer clothes than usual for a special event.
+phrasal-verbs,try on,test-fit,verb,a2,clothes;shopping,to put on a piece of clothing briefly to see if it fits.
+phrasal-verbs,do up,fasten-buttons,verb,b2,clothes,to fasten something with buttons or a zipper.
+phrasal-verbs,put away,return-to-storage,verb,a2,home;kitchen,to return something to the place where it is usually kept.
+phrasal-verbs,throw away,discard-trash,verb,a2,home,to get rid of something you do not want.
+phrasal-verbs,use up,finish-supply,verb,b1,home;kitchen,to finish all of a supply so that nothing is left.
+phrasal-verbs,run out of,have-none-left,verb,b1,shopping;home,to have no more of something because the supply is finished.
+phrasal-verbs,pick up,lift-with-hands,verb,a2,home,to lift something with your hands.
+phrasal-verbs,put down,criticize-publicly,verb,b2,relationships;emotions,"to criticize someone and make them feel small, often in front of other people."
+phrasal-verbs,take out,remove-from-container,verb,a2,home,"to remove something from a bag, pocket, or other container."
+phrasal-verbs,talk over,discuss-before-deciding,verb,b1,communication;work;relationships,to discuss a plan or a problem with someone before deciding.
+phrasal-verbs,take back,retract-a-statement,verb,b1,communication;relationships,to admit that something you said was wrong.
+phrasal-verbs,give back,return-a-borrowed-item,verb,a1,relationships;home,to return something borrowed to the person who owns it.
+phrasal-verbs,pay back,repay-borrowed-money,verb,a2,money;relationships,to return money that you borrowed from someone.
+phrasal-verbs,talk into,persuade-to-do,verb,b1,communication;relationships,to persuade someone to do something they were not sure about.
+phrasal-verbs,talk out of,persuade-not-to-do,verb,b1,communication;relationships,to persuade someone not to do something they were planning.
+phrasal-verbs,speak up,state-opinion-openly,verb,b1,communication;work,"to say what you think clearly, even when it is difficult."
+phrasal-verbs,speak out,protest-publicly,verb,b2,communication,"to state an opinion publicly, usually to oppose something."
+phrasal-verbs,tell on,report-a-mistake,verb,a2,relationships;education;communication,to report to an adult in charge that someone did something wrong.
+phrasal-verbs,tell off,scold-someone,verb,b1,work;communication;emotions,to speak angrily to someone because they did something wrong.
+phrasal-verbs,hear out,listen-fully,verb,b2,communication;relationships,to listen to everything someone wants to say before you answer.
+phrasal-verbs,ask around,inquire-from-many,verb,b1,communication;city,to put the same question to several people in order to find an answer.
+phrasal-verbs,call back,return-a-call,verb,a1,communication;work,to phone someone again after they called you.
+phrasal-verbs,call off,cancel-an-event,verb,a2,work;city,to cancel an event that was planned.
+phrasal-verbs,call on,invite-to-speak,verb,b1,education;communication;work,to ask a person in a group to speak or answer.
+phrasal-verbs,call up,telephone-someone,verb,a2,communication;relationships,"to phone someone, especially someone you have not spoken to for a while."
+phrasal-verbs,ring up,total-a-sale,verb,b1,shopping;money;work,to record a purchase in a cash register so the customer can pay.
+phrasal-verbs,hang up,end-a-call,verb,a1,communication;technology,to end a phone call and put the phone down.
+phrasal-verbs,hang on,wait-on-the-phone,verb,a2,communication;time,to keep waiting on the phone while the other person does something.
+phrasal-verbs,hold on,wait-briefly,verb,a2,time;daily-routine,to wait for a short time before you continue.
+phrasal-verbs,hold off,delay-an-action,verb,b2,time;work;money,to delay doing something until a later time.
+phrasal-verbs,hold out,refuse-to-give-in,verb,b2,work;money;communication,"to refuse to agree or give in, even when you are under pressure."
+phrasal-verbs,hold up,make-late,verb,b1,travel;time;transport,to make someone or something late.
+phrasal-verbs,hold back,hide-a-feeling,verb,b2,emotions;communication,to stop yourself from showing a feeling.
+phrasal-verbs,let down,disappoint-someone,verb,b1,relationships;emotions;work,to fail to do what someone was depending on you to do.
+phrasal-verbs,let in,allow-to-enter,verb,a2,home;daily-routine,to open a door so that someone can come inside.
+phrasal-verbs,let out,allow-to-leave,verb,a2,home;animals,to open a door so that a person or an animal can go outside.
+phrasal-verbs,let off,skip-punishment,verb,b1,work;education,to not punish someone for something they did wrong.
+phrasal-verbs,look after,care-for-someone,verb,a1,relationships;health;daily-routine,to take care of someone and make sure they are safe.
+phrasal-verbs,look out,watch-for-danger,verb,a2,city;travel,to be careful because there is danger nearby.
+phrasal-verbs,look up,search-information,verb,a2,technology;education,to search for a piece of information in a book or online.
+phrasal-verbs,look over,examine-quickly,verb,a2,work;education,to read something quickly to check that it is correct.
+phrasal-verbs,look through,search-inside-things,verb,b1,home;work,to search inside a group of things to find one of them.
+phrasal-verbs,look into,investigate-a-problem,verb,b1,work;communication,to try to find out the facts about a problem.
+phrasal-verbs,look forward to,anticipate-with-pleasure,verb,b1,emotions;time;relationships,to feel happy about something that will happen later.
+phrasal-verbs,look up to,admire-someone,verb,b1,relationships;sports,to respect and admire someone because of what they do.
+phrasal-verbs,look down on,consider-inferior,verb,b2,relationships;work;emotions,to think someone is less important than you are.
+phrasal-verbs,look back,think-about-the-past,verb,b1,time;emotions,to think about things that happened in the past.
+phrasal-verbs,look ahead,plan-the-future,verb,b1,time;work,to think about what will happen later and plan for it.
+phrasal-verbs,look on,watch-without-joining,verb,b2,city;relationships,to watch something happen without taking part.
+phrasal-verbs,see off,say-goodbye-at-departure,verb,b1,travel;relationships;transport,to go to a station or an airport to say goodbye to someone who is leaving.
+phrasal-verbs,see through,detect-a-lie,verb,b2,communication;relationships;work,to understand that someone is not telling the truth.
+phrasal-verbs,show around,give-a-tour,verb,a2,work;travel;education,to walk with someone through a place and explain what is there.
+phrasal-verbs,show off,display-to-impress,verb,a2,emotions;relationships;sports,to do something to make people notice how good you are.
+phrasal-verbs,show up,arrive-when-expected,verb,a2,work;daily-routine;time,to arrive at a place where people are waiting for you.
+phrasal-verbs,stand by,stay-loyal,verb,b1,relationships;emotions;work,to stay loyal to someone and support them in a hard time.
+phrasal-verbs,stand for,support-a-principle,verb,b2,work;communication,to support an idea or a rule in a public way.
+phrasal-verbs,stand out,be-noticeably-different,verb,b1,work;education,to be much easier to notice than everything around you.
+phrasal-verbs,stand up for,defend-someone,verb,b1,relationships;work;communication,to defend a person or an idea when others attack it.
+phrasal-verbs,stand up to,resist-unfair-treatment,verb,b2,relationships;work;emotions,to refuse to accept unfair treatment from someone more powerful.
+phrasal-verbs,stick up for,defend-verbally,verb,b1,relationships;communication,to defend someone who is being criticized or treated unfairly.
+phrasal-verbs,stick to,keep-to-plan,verb,b1,work;daily-routine,to continue doing something as planned and not change your mind.
+phrasal-verbs,stick around,stay-nearby,verb,a2,daily-routine;city,to stay in a place for a while instead of leaving.
+phrasal-verbs,stick out,be-conspicuous,verb,b2,clothes;city,to appear or be seen easily because you are different from everything around you.
+phrasal-verbs,take after,resemble-relative,verb,b1,relationships,to look or behave like an older family member.
+phrasal-verbs,take on,accept-responsibility,verb,b2,work,to accept responsibility for a job or a difficult task.
+phrasal-verbs,take over,assume-control,verb,b1,work;money,to start controlling a company or a job that someone else had.
+phrasal-verbs,take up,start-activity,verb,a2,sports;daily-routine,to start doing an activity regularly for pleasure.
+phrasal-verbs,take in,understand-information,verb,b2,education,to understand and remember information you hear or read.
+phrasal-verbs,take apart,disassemble-machine,verb,b1,technology,to separate a machine into its pieces.
+phrasal-verbs,take down,remove-from-height,verb,b1,home,to remove something that is fixed high on a wall or ceiling.
+phrasal-verbs,bump into,meet-by-chance,verb,a2,city;daily-routine,"to meet someone you know by chance, without planning it."
+phrasal-verbs,run into,meet-unexpectedly,verb,a2,city;daily-routine,to meet someone you know when you did not expect to.
+phrasal-verbs,run away,flee-in-fear,verb,a2,emotions;relationships,to leave a place quickly because you feel scared or unhappy.
+phrasal-verbs,run over,hit-with-vehicle,verb,b1,car;transport,to hit a person or animal with a vehicle and injure them.
+phrasal-verbs,run through,rehearse-fully,verb,b2,music;work,to practice a performance or plan from start to finish.
+phrasal-verbs,run down,criticize-harshly,verb,b2,work;communication,to criticize someone in a way that makes them feel small.
+phrasal-verbs,take to,begin-to-like,verb,b1,emotions;relationships,to begin to like someone or something soon after meeting them.
+phrasal-verbs,tell apart,distinguish-similar,verb,b1,education;daily-routine,to recognize the difference between two things that look alike.
+phrasal-verbs,break away,become-independent,verb,b2,work;sports,to leave a larger group and become independent from it.
+phrasal-verbs,break down,stop-working,verb,b1,car;technology,to stop working because of a fault.
+phrasal-verbs,break in,enter-by-force,verb,a2,home;city,"to enter a building by force, usually in order to steal."
+phrasal-verbs,break off,end-suddenly,verb,b2,relationships;emotions,to end a relationship or a discussion suddenly.
+phrasal-verbs,break out,start-suddenly,verb,b2,nature,"to begin suddenly and spread quickly, as a fire or a disease."
+phrasal-verbs,break up,end-romance,verb,b1,relationships;emotions,to end a romantic relationship with someone.
+phrasal-verbs,bring back,return-something,verb,a2,daily-routine;education,to return something to the place where it came from.
+phrasal-verbs,bring down,make-fall,verb,b2,home;nature,to make something fall to the ground.
+phrasal-verbs,bring in,earn-money,verb,b1,money;work,to earn money for a business or a person.
+phrasal-verbs,bring out,release-product,verb,b1,shopping;work,to start selling a new product to the public.
+phrasal-verbs,bring up,mention-topic,verb,b1,communication;relationships,to start talking about a subject in a conversation.
+phrasal-verbs,bring about,cause-change,verb,b2,nature;home,to make a change happen.
+phrasal-verbs,burn out,become-exhausted,verb,b2,work;health,to become completely tired and unable to work after too much effort.
+phrasal-verbs,burn down,destroy-by-fire,verb,a2,home;nature,to be destroyed completely by fire.
+phrasal-verbs,buy out,buy-company,verb,b2,money;work,to purchase all of another person's shares in a company.
+phrasal-verbs,build up,increase-gradually,verb,b1,health;sports,to increase gradually over time.
+phrasal-verbs,back up,support-someone,verb,b1,relationships;work,to support someone in an argument or a difficult situation.
+phrasal-verbs,mix up,confuse-things,verb,b1,education;daily-routine,to confuse two things and think that one is the other.
+phrasal-verbs,mess up,spoil-something,verb,b1,work;daily-routine,to make a serious mistake or spoil something.
+phrasal-verbs,tear down,demolish-building,verb,b1,city;home,to pull a building to the ground.
+phrasal-verbs,tear up,rip-paper,verb,a2,daily-routine;home,to pull paper into small pieces.
+phrasal-verbs,throw out,discard-something,verb,a1,home;daily-routine,to get rid of something you no longer need.
+phrasal-verbs,throw up,vomit,verb,a2,health;body,to send food from your stomach out through your mouth.
+phrasal-verbs,throw off,confuse-someone,verb,b1,emotions;work,to make someone confused or unable to concentrate.
+phrasal-verbs,knock down,hit-to-ground,verb,b1,city;sports,to hit a person or thing so that it falls to the ground.
+phrasal-verbs,knock out,make-unconscious,verb,b1,health;sports,to hit someone so hard that they become unconscious.
+phrasal-verbs,knock off,stop-work,verb,b2,work,to stop working at the end of the day.
+phrasal-verbs,lay off,dismiss-workers,verb,b2,work;money,to end someone's job because there is not enough work or money.
+phrasal-verbs,lay out,arrange-neatly,verb,b1,work;home,to arrange objects neatly on a flat surface.
+phrasal-verbs,pick on,bully-someone,verb,b1,relationships;education,to treat someone unfairly by criticizing or hurting them repeatedly.
+phrasal-verbs,pick out,choose-from-group,verb,a1,shopping;clothes,to choose one thing from a group of similar things.
+phrasal-verbs,carry on,continue-after-interruption,verb,b1,work,to continue doing something after a short pause or a difficulty.
+phrasal-verbs,carry out,complete-a-planned-task,verb,b1,work,to do the work needed to complete a plan or task.
+phrasal-verbs,catch on,understand-after-a-while,verb,b1,education;work,to understand something after some time or explanation.
+phrasal-verbs,catch up,reach-the-same-level,verb,b1,work;education,to reach the same level as other people after falling behind.
+phrasal-verbs,catch up with,talk-after-time-apart,verb,b1,relationships;communication,to talk to someone after a long time apart and hear their news.
+phrasal-verbs,keep on,continue-despite-difficulty,verb,b1,work,to continue doing something even when it is hard.
+phrasal-verbs,keep up,stay-at-same-speed,verb,b1,work;sports,to move or work at the same speed as someone or something else.
+phrasal-verbs,keep up with,stay-informed-about-changes,verb,b1,work;communication,to stay informed about the latest news or changes in something.
+phrasal-verbs,keep back,hold-in-reserve,verb,b2,money;work,to hold something so it can be used later instead of giving all of it now.
+phrasal-verbs,keep away,stay-at-a-distance,verb,a2,work,to stay at a safe distance from something.
+phrasal-verbs,keep off,avoid-stepping-on,verb,a2,home,to avoid stepping on or touching a surface.
+phrasal-verbs,keep out,prevent-from-entering,verb,a2,home,to stop someone or something from entering a place.
+phrasal-verbs,figure out,solve-by-thinking,verb,b1,work;education,to find the answer to something by thinking about it.
+phrasal-verbs,fill in,give-missing-details,verb,b2,work,to give someone the details they are missing about a situation.
+phrasal-verbs,fill out,complete-a-form,verb,a2,work,to write the required information in the empty spaces of a form.
+phrasal-verbs,fill up,make-completely-full,verb,a1,kitchen;daily-routine,to make a container completely full.
+phrasal-verbs,find out,discover-information,verb,a2,communication;education,to learn a fact that you did not know before.
+phrasal-verbs,focus on,give-full-attention,verb,b1,work;education,to give your attention to one thing and not to others.
+phrasal-verbs,count on,trust-someone-to-help,verb,b1,work,to trust that someone will do what they promised.
+phrasal-verbs,depend on,need-for-success,verb,b1,work;nature,to need something in order to succeed or continue.
+phrasal-verbs,rely on,trust-to-work-correctly,verb,b2,technology;work,to trust that something will work correctly when you need it.
+phrasal-verbs,deal with,handle-a-problem,verb,b1,work,to take action to solve a problem or handle a difficult situation.
+phrasal-verbs,sort out,put-things-in-order,verb,b1,work,to put things in order or fix a confused situation.
+phrasal-verbs,work out,find-answer-by-thinking,verb,b1,money;work,to find an answer by thinking about the numbers or the details.
+phrasal-verbs,work on,spend-time-improving,verb,b1,work;education,to spend time making something better or getting it ready.
+phrasal-verbs,work through,handle-step-by-step,verb,b1,work;education,"to handle something slowly, step by step, until it is finished."
+phrasal-verbs,set up,arrange-and-establish,verb,b1,work;technology,to arrange or establish something so it is ready to use.
+phrasal-verbs,set off,start-a-journey,verb,b1,travel,to begin a journey.
+phrasal-verbs,set out,begin-a-planned-task,verb,b2,work,to begin a task with a clear aim in mind.
+phrasal-verbs,set aside,save-for-a-purpose,verb,b2,money;time,to keep money or time for one special purpose.
+phrasal-verbs,set back,delay-progress,verb,b2,work;time,to make progress slower or later than planned.
+phrasal-verbs,set in,begin-and-continue,verb,b2,weather;time,to begin and then seem likely to continue for a long time.
+phrasal-verbs,start over,begin-again,verb,a2,work,to begin something again from the beginning.
+phrasal-verbs,start off,begin-in-a-particular-way,verb,a2,work;education,to begin something in a particular way.
+phrasal-verbs,start out,begin-a-career,verb,b2,work;education,to begin your working life in a particular job or role.
+phrasal-verbs,end up,finally-be-in-a-situation,verb,b1,work;time,to finally be in a situation or place you did not plan.
+phrasal-verbs,give up,stop-trying,verb,a2,education;work,to stop trying to do something.
+phrasal-verbs,give in,stop-resisting,verb,b2,work;relationships,to stop resisting and accept what someone else wants.
+phrasal-verbs,give out,hand-to-each-person,verb,b1,work,to hand things to each person in a group.
+phrasal-verbs,give away,give-for-free,verb,a2,work;shopping,to let someone have something without asking for money.
+phrasal-verbs,give off,produce-smell-or-heat,verb,b2,home;technology,"to produce a smell, heat or light."
+phrasal-verbs,put off,postpone,verb,b1,work;time,to move an event or task to a later time.
+phrasal-verbs,put out,extinguish-a-fire,verb,b1,home,to stop a fire from burning.
+phrasal-verbs,put through,connect-by-phone,verb,b2,work;communication,to connect someone to another person by phone.
+phrasal-verbs,put together,assemble-from-parts,verb,a2,work;home,to join parts to make a whole thing.
+phrasal-verbs,put up,build-a-structure,verb,b1,home;work,"to build a wall, fence or other structure."
+phrasal-verbs,put up with,tolerate-annoyance,verb,b2,work;emotions,to accept something annoying without complaining.
+phrasal-verbs,put across,communicate-idea-clearly,verb,b2,work;communication,to explain an idea so that other people understand it clearly.
+phrasal-verbs,put forward,suggest-for-discussion,verb,b2,work;communication,to suggest an idea or plan for other people to discuss.
+phrasal-verbs,put back,return-to-its-place,verb,a1,home,to return something to the place where it belongs.
+phrasal-verbs,pay off,clear-a-debt,verb,b1,money,to clear all the money you owe on a loan or a card.
+phrasal-verbs,pay up,pay-money-owed,verb,b1,money,"to hand over money you owe, especially after a delay."
+phrasal-verbs,save up,set-money-aside,verb,a2,money,to keep money aside over time so you can buy something later.
+phrasal-verbs,chip in,share-the-cost,verb,b1,money,to give some money so a group can pay for something together.
+phrasal-verbs,pitch in,help-with-a-task,verb,b1,work,to join other people and help them finish a job.
+phrasal-verbs,rip off,overcharge,verb,b1,money;shopping,to charge someone much more than something is worth.
+phrasal-verbs,sell out,no-stock-left,verb,b1,shopping,to have no more of an item left for customers to buy.
+phrasal-verbs,rent out,lease-property,verb,b1,home;money,to let someone else use a place you own in return for regular payment.
+phrasal-verbs,trade in,part-exchange,verb,b2,shopping;car,to give an old item to a seller as part of the payment for a new one.
+phrasal-verbs,rack up,accumulate-debts,verb,b2,money,"to collect a large amount of something, especially money you will have to pay back."
+phrasal-verbs,run up,build-a-bill,verb,b2,money,to spend a lot on an account until you owe a large amount.
+phrasal-verbs,tide over,bridge-a-hard-time,verb,b2,money,to give someone just enough money or help to get through a hard period.
+phrasal-verbs,cut back,reduce-spending,verb,b1,money,to spend less money than before.
+phrasal-verbs,cut down,reduce-consumption,verb,b1,food;health,"to eat, drink or use less of something."
+phrasal-verbs,cut off,stop-supply,verb,b1,money;home,"to stop supplying someone with money, power or a service."
+phrasal-verbs,cut out,remove-from-diet,verb,b1,food;health,to stop eating or drinking something completely.
+phrasal-verbs,do without,manage-without,verb,b1,money;daily-routine,to manage to live or work without something you would like to have.
+phrasal-verbs,make do,manage-with-less,verb,b2,money;home,"to manage with what you have, even when it is not enough."
+phrasal-verbs,scrape by,barely-afford-to-live,verb,b2,money,to have only just enough money to live on.
+phrasal-verbs,go without,lack-necessities,verb,b1,money;food,"to live without things you need, often because there is not enough money."
+phrasal-verbs,get by,survive-on-little-money,verb,b1,money,to have enough money to pay for what you really need.
+phrasal-verbs,check out,pay-and-leave-store,verb,a2,shopping,to pay for the things you picked and then leave a store.
+phrasal-verbs,check in,register-at-hotel,verb,a2,travel,to tell the desk staff you have arrived so you can get your room key.
+phrasal-verbs,put in,invest-money,verb,b1,money;work,to give money to a business or a fund so it can grow.
+phrasal-verbs,opt out,choose-not-to-join,verb,b2,work,to choose not to take part in something or to receive it.
+phrasal-verbs,own up,admit-a-mistake,verb,b2,communication;emotions,to admit that you did something wrong.
+phrasal-verbs,pan out,succeed-in-the-end,verb,b2,work,to end well after a period of time.
+phrasal-verbs,patch up,repair-quickly,verb,b1,home,to repair something quickly with the materials you have.
+phrasal-verbs,pencil in,schedule-tentatively,verb,b1,work;time,"to put a time in your plan, knowing it may change."
+phrasal-verbs,polish off,finish-eating-all,verb,b1,food;kitchen,"to finish all of something, especially food."
+phrasal-verbs,water down,make-weaker,verb,b2,work;communication,"to make a plan, idea or statement weaker or less clear."
+phrasal-verbs,weigh in,give-an-opinion,verb,b1,communication;work,to join a discussion and give your opinion.
+phrasal-verbs,whip up,make-food-quickly,verb,b1,food;kitchen,to make a meal quickly with little effort.
+phrasal-verbs,wind up,end-up-in,verb,b1,money;daily-routine,to finally be in a place or a situation you did not plan.
+phrasal-verbs,wipe out,use-up-all-money,verb,b2,money,"to remove or use up all of something, such as money or a supply."
+phrasal-verbs,work up,build-gradually,verb,b1,food;health,to develop a feeling or a desire slowly through effort.
+phrasal-verbs,write off,cancel-a-debt,verb,b2,money,to accept that money owed will never be paid and remove it from your records.
+phrasal-verbs,write up,write-a-report,verb,b1,work;communication,to prepare a full report or a clean version of your notes.
+phrasal-verbs,write down,record-on-paper,verb,a2,education;money,to put something on paper so you can remember it.
+phrasal-verbs,write back,reply-in-writing,verb,a2,communication,to send a reply to a message you received.
+phrasal-verbs,sum up,summarize,verb,a2,communication;work,to give the main points of something in a few words.
+phrasal-verbs,jot down,note-quickly,verb,a2,money;work,to put a short note on paper in a hurry.
+phrasal-verbs,read out,read-aloud,verb,a2,communication;education,to say the words on a page aloud so other people can hear.
+phrasal-verbs,spell out,explain-clearly,verb,b1,communication;money,to explain something in clear detail.
+phrasal-verbs,point out,draw-attention-to,verb,a2,communication,to show or mention something so other people notice it.
+phrasal-verbs,cross out,strike-through-text,verb,a2,education;shopping,to draw a line through writing to show it is no longer needed.
+phrasal-verbs,log in,access-account,verb,a1,technology;money,to enter your name and password to open an account on a device.
+phrasal-verbs,log out,leave-account,verb,a1,technology,to close your account on a device when you finish.
+phrasal-verbs,sign in,register-arrival,verb,a2,work,to put your name in a book to show you have arrived.
+phrasal-verbs,sign up,register-for-service,verb,a2,education;shopping,to give your details so you can join a service or a class.
+phrasal-verbs,get around,move-about-an-area,verb,a2,travel;city;transport,"to move from one place to another within a town or area, often using different routes or kinds of transport."
+phrasal-verbs,look around,explore-a-place,verb,a1,travel;city;shopping,"to walk through a place and notice what is there, often to see what is interesting or for sale."
+phrasal-verbs,shop around,compare-prices,verb,b1,shopping;money,to compare prices and quality at several stores before deciding what to buy.
+phrasal-verbs,run around,hurry-between-places,verb,b1,daily-routine;city,"to go quickly from one place to another, doing many small tasks."
+phrasal-verbs,head out,leave-to-start-journey,verb,a2,travel;daily-routine,to leave a place to begin a trip or an errand.
+phrasal-verbs,drive off,leave-by-car,verb,a2,car;travel,"to leave a place by car, moving away from it."
+phrasal-verbs,ride out,endure-difficult-period,verb,b2,weather;travel,to stay strong and survive a difficult period until it is over.
+phrasal-verbs,sail through,succeed-easily,verb,b2,education;work,to pass a test or finish a difficult task very easily.
+phrasal-verbs,ward off,prevent-harm,verb,b2,health;daily-routine,to stop something bad from reaching you or causing harm.
+phrasal-verbs,watch out,be-careful-of-danger,verb,a1,city;daily-routine,to be careful because there is danger or a problem nearby.
+phrasal-verbs,touch down,plane-lands,verb,b1,travel;transport,to land on the ground after flying.
+phrasal-verbs,move in,start-living-in-new-home,verb,a1,home;city,to start living in a new house or apartment.
+phrasal-verbs,move out,leave-a-home,verb,a2,home;city,to leave the house or apartment where you have been living.
+phrasal-verbs,move on,continue-to-next-place,verb,b1,travel;time,to leave the place where you are and continue to the next one.
+phrasal-verbs,move up,get-better-position,verb,b1,work;money,to move to a higher rank or a better position at work.
+phrasal-verbs,settle down,live-stable-life,verb,b2,home;relationships,to start living in one place with a steady home and a regular life.
+phrasal-verbs,settle in,get-comfortable-in-new-place,verb,b1,home;travel,to become comfortable and used to a new home or a new place.
+phrasal-verbs,grow up,become-an-adult,verb,a2,relationships;time;city,to spend your childhood somewhere and become an adult.
+phrasal-verbs,grow apart,become-less-close,verb,b2,relationships;emotions,to slowly become less close to someone you were close to.
+phrasal-verbs,grow into,become-big-enough-for-clothes,verb,b1,clothes;time,to become tall or wide enough to fit clothes that were too big before.
+phrasal-verbs,grow out of,become-too-big-for-clothes,verb,b1,clothes;time,to become too big or too old for clothes or shoes you used to wear.
+phrasal-verbs,grow on,start-to-like-gradually,verb,b2,emotions;food,"to become more pleasing to someone over time, so they start to like it."
+phrasal-verbs,pull over,stop-at-roadside,verb,a2,car;travel,to drive a car to the side of the road and stop it there.
+phrasal-verbs,pull up,stop-car-beside-place,verb,b1,car;city,to stop a car next to a place or in front of it.
+phrasal-verbs,pull out,drive-into-traffic,verb,b1,car;travel,to drive a car away from the side of the road or out of a place and into traffic.
+phrasal-verbs,pull off,succeed-at-hard-thing,verb,b2,work,to succeed in doing something difficult.
+phrasal-verbs,pull through,recover-from-illness,verb,b2,health,to get well again after a serious illness or injury.
+phrasal-verbs,pull back,move-backward-away,verb,b1,travel;city,"to move yourself or something backward, away from a place or a person."
+phrasal-verbs,slow down,reduce-speed,verb,a1,car;city,to move or drive more slowly than before.
+phrasal-verbs,speed up,increase-speed,verb,a2,car;travel,to move or drive faster than before.
+phrasal-verbs,turn around,face-opposite-direction,verb,a2,travel;city,to move your body or your car so that you face the opposite direction.
+phrasal-verbs,turn back,return-the-way-you-came,verb,b1,travel;nature,to stop going forward and return the way you came.
+phrasal-verbs,turn down,reject-an-offer,verb,b1,work;communication,"to say no to an offer, an invitation or a request."
+phrasal-verbs,turn up,arrive-unexpectedly,verb,b1,travel;daily-routine,"to arrive at a place, often when people did not expect you."
+phrasal-verbs,turn into,become-something-different,verb,b1,nature;city,to change and become something different.
+phrasal-verbs,turn out,end-in-particular-way,verb,b1,time,"to happen or end in a particular way, especially when it is different from what was expected."
+phrasal-verbs,turn over,roll-to-other-side,verb,b1,body;daily-routine,to move your body so that you are lying on the other side.
+phrasal-verbs,turn to,ask-someone-for-help,verb,b1,communication;relationships,"to ask someone for help, advice or support."
+phrasal-verbs,turn away,refuse-entry,verb,b2,city;travel,to refuse to let someone enter a place.
+phrasal-verbs,turn in,go-to-bed,verb,a2,daily-routine;home,to go to bed at night.
+phrasal-verbs,go after,try-to-get-something,verb,b1,work;money,to try hard to get or achieve something.
+phrasal-verbs,go for,choose-an-option,verb,a2,shopping;food,to choose one thing rather than another.
+phrasal-verbs,go by,time-passes,verb,b1,time,"to pass as hours, days and years move forward."
+phrasal-verbs,go down,move-to-lower-floor,verb,a2,city;home,to move to a lower floor or a lower place inside a building.
+phrasal-verbs,go up,move-to-higher-floor,verb,a2,city;home,to move to a higher floor or a higher place inside a building.
+phrasal-verbs,go off,alarm-sounds,verb,b1,daily-routine;technology,"to start making a loud noise, used about alarms and phones."
+phrasal-verbs,go on,continue-happening,verb,a2,time;city,to continue happening without stopping.
+phrasal-verbs,go into,enter-a-place,verb,a2,city;travel,to move inside a building or a room.
+phrasal-verbs,go under,sink-below-water,verb,b2,travel;nature,to sink below the surface of the water.
+phrasal-verbs,go with,look-good-together,verb,b1,clothes;shopping,to look good together with something else.
+phrasal-verbs,go about,start-dealing-with-a-task,verb,b1,work,to start dealing with a task in a particular way.
+phrasal-verbs,go along with,agree-to-a-plan,verb,b1,communication;work,to agree with someone's idea or accept their plan.
+phrasal-verbs,go through,experience-difficulty,verb,b1,emotions,to experience something difficult or unpleasant.
+phrasal-verbs,go through with,complete-a-planned-action,verb,b2,emotions;health,"to do something you planned or promised, even though you feel nervous about it."
+phrasal-verbs,come across,find-by-chance,verb,b1,daily-routine,to find something or meet someone by chance.
+phrasal-verbs,come around,change-your-mind,verb,b1,communication;relationships,to change your opinion and agree after first refusing.
+phrasal-verbs,come by,obtain-something,verb,b2,money,"to get something, usually with some effort or luck."
+phrasal-verbs,come down with,start-to-be-ill,verb,b1,health,to start to suffer from a mild illness.
+phrasal-verbs,come forward,offer-help-or-information,verb,b2,communication;city,to offer help or information to someone in charge.
+phrasal-verbs,come off,succeed-as-planned,verb,b2,work,to happen successfully as planned.
+phrasal-verbs,come on,machine-starts-working,verb,b1,technology;home,"to start working, especially a machine or a light that switches itself on."
+phrasal-verbs,come through,survive-a-danger,verb,b2,health;emotions,to survive a dangerous or very difficult experience.
+phrasal-verbs,come up,arise-suddenly,verb,a2,work,"to appear or happen suddenly, especially a problem or a chance."
+phrasal-verbs,come up with,invent-an-idea,verb,b1,work;communication,"to think of an idea, plan or solution."
+phrasal-verbs,come apart,break-into-pieces,verb,b1,home,"to break into pieces, usually because it is old or badly made."
+phrasal-verbs,come between,damage-a-relationship,verb,b2,relationships;emotions,to damage the relationship between two people.
+phrasal-verbs,come down to,be-the-main-factor,verb,b2,money;work,"to have one thing as the most important fact, after everything else is considered."
+phrasal-verbs,get along,have-a-friendly-relationship,verb,a2,relationships,to have a friendly relationship with other people.
+phrasal-verbs,get along with,be-friendly-with-a-person,verb,a2,relationships;work,to be friendly with a particular person and enjoy their company.
+phrasal-verbs,get away,escape-a-place,verb,a2,travel,to escape from a place or from someone who is holding you.
+phrasal-verbs,get away with,avoid-punishment,verb,b1,city,to do something wrong and not be caught or punished for it.
+phrasal-verbs,get back,return-to-a-place,verb,a1,travel,to return to the place where you were before.
+phrasal-verbs,get back at,take-revenge,verb,b1,emotions;relationships,to hurt or punish someone because they hurt you.
+phrasal-verbs,get back to,reply-later,verb,b1,work;communication,"to answer someone later, after you have found the information you need."
+phrasal-verbs,get down,make-someone-sad,verb,b1,emotions,to make someone feel sad or without energy.
+phrasal-verbs,get down to,start-work-seriously,verb,b1,work,"to begin working seriously on a task, after delaying it."
+phrasal-verbs,get into,become-interested,verb,a2,music,to become interested in an activity or subject.
+phrasal-verbs,get out of,avoid-a-duty,verb,b1,work;daily-routine,to avoid a duty or an activity you do not want to do.
+phrasal-verbs,get over,recover-from-something,verb,b1,health;emotions,to feel normal again after an illness or a sad experience.
+phrasal-verbs,get through,finish-a-difficult-task,verb,b1,work,to finish a difficult task or reach the end of something long.
+phrasal-verbs,get together,meet-socially,verb,a2,relationships;daily-routine,"to meet with other people, usually for something pleasant."
+phrasal-verbs,get behind,fall-behind-schedule,verb,b1,work;time,to become late or slower than planned with work or payments.
+phrasal-verbs,get at,reach-something-stored,verb,b1,home;kitchen,"to reach something or get hold of it, especially when it is stored away."
+phrasal-verbs,get onto,begin-discussing-a-subject,verb,b2,communication;work,"to begin to talk about a subject, often after other topics."
+phrasal-verbs,be into,enjoy-something-a-lot,verb,a2,music,to enjoy something a lot and spend time on it.
+phrasal-verbs,be over,be-finished,verb,a2,time,to have reached the end and stopped.
+phrasal-verbs,be up to,do-something-secret,verb,b1,daily-routine,"to do something, especially something secret or wrong."
+phrasal-verbs,be up for,be-willing-to-do,verb,b1,sports,to feel willing to do something that is suggested.
+phrasal-verbs,be off,be-canceled,verb,b1,sports,to not happen as planned because it was canceled.
+phrasal-verbs,be on,be-happening-as-arranged,verb,a2,time,"to happen as arranged, or to show at the scheduled time."
+phrasal-verbs,be down,stop-working,verb,b1,technology,"to stop working for a while, especially a machine or a computer system."
+phrasal-verbs,be away,be-absent-from-home,verb,a2,travel,to spend time not at home or not at work.
+phrasal-verbs,be back,have-returned,verb,a1,daily-routine;travel,to have returned to a place and be there again.
+phrasal-verbs,run by,ask-for-approval,verb,b2,work;communication,to tell someone about an idea or plan so they can give an opinion.
+phrasal-verbs,see about,arrange-to-deal-with,verb,b2,home;daily-routine,to arrange for something to be done or to deal with it.
+phrasal-verbs,set about,begin-a-task-with-energy,verb,b2,home;daily-routine,to start a task with energy and a clear purpose.
+phrasal-verbs,live up to,meet-expectations,verb,b2,work,to be as good as what people expect or hope for.
+phrasal-verbs,face up to,accept-a-difficult-truth,verb,b2,emotions;money,to accept and deal with something difficult instead of avoiding it.
+phrasal-verbs,do away with,abolish-something,verb,b2,city;work,"to get rid of something or stop using it, often officially."
+phrasal-verbs,team up with,work-together-with-someone,verb,b1,work;sports,to join another person or group so you can work together.

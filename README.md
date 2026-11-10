@@ -21,12 +21,13 @@ card — that was tried and dropped.
 
 ## Status
 
-Early, but working. The generator builds real packages. The generated **vocabulary** and
-**phrasal-verb** decks are still empty baselines that pin the deck and note-type ids; the
-**collocations** deck is complete at its **800-card target** (A1–B2). Content is added only
-on explicit request. Illustrations for the collocation batch are still pending: every entry
-has a paste-ready Midjourney brief, but no image files are committed yet, so those cards are
-text and audio only until the renders land in `media/`.
+Early, but working. The generator builds real packages. The generated **vocabulary** deck is
+still an empty baseline that pins the deck and note-type ids; the **phrasal verbs** deck is
+complete at its **350-card target** (A1–B2) and the **collocations** deck at its
+**800-card target** (A1–B2). Content is added only on explicit request. Illustrations for both
+finished batches are still pending: every entry has a paste-ready Midjourney brief, but no
+image files are committed yet, so those cards are text and audio only until the renders land
+in `media/`.
 
 ## Quick start
 
@@ -197,8 +198,9 @@ These are the ones that bite; the full reasoning is in `.okf/concepts/apkg-safet
 
 Content is added **only on demand**. Nothing seeds a deck with a placeholder card or a starter
 list to prove the pipeline works. The collocations deck is complete: 800 A1–B2 entries in
-`src/index.csv` and `src/collocations.json`, authored in sixteen 50-card chunks. The other two
-decks remain empty until their own batch is requested. Every entry's `image_brief` is ready to
+`src/index.csv` and `src/collocations.json`, authored in sixteen 50-card chunks. The phrasal
+verbs deck is complete at 350 A1–B2 entries, authored in seven 50-card chunks. The vocabulary
+deck remains empty until its own batch is requested. Every entry's `image_brief` is ready to
 paste into Midjourney, and the `image` field stays empty until the rendered file is committed
 under `media/`. Audio is synthesized locally with `tools/build_audio.py`; its mp3s are
 gitignored, so run that step after cloning before building.
