@@ -204,6 +204,17 @@ and it does not touch schema, model/deck ids, GUIDs or `.apkg` packaging — lau
 wording, not for build work. It writes the **Midjourney prompts**, never the images: rendering
 happens outside the repo.
 
+## One model only
+
+Every turn in this repo runs on **`DeepSeek V4.1 Flash`** (`opencode/deepseek-v4.1-flash`).
+Never pass a `model` override to a subagent, and do not call the agents that exist only to
+forward work to something else — `claude-headless`, `claude-plan-creator`,
+`claude-plan-validator`, `java-legacy-architect` and any `mcp__claude-in-chrome__*`,
+`computer-use` or `built-in-browser` tool. With no `model` key anywhere (the repo-local
+agent's frontmatter has none, and the global config pins none), subagents inherit the session
+model, so "only this model" holds by leaving the override alone. Content work — definitions,
+IPA, examples and image briefs — is done inline here, not delegated.
+
 ## Verified local environment (macOS, this machine)
 
 - Anki desktop **25.09** at `/Applications/Anki.app`, profile `User 1`
