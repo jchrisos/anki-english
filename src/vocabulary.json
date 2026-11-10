@@ -20641,5 +20641,1536 @@
     "image": "voc_da2cfe73",
     "image_brief": "a woman writing her current address on a form at a counter, from the side at medium distance, a pen, a folder and a plant, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
     "example": "What is your **current** address?"
+  },
+  {
+    "phrase": "pattern",
+    "pos": "noun",
+    "sense": "repeated-design",
+    "pronunciation": "/ˈpætɚn/",
+    "definition": "a repeated design on cloth, paper or another surface.",
+    "categories": [
+      "color",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_811100be",
+    "image_brief": "a woman holding two fabrics with different patterns at a market stall, from the side at medium distance, rolls of cloth, a stool and a bag, choosing mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **pattern** on the curtain is tiny flowers."
+  },
+  {
+    "phrase": "stripe",
+    "pos": "noun",
+    "sense": "long-narrow-band-of-color",
+    "pronunciation": "/straɪp/",
+    "definition": "a long narrow band of color.",
+    "categories": [
+      "color"
+    ],
+    "level": "a2",
+    "image": "voc_f019830a",
+    "image_brief": "painters marking a white stripe on a road while one holds a roller, from behind at medium distance, cones, a van and a sign, workday mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A white **stripe** runs down the middle of the road."
+  },
+  {
+    "phrase": "spot",
+    "pos": "noun",
+    "sense": "small-round-mark",
+    "pronunciation": "/spɑt/",
+    "definition": "a small round mark of color or dirt.",
+    "categories": [
+      "color"
+    ],
+    "level": "a2",
+    "image": "voc_92da1c57",
+    "image_brief": "a shirt with a dark spot held up at a laundry sink while one person points at it, from the side at medium distance, a basket, soap and a towel, small problem mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "There is a **spot** of paint on your sleeve."
+  },
+  {
+    "phrase": "dot",
+    "pos": "noun",
+    "sense": "small-round-point",
+    "pronunciation": "/dɑt/",
+    "definition": "a small round point.",
+    "categories": [
+      "color"
+    ],
+    "level": "a2",
+    "image": "voc_0fd3cde0",
+    "image_brief": "a child painting dots on paper at a table while one adult sits beside, from above at medium distance, paint pots, a brush and a cup, playful craft mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She drew a small **dot** above the letter."
+  },
+  {
+    "phrase": "crayon",
+    "pos": "noun",
+    "sense": "colored-wax-stick",
+    "pronunciation": "/ˈkreɪɑn/",
+    "definition": "a colored wax stick that you draw with.",
+    "categories": [
+      "color",
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_ad1db380",
+    "image_brief": "a child choosing a crayon from a box on the floor, from above at medium distance, paper, a book and toys, absorbed play mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He found a red **crayon** under the sofa."
+  },
+  {
+    "phrase": "canvas",
+    "pos": "noun",
+    "sense": "cloth-for-painting",
+    "pronunciation": "/ˈkænvəs/",
+    "definition": "strong cloth that artists paint on.",
+    "categories": [
+      "color",
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_dac96051",
+    "image_brief": "an artist stepping back from a half-painted canvas on a stand, from the side at medium distance, jars, a stool and a window, quiet studio mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **canvas** is still wet, so do not touch it."
+  },
+  {
+    "phrase": "palette",
+    "pos": "noun",
+    "sense": "board-for-mixing-paint",
+    "pronunciation": "/ˈpælət/",
+    "definition": "a board on which an artist mixes paints.",
+    "categories": [
+      "color",
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_86cb245b",
+    "image_brief": "a painter mixing colors on a palette while one student watches, from the side at medium distance, brushes, a rag and a window, focused lesson mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She mixed blue and yellow on her **palette**."
+  },
+  {
+    "phrase": "hue",
+    "pos": "noun",
+    "sense": "particular-shade-of-color",
+    "pronunciation": "/hjuː/",
+    "definition": "a particular shade of a color.",
+    "categories": [
+      "color"
+    ],
+    "level": "a2",
+    "image": "voc_b44956c8",
+    "image_brief": "two paint sample cards held next to each other in a hardware shop while one shopper compares, from the side at medium distance, shelves, a cart and a lamp, careful choosing mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The walls are a warm **hue** of yellow."
+  },
+  {
+    "phrase": "tone",
+    "pos": "noun",
+    "sense": "lightness-or-darkness-of-color",
+    "pronunciation": "/toʊn/",
+    "definition": "how light or dark a color is.",
+    "categories": [
+      "color"
+    ],
+    "level": "a2",
+    "image": "voc_df99e666",
+    "image_brief": "a wall painted in two tones with a roller resting nearby while one person looks at it, from across the room at medium distance, sheets, a ladder and a can, deciding mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The two **tones** look almost the same in this light."
+  },
+  {
+    "phrase": "paint",
+    "pos": "noun",
+    "sense": "colored-liquid-for-walls",
+    "pronunciation": "/peɪnt/",
+    "definition": "a colored liquid that you put on walls or wood.",
+    "categories": [
+      "color",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_06c5bfde",
+    "image_brief": "a man opening a can of paint in a hallway with a roller ready, from the side at medium distance, sheets, a ladder and a radio, weekend project mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We need more white **paint** for the ceiling."
+  },
+  {
+    "phrase": "dye",
+    "pos": "noun",
+    "sense": "liquid-that-colors-cloth",
+    "pronunciation": "/daɪ/",
+    "definition": "a liquid that is used to change the color of cloth.",
+    "categories": [
+      "color"
+    ],
+    "level": "a2",
+    "image": "voc_c275e4b6",
+    "image_brief": "a woman dipping cloth into a bowl of dye in a garden while one friend holds gloves, from the side at medium distance, buckets, a line and pegs, crafty afternoon mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **dye** turned the cloth deep blue."
+  },
+  {
+    "phrase": "tint",
+    "pos": "noun",
+    "sense": "faint-amount-of-color",
+    "pronunciation": "/tɪnt/",
+    "definition": "a small amount of color added to something.",
+    "categories": [
+      "color"
+    ],
+    "level": "a2",
+    "image": "voc_389a2828",
+    "image_brief": "a customer looking through tinted glass at a shop window, from outside at medium distance, a display, a poster and a bike, cool quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The windows have a light **tint** to keep the sun out."
+  },
+  {
+    "phrase": "ink",
+    "pos": "noun",
+    "sense": "colored-liquid-for-writing",
+    "pronunciation": "/ɪŋk/",
+    "definition": "a colored liquid that is used for writing or printing.",
+    "categories": [
+      "color",
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_0388c1ad",
+    "image_brief": "a printer cartridge being changed at a desk while one person holds the old one, from above at medium distance, papers, a laptop and a cup, office task mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My pen is out of **ink**."
+  },
+  {
+    "phrase": "stain",
+    "pos": "noun",
+    "sense": "dirty-mark-that-is-hard-to-remove",
+    "pronunciation": "/steɪn/",
+    "definition": "a dirty mark that is hard to remove.",
+    "categories": [
+      "color",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_3ab963c7",
+    "image_brief": "a man scrubbing a stain on a kitchen floor while one child watches, from across the room at medium distance, a bucket, a cloth and a chair, determined mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "There is a **stain** on the kitchen floor."
+  },
+  {
+    "phrase": "bright",
+    "pos": "adjective",
+    "sense": "full-of-light",
+    "pronunciation": "/braɪt/",
+    "definition": "full of strong light or strong color.",
+    "categories": [
+      "color"
+    ],
+    "level": "a2",
+    "image": "voc_1c1710ac",
+    "image_brief": "a sunny kitchen with bright yellow curtains while one person opens them, from across the room at medium distance, a table, cups and a plant, fresh morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The room is **bright** in the morning."
+  },
+  {
+    "phrase": "pale",
+    "pos": "adjective",
+    "sense": "light-and-weak-in-color",
+    "pronunciation": "/peɪl/",
+    "definition": "light and weak in color.",
+    "categories": [
+      "color"
+    ],
+    "level": "a2",
+    "image": "voc_7f5aeceb",
+    "image_brief": "a woman holding a pale blue shirt against herself in a shop mirror, from behind at medium distance, a rack, a bag and a lamp, deciding mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She wore a **pale** blue shirt."
+  },
+  {
+    "phrase": "colorful",
+    "pos": "adjective",
+    "sense": "full-of-many-colors",
+    "pronunciation": "/ˈkʌlɚfəl/",
+    "definition": "having many strong colors.",
+    "categories": [
+      "color"
+    ],
+    "level": "a2",
+    "image": "voc_649d5f9c",
+    "image_brief": "a market stall full of colorful fruit and cloth while one seller arranges boxes, from across the aisle at wide distance, crates, a scale and a cart, lively market mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The market was full of **colorful** fruit."
+  },
+  {
+    "phrase": "striped",
+    "pos": "adjective",
+    "sense": "with-long-bands",
+    "pronunciation": "/straɪpt/",
+    "definition": "marked with long narrow bands of color.",
+    "categories": [
+      "color",
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_beeacb04",
+    "image_brief": "a man in a striped shirt tying a boat to a jetty, from the side at medium distance, rope, a bucket and the water, easy harbor mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He wore a **striped** shirt to the beach."
+  },
+  {
+    "phrase": "spotted",
+    "pos": "adjective",
+    "sense": "with-small-round-marks",
+    "pronunciation": "/ˈspɑtɪd/",
+    "definition": "covered with small round marks.",
+    "categories": [
+      "color",
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_78cfdd9d",
+    "image_brief": "a girl in a spotted dress feeding ducks by a pond while one adult stands nearby, from behind at medium distance, a bench, a bag and reeds, cheerful afternoon mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She wore a **spotted** dress to the party."
+  },
+  {
+    "phrase": "plain",
+    "pos": "adjective",
+    "sense": "with-no-pattern",
+    "pronunciation": "/pleɪn/",
+    "definition": "with no pattern or decoration.",
+    "categories": [
+      "color"
+    ],
+    "level": "a2",
+    "image": "voc_3214305d",
+    "image_brief": "a woman holding a plain white mug beside a patterned one while one friend points, from across the table at medium distance, a teapot, a book and a cloth, small choice mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I bought a **plain** white cup."
+  },
+  {
+    "phrase": "glossy",
+    "pos": "adjective",
+    "sense": "smooth-and-shiny",
+    "pronunciation": "/ˈɡlɔsi/",
+    "definition": "smooth and shiny on the surface.",
+    "categories": [
+      "color"
+    ],
+    "level": "a2",
+    "image": "voc_0c0f51be",
+    "image_brief": "a man polishing a car until the paint looks glossy, from the side at medium distance, a bucket, a sponge and a hose, weekend care mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The table has a **glossy** finish."
+  },
+  {
+    "phrase": "matte",
+    "pos": "adjective",
+    "sense": "not-shiny",
+    "pronunciation": "/mæt/",
+    "definition": "not shiny at all.",
+    "categories": [
+      "color"
+    ],
+    "level": "a2",
+    "image": "voc_68601529",
+    "image_brief": "a designer comparing a matte sample with a shiny one on a desk, from above at medium distance, a lamp, a laptop and a cup, focused work mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The phone case is **matte**, not shiny."
+  },
+  {
+    "phrase": "faded",
+    "pos": "adjective",
+    "sense": "weaker-in-color",
+    "pronunciation": "/ˈfeɪdɪd/",
+    "definition": "weaker in color because of age or sunlight.",
+    "categories": [
+      "color"
+    ],
+    "level": "a2",
+    "image": "voc_59bd13bc",
+    "image_brief": "an old faded sign on a brick wall above a shop door while one passerby looks up, from across the street at medium distance, a bin, a bike and a lamp, worn nostalgic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The old sign is **faded** but still readable."
+  },
+  {
+    "phrase": "shiny",
+    "pos": "adjective",
+    "sense": "reflecting-light",
+    "pronunciation": "/ˈʃaɪni/",
+    "definition": "bright because it reflects light.",
+    "categories": [
+      "color"
+    ],
+    "level": "a2",
+    "image": "voc_6dcd690d",
+    "image_brief": "a child holding a shiny new coin up to the light while one parent stands beside, from the side at medium distance, a counter, a jar and a bag, pleased small mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "His shoes were **shiny** after polishing."
+  },
+  {
+    "phrase": "painted",
+    "pos": "adjective",
+    "sense": "covered-with-paint",
+    "pronunciation": "/ˈpeɪntɪd/",
+    "definition": "covered with paint.",
+    "categories": [
+      "color",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_08639237",
+    "image_brief": "a freshly painted blue door with a brush and a can on the step while one person steps back, from the side at medium distance, a mat, a plant and a bucket, satisfying mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **painted** wall dried overnight."
+  },
+  {
+    "phrase": "silver",
+    "pos": "adjective",
+    "sense": "shiny-gray-white",
+    "pronunciation": "/ˈsɪlvɚ/",
+    "definition": "shiny gray-white in color.",
+    "categories": [
+      "color"
+    ],
+    "level": "a2",
+    "image": "voc_dec957cd",
+    "image_brief": "a woman wearing a silver necklace at a mirror, from behind at medium distance, a box, a lamp and a dress on a hanger, quiet dressing mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She wore a **silver** ring."
+  },
+  {
+    "phrase": "bronze",
+    "pos": "adjective",
+    "sense": "reddish-brown",
+    "pronunciation": "/brɑnz/",
+    "definition": "reddish-brown in color.",
+    "categories": [
+      "color"
+    ],
+    "level": "a2",
+    "image": "voc_f337f292",
+    "image_brief": "a bronze statue in a park with one child looking up at it, from behind at medium distance, a bench, a path and trees, curious quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **bronze** statue stands in the square."
+  },
+  {
+    "phrase": "beige",
+    "pos": "adjective",
+    "sense": "pale-sandy-color",
+    "pronunciation": "/beɪʒ/",
+    "definition": "pale sandy brown in color.",
+    "categories": [
+      "color",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_88ad2f05",
+    "image_brief": "a living room with beige walls while one person hangs a picture, from across the room at medium distance, a sofa, a ladder and a plant, settling-in mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The walls are **beige** with white doors."
+  },
+  {
+    "phrase": "navy",
+    "pos": "adjective",
+    "sense": "very-dark-blue",
+    "pronunciation": "/ˈneɪvi/",
+    "definition": "very dark blue in color.",
+    "categories": [
+      "color",
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_f14adf81",
+    "image_brief": "a man in a navy jacket waiting at a station, from the side at medium distance, a bag, a bench and a sign, quiet commute mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He wore a **navy** jacket."
+  },
+  {
+    "phrase": "turquoise",
+    "pos": "adjective",
+    "sense": "green-blue-color",
+    "pronunciation": "/ˈtɝkwɔɪz/",
+    "definition": "green-blue like clear sea water.",
+    "categories": [
+      "color",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_4fbc41b8",
+    "image_brief": "turquoise water around a small boat near a beach while one person stands on the shore, from the water at wide distance, a jetty, a towel and rocks, bright holiday mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The sea was **turquoise** near the shore."
+  },
+  {
+    "phrase": "violet",
+    "pos": "adjective",
+    "sense": "bluish-purple-color",
+    "pronunciation": "/ˈvaɪələt/",
+    "definition": "bluish purple in color.",
+    "categories": [
+      "color",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_db2ad6ce",
+    "image_brief": "a garden bed of violet flowers with one gardener kneeling, from the side at medium distance, a trowel, a pot and a fence, gentle spring mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The flowers are **violet** in the evening light."
+  },
+  {
+    "phrase": "tan",
+    "pos": "adjective",
+    "sense": "light-brown-color",
+    "pronunciation": "/tæn/",
+    "definition": "light brown in color.",
+    "categories": [
+      "color",
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_9f2c0c81",
+    "image_brief": "a tan leather bag on a chair beside a coat while one person packs, from above at medium distance, a passport, a phone and a cup, travel prep mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She carried a **tan** leather bag."
+  },
+  {
+    "phrase": "olive",
+    "pos": "adjective",
+    "sense": "yellow-green-color",
+    "pronunciation": "/ˈɑlɪv/",
+    "definition": "yellowish green in color.",
+    "categories": [
+      "color",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_6303b6c3",
+    "image_brief": "olive green kitchen cabinets with one person opening a drawer, from across the room at medium distance, a kettle, a bowl and a window, calm home mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The kitchen has **olive** cabinets."
+  },
+  {
+    "phrase": "maroon",
+    "pos": "adjective",
+    "sense": "dark-brown-red",
+    "pronunciation": "/məˈruːn/",
+    "definition": "dark brownish red in color.",
+    "categories": [
+      "color",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_f3a1bac9",
+    "image_brief": "a maroon curtain pulled back in a small theatre while one stagehand adjusts it, from the side at medium distance, seats, a rope and a lamp, backstage mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The curtains are deep **maroon**."
+  },
+  {
+    "phrase": "indigo",
+    "pos": "adjective",
+    "sense": "deep-blue-purple",
+    "pronunciation": "/ˈɪndɪɡoʊ/",
+    "definition": "deep blue-purple in color.",
+    "categories": [
+      "color",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_53affc2a",
+    "image_brief": "an indigo evening sky over a quiet street while one person walks a dog, from behind at wide distance, lamps, a bench and a fence, calm dusk mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The sky turned **indigo** after sunset."
+  },
+  {
+    "phrase": "lavender",
+    "pos": "adjective",
+    "sense": "pale-purple-color",
+    "pronunciation": "/ˈlævəndɚ/",
+    "definition": "pale purple in color.",
+    "categories": [
+      "color",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_5c7b57c9",
+    "image_brief": "a field of lavender with two people walking a path, from a distance at wide angle, a basket, a fence and a sign, soft summer mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The field was full of **lavender** flowers."
+  },
+  {
+    "phrase": "coral",
+    "pos": "adjective",
+    "sense": "pink-orange-color",
+    "pronunciation": "/ˈkɔrəl/",
+    "definition": "pink-orange in color.",
+    "categories": [
+      "color",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_e365d28c",
+    "image_brief": "coral-colored walls in a small cafe with one customer at a table, from across the room at medium distance, cups, a menu and a plant, warm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The cafe walls are **coral** pink."
+  },
+  {
+    "phrase": "peach",
+    "pos": "adjective",
+    "sense": "pale-orange-pink",
+    "pronunciation": "/piːtʃ/",
+    "definition": "pale orange-pink in color.",
+    "categories": [
+      "color",
+      "clothes"
+    ],
+    "level": "a2",
+    "image": "voc_453cdd30",
+    "image_brief": "a peach-colored dress on a hanger by a window while one woman looks at it, from the side at medium distance, a mirror, shoes and a box, choosing mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She chose a **peach** dress for the wedding."
+  },
+  {
+    "phrase": "mint",
+    "pos": "adjective",
+    "sense": "pale-green-color",
+    "pronunciation": "/mɪnt/",
+    "definition": "pale green in color.",
+    "categories": [
+      "color"
+    ],
+    "level": "a2",
+    "image": "voc_22ca7a38",
+    "image_brief": "a mint-green bicycle leaning on a wall with a basket of flowers while one person unlocks it, from the side at medium distance, a lamp, a bin and a door, fresh city mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He rides a **mint** green bicycle."
+  },
+  {
+    "phrase": "ruby",
+    "pos": "adjective",
+    "sense": "deep-red-color",
+    "pronunciation": "/ˈruːbi/",
+    "definition": "deep bright red in color.",
+    "categories": [
+      "color"
+    ],
+    "level": "a2",
+    "image": "voc_b0e6af09",
+    "image_brief": "a ruby-red glass vase on a table with flowers while one person arranges them, from across the room at medium distance, a book, a cloth and a window, quiet home mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The vase is **ruby** red."
+  },
+  {
+    "phrase": "emerald",
+    "pos": "adjective",
+    "sense": "bright-green-color",
+    "pronunciation": "/ˈɛmərəld/",
+    "definition": "bright green in color.",
+    "categories": [
+      "color",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_13ebc872",
+    "image_brief": "emerald green hills under a cloudy sky with one walker on a path, from a distance at wide angle, a fence, a stone wall and sheep, open mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The hills are **emerald** green after rain."
+  },
+  {
+    "phrase": "amber",
+    "pos": "adjective",
+    "sense": "yellow-orange-color",
+    "pronunciation": "/ˈæmbɚ/",
+    "definition": "yellow-orange in color.",
+    "categories": [
+      "color"
+    ],
+    "level": "a2",
+    "image": "voc_2f7caf8a",
+    "image_brief": "amber light from a lamp on a desk at night while one person reads, from across the room at medium distance, a book, a cup and a window, warm late mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The lamp gave an **amber** light."
+  },
+  {
+    "phrase": "fade",
+    "pos": "verb",
+    "sense": "lose-color-over-time",
+    "pronunciation": "/feɪd/",
+    "definition": "to lose color over time.",
+    "categories": [
+      "color"
+    ],
+    "level": "a2",
+    "present_example": "The color **fades** after a few washes.",
+    "past_simple_example": "The sign **faded** over the years.",
+    "past_participle_example": "The paint has **faded** badly.",
+    "present_participle_example": "The jeans are **fading** at the knees.",
+    "image": "voc_de9f5735",
+    "image_brief": "a beach towel left in the sun with its color fading while one person folds it, from the side at medium distance, a chair, a bag and the sea, end-of-holiday mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Cheap curtains **fade** in strong sun."
+  },
+  {
+    "phrase": "glow",
+    "pos": "verb",
+    "sense": "give-a-soft-light",
+    "pronunciation": "/ɡloʊ/",
+    "definition": "to give out a soft steady light.",
+    "categories": [
+      "color",
+      "nature"
+    ],
+    "level": "a2",
+    "present_example": "The lamp **glows** softly in the corner.",
+    "past_simple_example": "The sky **glowed** after sunset.",
+    "past_participle_example": "The fire has **glowed** all evening.",
+    "present_participle_example": "The candles are **glowing** on the table.",
+    "image": "voc_b782d4d0",
+    "image_brief": "a campfire glowing in the evening with two people sitting nearby, from behind at medium distance, logs, blankets and a lantern, warm night mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The coals **glow** late into the night."
+  },
+  {
+    "phrase": "sparkle",
+    "pos": "verb",
+    "sense": "shine-with-small-lights",
+    "pronunciation": "/ˈspɑrkəl/",
+    "definition": "to shine with many small flashes of light.",
+    "categories": [
+      "color",
+      "nature"
+    ],
+    "level": "a2",
+    "present_example": "Her ring **sparkles** under the light.",
+    "past_simple_example": "The water **sparkled** in the morning.",
+    "past_participle_example": "The glass has **sparkled** since we cleaned it.",
+    "present_participle_example": "The lights are **sparkling** across the bay.",
+    "image": "voc_4ebea453",
+    "image_brief": "a frosty branch sparkling in the morning sun while one walker passes, from the side at medium distance, a fence, a path and a dog, bright cold mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Wet stones **sparkle** in the sun."
+  },
+  {
+    "phrase": "polish",
+    "pos": "verb",
+    "sense": "rub-to-make-shiny",
+    "pronunciation": "/ˈpɑlɪʃ/",
+    "definition": "to rub something until it shines.",
+    "categories": [
+      "color",
+      "home"
+    ],
+    "level": "a2",
+    "present_example": "He **polishes** the table before guests arrive.",
+    "past_simple_example": "She **polished** the silver for the dinner.",
+    "past_participle_example": "The floor has been **polished**.",
+    "present_participle_example": "He is **polishing** the car outside.",
+    "image": "voc_4794fbc9",
+    "image_brief": "a man polishing a pair of shoes on a step, from the side at medium distance, a cloth, a brush and a box, careful morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I **polish** my shoes every Sunday."
+  },
+  {
+    "phrase": "brighten",
+    "pos": "verb",
+    "sense": "make-or-become-brighter",
+    "pronunciation": "/ˈbraɪtən/",
+    "definition": "to make something brighter, or to become brighter.",
+    "categories": [
+      "color",
+      "home"
+    ],
+    "level": "a2",
+    "present_example": "The paint **brightens** the whole hallway.",
+    "past_simple_example": "The sun **brightened** the kitchen.",
+    "past_participle_example": "The room has **brightened** since we moved the lamp.",
+    "present_participle_example": "The sky is **brightening** now.",
+    "image": "voc_e45fd678",
+    "image_brief": "a woman opening curtains to brighten a dim room while one child sits on the bed, from behind at medium distance, a lamp, a book and a cup, hopeful morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "New curtains will **brighten** the room."
+  },
+  {
+    "phrase": "darken",
+    "pos": "verb",
+    "sense": "make-or-become-darker",
+    "pronunciation": "/ˈdɑrkən/",
+    "definition": "to make something darker, or to become darker.",
+    "categories": [
+      "color",
+      "nature"
+    ],
+    "level": "a2",
+    "present_example": "The room **darkens** quickly in winter.",
+    "past_simple_example": "The sky **darkened** at four.",
+    "past_participle_example": "The wood has **darkened** with age.",
+    "present_participle_example": "The clouds are **darkening** over the hills.",
+    "image": "voc_19905b64",
+    "image_brief": "clouds darkening over a beach as people pack up, one person folding a towel, from behind at wide distance, a bag, a chair and the sea, changing weather mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Clouds **darken** the sky before rain."
+  },
+  {
+    "phrase": "varnish",
+    "pos": "verb",
+    "sense": "cover-wood-with-a-shiny-liquid",
+    "pronunciation": "/ˈvɑrnɪʃ/",
+    "definition": "to cover wood with a clear liquid that makes it shiny.",
+    "categories": [
+      "color",
+      "home"
+    ],
+    "level": "a2",
+    "present_example": "He **varnishes** each shelf by hand.",
+    "past_simple_example": "They **varnished** the floor last summer.",
+    "past_participle_example": "The door has been **varnished**.",
+    "present_participle_example": "She is **varnishing** the chairs.",
+    "image": "voc_1b7f05dc",
+    "image_brief": "a man applying varnish to a wooden table in a workshop, from the side at medium distance, a brush, a can and a rag, patient craft mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We should **varnish** the table this weekend."
+  },
+  {
+    "phrase": "reflect",
+    "pos": "verb",
+    "sense": "send-back-light",
+    "pronunciation": "/rɪˈflɛkt/",
+    "definition": "to send back light from a surface.",
+    "categories": [
+      "color",
+      "nature"
+    ],
+    "level": "a2",
+    "present_example": "The mirror **reflects** the window.",
+    "past_simple_example": "The lake **reflected** the trees.",
+    "past_participle_example": "The light has **reflected** off the glass all day.",
+    "present_participle_example": "The wet road is **reflecting** the streetlights.",
+    "image": "voc_dcd0869c",
+    "image_brief": "a still lake reflecting trees and a small boat while one person stands on the shore, from the bank at wide distance, a jetty, a bench and reeds, quiet mirror mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Still water can **reflect** the whole sky."
+  },
+  {
+    "phrase": "brake",
+    "pos": "noun",
+    "sense": "part-that-slows-a-vehicle",
+    "pronunciation": "/breɪk/",
+    "definition": "the part of a vehicle that slows it down or stops it.",
+    "categories": [
+      "car",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_378e2072",
+    "image_brief": "a driver pressing the brake pedal while a crossing fills ahead, from over the shoulder at medium distance, a bag on the seat, a cup and a phone, sudden careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Press the **brake** before the turn."
+  },
+  {
+    "phrase": "clutch",
+    "pos": "noun",
+    "sense": "pedal-for-changing-gear",
+    "pronunciation": "/klʌtʃ/",
+    "definition": "the pedal that you press to change gear in a car.",
+    "categories": [
+      "car",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_67582955",
+    "image_brief": "a learner pressing the clutch in a driving lesson car while an instructor sits beside, from the side at medium distance, a mirror, a clipboard and a water bottle, patient lesson mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He pressed the **clutch** and changed gear."
+  },
+  {
+    "phrase": "gear",
+    "pos": "noun",
+    "sense": "position-for-speed-and-power",
+    "pronunciation": "/ɡɪr/",
+    "definition": "one of the positions that control a vehicle's speed and power.",
+    "categories": [
+      "car",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_85a5e7c7",
+    "image_brief": "a driver moving the gear stick on a hill road, from the side at medium distance, a map, a cup and a bag, focused driving mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She put the car in first **gear**."
+  },
+  {
+    "phrase": "windshield",
+    "pos": "noun",
+    "sense": "front-glass-of-a-car",
+    "pronunciation": "/ˈwɪndʃiːld/",
+    "definition": "the large glass window at the front of a car.",
+    "categories": [
+      "car"
+    ],
+    "level": "a2",
+    "image": "voc_7dba6095",
+    "image_brief": "rain running down a windshield at a red light while one driver turns on the wipers, from over the shoulder at medium distance, a phone, a coffee cup and a bag, gray commute mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Rain covered the **windshield**."
+  },
+  {
+    "phrase": "bumper",
+    "pos": "noun",
+    "sense": "bar-that-protects-a-car",
+    "pronunciation": "/ˈbʌmpɚ/",
+    "definition": "the bar at the front or back of a car that protects it.",
+    "categories": [
+      "car"
+    ],
+    "level": "a2",
+    "image": "voc_33ab1adc",
+    "image_brief": "a car with a cracked front bumper in a parking lot while one person crouches to look, from the side at medium distance, a cart, a lamp and wet ground, small annoyance mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **bumper** has a small crack."
+  },
+  {
+    "phrase": "dashboard",
+    "pos": "noun",
+    "sense": "panel-with-dials-and-controls",
+    "pronunciation": "/ˈdæʃbɔrd/",
+    "definition": "the panel in front of the driver with dials and controls.",
+    "categories": [
+      "car"
+    ],
+    "level": "a2",
+    "image": "voc_4205259e",
+    "image_brief": "a warning light glowing on a dashboard at night while one driver looks at it, from behind at medium distance, a phone mount, a cup and a bag, uneasy night mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A light came on the **dashboard**."
+  },
+  {
+    "phrase": "license",
+    "pos": "noun",
+    "sense": "official-card-to-drive",
+    "pronunciation": "/ˈlaɪsəns/",
+    "definition": "an official card that allows you to drive a vehicle.",
+    "categories": [
+      "car",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_eacfa504",
+    "image_brief": "a driver handing a license to an officer at a car window, from the side at medium distance, a bag, a coffee cup and a radio, polite tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He showed his **license** to the officer."
+  },
+  {
+    "phrase": "insurance",
+    "pos": "noun",
+    "sense": "cover-against-damage-or-loss",
+    "pronunciation": "/ɪnˈʃʊrəns/",
+    "definition": "money you pay to a company so that it covers damage or loss.",
+    "categories": [
+      "car",
+      "money"
+    ],
+    "level": "a2",
+    "image": "voc_ffe600b4",
+    "image_brief": "a man filling an insurance form at a kitchen table while one agent sits across from him, from across the table at medium distance, a folder, cups and a laptop, careful paperwork mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **insurance** covers the damage."
+  },
+  {
+    "phrase": "fuel",
+    "pos": "noun",
+    "sense": "substance-burned-for-power",
+    "pronunciation": "/ˈfjuːəl/",
+    "definition": "a substance that is burned to give power, such as gasoline.",
+    "categories": [
+      "car",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_4ca77613",
+    "image_brief": "a car at a fuel pump with one person filling the tank, from the side at medium distance, a hose, a bucket and a shop behind, ordinary stop mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We stopped for **fuel** outside town."
+  },
+  {
+    "phrase": "gasoline",
+    "pos": "noun",
+    "sense": "liquid-fuel-for-cars",
+    "pronunciation": "/ɡæsəˈliːn/",
+    "definition": "a liquid fuel that is used in most cars.",
+    "categories": [
+      "car",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_2a0529a5",
+    "image_brief": "gasoline prices on a tall sign at a station while one driver looks up, from across the forecourt at wide distance, pumps, a car and a bin, dull expensive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **gasoline** price went up again."
+  },
+  {
+    "phrase": "diesel",
+    "pos": "noun",
+    "sense": "heavy-fuel-for-engines",
+    "pronunciation": "/ˈdiːzəl/",
+    "definition": "a heavy fuel that is used in some engines.",
+    "categories": [
+      "car",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_4b3c6c7b",
+    "image_brief": "a truck filling at a diesel pump while one driver waits, from the side at medium distance, a hose, a crate and a lamp, working stop mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "This truck runs on **diesel**."
+  },
+  {
+    "phrase": "dent",
+    "pos": "noun",
+    "sense": "hollow-where-a-surface-was-hit",
+    "pronunciation": "/dɛnt/",
+    "definition": "a small hollow place where a surface has been hit.",
+    "categories": [
+      "car"
+    ],
+    "level": "a2",
+    "image": "voc_261a7fe8",
+    "image_brief": "a man running a hand over a dent in a car door, from the side at medium distance, a garage, tools and a bucket, annoyed quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "There is a **dent** in the door."
+  },
+  {
+    "phrase": "scratch",
+    "pos": "noun",
+    "sense": "thin-mark-from-something-sharp",
+    "pronunciation": "/skrætʃ/",
+    "definition": "a thin mark made by something sharp.",
+    "categories": [
+      "car"
+    ],
+    "level": "a2",
+    "image": "voc_4c5c30b8",
+    "image_brief": "a woman wiping dust from a scratch on the paint while one friend looks on, from the side at medium distance, a car, a cloth and a bag, small regret mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **scratch** on the paint is not serious."
+  },
+  {
+    "phrase": "crash",
+    "pos": "noun",
+    "sense": "accident-where-a-vehicle-hits",
+    "pronunciation": "/kræʃ/",
+    "definition": "an accident in which a vehicle hits something.",
+    "categories": [
+      "car",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_6a94ff59",
+    "image_brief": "two cars stopped after a crash with one driver on the phone, from across the road at wide distance, cones, glass and a passing bus, tense shaken mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **crash** blocked two lanes."
+  },
+  {
+    "phrase": "lane",
+    "pos": "noun",
+    "sense": "marked-part-of-a-road",
+    "pronunciation": "/leɪn/",
+    "definition": "one of the marked parts of a road for one line of traffic.",
+    "categories": [
+      "car",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_b1a1d1a7",
+    "image_brief": "traffic moving in two lanes on a busy road while one driver changes lane, from above at wide distance, signs, a bridge and a bus, steady busy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Stay in the right **lane**."
+  },
+  {
+    "phrase": "roundabout",
+    "pos": "noun",
+    "sense": "circular-place-where-roads-meet",
+    "pronunciation": "/ˈraʊndəbaʊt/",
+    "definition": "a circular place where roads meet and traffic drives around it.",
+    "categories": [
+      "car",
+      "city"
+    ],
+    "level": "a2",
+    "image": "voc_40a0dbdc",
+    "image_brief": "a car entering a roundabout while one pedestrian waits, from above at wide distance, a sign, a lamp and a garden, ordinary town mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Take the second exit at the **roundabout**."
+  },
+  {
+    "phrase": "junction",
+    "pos": "noun",
+    "sense": "place-where-two-roads-meet",
+    "pronunciation": "/ˈdʒʌŋkʃən/",
+    "definition": "a place where two or more roads meet.",
+    "categories": [
+      "car",
+      "city"
+    ],
+    "level": "a2",
+    "image": "voc_23beb5f0",
+    "image_brief": "a driver waiting at a junction for a gap while one cyclist passes, from behind at medium distance, a shop, a sign and a lamp, patient traffic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Turn left at the next **junction**."
+  },
+  {
+    "phrase": "pedestrian",
+    "pos": "noun",
+    "sense": "person-walking-on-a-road",
+    "pronunciation": "/pəˈdɛstriən/",
+    "definition": "a person who is walking, especially near traffic.",
+    "categories": [
+      "car",
+      "city"
+    ],
+    "level": "a2",
+    "image": "voc_f209c8bf",
+    "image_brief": "a pedestrian waiting at the edge of a crossing while a car slows, from the side at medium distance, a bag, a lamp and a shop window, careful city mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **pedestrian** waited at the edge."
+  },
+  {
+    "phrase": "seatbelt",
+    "pos": "noun",
+    "sense": "strap-that-holds-you-in",
+    "pronunciation": "/ˈsiːtbɛlt/",
+    "definition": "a strap that holds you in your seat in a vehicle.",
+    "categories": [
+      "car",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_05f4cce8",
+    "image_brief": "a parent fastening a seatbelt for a child in the back seat, from the side at medium distance, a bag, a toy and a window, ordinary careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Put on your **seatbelt** before we go."
+  },
+  {
+    "phrase": "hood",
+    "pos": "noun",
+    "sense": "cover-over-the-engine",
+    "pronunciation": "/hʊd/",
+    "definition": "the cover over the engine at the front of a car.",
+    "categories": [
+      "car"
+    ],
+    "level": "a2",
+    "image": "voc_1f514da4",
+    "image_brief": "a man opening the hood of a car to check the engine, from the side at medium distance, a toolbox, a rag and a lamp, weekend mechanic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He opened the **hood** to check the engine."
+  },
+  {
+    "phrase": "tank",
+    "pos": "noun",
+    "sense": "container-for-fuel",
+    "pronunciation": "/tæŋk/",
+    "definition": "the container in a vehicle that holds fuel.",
+    "categories": [
+      "car",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_5e7a1e08",
+    "image_brief": "a driver watching the fuel gauge near empty, from over the shoulder at medium distance, a bag, a phone and a street outside, worried commute mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **tank** is almost empty."
+  },
+  {
+    "phrase": "pump",
+    "pos": "noun",
+    "sense": "machine-that-moves-fuel",
+    "pronunciation": "/pʌmp/",
+    "definition": "a machine that moves fuel or air.",
+    "categories": [
+      "car",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_ec5821b7",
+    "image_brief": "a person holding a fuel pump nozzle into a car while one car waits behind, from the side at medium distance, a hose, a bin and a shop, ordinary stop mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **pump** stopped after twenty liters."
+  },
+  {
+    "phrase": "meter",
+    "pos": "noun",
+    "sense": "device-that-measures-an-amount",
+    "pronunciation": "/ˈmiːtɚ/",
+    "definition": "a device that measures and shows an amount.",
+    "categories": [
+      "car",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_1588b15e",
+    "image_brief": "a taxi meter ticking in traffic while the passenger looks at it, from the back seat at medium distance, a bag, a phone and a rainy window, patient expensive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **meter** shows the fare."
+  },
+  {
+    "phrase": "route",
+    "pos": "noun",
+    "sense": "way-from-one-place-to-another",
+    "pronunciation": "/ruːt/",
+    "definition": "the way from one place to another.",
+    "categories": [
+      "car",
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_77e9436c",
+    "image_brief": "a driver checking a paper map on the passenger seat, from over the shoulder at medium distance, a bag, a cup and a sign outside, planning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "This **route** is faster in the morning."
+  },
+  {
+    "phrase": "distance",
+    "pos": "noun",
+    "sense": "space-between-two-places",
+    "pronunciation": "/ˈdɪstəns/",
+    "definition": "the space between two places.",
+    "categories": [
+      "car",
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_fd8ec726",
+    "image_brief": "a road sign showing the distance to the next town while one driver passes, from the side at medium distance, a field, a fence and a lamp, open road mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **distance** to the coast is eighty miles."
+  },
+  {
+    "phrase": "fine",
+    "pos": "noun",
+    "sense": "money-paid-for-breaking-a-rule",
+    "pronunciation": "/faɪn/",
+    "definition": "money that you must pay for breaking a traffic rule.",
+    "categories": [
+      "car",
+      "money"
+    ],
+    "level": "a2",
+    "image": "voc_d9d5c8e2",
+    "image_brief": "a man holding a parking fine on the sidewalk while one officer walks away, from the side at medium distance, a car, a meter and a bag, annoyed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He paid a **fine** for parking there."
+  },
+  {
+    "phrase": "crossing",
+    "pos": "noun",
+    "sense": "place-to-walk-across-a-road",
+    "pronunciation": "/ˈkrɔsɪŋ/",
+    "definition": "a place where people can walk across a road.",
+    "categories": [
+      "car",
+      "city"
+    ],
+    "level": "a2",
+    "image": "voc_e66e4640",
+    "image_brief": "children walking over a school crossing while a driver waits, from behind at medium distance, a sign, a guard and bags, careful morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Slow down near the school **crossing**."
+  },
+  {
+    "phrase": "airbag",
+    "pos": "noun",
+    "sense": "bag-that-fills-in-a-crash",
+    "pronunciation": "/ˈɛrbæɡ/",
+    "definition": "a bag in a car that fills with air to protect you in a crash.",
+    "categories": [
+      "car"
+    ],
+    "level": "a2",
+    "image": "voc_407c413f",
+    "image_brief": "a car after a crash with an airbag open while one person stands back, from the side at medium distance, glass, a cone and a tow truck, shaken mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **airbag** protected the driver."
+  },
+  {
+    "phrase": "headlight",
+    "pos": "noun",
+    "sense": "large-light-at-the-front",
+    "pronunciation": "/ˈhɛdlaɪt/",
+    "definition": "a large light at the front of a vehicle.",
+    "categories": [
+      "car"
+    ],
+    "level": "a2",
+    "image": "voc_cf576399",
+    "image_brief": "a car with one headlight broken on a wet street while one person looks at it, from the side at medium distance, a garage, a bin and rain, small problem mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "One **headlight** is broken."
+  },
+  {
+    "phrase": "trailer",
+    "pos": "noun",
+    "sense": "vehicle-towed-behind-a-car",
+    "pronunciation": "/ˈtreɪlɚ/",
+    "definition": "a vehicle that is pulled behind a car and that people can live in.",
+    "categories": [
+      "car",
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_b727356c",
+    "image_brief": "a family car towing a small trailer toward the coast, from behind at wide distance, a roof box, a sign and fields, holiday mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They towed a small **trailer** behind the car."
+  },
+  {
+    "phrase": "pickup",
+    "pos": "noun",
+    "sense": "truck-with-an-open-back",
+    "pronunciation": "/ˈpɪkʌp/",
+    "definition": "a truck with an open back that is used for carrying things.",
+    "categories": [
+      "car",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_5ee090e1",
+    "image_brief": "a pickup loaded with wood on a farm track while one worker closes the back, from the side at medium distance, a barn, a dog and a fence, working mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He uses a **pickup** for work."
+  },
+  {
+    "phrase": "sedan",
+    "pos": "noun",
+    "sense": "car-with-four-doors",
+    "pronunciation": "/sɪˈdæn/",
+    "definition": "a car with four doors and a fixed roof.",
+    "categories": [
+      "car",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_2f071a6b",
+    "image_brief": "a family loading bags into a sedan outside a house, from the side at medium distance, a stroller, a plant and a door, trip prep mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They rented a **sedan** for the trip."
+  },
+  {
+    "phrase": "breakdown",
+    "pos": "noun",
+    "sense": "time-a-vehicle-stops-working",
+    "pronunciation": "/ˈbreɪkdaʊn/",
+    "definition": "a time when a vehicle stops working.",
+    "categories": [
+      "car",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_e82f70ce",
+    "image_brief": "a car stopped with the hood up on the roadside while one driver calls, from across the road at wide distance, a triangle, a bag and trees, stranded mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We had a **breakdown** on the highway."
+  },
+  {
+    "phrase": "puncture",
+    "pos": "noun",
+    "sense": "small-hole-in-a-tire",
+    "pronunciation": "/ˈpʌŋktʃɚ/",
+    "definition": "a small hole in a tire that lets the air out.",
+    "categories": [
+      "car",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_a9857375",
+    "image_brief": "a driver kneeling beside a flat tire with a spare wheel nearby, from the side at medium distance, a jack, a bag and a cone, roadside chore mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **puncture** left us by the road."
+  },
+  {
+    "phrase": "wiper",
+    "pos": "noun",
+    "sense": "blade-that-clears-rain",
+    "pronunciation": "/ˈwaɪpɚ/",
+    "definition": "a blade that moves across a windshield to clear rain.",
+    "categories": [
+      "car"
+    ],
+    "level": "a2",
+    "image": "voc_b6669608",
+    "image_brief": "a windshield wiper clearing heavy rain while a driver leans forward, from over the shoulder at medium distance, a cup, a phone and a wet street, strained mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **wiper** made a strange noise."
+  },
+  {
+    "phrase": "taillight",
+    "pos": "noun",
+    "sense": "red-light-at-the-back",
+    "pronunciation": "/ˈteɪllaɪt/",
+    "definition": "a red light at the back of a vehicle.",
+    "categories": [
+      "car"
+    ],
+    "level": "a2",
+    "image": "voc_d9e2ec4c",
+    "image_brief": "a cracked taillight on a car in a driveway while one person checks it, from behind at medium distance, a garage, a bin and a hose, small chore mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **taillight** was cracked."
+  },
+  {
+    "phrase": "handbrake",
+    "pos": "noun",
+    "sense": "brake-pulled-by-hand",
+    "pronunciation": "/ˈhændbreɪk/",
+    "definition": "a brake that you pull with your hand to keep a car still.",
+    "categories": [
+      "car"
+    ],
+    "level": "a2",
+    "image": "voc_21ae8ba6",
+    "image_brief": "a driver pulling the handbrake on a hill while a passenger sits beside, from the side at medium distance, a bag, a cup and a view below, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Pull the **handbrake** on the hill."
+  },
+  {
+    "phrase": "accelerator",
+    "pos": "noun",
+    "sense": "pedal-that-makes-you-faster",
+    "pronunciation": "/əkˈsɛləreɪtɚ/",
+    "definition": "the pedal that makes a vehicle go faster.",
+    "categories": [
+      "car",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_1817e202",
+    "image_brief": "a driver pressing the accelerator onto a freeway, from over the shoulder at medium distance, a bag, a coffee cup and a sign, fast morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He pressed the **accelerator** too hard."
+  },
+  {
+    "phrase": "freeway",
+    "pos": "noun",
+    "sense": "wide-road-for-fast-traffic",
+    "pronunciation": "/ˈfriːweɪ/",
+    "definition": "a wide road for fast traffic.",
+    "categories": [
+      "car",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_c2ec61f1",
+    "image_brief": "a freeway full of cars at rush hour with one driver in a middle lane, from above at wide distance, signs, a bridge and a bus, steady busy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **freeway** was busy at five."
+  },
+  {
+    "phrase": "bypass",
+    "pos": "noun",
+    "sense": "road-around-a-town",
+    "pronunciation": "/ˈbaɪpæs/",
+    "definition": "a road that goes around a town instead of through it.",
+    "categories": [
+      "car",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_d7272a5c",
+    "image_brief": "a new bypass road curving around a town with one car on it, from above at wide distance, fields, a fence and a sign, open fast mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The new **bypass** cuts ten minutes."
+  },
+  {
+    "phrase": "toll",
+    "pos": "noun",
+    "sense": "money-paid-to-use-a-road",
+    "pronunciation": "/toʊl/",
+    "definition": "money that you pay to use some roads or bridges.",
+    "categories": [
+      "car",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_13c63449",
+    "image_brief": "a driver paying a toll at a booth while one car waits behind, from the side at medium distance, a barrier, a bag and a lamp, quick stop mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We paid a **toll** at the bridge."
+  },
+  {
+    "phrase": "steer",
+    "pos": "verb",
+    "sense": "control-the-direction",
+    "pronunciation": "/stɪr/",
+    "definition": "to control the direction of a vehicle.",
+    "categories": [
+      "car",
+      "transport"
+    ],
+    "level": "a2",
+    "present_example": "She **steers** with one hand.",
+    "past_simple_example": "He **steered** the car into the garage.",
+    "past_participle_example": "The car has been **steered** off the road.",
+    "present_participle_example": "She is **steering** around the corner.",
+    "image": "voc_96d940f2",
+    "image_brief": "a driver steering with one hand around a corner, from over the shoulder at medium distance, a bag, a cup and a street, easy control mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Steer** gently around the corner."
+  },
+  {
+    "phrase": "accelerate",
+    "pos": "verb",
+    "sense": "make-a-vehicle-go-faster",
+    "pronunciation": "/əkˈsɛləreɪt/",
+    "definition": "to make a vehicle go faster.",
+    "categories": [
+      "car",
+      "transport"
+    ],
+    "level": "a2",
+    "present_example": "The car **accelerates** smoothly.",
+    "past_simple_example": "He **accelerated** onto the freeway.",
+    "past_participle_example": "The test car has **accelerated** from zero in four seconds.",
+    "present_participle_example": "The bus is **accelerating** uphill.",
+    "image": "voc_03be7710",
+    "image_brief": "a car accelerating onto a highway while one driver checks the mirror, from behind at medium distance, a bag, a phone and a sign, quick merge mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Do not **accelerate** too fast."
+  },
+  {
+    "phrase": "honk",
+    "pos": "verb",
+    "sense": "make-a-loud-car-sound",
+    "pronunciation": "/hɑŋk/",
+    "definition": "to make a short loud sound with a car horn.",
+    "categories": [
+      "car",
+      "transport"
+    ],
+    "level": "a2",
+    "present_example": "She **honks** when the light turns green.",
+    "past_simple_example": "Someone **honked** behind me.",
+    "past_participle_example": "Nobody has **honked** all morning.",
+    "present_participle_example": "A taxi is **honking** outside.",
+    "image": "voc_13d9e214",
+    "image_brief": "a driver honking at a car stopped at a green light, from behind at medium distance, a bus, a sign and a bag, impatient city mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Honk** if you see the gate."
+  },
+  {
+    "phrase": "skid",
+    "pos": "verb",
+    "sense": "slide-sideways-on-a-road",
+    "pronunciation": "/skɪd/",
+    "definition": "to slide sideways on a wet or icy road.",
+    "categories": [
+      "car",
+      "transport"
+    ],
+    "level": "a2",
+    "present_example": "The van **skids** on wet leaves.",
+    "past_simple_example": "We **skidded** near the corner.",
+    "past_participle_example": "The truck has **skidded** into the field.",
+    "present_participle_example": "The bike is **skidding** on the gravel.",
+    "image": "voc_645f80d9",
+    "image_brief": "a car skidding on a wet road with one driver gripping the wheel, from the side at medium distance, rain, cones and a lamp, sudden tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Cars **skid** on icy roads."
+  },
+  {
+    "phrase": "tow",
+    "pos": "verb",
+    "sense": "pull-a-vehicle-behind",
+    "pronunciation": "/toʊ/",
+    "definition": "to pull a vehicle behind another one.",
+    "categories": [
+      "car",
+      "transport"
+    ],
+    "level": "a2",
+    "present_example": "He **tows** a trailer on holidays.",
+    "past_simple_example": "A truck **towed** us home.",
+    "past_participle_example": "The bus has been **towed** away.",
+    "present_participle_example": "A van is **towing** the boat.",
+    "image": "voc_851e0ccf",
+    "image_brief": "a tow truck lifting a car on a quiet street while one driver watches, from across the road at wide distance, a cone, a bag and a shop, stranded mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They will **tow** the car to a garage."
+  },
+  {
+    "phrase": "refuel",
+    "pos": "verb",
+    "sense": "fill-a-vehicle-with-fuel",
+    "pronunciation": "/ˌriːˈfjuːəl/",
+    "definition": "to fill a vehicle with fuel again.",
+    "categories": [
+      "car",
+      "transport"
+    ],
+    "level": "a2",
+    "present_example": "She **refuels** at the same station.",
+    "past_simple_example": "They **refueled** on the way back.",
+    "past_participle_example": "The plane has **refueled** already.",
+    "present_participle_example": "The truck is **refueling** now.",
+    "image": "voc_da82feab",
+    "image_brief": "a driver refueling at a station before a long trip, from the side at medium distance, a hose, a map and a cup, practical stop mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We need to **refuel** before the border."
+  },
+  {
+    "phrase": "reverse",
+    "pos": "verb",
+    "sense": "drive-a-vehicle-backward",
+    "pronunciation": "/rɪˈvɝs/",
+    "definition": "to drive a vehicle backward.",
+    "categories": [
+      "car",
+      "transport"
+    ],
+    "level": "a2",
+    "present_example": "He **reverses** into the same spot.",
+    "past_simple_example": "She **reversed** out of the drive.",
+    "past_participle_example": "The car has **reversed** into the wall.",
+    "present_participle_example": "He is **reversing** down the lane.",
+    "image": "voc_e53def27",
+    "image_brief": "a driver reversing slowly into a parking space while one person guides, from behind at medium distance, a cart, a wall and a lamp, careful parking mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Reverse** slowly into the space."
+  },
+  {
+    "phrase": "overtake",
+    "pos": "verb",
+    "sense": "pass-another-vehicle",
+    "pronunciation": "/ˌoʊvɚˈteɪk/",
+    "definition": "to pass another vehicle on the road.",
+    "categories": [
+      "car",
+      "transport"
+    ],
+    "level": "a2",
+    "present_example": "She **overtakes** only on the freeway.",
+    "past_simple_example": "He **overtook** two trucks.",
+    "past_participle_example": "They have **overtaken** us twice.",
+    "present_participle_example": "A car is **overtaking** the bus.",
+    "image": "voc_f0b0ded6",
+    "image_brief": "a car overtaking a truck on a highway while one driver watches, from behind at wide distance, a sign, a barrier and fields, fast open mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Do not **overtake** on the bend."
+  },
+  {
+    "phrase": "rear",
+    "pos": "adjective",
+    "sense": "at-the-back",
+    "pronunciation": "/rɪr/",
+    "definition": "at the back of something.",
+    "categories": [
+      "car"
+    ],
+    "level": "a2",
+    "image": "voc_6cf2503b",
+    "image_brief": "the rear door of a car open with shopping bags inside while one person reaches in, from behind at medium distance, a lamp, a cart and a wall, ordinary errand mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **rear** door does not close well."
   }
 ]

@@ -2499,3 +2499,103 @@ vocabulary,delay,make-something-later,verb,a2,time,make something happen later
 vocabulary,brief,lasting-a-short-time,adjective,a2,time,lasting only a short time
 vocabulary,recent,happening-a-short-time-ago,adjective,a2,time,happening a short time ago
 vocabulary,current,happening-now,adjective,a2,time,happening or existing now
+vocabulary,pattern,repeated-design,noun,a2,color;home,a repeated design on cloth or paper
+vocabulary,stripe,long-narrow-band-of-color,noun,a2,color,a long narrow band of color
+vocabulary,spot,small-round-mark,noun,a2,color,a small round mark of color
+vocabulary,dot,small-round-point,noun,a2,color,a small round point
+vocabulary,crayon,colored-wax-stick,noun,a2,color;education,a colored wax stick for drawing
+vocabulary,canvas,cloth-for-painting,noun,a2,color;education,strong cloth used for painting
+vocabulary,palette,board-for-mixing-paint,noun,a2,color;education,a board where an artist mixes paint
+vocabulary,hue,particular-shade-of-color,noun,a2,color,a particular shade of a color
+vocabulary,tone,lightness-or-darkness-of-color,noun,a2,color,how light or dark a color is
+vocabulary,paint,colored-liquid-for-walls,noun,a2,color;home,a colored liquid used on walls and wood
+vocabulary,dye,liquid-that-colors-cloth,noun,a2,color,a liquid used to change the color of cloth
+vocabulary,tint,faint-amount-of-color,noun,a2,color,a small amount of color added to something
+vocabulary,ink,colored-liquid-for-writing,noun,a2,color;work,a colored liquid used for writing or printing
+vocabulary,stain,dirty-mark-that-is-hard-to-remove,noun,a2,color;home,a dirty mark that is hard to remove
+vocabulary,bright,full-of-light,adjective,a2,color,full of strong light or strong color
+vocabulary,pale,light-and-weak-in-color,adjective,a2,color,light and weak in color
+vocabulary,colorful,full-of-many-colors,adjective,a2,color,having many strong colors
+vocabulary,striped,with-long-bands,adjective,a2,color;clothes,marked with long narrow bands
+vocabulary,spotted,with-small-round-marks,adjective,a2,color;clothes,covered with small round marks
+vocabulary,plain,with-no-pattern,adjective,a2,color,with no pattern or decoration
+vocabulary,glossy,smooth-and-shiny,adjective,a2,color,smooth and shiny on the surface
+vocabulary,matte,not-shiny,adjective,a2,color,not shiny at all
+vocabulary,faded,weaker-in-color,adjective,a2,color,weaker in color because of age or sun
+vocabulary,shiny,reflecting-light,adjective,a2,color,bright because it reflects light
+vocabulary,painted,covered-with-paint,adjective,a2,color;home,covered with paint
+vocabulary,silver,shiny-gray-white,adjective,a2,color,shiny gray-white in color
+vocabulary,bronze,reddish-brown,adjective,a2,color,reddish-brown in color
+vocabulary,beige,pale-sandy-color,adjective,a2,color;home,pale sandy brown in color
+vocabulary,navy,very-dark-blue,adjective,a2,color;clothes,very dark blue in color
+vocabulary,turquoise,green-blue-color,adjective,a2,color;nature,green-blue like clear sea water
+vocabulary,violet,bluish-purple-color,adjective,a2,color;nature,bluish purple in color
+vocabulary,tan,light-brown-color,adjective,a2,color;clothes,light brown in color
+vocabulary,olive,yellow-green-color,adjective,a2,color;home,yellowish green in color
+vocabulary,maroon,dark-brown-red,adjective,a2,color;home,dark brownish red in color
+vocabulary,indigo,deep-blue-purple,adjective,a2,color;nature,deep blue-purple in color
+vocabulary,lavender,pale-purple-color,adjective,a2,color;nature,pale purple in color
+vocabulary,coral,pink-orange-color,adjective,a2,color;home,pink-orange in color
+vocabulary,peach,pale-orange-pink,adjective,a2,color;clothes,pale orange-pink in color
+vocabulary,mint,pale-green-color,adjective,a2,color,pale green in color
+vocabulary,ruby,deep-red-color,adjective,a2,color,deep bright red in color
+vocabulary,emerald,bright-green-color,adjective,a2,color;nature,bright green in color
+vocabulary,amber,yellow-orange-color,adjective,a2,color,yellow-orange in color
+vocabulary,fade,lose-color-over-time,verb,a2,color,lose color over time
+vocabulary,glow,give-a-soft-light,verb,a2,color;nature,give out a soft steady light
+vocabulary,sparkle,shine-with-small-lights,verb,a2,color;nature,shine with many small flashes
+vocabulary,polish,rub-to-make-shiny,verb,a2,color;home,rub something until it shines
+vocabulary,brighten,make-or-become-brighter,verb,a2,color;home,make something brighter
+vocabulary,darken,make-or-become-darker,verb,a2,color;nature,make something darker
+vocabulary,varnish,cover-wood-with-a-shiny-liquid,verb,a2,color;home,cover wood with a clear shiny liquid
+vocabulary,reflect,send-back-light,verb,a2,color;nature,send back light from a surface
+vocabulary,brake,part-that-slows-a-vehicle,noun,a2,car;transport,the part that slows or stops a vehicle
+vocabulary,clutch,pedal-for-changing-gear,noun,a2,car;transport,the pedal you press to change gear
+vocabulary,gear,position-for-speed-and-power,noun,a2,car;transport,a position that controls speed and power
+vocabulary,windshield,front-glass-of-a-car,noun,a2,car,the large glass window at the front
+vocabulary,bumper,bar-that-protects-a-car,noun,a2,car,the bar at the front or back that protects a car
+vocabulary,dashboard,panel-with-dials-and-controls,noun,a2,car,the panel in front of the driver
+vocabulary,license,official-card-to-drive,noun,a2,car;transport,an official card that allows you to drive
+vocabulary,insurance,cover-against-damage-or-loss,noun,a2,car;money,money paid so a company covers damage
+vocabulary,fuel,substance-burned-for-power,noun,a2,car;transport,a substance burned to give power
+vocabulary,gasoline,liquid-fuel-for-cars,noun,a2,car;transport,a liquid fuel used in most cars
+vocabulary,diesel,heavy-fuel-for-engines,noun,a2,car;transport,a heavy fuel used in some engines
+vocabulary,dent,hollow-where-a-surface-was-hit,noun,a2,car,a small hollow place where a surface was hit
+vocabulary,scratch,thin-mark-from-something-sharp,noun,a2,car,a thin mark made by something sharp
+vocabulary,crash,accident-where-a-vehicle-hits,noun,a2,car;transport,an accident where a vehicle hits something
+vocabulary,lane,marked-part-of-a-road,noun,a2,car;transport,a marked part of a road for one line of traffic
+vocabulary,roundabout,circular-place-where-roads-meet,noun,a2,car;city,a circular place where roads meet
+vocabulary,junction,place-where-two-roads-meet,noun,a2,car;city,a place where two roads meet
+vocabulary,pedestrian,person-walking-on-a-road,noun,a2,car;city,a person walking near traffic
+vocabulary,seatbelt,strap-that-holds-you-in,noun,a2,car;transport,a strap that holds you in your seat
+vocabulary,hood,cover-over-the-engine,noun,a2,car,the cover over the engine at the front
+vocabulary,tank,container-for-fuel,noun,a2,car;transport,the container in a vehicle for fuel
+vocabulary,pump,machine-that-moves-fuel,noun,a2,car;transport,a machine that moves fuel or air
+vocabulary,meter,device-that-measures-an-amount,noun,a2,car;transport,a device that measures and shows an amount
+vocabulary,route,way-from-one-place-to-another,noun,a2,car;travel,the way from one place to another
+vocabulary,distance,space-between-two-places,noun,a2,car;travel,the space between two places
+vocabulary,fine,money-paid-for-breaking-a-rule,noun,a2,car;money,money you pay for breaking a traffic rule
+vocabulary,crossing,place-to-walk-across-a-road,noun,a2,car;city,a place where people walk across a road
+vocabulary,airbag,bag-that-fills-in-a-crash,noun,a2,car,a bag that fills with air to protect you
+vocabulary,headlight,large-light-at-the-front,noun,a2,car,a large light at the front of a vehicle
+vocabulary,trailer,vehicle-towed-behind-a-car,noun,a2,car;travel,a vehicle you can live in that is towed
+vocabulary,pickup,truck-with-an-open-back,noun,a2,car;transport,a truck with an open back for carrying things
+vocabulary,sedan,car-with-four-doors,noun,a2,car;transport,a car with four doors and a fixed roof
+vocabulary,breakdown,time-a-vehicle-stops-working,noun,a2,car;transport,a time when a vehicle stops working
+vocabulary,puncture,small-hole-in-a-tire,noun,a2,car;transport,a small hole in a tire that lets air out
+vocabulary,wiper,blade-that-clears-rain,noun,a2,car,a blade that clears rain from a windshield
+vocabulary,taillight,red-light-at-the-back,noun,a2,car,a red light at the back of a vehicle
+vocabulary,handbrake,brake-pulled-by-hand,noun,a2,car,a brake you pull by hand to keep a car still
+vocabulary,accelerator,pedal-that-makes-you-faster,noun,a2,car;transport,the pedal that makes a vehicle go faster
+vocabulary,freeway,wide-road-for-fast-traffic,noun,a2,car;transport,a wide road for fast traffic
+vocabulary,bypass,road-around-a-town,noun,a2,car;transport,a road that goes around a town
+vocabulary,toll,money-paid-to-use-a-road,noun,a2,car;transport,money you pay to use some roads
+vocabulary,steer,control-the-direction,verb,a2,car;transport,control the direction of a vehicle
+vocabulary,accelerate,make-a-vehicle-go-faster,verb,a2,car;transport,make a vehicle go faster
+vocabulary,honk,make-a-loud-car-sound,verb,a2,car;transport,make a short loud sound with a horn
+vocabulary,skid,slide-sideways-on-a-road,verb,a2,car;transport,slide sideways on a wet or icy road
+vocabulary,tow,pull-a-vehicle-behind,verb,a2,car;transport,pull a vehicle behind another one
+vocabulary,refuel,fill-a-vehicle-with-fuel,verb,a2,car;transport,fill a vehicle with fuel again
+vocabulary,reverse,drive-a-vehicle-backward,verb,a2,car;transport,drive a vehicle backward
+vocabulary,overtake,pass-another-vehicle,verb,a2,car;transport,pass another vehicle on the road
+vocabulary,rear,at-the-back,adjective,a2,car,at the back of something
