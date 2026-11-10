@@ -2199,3 +2199,153 @@ vocabulary,divorce,end-a-marriage-legally,verb,a2,relationships,legally end a ma
 vocabulary,celebrate,do-something-for-a-special-day,verb,a2,relationships,do something enjoyable for a special day
 vocabulary,respect,show-someone-is-important,verb,a2,relationships,show that you think someone is important
 vocabulary,separate,stop-living-with-a-partner,verb,a2,relationships,stop living with your husband or partner
+vocabulary,talk,conversation-with-someone,noun,a2,communication,a conversation with someone
+vocabulary,reply,words-sent-back,noun,a2,communication,something you say or write back
+vocabulary,conversation,talk-between-people,noun,a2,communication,a talk between two or more people
+vocabulary,chat,friendly-informal-talk,noun,a2,communication,a friendly informal conversation
+vocabulary,text,short-written-message,noun,a2,communication;technology,a short written message sent by phone
+vocabulary,news,information-about-recent-events,noun,a2,communication,information about recent events
+vocabulary,joke,words-that-make-people-laugh,noun,a2,communication;emotions,something you say to make people laugh
+vocabulary,lie,untrue-statement,noun,a2,communication;emotions,something you say that is not true
+vocabulary,truth,the-real-facts,noun,a2,communication,the real facts about something
+vocabulary,secret,something-you-do-not-tell,noun,a2,communication;relationships,something you do not tell other people
+vocabulary,advice,opinion-about-what-to-do,noun,a2,communication;relationships,an opinion about what someone should do
+vocabulary,opinion,what-you-think,noun,a2,communication,what you think about something
+vocabulary,sentence,words-expressing-an-idea,noun,a2,education;communication,a group of words with a complete idea
+vocabulary,voice,sound-of-speaking,noun,a2,communication;body,the sound you make when you speak
+vocabulary,sound,something-you-hear,noun,a2,communication,something you can hear
+vocabulary,speech,formal-talk-to-a-group,noun,a2,communication;work,a formal talk given to a group
+vocabulary,paragraph,short-part-of-a-text,noun,a2,education;communication,a short part of a text with one idea
+vocabulary,dictionary,book-that-explains-words,noun,a2,education;communication,a book or app that explains words
+vocabulary,translation,text-in-another-language,noun,a2,communication;education,a text changed into another language
+vocabulary,accent,way-of-pronouncing-words,noun,a2,communication;education,the way people from a place say words
+vocabulary,grammar,rules-for-putting-words-together,noun,a2,education;communication,the rules for putting words together
+vocabulary,silence,time-with-no-sound,noun,a2,communication,a time with no sound or talking
+vocabulary,argument,angry-talk-about-disagreement,noun,a2,communication;emotions,an angry talk between people who disagree
+vocabulary,vocabulary,all-words-you-know,noun,a2,education;communication,all the words you know or use
+vocabulary,apology,words-saying-sorry,noun,a2,communication;relationships,words saying sorry for something
+vocabulary,invitation,request-to-come-somewhere,noun,a2,communication;relationships,a request to come to an event
+vocabulary,alphabet,letters-of-a-language,noun,a2,education;communication,the set of letters used to write a language
+vocabulary,whisper,speak-very-quietly,verb,a2,communication,speak quietly so only one person hears
+vocabulary,shout,speak-very-loudly,verb,a2,communication;emotions,speak very loudly
+vocabulary,repeat,say-or-do-again,verb,a2,communication;education,say or do something again
+vocabulary,describe,say-what-it-is-like,verb,a2,communication,say what someone or something is like
+vocabulary,discuss,talk-about-with-others,verb,a2,communication;work,talk about something with other people
+vocabulary,agree,have-the-same-opinion,verb,a2,communication;relationships,have the same opinion as someone
+vocabulary,disagree,have-a-different-opinion,verb,a2,communication;relationships,have a different opinion from someone
+vocabulary,mean,have-a-particular-meaning,verb,a2,communication;education,have a particular meaning
+vocabulary,translate,change-into-another-language,verb,a2,communication;education,change words into another language
+vocabulary,pronounce,say-the-sounds-of-a-word,verb,a2,communication;education,say the sounds of a word
+vocabulary,spell,say-the-letters-in-order,verb,a2,education;communication,say or write the letters of a word
+vocabulary,greet,say-hello-when-meeting,verb,a2,communication;relationships,say hello to someone you meet
+vocabulary,interrupt,speak-before-someone-finishes,verb,a2,communication,start speaking before someone has finished
+vocabulary,mention,say-briefly,verb,a2,communication,say something quickly without much detail
+vocabulary,announce,tell-people-officially,verb,a2,communication;work,tell people about something officially
+vocabulary,warn,tell-about-possible-danger,verb,a2,communication,tell someone about a possible danger
+vocabulary,suggest,offer-an-idea,verb,a2,communication;work,offer an idea for others to think about
+vocabulary,advise,tell-what-someone-should-do,verb,a2,communication;work,tell someone what you think they should do
+vocabulary,comment,give-an-opinion,verb,a2,communication,give an opinion about something
+vocabulary,polite,behaving-kindly,adjective,a2,communication;relationships,behaving in a friendly and respectful way
+vocabulary,rude,behaving-in-an-upsetting-way,adjective,a2,communication;emotions,behaving in a way that upsets people
+vocabulary,honest,telling-the-truth,adjective,a2,communication;relationships,telling the truth and not cheating
+vocabulary,silent,making-no-sound,adjective,a2,communication,making no sound at all
+vocabulary,screen,flat-part-showing-pictures,noun,a2,technology;home,the flat part where you see pictures
+vocabulary,keyboard,keys-for-typing,noun,a2,technology;work,set of keys you press to type
+vocabulary,printer,machine-that-puts-text-on-paper,noun,a2,technology;work,machine that prints onto paper
+vocabulary,radio,device-that-receives-broadcasts,noun,a2,technology;music,device that receives sound broadcasts
+vocabulary,battery,small-source-of-power,noun,a2,technology,small object that gives power to a device
+vocabulary,charger,device-that-refills-a-battery,noun,a2,technology,device that puts power back into a battery
+vocabulary,cable,thick-wire-for-power,noun,a2,technology;home,thick wire that carries power or signals
+vocabulary,plug,end-of-a-wire-for-a-socket,noun,a2,technology;home,part at the end of a wire
+vocabulary,password,secret-word-for-an-account,noun,a2,technology,secret word that lets you use an account
+vocabulary,website,pages-on-the-internet,noun,a2,technology;communication,place on the internet with pages
+vocabulary,internet,worldwide-computer-network,noun,a2,technology;communication,system connecting computers around the world
+vocabulary,wifi,wireless-internet-connection,noun,a2,technology,way of connecting to the internet without wires
+vocabulary,app,program-on-a-phone,noun,a2,technology,program you use on a phone or tablet
+vocabulary,file,stored-information-with-a-name,noun,a2,technology;work,set of information stored under one name
+vocabulary,folder,place-for-files,noun,a2,technology;work,place on a computer for keeping files
+vocabulary,video,recording-of-moving-pictures,noun,a2,technology;communication,recording of moving pictures and sound
+vocabulary,speaker,device-that-makes-sound,noun,a2,technology;music,device that makes sound come out
+vocabulary,headphones,device-worn-over-the-ears,noun,a2,technology;music,device worn over the ears to listen
+vocabulary,microphone,device-that-picks-up-sound,noun,a2,technology;music,device that picks up sound for recording
+vocabulary,tablet,flat-touch-screen-computer,noun,a2,technology,flat computer with a touch screen
+vocabulary,device,machine-made-for-a-job,noun,a2,technology,machine or tool made for a job
+vocabulary,software,programs-for-a-computer,noun,a2,technology;work,programs that make a computer work
+vocabulary,program,set-of-computer-instructions,noun,a2,technology;work,set of instructions a computer follows
+vocabulary,data,facts-stored-by-a-computer,noun,a2,technology;work,facts and information used by a computer
+vocabulary,network,connected-computers,noun,a2,technology;work,several computers connected together
+vocabulary,signal,wave-that-carries-information,noun,a2,technology;communication,sound or wave that carries information
+vocabulary,robot,machine-that-works-by-itself,noun,a2,technology;work,machine that can move and work by itself
+vocabulary,drone,small-flying-machine,noun,a2,technology;travel,small flying machine controlled from the ground
+vocabulary,blog,website-with-regular-posts,noun,a2,technology;communication,website with regular written posts
+vocabulary,podcast,series-of-spoken-recordings,noun,a2,technology;communication,spoken recordings you listen to online
+vocabulary,inbox,where-new-email-arrives,noun,a2,technology;work,place where new email messages arrive
+vocabulary,link,words-you-click-to-open-a-page,noun,a2,technology;communication,words you click to open another page
+vocabulary,download,move-a-file-onto-your-device,verb,a2,technology,get a file from the internet
+vocabulary,upload,send-a-file-to-the-internet,verb,a2,technology,send a file from your device online
+vocabulary,click,press-a-button,verb,a2,technology,press a button on a mouse or screen
+vocabulary,type,write-with-a-keyboard,verb,a2,technology;work,write using a keyboard
+vocabulary,delete,remove-text-or-a-file,verb,a2,technology;work,remove text or a file
+vocabulary,search,look-for-information,verb,a2,technology,look for information or a file
+vocabulary,install,put-a-program-on-a-device,verb,a2,technology;work,put a program onto a device
+vocabulary,connect,join-a-device-to-a-network,verb,a2,technology,join a device to a network
+vocabulary,update,add-the-newest-version,verb,a2,technology;work,add the newest information or version
+vocabulary,browse,look-at-internet-pages,verb,a2,technology,look at pages on the internet
+vocabulary,post,put-words-or-photos-online,verb,a2,technology;communication,put words or photos online
+vocabulary,scroll,move-a-page-on-a-screen,verb,a2,technology,move text up or down on a screen
+vocabulary,charge,put-power-into-a-battery,verb,a2,technology,put electricity into a battery
+vocabulary,record,store-sound-for-later,verb,a2,technology;music,store sound so it can be played again
+vocabulary,scan,copy-a-document-into-a-computer,verb,a2,technology;work,copy a document into a computer
+vocabulary,digital,using-computer-technology,adjective,a2,technology,using computer technology not paper
+vocabulary,wireless,working-without-a-cable,adjective,a2,technology,working without a cable
+vocabulary,smart,able-to-work-by-itself,adjective,a2,technology,able to work or connect by itself
+vocabulary,student,person-who-studies,noun,a2,education,a person who is studying at a school
+vocabulary,classroom,room-for-lessons,noun,a2,education,a room where lessons take place
+vocabulary,lesson,time-when-someone-teaches,noun,a2,education,a period when someone teaches you
+vocabulary,exam,important-test-of-knowledge,noun,a2,education,an important test of what you know
+vocabulary,test,short-set-of-questions,noun,a2,education,a short set of questions to check knowledge
+vocabulary,grade,mark-for-your-work,noun,a2,education,a letter or number showing how good work is
+vocabulary,score,points-in-a-test,noun,a2,education,the number of points you get
+vocabulary,subject,area-you-study,noun,a2,education,an area of knowledge that you study
+vocabulary,math,subject-about-numbers,noun,a2,education,the subject about numbers and shapes
+vocabulary,science,study-of-the-natural-world,noun,a2,education,the study of the natural world
+vocabulary,history,study-of-the-past,noun,a2,education,the study of what happened in the past
+vocabulary,geography,study-of-countries-and-maps,noun,a2,education,the study of countries and maps
+vocabulary,art,painting-and-drawing,noun,a2,education,the activity of painting or drawing
+vocabulary,pencil,tool-with-a-dark-center,noun,a2,education,a thin wooden tool for writing
+vocabulary,eraser,tool-that-rubs-out-pencil,noun,a2,education,a small object that rubs out pencil marks
+vocabulary,notebook,book-of-empty-pages,noun,a2,education;work,a book of empty pages for notes
+vocabulary,chalk,white-stick-for-writing,noun,a2,education,a soft white stick for writing on a board
+vocabulary,ruler,tool-for-measuring-lines,noun,a2,education,a flat tool used to measure or draw lines
+vocabulary,term,part-of-a-school-year,noun,a2,education;time,one of the periods in a school year
+vocabulary,course,series-of-lessons,noun,a2,education,a series of lessons on one subject
+vocabulary,college,place-to-study-after-school,noun,a2,education,a place where students study after high school
+vocabulary,knowledge,what-you-know-and-understand,noun,a2,education,the information and understanding you have
+vocabulary,diploma,paper-showing-you-finished,noun,a2,education,a document showing you finished a course
+vocabulary,certificate,official-paper-that-proves,noun,a2,education,an official paper that proves something
+vocabulary,scholarship,money-for-a-student,noun,a2,education;money,money given to a student to help study
+vocabulary,essay,short-piece-of-writing,noun,a2,education,a short piece of writing about one subject
+vocabulary,presentation,talk-showing-information,noun,a2,education;work,a talk that shows information to a group
+vocabulary,mark,symbol-showing-quality,noun,a2,education,a symbol or number showing how good work is
+vocabulary,result,score-at-the-end,noun,a2,education,the score or answer you get at the end
+vocabulary,semester,half-of-a-school-year,noun,a2,education;time,one of two main parts of a school year
+vocabulary,tutor,person-who-teaches-one-student,noun,a2,education;work,a person who teaches one student
+vocabulary,professor,teacher-at-a-college,noun,a2,education;work,a teacher at a college or university
+vocabulary,lecture,long-teaching-talk,noun,a2,education,a long talk given to teach a group
+vocabulary,textbook,book-for-studying-a-subject,noun,a2,education,a book used for studying a subject
+vocabulary,quiz,short-test-with-few-questions,noun,a2,education,a short test with a few questions
+vocabulary,blackboard,dark-board-for-chalk,noun,a2,education,a dark board that you write on with chalk
+vocabulary,practice,doing-something-again-to-improve,noun,a2,education,time spent doing something to get better
+vocabulary,revise,study-again-before-a-test,verb,a2,education,study again what you learned before a test
+vocabulary,fail,not-succeed-in-a-test,verb,a2,education;emotions,not succeed in a test or course
+vocabulary,graduate,finish-your-studies,verb,a2,education,finish your studies at a school
+vocabulary,attend,be-present-at-a-class,verb,a2,education,be present at a class or event
+vocabulary,memorize,learn-to-remember-exactly,verb,a2,education,learn something so you can remember it
+vocabulary,review,look-again-at-what-you-studied,verb,a2,education,look again at what you have studied
+vocabulary,correct,make-something-right,verb,a2,education,make something right by changing mistakes
+vocabulary,improve,become-better,verb,a2,education,become better or make something better
+vocabulary,concentrate,give-all-your-attention,verb,a2,education,give all your attention to one thing
+vocabulary,focus,give-attention-to-one-thing,verb,a2,education,give your attention to one thing
+vocabulary,organize,plan-and-arrange-things,verb,a2,education;work,plan and arrange things in order
+vocabulary,clever,able-to-learn-quickly,adjective,a2,education,able to learn and understand quickly
+vocabulary,strict,making-people-obey-rules,adjective,a2,education;relationships,making people obey rules exactly

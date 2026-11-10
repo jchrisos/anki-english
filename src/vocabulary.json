@@ -16057,5 +16057,2361 @@
     "image": "voc_8349b1cb",
     "image_brief": "two people packing boxes in a flat, one carrying a bag to the door, from across the room at medium distance, tape, a lamp and a bare shelf, sad quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
     "example": "They decided to **separate** last summer."
+  },
+  {
+    "phrase": "talk",
+    "pos": "noun",
+    "sense": "conversation-with-someone",
+    "pronunciation": "/tɔk/",
+    "definition": "a conversation with someone.",
+    "categories": [
+      "communication"
+    ],
+    "level": "a2",
+    "image": "voc_d76f469a",
+    "image_brief": "two people talking across a kitchen counter with mugs between them, from across the room at medium distance, a kettle, a newspaper and a chair, relaxed evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We had a long **talk** about the plan."
+  },
+  {
+    "phrase": "reply",
+    "pos": "noun",
+    "sense": "words-sent-back",
+    "pronunciation": "/rɪˈplaɪ/",
+    "definition": "something you say or write back when someone speaks to you.",
+    "categories": [
+      "communication"
+    ],
+    "level": "a2",
+    "image": "voc_ee6fc1a1",
+    "image_brief": "a woman typing a reply on a phone at a bus stop, from the side at medium distance, a bag, a bench and a passing cyclist, everyday waiting mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I sent a short **reply** to her email."
+  },
+  {
+    "phrase": "conversation",
+    "pos": "noun",
+    "sense": "talk-between-people",
+    "pronunciation": "/ˌkɑnvɚˈseɪʃən/",
+    "definition": "a talk between two or more people.",
+    "categories": [
+      "communication"
+    ],
+    "level": "a2",
+    "image": "voc_fc378277",
+    "image_brief": "two colleagues in a corridor mid-conversation, one holding a folder, from behind at medium distance, a notice board, a plant and a door, ordinary workplace mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Their **conversation** lasted an hour."
+  },
+  {
+    "phrase": "chat",
+    "pos": "noun",
+    "sense": "friendly-informal-talk",
+    "pronunciation": "/tʃæt/",
+    "definition": "a friendly, informal conversation.",
+    "categories": [
+      "communication"
+    ],
+    "level": "a2",
+    "image": "voc_4fa1f1e0",
+    "image_brief": "two people chatting over a fence between gardens, one holding a watering can, from the side at medium distance, a hose, pots and a cat, easy weekend mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We had a quick **chat** at the bus stop."
+  },
+  {
+    "phrase": "text",
+    "pos": "noun",
+    "sense": "short-written-message",
+    "pronunciation": "/tɛkst/",
+    "definition": "a short written message that you send with a phone.",
+    "categories": [
+      "communication",
+      "technology"
+    ],
+    "level": "a2",
+    "image": "voc_50c26d24",
+    "image_brief": "a man reading a text at a cafe table with his phone in one hand, from across the room at medium distance, a cup, a bag and a newspaper, small distracted mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He sent me a **text** this morning."
+  },
+  {
+    "phrase": "news",
+    "pos": "noun",
+    "sense": "information-about-recent-events",
+    "pronunciation": "/nuːz/",
+    "definition": "information about recent events.",
+    "categories": [
+      "communication"
+    ],
+    "level": "a2",
+    "image": "voc_0af64a99",
+    "image_brief": "a family watching a news screen in a living room, one person standing with a cup, from behind at wide distance, a sofa, toys and a lamp, quiet attentive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **news** spread around the office fast."
+  },
+  {
+    "phrase": "joke",
+    "pos": "noun",
+    "sense": "words-that-make-people-laugh",
+    "pronunciation": "/dʒoʊk/",
+    "definition": "something you say to make people laugh.",
+    "categories": [
+      "communication",
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_01c41eb3",
+    "image_brief": "friends laughing at a table after a joke, one wiping their eyes, from across the room at medium distance, plates, a bottle and a dropped napkin, warm loud mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He told a funny **joke** at dinner."
+  },
+  {
+    "phrase": "lie",
+    "pos": "noun",
+    "sense": "untrue-statement",
+    "pronunciation": "/laɪ/",
+    "definition": "something that you say that is not true.",
+    "categories": [
+      "communication",
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_b4ccdf11",
+    "image_brief": "a boy avoiding his mother's eyes at a kitchen table, one adult waiting, from the side at medium distance, a school bag, a cup and a clock, uneasy quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her story was a **lie** from the start."
+  },
+  {
+    "phrase": "truth",
+    "pos": "noun",
+    "sense": "the-real-facts",
+    "pronunciation": "/truːθ/",
+    "definition": "the real facts about something.",
+    "categories": [
+      "communication"
+    ],
+    "level": "a2",
+    "image": "voc_73b30467",
+    "image_brief": "two people facing each other at a table with papers between them, one leaning forward, from across the room at medium distance, a lamp, a pen and a chair, serious telling mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Tell me the **truth** about the money."
+  },
+  {
+    "phrase": "secret",
+    "pos": "noun",
+    "sense": "something-you-do-not-tell",
+    "pronunciation": "/ˈsiːkrət/",
+    "definition": "something that you do not tell other people.",
+    "categories": [
+      "communication",
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_028647fc",
+    "image_brief": "a girl whispering to a friend behind a school building, one other student far off, from behind at medium distance, a fence, a ball and bags, hushed playful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She kept the **secret** for years."
+  },
+  {
+    "phrase": "advice",
+    "pos": "noun",
+    "sense": "opinion-about-what-to-do",
+    "pronunciation": "/ədˈvaɪs/",
+    "definition": "an opinion you give someone about what they should do.",
+    "categories": [
+      "communication",
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_7ba476dd",
+    "image_brief": "an older man talking to a younger one on a park bench, one leaning in, from the side at medium distance, a newspaper, a stick and a path, gentle guiding mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My **advice** is to wait a week."
+  },
+  {
+    "phrase": "opinion",
+    "pos": "noun",
+    "sense": "what-you-think",
+    "pronunciation": "/əˈpɪnjən/",
+    "definition": "what you think about something.",
+    "categories": [
+      "communication"
+    ],
+    "level": "a2",
+    "image": "voc_795b3bf2",
+    "image_brief": "a group at a meeting table with hands raised, one person standing, from across the room at medium distance, laptops, cups and a whiteboard, lively debate mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Everyone has a different **opinion** about it."
+  },
+  {
+    "phrase": "sentence",
+    "pos": "noun",
+    "sense": "words-expressing-an-idea",
+    "pronunciation": "/ˈsɛntəns/",
+    "definition": "a group of words that expresses a complete idea.",
+    "categories": [
+      "education",
+      "communication"
+    ],
+    "level": "a2",
+    "image": "voc_4c87a264",
+    "image_brief": "a student writing a sentence on a classroom board, one classmate watching, from behind at medium distance, desks, books and a window, ordinary lesson mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Write one **sentence** about your weekend."
+  },
+  {
+    "phrase": "voice",
+    "pos": "noun",
+    "sense": "sound-of-speaking",
+    "pronunciation": "/vɔɪs/",
+    "definition": "the sound that you make when you speak or sing.",
+    "categories": [
+      "communication",
+      "body"
+    ],
+    "level": "a2",
+    "image": "voc_d71d5e21",
+    "image_brief": "a woman singing into a microphone at a small venue, one musician behind her, from the side at medium distance, cables, a stool and a glass, warm live mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **voice** was quiet on the phone."
+  },
+  {
+    "phrase": "sound",
+    "pos": "noun",
+    "sense": "something-you-hear",
+    "pronunciation": "/saʊnd/",
+    "definition": "something that you can hear.",
+    "categories": [
+      "communication"
+    ],
+    "level": "a2",
+    "image": "voc_157a060b",
+    "image_brief": "a man stopping on a path with his head turned toward a noise in the trees, from behind at medium distance, a bike, a lamp and a bench, curious still mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I heard a strange **sound** outside."
+  },
+  {
+    "phrase": "speech",
+    "pos": "noun",
+    "sense": "formal-talk-to-a-group",
+    "pronunciation": "/spiːtʃ/",
+    "definition": "a formal talk that someone gives to a group of people.",
+    "categories": [
+      "communication",
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_a041a09a",
+    "image_brief": "a woman giving a speech at a small event while guests sit at tables, from the back of the room at wide distance, a screen, glasses and flowers, formal warm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He gave a short **speech** at the party."
+  },
+  {
+    "phrase": "paragraph",
+    "pos": "noun",
+    "sense": "short-part-of-a-text",
+    "pronunciation": "/ˈpærəɡræf/",
+    "definition": "a short part of a text that has one main idea.",
+    "categories": [
+      "education",
+      "communication"
+    ],
+    "level": "a2",
+    "image": "voc_bb0af54b",
+    "image_brief": "a man marking a paragraph with a pen in a book at a desk, from the side at medium distance, a lamp, notes and a cup, quiet study mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Read the first **paragraph** again."
+  },
+  {
+    "phrase": "dictionary",
+    "pos": "noun",
+    "sense": "book-that-explains-words",
+    "pronunciation": "/ˈdɪkʃənɛri/",
+    "definition": "a book or app that explains what words mean.",
+    "categories": [
+      "education",
+      "communication"
+    ],
+    "level": "a2",
+    "image": "voc_eee3e4e4",
+    "image_brief": "a student looking up a word in a dictionary at a library table, from across the table at medium distance, notebooks, a bag and a lamp, focused afternoon mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Look up the word in a **dictionary**."
+  },
+  {
+    "phrase": "translation",
+    "pos": "noun",
+    "sense": "text-in-another-language",
+    "pronunciation": "/trænsˈleɪʃən/",
+    "definition": "a text that has been changed from one language into another.",
+    "categories": [
+      "communication",
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_1dcc220d",
+    "image_brief": "two people at a table comparing a document in two languages, one pointing at a line, from across the table at medium distance, a pen, a glass and a folder, careful work mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "This **translation** is easier to read."
+  },
+  {
+    "phrase": "accent",
+    "pos": "noun",
+    "sense": "way-of-pronouncing-words",
+    "pronunciation": "/ˈæksɛnt/",
+    "definition": "the way that people from a place pronounce words.",
+    "categories": [
+      "communication",
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_2eeeec1b",
+    "image_brief": "a woman in a language class repeating a word while the teacher listens, from the side at medium distance, a board, chairs and bags, determined learning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She speaks English with a French **accent**."
+  },
+  {
+    "phrase": "grammar",
+    "pos": "noun",
+    "sense": "rules-for-putting-words-together",
+    "pronunciation": "/ˈɡræmɚ/",
+    "definition": "the rules for putting words together correctly in a language.",
+    "categories": [
+      "education",
+      "communication"
+    ],
+    "level": "a2",
+    "image": "voc_f6fb27ae",
+    "image_brief": "a teacher correcting grammar on a whiteboard while students copy, from the back of the room at wide distance, desks, books and a window, steady school mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "His **grammar** improved this term."
+  },
+  {
+    "phrase": "silence",
+    "pos": "noun",
+    "sense": "time-with-no-sound",
+    "pronunciation": "/ˈsaɪləns/",
+    "definition": "a period of time with no sound or talking.",
+    "categories": [
+      "communication"
+    ],
+    "level": "a2",
+    "image": "voc_a5137e12",
+    "image_brief": "a family at a dinner table with plates full and no one speaking, from across the room at medium distance, a clock, a jug and a folded napkin, heavy awkward mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A long **silence** followed the question."
+  },
+  {
+    "phrase": "argument",
+    "pos": "noun",
+    "sense": "angry-talk-about-disagreement",
+    "pronunciation": "/ˈɑrɡjəmənt/",
+    "definition": "an angry talk between people who disagree about something.",
+    "categories": [
+      "communication",
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_edf5618e",
+    "image_brief": "two people arguing in a hallway near a coat rack, one holding a phone, from across the room at medium distance, shoes, a bag and a lamp, tense evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They had an **argument** about the bill."
+  },
+  {
+    "phrase": "vocabulary",
+    "pos": "noun",
+    "sense": "all-words-you-know",
+    "pronunciation": "/voʊˈkæbjəlɛri/",
+    "definition": "all the words that you know or use.",
+    "categories": [
+      "education",
+      "communication"
+    ],
+    "level": "a2",
+    "image": "voc_b18619aa",
+    "image_brief": "a girl reviewing vocabulary cards on a bed, one parent at the door, from above at medium distance, a lamp, a bag and a notebook, quiet study mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Reading helps build your **vocabulary**."
+  },
+  {
+    "phrase": "apology",
+    "pos": "noun",
+    "sense": "words-saying-sorry",
+    "pronunciation": "/əˈpɑlədʒi/",
+    "definition": "words that say you are sorry for something you did.",
+    "categories": [
+      "communication",
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_b982d796",
+    "image_brief": "a man handing a small box to a woman at a doorway, from the side at medium distance, a step, a plant and a bike, humble hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He accepted her **apology** with a nod."
+  },
+  {
+    "phrase": "invitation",
+    "pos": "noun",
+    "sense": "request-to-come-somewhere",
+    "pronunciation": "/ˌɪnvɪˈteɪʃən/",
+    "definition": "a written or spoken request to come to an event.",
+    "categories": [
+      "communication",
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_d792e71a",
+    "image_brief": "a woman reading an invitation card at a kitchen table, from across the table at medium distance, a cup, a phone and a calendar, pleasant planning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **invitation** says seven o'clock."
+  },
+  {
+    "phrase": "alphabet",
+    "pos": "noun",
+    "sense": "letters-of-a-language",
+    "pronunciation": "/ˈælfəbɛt/",
+    "definition": "the set of letters that are used to write a language.",
+    "categories": [
+      "education",
+      "communication"
+    ],
+    "level": "a2",
+    "image": "voc_5c17405c",
+    "image_brief": "a child tracing letters on a classroom chart while a teacher points, from behind at medium distance, desks, a bag and a window, bright learning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The child knows the whole **alphabet**."
+  },
+  {
+    "phrase": "whisper",
+    "pos": "verb",
+    "sense": "speak-very-quietly",
+    "pronunciation": "/ˈwɪspɚ/",
+    "definition": "to speak very quietly so that only one person can hear.",
+    "categories": [
+      "communication"
+    ],
+    "level": "a2",
+    "present_example": "He **whispers** to his friend in class.",
+    "past_simple_example": "She **whispered** something to the baby.",
+    "past_participle_example": "They have **whispered** all through the film.",
+    "present_participle_example": "The children are **whispering** in the corner.",
+    "image": "voc_adc57bde",
+    "image_brief": "two students whispering behind a bookshelf in a library, from across the aisle at medium distance, carts, books and a lamp, secretive study mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She had to **whisper** in the library."
+  },
+  {
+    "phrase": "shout",
+    "pos": "verb",
+    "sense": "speak-very-loudly",
+    "pronunciation": "/ʃaʊt/",
+    "definition": "to speak very loudly.",
+    "categories": [
+      "communication",
+      "emotions"
+    ],
+    "level": "a2",
+    "present_example": "He **shouts** when he is angry.",
+    "past_simple_example": "She **shouted** across the field.",
+    "past_participle_example": "They have **shouted** at each other all day.",
+    "present_participle_example": "The coach is **shouting** at the team.",
+    "image": "voc_2f7a1153",
+    "image_brief": "a coach shouting from the touchline at a match, from across the field at wide distance, a bench, bottles and a bag, loud urgent mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Do not **shout** at the driver."
+  },
+  {
+    "phrase": "repeat",
+    "pos": "verb",
+    "sense": "say-or-do-again",
+    "pronunciation": "/rɪˈpiːt/",
+    "definition": "to say or do something again.",
+    "categories": [
+      "communication",
+      "education"
+    ],
+    "level": "a2",
+    "present_example": "She **repeats** the word three times.",
+    "past_simple_example": "He **repeated** the address slowly.",
+    "past_participle_example": "The teacher has **repeated** the rule twice.",
+    "present_participle_example": "The machine is **repeating** the same line.",
+    "image": "voc_1ad30538",
+    "image_brief": "a language student repeating a phrase after a recording, from the side at medium distance, headphones, a notebook and a window, focused practice mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Could you **repeat** the question?"
+  },
+  {
+    "phrase": "describe",
+    "pos": "verb",
+    "sense": "say-what-it-is-like",
+    "pronunciation": "/dɪˈskraɪb/",
+    "definition": "to say what someone or something is like.",
+    "categories": [
+      "communication"
+    ],
+    "level": "a2",
+    "present_example": "She **describes** the room in detail.",
+    "past_simple_example": "He **described** his trip to us.",
+    "past_participle_example": "They have **described** the plan as fair.",
+    "present_participle_example": "The guide is **describing** the painting.",
+    "image": "voc_c4763e02",
+    "image_brief": "a witness describing a scene at a table, from across the room at medium distance, a notebook, a lamp and a chair, careful serious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Please **describe** the man you saw."
+  },
+  {
+    "phrase": "discuss",
+    "pos": "verb",
+    "sense": "talk-about-with-others",
+    "pronunciation": "/dɪˈskʌs/",
+    "definition": "to talk about something with other people.",
+    "categories": [
+      "communication",
+      "work"
+    ],
+    "level": "a2",
+    "present_example": "They **discuss** the news every morning.",
+    "past_simple_example": "We **discussed** the offer for an hour.",
+    "past_participle_example": "The team has **discussed** the change.",
+    "present_participle_example": "The family is **discussing** the move.",
+    "image": "voc_f6522348",
+    "image_brief": "two colleagues discussing a chart at a desk, one pointing with a pen, from behind at medium distance, a laptop, cups and a window, productive work mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We need to **discuss** the schedule."
+  },
+  {
+    "phrase": "agree",
+    "pos": "verb",
+    "sense": "have-the-same-opinion",
+    "pronunciation": "/əˈɡriː/",
+    "definition": "to have the same opinion as someone else.",
+    "categories": [
+      "communication",
+      "relationships"
+    ],
+    "level": "a2",
+    "present_example": "She **agrees** with the teacher.",
+    "past_simple_example": "We **agreed** on a price.",
+    "past_participle_example": "They have **agreed** to help.",
+    "present_participle_example": "The two sides are **agreeing** on the main points.",
+    "image": "voc_d06f2f84",
+    "image_brief": "two people shaking hands over a table with a document, from the side at medium distance, a pen, glasses and a folder, settled business mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I **agree** with your plan."
+  },
+  {
+    "phrase": "disagree",
+    "pos": "verb",
+    "sense": "have-a-different-opinion",
+    "pronunciation": "/ˌdɪsəˈɡriː/",
+    "definition": "to have a different opinion from someone else.",
+    "categories": [
+      "communication",
+      "relationships"
+    ],
+    "level": "a2",
+    "present_example": "He **disagrees** with the coach.",
+    "past_simple_example": "They **disagreed** about the route.",
+    "past_participle_example": "We have **disagreed** on this before.",
+    "present_participle_example": "The parents are **disagreeing** about school.",
+    "image": "voc_c359fa0e",
+    "image_brief": "two people at a table with different papers, one holding up a hand, from across the room at medium distance, cups, a laptop and a bag, polite tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I **disagree** with that number."
+  },
+  {
+    "phrase": "mean",
+    "pos": "verb",
+    "sense": "have-a-particular-meaning",
+    "pronunciation": "/miːn/",
+    "definition": "to have a particular meaning.",
+    "categories": [
+      "communication",
+      "education"
+    ],
+    "level": "a2",
+    "present_example": "This sign **means** no parking.",
+    "past_simple_example": "I **meant** the other door.",
+    "past_participle_example": "I have **meant** to call you all week.",
+    "present_participle_example": "His silence is **meaning** more than his words.",
+    "image": "voc_0deffc67",
+    "image_brief": "a man pointing at a word on a sign and asking a passerby, from the side at medium distance, a bus stop, a bag and a bench, puzzled friendly mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "What does this word **mean**?"
+  },
+  {
+    "phrase": "translate",
+    "pos": "verb",
+    "sense": "change-into-another-language",
+    "pronunciation": "/trænsˈleɪt/",
+    "definition": "to change words from one language into another.",
+    "categories": [
+      "communication",
+      "education"
+    ],
+    "level": "a2",
+    "present_example": "She **translates** legal documents.",
+    "past_simple_example": "He **translated** the menu for us.",
+    "past_participle_example": "They have **translated** the whole site.",
+    "present_participle_example": "She is **translating** the report now.",
+    "image": "voc_c0b96e35",
+    "image_brief": "a woman at a counter translating between two people, one showing a form, from the side at medium distance, a queue, a phone and a plant, busy helpful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Can you **translate** this letter?"
+  },
+  {
+    "phrase": "pronounce",
+    "pos": "verb",
+    "sense": "say-the-sounds-of-a-word",
+    "pronunciation": "/prəˈnaʊns/",
+    "definition": "to say the sounds of a word in the correct way.",
+    "categories": [
+      "communication",
+      "education"
+    ],
+    "level": "a2",
+    "present_example": "He **pronounces** the word correctly.",
+    "past_simple_example": "She **pronounced** it with a French accent.",
+    "past_participle_example": "I have **pronounced** it wrong for years.",
+    "present_participle_example": "The class is **pronouncing** new words.",
+    "image": "voc_47b1453d",
+    "image_brief": "a teacher saying a word slowly while a student watches her mouth, from behind the student at medium distance, a board, desks and a bag, patient lesson mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "How do you **pronounce** your name?"
+  },
+  {
+    "phrase": "spell",
+    "pos": "verb",
+    "sense": "say-the-letters-in-order",
+    "pronunciation": "/spɛl/",
+    "definition": "to say or write the letters of a word in the correct order.",
+    "categories": [
+      "education",
+      "communication"
+    ],
+    "level": "a2",
+    "present_example": "She **spells** everything clearly.",
+    "past_simple_example": "He **spelled** the word for me.",
+    "past_participle_example": "They have **spelled** the address wrong.",
+    "present_participle_example": "The child is **spelling** simple words.",
+    "image": "voc_0501695a",
+    "image_brief": "a child spelling a word aloud at a kitchen table while a parent writes, from the side at medium distance, a notebook, a cup and a fridge, ordinary homework mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Can you **spell** your last name?"
+  },
+  {
+    "phrase": "greet",
+    "pos": "verb",
+    "sense": "say-hello-when-meeting",
+    "pronunciation": "/ɡriːt/",
+    "definition": "to say hello to someone when you meet them.",
+    "categories": [
+      "communication",
+      "relationships"
+    ],
+    "level": "a2",
+    "present_example": "He **greets** everyone by name.",
+    "past_simple_example": "We **greeted** the new neighbor.",
+    "past_participle_example": "They have **greeted** us warmly.",
+    "present_participle_example": "The host is **greeting** people at the gate.",
+    "image": "voc_f678ac9d",
+    "image_brief": "a hotel clerk greeting a guest at the reception desk, the guest pulling a suitcase, from across the lobby at medium distance, a key rack, plants and chairs, polite arrival mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She will **greet** the guests at the door."
+  },
+  {
+    "phrase": "interrupt",
+    "pos": "verb",
+    "sense": "speak-before-someone-finishes",
+    "pronunciation": "/ˌɪntəˈrʌpt/",
+    "definition": "to start speaking before someone else has finished.",
+    "categories": [
+      "communication"
+    ],
+    "level": "a2",
+    "present_example": "She **interrupts** when she is nervous.",
+    "past_simple_example": "He **interrupted** my sentence.",
+    "past_participle_example": "They have **interrupted** twice already.",
+    "present_participle_example": "The child is **interrupting** again.",
+    "image": "voc_b7e95518",
+    "image_brief": "a man raising a hand to interrupt a speaker at a meeting, from the side at medium distance, a laptop, papers and a screen, impatient office mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Please do not **interrupt** the speaker."
+  },
+  {
+    "phrase": "mention",
+    "pos": "verb",
+    "sense": "say-briefly",
+    "pronunciation": "/ˈmɛnʃən/",
+    "definition": "to say something quickly without giving much detail.",
+    "categories": [
+      "communication"
+    ],
+    "level": "a2",
+    "present_example": "She **mentions** it every time.",
+    "past_simple_example": "He **mentioned** your name.",
+    "past_participle_example": "They have **mentioned** the plan to me.",
+    "present_participle_example": "She is **mentioning** the price now.",
+    "image": "voc_87a0ebe6",
+    "image_brief": "a woman mentioning something to a colleague in a corridor, both walking, from behind at medium distance, a lift, a plant and a folder, quick exchange mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Did he **mention** the meeting?"
+  },
+  {
+    "phrase": "announce",
+    "pos": "verb",
+    "sense": "tell-people-officially",
+    "pronunciation": "/əˈnaʊns/",
+    "definition": "to tell people about something in an official way.",
+    "categories": [
+      "communication",
+      "work"
+    ],
+    "level": "a2",
+    "present_example": "He **announces** the news each morning.",
+    "past_simple_example": "She **announced** her new job.",
+    "past_participle_example": "They have **announced** the date.",
+    "present_participle_example": "The manager is **announcing** the changes.",
+    "image": "voc_b0ac493b",
+    "image_brief": "a manager announcing news to a small team in an office, one standing, from the back of the room at wide distance, desks, a screen and a window, attentive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They will **announce** the winner at noon."
+  },
+  {
+    "phrase": "warn",
+    "pos": "verb",
+    "sense": "tell-about-possible-danger",
+    "pronunciation": "/wɔrn/",
+    "definition": "to tell someone about a possible danger or problem.",
+    "categories": [
+      "communication"
+    ],
+    "level": "a2",
+    "present_example": "He **warns** us about the traffic.",
+    "past_simple_example": "She **warned** me about the dog.",
+    "past_participle_example": "They have **warned** the staff.",
+    "present_participle_example": "The guide is **warning** the group.",
+    "image": "voc_80f89501",
+    "image_brief": "a ranger warning a hiker at a trail sign, one pointing at the path, from the side at medium distance, a map, a stick and a fence, cautious outdoor mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I should **warn** you about the road."
+  },
+  {
+    "phrase": "suggest",
+    "pos": "verb",
+    "sense": "offer-an-idea",
+    "pronunciation": "/səɡˈdʒɛst/",
+    "definition": "to offer an idea for other people to think about.",
+    "categories": [
+      "communication",
+      "work"
+    ],
+    "level": "a2",
+    "present_example": "She **suggests** a shorter route.",
+    "past_simple_example": "He **suggested** a new time.",
+    "past_participle_example": "They have **suggested** several changes.",
+    "present_participle_example": "The doctor is **suggesting** more rest.",
+    "image": "voc_b5246779",
+    "image_brief": "a woman suggesting a dish to a friend at a cafe, one holding a menu, from across the table at medium distance, cups, a bag and a plant, friendly lunch mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I **suggest** we leave early."
+  },
+  {
+    "phrase": "advise",
+    "pos": "verb",
+    "sense": "tell-what-someone-should-do",
+    "pronunciation": "/ədˈvaɪz/",
+    "definition": "to tell someone what you think they should do.",
+    "categories": [
+      "communication",
+      "work"
+    ],
+    "level": "a2",
+    "present_example": "She **advises** the company on tax.",
+    "past_simple_example": "He **advised** me to stay.",
+    "past_participle_example": "They have **advised** us to cancel.",
+    "present_participle_example": "The nurse is **advising** the family.",
+    "image": "voc_81f0ad7e",
+    "image_brief": "a doctor advising a patient at a clinic desk, one writing on a form, from the side at medium distance, a chart, a lamp and a chair, calm medical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I **advise** you to wait."
+  },
+  {
+    "phrase": "comment",
+    "pos": "verb",
+    "sense": "give-an-opinion",
+    "pronunciation": "/ˈkɑmɛnt/",
+    "definition": "to give an opinion about something.",
+    "categories": [
+      "communication"
+    ],
+    "level": "a2",
+    "present_example": "She **comments** on every post.",
+    "past_simple_example": "The coach **commented** on the game.",
+    "past_participle_example": "They have **commented** on the delay.",
+    "present_participle_example": "The editor is **commenting** on the draft.",
+    "image": "voc_0e52e735",
+    "image_brief": "a man commenting on a photo on a laptop at a kitchen table, from over the shoulder at medium distance, a cup, a phone and a newspaper, casual evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He refused to **comment** on the story."
+  },
+  {
+    "phrase": "polite",
+    "pos": "adjective",
+    "sense": "behaving-kindly",
+    "pronunciation": "/pəˈlaɪt/",
+    "definition": "behaving in a friendly way and saying please and thank you.",
+    "categories": [
+      "communication",
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_358cb313",
+    "image_brief": "a young man holding a door open for an older woman, from the side at medium distance, a bag, an umbrella stand and a step, courteous everyday mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The waiter was **polite** and quick."
+  },
+  {
+    "phrase": "rude",
+    "pos": "adjective",
+    "sense": "behaving-in-an-upsetting-way",
+    "pronunciation": "/ruːd/",
+    "definition": "behaving in a way that upsets or offends other people.",
+    "categories": [
+      "communication",
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_e2ae91f7",
+    "image_brief": "a man talking on a phone at a restaurant table while his companion waits, from across the room at medium distance, plates, glasses and a menu, awkward annoyed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "It is **rude** to answer your phone at dinner."
+  },
+  {
+    "phrase": "honest",
+    "pos": "adjective",
+    "sense": "telling-the-truth",
+    "pronunciation": "/ˈɑnɪst/",
+    "definition": "telling the truth and not cheating or stealing.",
+    "categories": [
+      "communication",
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_ecd8c190",
+    "image_brief": "a boy admitting something to his father at a kitchen table, one adult listening, from across the table at medium distance, a cup, a bag and a clock, serious but warm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She was **honest** about the mistake."
+  },
+  {
+    "phrase": "silent",
+    "pos": "adjective",
+    "sense": "making-no-sound",
+    "pronunciation": "/ˈsaɪlənt/",
+    "definition": "making no sound at all.",
+    "categories": [
+      "communication"
+    ],
+    "level": "a2",
+    "image": "voc_bdefdd2d",
+    "image_brief": "a classroom of students working with no one speaking, one teacher at the front, from the back at wide distance, desks, books and a window, focused quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The room went **silent** when she entered."
+  },
+  {
+    "phrase": "screen",
+    "pos": "noun",
+    "sense": "flat-part-showing-pictures",
+    "pronunciation": "/skriːn/",
+    "definition": "the flat part of a phone, computer or television where you see pictures and text.",
+    "categories": [
+      "technology",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_ae5c965b",
+    "image_brief": "a woman holding a cracked phone at a kitchen table, from across the table at medium distance, a cup, keys and a charger, annoyed quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **screen** on my phone is cracked."
+  },
+  {
+    "phrase": "keyboard",
+    "pos": "noun",
+    "sense": "keys-for-typing",
+    "pronunciation": "/ˈkiːbɔrd/",
+    "definition": "the set of keys that you press to type on a computer.",
+    "categories": [
+      "technology",
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_9101de84",
+    "image_brief": "a man lifting a keyboard to wipe coffee from a desk, from the side at medium distance, a mug, papers and a monitor, small disaster mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He spilled coffee on the **keyboard**."
+  },
+  {
+    "phrase": "printer",
+    "pos": "noun",
+    "sense": "machine-that-puts-text-on-paper",
+    "pronunciation": "/ˈprɪntɚ/",
+    "definition": "a machine that puts text or pictures from a computer onto paper.",
+    "categories": [
+      "technology",
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_b91c7f41",
+    "image_brief": "a woman opening a printer tray to add paper in an office, from behind at medium distance, a desk, a folder and a plant, ordinary work mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **printer** is out of paper."
+  },
+  {
+    "phrase": "radio",
+    "pos": "noun",
+    "sense": "device-that-receives-broadcasts",
+    "pronunciation": "/ˈreɪdioʊ/",
+    "definition": "a device that receives sound broadcasts and plays them.",
+    "categories": [
+      "technology",
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_57493765",
+    "image_brief": "a driver turning the radio in a car, from over the shoulder at medium distance, a coffee cup, a map and rain on the windshield, quiet commute mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She listens to the **radio** in the car."
+  },
+  {
+    "phrase": "battery",
+    "pos": "noun",
+    "sense": "small-source-of-power",
+    "pronunciation": "/ˈbætɚi/",
+    "definition": "a small object that gives power to a device.",
+    "categories": [
+      "technology"
+    ],
+    "level": "a2",
+    "image": "voc_55f1970a",
+    "image_brief": "a man showing a low battery on his phone to a friend at a station, from the side at medium distance, a bag, a bench and a timetable, travel delay mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My **battery** dies before dinner."
+  },
+  {
+    "phrase": "charger",
+    "pos": "noun",
+    "sense": "device-that-refills-a-battery",
+    "pronunciation": "/ˈtʃɑrdʒɚ/",
+    "definition": "a device or cable that puts power back into a battery.",
+    "categories": [
+      "technology"
+    ],
+    "level": "a2",
+    "image": "voc_a6e3d4bc",
+    "image_brief": "a charger left plugged into a wall with a phone on the floor beside it, one person packing a bag, from across the room at medium distance, a suitcase, shoes and a coat, rushed departure mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I left my **charger** at the office."
+  },
+  {
+    "phrase": "cable",
+    "pos": "noun",
+    "sense": "thick-wire-for-power",
+    "pronunciation": "/ˈkeɪbəl/",
+    "definition": "a thick wire that carries power or signals.",
+    "categories": [
+      "technology",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_70381eca",
+    "image_brief": "a tangle of cables under a desk while one person crawls behind it, from the side at low angle and medium distance, a chair, a bin and a laptop bag, tangled office mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **cable** behind the desk is a mess."
+  },
+  {
+    "phrase": "plug",
+    "pos": "noun",
+    "sense": "end-of-a-wire-for-a-socket",
+    "pronunciation": "/plʌɡ/",
+    "definition": "the part at the end of a wire that goes into a socket.",
+    "categories": [
+      "technology",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_c95f277e",
+    "image_brief": "a hand pushing a plug into a wall socket, seen from the side at medium distance in a living room, a lamp, a sofa and a book, ordinary evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Put the **plug** into the wall socket."
+  },
+  {
+    "phrase": "password",
+    "pos": "noun",
+    "sense": "secret-word-for-an-account",
+    "pronunciation": "/ˈpæswɝd/",
+    "definition": "a secret word or set of letters that lets you use an account.",
+    "categories": [
+      "technology"
+    ],
+    "level": "a2",
+    "image": "voc_9a2c7725",
+    "image_brief": "a woman frowning at a login screen in an office, one coworker beside her, from behind at medium distance, a sticky note, a mug and a plant, small frustration mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I forgot my **password** again."
+  },
+  {
+    "phrase": "website",
+    "pos": "noun",
+    "sense": "pages-on-the-internet",
+    "pronunciation": "/ˈwɛbsaɪt/",
+    "definition": "a place on the internet with pages of information.",
+    "categories": [
+      "technology",
+      "communication"
+    ],
+    "level": "a2",
+    "image": "voc_3ecf9af7",
+    "image_brief": "a couple looking at a website on a laptop at a kitchen table, from across the table at medium distance, papers, cups and a phone, planning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Their **website** has all the prices."
+  },
+  {
+    "phrase": "internet",
+    "pos": "noun",
+    "sense": "worldwide-computer-network",
+    "pronunciation": "/ˈɪntɚnɛt/",
+    "definition": "the system that connects computers around the world.",
+    "categories": [
+      "technology",
+      "communication"
+    ],
+    "level": "a2",
+    "image": "voc_956f9542",
+    "image_brief": "a man checking a router on a shelf while a family waits in the living room, from behind at medium distance, a sofa, a television and a lamp, strained evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **internet** is slow in this building."
+  },
+  {
+    "phrase": "wifi",
+    "pos": "noun",
+    "sense": "wireless-internet-connection",
+    "pronunciation": "/ˈwaɪfaɪ/",
+    "definition": "a way of connecting to the internet without wires.",
+    "categories": [
+      "technology"
+    ],
+    "level": "a2",
+    "image": "voc_933392bf",
+    "image_brief": "a student working in a cafe with a laptop and a phone, from across the room at medium distance, cups, a bag and a window, focused afternoon mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The cafe gives free **wifi** to customers."
+  },
+  {
+    "phrase": "app",
+    "pos": "noun",
+    "sense": "program-on-a-phone",
+    "pronunciation": "/æp/",
+    "definition": "a program that you download and use on a phone or tablet.",
+    "categories": [
+      "technology"
+    ],
+    "level": "a2",
+    "image": "voc_b219dd60",
+    "image_brief": "a woman using a language app on her phone on a bus, from the side at medium distance, a bag, a window and headphones, quiet practice mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "This **app** helps me learn words."
+  },
+  {
+    "phrase": "file",
+    "pos": "noun",
+    "sense": "stored-information-with-a-name",
+    "pronunciation": "/faɪl/",
+    "definition": "a set of information stored on a computer under one name.",
+    "categories": [
+      "technology",
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_bc1e9724",
+    "image_brief": "a man attaching a file to an email at a desk, from over the shoulder at medium distance, a laptop, a coffee cup and a folder, routine work mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He sent the **file** in an email."
+  },
+  {
+    "phrase": "folder",
+    "pos": "noun",
+    "sense": "place-for-files",
+    "pronunciation": "/ˈfoʊldɚ/",
+    "definition": "a place on a computer where you keep files together.",
+    "categories": [
+      "technology",
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_e51cf9ac",
+    "image_brief": "a woman sorting photos into folders on a laptop, from the side at medium distance, a desk, a camera and a mug, tidy evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Save the photos in one **folder**."
+  },
+  {
+    "phrase": "video",
+    "pos": "noun",
+    "sense": "recording-of-moving-pictures",
+    "pronunciation": "/ˈvɪdioʊ/",
+    "definition": "a recording of moving pictures and sound.",
+    "categories": [
+      "technology",
+      "communication"
+    ],
+    "level": "a2",
+    "image": "voc_6340de76",
+    "image_brief": "a family watching a short video on a tablet in a living room, from behind at medium distance, a sofa, toys and a lamp, cozy evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She watched a short **video** about the city."
+  },
+  {
+    "phrase": "speaker",
+    "pos": "noun",
+    "sense": "device-that-makes-sound",
+    "pronunciation": "/ˈspiːkɚ/",
+    "definition": "a device that makes sound come out.",
+    "categories": [
+      "technology",
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_2dfc5a1a",
+    "image_brief": "a man turning up a small speaker on a shelf, from across the room at medium distance, books, a plant and a record player, relaxed weekend mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **speaker** on my laptop is too quiet."
+  },
+  {
+    "phrase": "headphones",
+    "pos": "noun",
+    "sense": "device-worn-over-the-ears",
+    "pronunciation": "/ˈhɛdfoʊnz/",
+    "definition": "a device that you wear over your ears to listen to something privately.",
+    "categories": [
+      "technology",
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_fa7a2980",
+    "image_brief": "a commuter wearing headphones on a train, from across the aisle at medium distance, a bag, a window and a coffee cup, private calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He wears **headphones** on the train."
+  },
+  {
+    "phrase": "microphone",
+    "pos": "noun",
+    "sense": "device-that-picks-up-sound",
+    "pronunciation": "/ˈmaɪkrəfoʊn/",
+    "definition": "a device that picks up sound so that it can be recorded or made louder.",
+    "categories": [
+      "technology",
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_ac2b943c",
+    "image_brief": "a teacher checking a microphone on a stand before a class, from the side at medium distance, chairs, a board and a cable, expectant room mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **microphone** was not working."
+  },
+  {
+    "phrase": "tablet",
+    "pos": "noun",
+    "sense": "flat-touch-screen-computer",
+    "pronunciation": "/ˈtæblət/",
+    "definition": "a flat computer with a touch screen.",
+    "categories": [
+      "technology"
+    ],
+    "level": "a2",
+    "image": "voc_ab862ef1",
+    "image_brief": "a child reading on a tablet in bed with a lamp on, from the doorway at medium distance, a teddy, a blanket and a glass, quiet bedtime mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The child reads on a **tablet**."
+  },
+  {
+    "phrase": "device",
+    "pos": "noun",
+    "sense": "machine-made-for-a-job",
+    "pronunciation": "/dɪˈvaɪs/",
+    "definition": "a machine or tool that is made for a particular job.",
+    "categories": [
+      "technology"
+    ],
+    "level": "a2",
+    "image": "voc_2f379c9a",
+    "image_brief": "a family putting phones and tablets into a box on a kitchen counter, from above at medium distance, a charger, keys and a bowl of fruit, tidy evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Turn off every **device** before bed."
+  },
+  {
+    "phrase": "software",
+    "pos": "noun",
+    "sense": "programs-for-a-computer",
+    "pronunciation": "/ˈsɔftwɛr/",
+    "definition": "the programs that make a computer work.",
+    "categories": [
+      "technology",
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_adba8dcf",
+    "image_brief": "a man clicking through a software update on an office computer, from behind at medium distance, a desk, a mug and a calendar, patient work mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **software** needs an update."
+  },
+  {
+    "phrase": "program",
+    "pos": "noun",
+    "sense": "set-of-computer-instructions",
+    "pronunciation": "/ˈproʊɡræm/",
+    "definition": "a set of instructions that a computer follows.",
+    "categories": [
+      "technology",
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_54d48a50",
+    "image_brief": "a student opening a program on a library computer, from the side at medium distance, books, a bag and a lamp, focused study mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "This **program** opens large files fast."
+  },
+  {
+    "phrase": "data",
+    "pos": "noun",
+    "sense": "facts-stored-by-a-computer",
+    "pronunciation": "/ˈdeɪtə/",
+    "definition": "facts and information that are stored or used by a computer.",
+    "categories": [
+      "technology",
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_c8fa2c83",
+    "image_brief": "a technician checking data on two screens in a small office, from behind at medium distance, a desk, cables and a cold cup, concentrated night mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The phone saved the **data** on the card."
+  },
+  {
+    "phrase": "network",
+    "pos": "noun",
+    "sense": "connected-computers",
+    "pronunciation": "/ˈnɛtwɝk/",
+    "definition": "several computers or devices that are connected together.",
+    "categories": [
+      "technology",
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_e5c9d876",
+    "image_brief": "an IT worker kneeling by a network box in a corridor, from the side at medium distance, a ladder, a toolbox and a door, maintenance mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The office **network** is down."
+  },
+  {
+    "phrase": "signal",
+    "pos": "noun",
+    "sense": "wave-that-carries-information",
+    "pronunciation": "/ˈsɪɡnəl/",
+    "definition": "a sound or wave that carries information.",
+    "categories": [
+      "technology",
+      "communication"
+    ],
+    "level": "a2",
+    "image": "voc_c48c98f7",
+    "image_brief": "a man holding a phone up in a tunnel entrance, from behind at medium distance, a car, a bag and a sign, impatient travel mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "There is no **signal** in the tunnel."
+  },
+  {
+    "phrase": "robot",
+    "pos": "noun",
+    "sense": "machine-that-works-by-itself",
+    "pronunciation": "/ˈroʊbɑt/",
+    "definition": "a machine that can move and do work by itself.",
+    "categories": [
+      "technology",
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_9111636f",
+    "image_brief": "a robot moving a box in a warehouse while one worker watches, from the side at wide distance, shelves, a pallet and a forklift, industrial mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **robot** moves boxes in the warehouse."
+  },
+  {
+    "phrase": "drone",
+    "pos": "noun",
+    "sense": "small-flying-machine",
+    "pronunciation": "/droʊn/",
+    "definition": "a small flying machine that is controlled from the ground.",
+    "categories": [
+      "technology",
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_dc3beb07",
+    "image_brief": "a man flying a drone over a field while a second person watches a screen, from behind at wide distance, a case, a fence and long grass, curious outdoor mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **drone** flew over the field."
+  },
+  {
+    "phrase": "blog",
+    "pos": "noun",
+    "sense": "website-with-regular-posts",
+    "pronunciation": "/blɑɡ/",
+    "definition": "a website where someone writes regular posts about a subject.",
+    "categories": [
+      "technology",
+      "communication"
+    ],
+    "level": "a2",
+    "image": "voc_a881f16e",
+    "image_brief": "a woman writing a blog post at a cafe table, from across the room at medium distance, a laptop, a cup and a camera, content afternoon mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She writes a travel **blog** every week."
+  },
+  {
+    "phrase": "podcast",
+    "pos": "noun",
+    "sense": "series-of-spoken-recordings",
+    "pronunciation": "/ˈpɑdkæst/",
+    "definition": "a series of spoken recordings that you can listen to online.",
+    "categories": [
+      "technology",
+      "communication"
+    ],
+    "level": "a2",
+    "image": "voc_8b84b34e",
+    "image_brief": "a woman listening to a podcast while walking a dog, from behind at medium distance in a park, a bench, a lamp and headphones, easy morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I listen to a **podcast** on my walk."
+  },
+  {
+    "phrase": "inbox",
+    "pos": "noun",
+    "sense": "where-new-email-arrives",
+    "pronunciation": "/ˈɪnbɑks/",
+    "definition": "the place where new email messages arrive.",
+    "categories": [
+      "technology",
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_29c18a69",
+    "image_brief": "a man staring at a full inbox on a laptop, from over the shoulder at medium distance, a mug, a phone and a notepad, overwhelmed office mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My **inbox** had forty new emails."
+  },
+  {
+    "phrase": "link",
+    "pos": "noun",
+    "sense": "words-you-click-to-open-a-page",
+    "pronunciation": "/lɪŋk/",
+    "definition": "words or a picture that you click to open another page.",
+    "categories": [
+      "technology",
+      "communication"
+    ],
+    "level": "a2",
+    "image": "voc_9f15c0d3",
+    "image_brief": "a woman pointing at a link on a screen while a friend leans in, from behind at medium distance, a desk, cups and a notebook, helpful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Click the **link** to open the page."
+  },
+  {
+    "phrase": "download",
+    "pos": "verb",
+    "sense": "move-a-file-onto-your-device",
+    "pronunciation": "/ˈdaʊnloʊd/",
+    "definition": "to move a file from the internet onto your device.",
+    "categories": [
+      "technology"
+    ],
+    "level": "a2",
+    "present_example": "She **downloads** a new app every week.",
+    "past_simple_example": "He **downloaded** the photos.",
+    "past_participle_example": "They have **downloaded** the whole course.",
+    "present_participle_example": "I am **downloading** a large file.",
+    "image": "voc_a6cde08c",
+    "image_brief": "a student downloading a document onto a laptop in a library, from the side at medium distance, books, a bag and a lamp, quiet focus mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "You can **download** the form from the site."
+  },
+  {
+    "phrase": "upload",
+    "pos": "verb",
+    "sense": "send-a-file-to-the-internet",
+    "pronunciation": "/ˈʌploʊd/",
+    "definition": "to send a file from your device to the internet.",
+    "categories": [
+      "technology"
+    ],
+    "level": "a2",
+    "present_example": "He **uploads** a video every Friday.",
+    "past_simple_example": "She **uploaded** the report.",
+    "past_participle_example": "They have **uploaded** the new menu.",
+    "present_participle_example": "The system is **uploading** the data.",
+    "image": "voc_1274b232",
+    "image_brief": "a photographer uploading photos at a desk, from behind at medium distance, a camera, a card reader and a cold cup, patient work mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Please **upload** the photos before noon."
+  },
+  {
+    "phrase": "click",
+    "pos": "verb",
+    "sense": "press-a-button",
+    "pronunciation": "/klɪk/",
+    "definition": "to press a button on a mouse or a screen.",
+    "categories": [
+      "technology"
+    ],
+    "level": "a2",
+    "present_example": "She **clicks** the link without reading.",
+    "past_simple_example": "He **clicked** the wrong file.",
+    "past_participle_example": "Someone has **clicked** the link.",
+    "present_participle_example": "The students are **clicking** through the pages.",
+    "image": "voc_f6f66a42",
+    "image_brief": "a man clicking a mouse at a desk while a colleague points at the screen, from behind at medium distance, papers, a mug and a window, ordinary office mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Click** the blue button to continue."
+  },
+  {
+    "phrase": "type",
+    "pos": "verb",
+    "sense": "write-with-a-keyboard",
+    "pronunciation": "/taɪp/",
+    "definition": "to write using a keyboard.",
+    "categories": [
+      "technology",
+      "work"
+    ],
+    "level": "a2",
+    "present_example": "She **types** very fast.",
+    "past_simple_example": "I **typed** the address wrong.",
+    "past_participle_example": "The report has been **typed**.",
+    "present_participle_example": "He is **typing** a message.",
+    "image": "voc_758b8e17",
+    "image_brief": "a woman typing fast at a small desk, from the side at medium distance, a laptop, a lamp and a notepad, busy evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He can **type** without looking."
+  },
+  {
+    "phrase": "delete",
+    "pos": "verb",
+    "sense": "remove-text-or-a-file",
+    "pronunciation": "/dɪˈliːt/",
+    "definition": "to remove text or a file.",
+    "categories": [
+      "technology",
+      "work"
+    ],
+    "level": "a2",
+    "present_example": "She **deletes** old emails every day.",
+    "past_simple_example": "He **deleted** the whole folder.",
+    "past_participle_example": "The photos have been **deleted**.",
+    "present_participle_example": "The program is **deleting** the old data.",
+    "image": "voc_269548b1",
+    "image_brief": "a man hovering over a delete button on a laptop, from over the shoulder at medium distance, a photo on the screen, a cup and a phone, hesitant mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Do not **delete** that file."
+  },
+  {
+    "phrase": "search",
+    "pos": "verb",
+    "sense": "look-for-information",
+    "pronunciation": "/sɝtʃ/",
+    "definition": "to look for information, a file or a place.",
+    "categories": [
+      "technology"
+    ],
+    "level": "a2",
+    "present_example": "She **searches** for new recipes.",
+    "past_simple_example": "He **searched** the whole site.",
+    "past_participle_example": "They have **searched** every folder.",
+    "present_participle_example": "The app is **searching** for a signal.",
+    "image": "voc_283aff1f",
+    "image_brief": "a woman searching for flights on a laptop at a kitchen table, from across the table at medium distance, a calendar, a cup and a bag, planning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I **search** for cheap flights online."
+  },
+  {
+    "phrase": "install",
+    "pos": "verb",
+    "sense": "put-a-program-on-a-device",
+    "pronunciation": "/ɪnˈstɔl/",
+    "definition": "to put a program onto a computer or phone so that it can be used.",
+    "categories": [
+      "technology",
+      "work"
+    ],
+    "level": "a2",
+    "present_example": "He **installs** a new game every month.",
+    "past_simple_example": "She **installed** the app on her phone.",
+    "past_participle_example": "The program has been **installed**.",
+    "present_participle_example": "The technician is **installing** the printer.",
+    "image": "voc_be260eaa",
+    "image_brief": "a technician installing a printer in an office, from the side at medium distance, cables, a box and a desk, practical work mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We need to **install** the update."
+  },
+  {
+    "phrase": "connect",
+    "pos": "verb",
+    "sense": "join-a-device-to-a-network",
+    "pronunciation": "/kəˈnɛkt/",
+    "definition": "to join a device to a network or to another device.",
+    "categories": [
+      "technology"
+    ],
+    "level": "a2",
+    "present_example": "It **connects** to the wifi quickly.",
+    "past_simple_example": "We **connected** the laptop to the printer.",
+    "past_participle_example": "They have **connected** the new device.",
+    "present_participle_example": "The phone is **connecting** to the network.",
+    "image": "voc_1c2bf3f6",
+    "image_brief": "a man connecting a cable to a laptop and a screen, from behind at medium distance, a desk, a mug and a bag, tidy setup mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Connect** the cable to the screen."
+  },
+  {
+    "phrase": "update",
+    "pos": "verb",
+    "sense": "add-the-newest-version",
+    "pronunciation": "/ʌpˈdeɪt/",
+    "definition": "to add the newest information or a newer version of something.",
+    "categories": [
+      "technology",
+      "work"
+    ],
+    "level": "a2",
+    "present_example": "She **updates** the site every morning.",
+    "past_simple_example": "He **updated** the app last night.",
+    "past_participle_example": "The software has been **updated**.",
+    "present_participle_example": "The team is **updating** the data now.",
+    "image": "voc_4ca13bb5",
+    "image_brief": "a woman updating an app on her phone at a bus stop, from the side at medium distance, a bag, a bench and a bus sign, waiting mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Please **update** your password."
+  },
+  {
+    "phrase": "browse",
+    "pos": "verb",
+    "sense": "look-at-internet-pages",
+    "pronunciation": "/braʊz/",
+    "definition": "to look at pages on the internet without a clear aim.",
+    "categories": [
+      "technology"
+    ],
+    "level": "a2",
+    "present_example": "She **browses** for hours on Sundays.",
+    "past_simple_example": "We **browsed** a few shops online.",
+    "past_participle_example": "He has **browsed** that page before.",
+    "present_participle_example": "They are **browsing** the photo gallery.",
+    "image": "voc_62e14788",
+    "image_brief": "a man browsing shops on a tablet on a sofa, from across the room at medium distance, a blanket, a cup and a lamp, lazy Sunday mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I **browse** the site when I am bored."
+  },
+  {
+    "phrase": "post",
+    "pos": "verb",
+    "sense": "put-words-or-photos-online",
+    "pronunciation": "/poʊst/",
+    "definition": "to put words, a photo or a video online for others to see.",
+    "categories": [
+      "technology",
+      "communication"
+    ],
+    "level": "a2",
+    "present_example": "He **posts** a video every week.",
+    "past_simple_example": "They **posted** the news last night.",
+    "past_participle_example": "She has **posted** the same picture twice.",
+    "present_participle_example": "The company is **posting** new jobs.",
+    "image": "voc_03aa7074",
+    "image_brief": "a woman posting a photo from her phone at a park bench, from the side at medium distance, a dog, a bag and trees, sunny casual mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She likes to **post** photos of her dog."
+  },
+  {
+    "phrase": "scroll",
+    "pos": "verb",
+    "sense": "move-a-page-on-a-screen",
+    "pronunciation": "/skroʊl/",
+    "definition": "to move text or a page up or down on a screen.",
+    "categories": [
+      "technology"
+    ],
+    "level": "a2",
+    "present_example": "He **scrolls** through the messages.",
+    "past_simple_example": "She **scrolled** past the advertisement.",
+    "past_participle_example": "I have **scrolled** too far.",
+    "present_participle_example": "He is **scrolling** on the sofa.",
+    "image": "voc_1de274eb",
+    "image_brief": "a teenager scrolling on a phone at a kitchen table, one parent nearby, from across the room at medium distance, a plate, a school bag and a clock, quiet evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "You can **scroll** down to see more."
+  },
+  {
+    "phrase": "charge",
+    "pos": "verb",
+    "sense": "put-power-into-a-battery",
+    "pronunciation": "/tʃɑrdʒ/",
+    "definition": "to put electricity into a battery.",
+    "categories": [
+      "technology"
+    ],
+    "level": "a2",
+    "present_example": "He **charges** the tablet at night.",
+    "past_simple_example": "She **charged** the battery before the trip.",
+    "past_participle_example": "The laptop has been **charged**.",
+    "present_participle_example": "The car is **charging** in the garage.",
+    "image": "voc_3bdf5ee8",
+    "image_brief": "a man plugging a phone into a charger at an airport seat, from the side at medium distance, a suitcase, a coffee and a departures screen, waiting travel mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I need to **charge** my phone."
+  },
+  {
+    "phrase": "record",
+    "pos": "verb",
+    "sense": "store-sound-for-later",
+    "pronunciation": "/rɪˈkɔrd/",
+    "definition": "to store sound or pictures so that they can be played again.",
+    "categories": [
+      "technology",
+      "music"
+    ],
+    "level": "a2",
+    "present_example": "She **records** every class.",
+    "past_simple_example": "He **recorded** the interview.",
+    "past_participle_example": "They have **recorded** the whole show.",
+    "present_participle_example": "The camera is **recording** now.",
+    "image": "voc_9d89f5d7",
+    "image_brief": "a musician recording a song with a microphone and a laptop, from the side at medium distance, a guitar, headphones and a lamp, focused creative mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Press this button to **record** the sound."
+  },
+  {
+    "phrase": "scan",
+    "pos": "verb",
+    "sense": "copy-a-document-into-a-computer",
+    "pronunciation": "/skæn/",
+    "definition": "to copy a document or picture into a computer.",
+    "categories": [
+      "technology",
+      "work"
+    ],
+    "level": "a2",
+    "present_example": "He **scans** every document.",
+    "past_simple_example": "She **scanned** the receipt into the system.",
+    "past_participle_example": "The photos have been **scanned**.",
+    "present_participle_example": "The machine is **scanning** the pages.",
+    "image": "voc_046d9dfe",
+    "image_brief": "a woman scanning a ticket at a station gate, from behind at medium distance, a suitcase, a queue and a sign, quick travel mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Scan** the ticket at the gate."
+  },
+  {
+    "phrase": "digital",
+    "pos": "adjective",
+    "sense": "using-computer-technology",
+    "pronunciation": "/ˈdɪdʒɪtəl/",
+    "definition": "using computer technology rather than paper or film.",
+    "categories": [
+      "technology"
+    ],
+    "level": "a2",
+    "image": "voc_77ae59c0",
+    "image_brief": "a digital clock on a bedside table beside a book and a glass, one person reaching to turn it, from above at medium distance, a lamp, slippers and a phone, quiet night mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **digital** clock is five minutes fast."
+  },
+  {
+    "phrase": "wireless",
+    "pos": "adjective",
+    "sense": "working-without-a-cable",
+    "pronunciation": "/ˈwaɪɚləs/",
+    "definition": "working without a cable.",
+    "categories": [
+      "technology"
+    ],
+    "level": "a2",
+    "image": "voc_e2783e24",
+    "image_brief": "a man holding up a wireless speaker in a garden while a friend sets a table behind, from the side at medium distance, chairs, a bottle and a plant, relaxed outdoor mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He bought a **wireless** speaker for the garden."
+  },
+  {
+    "phrase": "smart",
+    "pos": "adjective",
+    "sense": "able-to-work-by-itself",
+    "pronunciation": "/smɑrt/",
+    "definition": "able to work or connect by itself using a computer.",
+    "categories": [
+      "technology"
+    ],
+    "level": "a2",
+    "image": "voc_5601e32d",
+    "image_brief": "a woman asking a smart speaker in a kitchen while cooking, from across the room at medium distance, a pan, a recipe card and a kettle, easy domestic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My **smart** speaker plays the radio."
+  },
+  {
+    "phrase": "student",
+    "pos": "noun",
+    "sense": "person-who-studies",
+    "pronunciation": "/ˈstuːdənt/",
+    "definition": "a person who is studying at a school or college.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_3431efa2",
+    "image_brief": "a student with a heavy backpack walking into a school gate, one other student behind, from behind at medium distance, a bike rack, a notice board and wet leaves, ordinary morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Every **student** needs a notebook."
+  },
+  {
+    "phrase": "classroom",
+    "pos": "noun",
+    "sense": "room-for-lessons",
+    "pronunciation": "/ˈklæsruːm/",
+    "definition": "a room where a teacher and students have lessons.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_c2433c7a",
+    "image_brief": "a quiet classroom with rows of desks and one student writing, the teacher at the front, from the back at wide distance, a board, a window and bags on chairs, still test mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **classroom** was quiet during the test."
+  },
+  {
+    "phrase": "lesson",
+    "pos": "noun",
+    "sense": "time-when-someone-teaches",
+    "pronunciation": "/ˈlɛsən/",
+    "definition": "a period of time when someone teaches you something.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_441e717d",
+    "image_brief": "a teacher showing a short video on a screen while students watch, from the back of the room at wide distance, desks, notebooks and a blind, attentive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **lesson** started with a short video."
+  },
+  {
+    "phrase": "exam",
+    "pos": "noun",
+    "sense": "important-test-of-knowledge",
+    "pronunciation": "/ɪɡˈzæm/",
+    "definition": "an important test of what you know.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_7e48ff01",
+    "image_brief": "students writing at separate desks in a hall, one invigilator walking between rows, from the back at wide distance, clocks, bags at the side and papers, tense quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She passed her driving **exam**."
+  },
+  {
+    "phrase": "test",
+    "pos": "noun",
+    "sense": "short-set-of-questions",
+    "pronunciation": "/tɛst/",
+    "definition": "a short set of questions that checks what you know.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_98d8e9fa",
+    "image_brief": "a boy chewing a pencil over a test paper at a desk, one classmate finished beside him, from the side at medium distance, a clock, a water bottle and a bag, nervous focus mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We have a **test** on Friday."
+  },
+  {
+    "phrase": "grade",
+    "pos": "noun",
+    "sense": "mark-for-your-work",
+    "pronunciation": "/ɡreɪd/",
+    "definition": "a letter or number that shows how good your work is.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_d4f25f33",
+    "image_brief": "a girl showing a marked paper to her mother at a kitchen table, from across the table at medium distance, a mug, a school bag and a calendar, pleased family mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He got a good **grade** in math."
+  },
+  {
+    "phrase": "score",
+    "pos": "noun",
+    "sense": "points-in-a-test",
+    "pronunciation": "/skɔr/",
+    "definition": "the number of points you get in a test or game.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_c94b724c",
+    "image_brief": "a runner checking a scoreboard at a school track, one teammate beside them, from the side at wide distance, a stopwatch, a bottle and lane markings, hopeful effort mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **score** improved by ten points."
+  },
+  {
+    "phrase": "subject",
+    "pos": "noun",
+    "sense": "area-you-study",
+    "pronunciation": "/ˈsʌbdʒɪkt/",
+    "definition": "an area of knowledge that you study at school.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_7e407056",
+    "image_brief": "a timetable on a bedroom wall with books stacked below, one student pointing at a line, from the side at medium distance, a lamp, a bag and posters, planning evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Math is my hardest **subject**."
+  },
+  {
+    "phrase": "math",
+    "pos": "noun",
+    "sense": "subject-about-numbers",
+    "pronunciation": "/mæθ/",
+    "definition": "the school subject about numbers, amounts and shapes.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_6d2a3d78",
+    "image_brief": "a student working on sums on a board while the teacher watches, from behind at medium distance, desks, a calculator and chalk, focused lesson mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We have **math** before lunch."
+  },
+  {
+    "phrase": "science",
+    "pos": "noun",
+    "sense": "study-of-the-natural-world",
+    "pronunciation": "/ˈsaɪəns/",
+    "definition": "the study of the natural world and how it works.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_51f586f2",
+    "image_brief": "students in goggles watching a teacher pour liquid into a beaker, from the side at medium distance, a lab bench, bottles and a sink, curious careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Science** class is in the lab today."
+  },
+  {
+    "phrase": "history",
+    "pos": "noun",
+    "sense": "study-of-the-past",
+    "pronunciation": "/ˈhɪstɚi/",
+    "definition": "the study of what happened in the past.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_4a84467a",
+    "image_brief": "a class looking at an old map and photos on a table, one student holding a book, from across the room at medium distance, shelves, a lamp and chairs, absorbed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She reads about **history** for fun."
+  },
+  {
+    "phrase": "geography",
+    "pos": "noun",
+    "sense": "study-of-countries-and-maps",
+    "pronunciation": "/dʒiˈɑɡrəfi/",
+    "definition": "the study of countries, rivers, mountains and maps.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_b185ce61",
+    "image_brief": "a teacher pointing at a large map while students copy, from the back of the room at wide distance, desks, an atlas and a window, steady lesson mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Geography** teaches us about rivers."
+  },
+  {
+    "phrase": "art",
+    "pos": "noun",
+    "sense": "painting-and-drawing",
+    "pronunciation": "/ɑrt/",
+    "definition": "the activity of painting, drawing or making things.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_13f60633",
+    "image_brief": "a student painting at an easel in a bright studio, one classmate at the next easel, from the side at medium distance, jars, brushes and drying work, calm creative mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He takes an **art** class on Saturdays."
+  },
+  {
+    "phrase": "pencil",
+    "pos": "noun",
+    "sense": "tool-with-a-dark-center",
+    "pronunciation": "/ˈpɛnsəl/",
+    "definition": "a thin wooden tool with a dark center that you write or draw with.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_d023acef",
+    "image_brief": "a hand sharpening a pencil over a bin in a classroom, from the side at medium distance, desks, a case and shavings, small ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I need a **pencil** for this exercise."
+  },
+  {
+    "phrase": "eraser",
+    "pos": "noun",
+    "sense": "tool-that-rubs-out-pencil",
+    "pronunciation": "/ɪˈreɪsɚ/",
+    "definition": "a small object that you use to rub out pencil marks.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_adf77d6c",
+    "image_brief": "a girl rubbing out a mistake on her page, one friend leaning over, from above at medium distance, a pencil case, a ruler and a notebook, quiet correction mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She borrowed an **eraser** from her friend."
+  },
+  {
+    "phrase": "notebook",
+    "pos": "noun",
+    "sense": "book-of-empty-pages",
+    "pronunciation": "/ˈnoʊtbʊk/",
+    "definition": "a book of empty pages that you write notes in.",
+    "categories": [
+      "education",
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_b0c54a02",
+    "image_brief": "a man writing the date in a notebook at a training table, from over the shoulder at medium distance, a laptop, a cup and a folder, attentive work mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He wrote the date in his **notebook**."
+  },
+  {
+    "phrase": "chalk",
+    "pos": "noun",
+    "sense": "white-stick-for-writing",
+    "pronunciation": "/tʃɔk/",
+    "definition": "a soft white stick that you write on a board with.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_09e1836f",
+    "image_brief": "a teacher writing with chalk on a blackboard, students at desks behind, from the back of the room at wide distance, a duster, papers and a window, classic lesson mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The teacher picked up a piece of **chalk**."
+  },
+  {
+    "phrase": "ruler",
+    "pos": "noun",
+    "sense": "tool-for-measuring-lines",
+    "pronunciation": "/ˈruːlɚ/",
+    "definition": "a flat straight tool that you use to measure or draw lines.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_bb477b9b",
+    "image_brief": "a boy drawing a straight line with a ruler, one classmate watching, from above at medium distance, a notebook, pencils and a bag, careful school mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Use a **ruler** to draw a straight line."
+  },
+  {
+    "phrase": "term",
+    "pos": "noun",
+    "sense": "part-of-a-school-year",
+    "pronunciation": "/tɝm/",
+    "definition": "one of the periods that a school year is divided into.",
+    "categories": [
+      "education",
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_ad909964",
+    "image_brief": "a calendar with the first day of term circled, a parent and child at a kitchen table, from above at medium distance, a uniform, a bag and a cup, preparing mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The new **term** begins in September."
+  },
+  {
+    "phrase": "course",
+    "pos": "noun",
+    "sense": "series-of-lessons",
+    "pronunciation": "/kɔrs/",
+    "definition": "a series of lessons on one subject.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_4b7ed19d",
+    "image_brief": "adults at a language course table with books and headphones, one teacher standing, from across the room at wide distance, a board, cups and bags, focused evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She signed up for an English **course**."
+  },
+  {
+    "phrase": "college",
+    "pos": "noun",
+    "sense": "place-to-study-after-school",
+    "pronunciation": "/ˈkɑlɪdʒ/",
+    "definition": "a place where students study after they finish high school.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_cc8c6bb1",
+    "image_brief": "students crossing a college courtyard with bags and folders, one sitting on a bench, from across the yard at wide distance, bikes, a notice board and trees, busy campus mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He started **college** last fall."
+  },
+  {
+    "phrase": "knowledge",
+    "pos": "noun",
+    "sense": "what-you-know-and-understand",
+    "pronunciation": "/ˈnɑlɪdʒ/",
+    "definition": "the information and understanding that you have.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_fe38f0e4",
+    "image_brief": "an older man showing a child a book of maps at a table, from the side at medium distance, a lamp, glasses and a cup, passing-on mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The course gave me new **knowledge**."
+  },
+  {
+    "phrase": "diploma",
+    "pos": "noun",
+    "sense": "paper-showing-you-finished",
+    "pronunciation": "/dɪˈploʊmə/",
+    "definition": "a document that shows you have finished a course of study.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_23fd0b0f",
+    "image_brief": "a graduate holding a diploma while a parent takes a photo, from the side at medium distance, chairs, flowers and a camera, proud family mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She framed her **diploma** and hung it up."
+  },
+  {
+    "phrase": "certificate",
+    "pos": "noun",
+    "sense": "official-paper-that-proves",
+    "pronunciation": "/sɚˈtɪfɪkət/",
+    "definition": "an official paper that proves something is true or finished.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_28502cbb",
+    "image_brief": "a woman receiving a certificate from an instructor at a small ceremony, from behind at medium distance, a table, a folder and a banner, quiet pride mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He got a **certificate** after the course."
+  },
+  {
+    "phrase": "scholarship",
+    "pos": "noun",
+    "sense": "money-for-a-student",
+    "pronunciation": "/ˈskɑlɚʃɪp/",
+    "definition": "money that is given to a student to help pay for their studies.",
+    "categories": [
+      "education",
+      "money"
+    ],
+    "level": "a2",
+    "image": "voc_fbad19c4",
+    "image_brief": "a student reading an award letter at a kitchen table, one parent beside them, from across the table at medium distance, a laptop, a cup and a bag, relieved joyful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She won a **scholarship** to study abroad."
+  },
+  {
+    "phrase": "essay",
+    "pos": "noun",
+    "sense": "short-piece-of-writing",
+    "pronunciation": "/ˈɛseɪ/",
+    "definition": "a short piece of writing about one subject.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_575e7d5a",
+    "image_brief": "a student writing an essay at a desk late in the evening, from the side at medium distance, books, a lamp and a cold cup, focused tired mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I have to write an **essay** by Monday."
+  },
+  {
+    "phrase": "presentation",
+    "pos": "noun",
+    "sense": "talk-showing-information",
+    "pronunciation": "/ˌprɛzənˈteɪʃən/",
+    "definition": "a talk in which you show information to a group of people.",
+    "categories": [
+      "education",
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_192f42c7",
+    "image_brief": "a student giving a presentation beside a screen while classmates watch, from the back at wide distance, desks, a laptop and notes, nervous focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "His **presentation** lasted ten minutes."
+  },
+  {
+    "phrase": "mark",
+    "pos": "noun",
+    "sense": "symbol-showing-quality",
+    "pronunciation": "/mɑrk/",
+    "definition": "a symbol or number that shows how good a piece of work is.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_4bc9a1be",
+    "image_brief": "a teacher writing a mark on a paper while a student waits at the desk, from the side at medium distance, a red pen, a pile of papers and a mug, quiet moment mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She got the highest **mark** in the class."
+  },
+  {
+    "phrase": "result",
+    "pos": "noun",
+    "sense": "score-at-the-end",
+    "pronunciation": "/rɪˈzʌlt/",
+    "definition": "the score or answer that you get at the end of something.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_94efa477",
+    "image_brief": "a group of students checking results on a board in a corridor, one pointing, from behind at wide distance, a door, bags and a clock, anxious excited mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **result** will be online tomorrow."
+  },
+  {
+    "phrase": "semester",
+    "pos": "noun",
+    "sense": "half-of-a-school-year",
+    "pronunciation": "/sɪˈmɛstɚ/",
+    "definition": "one of the two main parts of a school or college year.",
+    "categories": [
+      "education",
+      "time"
+    ],
+    "level": "a2",
+    "image": "voc_7dd0eb12",
+    "image_brief": "a wall calendar marking the end of one semester, a student marking it with a pen, from the side at medium distance, books, a lamp and a bag, turning-point mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **semester** ends in December."
+  },
+  {
+    "phrase": "tutor",
+    "pos": "noun",
+    "sense": "person-who-teaches-one-student",
+    "pronunciation": "/ˈtuːtɚ/",
+    "definition": "a person who teaches one student or a small group.",
+    "categories": [
+      "education",
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_d20fd599",
+    "image_brief": "a tutor and a student working through problems at a small table, from across the room at medium distance, books, pencils and cups, patient one-to-one mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My **tutor** helps me with math."
+  },
+  {
+    "phrase": "professor",
+    "pos": "noun",
+    "sense": "teacher-at-a-college",
+    "pronunciation": "/prəˈfɛsɚ/",
+    "definition": "a teacher at a college or university.",
+    "categories": [
+      "education",
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_3da5bca0",
+    "image_brief": "a professor talking with two students after a lecture, from the side at medium distance, a lectern, chairs and a board, approachable academic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **professor** answered every question."
+  },
+  {
+    "phrase": "lecture",
+    "pos": "noun",
+    "sense": "long-teaching-talk",
+    "pronunciation": "/ˈlɛktʃɚ/",
+    "definition": "a long talk that is given to teach a group of people.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_15f5a3c0",
+    "image_brief": "a lecturer speaking to a large hall of students, one taking notes in the front row, from the side at wide distance, a screen, bags and water bottles, attentive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **lecture** was long but useful."
+  },
+  {
+    "phrase": "textbook",
+    "pos": "noun",
+    "sense": "book-for-studying-a-subject",
+    "pronunciation": "/ˈtɛkstbʊk/",
+    "definition": "a book that is used for studying a subject.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_43a35cf9",
+    "image_brief": "a student opening a textbook at a library table, from across the table at medium distance, a notebook, a lamp and headphones, quiet study mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Open your **textbook** to page twenty."
+  },
+  {
+    "phrase": "quiz",
+    "pos": "noun",
+    "sense": "short-test-with-few-questions",
+    "pronunciation": "/kwɪz/",
+    "definition": "a short test with a few questions.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_afd40640",
+    "image_brief": "students answering a short quiz on paper at their desks, one teacher watching, from the back at wide distance, a clock, pencils and bags, quick focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We had a short **quiz** this morning."
+  },
+  {
+    "phrase": "blackboard",
+    "pos": "noun",
+    "sense": "dark-board-for-chalk",
+    "pronunciation": "/ˈblækbɔrd/",
+    "definition": "a dark board that you write on with chalk in a classroom.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_94564340",
+    "image_brief": "a dark board covered in sums with a teacher adding a line, one student copying, from the back at medium distance, desks, chalk and a window, ordinary lesson mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The teacher wrote the rule on the **blackboard**."
+  },
+  {
+    "phrase": "practice",
+    "pos": "noun",
+    "sense": "doing-something-again-to-improve",
+    "pronunciation": "/ˈpræktɪs/",
+    "definition": "time that you spend doing something again in order to get better.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_2f0404bb",
+    "image_brief": "a student practising handwriting in a notebook at a kitchen table, from above at medium distance, a pencil, a lamp and a cup, patient evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Practice** makes a big difference."
+  },
+  {
+    "phrase": "revise",
+    "pos": "verb",
+    "sense": "study-again-before-a-test",
+    "pronunciation": "/rɪˈvaɪz/",
+    "definition": "to study again what you have learned before a test.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "present_example": "She **revises** every evening.",
+    "past_simple_example": "He **revised** all weekend.",
+    "past_participle_example": "They have **revised** the whole chapter.",
+    "present_participle_example": "The students are **revising** in the library.",
+    "image": "voc_553f61b2",
+    "image_brief": "a teenager revising with notes spread on a bed, one parent bringing tea, from the doorway at medium distance, books, a lamp and a bag, steady exam mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I need to **revise** for the exam."
+  },
+  {
+    "phrase": "fail",
+    "pos": "verb",
+    "sense": "not-succeed-in-a-test",
+    "pronunciation": "/feɪl/",
+    "definition": "to not succeed in a test or course.",
+    "categories": [
+      "education",
+      "emotions"
+    ],
+    "level": "a2",
+    "present_example": "He **fails** when he does not study.",
+    "past_simple_example": "She **failed** the test twice.",
+    "past_participle_example": "They have **failed** this course before.",
+    "present_participle_example": "He is **failing** two subjects.",
+    "image": "voc_93a4dd34",
+    "image_brief": "a student looking at a failed test paper on a bench, one friend sitting beside them, from across the yard at wide distance, a bag, a ball and a fence, quiet disappointed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Do not **fail** the exam because of nerves."
+  },
+  {
+    "phrase": "graduate",
+    "pos": "verb",
+    "sense": "finish-your-studies",
+    "pronunciation": "/ˈɡrædʒueɪt/",
+    "definition": "to finish your studies at a school or college.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "present_example": "He **graduates** this year.",
+    "past_simple_example": "We **graduated** from the same school.",
+    "past_participle_example": "They have **graduated** already.",
+    "present_participle_example": "My sister is **graduating** next week.",
+    "image": "voc_41090abe",
+    "image_brief": "graduates in caps throwing them up outside a college building, one parent filming, from the front at wide distance, steps, banners and bags, joyful loud mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She will **graduate** in June."
+  },
+  {
+    "phrase": "attend",
+    "pos": "verb",
+    "sense": "be-present-at-a-class",
+    "pronunciation": "/əˈtɛnd/",
+    "definition": "to be present at a class, meeting or event.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "present_example": "She **attends** a night course.",
+    "past_simple_example": "He **attended** every lecture.",
+    "past_participle_example": "They have **attended** the same school.",
+    "present_participle_example": "She is **attending** a conference.",
+    "image": "voc_8efa6c51",
+    "image_brief": "a student signing a sheet at a classroom door before a lecture, from the side at medium distance, a queue, bags and a notice board, routine morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "All students must **attend** the first class."
+  },
+  {
+    "phrase": "memorize",
+    "pos": "verb",
+    "sense": "learn-to-remember-exactly",
+    "pronunciation": "/ˈmɛməraɪz/",
+    "definition": "to learn something so that you can remember it exactly.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "present_example": "He **memorizes** every formula.",
+    "past_simple_example": "She **memorized** the whole poem.",
+    "past_participle_example": "They have **memorized** the answers.",
+    "present_participle_example": "The class is **memorizing** the dates.",
+    "image": "voc_0b795710",
+    "image_brief": "a girl repeating words from cards on a bedroom floor, from above at medium distance, a lamp, a teddy and a notebook, diligent quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Try to **memorize** ten words a day."
+  },
+  {
+    "phrase": "review",
+    "pos": "verb",
+    "sense": "look-again-at-what-you-studied",
+    "pronunciation": "/rɪˈvjuː/",
+    "definition": "to look again at what you have studied or read.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "present_example": "She **reviews** her notes before bed.",
+    "past_simple_example": "We **reviewed** the chapter together.",
+    "past_participle_example": "They have **reviewed** the whole unit.",
+    "present_participle_example": "He is **reviewing** for the final.",
+    "image": "voc_dc60e385",
+    "image_brief": "a student reviewing notes at a desk with a highlighter, from over the shoulder at medium distance, books, a lamp and a bottle, methodical evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Let us **review** the last lesson."
+  },
+  {
+    "phrase": "correct",
+    "pos": "verb",
+    "sense": "make-something-right",
+    "pronunciation": "/kəˈrɛkt/",
+    "definition": "to make something right by changing the mistakes in it.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "present_example": "She **corrects** our homework every day.",
+    "past_simple_example": "He **corrected** my spelling.",
+    "past_participle_example": "The tests have been **corrected**.",
+    "present_participle_example": "The teacher is **correcting** the exams.",
+    "image": "voc_3f702b64",
+    "image_brief": "a teacher marking corrections on a paper with a red pen, from the side at medium distance, a pile of papers, a mug and glasses, careful work mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Please **correct** the mistakes in red."
+  },
+  {
+    "phrase": "improve",
+    "pos": "verb",
+    "sense": "become-better",
+    "pronunciation": "/ɪmˈpruːv/",
+    "definition": "to become better, or to make something better.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "present_example": "His grades **improve** each term.",
+    "past_simple_example": "She **improved** after the extra lessons.",
+    "past_participle_example": "They have **improved** a lot this year.",
+    "present_participle_example": "The class is **improving** slowly.",
+    "image": "voc_525f7a19",
+    "image_brief": "a student comparing an old and a new test paper, one tutor beside them, from across the table at medium distance, a folder, a pen and a glass, encouraging mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Reading every day will **improve** your writing."
+  },
+  {
+    "phrase": "concentrate",
+    "pos": "verb",
+    "sense": "give-all-your-attention",
+    "pronunciation": "/ˈkɑnsəntreɪt/",
+    "definition": "to give all your attention to one thing.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "present_example": "She **concentrates** best in the morning.",
+    "past_simple_example": "He **concentrated** on one question at a time.",
+    "past_participle_example": "They have **concentrated** on grammar this term.",
+    "present_participle_example": "The students are **concentrating** on the quiz.",
+    "image": "voc_5dd4a749",
+    "image_brief": "a student working with headphones in a busy library, one person walking past, from the side at medium distance, books, a laptop and a bottle, focused still mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I cannot **concentrate** with the radio on."
+  },
+  {
+    "phrase": "focus",
+    "pos": "verb",
+    "sense": "give-attention-to-one-thing",
+    "pronunciation": "/ˈfoʊkəs/",
+    "definition": "to give your attention to one particular thing.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "present_example": "He **focuses** on the hardest subject first.",
+    "past_simple_example": "We **focused** on speaking practice.",
+    "past_participle_example": "She has **focused** on writing this month.",
+    "present_participle_example": "The class is **focusing** on pronunciation.",
+    "image": "voc_605e5e3e",
+    "image_brief": "a boy leaning over one page with his hands on his ears while others talk behind, from across the room at medium distance, desks, bags and a clock, determined mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Try to **focus** on one task."
+  },
+  {
+    "phrase": "organize",
+    "pos": "verb",
+    "sense": "plan-and-arrange-things",
+    "pronunciation": "/ˈɔrɡənaɪz/",
+    "definition": "to plan and arrange things in a clear order.",
+    "categories": [
+      "education",
+      "work"
+    ],
+    "level": "a2",
+    "present_example": "She **organizes** study groups every week.",
+    "past_simple_example": "He **organized** his folders by subject.",
+    "past_participle_example": "They have **organized** a school trip.",
+    "present_participle_example": "The teacher is **organizing** the exam papers.",
+    "image": "voc_ec9a4a31",
+    "image_brief": "a woman sorting papers into folders on a desk, from above at medium distance, a lamp, a calendar and a mug, methodical evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "You should **organize** your notes before the test."
+  },
+  {
+    "phrase": "clever",
+    "pos": "adjective",
+    "sense": "able-to-learn-quickly",
+    "pronunciation": "/ˈklɛvɚ/",
+    "definition": "able to learn and understand things quickly.",
+    "categories": [
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_0d32027d",
+    "image_brief": "a girl solving a puzzle on the floor while an adult watches, from the side at medium distance, toys, books and a cup, bright pleased mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She is a **clever** student."
+  },
+  {
+    "phrase": "strict",
+    "pos": "adjective",
+    "sense": "making-people-obey-rules",
+    "pronunciation": "/strɪkt/",
+    "definition": "making people obey rules exactly.",
+    "categories": [
+      "education",
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_12548d08",
+    "image_brief": "a teacher standing at the front of a silent class with arms crossed, from the back at wide distance, desks, a board and a clock, firm quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Our teacher is **strict** about homework."
   }
 ]
