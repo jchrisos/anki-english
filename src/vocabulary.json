@@ -18413,5 +18413,1517 @@
     "image": "voc_12548d08",
     "image_brief": "a teacher standing at the front of a silent class with arms crossed, from the back at wide distance, desks, a board and a clock, firm quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
     "example": "Our teacher is **strict** about homework."
+  },
+  {
+    "phrase": "player",
+    "pos": "noun",
+    "sense": "person-who-plays-a-sport",
+    "pronunciation": "/ˈpleɪɚ/",
+    "definition": "a person who plays a sport or game.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "image": "voc_d0524935",
+    "image_brief": "a young player tying boots on a bench before a match, one teammate beside, from the side at medium distance, a bag, a ball and a water bottle, focused pre-game mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Their best **player** scored twice."
+  },
+  {
+    "phrase": "coach",
+    "pos": "noun",
+    "sense": "person-who-trains-a-team",
+    "pronunciation": "/koʊtʃ/",
+    "definition": "a person who trains a team or a player.",
+    "categories": [
+      "sports",
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_abb6cdb7",
+    "image_brief": "a coach with a clipboard talking to four players in a changing room, from behind at medium distance, benches, kit bags and a tactics board, serious talk mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **coach** changed the team at halftime."
+  },
+  {
+    "phrase": "match",
+    "pos": "noun",
+    "sense": "game-between-two-sides",
+    "pronunciation": "/mætʃ/",
+    "definition": "a game between two teams or players.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "image": "voc_a95e94ff",
+    "image_brief": "two small teams playing on a local pitch while a few parents watch, wide shot from behind the goal, a net, a bench and long grass, weekend afternoon mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **match** starts at three."
+  },
+  {
+    "phrase": "goal",
+    "pos": "noun",
+    "sense": "point-scored-in-the-net",
+    "pronunciation": "/ɡoʊl/",
+    "definition": "a point scored when the ball goes into the net.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "image": "voc_eeac1447",
+    "image_brief": "a ball hitting the back of a net while a goalkeeper turns, one striker with arms up, from the side at medium distance, posts, a water bottle and a line of spectators, sudden joy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He scored the winning **goal**."
+  },
+  {
+    "phrase": "ball",
+    "pos": "noun",
+    "sense": "round-object-for-games",
+    "pronunciation": "/bɔl/",
+    "definition": "a round object that is used in many games.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "image": "voc_a1bb4ce1",
+    "image_brief": "a scuffed ball resting against a wall after going over it, one boy looking up at the wall, from the side at medium distance, a gate, a bike and chalk marks, small delay mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **ball** went over the wall."
+  },
+  {
+    "phrase": "referee",
+    "pos": "noun",
+    "sense": "person-who-checks-the-rules",
+    "pronunciation": "/ˌrɛfəˈriː/",
+    "definition": "a person who makes sure the players follow the rules.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "image": "voc_6b2c1ec9",
+    "image_brief": "a referee holding up a yellow card while two players argue nearby, from the side at medium distance, a whistle, a flag and painted lines, tense match mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **referee** stopped the game."
+  },
+  {
+    "phrase": "court",
+    "pos": "noun",
+    "sense": "area-for-tennis-or-basketball",
+    "pronunciation": "/kɔrt/",
+    "definition": "the area where tennis or basketball is played.",
+    "categories": [
+      "sports",
+      "city"
+    ],
+    "level": "a2",
+    "image": "voc_0019dabe",
+    "image_brief": "two people practicing serves on an empty tennis court at sunset, from behind at wide distance, a net, bags and a bench, calm evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They practiced on the **court** after school."
+  },
+  {
+    "phrase": "race",
+    "pos": "noun",
+    "sense": "competition-for-the-fastest",
+    "pronunciation": "/reɪs/",
+    "definition": "a competition to see who is the fastest.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "image": "voc_27136709",
+    "image_brief": "runners crossing a finish line under a tape while one official holds a stopwatch, from the side at wide distance, cones, bottles and a scoreboard, fast bright mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She won the **race** by a second."
+  },
+  {
+    "phrase": "medal",
+    "pos": "noun",
+    "sense": "metal-disc-for-a-winner",
+    "pronunciation": "/ˈmɛdəl/",
+    "definition": "a metal disc that is given to a winner.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "image": "voc_16f9ed4f",
+    "image_brief": "a girl wearing a medal on a school field while a parent takes a photo, from the side at medium distance, a bag, a coach and chairs, proud simple mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He won a gold **medal**."
+  },
+  {
+    "phrase": "winner",
+    "pos": "noun",
+    "sense": "person-or-team-that-wins",
+    "pronunciation": "/ˈwɪnɚ/",
+    "definition": "the person or team that wins a game or competition.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "image": "voc_7b36f840",
+    "image_brief": "a boy holding up a small cup at the end of a tournament, teammates around him, from the front at medium distance, bags, a bench and a ball, bright cheering mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **winner** gets a small cup."
+  },
+  {
+    "phrase": "loser",
+    "pos": "noun",
+    "sense": "person-or-team-that-does-not-win",
+    "pronunciation": "/ˈluːzɚ/",
+    "definition": "the person or team that does not win a game.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "image": "voc_79774e00",
+    "image_brief": "a player sitting on the grass after a loss while the other team shakes hands, from across the field at wide distance, a bag, a bottle and the net, quiet deflated mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **loser** shook hands with the other team."
+  },
+  {
+    "phrase": "champion",
+    "pos": "noun",
+    "sense": "best-player-in-a-competition",
+    "pronunciation": "/ˈtʃæmpiən/",
+    "definition": "the best player or team in a competition.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "image": "voc_c699d064",
+    "image_brief": "a champion lifting a belt above a crowd in a small hall, from behind at wide distance, a ring, chairs and lights, loud triumphant mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She is the **champion** of the city."
+  },
+  {
+    "phrase": "trophy",
+    "pos": "noun",
+    "sense": "cup-given-to-the-winner",
+    "pronunciation": "/ˈtroʊfi/",
+    "definition": "a cup or object that is given to the winner.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "image": "voc_7cf3fa4b",
+    "image_brief": "a team lifting a trophy on a small stage while one coach films, from the front at wide distance, banners, a table and glasses, warm celebration mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They lifted the **trophy** together."
+  },
+  {
+    "phrase": "fitness",
+    "pos": "noun",
+    "sense": "state-of-being-strong",
+    "pronunciation": "/ˈfɪtnəs/",
+    "definition": "the state of being strong and healthy.",
+    "categories": [
+      "health",
+      "sports"
+    ],
+    "level": "a2",
+    "image": "voc_c9e61dd3",
+    "image_brief": "a man walking up hill steps with a water bottle, from behind at medium distance, a bench, a sign and trees, steady effort mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Walking improves your **fitness**."
+  },
+  {
+    "phrase": "racket",
+    "pos": "noun",
+    "sense": "bat-with-strings",
+    "pronunciation": "/ˈrækɪt/",
+    "definition": "a bat with strings that is used in tennis.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "image": "voc_3ceda658",
+    "image_brief": "a racket left on a bench beside a bag and a ball, one player stretching behind, from the side at medium distance, a net, a bottle and a fence, quiet club mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I left my **racket** in the car."
+  },
+  {
+    "phrase": "net",
+    "pos": "noun",
+    "sense": "material-that-divides-a-court",
+    "pronunciation": "/nɛt/",
+    "definition": "a material with holes that divides a court or catches a ball.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "image": "voc_36019e36",
+    "image_brief": "a ball caught in the net on a driveway hoop while one child jumps for it, from the side at medium distance, a garage, a bin and chalk marks, ordinary playful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The ball hit the **net**."
+  },
+  {
+    "phrase": "bat",
+    "pos": "noun",
+    "sense": "stick-used-to-hit-a-ball",
+    "pronunciation": "/bæt/",
+    "definition": "a wooden or metal stick that is used to hit a ball.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "image": "voc_c01fd7f6",
+    "image_brief": "a boy swinging a bat at a ball in a back garden with one adult fielding, from the side at medium distance, a fence, a bucket and a shed, easy summer mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He swung the **bat** too late."
+  },
+  {
+    "phrase": "athlete",
+    "pos": "noun",
+    "sense": "person-good-at-sport",
+    "pronunciation": "/ˈæθliːt/",
+    "definition": "a person who is good at sports and trains hard.",
+    "categories": [
+      "sports",
+      "health"
+    ],
+    "level": "a2",
+    "image": "voc_90a844cd",
+    "image_brief": "an athlete running alone on a track at dawn, from the side at wide distance, hurdles, a bag and a water bottle, solitary effort mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Every **athlete** trains every day."
+  },
+  {
+    "phrase": "tournament",
+    "pos": "noun",
+    "sense": "competition-with-many-matches",
+    "pronunciation": "/ˈtʊrnəmənt/",
+    "definition": "a competition with several matches.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "image": "voc_24ccef96",
+    "image_brief": "a board showing tournament pairings in a sports hall while one player reads it, from behind at medium distance, bags, chairs and a clock, waiting mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **tournament** lasts four days."
+  },
+  {
+    "phrase": "final",
+    "pos": "noun",
+    "sense": "last-match-of-a-competition",
+    "pronunciation": "/ˈfaɪnəl/",
+    "definition": "the last match in a competition.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "image": "voc_69d2bcb1",
+    "image_brief": "two teams lined up before a final on a small pitch with a referee between them, from behind at wide distance, flags, bottles and a bench, tense bright mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They reached the **final** for the first time."
+  },
+  {
+    "phrase": "cycling",
+    "pos": "noun",
+    "sense": "sport-of-riding-a-bicycle",
+    "pronunciation": "/ˈsaɪklɪŋ/",
+    "definition": "the sport of riding a bicycle.",
+    "categories": [
+      "sports",
+      "transport"
+    ],
+    "level": "a2",
+    "image": "voc_7b9c90c3",
+    "image_brief": "cyclists climbing a hill road in a group while one spectator waves a flag, from the side at wide distance, a sign, a fence and water bottles, hard sunny mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Cycling** is popular in this city."
+  },
+  {
+    "phrase": "jogging",
+    "pos": "noun",
+    "sense": "running-slowly-for-exercise",
+    "pronunciation": "/ˈdʒɑɡɪŋ/",
+    "definition": "running slowly for exercise.",
+    "categories": [
+      "sports",
+      "health"
+    ],
+    "level": "a2",
+    "image": "voc_b453fb11",
+    "image_brief": "a woman jogging along a park path in the morning with one other runner behind, from the side at medium distance, a bench, a lamp and a dog, fresh early mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Jogging** in the park keeps me calm."
+  },
+  {
+    "phrase": "sailing",
+    "pos": "noun",
+    "sense": "sport-of-traveling-with-sails",
+    "pronunciation": "/ˈseɪlɪŋ/",
+    "definition": "the sport of traveling in a boat with sails.",
+    "categories": [
+      "sports",
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_f15e1317",
+    "image_brief": "two small sailboats crossing a lake with wind in the sails, from the shore at wide distance, a jetty, a bucket and trees, bright breezy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We went **sailing** on the lake."
+  },
+  {
+    "phrase": "boxing",
+    "pos": "noun",
+    "sense": "sport-of-fighting-with-gloves",
+    "pronunciation": "/ˈbɑksɪŋ/",
+    "definition": "the sport of fighting with your hands in gloves.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "image": "voc_b1dc2d7e",
+    "image_brief": "two boxers in a ring with gloves up while a coach stands at the ropes, from the side at medium distance, a clock, a stool and a bottle, tense hot mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He watches **boxing** with his father."
+  },
+  {
+    "phrase": "tennis",
+    "pos": "noun",
+    "sense": "game-with-a-racket-and-net",
+    "pronunciation": "/ˈtɛnɪs/",
+    "definition": "a game in which players hit a ball over a net with rackets.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "image": "voc_9edc2b65",
+    "image_brief": "two players shaking hands at the net after a match, from behind at medium distance, bags, a bench and a fence, polite tired mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We play **tennis** on Sundays."
+  },
+  {
+    "phrase": "football",
+    "pos": "noun",
+    "sense": "game-where-teams-score-goals",
+    "pronunciation": "/ˈfʊtbɔl/",
+    "definition": "a game in which two teams try to score goals with a ball.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "image": "voc_71bb0541",
+    "image_brief": "boys playing football in a park with jumpers for goals, from behind at wide distance, bags, bikes and trees, happy noisy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The boys play **football** after school."
+  },
+  {
+    "phrase": "basketball",
+    "pos": "noun",
+    "sense": "game-with-a-high-basket",
+    "pronunciation": "/ˈbæskɪtbɔl/",
+    "definition": "a game in which players throw a ball into a high basket.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "image": "voc_77a7b526",
+    "image_brief": "a girl shooting at a hoop on an outdoor court while one friend waits under it, from the side at medium distance, a ball, a bag and a fence, quick energetic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She plays **basketball** for the school team."
+  },
+  {
+    "phrase": "volleyball",
+    "pos": "noun",
+    "sense": "game-of-hitting-over-a-net",
+    "pronunciation": "/ˈvɑlibɔl/",
+    "definition": "a game in which teams hit a ball over a net with their hands.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "image": "voc_33c9b5fc",
+    "image_brief": "four people playing volleyball on a beach with a net, from behind at wide distance, towels, a cooler and the sea, relaxed sunny mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They played **volleyball** on the beach."
+  },
+  {
+    "phrase": "golf",
+    "pos": "noun",
+    "sense": "game-of-hitting-a-small-ball",
+    "pronunciation": "/ɡɑlf/",
+    "definition": "a game in which you hit a small ball into holes in the ground.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "image": "voc_c59a3758",
+    "image_brief": "a golfer putting on a green while a friend waits with the bag, from the side at wide distance, a cart, trees and a flag, quiet green mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My uncle plays **golf** every weekend."
+  },
+  {
+    "phrase": "swimming",
+    "pos": "noun",
+    "sense": "sport-of-moving-in-water",
+    "pronunciation": "/ˈswɪmɪŋ/",
+    "definition": "the sport of moving through water.",
+    "categories": [
+      "sports",
+      "health"
+    ],
+    "level": "a2",
+    "image": "voc_717f0406",
+    "image_brief": "a swimmer turning at the end of a lane while a coach watches, from the side at medium distance, a board, bottles and lane ropes, focused pool mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Swimming** is good exercise."
+  },
+  {
+    "phrase": "whistle",
+    "pos": "noun",
+    "sense": "object-that-makes-a-loud-sound",
+    "pronunciation": "/ˈwɪsəl/",
+    "definition": "a small object that makes a loud sound when you blow into it.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "image": "voc_f1864fc7",
+    "image_brief": "a referee blowing a whistle at the end of a match, players turning, from the side at medium distance, a flag, a bench and a ball, sudden stop mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **whistle** blew for the end of the match."
+  },
+  {
+    "phrase": "scoreboard",
+    "pos": "noun",
+    "sense": "board-showing-the-score",
+    "pronunciation": "/ˈskɔrbɔrd/",
+    "definition": "a board that shows the score in a game.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "image": "voc_f8ee91f3",
+    "image_brief": "players looking up at a scoreboard at the end of a game, from behind at wide distance, a hall, chairs and bags, tense result mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **scoreboard** showed two to one."
+  },
+  {
+    "phrase": "throw",
+    "pos": "verb",
+    "sense": "send-through-the-air",
+    "pronunciation": "/θroʊ/",
+    "definition": "to send something through the air with your hand.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "present_example": "She **throws** it high.",
+    "past_simple_example": "He **threw** the ball too far.",
+    "past_participle_example": "They have **thrown** the ball into the river.",
+    "present_participle_example": "The boys are **throwing** a ball on the beach.",
+    "image": "voc_8a4bf930",
+    "image_brief": "a man throwing a ball to a boy on a beach, from the side at medium distance, a towel, a bag and the sea, easy family mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Throw** the ball to me."
+  },
+  {
+    "phrase": "kick",
+    "pos": "verb",
+    "sense": "hit-with-your-foot",
+    "pronunciation": "/kɪk/",
+    "definition": "to hit something with your foot.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "present_example": "He **kicks** the ball hard.",
+    "past_simple_example": "She **kicked** the goal from far out.",
+    "past_participle_example": "The ball has been **kicked** out of play.",
+    "present_participle_example": "The child is **kicking** a stone.",
+    "image": "voc_0ded0c1c",
+    "image_brief": "a boy kicking a ball against a garage door, from behind at medium distance, a bike, a bin and chalk marks, bored afternoon mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Kick** the ball with your side foot."
+  },
+  {
+    "phrase": "draw",
+    "pos": "verb",
+    "sense": "finish-with-the-same-score",
+    "pronunciation": "/drɔ/",
+    "definition": "to finish a game with the same score as the other team.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "present_example": "Both teams **draw** more often this year.",
+    "past_simple_example": "They **drew** one each.",
+    "past_participle_example": "The two sides have **drawn** twice.",
+    "present_participle_example": "They are **drawing** at halftime.",
+    "image": "voc_0dd6df12",
+    "image_brief": "two players shaking hands at the end of an even match, a referee nearby, from the side at medium distance, a bench, bags and a ball, balanced calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We may **draw** this match."
+  },
+  {
+    "phrase": "ski",
+    "pos": "verb",
+    "sense": "move-over-snow-on-boards",
+    "pronunciation": "/skiː/",
+    "definition": "to move over snow on long narrow boards.",
+    "categories": [
+      "sports",
+      "travel"
+    ],
+    "level": "a2",
+    "present_example": "He **skis** every winter.",
+    "past_simple_example": "We **skied** all morning.",
+    "past_participle_example": "She has **skied** in three countries.",
+    "present_participle_example": "They are **skiing** on the far side.",
+    "image": "voc_3a3b8b87",
+    "image_brief": "a skier coming down a slope past a marker with one person waiting at the bottom, from the side at wide distance, a lift, poles and snow, bright winter mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Can you **ski** down that slope?"
+  },
+  {
+    "phrase": "skate",
+    "pos": "verb",
+    "sense": "move-on-ice-or-wheels",
+    "pronunciation": "/skeɪt/",
+    "definition": "to move on ice or wheels wearing special boots.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "present_example": "He **skates** better than me.",
+    "past_simple_example": "She **skated** across the ice.",
+    "past_participle_example": "We have **skated** here before.",
+    "present_participle_example": "The kids are **skating** on the pond.",
+    "image": "voc_8455b773",
+    "image_brief": "children skating on a frozen pond while one adult watches, from behind at medium distance, a bench, a bag and reeds, cold cheerful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **skate** together every winter."
+  },
+  {
+    "phrase": "surf",
+    "pos": "verb",
+    "sense": "ride-on-waves",
+    "pronunciation": "/sɝf/",
+    "definition": "to ride on waves on a board.",
+    "categories": [
+      "sports",
+      "nature"
+    ],
+    "level": "a2",
+    "present_example": "She **surfs** after class.",
+    "past_simple_example": "They **surfed** until sunset.",
+    "past_participle_example": "I have never **surfed** waves this big.",
+    "present_participle_example": "The group is **surfing** near the rocks.",
+    "image": "voc_67a7b003",
+    "image_brief": "a surfer riding a small wave toward the beach while one friend waits on the sand, from the shore at wide distance, a board, a towel and rocks, bright open mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He wants to **surf** every morning."
+  },
+  {
+    "phrase": "dive",
+    "pos": "verb",
+    "sense": "jump-into-water-head-first",
+    "pronunciation": "/daɪv/",
+    "definition": "to jump into water with your head first.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "present_example": "He **dives** from the high board.",
+    "past_simple_example": "She **dived** into the pool.",
+    "past_participle_example": "He has **dived** from that rock before.",
+    "present_participle_example": "The boys are **diving** off the boat.",
+    "image": "voc_be7507d7",
+    "image_brief": "a swimmer diving into a pool from a low board while one coach watches, from the side at medium distance, lanes, a bottle and a clock, quick focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Do not **dive** into the shallow end."
+  },
+  {
+    "phrase": "shoot",
+    "pos": "verb",
+    "sense": "try-to-score-at-goal",
+    "pronunciation": "/ʃuːt/",
+    "definition": "to try to score by sending the ball at the goal.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "present_example": "She **shoots** from the left side.",
+    "past_simple_example": "He **shot** and missed.",
+    "past_participle_example": "They have **shot** nine times.",
+    "present_participle_example": "The striker is **shooting** at goal.",
+    "image": "voc_68ad1d20",
+    "image_brief": "a player shooting at goal from the edge of the area while the keeper waits, from behind at medium distance, a net, a line and a bag, urgent match mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Shoot** when you see the goal."
+  },
+  {
+    "phrase": "beat",
+    "pos": "verb",
+    "sense": "win-against-another-team",
+    "pronunciation": "/biːt/",
+    "definition": "to win against another team or player.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "present_example": "She **beats** her brother at tennis.",
+    "past_simple_example": "They **beat** us by two goals.",
+    "past_participle_example": "No one has **beaten** them all year.",
+    "present_participle_example": "Our team is **beating** theirs easily.",
+    "image": "voc_290f8978",
+    "image_brief": "a team cheering on the bench as the scoreboard shows them ahead, from behind at medium distance, bags, bottles and a coach, winning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We can **beat** this team."
+  },
+  {
+    "phrase": "defend",
+    "pos": "verb",
+    "sense": "stop-the-other-team-scoring",
+    "pronunciation": "/dɪˈfɛnd/",
+    "definition": "to stop the other team from scoring.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "present_example": "He **defends** the left side well.",
+    "past_simple_example": "They **defended** for the last ten minutes.",
+    "past_participle_example": "The team has **defended** better this season.",
+    "present_participle_example": "The players are **defending** deep.",
+    "image": "voc_755d3c6b",
+    "image_brief": "two defenders standing together in front of their goal while the other team approaches, from behind at wide distance, a net, a line and a flag, tense stand mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We need to **defend** this lead."
+  },
+  {
+    "phrase": "attack",
+    "pos": "verb",
+    "sense": "move-forward-to-score",
+    "pronunciation": "/əˈtæk/",
+    "definition": "to move forward and try to score.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "present_example": "Our team **attacks** quickly.",
+    "past_simple_example": "She **attacked** down the wing.",
+    "past_participle_example": "They have **attacked** all half.",
+    "present_participle_example": "The forwards are **attacking** now.",
+    "image": "voc_0924e386",
+    "image_brief": "a player running with the ball toward the other goal while two defenders close in, from the side at medium distance, a line, a bench and a bottle, fast attacking mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They will **attack** from the right."
+  },
+  {
+    "phrase": "compete",
+    "pos": "verb",
+    "sense": "take-part-in-a-competition",
+    "pronunciation": "/kəmˈpiːt/",
+    "definition": "to take part in a competition.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "present_example": "He **competes** every month.",
+    "past_simple_example": "They **competed** in three events.",
+    "past_participle_example": "We have **competed** against them before.",
+    "present_participle_example": "The athletes are **competing** today.",
+    "image": "voc_676b5acd",
+    "image_brief": "swimmers lined up on blocks before a race with one official behind, from behind at medium distance, lane ropes, a board and a clock, charged quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She will **compete** in the final."
+  },
+  {
+    "phrase": "hit",
+    "pos": "verb",
+    "sense": "touch-something-hard",
+    "pronunciation": "/hɪt/",
+    "definition": "to touch something hard and with force.",
+    "categories": [
+      "sports"
+    ],
+    "level": "a2",
+    "present_example": "He **hits** the ball hard.",
+    "past_simple_example": "She **hit** the post.",
+    "past_participle_example": "The ball has **hit** the crossbar.",
+    "present_participle_example": "The player is **hitting** the ball well.",
+    "image": "voc_a5d9286a",
+    "image_brief": "a batter hitting a ball in a garden while one child fields behind, from the side at medium distance, a fence, a shed and a bucket, quick summer mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Hit** the ball on the sweet spot."
+  },
+  {
+    "phrase": "lift",
+    "pos": "verb",
+    "sense": "move-something-heavy-up",
+    "pronunciation": "/lɪft/",
+    "definition": "to move something heavy upward.",
+    "categories": [
+      "sports",
+      "health"
+    ],
+    "level": "a2",
+    "present_example": "She **lifts** weights twice a week.",
+    "past_simple_example": "He **lifted** the trophy.",
+    "past_participle_example": "They have **lifted** the cup.",
+    "present_participle_example": "The athlete is **lifting** a heavy bar.",
+    "image": "voc_f74a46cc",
+    "image_brief": "a weightlifter lifting a bar above their head while one coach spots, from the side at medium distance, mats, chalk and a bottle, straining focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Lift** the weight with your legs."
+  },
+  {
+    "phrase": "sprint",
+    "pos": "verb",
+    "sense": "run-fast-for-a-short-time",
+    "pronunciation": "/sprɪnt/",
+    "definition": "to run very fast for a short distance.",
+    "categories": [
+      "sports",
+      "health"
+    ],
+    "level": "a2",
+    "present_example": "She **sprints** the last hundred meters.",
+    "past_simple_example": "He **sprinted** past everyone.",
+    "past_participle_example": "They have **sprinted** for the whole lap.",
+    "present_participle_example": "The runners are **sprinting** now.",
+    "image": "voc_a2b40888",
+    "image_brief": "a runner sprinting the last meters of a race, from the side at medium distance, a line, cones and spectators, fast bright mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Sprint** to the line."
+  },
+  {
+    "phrase": "cycle",
+    "pos": "verb",
+    "sense": "ride-a-bicycle",
+    "pronunciation": "/ˈsaɪkəl/",
+    "definition": "to ride a bicycle.",
+    "categories": [
+      "sports",
+      "transport"
+    ],
+    "level": "a2",
+    "present_example": "She **cycles** in the hills.",
+    "past_simple_example": "We **cycled** forty kilometers.",
+    "past_participle_example": "He has **cycled** across the country.",
+    "present_participle_example": "They are **cycling** along the river.",
+    "image": "voc_b06e5b0c",
+    "image_brief": "a man cycling up a hill road in the morning while one car passes, from the side at wide distance, a sign, a fence and a water bottle, steady effort mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I **cycle** to work every day."
+  },
+  {
+    "phrase": "jog",
+    "pos": "verb",
+    "sense": "run-slowly-for-exercise",
+    "pronunciation": "/dʒɑɡ/",
+    "definition": "to run slowly for exercise.",
+    "categories": [
+      "sports",
+      "health"
+    ],
+    "level": "a2",
+    "present_example": "She **jogs** with her dog.",
+    "past_simple_example": "He **jogged** two laps.",
+    "past_participle_example": "We have **jogged** this route many times.",
+    "present_participle_example": "They are **jogging** slowly.",
+    "image": "voc_31007371",
+    "image_brief": "two friends jogging slowly along a river path, from behind at medium distance, a bench, a lamp and a bridge, easy morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I **jog** in the park before work."
+  },
+  {
+    "phrase": "fit",
+    "pos": "adjective",
+    "sense": "strong-from-exercise",
+    "pronunciation": "/fɪt/",
+    "definition": "healthy and strong, especially because of exercise.",
+    "categories": [
+      "health",
+      "sports"
+    ],
+    "level": "a2",
+    "image": "voc_bc0ff846",
+    "image_brief": "an older woman lifting small weights in a garden, from the side at medium distance, a mat, a bottle and a chair, steady healthy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She stays **fit** by swimming."
+  },
+  {
+    "phrase": "song",
+    "pos": "noun",
+    "sense": "short-piece-with-words",
+    "pronunciation": "/sɔŋ/",
+    "definition": "a short piece of music with words that you sing.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_a0458e95",
+    "image_brief": "a woman singing along to a song in a car while a friend drives, from behind at medium distance, a coffee cup, a map and rain outside, easy road-trip mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "This **song** is on the radio all day."
+  },
+  {
+    "phrase": "singer",
+    "pos": "noun",
+    "sense": "person-who-sings",
+    "pronunciation": "/ˈsɪŋɚ/",
+    "definition": "a person who sings.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_28d4d06e",
+    "image_brief": "a singer at a microphone in a small bar with a guitarist behind, from the side at medium distance, a stool, cables and glasses, warm intimate mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **singer** forgot the words."
+  },
+  {
+    "phrase": "band",
+    "pos": "noun",
+    "sense": "group-playing-music",
+    "pronunciation": "/bænd/",
+    "definition": "a group of people who play music together.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_e306fe76",
+    "image_brief": "a four-piece band playing in a cafe corner while one person orders at the counter, from across the room at medium distance, tables, a speaker and coats, lively evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Their **band** plays at the cafe on Fridays."
+  },
+  {
+    "phrase": "guitar",
+    "pos": "noun",
+    "sense": "string-instrument-with-fingers",
+    "pronunciation": "/ɡɪˈtɑr/",
+    "definition": "a musical instrument with strings that you play with your fingers.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_2ed2979a",
+    "image_brief": "a teenager practicing guitar on a bed while a parent listens from the door, from the side at medium distance, a notebook, a bag and posters, patient practice mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He learned the **guitar** in a year."
+  },
+  {
+    "phrase": "piano",
+    "pos": "noun",
+    "sense": "instrument-with-black-and-white-keys",
+    "pronunciation": "/piˈænoʊ/",
+    "definition": "a large musical instrument with black and white keys.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_b73e0b46",
+    "image_brief": "a girl practicing piano in a living room while a grandparent listens, from behind at medium distance, a lamp, sheet music and a plant, gentle afternoon mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She practices the **piano** after school."
+  },
+  {
+    "phrase": "drum",
+    "pos": "noun",
+    "sense": "round-instrument-you-hit",
+    "pronunciation": "/drʌm/",
+    "definition": "a round musical instrument that you hit with sticks or your hands.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_66b7020e",
+    "image_brief": "a drummer hitting a drum in a rehearsal room while one bandmate tunes behind, from the side at medium distance, cases, cables and a fan, loud rehearsal mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **drum** is too loud in this room."
+  },
+  {
+    "phrase": "violin",
+    "pos": "noun",
+    "sense": "small-string-instrument-with-bow",
+    "pronunciation": "/ˌvaɪəˈlɪn/",
+    "definition": "a small musical instrument with strings that you play with a bow.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_ab8ccdcb",
+    "image_brief": "a girl carrying a violin case into a music school while a teacher waits at the door, from behind at medium distance, bikes, a notice board and steps, ordinary lesson mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **violin** case is bigger than she is."
+  },
+  {
+    "phrase": "flute",
+    "pos": "noun",
+    "sense": "long-thin-instrument-you-blow",
+    "pronunciation": "/fluːt/",
+    "definition": "a long thin musical instrument that you blow into.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_2e19b713",
+    "image_brief": "a student playing a flute in a school hall with a teacher beside, from the side at medium distance, chairs, music stands and bags, quiet lesson mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He plays the **flute** in the school orchestra."
+  },
+  {
+    "phrase": "trumpet",
+    "pos": "noun",
+    "sense": "metal-instrument-you-blow",
+    "pronunciation": "/ˈtrʌmpət/",
+    "definition": "a metal musical instrument that you blow into, with a bright sound.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_3d838ed0",
+    "image_brief": "a trumpet player standing at the back of a jazz group, from the side at medium distance, a bass, stools and a lamp, small stage mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **trumpet** player stood at the back."
+  },
+  {
+    "phrase": "concert",
+    "pos": "noun",
+    "sense": "event-where-musicians-play",
+    "pronunciation": "/ˈkɑnsɚt/",
+    "definition": "an event where musicians play for an audience.",
+    "categories": [
+      "music",
+      "city"
+    ],
+    "level": "a2",
+    "image": "voc_2262f7cd",
+    "image_brief": "a crowd waiting outside a concert hall at night, one couple holding tickets, from across the street at wide distance, posters, barriers and a bus, excited queue mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We have **concert** tickets for Saturday."
+  },
+  {
+    "phrase": "album",
+    "pos": "noun",
+    "sense": "collection-of-songs",
+    "pronunciation": "/ˈælbəm/",
+    "definition": "a collection of songs released together.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_349f4664",
+    "image_brief": "a person opening a new record album on a sofa with one friend beside, from the side at medium distance, a turntable, cups and a blanket, nostalgic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Their new **album** has ten songs."
+  },
+  {
+    "phrase": "stage",
+    "pos": "noun",
+    "sense": "raised-area-for-performers",
+    "pronunciation": "/steɪdʒ/",
+    "definition": "the raised area in a hall where performers stand.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_e9f6013f",
+    "image_brief": "a stage lit in blue before a show while one technician checks a cable, from the back of the hall at wide distance, chairs, a drum kit and a curtain, quiet expectant mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **stage** was lit with blue light."
+  },
+  {
+    "phrase": "audience",
+    "pos": "noun",
+    "sense": "people-watching-a-show",
+    "pronunciation": "/ˈɔdiəns/",
+    "definition": "the group of people who watch a performance.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_6e9ac425",
+    "image_brief": "an audience clapping in a small theatre while one person stands, from the back at wide distance, seats, a stage and coats, warm appreciative mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **audience** clapped for a long time."
+  },
+  {
+    "phrase": "melody",
+    "pos": "noun",
+    "sense": "main-tune-of-a-song",
+    "pronunciation": "/ˈmɛlədi/",
+    "definition": "the main tune of a song.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_cd8fd774",
+    "image_brief": "a man humming a melody while walking with headphones, from behind at medium distance in a street, a bench, a bag and a crossing, light daily mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **melody** stayed in my head."
+  },
+  {
+    "phrase": "tune",
+    "pos": "noun",
+    "sense": "notes-easy-to-remember",
+    "pronunciation": "/tuːn/",
+    "definition": "a series of musical notes that is easy to remember.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_06a70bb1",
+    "image_brief": "a woman whistling a tune while cleaning a kitchen, from across the room at medium distance, a bucket, a mop and a radio, easy morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He whistled a happy **tune**."
+  },
+  {
+    "phrase": "rhythm",
+    "pos": "noun",
+    "sense": "regular-pattern-of-beats",
+    "pronunciation": "/ˈrɪðəm/",
+    "definition": "the regular pattern of beats in music.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_1b9679c7",
+    "image_brief": "people dancing to a rhythm at a street party while one child copies them, from behind at medium distance, a speaker, tables and lights, joyful evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **rhythm** made everyone move."
+  },
+  {
+    "phrase": "lyrics",
+    "pos": "noun",
+    "sense": "words-of-a-song",
+    "pronunciation": "/ˈlɪrɪks/",
+    "definition": "the words of a song.",
+    "categories": [
+      "music",
+      "communication"
+    ],
+    "level": "a2",
+    "image": "voc_e21a27f6",
+    "image_brief": "a fan reading lyrics from a phone at a concert while one friend sings beside them, from the side at medium distance, a barrier, a bag and lights, absorbed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **lyrics** are easy to remember."
+  },
+  {
+    "phrase": "chorus",
+    "pos": "noun",
+    "sense": "repeated-part-of-a-song",
+    "pronunciation": "/ˈkɔrəs/",
+    "definition": "the part of a song that is repeated after each verse.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_a0abb0c9",
+    "image_brief": "a group singing a chorus together at a campfire while one person plays a guitar, from behind at medium distance, logs, blankets and a lantern, warm night mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Everyone sang the **chorus** together."
+  },
+  {
+    "phrase": "verse",
+    "pos": "noun",
+    "sense": "part-between-choruses",
+    "pronunciation": "/vɝs/",
+    "definition": "one of the parts of a song between the choruses.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_4865b754",
+    "image_brief": "a songwriter writing a verse in a notebook at a table, from above at medium distance, a guitar, a cup and paper, quiet creative mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She wrote the first **verse** at home."
+  },
+  {
+    "phrase": "orchestra",
+    "pos": "noun",
+    "sense": "large-group-of-musicians",
+    "pronunciation": "/ˈɔrkəstrə/",
+    "definition": "a large group of musicians who play many instruments together.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_4c5b5657",
+    "image_brief": "a full orchestra tuning on a stage while the conductor waits, from the back of the hall at wide distance, stands, chairs and lights, formal warm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **orchestra** tuned before the show."
+  },
+  {
+    "phrase": "choir",
+    "pos": "noun",
+    "sense": "group-that-sings-together",
+    "pronunciation": "/ˈkwaɪɚ/",
+    "definition": "a group of people who sing together.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_0adee60b",
+    "image_brief": "a choir singing in a church with one director in front, from behind the choir at wide distance, benches, candles and a piano, solemn mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Our **choir** sings at the church on Sundays."
+  },
+  {
+    "phrase": "saxophone",
+    "pos": "noun",
+    "sense": "curved-metal-instrument",
+    "pronunciation": "/ˈsæksəfoʊn/",
+    "definition": "a curved metal musical instrument that you blow into.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_77397b4d",
+    "image_brief": "a man playing a saxophone on a street corner at dusk while one passerby listens, from across the street at medium distance, a case, a lamp and a bike, mellow mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **saxophone** sounded warm and low."
+  },
+  {
+    "phrase": "cello",
+    "pos": "noun",
+    "sense": "large-instrument-between-the-knees",
+    "pronunciation": "/ˈtʃɛloʊ/",
+    "definition": "a large string instrument that you hold between your knees.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_2e064d84",
+    "image_brief": "a cellist playing between their knees in a small hall with one listener in the front row, from the side at medium distance, a stand, a bag and a window, soft focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He carries his **cello** up the stairs."
+  },
+  {
+    "phrase": "harmony",
+    "pos": "noun",
+    "sense": "notes-that-sound-good-together",
+    "pronunciation": "/ˈhɑrməni/",
+    "definition": "musical notes that sound pleasant when played together.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_a743f69b",
+    "image_brief": "two singers sharing a microphone in a rehearsal room, from the side at medium distance, a piano, cables and coats, close relaxed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Their **harmony** sounded perfect."
+  },
+  {
+    "phrase": "tempo",
+    "pos": "noun",
+    "sense": "speed-of-the-music",
+    "pronunciation": "/ˈtɛmpoʊ/",
+    "definition": "the speed of a piece of music.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_852a4424",
+    "image_brief": "a conductor raising a hand to set the tempo while the orchestra waits, from behind at medium distance, a score, a stand and lights, charged moment mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **tempo** gets faster near the end."
+  },
+  {
+    "phrase": "volume",
+    "pos": "noun",
+    "sense": "how-loud-a-sound-is",
+    "pronunciation": "/ˈvɑljuːm/",
+    "definition": "how loud or quiet a sound is.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_9776e357",
+    "image_brief": "a teenager turning down the volume on a speaker while a parent stands nearby, from across the room at medium distance, a sofa, a phone and a rug, small negotiation mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Turn the **volume** down, please."
+  },
+  {
+    "phrase": "amplifier",
+    "pos": "noun",
+    "sense": "machine-that-makes-sound-louder",
+    "pronunciation": "/ˈæmpləfaɪɚ/",
+    "definition": "a machine that makes sound louder.",
+    "categories": [
+      "music",
+      "technology"
+    ],
+    "level": "a2",
+    "image": "voc_2d2de9b0",
+    "image_brief": "a musician checking an amplifier on a stage while one bandmate waits, from the side at medium distance, cases, cables and a stool, pre-show mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **amplifier** hummed before the show."
+  },
+  {
+    "phrase": "festival",
+    "pos": "noun",
+    "sense": "event-with-many-performances",
+    "pronunciation": "/ˈfɛstəvəl/",
+    "definition": "a big event with many performances over several days.",
+    "categories": [
+      "music",
+      "city"
+    ],
+    "level": "a2",
+    "image": "voc_33c2da3a",
+    "image_brief": "a field full of people at a music festival, one group sitting on a blanket, wide shot from the hill, tents, a stage and flags, sunny crowded mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We go to a music **festival** every summer."
+  },
+  {
+    "phrase": "instrument",
+    "pos": "noun",
+    "sense": "object-used-to-make-music",
+    "pronunciation": "/ˈɪnstrəmənt/",
+    "definition": "an object that is used to make music.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_02e9cb53",
+    "image_brief": "a child choosing an instrument in a music shop while one shopkeeper points, from across the shop at medium distance, shelves, cases and a piano, curious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Which **instrument** do you play?"
+  },
+  {
+    "phrase": "studio",
+    "pos": "noun",
+    "sense": "room-where-music-is-recorded",
+    "pronunciation": "/ˈstuːdioʊ/",
+    "definition": "a room where music or other sound is recorded.",
+    "categories": [
+      "music",
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_5a3d5639",
+    "image_brief": "a band recording in a studio with one person behind glass, from behind at medium distance, a mixing desk, headphones and a mug, focused session mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They recorded the song in a small **studio**."
+  },
+  {
+    "phrase": "playlist",
+    "pos": "noun",
+    "sense": "list-of-chosen-songs",
+    "pronunciation": "/ˈpleɪlɪst/",
+    "definition": "a list of songs chosen to play one after another.",
+    "categories": [
+      "music",
+      "technology"
+    ],
+    "level": "a2",
+    "image": "voc_6a295247",
+    "image_brief": "a woman making a playlist on her phone at a kitchen table, from the side at medium distance, a cup, a speaker and a bag, relaxed evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I made a **playlist** for the drive."
+  },
+  {
+    "phrase": "gig",
+    "pos": "noun",
+    "sense": "live-show-by-a-band",
+    "pronunciation": "/ɡɪɡ/",
+    "definition": "a live performance by a band, usually in a small place.",
+    "categories": [
+      "music",
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_d57327b6",
+    "image_brief": "a small band playing a gig in a crowded bar with one fan at the front, from the side at medium distance, tables, amps and a door, hot lively mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The band has a **gig** on Friday night."
+  },
+  {
+    "phrase": "opera",
+    "pos": "noun",
+    "sense": "play-where-actors-sing",
+    "pronunciation": "/ˈɑpərə/",
+    "definition": "a play in which the actors sing instead of speaking.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_7229f2ff",
+    "image_brief": "an opera singer on a stage in costume with the orchestra below, from the back of the hall at wide distance, seats, lights and a curtain, grand mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My grandmother loves **opera**."
+  },
+  {
+    "phrase": "jazz",
+    "pos": "noun",
+    "sense": "music-with-strong-rhythm",
+    "pronunciation": "/dʒæz/",
+    "definition": "a style of music with a strong rhythm and free solos.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_72a555fb",
+    "image_brief": "a jazz trio playing in a dim bar while two people at a table listen, from across the room at medium distance, glasses, a lamp and a piano, smoky mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We listened to **jazz** in the car."
+  },
+  {
+    "phrase": "pop",
+    "pos": "noun",
+    "sense": "popular-simple-music",
+    "pronunciation": "/pɑp/",
+    "definition": "popular music with a simple tune that many people like.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_c6558f4b",
+    "image_brief": "a group of teenagers dancing to pop music in a bedroom while one holds a phone, from across the room at medium distance, posters, a speaker and a bag, bright fun mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She only listens to **pop**."
+  },
+  {
+    "phrase": "classical",
+    "pos": "noun",
+    "sense": "music-by-old-composers",
+    "pronunciation": "/ˈklæsɪkəl/",
+    "definition": "music written by composers such as Mozart and Beethoven.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_4b923433",
+    "image_brief": "a string quartet playing classical music in a hall with one listener in the front row, from the side at wide distance, stands, chairs and a window, calm formal mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He plays **classical** music on the piano."
+  },
+  {
+    "phrase": "musician",
+    "pos": "noun",
+    "sense": "person-who-plays-music",
+    "pronunciation": "/mjuˈzɪʃən/",
+    "definition": "a person who plays music.",
+    "categories": [
+      "music",
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_1a5b6212",
+    "image_brief": "a street musician playing near a station with an open case while one commuter stops, from behind at medium distance, a bike, a bag and a sign, everyday city mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A street **musician** played near the station."
+  },
+  {
+    "phrase": "drummer",
+    "pos": "noun",
+    "sense": "person-who-plays-the-drums",
+    "pronunciation": "/ˈdrʌmɚ/",
+    "definition": "a person who plays the drums.",
+    "categories": [
+      "music",
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_c7db2ae6",
+    "image_brief": "a drummer counting the band in with sticks while the others get ready, from the side at medium distance, a kit, cases and a set list, focused start mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **drummer** counted the band in."
+  },
+  {
+    "phrase": "guitarist",
+    "pos": "noun",
+    "sense": "person-who-plays-the-guitar",
+    "pronunciation": "/ɡɪˈtɑrɪst/",
+    "definition": "a person who plays the guitar.",
+    "categories": [
+      "music",
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_168132d1",
+    "image_brief": "a guitarist changing a string on a bench while one bandmate sits nearby, from the side at medium distance, a case, a capo and a cup, patient break mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **guitarist** broke a string."
+  },
+  {
+    "phrase": "pianist",
+    "pos": "noun",
+    "sense": "person-who-plays-the-piano",
+    "pronunciation": "/ˈpiənɪst/",
+    "definition": "a person who plays the piano.",
+    "categories": [
+      "music",
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_d65e51f0",
+    "image_brief": "a pianist playing from memory in a hall while one page-turner stands by, from the side at medium distance, a grand piano, a stool and lights, absorbed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **pianist** played without any notes."
+  },
+  {
+    "phrase": "encore",
+    "pos": "noun",
+    "sense": "extra-song-at-the-end",
+    "pronunciation": "/ˈɑnkɔr/",
+    "definition": "an extra song that a performer plays at the end of a concert.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_91dfcf26",
+    "image_brief": "a band returning to the stage for an encore while the crowd cheers, from the back at wide distance, amps, lights and a drum kit, excited mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The band came back for an **encore**."
+  },
+  {
+    "phrase": "duet",
+    "pos": "noun",
+    "sense": "music-for-two-voices",
+    "pronunciation": "/duːˈɛt/",
+    "definition": "a piece of music for two singers or two players.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_0f932476",
+    "image_brief": "two singers sharing a microphone at a wedding while guests watch, from the side at medium distance, a table, flowers and a speaker, warm celebration mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They sang a **duet** at the wedding."
+  },
+  {
+    "phrase": "crowd",
+    "pos": "noun",
+    "sense": "large-group-of-people",
+    "pronunciation": "/kraʊd/",
+    "definition": "a large group of people in one place.",
+    "categories": [
+      "music",
+      "city"
+    ],
+    "level": "a2",
+    "image": "voc_2e98547a",
+    "image_brief": "a crowd singing together at an outdoor concert while one person films, from behind at wide distance, a stage, barriers and lights, joyful loud mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **crowd** sang along with the band."
+  },
+  {
+    "phrase": "perform",
+    "pos": "verb",
+    "sense": "play-for-an-audience",
+    "pronunciation": "/pɚˈfɔrm/",
+    "definition": "to play music, sing or act for an audience.",
+    "categories": [
+      "music",
+      "work"
+    ],
+    "level": "a2",
+    "present_example": "She **performs** every weekend.",
+    "past_simple_example": "They **performed** in a small hall.",
+    "past_participle_example": "The group has **performed** here before.",
+    "present_participle_example": "The singer is **performing** now.",
+    "image": "voc_cb545b26",
+    "image_brief": "a band performing on a small stage while the audience watches, from behind at medium distance, amps, lights and a drum kit, lively show mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The band will **perform** at nine."
+  },
+  {
+    "phrase": "hum",
+    "pos": "verb",
+    "sense": "sing-with-mouth-closed",
+    "pronunciation": "/hʌm/",
+    "definition": "to sing a tune with your mouth closed.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "present_example": "He **hums** the same tune.",
+    "past_simple_example": "She **hummed** along with the radio.",
+    "past_participle_example": "I have **hummed** that song all day.",
+    "present_participle_example": "The child is **humming** in the back seat.",
+    "image": "voc_5a298fb0",
+    "image_brief": "a woman humming while washing dishes with one child at the table, from behind at medium distance, a sink, a radio and a towel, easy evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She likes to **hum** while she cooks."
+  },
+  {
+    "phrase": "clap",
+    "pos": "verb",
+    "sense": "hit-hands-together",
+    "pronunciation": "/klæp/",
+    "definition": "to hit your hands together to make a sound.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "present_example": "She **claps** after every performance.",
+    "past_simple_example": "We **clapped** for ten minutes.",
+    "past_participle_example": "The audience has **clapped** twice already.",
+    "present_participle_example": "Everyone is **clapping** now.",
+    "image": "voc_f1a66c92",
+    "image_brief": "children clapping at the end of a school show while one teacher joins in, from behind at medium distance, chairs, a stage and coats, happy school mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The children **clap** when the song ends."
+  },
+  {
+    "phrase": "applaud",
+    "pos": "verb",
+    "sense": "clap-to-show-you-liked-it",
+    "pronunciation": "/əˈplɔd/",
+    "definition": "to clap your hands to show that you liked something.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "present_example": "The crowd **applauds** at the end.",
+    "past_simple_example": "They **applauded** the singer.",
+    "past_participle_example": "The band has been **applauded** all night.",
+    "present_participle_example": "The guests are **applauding** the pianist.",
+    "image": "voc_8ea77dcf",
+    "image_brief": "guests applauding a singer at a small party, from behind at medium distance, a piano, chairs and glasses, warm appreciative mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Please **applaud** the young musicians."
+  },
+  {
+    "phrase": "musical",
+    "pos": "adjective",
+    "sense": "relating-to-music",
+    "pronunciation": "/ˈmjuːzɪkəl/",
+    "definition": "relating to music.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_4bf00659",
+    "image_brief": "a family playing instruments together in a living room while one child taps a small drum, from across the room at medium distance, a piano, a sofa and a lamp, joyful family mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She comes from a **musical** family."
+  },
+  {
+    "phrase": "acoustic",
+    "pos": "adjective",
+    "sense": "played-without-electricity",
+    "pronunciation": "/əˈkuːstɪk/",
+    "definition": "played without electric equipment.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_50b5fd71",
+    "image_brief": "a man playing an acoustic guitar on a porch while one friend sits on the step, from the side at medium distance, chairs, a cup and a plant, slow evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He played an **acoustic** guitar."
+  },
+  {
+    "phrase": "soft",
+    "pos": "adjective",
+    "sense": "quiet-and-gentle",
+    "pronunciation": "/sɔft/",
+    "definition": "quiet and gentle, not loud.",
+    "categories": [
+      "music"
+    ],
+    "level": "a2",
+    "image": "voc_dd90cfab",
+    "image_brief": "a woman playing soft music on a speaker while reading, one cat asleep on the sofa, from across the room at medium distance, a lamp, a blanket and a cup, calm night mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The music was **soft** in the background."
   }
 ]

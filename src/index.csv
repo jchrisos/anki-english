@@ -2349,3 +2349,103 @@ vocabulary,focus,give-attention-to-one-thing,verb,a2,education,give your attenti
 vocabulary,organize,plan-and-arrange-things,verb,a2,education;work,plan and arrange things in order
 vocabulary,clever,able-to-learn-quickly,adjective,a2,education,able to learn and understand quickly
 vocabulary,strict,making-people-obey-rules,adjective,a2,education;relationships,making people obey rules exactly
+vocabulary,player,person-who-plays-a-sport,noun,a2,sports,a person who plays a sport or game
+vocabulary,coach,person-who-trains-a-team,noun,a2,sports;work,a person who trains a team or player
+vocabulary,match,game-between-two-sides,noun,a2,sports,a game between two teams or players
+vocabulary,goal,point-scored-in-the-net,noun,a2,sports,a point scored when the ball enters the net
+vocabulary,ball,round-object-for-games,noun,a2,sports,a round object used in many games
+vocabulary,referee,person-who-checks-the-rules,noun,a2,sports,a person who makes sure rules are followed
+vocabulary,court,area-for-tennis-or-basketball,noun,a2,sports;city,the area where tennis or basketball is played
+vocabulary,race,competition-for-the-fastest,noun,a2,sports,a competition to see who is fastest
+vocabulary,medal,metal-disc-for-a-winner,noun,a2,sports,a metal disc given to a winner
+vocabulary,winner,person-or-team-that-wins,noun,a2,sports,the person or team that wins
+vocabulary,loser,person-or-team-that-does-not-win,noun,a2,sports,the person or team that does not win
+vocabulary,champion,best-player-in-a-competition,noun,a2,sports,the best player or team in a competition
+vocabulary,trophy,cup-given-to-the-winner,noun,a2,sports,a cup or object given to the winner
+vocabulary,fitness,state-of-being-strong,noun,a2,health;sports,the state of being strong and healthy
+vocabulary,racket,bat-with-strings,noun,a2,sports,a bat with strings used in tennis
+vocabulary,net,material-that-divides-a-court,noun,a2,sports,a material with holes that divides a court
+vocabulary,bat,stick-used-to-hit-a-ball,noun,a2,sports,a wooden or metal stick used to hit a ball
+vocabulary,athlete,person-good-at-sport,noun,a2,sports;health,a person who is good at sports
+vocabulary,tournament,competition-with-many-matches,noun,a2,sports,a competition with several matches
+vocabulary,final,last-match-of-a-competition,noun,a2,sports,the last match in a competition
+vocabulary,cycling,sport-of-riding-a-bicycle,noun,a2,sports;transport,the sport of riding a bicycle
+vocabulary,jogging,running-slowly-for-exercise,noun,a2,sports;health,running slowly for exercise
+vocabulary,sailing,sport-of-traveling-with-sails,noun,a2,sports;travel,the sport of traveling in a sailboat
+vocabulary,boxing,sport-of-fighting-with-gloves,noun,a2,sports,the sport of fighting with gloved hands
+vocabulary,tennis,game-with-a-racket-and-net,noun,a2,sports,a game with rackets and a net
+vocabulary,football,game-where-teams-score-goals,noun,a2,sports,a game where teams try to score goals
+vocabulary,basketball,game-with-a-high-basket,noun,a2,sports,a game where players throw a ball in a basket
+vocabulary,volleyball,game-of-hitting-over-a-net,noun,a2,sports,a game where teams hit a ball over a net
+vocabulary,golf,game-of-hitting-a-small-ball,noun,a2,sports,a game where you hit a small ball into holes
+vocabulary,swimming,sport-of-moving-in-water,noun,a2,sports;health,the sport of moving through water
+vocabulary,whistle,object-that-makes-a-loud-sound,noun,a2,sports,a small object that makes a loud sound
+vocabulary,scoreboard,board-showing-the-score,noun,a2,sports,a board that shows the score
+vocabulary,throw,send-through-the-air,verb,a2,sports,send something through the air by hand
+vocabulary,kick,hit-with-your-foot,verb,a2,sports,hit something with your foot
+vocabulary,draw,finish-with-the-same-score,verb,a2,sports,finish a game with the same score
+vocabulary,ski,move-over-snow-on-boards,verb,a2,sports;travel,move over snow on long boards
+vocabulary,skate,move-on-ice-or-wheels,verb,a2,sports,move on ice or wheels with boots
+vocabulary,surf,ride-on-waves,verb,a2,sports;nature,ride on waves on a board
+vocabulary,dive,jump-into-water-head-first,verb,a2,sports,jump into water head first
+vocabulary,shoot,try-to-score-at-goal,verb,a2,sports,try to score by sending the ball at goal
+vocabulary,beat,win-against-another-team,verb,a2,sports,win against another team or player
+vocabulary,defend,stop-the-other-team-scoring,verb,a2,sports,stop the other team from scoring
+vocabulary,attack,move-forward-to-score,verb,a2,sports,move forward and try to score
+vocabulary,compete,take-part-in-a-competition,verb,a2,sports,take part in a competition
+vocabulary,hit,touch-something-hard,verb,a2,sports,touch something hard with force
+vocabulary,lift,move-something-heavy-up,verb,a2,sports;health,move something heavy upward
+vocabulary,sprint,run-fast-for-a-short-time,verb,a2,sports;health,run very fast for a short distance
+vocabulary,cycle,ride-a-bicycle,verb,a2,sports;transport,ride a bicycle
+vocabulary,jog,run-slowly-for-exercise,verb,a2,sports;health,run slowly for exercise
+vocabulary,fit,strong-from-exercise,adjective,a2,health;sports,healthy and strong from exercise
+vocabulary,song,short-piece-with-words,noun,a2,music,a short piece of music with words
+vocabulary,singer,person-who-sings,noun,a2,music,a person who sings
+vocabulary,band,group-playing-music,noun,a2,music,a group of people who play music
+vocabulary,guitar,string-instrument-with-fingers,noun,a2,music,instrument with strings played by hand
+vocabulary,piano,instrument-with-black-and-white-keys,noun,a2,music,a large instrument with keys
+vocabulary,drum,round-instrument-you-hit,noun,a2,music,a round instrument hit with sticks or hands
+vocabulary,violin,small-string-instrument-with-bow,noun,a2,music,a small string instrument played with a bow
+vocabulary,flute,long-thin-instrument-you-blow,noun,a2,music,a long thin instrument that you blow into
+vocabulary,trumpet,metal-instrument-you-blow,noun,a2,music,a metal instrument with a bright sound
+vocabulary,concert,event-where-musicians-play,noun,a2,music;city,an event where musicians play for people
+vocabulary,album,collection-of-songs,noun,a2,music,a collection of songs released together
+vocabulary,stage,raised-area-for-performers,noun,a2,music,the raised area where performers stand
+vocabulary,audience,people-watching-a-show,noun,a2,music,the group of people watching a show
+vocabulary,melody,main-tune-of-a-song,noun,a2,music,the main tune of a song
+vocabulary,tune,notes-easy-to-remember,noun,a2,music,a series of notes easy to remember
+vocabulary,rhythm,regular-pattern-of-beats,noun,a2,music,the regular pattern of beats in music
+vocabulary,lyrics,words-of-a-song,noun,a2,music;communication,the words of a song
+vocabulary,chorus,repeated-part-of-a-song,noun,a2,music,the part of a song that repeats
+vocabulary,verse,part-between-choruses,noun,a2,music,one of the parts of a song
+vocabulary,orchestra,large-group-of-musicians,noun,a2,music,a large group playing many instruments
+vocabulary,choir,group-that-sings-together,noun,a2,music,a group of people who sing together
+vocabulary,saxophone,curved-metal-instrument,noun,a2,music,a curved metal instrument you blow into
+vocabulary,cello,large-instrument-between-the-knees,noun,a2,music,a large string instrument held between the knees
+vocabulary,harmony,notes-that-sound-good-together,noun,a2,music,musical notes that sound pleasant together
+vocabulary,tempo,speed-of-the-music,noun,a2,music,the speed of a piece of music
+vocabulary,volume,how-loud-a-sound-is,noun,a2,music,how loud or quiet a sound is
+vocabulary,amplifier,machine-that-makes-sound-louder,noun,a2,music;technology,a machine that makes sound louder
+vocabulary,festival,event-with-many-performances,noun,a2,music;city,a big event with many performances
+vocabulary,instrument,object-used-to-make-music,noun,a2,music,an object used to make music
+vocabulary,studio,room-where-music-is-recorded,noun,a2,music;work,a room where music is recorded
+vocabulary,playlist,list-of-chosen-songs,noun,a2,music;technology,a list of songs played in order
+vocabulary,gig,live-show-by-a-band,noun,a2,music;work,a live performance by a band
+vocabulary,opera,play-where-actors-sing,noun,a2,music,a play in which the actors sing
+vocabulary,jazz,music-with-strong-rhythm,noun,a2,music,a style of music with free solos
+vocabulary,pop,popular-simple-music,noun,a2,music,popular music with a simple tune
+vocabulary,classical,music-by-old-composers,noun,a2,music,music written by composers long ago
+vocabulary,musician,person-who-plays-music,noun,a2,music;work,a person who plays music
+vocabulary,drummer,person-who-plays-the-drums,noun,a2,music;work,a person who plays the drums
+vocabulary,guitarist,person-who-plays-the-guitar,noun,a2,music;work,a person who plays the guitar
+vocabulary,pianist,person-who-plays-the-piano,noun,a2,music;work,a person who plays the piano
+vocabulary,encore,extra-song-at-the-end,noun,a2,music,an extra song at the end of a concert
+vocabulary,duet,music-for-two-voices,noun,a2,music,a piece of music for two singers
+vocabulary,crowd,large-group-of-people,noun,a2,music;city,a large group of people in one place
+vocabulary,perform,play-for-an-audience,verb,a2,music;work,play music or act for an audience
+vocabulary,hum,sing-with-mouth-closed,verb,a2,music,sing a tune with your mouth closed
+vocabulary,clap,hit-hands-together,verb,a2,music,hit your hands together to make a sound
+vocabulary,applaud,clap-to-show-you-liked-it,verb,a2,music,clap your hands to show you liked it
+vocabulary,musical,relating-to-music,adjective,a2,music,relating to music
+vocabulary,acoustic,played-without-electricity,adjective,a2,music,played without electric equipment
+vocabulary,soft,quiet-and-gentle,adjective,a2,music,quiet and gentle and not loud
