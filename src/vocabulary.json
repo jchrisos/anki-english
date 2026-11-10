@@ -23664,5 +23664,1484 @@
     "image": "voc_21679873",
     "image_brief": "a man shaving at a bathroom mirror in the morning, from behind at medium distance, a razor, a towel and a cup, slow morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
     "example": "He likes to **shave** before work."
+  },
+  {
+    "phrase": "strawberry",
+    "pos": "noun",
+    "sense": "small-red-fruit",
+    "pronunciation": "/ˈstrɔbɛri/",
+    "definition": "a small red fruit with tiny seeds on its skin.",
+    "categories": [
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_4ab380da",
+    "image_brief": "a bowl of strawberries on a garden table with one child reaching for one, from the side at medium distance, a jug, a cloth and a chair, bright summer mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She put a **strawberry** on top of the cake."
+  },
+  {
+    "phrase": "blueberry",
+    "pos": "noun",
+    "sense": "small-blue-berry",
+    "pronunciation": "/ˈbluːbɛri/",
+    "definition": "a small dark blue fruit that grows on a bush.",
+    "categories": [
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_4250ae30",
+    "image_brief": "blueberries scattered on a kitchen counter beside a bowl of yogurt, one person picking one up, from above at medium distance, a spoon, a carton and a window, fresh morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He likes **blueberry** pancakes on Sundays."
+  },
+  {
+    "phrase": "cherry",
+    "pos": "noun",
+    "sense": "small-round-red-fruit",
+    "pronunciation": "/ˈtʃɛri/",
+    "definition": "a small round red fruit with a stone in the middle.",
+    "categories": [
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_83782e11",
+    "image_brief": "a handful of cherries in a paper bag on a market stall, one seller weighing more, from the side at medium distance, a scale, boxes and a cloth, warm market mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She ate one **cherry** and gave me the rest."
+  },
+  {
+    "phrase": "melon",
+    "pos": "noun",
+    "sense": "large-juicy-fruit",
+    "pronunciation": "/ˈmɛlən/",
+    "definition": "a large sweet fruit with soft juicy flesh.",
+    "categories": [
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_186ada49",
+    "image_brief": "half a melon on a plate with a spoon beside it, one person sitting at a garden table, from the side at medium distance, a jug, a napkin and a chair, cool summer mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **melon** was sweet and cold."
+  },
+  {
+    "phrase": "watermelon",
+    "pos": "noun",
+    "sense": "large-green-fruit-with-red-inside",
+    "pronunciation": "/ˈwɔtɚmɛlən/",
+    "definition": "a large green fruit with sweet red flesh inside.",
+    "categories": [
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_32d65c61",
+    "image_brief": "slices of watermelon on a picnic blanket while two children eat them, from above at medium distance, a basket, a ball and a bottle, sunny picnic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We had **watermelon** at the picnic."
+  },
+  {
+    "phrase": "pineapple",
+    "pos": "noun",
+    "sense": "spiky-tropical-fruit",
+    "pronunciation": "/ˈpaɪnæpəl/",
+    "definition": "a large tropical fruit with rough skin and sweet yellow flesh.",
+    "categories": [
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_a35b63fc",
+    "image_brief": "a pineapple cut into rings on a market table, one seller holding a knife, from the side at medium distance, boxes, a scale and a sign, tropical market mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She added **pineapple** to the fruit salad."
+  },
+  {
+    "phrase": "mango",
+    "pos": "noun",
+    "sense": "sweet-orange-tropical-fruit",
+    "pronunciation": "/ˈmæŋɡoʊ/",
+    "definition": "a sweet orange tropical fruit with soft flesh.",
+    "categories": [
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_3e01d837",
+    "image_brief": "a mango sliced open on a board with one person eating a piece, from the side at medium distance, a knife, a bowl and a window, hot afternoon mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **mango** was perfectly ripe."
+  },
+  {
+    "phrase": "pear",
+    "pos": "noun",
+    "sense": "fruit-shaped-like-a-bell",
+    "pronunciation": "/pɛr/",
+    "definition": "a sweet fruit that is wide at the bottom and narrow at the top.",
+    "categories": [
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_718c0359",
+    "image_brief": "a pear on a wooden table beside a knife and a plate, one person reaching for it, from above at medium distance, a bowl of fruit, a cup and a window, quiet kitchen mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He ate a **pear** after lunch."
+  },
+  {
+    "phrase": "plum",
+    "pos": "noun",
+    "sense": "small-purple-fruit",
+    "pronunciation": "/plʌm/",
+    "definition": "a small round fruit with smooth purple or red skin.",
+    "categories": [
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_fe8fed36",
+    "image_brief": "plums piled in a bowl on a kitchen counter, one person washing them at the sink, from the side at medium distance, a colander, a towel and a window, late summer mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **plum** was too sour to eat."
+  },
+  {
+    "phrase": "kiwi",
+    "pos": "noun",
+    "sense": "small-fruit-with-green-inside",
+    "pronunciation": "/ˈkiːwiː/",
+    "definition": "a small brown fruit with green flesh and small black seeds.",
+    "categories": [
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_bbd5c358",
+    "image_brief": "a kiwi cut in half on a plate with a spoon beside it, one person at a breakfast table, from above at medium distance, a cup, a newspaper and a jar, ordinary morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She eats a **kiwi** every morning."
+  },
+  {
+    "phrase": "coconut",
+    "pos": "noun",
+    "sense": "hard-fruit-with-white-inside",
+    "pronunciation": "/ˈkoʊkənʌt/",
+    "definition": "a large hard fruit with white flesh and clear water inside.",
+    "categories": [
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_b83972c7",
+    "image_brief": "a coconut cut open on a beach blanket with one person drinking from it, from the side at medium distance, a bag, a towel and the sea, warm holiday mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He bought a cold **coconut** at the market."
+  },
+  {
+    "phrase": "avocado",
+    "pos": "noun",
+    "sense": "green-fruit-with-a-stone",
+    "pronunciation": "/ˌævəˈkɑdoʊ/",
+    "definition": "a green fruit with soft flesh and a large stone.",
+    "categories": [
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_a769fb5d",
+    "image_brief": "an avocado cut in half on a board with one person making toast, from above at medium distance, a knife, a plate and a cup, quick lunch mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She put **avocado** on her toast."
+  },
+  {
+    "phrase": "cabbage",
+    "pos": "noun",
+    "sense": "round-leafy-vegetable",
+    "pronunciation": "/ˈkæbɪdʒ/",
+    "definition": "a round vegetable with thick green leaves.",
+    "categories": [
+      "food",
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_3e379ea8",
+    "image_brief": "a cabbage being sliced on a board in a kitchen, one cook holding a knife, from the side at medium distance, a pot, peelings and a towel, homely cooking mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The soup has **cabbage** and potatoes in it."
+  },
+  {
+    "phrase": "lettuce",
+    "pos": "noun",
+    "sense": "green-leaves-for-salad",
+    "pronunciation": "/ˈlɛtəs/",
+    "definition": "green leaves that are eaten in salads.",
+    "categories": [
+      "food",
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_a596ef1a",
+    "image_brief": "lettuce leaves being washed at a sink with one person shaking them dry, from the side at medium distance, a bowl, a knife and a window, fresh lunch mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Wash the **lettuce** before you make the salad."
+  },
+  {
+    "phrase": "cucumber",
+    "pos": "noun",
+    "sense": "long-green-vegetable",
+    "pronunciation": "/ˈkjuːkʌmbɚ/",
+    "definition": "a long green vegetable that is often eaten raw.",
+    "categories": [
+      "food",
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_fc053ebe",
+    "image_brief": "a cucumber being sliced on a board with one person adding pieces to a bowl, from the side at medium distance, a knife, a plate and a towel, light summer mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She sliced a **cucumber** for the salad."
+  },
+  {
+    "phrase": "mushroom",
+    "pos": "noun",
+    "sense": "soft-plant-with-a-stem",
+    "pronunciation": "/ˈmʌʃruːm/",
+    "definition": "a soft food that grows in dark, wet places and has a round top.",
+    "categories": [
+      "food",
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_1520e07d",
+    "image_brief": "mushrooms frying in a pan with one cook stirring them, from the side at medium distance, a cutting board, garlic and a towel, warm kitchen mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He added **mushroom** to the pasta."
+  },
+  {
+    "phrase": "bean",
+    "pos": "noun",
+    "sense": "small-seed-vegetable",
+    "pronunciation": "/biːn/",
+    "definition": "a seed from a plant that is cooked and eaten.",
+    "categories": [
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_1e1330f2",
+    "image_brief": "a bowl of beans on a table with one person spooning them onto a plate, from above at medium distance, a pan, a cloth and a glass, plain family mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We had rice and **bean** stew for dinner."
+  },
+  {
+    "phrase": "pea",
+    "pos": "noun",
+    "sense": "small-round-green-seed",
+    "pronunciation": "/piː/",
+    "definition": "a small round green seed that is eaten as food.",
+    "categories": [
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_5e7c149e",
+    "image_brief": "a child pushing peas around a plate with a fork, one adult at the table, from the side at medium distance, a glass, a napkin and a chair, small dinner battle mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The child left every **pea** on the plate."
+  },
+  {
+    "phrase": "corn",
+    "pos": "noun",
+    "sense": "yellow-grain-vegetable",
+    "pronunciation": "/kɔrn/",
+    "definition": "yellow grains that grow on a tall plant and are eaten as food.",
+    "categories": [
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_3da574ee",
+    "image_brief": "corn on the cob cooking on a grill at a street stall, one seller turning them, from the side at medium distance, a table, a brush and a sign, smoky evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We ate **corn** with butter at the fair."
+  },
+  {
+    "phrase": "noodle",
+    "pos": "noun",
+    "sense": "long-strip-of-dough",
+    "pronunciation": "/ˈnuːdəl/",
+    "definition": "a long thin strip of dough that is cooked in water.",
+    "categories": [
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_48ff4871",
+    "image_brief": "a bowl of noodles being lifted with chopsticks by one person at a small table, from the side at medium distance, a cup, a napkin and a window, quick lunch mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He ordered a bowl of **noodle** soup."
+  },
+  {
+    "phrase": "yogurt",
+    "pos": "noun",
+    "sense": "thick-sour-milk-food",
+    "pronunciation": "/ˈjoʊɡɚt/",
+    "definition": "a thick food made from milk, often eaten with fruit.",
+    "categories": [
+      "food",
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_995e167f",
+    "image_brief": "a woman spooning yogurt into a bowl at breakfast, one child at the table, from above at medium distance, berries, a jar and a cup, fresh morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I eat **yogurt** with fruit every morning."
+  },
+  {
+    "phrase": "beef",
+    "pos": "noun",
+    "sense": "meat-from-a-cow",
+    "pronunciation": "/biːf/",
+    "definition": "meat that comes from a cow.",
+    "categories": [
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_9cc859ec",
+    "image_brief": "a butcher cutting beef on a block while one customer waits, from the side at medium distance, a scale, paper and a counter, clean shop mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She bought **beef** for the stew."
+  },
+  {
+    "phrase": "pork",
+    "pos": "noun",
+    "sense": "meat-from-a-pig",
+    "pronunciation": "/pɔrk/",
+    "definition": "meat that comes from a pig.",
+    "categories": [
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_23340d60",
+    "image_brief": "pork chops on a tray at a market counter, one seller wrapping them in paper, from the side at medium distance, a scale, a knife and a sign, ordinary market mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "This **pork** needs another ten minutes."
+  },
+  {
+    "phrase": "shrimp",
+    "pos": "noun",
+    "sense": "small-sea-animal-you-eat",
+    "pronunciation": "/ʃrɪmp/",
+    "definition": "a small sea animal with a soft shell that is eaten as food.",
+    "categories": [
+      "food",
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_698c4660",
+    "image_brief": "shrimp cooking in a pan with one cook adding lemon, from the side at medium distance, a board, a bowl and a towel, quick dinner mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We had **shrimp** with rice."
+  },
+  {
+    "phrase": "tuna",
+    "pos": "noun",
+    "sense": "large-sea-fish-you-eat",
+    "pronunciation": "/ˈtuːnə/",
+    "definition": "a large sea fish that is often sold in cans.",
+    "categories": [
+      "food",
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_cbfb8276",
+    "image_brief": "a can of tuna being opened at a kitchen counter, one person making a sandwich, from above at medium distance, bread, a knife and a plate, quick lunch mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She made a **tuna** sandwich for lunch."
+  },
+  {
+    "phrase": "salmon",
+    "pos": "noun",
+    "sense": "large-fish-with-pink-meat",
+    "pronunciation": "/ˈsæmən/",
+    "definition": "a large fish with pink meat that is eaten as food.",
+    "categories": [
+      "food",
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_bb8a9932",
+    "image_brief": "a piece of salmon cooking in a pan with one cook watching it, from the side at medium distance, a board, a lemon and a towel, careful cooking mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **salmon** was cooked perfectly."
+  },
+  {
+    "phrase": "jam",
+    "pos": "noun",
+    "sense": "sweet-fruit-spread",
+    "pronunciation": "/dʒæm/",
+    "definition": "a sweet spread made from cooked fruit.",
+    "categories": [
+      "food",
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_de90629d",
+    "image_brief": "a jar of jam open on a breakfast table with one person spreading it on toast, from above at medium distance, a knife, a cup and a newspaper, slow morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He likes strawberry **jam** on his bread."
+  },
+  {
+    "phrase": "cereal",
+    "pos": "noun",
+    "sense": "breakfast-food-from-grains",
+    "pronunciation": "/ˈsɪriəl/",
+    "definition": "a breakfast food made from grains, usually eaten with milk.",
+    "categories": [
+      "food",
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_0715a9dd",
+    "image_brief": "a child pouring cereal into a bowl at a kitchen table, one parent at the counter, from the side at medium distance, milk, a spoon and a school bag, busy morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The children eat **cereal** before school."
+  },
+  {
+    "phrase": "oatmeal",
+    "pos": "noun",
+    "sense": "warm-breakfast-from-oats",
+    "pronunciation": "/ˈoʊtmiːl/",
+    "definition": "a warm breakfast made from oats cooked in milk or water.",
+    "categories": [
+      "food",
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_ac9d69db",
+    "image_brief": "a pot of oatmeal on a stove with one person stirring it, from the side at medium distance, a bowl, honey and a spoon, cozy winter mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He eats **oatmeal** on cold mornings."
+  },
+  {
+    "phrase": "pancake",
+    "pos": "noun",
+    "sense": "flat-cake-fried-in-a-pan",
+    "pronunciation": "/ˈpænkeɪk/",
+    "definition": "a thin flat cake made from flour and cooked in a pan.",
+    "categories": [
+      "food",
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_b741392f",
+    "image_brief": "a stack of pancakes on a plate with one person pouring syrup, from the side at medium distance, a pan, a jug and a chair, weekend breakfast mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We make **pancake** breakfast on Sundays."
+  },
+  {
+    "phrase": "fries",
+    "pos": "noun",
+    "sense": "long-fried-potatoes",
+    "pronunciation": "/fraɪz/",
+    "definition": "long thin pieces of potato that are fried.",
+    "categories": [
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_28091eba",
+    "image_brief": "a basket of fries on a diner table with one person reaching for one, from the side at medium distance, a burger, a cup and a napkin, casual lunch mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He ordered **fries** with his burger."
+  },
+  {
+    "phrase": "dessert",
+    "pos": "noun",
+    "sense": "sweet-food-after-a-meal",
+    "pronunciation": "/dɪˈzɝt/",
+    "definition": "sweet food that you eat after a meal.",
+    "categories": [
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_05b0bf64",
+    "image_brief": "a slice of cake on a plate with two people at a table after dinner, from the side at medium distance, glasses, a candle and a cloth, warm evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We had fruit for **dessert**."
+  },
+  {
+    "phrase": "pie",
+    "pos": "noun",
+    "sense": "baked-dish-with-a-top",
+    "pronunciation": "/paɪ/",
+    "definition": "food baked in pastry, usually with a top and a filling.",
+    "categories": [
+      "food",
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_510fe9a9",
+    "image_brief": "an apple pie cooling on a windowsill while one person cuts a slice, from the side at medium distance, a cloth, a plate and a kettle, homely afternoon mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "My grandmother bakes an apple **pie** every fall."
+  },
+  {
+    "phrase": "peanut",
+    "pos": "noun",
+    "sense": "small-nut-in-a-shell",
+    "pronunciation": "/ˈpiːnʌt/",
+    "definition": "a small nut that grows in a thin shell.",
+    "categories": [
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_d957aa21",
+    "image_brief": "a bowl of peanuts on a bar counter with one person taking some, from the side at medium distance, glasses, a menu and a lamp, relaxed evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He is allergic to **peanut** butter."
+  },
+  {
+    "phrase": "almond",
+    "pos": "noun",
+    "sense": "oval-nut-with-brown-skin",
+    "pronunciation": "/ˈɑmənd/",
+    "definition": "an oval nut with a hard brown skin.",
+    "categories": [
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_c6b38547",
+    "image_brief": "almonds in a small dish beside a cup of coffee, one person reading at a cafe table, from above at medium distance, a book, a bag and a window, quiet break mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She puts **almond** milk in her coffee."
+  },
+  {
+    "phrase": "vinegar",
+    "pos": "noun",
+    "sense": "sour-liquid-for-food",
+    "pronunciation": "/ˈvɪnɪɡɚ/",
+    "definition": "a sour liquid made from wine or other liquids and used in cooking.",
+    "categories": [
+      "food",
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_71df3834",
+    "image_brief": "a bottle of vinegar being poured over a salad in a kitchen, one cook at the counter, from the side at medium distance, a bowl, a spoon and a cloth, sharp fresh mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Add a little **vinegar** to the dressing."
+  },
+  {
+    "phrase": "ketchup",
+    "pos": "noun",
+    "sense": "thick-red-sauce",
+    "pronunciation": "/ˈkɛtʃəp/",
+    "definition": "a thick red sauce made from tomatoes.",
+    "categories": [
+      "food",
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_22a68e20",
+    "image_brief": "a bottle of ketchup on a diner table with one person shaking it over fries, from the side at medium distance, plates, a glass and a napkin, casual meal mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He puts **ketchup** on everything."
+  },
+  {
+    "phrase": "mustard",
+    "pos": "noun",
+    "sense": "yellow-sauce-with-a-strong-taste",
+    "pronunciation": "/ˈmʌstɚd/",
+    "definition": "a yellow sauce with a strong taste, made from seeds.",
+    "categories": [
+      "food",
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_5b77aaeb",
+    "image_brief": "a jar of mustard open beside a sandwich on a plate, one person spreading it with a knife, from above at medium distance, a cup, a cloth and a window, quick lunch mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He likes **mustard** on his sausage."
+  },
+  {
+    "phrase": "mayonnaise",
+    "pos": "noun",
+    "sense": "thick-white-sauce",
+    "pronunciation": "/ˈmeɪəneɪz/",
+    "definition": "a thick white sauce made from eggs and oil.",
+    "categories": [
+      "food",
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_381afdff",
+    "image_brief": "a jar of mayonnaise on a kitchen counter with one person making a sandwich, from above at medium distance, bread, a knife and a plate, ordinary lunch mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She mixed **mayonnaise** with the tuna."
+  },
+  {
+    "phrase": "bacon",
+    "pos": "noun",
+    "sense": "salted-meat-from-a-pig",
+    "pronunciation": "/ˈbeɪkən/",
+    "definition": "thin slices of salted meat from a pig that are fried.",
+    "categories": [
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_5d635ab1",
+    "image_brief": "bacon frying in a pan with one person turning it, from the side at medium distance, a plate, a kettle and a towel, weekend breakfast mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The smell of **bacon** filled the kitchen."
+  },
+  {
+    "phrase": "steak",
+    "pos": "noun",
+    "sense": "thick-slice-of-meat",
+    "pronunciation": "/steɪk/",
+    "definition": "a thick slice of meat, usually beef.",
+    "categories": [
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_708eb2f9",
+    "image_brief": "a steak cooking on a grill with one cook turning it, from the side at medium distance, tongs, a plate and a towel, hungry evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He ordered a **steak** with potatoes."
+  },
+  {
+    "phrase": "lamb",
+    "pos": "noun",
+    "sense": "meat-from-a-young-sheep",
+    "pronunciation": "/læm/",
+    "definition": "meat that comes from a young sheep.",
+    "categories": [
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_a7078bec",
+    "image_brief": "a lamb dish being served at a family table with one person holding the plate, from the side at medium distance, vegetables, a jug and glasses, warm Sunday mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **lamb** was soft and full of flavor."
+  },
+  {
+    "phrase": "spice",
+    "pos": "noun",
+    "sense": "dried-flavoring-for-food",
+    "pronunciation": "/spaɪs/",
+    "definition": "a dried plant part that is used to give food a strong flavor.",
+    "categories": [
+      "food",
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_39980631",
+    "image_brief": "small bowls of spice on a market table with one seller weighing some, from the side at medium distance, jars, a scoop and a sign, warm market mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "This dish needs more **spice**."
+  },
+  {
+    "phrase": "herb",
+    "pos": "noun",
+    "sense": "green-plant-used-in-cooking",
+    "pronunciation": "/ɝb/",
+    "definition": "a green plant that is used to give food flavor.",
+    "categories": [
+      "food",
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_1c7c4a26",
+    "image_brief": "fresh herbs in pots on a kitchen windowsill with one person cutting some, from the side at medium distance, a knife, a board and a window, fresh home mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She added fresh **herb** to the soup."
+  },
+  {
+    "phrase": "curry",
+    "pos": "noun",
+    "sense": "spicy-dish-with-sauce",
+    "pronunciation": "/ˈkɝi/",
+    "definition": "a spicy dish cooked with a thick sauce.",
+    "categories": [
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_0c45d284",
+    "image_brief": "a curry cooking in a pot with one cook stirring it, from the side at medium distance, rice, a spoon and a towel, warm spicy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We had chicken **curry** for dinner."
+  },
+  {
+    "phrase": "stew",
+    "pos": "noun",
+    "sense": "thick-dish-of-meat-and-vegetables",
+    "pronunciation": "/stuː/",
+    "definition": "a thick dish of meat and vegetables cooked slowly in liquid.",
+    "categories": [
+      "food",
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_151d21ad",
+    "image_brief": "a stew simmering in a pot with one person lifting the lid, from the side at medium distance, bread, a ladle and a cloth, slow winter mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **stew** cooked all afternoon."
+  },
+  {
+    "phrase": "takeout",
+    "pos": "noun",
+    "sense": "food-bought-to-eat-elsewhere",
+    "pronunciation": "/ˈteɪkaʊt/",
+    "definition": "food that you buy at a restaurant and eat somewhere else.",
+    "categories": [
+      "food",
+      "city"
+    ],
+    "level": "a2",
+    "image": "voc_c676ea00",
+    "image_brief": "two people unpacking takeout boxes on a living room table, from above at medium distance, a sofa, drinks and a film on screen, easy evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We ordered **takeout** on Friday."
+  },
+  {
+    "phrase": "leftovers",
+    "pos": "noun",
+    "sense": "food-left-after-a-meal",
+    "pronunciation": "/ˈlɛftoʊvɚz/",
+    "definition": "food that is left after a meal.",
+    "categories": [
+      "food",
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_e0fe90ba",
+    "image_brief": "a person putting leftovers into containers in a kitchen, one child at the table, from the side at medium distance, plates, a fridge and a cloth, thrifty evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We ate the **leftovers** for lunch."
+  },
+  {
+    "phrase": "portion",
+    "pos": "noun",
+    "sense": "amount-of-food-for-one-person",
+    "pronunciation": "/ˈpɔrʃən/",
+    "definition": "the amount of food that is served to one person.",
+    "categories": [
+      "food",
+      "health"
+    ],
+    "level": "a2",
+    "image": "voc_c8938acd",
+    "image_brief": "a plate with a small portion of food beside a larger one, one person comparing them, from above at medium distance, glasses, a fork and a napkin, thoughtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "That **portion** is too big for me."
+  },
+  {
+    "phrase": "ingredient",
+    "pos": "noun",
+    "sense": "one-food-of-a-recipe",
+    "pronunciation": "/ɪnˈɡriːdiənt/",
+    "definition": "one of the foods that are used to make a dish.",
+    "categories": [
+      "food",
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_34b00633",
+    "image_brief": "ingredients laid out on a kitchen counter beside an open recipe book, one cook checking the list, from above at medium distance, bowls, a spoon and a window, organized cooking mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Flour is the main **ingredient** in bread."
+  },
+  {
+    "phrase": "roast",
+    "pos": "verb",
+    "sense": "cook-in-an-oven",
+    "pronunciation": "/roʊst/",
+    "definition": "to cook food in an oven or over a fire.",
+    "categories": [
+      "kitchen",
+      "food"
+    ],
+    "level": "a2",
+    "present_example": "She **roasts** vegetables every Sunday.",
+    "past_simple_example": "He **roasted** a chicken for dinner.",
+    "past_participle_example": "The meat has **roasted** for two hours.",
+    "present_participle_example": "The potatoes are **roasting** in the oven.",
+    "image": "voc_7337e854",
+    "image_brief": "a chicken roasting in an oven with one cook checking it through the glass, from behind at medium distance, a tray, a cloth and a timer, warm Sunday mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We **roast** vegetables with olive oil."
+  },
+  {
+    "phrase": "grill",
+    "pos": "verb",
+    "sense": "cook-over-a-fire",
+    "pronunciation": "/ɡrɪl/",
+    "definition": "to cook food over or under strong heat.",
+    "categories": [
+      "kitchen",
+      "food"
+    ],
+    "level": "a2",
+    "present_example": "He **grills** fish on Fridays.",
+    "past_simple_example": "They **grilled** corn at the fair.",
+    "past_participle_example": "The steak has been **grilled**.",
+    "present_participle_example": "She is **grilling** vegetables outside.",
+    "image": "voc_ad6288f7",
+    "image_brief": "a man grilling fish on an outdoor grill while one friend sets a table, from the side at medium distance, tongs, a plate and a bottle, summer evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "You can **grill** the chicken for ten minutes."
+  },
+  {
+    "phrase": "steam",
+    "pos": "verb",
+    "sense": "cook-with-hot-vapor",
+    "pronunciation": "/stiːm/",
+    "definition": "to cook food using the hot vapor from boiling water.",
+    "categories": [
+      "kitchen",
+      "food"
+    ],
+    "level": "a2",
+    "present_example": "She **steams** rice in a basket.",
+    "past_simple_example": "He **steamed** the vegetables.",
+    "past_participle_example": "The fish has been **steamed**.",
+    "present_participle_example": "The dumplings are **steaming** in the pot.",
+    "image": "voc_96569d6a",
+    "image_brief": "vegetables steaming in a basket over a pot with one cook lifting the lid, from the side at medium distance, a towel, a timer and a window, light healthy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Steam** the broccoli for five minutes."
+  },
+  {
+    "phrase": "simmer",
+    "pos": "verb",
+    "sense": "cook-just-below-boiling",
+    "pronunciation": "/ˈsɪmɚ/",
+    "definition": "to cook gently in liquid just below boiling.",
+    "categories": [
+      "kitchen",
+      "food"
+    ],
+    "level": "a2",
+    "present_example": "The sauce **simmers** for an hour.",
+    "past_simple_example": "The soup **simmered** all afternoon.",
+    "past_participle_example": "The beans have **simmered** long enough.",
+    "present_participle_example": "The stew is **simmering** on the stove.",
+    "image": "voc_4a011ff6",
+    "image_brief": "a pot simmering on a stove with small bubbles while one cook stirs, from the side at medium distance, a lid, a spoon and a towel, slow evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Let the sauce **simmer** for ten minutes."
+  },
+  {
+    "phrase": "knead",
+    "pos": "verb",
+    "sense": "press-dough-with-your-hands",
+    "pronunciation": "/niːd/",
+    "definition": "to press and fold dough with your hands.",
+    "categories": [
+      "kitchen",
+      "food"
+    ],
+    "level": "a2",
+    "present_example": "He **kneads** the dough for ten minutes.",
+    "past_simple_example": "She **kneaded** the bread by hand.",
+    "past_participle_example": "The dough has been **kneaded** well.",
+    "present_participle_example": "He is **kneading** the dough on the counter.",
+    "image": "voc_bb93867b",
+    "image_brief": "a baker kneading dough on a floured counter, one colleague at the oven, from the side at medium distance, flour, a bowl and a cloth, early bakery mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "You need to **knead** the dough for a few minutes."
+  },
+  {
+    "phrase": "peel",
+    "pos": "verb",
+    "sense": "remove-the-skin-of-fruit",
+    "pronunciation": "/piːl/",
+    "definition": "to remove the skin from fruit or vegetables.",
+    "categories": [
+      "kitchen",
+      "food"
+    ],
+    "level": "a2",
+    "present_example": "She **peels** potatoes at the sink.",
+    "past_simple_example": "He **peeled** an orange for the child.",
+    "past_participle_example": "The apples have been **peeled**.",
+    "present_participle_example": "She is **peeling** carrots.",
+    "image": "voc_224c8800",
+    "image_brief": "a woman peeling potatoes over a bowl at the sink, one child watching, from the side at medium distance, a peeler, a bin and a towel, ordinary cooking mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Peel** the potatoes before you boil them."
+  },
+  {
+    "phrase": "grate",
+    "pos": "verb",
+    "sense": "rub-food-into-small-pieces",
+    "pronunciation": "/ɡreɪt/",
+    "definition": "to rub food against a tool to make small thin pieces.",
+    "categories": [
+      "kitchen",
+      "food"
+    ],
+    "level": "a2",
+    "present_example": "He **grates** cheese over the pasta.",
+    "past_simple_example": "She **grated** a carrot into the salad.",
+    "past_participle_example": "The cheese has been **grated** already.",
+    "present_participle_example": "He is **grating** lemon skin.",
+    "image": "voc_4b8baac8",
+    "image_brief": "a cook grating cheese over a bowl with one hand, from the side at medium distance, a grater, a plate and a cloth, quick dinner mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Grate** some cheese on top."
+  },
+  {
+    "phrase": "chop",
+    "pos": "verb",
+    "sense": "cut-food-into-pieces",
+    "pronunciation": "/tʃɑp/",
+    "definition": "to cut food into small pieces.",
+    "categories": [
+      "kitchen",
+      "food"
+    ],
+    "level": "a2",
+    "present_example": "She **chops** onions near the window.",
+    "past_simple_example": "He **chopped** the herbs finely.",
+    "past_participle_example": "The nuts have been **chopped**.",
+    "present_participle_example": "She is **chopping** vegetables for soup.",
+    "image": "voc_dfd63b83",
+    "image_brief": "a person chopping onions on a board with tears in their eyes, one friend laughing nearby, from the side at medium distance, a knife, a bowl and a towel, comic kitchen mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Chop** the onion into small pieces."
+  },
+  {
+    "phrase": "seasoning",
+    "pos": "noun",
+    "sense": "salt-and-spice-for-food",
+    "pronunciation": "/ˈsiːzənɪŋ/",
+    "definition": "salt or spice that is added to food to give it flavor.",
+    "categories": [
+      "kitchen",
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_37441b67",
+    "image_brief": "a cook adding seasoning to a pot with one hand, from the side at medium distance, small jars, a spoon and a window, tasting mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "This soup needs more **seasoning**."
+  },
+  {
+    "phrase": "colander",
+    "pos": "noun",
+    "sense": "bowl-with-holes-for-draining",
+    "pronunciation": "/ˈkʌləndɚ/",
+    "definition": "a bowl with holes in it that is used for draining water from food.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_9228e032",
+    "image_brief": "pasta being poured into a colander in a sink with steam rising, one cook holding the pot, from the side at medium distance, a towel, a jar and a window, quick dinner mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Drain the pasta in a **colander**."
+  },
+  {
+    "phrase": "grater",
+    "pos": "noun",
+    "sense": "tool-with-sharp-holes",
+    "pronunciation": "/ˈɡreɪtɚ/",
+    "definition": "a tool with sharp holes that is used for grating food.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_42c930dc",
+    "image_brief": "a grater on a counter with one person cleaning it under the faucet, from the side at medium distance, cheese, a bowl and a cloth, after-cooking mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **grater** is in the drawer by the sink."
+  },
+  {
+    "phrase": "peeler",
+    "pos": "noun",
+    "sense": "tool-that-removes-skin",
+    "pronunciation": "/ˈpiːlɚ/",
+    "definition": "a small tool that removes the skin from fruit or vegetables.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_dafc1553",
+    "image_brief": "a woman using a peeler on a carrot over a bowl, one child beside her, from above at medium distance, potatoes, a knife and a cloth, ordinary kitchen mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Use the **peeler** for the carrots."
+  },
+  {
+    "phrase": "ladle",
+    "pos": "noun",
+    "sense": "deep-spoon-for-soup",
+    "pronunciation": "/ˈleɪdəl/",
+    "definition": "a deep spoon with a long handle that is used for serving soup.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_27a68015",
+    "image_brief": "a person serving soup with a ladle at a table, one guest holding out a bowl, from the side at medium distance, bread, a cloth and a jug, family dinner mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Use the **ladle** for the soup."
+  },
+  {
+    "phrase": "spatula",
+    "pos": "noun",
+    "sense": "flat-tool-for-turning-food",
+    "pronunciation": "/ˈspætʃələ/",
+    "definition": "a flat tool that is used for lifting or turning food.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_de91ee1b",
+    "image_brief": "a cook turning a pancake with a spatula in a pan, from the side at medium distance, a plate, a jug and a towel, weekend breakfast mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Turn the egg with a **spatula**."
+  },
+  {
+    "phrase": "tongs",
+    "pos": "noun",
+    "sense": "tool-for-picking-up-food",
+    "pronunciation": "/tɔŋz/",
+    "definition": "a tool with two arms that is used for picking up food.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_2df8d70b",
+    "image_brief": "a man lifting steak with tongs at a grill, one friend holding a plate, from the side at medium distance, a bottle, a cloth and a table, outdoor cooking mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Use the **tongs** to turn the meat."
+  },
+  {
+    "phrase": "scale",
+    "pos": "noun",
+    "sense": "tool-that-shows-weight",
+    "pronunciation": "/skeɪl/",
+    "definition": "a tool that shows how heavy something is.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_53f0edec",
+    "image_brief": "a cook weighing flour on a kitchen scale, one child watching, from above at medium distance, a bowl, a bag and a recipe, precise baking mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Put the flour on the **scale**."
+  },
+  {
+    "phrase": "tablespoon",
+    "pos": "noun",
+    "sense": "large-measuring-spoon",
+    "pronunciation": "/ˈteɪbəlspuːn/",
+    "definition": "a large spoon that is used for measuring amounts.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_abe602a1",
+    "image_brief": "a cook measuring oil with a tablespoon over a pan, from above at medium distance, a bottle, a bowl and a cloth, following-a-recipe mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Add one **tablespoon** of oil."
+  },
+  {
+    "phrase": "teaspoon",
+    "pos": "noun",
+    "sense": "small-measuring-spoon",
+    "pronunciation": "/ˈtiːspuːn/",
+    "definition": "a small spoon that is used for measuring amounts.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_f3853ad6",
+    "image_brief": "a person stirring tea with a teaspoon, one friend at the table, from above at medium distance, a cup, a sugar bowl and a newspaper, quiet afternoon mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Add half a **teaspoon** of salt."
+  },
+  {
+    "phrase": "cookbook",
+    "pos": "noun",
+    "sense": "book-of-recipes",
+    "pronunciation": "/ˈkʊkbʊk/",
+    "definition": "a book that is full of recipes.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_424f2388",
+    "image_brief": "a woman following a cookbook on a stand while cooking, one child at the table, from the side at medium distance, a pan, a cup and a towel, homely afternoon mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She found the recipe in a **cookbook**."
+  },
+  {
+    "phrase": "tin",
+    "pos": "noun",
+    "sense": "metal-container-for-food",
+    "pronunciation": "/tɪn/",
+    "definition": "a metal container that holds food.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_7487859d",
+    "image_brief": "a tin of soup on a shelf beside others, one person reaching for it, from the side at medium distance, a basket, labels and a lamp, pantry mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Open a **tin** of beans for the soup."
+  },
+  {
+    "phrase": "packet",
+    "pos": "noun",
+    "sense": "small-paper-or-plastic-bag",
+    "pronunciation": "/ˈpækɪt/",
+    "definition": "a small bag made of paper or plastic that holds food.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_68e68c6c",
+    "image_brief": "a packet of pasta open on a kitchen counter, one person pouring it into a pot, from the side at medium distance, a jar, a spoon and a window, ordinary dinner mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "There is one **packet** of rice left."
+  },
+  {
+    "phrase": "carton",
+    "pos": "noun",
+    "sense": "box-for-liquids",
+    "pronunciation": "/ˈkɑrtən/",
+    "definition": "a box or container that holds milk, juice or another liquid.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_11b8507d",
+    "image_brief": "a carton of milk on a breakfast table with one person pouring some, from the side at medium distance, cereal, a cup and a newspaper, morning routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **carton** of milk is nearly empty."
+  },
+  {
+    "phrase": "can",
+    "pos": "noun",
+    "sense": "metal-cylinder-for-food",
+    "pronunciation": "/kæn/",
+    "definition": "a metal cylinder that holds food or drink.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_50da67cb",
+    "image_brief": "a person opening a can with a tool at a table, one friend waiting with a plate, from the side at medium distance, other cans, a bowl and a cloth, camping meal mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We need a **can** of tomatoes."
+  },
+  {
+    "phrase": "delivery",
+    "pos": "noun",
+    "sense": "bringing-food-to-your-door",
+    "pronunciation": "/dɪˈlɪvɚi/",
+    "definition": "food that is brought to your home or office.",
+    "categories": [
+      "kitchen",
+      "city"
+    ],
+    "level": "a2",
+    "image": "voc_0d2c0189",
+    "image_brief": "a delivery courier handing bags of food to a customer at a door, from behind at medium distance, a bike, a step and a lamp, busy evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We ordered a pizza **delivery**."
+  },
+  {
+    "phrase": "buffet",
+    "pos": "noun",
+    "sense": "meal-where-you-serve-yourself",
+    "pronunciation": "/bəˈfeɪ/",
+    "definition": "a meal where guests serve themselves from a table of food.",
+    "categories": [
+      "kitchen",
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_9b46c06b",
+    "image_brief": "guests lining up at a buffet table with one person serving salad, from across the room at wide distance, trays, plates and flowers, hotel breakfast mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The hotel serves a **buffet** breakfast."
+  },
+  {
+    "phrase": "teapot",
+    "pos": "noun",
+    "sense": "pot-for-making-tea",
+    "pronunciation": "/ˈtiːpɑt/",
+    "definition": "a pot that is used for making and pouring tea.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_fcb45952",
+    "image_brief": "a woman pouring tea from a teapot at a table, one friend holding a cup, from the side at medium distance, biscuits, a cloth and a window, quiet afternoon mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **teapot** is still warm."
+  },
+  {
+    "phrase": "tablecloth",
+    "pos": "noun",
+    "sense": "cloth-that-covers-a-table",
+    "pronunciation": "/ˈteɪbəlklɔθ/",
+    "definition": "a cloth that covers a table.",
+    "categories": [
+      "kitchen",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_498f126e",
+    "image_brief": "two people setting a table with a white tablecloth before a meal, from above at medium distance, plates, glasses and flowers, preparing mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She spread a clean **tablecloth** on the table."
+  },
+  {
+    "phrase": "placemat",
+    "pos": "noun",
+    "sense": "mat-under-one-plate",
+    "pronunciation": "/ˈpleɪsmæt/",
+    "definition": "a mat that is placed under one plate on a table.",
+    "categories": [
+      "kitchen",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_00462235",
+    "image_brief": "a child putting a placemat under a plate at a kitchen table, one adult setting cutlery, from above at medium distance, a cup, a napkin and a chair, family dinner mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Put a **placemat** under each plate."
+  },
+  {
+    "phrase": "coaster",
+    "pos": "noun",
+    "sense": "small-mat-for-a-glass",
+    "pronunciation": "/ˈkoʊstɚ/",
+    "definition": "a small mat that a glass stands on to protect a table.",
+    "categories": [
+      "kitchen",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_91006ef8",
+    "image_brief": "a person putting a glass down on a coaster on a wooden table, one friend beside, from above at medium distance, a bottle, a book and a lamp, relaxed evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Use a **coaster** under that glass."
+  },
+  {
+    "phrase": "pantry",
+    "pos": "noun",
+    "sense": "cupboard-for-food",
+    "pronunciation": "/ˈpæntri/",
+    "definition": "a cupboard or small room where food is kept.",
+    "categories": [
+      "kitchen",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_0a203fc3",
+    "image_brief": "a woman checking a pantry shelf with one hand, a child behind her, from the side at medium distance, jars, tins and a bag, ordinary home mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The rice is in the **pantry**."
+  },
+  {
+    "phrase": "broth",
+    "pos": "noun",
+    "sense": "thin-soup-made-with-meat",
+    "pronunciation": "/brɔθ/",
+    "definition": "a thin soup made by cooking meat or vegetables in water.",
+    "categories": [
+      "kitchen",
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_48bd5739",
+    "image_brief": "a bowl of broth on a table with one person spooning some, one friend beside, from the side at medium distance, bread, a napkin and a glass, comforting sick-day mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She made chicken **broth** for the cold."
+  },
+  {
+    "phrase": "gravy",
+    "pos": "noun",
+    "sense": "thick-sauce-for-meat",
+    "pronunciation": "/ˈɡreɪvi/",
+    "definition": "a thick brown sauce that is served with meat.",
+    "categories": [
+      "kitchen",
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_608b450b",
+    "image_brief": "a person pouring gravy over potatoes at a family table, one guest holding a plate, from the side at medium distance, vegetables, a jug and glasses, Sunday dinner mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He poured **gravy** over his potatoes."
+  },
+  {
+    "phrase": "dough",
+    "pos": "noun",
+    "sense": "soft-mixture-for-bread",
+    "pronunciation": "/doʊ/",
+    "definition": "a soft mixture of flour and water that is used to make bread.",
+    "categories": [
+      "kitchen",
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_afe51228",
+    "image_brief": "dough rising in a bowl covered with a cloth, one baker checking it, from the side at medium distance, flour, a jug and a window, early morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Leave the **dough** to rise for an hour."
+  },
+  {
+    "phrase": "batter",
+    "pos": "noun",
+    "sense": "liquid-mixture-for-cakes",
+    "pronunciation": "/ˈbætɚ/",
+    "definition": "a thin mixture of flour, eggs and milk used for cakes or pancakes.",
+    "categories": [
+      "kitchen",
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_f0706f94",
+    "image_brief": "batter being poured into a cake tin with one baker scraping the bowl, from above at medium distance, a whisk, flour and a cloth, baking mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Pour the **batter** into the tin."
+  },
+  {
+    "phrase": "yeast",
+    "pos": "noun",
+    "sense": "substance-that-makes-bread-rise",
+    "pronunciation": "/jiːst/",
+    "definition": "a substance that is added to dough to make bread rise.",
+    "categories": [
+      "kitchen",
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_f5e46c4a",
+    "image_brief": "a baker measuring yeast into a small bowl, one colleague kneading dough behind, from above at medium distance, flour, a scale and a cloth, quiet bakery mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The bread needs **yeast** to rise."
+  },
+  {
+    "phrase": "sifter",
+    "pos": "noun",
+    "sense": "tool-that-separates-flour",
+    "pronunciation": "/ˈsɪftɚ/",
+    "definition": "a tool that shakes flour through small holes.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_9a0b4de8",
+    "image_brief": "a baker sifting flour over a bowl with one hand, from the side at medium distance, a scale, a cloth and an open cookbook, precise baking mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Use the **sifter** before you mix."
+  },
+  {
+    "phrase": "skillet",
+    "pos": "noun",
+    "sense": "heavy-frying-pan",
+    "pronunciation": "/ˈskɪlɪt/",
+    "definition": "a heavy pan that is used for frying.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_212406f0",
+    "image_brief": "eggs frying in a skillet on a stove with one person watching, from the side at medium distance, a spatula, a plate and a towel, quick breakfast mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Heat the **skillet** before you add the eggs."
+  },
+  {
+    "phrase": "wok",
+    "pos": "noun",
+    "sense": "deep-round-pan-for-stir-frying",
+    "pronunciation": "/wɑk/",
+    "definition": "a deep round pan that is used for stir-frying.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_8bd2d80e",
+    "image_brief": "a cook tossing vegetables in a wok over high heat, one friend at the table, from the side at medium distance, bowls, chopsticks and a bottle, fast dinner mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Stir the rice in the **wok**."
+  },
+  {
+    "phrase": "casserole",
+    "pos": "noun",
+    "sense": "deep-dish-for-baking",
+    "pronunciation": "/ˈkæsəroʊl/",
+    "definition": "a deep dish that is used for baking food in an oven.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_ec81e323",
+    "image_brief": "a casserole coming out of an oven held by one cook with gloves, from the side at medium distance, a towel, a table and a window, warm evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Put the vegetables in a **casserole**."
+  },
+  {
+    "phrase": "stock",
+    "pos": "noun",
+    "sense": "liquid-made-from-bones",
+    "pronunciation": "/stɑk/",
+    "definition": "a liquid made by cooking meat, bones or vegetables.",
+    "categories": [
+      "kitchen",
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_1ef66055",
+    "image_brief": "a pot of stock simmering on a stove with one cook skimming it, from the side at medium distance, a bowl, a spoon and a window, slow cooking mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Add a cup of **stock** to the pan."
+  },
+  {
+    "phrase": "saucer",
+    "pos": "noun",
+    "sense": "small-plate-for-a-cup",
+    "pronunciation": "/ˈsɔsɚ/",
+    "definition": "a small plate that a cup stands on.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_7ecc0f18",
+    "image_brief": "a cup and saucer on a cafe table with one person reading, from above at medium distance, a book, a spoon and a window, quiet break mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The cup comes with a **saucer**."
+  },
+  {
+    "phrase": "pitcher",
+    "pos": "noun",
+    "sense": "container-for-pouring-drinks",
+    "pronunciation": "/ˈpɪtʃɚ/",
+    "definition": "a container with a handle that is used for pouring drinks.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_290fc336",
+    "image_brief": "a pitcher of water being poured at a family table, one guest holding a glass, from the side at medium distance, plates, a jug and a cloth, easy dinner mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Pass me the **pitcher** of water."
+  },
+  {
+    "phrase": "strainer",
+    "pos": "noun",
+    "sense": "tool-with-holes-for-liquid",
+    "pronunciation": "/ˈstreɪnɚ/",
+    "definition": "a tool with holes that separates solid food from liquid.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_1b8e2d6f",
+    "image_brief": "a cook pouring tea through a strainer into a cup, one friend waiting, from the side at medium distance, a pot, a cloth and a window, careful tea mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Pour the tea through a **strainer**."
+  },
+  {
+    "phrase": "mortar",
+    "pos": "noun",
+    "sense": "heavy-bowl-for-crushing",
+    "pronunciation": "/ˈmɔrtɚ/",
+    "definition": "a heavy bowl that is used for crushing spices or herbs.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_b23617a7",
+    "image_brief": "a cook crushing spices in a mortar on a counter, one jar beside it, from above at medium distance, seeds, a spoon and a window, aromatic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Crush the seeds in a **mortar**."
+  },
+  {
+    "phrase": "mitt",
+    "pos": "noun",
+    "sense": "glove-for-a-hot-pan",
+    "pronunciation": "/mɪt/",
+    "definition": "a thick glove that protects your hand from a hot pan.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_4f8eda77",
+    "image_brief": "a person wearing a mitt taking a tray from an oven, one child watching, from the side at medium distance, a towel, a counter and a timer, careful baking mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Use a **mitt** for the hot tray."
+  },
+  {
+    "phrase": "thermos",
+    "pos": "noun",
+    "sense": "container-that-keeps-drinks-hot",
+    "pronunciation": "/ˈθɝməs/",
+    "definition": "a container that keeps drinks hot or cold for a long time.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_67deee4c",
+    "image_brief": "a hiker pouring tea from a thermos on a cold hill, one friend with a cup, from the side at medium distance, a backpack, a map and a fence, brisk outdoor mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We took a **thermos** of coffee."
+  },
+  {
+    "phrase": "flask",
+    "pos": "noun",
+    "sense": "small-bottle-for-drinks",
+    "pronunciation": "/flæsk/",
+    "definition": "a small bottle that is used for carrying a drink.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_1e8425ae",
+    "image_brief": "a student filling a flask at a kitchen sink before school, from the side at medium distance, a bag, a lunchbox and a window, morning routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Fill your **flask** before the trip."
+  },
+  {
+    "phrase": "lunchbox",
+    "pos": "noun",
+    "sense": "box-for-a-packed-meal",
+    "pronunciation": "/ˈlʌntʃbɑks/",
+    "definition": "a box that is used for carrying a packed meal.",
+    "categories": [
+      "kitchen",
+      "education"
+    ],
+    "level": "a2",
+    "image": "voc_59724ae9",
+    "image_brief": "a parent putting a lunchbox into a child's bag at a door, from the side at medium distance, a coat, shoes and a mat, school morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **lunchbox** has a sandwich and an apple."
+  },
+  {
+    "phrase": "cooler",
+    "pos": "noun",
+    "sense": "box-that-keeps-food-cold",
+    "pronunciation": "/ˈkuːlɚ/",
+    "definition": "a box that keeps food and drinks cold.",
+    "categories": [
+      "kitchen",
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_c89461d2",
+    "image_brief": "a cooler opened on a beach with one person taking out a drink, one friend setting a towel down, from above at medium distance, a bag, a ball and the sea, sunny picnic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The drinks are in the **cooler**."
+  },
+  {
+    "phrase": "jug",
+    "pos": "noun",
+    "sense": "container-for-pouring-liquid",
+    "pronunciation": "/dʒʌɡ/",
+    "definition": "a large container that is used for pouring liquid.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "a2",
+    "image": "voc_31381264",
+    "image_brief": "a jug of lemonade on a garden table with one person pouring, from the side at medium distance, glasses, a plate and a chair, summer lunch mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She filled the **jug** with water."
   }
 ]

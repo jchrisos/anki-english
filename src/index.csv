@@ -2699,3 +2699,103 @@ vocabulary,recycle,use-old-things-again,verb,a2,home;nature,use old paper or pla
 vocabulary,compost,turn-food-waste-into-soil,verb,a2,home;nature,turn food waste into soil
 vocabulary,floss,clean-between-your-teeth,verb,a2,health,clean between your teeth with thread
 vocabulary,shave,cut-hair-from-the-body,verb,a2,body;health,cut hair from your face or body
+vocabulary,strawberry,small-red-fruit,noun,a2,food,small red fruit with tiny seeds
+vocabulary,blueberry,small-blue-berry,noun,a2,food,a small dark blue fruit
+vocabulary,cherry,small-round-red-fruit,noun,a2,food,a small round red fruit with a stone
+vocabulary,melon,large-juicy-fruit,noun,a2,food,a large sweet fruit with soft flesh
+vocabulary,watermelon,large-green-fruit-with-red-inside,noun,a2,food,a large green fruit with red flesh
+vocabulary,pineapple,spiky-tropical-fruit,noun,a2,food,a large tropical fruit with rough skin
+vocabulary,mango,sweet-orange-tropical-fruit,noun,a2,food,a sweet orange tropical fruit
+vocabulary,pear,fruit-shaped-like-a-bell,noun,a2,food,a sweet fruit with a wide bottom
+vocabulary,plum,small-purple-fruit,noun,a2,food,a small round fruit with purple skin
+vocabulary,kiwi,small-fruit-with-green-inside,noun,a2,food,a small brown fruit with green flesh
+vocabulary,coconut,hard-fruit-with-white-inside,noun,a2,food,a large hard fruit with white flesh
+vocabulary,avocado,green-fruit-with-a-stone,noun,a2,food,a green fruit with soft flesh and a stone
+vocabulary,cabbage,round-leafy-vegetable,noun,a2,food;kitchen,a round vegetable with thick leaves
+vocabulary,lettuce,green-leaves-for-salad,noun,a2,food;kitchen,green leaves eaten in salads
+vocabulary,cucumber,long-green-vegetable,noun,a2,food;kitchen,a long green vegetable eaten raw
+vocabulary,mushroom,soft-plant-with-a-stem,noun,a2,food;kitchen,a soft food that grows in dark places
+vocabulary,bean,small-seed-vegetable,noun,a2,food,a seed used as food in many dishes
+vocabulary,pea,small-round-green-seed,noun,a2,food,a small round green seed eaten as food
+vocabulary,corn,yellow-grain-vegetable,noun,a2,food,yellow grains that grow on a tall plant
+vocabulary,noodle,long-strip-of-dough,noun,a2,food,a long thin strip of pasta or dough
+vocabulary,yogurt,thick-sour-milk-food,noun,a2,food;kitchen,a thick food made from milk
+vocabulary,beef,meat-from-a-cow,noun,a2,food,meat that comes from a cow
+vocabulary,pork,meat-from-a-pig,noun,a2,food,meat that comes from a pig
+vocabulary,shrimp,small-sea-animal-you-eat,noun,a2,food;kitchen,a small sea animal eaten as food
+vocabulary,tuna,large-sea-fish-you-eat,noun,a2,food;kitchen,a large sea fish often sold in cans
+vocabulary,salmon,large-fish-with-pink-meat,noun,a2,food;kitchen,a large fish with pink meat
+vocabulary,jam,sweet-fruit-spread,noun,a2,food;kitchen,a sweet spread made from fruit
+vocabulary,cereal,breakfast-food-from-grains,noun,a2,food;kitchen,a breakfast food made from grains
+vocabulary,oatmeal,warm-breakfast-from-oats,noun,a2,food;kitchen,a warm breakfast made from oats
+vocabulary,pancake,flat-cake-fried-in-a-pan,noun,a2,food;kitchen,a thin flat cake cooked in a pan
+vocabulary,fries,long-fried-potatoes,noun,a2,food,long thin pieces of fried potato
+vocabulary,dessert,sweet-food-after-a-meal,noun,a2,food,sweet food eaten after a meal
+vocabulary,pie,baked-dish-with-a-top,noun,a2,food;kitchen,food baked in pastry with a top
+vocabulary,peanut,small-nut-in-a-shell,noun,a2,food,a small nut that grows in a shell
+vocabulary,almond,oval-nut-with-brown-skin,noun,a2,food,an oval nut with a brown skin
+vocabulary,vinegar,sour-liquid-for-food,noun,a2,food;kitchen,a sour liquid used in cooking
+vocabulary,ketchup,thick-red-sauce,noun,a2,food;kitchen,a thick red sauce made from tomatoes
+vocabulary,mustard,yellow-sauce-with-a-strong-taste,noun,a2,food;kitchen,a yellow sauce with a strong taste
+vocabulary,mayonnaise,thick-white-sauce,noun,a2,food;kitchen,a thick white sauce made with eggs and oil
+vocabulary,bacon,salted-meat-from-a-pig,noun,a2,food,thin slices of salted meat from a pig
+vocabulary,steak,thick-slice-of-meat,noun,a2,food,a thick slice of meat
+vocabulary,lamb,meat-from-a-young-sheep,noun,a2,food,meat that comes from a young sheep
+vocabulary,spice,dried-flavoring-for-food,noun,a2,food;kitchen,a dried plant part used to flavor food
+vocabulary,herb,green-plant-used-in-cooking,noun,a2,food;kitchen,a green plant used to flavor food
+vocabulary,curry,spicy-dish-with-sauce,noun,a2,food,a spicy dish cooked with a thick sauce
+vocabulary,stew,thick-dish-of-meat-and-vegetables,noun,a2,food;kitchen,meat and vegetables cooked slowly in liquid
+vocabulary,takeout,food-bought-to-eat-elsewhere,noun,a2,food;city,food bought to eat somewhere else
+vocabulary,leftovers,food-left-after-a-meal,noun,a2,food;kitchen,food that is left after a meal
+vocabulary,portion,amount-of-food-for-one-person,noun,a2,food;health,the amount of food for one person
+vocabulary,ingredient,one-food-of-a-recipe,noun,a2,food;kitchen,one of the foods used in a recipe
+vocabulary,roast,cook-in-an-oven,verb,a2,kitchen;food,cook food in an oven or over fire
+vocabulary,grill,cook-over-a-fire,verb,a2,kitchen;food,cook food over or under strong heat
+vocabulary,steam,cook-with-hot-vapor,verb,a2,kitchen;food,cook food with the vapor from hot water
+vocabulary,simmer,cook-just-below-boiling,verb,a2,kitchen;food,cook gently just below boiling
+vocabulary,knead,press-dough-with-your-hands,verb,a2,kitchen;food,press and fold dough with your hands
+vocabulary,peel,remove-the-skin-of-fruit,verb,a2,kitchen;food,remove the skin from fruit or vegetables
+vocabulary,grate,rub-food-into-small-pieces,verb,a2,kitchen;food,rub food into small thin pieces
+vocabulary,chop,cut-food-into-pieces,verb,a2,kitchen;food,cut food into small pieces
+vocabulary,seasoning,salt-and-spice-for-food,noun,a2,kitchen;food,salt or spice added to give flavor
+vocabulary,colander,bowl-with-holes-for-draining,noun,a2,kitchen,a bowl with holes for draining water
+vocabulary,grater,tool-with-sharp-holes,noun,a2,kitchen,a tool with sharp holes for grating food
+vocabulary,peeler,tool-that-removes-skin,noun,a2,kitchen,a small tool that removes fruit skin
+vocabulary,ladle,deep-spoon-for-soup,noun,a2,kitchen,a deep spoon for serving soup
+vocabulary,spatula,flat-tool-for-turning-food,noun,a2,kitchen,a flat tool for lifting or turning food
+vocabulary,tongs,tool-for-picking-up-food,noun,a2,kitchen,a tool with two arms for picking up food
+vocabulary,scale,tool-that-shows-weight,noun,a2,kitchen,a tool that shows how heavy something is
+vocabulary,tablespoon,large-measuring-spoon,noun,a2,kitchen,a large spoon used for measuring
+vocabulary,teaspoon,small-measuring-spoon,noun,a2,kitchen,a small spoon used for measuring
+vocabulary,cookbook,book-of-recipes,noun,a2,kitchen,a book full of recipes
+vocabulary,tin,metal-container-for-food,noun,a2,kitchen,a metal container that holds food
+vocabulary,packet,small-paper-or-plastic-bag,noun,a2,kitchen,a small bag that holds food
+vocabulary,carton,box-for-liquids,noun,a2,kitchen,a box or container for milk or juice
+vocabulary,can,metal-cylinder-for-food,noun,a2,kitchen,a metal cylinder that holds food
+vocabulary,delivery,bringing-food-to-your-door,noun,a2,kitchen;city,food brought to your home
+vocabulary,buffet,meal-where-you-serve-yourself,noun,a2,kitchen;food,a meal where guests serve themselves
+vocabulary,teapot,pot-for-making-tea,noun,a2,kitchen,a pot used for making and pouring tea
+vocabulary,tablecloth,cloth-that-covers-a-table,noun,a2,kitchen;home,a cloth that covers a table
+vocabulary,placemat,mat-under-one-plate,noun,a2,kitchen;home,a mat placed under one plate
+vocabulary,coaster,small-mat-for-a-glass,noun,a2,kitchen;home,a small mat that a glass stands on
+vocabulary,pantry,cupboard-for-food,noun,a2,kitchen;home,a cupboard or small room for food
+vocabulary,broth,thin-soup-made-with-meat,noun,a2,kitchen;food,a thin soup made by cooking meat or vegetables
+vocabulary,gravy,thick-sauce-for-meat,noun,a2,kitchen;food,a thick sauce served with meat
+vocabulary,dough,soft-mixture-for-bread,noun,a2,kitchen;food,a soft mixture of flour and water for bread
+vocabulary,batter,liquid-mixture-for-cakes,noun,a2,kitchen;food,a thin mixture of flour eggs and milk
+vocabulary,yeast,substance-that-makes-bread-rise,noun,a2,kitchen;food,a substance that makes bread rise
+vocabulary,sifter,tool-that-separates-flour,noun,a2,kitchen,a tool that shakes flour through holes
+vocabulary,skillet,heavy-frying-pan,noun,a2,kitchen,a heavy pan used for frying
+vocabulary,wok,deep-round-pan-for-stir-frying,noun,a2,kitchen,a deep round pan used for stir-frying
+vocabulary,casserole,deep-dish-for-baking,noun,a2,kitchen,a deep dish used for baking food in an oven
+vocabulary,stock,liquid-made-from-bones,noun,a2,kitchen;food,a liquid made by cooking meat or vegetables
+vocabulary,saucer,small-plate-for-a-cup,noun,a2,kitchen,a small plate that a cup stands on
+vocabulary,pitcher,container-for-pouring-drinks,noun,a2,kitchen,a container with a handle for pouring drinks
+vocabulary,strainer,tool-with-holes-for-liquid,noun,a2,kitchen,a tool with holes that separates liquid
+vocabulary,mortar,heavy-bowl-for-crushing,noun,a2,kitchen,a heavy bowl used for crushing spices
+vocabulary,mitt,glove-for-a-hot-pan,noun,a2,kitchen,a thick glove that protects your hand
+vocabulary,thermos,container-that-keeps-drinks-hot,noun,a2,kitchen,a container that keeps drinks hot or cold
+vocabulary,flask,small-bottle-for-drinks,noun,a2,kitchen,a small bottle for carrying a drink
+vocabulary,lunchbox,box-for-a-packed-meal,noun,a2,kitchen;education,a box for carrying a packed meal
+vocabulary,cooler,box-that-keeps-food-cold,noun,a2,kitchen;travel,a box that keeps food and drinks cold
+vocabulary,jug,container-for-pouring-liquid,noun,a2,kitchen,a large container for pouring liquid
