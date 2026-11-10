@@ -21,13 +21,12 @@ card — that was tried and dropped.
 
 ## Status
 
-Early, but working. The generator builds real packages. The generated **vocabulary** deck is
-still an empty baseline that pins the deck and note-type ids; the **phrasal verbs** deck is
-complete at its **350-card target** (A1–B2) and the **collocations** deck at its
-**800-card target** (A1–B2). Content is added only on explicit request. Illustrations for both
-finished batches are still pending: every entry has a paste-ready Midjourney brief, but no
-image files are committed yet, so those cards are text and audio only until the renders land
-in `media/`.
+Early, but working. The generator builds real packages. The **vocabulary** deck is in progress
+with its first **750 of 5,500 cards** (A1, authored in 50-card chunks); the **phrasal verbs**
+deck is complete at its **350-card target** (A1–B2) and the **collocations** deck at its
+**800-card target** (A1–B2). Content is added only on explicit request. Illustrations for all
+batches are still pending: every entry has a paste-ready Midjourney brief, but no image files
+are committed yet, so those cards are text and audio only until the renders land in `media/`.
 
 ## Quick start
 
@@ -200,7 +199,7 @@ Content is added **only on demand**. Nothing seeds a deck with a placeholder car
 list to prove the pipeline works. The collocations deck is complete: 800 A1–B2 entries in
 `src/index.csv` and `src/collocations.json`, authored in sixteen 50-card chunks. The phrasal
 verbs deck is complete at 350 A1–B2 entries, authored in seven 50-card chunks. The vocabulary
-deck remains empty until its own batch is requested. Every entry's `image_brief` is ready to
+deck is being authored in 50-card chunks and stands at 750 A1 entries. Every entry's `image_brief` is ready to
 paste into Midjourney, and its `image` field already names the file the build will look for
 under `media/` (the media key, without an extension); until that render exists the card is
 text-and-audio only. Audio is synthesized locally with `tools/build_audio.py`; its mp3s are

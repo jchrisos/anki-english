@@ -9,6 +9,45 @@ status: active
 
 Newest entries first. ISO dates (`YYYY-MM-DD`).
 
+## 2026-11-10 — Vocabulary deck grows to 750 A1 cards; batch merge script
+
+- The same A1 pass continued past its first four chunks to **750 entries / 5,500** in
+  `src/vocabulary.json`, with `src/index.csv` carrying the matching 750 rows. Manifest and
+  source agree exactly: no sense is source-only or manifest-only, and every entry is
+  `level::a1`.
+- Part of speech across the 750: 452 nouns, 152 verbs, 85 adjectives, 28 adverbs,
+  13 determiners, 12 prepositions, 4 numerals, 3 interjections, 1 pronoun. The 152 verbs
+  carry the four form examples each; the set exercises all 26 allowed category slugs.
+- `tools/lint_content.py` reports `vocabulary: 750/5500 written, 750/5500 planned` and
+  `clean: 1 warning(s)` — the standing `get dressed` two-kind warning.
+- Added `tools/merge_batch.py` so a chunk is no longer merged by hand. It reads a staging
+  directory (`plan.csv` headerless in manifest column order plus `entries_*.json`), runs the
+  same manifest and source checks as the lint, refuses a phrase already in the deck, and only
+  then appends to `src/index.csv` and `src/vocabulary.json`. A failed batch leaves `src/`
+  untouched.
+- The illustration key is still not authored: the script derives `image` from
+  `phrase + sense` with the same helper the audio filenames use, so a chunk cannot ship a key
+  that disagrees with its files.
+
+## 2026-11-10 — Start the vocabulary deck: 200 A1 cards in four 50-card chunks
+
+- Authored the first four 50-card chunks of the production vocabulary deck, **manifest
+  first**: the 200 rows were written to `src/index.csv` (`kind=vocabulary`) before their
+  cards landed in `src/vocabulary.json`. Each chunk was merged and linted on its own.
+- The A1 core is spread across everyday life rather than one theme: 86 nouns, 64 verbs,
+  40 adjectives and 10 adverbs, exercising all 26 allowed category slugs (`daily-routine` 26,
+  `communication` 20, `time` 17). Every entry is `level::a1`.
+- Every card carries one authored example in its base form, all 64 verbs carry the four form
+  examples, and every entry has a finished Midjourney brief plus an `image` field naming the
+  render it expects. No renders exist yet, so the cards are text and audio only.
+- `tools/lint_content.py` reports clean (only the standing `get dressed` two-kind warning);
+  progress line is `vocabulary: 200/5500 written, 200/5500 planned`.
+- Audio was synthesized locally (856 clips for 200 notes) and `decks/vocabulary.apkg` was built
+  and verified by unzipping it: 200 notes, 200 cards, 856 media refs, first GUID
+  `voc:money:cash-and-coins`, examples rendered with `<b>`.
+- Chunk batching matters for the teacher subagent: a 25-entry response can come back
+  truncated, so batches are requested in 25s (or 8–9s) and checked before merging.
+
 ## 2026-11-09 — Name the image in every finished source entry
 
 - Added the `image` key to all 1,150 finished entries (800 collocations, 350 phrasal verbs).

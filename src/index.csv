@@ -1149,3 +1149,753 @@ phrasal-verbs,live up to,meet-expectations,verb,b2,work,to be as good as what pe
 phrasal-verbs,face up to,accept-a-difficult-truth,verb,b2,emotions;money,to accept and deal with something difficult instead of avoiding it.
 phrasal-verbs,do away with,abolish-something,verb,b2,city;work,"to get rid of something or stop using it, often officially."
 phrasal-verbs,team up with,work-together-with-someone,verb,b1,work;sports,to join another person or group so you can work together.
+vocabulary,money,cash-and-coins,noun,a1,money,bills and coins used to pay for things
+vocabulary,house,place-to-live,noun,a1,home,a building where people live
+vocabulary,water,drinking-liquid,noun,a1,nature;food,the clear liquid people drink
+vocabulary,food,things-you-eat,noun,a1,food,the things people eat
+vocabulary,time,hours-and-minutes,noun,a1,time,"the passing of minutes, hours and days"
+vocabulary,friend,person-you-like,noun,a1,relationships,a person you know well and like
+vocabulary,family,parents-and-children,noun,a1,relationships,parents and their children
+vocabulary,job,paid-work,noun,a1,work,the work someone is paid to do
+vocabulary,school,place-to-learn,noun,a1,education,a place where children learn
+vocabulary,car,four-wheeled-vehicle,noun,a1,car;transport,a vehicle with four wheels
+vocabulary,road,surface-for-driving,noun,a1,transport;city,a hard surface built for vehicles
+vocabulary,city,large-town,noun,a1,city,a large town with many people
+vocabulary,book,printed-pages,noun,a1,education,printed pages held together in a cover
+vocabulary,phone,device-for-calls,noun,a1,technology;communication,a device for talking to someone far away
+vocabulary,run,move-fast,verb,a1,sports;body,to move on foot much faster than walking
+vocabulary,walk,move-on-foot,verb,a1,daily-routine;body,to move on foot at a steady pace
+vocabulary,eat,put-food-in-mouth,verb,a1,food;daily-routine,to put food in your mouth and swallow it
+vocabulary,drink,swallow-liquid,verb,a1,food;body,to take liquid into your mouth
+vocabulary,sleep,rest-at-night,verb,a1,daily-routine;body,to rest with your eyes closed at night
+vocabulary,read,understand-written-words,verb,a1,education,to look at words and understand them
+vocabulary,write,put-words-on-paper,verb,a1,education;communication,to put words on paper or a screen
+vocabulary,buy,pay-to-get,verb,a1,shopping;money,to pay money and get something
+vocabulary,hot,high-temperature,adjective,a1,weather,having a high temperature
+vocabulary,cold,low-temperature,adjective,a1,weather,having a low temperature
+vocabulary,happy,feel-pleased,adjective,a1,emotions,feeling pleased
+vocabulary,door,entrance-panel,noun,a1,home,a panel that opens so people can pass
+vocabulary,window,glass-opening,noun,a1,home,a glass opening in a wall
+vocabulary,table,flat-top-furniture,noun,a1,home;kitchen,furniture with a flat top and legs
+vocabulary,bed,furniture-for-sleeping,noun,a1,home,furniture you sleep on
+vocabulary,kitchen,room-for-cooking,noun,a1,kitchen;home,the room where food is cooked
+vocabulary,dog,pet-animal,noun,a1,animals,an animal kept as a pet
+vocabulary,tree,tall-plant,noun,a1,nature,a tall plant with a trunk and branches
+vocabulary,rain,falling-water,noun,a1,weather;nature,water falling from clouds
+vocabulary,sell,give-for-money,verb,a1,shopping;money;work,to give something and receive money
+vocabulary,give,hand-to-someone,verb,a1,daily-routine,to hand something to someone
+vocabulary,open,make-not-closed,verb,a1,daily-routine,to move something so it is not closed
+vocabulary,close,shut,verb,a1,daily-routine,to shut something
+vocabulary,help,make-easier,verb,a1,relationships,to make something easier for someone
+vocabulary,need,must-have,verb,a1,daily-routine,to must have something
+vocabulary,wear,have-clothes-on,verb,a1,clothes,to have clothes on your body
+vocabulary,cook,prepare-food-with-heat,verb,a1,kitchen;food,to prepare food with heat
+vocabulary,sad,feel-unhappy,adjective,a1,emotions,feeling unhappy
+vocabulary,new,recently-made,adjective,a1,shopping,recently made or bought
+vocabulary,old,not-new,adjective,a1,shopping,not new
+vocabulary,cheap,low-price,adjective,a1,money;shopping,costing little money
+vocabulary,fast,high-speed,adjective,a1,transport,moving at high speed
+vocabulary,slow,low-speed,adjective,a1,transport,moving at low speed
+vocabulary,hungry,need-food,adjective,a1,food;body,needing food
+vocabulary,always,every-time,adverb,a1,time,every time
+vocabulary,never,not-ever,adverb,a1,time,not at any time
+vocabulary,morning,early-part-of-day,noun,a1,time;daily-routine,"the early part of the day, before noon"
+vocabulary,night,dark-part-of-day,noun,a1,time;daily-routine,the dark part of the day when people sleep
+vocabulary,week,seven-days,noun,a1,time,a period of seven days
+vocabulary,day,twenty-four-hours,noun,a1,time;daily-routine,a period of twenty-four hours
+vocabulary,name,what-someone-is-called,noun,a1,communication,the word people use to call a person or thing
+vocabulary,word,unit-of-language,noun,a1,communication;education,a single unit of language that has a meaning
+vocabulary,question,asking-for-information,noun,a1,communication;education,a sentence that asks for information
+vocabulary,answer,reply-to-a-question,noun,a1,communication;education,something you say or write back to a question
+vocabulary,story,account-of-events,noun,a1,communication;education,"a description of events, real or imagined"
+vocabulary,music,sounds-people-enjoy,noun,a1,music,sounds arranged in a way that people enjoy hearing
+vocabulary,game,activity-with-rules,noun,a1,sports,an activity with rules that people play for fun
+vocabulary,park,public-green-space,noun,a1,city;nature,a public area with grass and trees where people relax
+vocabulary,beach,sandy-shore,noun,a1,travel;nature,the sandy land beside the sea or a lake
+vocabulary,river,flowing-water,noun,a1,nature;travel,a long natural stream of water flowing to the sea
+vocabulary,snow,frozen-rain,noun,a1,weather;nature,soft white pieces of frozen water that fall from the sky
+vocabulary,wind,moving-air,noun,a1,weather;nature,air that moves across the land
+vocabulary,bird,animal-with-wings,noun,a1,animals;nature,an animal with feathers and wings that can usually fly
+vocabulary,cat,small-pet-animal,noun,a1,animals,a small furry animal often kept as a pet
+vocabulary,egg,oval-food-from-a-bird,noun,a1,food;kitchen,an oval food that comes from a bird and is cooked and eaten
+vocabulary,bread,baked-food,noun,a1,food;kitchen,a food made from flour and water and baked in an oven
+vocabulary,milk,white-drink,noun,a1,food;kitchen,the white liquid that cows and some other animals produce
+vocabulary,street,road-in-a-town,noun,a1,city;transport,a road in a town with buildings along it
+vocabulary,go,move-to-a-place,verb,a1,daily-routine;transport,to move from one place to another
+vocabulary,come,move-toward-speaker,verb,a1,daily-routine,to move toward the person who is speaking
+vocabulary,see,notice-with-eyes,verb,a1,body,to notice something with your eyes
+vocabulary,look,direct-eyes-at,verb,a1,body,to turn your eyes toward something
+vocabulary,watch,look-for-a-while,verb,a1,daily-routine,to look at something for a period of time
+vocabulary,hear,notice-sound,verb,a1,body;communication,to notice a sound with your ears
+vocabulary,listen,pay-attention-to-sound,verb,a1,body;communication,to pay attention to a sound
+vocabulary,speak,say-words,verb,a1,communication,to say words with your voice
+vocabulary,say,express-in-words,verb,a1,communication,to express something using words
+vocabulary,tell,give-information,verb,a1,communication,to give someone information by speaking
+vocabulary,ask,request-an-answer,verb,a1,communication,to speak in order to get an answer
+vocabulary,know,have-information,verb,a1,education,to have information in your mind
+vocabulary,think,use-your-mind,verb,a1,education,to use your mind to form ideas or opinions
+vocabulary,understand,know-the-meaning,verb,a1,education,to know what something means
+vocabulary,remember,keep-in-memory,verb,a1,education,to keep something in your mind and not forget it
+vocabulary,forget,lose-from-memory,verb,a1,education,to not remember something
+vocabulary,young,not-old,adjective,a1,relationships,having lived for only a short time
+vocabulary,tall,great-in-height,adjective,a1,body,having a greater height than usual
+vocabulary,easy,not-difficult,adjective,a1,education,not difficult and needing little effort
+vocabulary,hard,difficult,adjective,a1,education,difficult and needing a lot of effort
+vocabulary,clean,free-of-dirt,adjective,a1,home,not covered in dirt or marks
+vocabulary,dirty,covered-in-dirt,adjective,a1,home,covered in dirt or marks
+vocabulary,busy,having-many-things-to-do,adjective,a1,work,having a lot of things to do
+vocabulary,loud,making-much-noise,adjective,a1,music,making a lot of noise
+vocabulary,sick,not-feeling-well,adjective,a1,health,not feeling well and often ill
+vocabulary,tired,needing-rest,adjective,a1,health;daily-routine,needing to rest or sleep
+vocabulary,today,on-this-day,adverb,a1,time,on this present day
+vocabulary,tomorrow,on-the-next-day,adverb,a1,time,on the day after today
+vocabulary,year,twelve-months,noun,a1,time,a period of twelve months
+vocabulary,month,part-of-a-year,noun,a1,time,one of the twelve parts of a year
+vocabulary,hour,sixty-minutes,noun,a1,time,a period of sixty minutes
+vocabulary,minute,sixty-seconds,noun,a1,time,a short period of sixty seconds
+vocabulary,birthday,day-you-were-born,noun,a1,time;relationships,the date each year when a person celebrates being born
+vocabulary,holiday,day-off-work,noun,a1,travel;time,a date when most businesses close
+vocabulary,party,social-gathering,noun,a1,relationships,"a fun event where people meet, eat and enjoy music"
+vocabulary,gift,present-for-someone,noun,a1,relationships;shopping,something you give to a person on a special occasion
+vocabulary,letter,written-message,noun,a1,communication,a written message on paper that you mail
+vocabulary,email,electronic-message,noun,a1,communication;technology,a message sent between computers or phones
+vocabulary,message,written-or-spoken-note,noun,a1,communication;technology,a short piece of information for another person
+vocabulary,color,red-blue-green,noun,a1,color,"the quality that makes something look red, blue or green"
+vocabulary,bathroom,room-with-toilet,noun,a1,home,a room with a toilet and a sink
+vocabulary,garden,land-for-plants,noun,a1,home;nature,land beside a house where people grow plants
+vocabulary,wall,side-of-a-room,noun,a1,home,a flat upright side of a room or building
+vocabulary,floor,surface-you-walk-on,noun,a1,home,the flat surface under your feet in a room
+vocabulary,shower,wash-under-water,noun,a1,daily-routine;body,a wash of your body under falling water
+vocabulary,noise,unwanted-sound,noun,a1,communication,a sound you do not want to hear
+vocabulary,shop,place-to-buy-things,noun,a1,shopping;city,a small store where people buy things
+vocabulary,market,place-with-stalls,noun,a1,shopping;city,an area with many small stands selling goods
+vocabulary,put,place-somewhere,verb,a1,daily-routine,to move something to a place and leave it there
+vocabulary,take,pick-up-and-carry,verb,a1,daily-routine,to pick something up and carry it away
+vocabulary,bring,carry-to-a-place,verb,a1,daily-routine,to carry something to the place you are going
+vocabulary,send,make-something-go,verb,a1,communication,to make a letter or package go to someone
+vocabulary,show,let-someone-see,verb,a1,communication,to hold something up so another person can see it
+vocabulary,meet,come-together,verb,a1,relationships,to come to the same place as another person
+vocabulary,call,phone-someone,verb,a1,communication;technology,to use a phone to speak to someone elsewhere
+vocabulary,use,do-something-with,verb,a1,daily-routine,to do a job with a thing that helps you
+vocabulary,find,discover-by-looking,verb,a1,daily-routine,to see something you were looking for
+vocabulary,lose,not-be-able-to-find,verb,a1,daily-routine,to no longer know where something is
+vocabulary,start,begin,verb,a1,daily-routine;work,to do the first part of an activity
+vocabulary,finish,complete,verb,a1,work;education,to get to the end of something
+vocabulary,stop,no-longer-move,verb,a1,transport;daily-routine,to come to rest and stay in one place
+vocabulary,wait,stay-until-something,verb,a1,daily-routine,to stay until something happens or someone arrives
+vocabulary,cost,have-a-price,verb,a1,money;shopping,to be sold for a certain amount of money
+vocabulary,pay,give-money-for,verb,a1,money;shopping,to hand over money for something
+vocabulary,early,before-expected-time,adjective,a1,time,before the usual or expected moment
+vocabulary,late,after-expected-time,adjective,a1,time,after the usual or expected moment
+vocabulary,full,no-space-left,adjective,a1,food,holding as much as it can
+vocabulary,empty,with-nothing-inside,adjective,a1,home,having no people or objects inside
+vocabulary,rich,having-much-money,adjective,a1,money,owning a large amount of money
+vocabulary,poor,having-little-money,adjective,a1,money,having very little money for basic things
+vocabulary,strong,having-great-power,adjective,a1,body,able to lift heavy things easily
+vocabulary,weak,having-little-power,adjective,a1,body,not able to lift much weight
+vocabulary,funny,making-people-laugh,adjective,a1,emotions,causing people to laugh
+vocabulary,boring,not-interesting,adjective,a1,emotions,so dull that attention drifts away
+vocabulary,here,in-this-place,adverb,a1,daily-routine,in the place where the speaker is
+vocabulary,there,in-that-place,adverb,a1,daily-routine,in a place that is not where the speaker is
+vocabulary,together,with-each-other,adverb,a1,relationships,doing the same thing with other people
+vocabulary,alone,with-no-other-person,adverb,a1,emotions,with no other person present
+vocabulary,sun,star-giving-light,noun,a1,nature;weather,the bright star that gives light and heat
+vocabulary,sky,space-above-earth,noun,a1,nature;weather,the open space above the ground
+vocabulary,sea,large-body-of-salt-water,noun,a1,nature;travel,a very large area of salty water
+vocabulary,mountain,very-high-hill,noun,a1,nature;travel,a very high part of the land
+vocabulary,island,land-surrounded-by-water,noun,a1,travel;nature,a piece of land with water all around it
+vocabulary,farm,land-for-growing-food,noun,a1,work;nature,land where people grow crops or keep animals
+vocabulary,country,nation-with-borders,noun,a1,travel,an area of land with its own government
+vocabulary,world,the-earth,noun,a1,travel;nature,the Earth and everything that lives on it
+vocabulary,bridge,structure-over-water,noun,a1,city;transport,a structure built so people can cross a river or road
+vocabulary,station,place-where-trains-stop,noun,a1,transport;city,a place where trains stop for passengers
+vocabulary,airport,place-for-planes,noun,a1,travel;transport,a place where planes land and take off
+vocabulary,hotel,place-to-sleep-while-traveling,noun,a1,travel,a building where travelers pay to sleep
+vocabulary,room,space-inside-a-building,noun,a1,home,a part of a building with its own walls and door
+vocabulary,key,metal-object-for-a-lock,noun,a1,home,a small shaped piece of metal that opens a lock
+vocabulary,box,container-with-flat-sides,noun,a1,home;shopping,a container with straight sides and a lid
+vocabulary,cup,small-container-for-drinking,noun,a1,kitchen;food,a small container with a handle for drinking
+vocabulary,plate,flat-dish-for-food,noun,a1,kitchen;food,a flat dish for putting food on
+vocabulary,fork,tool-for-eating,noun,a1,kitchen;food,a tool with prongs for picking up food
+vocabulary,knife,tool-for-cutting,noun,a1,kitchen;food,a sharp tool with a handle for cutting
+vocabulary,spoon,tool-for-eating-soup,noun,a1,kitchen;food,a tool with a round bowl for eating soup
+vocabulary,bag,container-for-carrying,noun,a1,shopping;travel,a soft container with handles for carrying things
+vocabulary,ticket,paper-for-travel-or-entry,noun,a1,travel;shopping,a small paper showing you paid to travel or enter
+vocabulary,wash,clean-with-water,verb,a1,daily-routine;body,to clean something with water and soap
+vocabulary,cut,divide-with-a-blade,verb,a1,kitchen;body,to divide something into pieces with a sharp tool
+vocabulary,build,make-by-joining-parts,verb,a1,work,to make something by putting parts together
+vocabulary,break,separate-into-pieces,verb,a1,daily-routine,to make something come apart into pieces
+vocabulary,fix,repair,verb,a1,home;work,to make something work correctly again
+vocabulary,jump,push-off-the-ground,verb,a1,sports;body,to push your body up into the air
+vocabulary,swim,move-through-water,verb,a1,sports;body,to move through water with arms and legs
+vocabulary,fly,move-through-the-air,verb,a1,travel;transport,to move through the air
+vocabulary,sing,make-music-with-voice,verb,a1,music,to make music with your voice
+vocabulary,dance,move-to-music,verb,a1,music,to move your body in rhythm to music
+vocabulary,laugh,make-sounds-of-joy,verb,a1,emotions;communication,to make sounds because something is funny
+vocabulary,smile,turn-mouth-up,verb,a1,emotions;body,to turn the corners of your mouth up
+vocabulary,cry,shed-tears,verb,a1,emotions;body,to let tears come out because you are sad
+vocabulary,feel,experience-an-emotion,verb,a1,body;emotions,to notice an emotion inside yourself
+vocabulary,love,care-very-much-for,verb,a1,emotions;relationships,to care about someone very much
+vocabulary,like,enjoy-something,verb,a1,emotions,to find something pleasant
+vocabulary,dangerous,likely-to-cause-harm,adjective,a1,city;travel,able to hurt people if they are not careful
+vocabulary,safe,not-likely-to-be-hurt,adjective,a1,city;travel,protected from harm
+vocabulary,quiet,making-little-noise,adjective,a1,home;city,making very little sound
+vocabulary,free,costing-no-money,adjective,a1,money;time,not costing any money
+vocabulary,true,matching-the-facts,adjective,a1,communication,correct and in line with the facts
+vocabulary,false,not-matching-the-facts,adjective,a1,communication,not based on what really happened
+vocabulary,warm,pleasantly-hot,adjective,a1,weather,a little hot in a comfortable way
+vocabulary,cool,pleasantly-cold,adjective,a1,weather,slightly cold in a refreshing way
+vocabulary,heavy,weighing-a-lot,adjective,a1,body,weighing a lot and hard to carry
+vocabulary,light,not-weighing-much,adjective,a1,body,weighing very little and easy to carry
+vocabulary,again,one-more-time,adverb,a1,time,one more time after something happened
+vocabulary,soon,in-a-short-time,adverb,a1,time,after a short time from now
+vocabulary,wake,stop-sleeping,verb,a1,daily-routine;body,to stop sleeping and open your eyes
+vocabulary,breakfast,morning-meal,noun,a1,food;daily-routine,the first meal of the day
+vocabulary,lunch,midday-meal,noun,a1,food;daily-routine,the meal eaten around the middle of the day
+vocabulary,dinner,evening-meal,noun,a1,food;daily-routine,the main meal eaten in the evening
+vocabulary,meal,food-at-one-time,noun,a1,food;daily-routine,the food you eat at one time
+vocabulary,coffee,hot-bean-drink,noun,a1,food;daily-routine,a hot dark drink made from roasted beans
+vocabulary,tea,hot-leaf-drink,noun,a1,food;daily-routine,a hot drink made from dried leaves
+vocabulary,brush,clean-with-bristles,verb,a1,daily-routine;body,to clean teeth or hair with a bristled tool
+vocabulary,tooth,part-of-mouth,noun,a1,body;health,a hard white part in the mouth for biting
+vocabulary,hair,threads-on-head,noun,a1,body,the thin threads that grow on your head
+vocabulary,dress,put-clothes-on,verb,a1,clothes;daily-routine,to put clothes on your body
+vocabulary,clothes,things-you-wear,noun,a1,clothes;daily-routine,the things people wear on their bodies
+vocabulary,shoe,foot-covering,noun,a1,clothes,a strong covering worn on the foot
+vocabulary,bath,wash-in-a-tub,noun,a1,daily-routine;home,washing your body in a tub of water
+vocabulary,bedroom,room-for-sleeping,noun,a1,home;daily-routine,the room where a person sleeps at night
+vocabulary,home,place-you-live,noun,a1,home;daily-routine,the place where a person lives
+vocabulary,live,have-your-home,verb,a1,home,to have your home in a place
+vocabulary,stay,not-go-away,verb,a1,home;daily-routine,to remain in a place and not go
+vocabulary,leave,go-away,verb,a1,daily-routine;travel,to go away from a place
+vocabulary,arrive,reach-a-place,verb,a1,daily-routine;travel,to get to the place you were going
+vocabulary,drive,control-a-car,verb,a1,car;transport,to control a car and make it go
+vocabulary,ride,sit-on-and-control,verb,a1,transport;daily-routine,to sit on a bike or horse and travel
+vocabulary,bus,passenger-road-vehicle,noun,a1,transport;daily-routine,a large road vehicle that carries many passengers
+vocabulary,train,rail-vehicle,noun,a1,transport;travel,connected rail cars that carry people between stations
+vocabulary,work,do-a-job,verb,a1,work;daily-routine,to do a job to earn money
+vocabulary,office,room-for-desk-work,noun,a1,work;daily-routine,a room where people work at desks
+vocabulary,desk,table-for-work,noun,a1,work;education,a table for writing or working on a computer
+vocabulary,study,learn-a-subject,verb,a1,education;daily-routine,to spend time learning about a subject
+vocabulary,class,teaching-period,noun,a1,education;daily-routine,a period when a teacher teaches students
+vocabulary,homework,school-tasks-at-home,noun,a1,education;daily-routine,school tasks done outside of school hours
+vocabulary,learn,get-knowledge,verb,a1,education,to get new knowledge or a new skill
+vocabulary,play,take-part-in-a-game,verb,a1,sports;daily-routine,to take part in a game for fun
+vocabulary,exercise,move-to-stay-fit,verb,a1,sports;health;daily-routine,to move your body to stay healthy
+vocabulary,relax,rest-and-feel-calm,verb,a1,daily-routine;emotions,to rest and feel calm after effort
+vocabulary,sit,rest-on-a-seat,verb,a1,body;daily-routine,to rest your body on a seat
+vocabulary,stand,be-on-your-feet,verb,a1,body,to be upright on your feet
+vocabulary,make,produce-or-prepare,verb,a1,daily-routine;kitchen,to produce or prepare something new
+vocabulary,do,perform-an-activity,verb,a1,daily-routine;work,to perform an action or an activity
+vocabulary,television,screen-for-programs,noun,a1,technology;home,a machine with a screen that shows programs
+vocabulary,newspaper,printed-daily-news,noun,a1,communication;daily-routine,folded printed pages that report recent events
+vocabulary,routine,usual-daily-order,noun,a1,daily-routine;time,the usual things done in the same order
+vocabulary,clock,shows-the-time,noun,a1,time;home,an object that shows what time it is
+vocabulary,afternoon,midday-to-evening,noun,a1,time;daily-routine,the part of the day between midday and evening
+vocabulary,evening,end-of-the-day,noun,a1,time;daily-routine,the last part of the day before bed
+vocabulary,weekend,saturday-and-sunday,noun,a1,time;daily-routine,Saturday and Sunday when most people rest
+vocabulary,usually,most-of-the-time,adverb,a1,time;daily-routine,in the way that happens most days
+vocabulary,often,many-times,adverb,a1,time;daily-routine,many times with short periods between
+vocabulary,sometimes,on-some-occasions,adverb,a1,time;daily-routine,on certain occasions but not always
+vocabulary,every,all-of-a-group,determiner,a1,time;daily-routine,all members of a group one by one
+vocabulary,now,at-this-moment,adverb,a1,time,at this moment and not later
+vocabulary,apple,round-tree-fruit,noun,a1,food;nature,a hard round fruit that grows on a tree
+vocabulary,banana,long-yellow-fruit,noun,a1,food,a long curved fruit with yellow skin
+vocabulary,orange,round-juicy-fruit,noun,a1,food,a round juicy fruit with a thick skin
+vocabulary,lemon,sour-yellow-fruit,noun,a1,food;kitchen,a yellow fruit with very sour juice
+vocabulary,grape,small-bunch-fruit,noun,a1,food,a small round fruit that grows in bunches
+vocabulary,fruit,sweet-plant-food,noun,a1,food;nature,the sweet part of a plant people eat
+vocabulary,vegetable,plant-eaten-as-food,noun,a1,food;kitchen,a plant or plant part eaten as food
+vocabulary,potato,underground-vegetable,noun,a1,food;kitchen,a round brown vegetable that grows under the ground
+vocabulary,tomato,soft-red-fruit,noun,a1,food;kitchen,a soft red fruit eaten like a vegetable
+vocabulary,onion,layered-strong-vegetable,noun,a1,food;kitchen,a round vegetable with layers and a strong smell
+vocabulary,carrot,long-orange-root,noun,a1,food,a long orange vegetable that grows under the ground
+vocabulary,meat,animal-flesh-as-food,noun,a1,food,the soft part of an animal eaten as food
+vocabulary,fish,water-animal,noun,a1,food;animals,an animal that swims and is often eaten
+vocabulary,chicken,meat-of-the-bird,noun,a1,food,the meat of a common farm bird
+vocabulary,sausage,meat-in-a-tube,noun,a1,food,chopped meat pressed into a long thin tube
+vocabulary,rice,small-boiled-grains,noun,a1,food,small white or brown grains boiled and eaten
+vocabulary,pasta,shaped-flour-food,noun,a1,food,Italian food of flour and water in shapes
+vocabulary,cheese,solid-milk-food,noun,a1,food,a solid white or yellow food made from milk
+vocabulary,butter,soft-yellow-spread,noun,a1,food;kitchen,a soft yellow food made from cream
+vocabulary,cream,thick-part-of-milk,noun,a1,food;kitchen,the thick fatty liquid from the top of milk
+vocabulary,sugar,sweet-grains,noun,a1,food;kitchen,small grains that make food and drinks sweet
+vocabulary,salt,white-flavor-grains,noun,a1,food;kitchen,small white grains that give food more flavor
+vocabulary,pepper,black-spice-powder,noun,a1,food;kitchen,a black powder that gives food a hot taste
+vocabulary,chocolate,sweet-cocoa-food,noun,a1,food,a sweet brown food made from cocoa beans
+vocabulary,cake,sweet-baked-food,noun,a1,food,a soft sweet food baked in an oven
+vocabulary,candy,small-sugary-treats,noun,a1,food,small sweet things made with sugar or chocolate
+vocabulary,cookie,small-flat-baked-treat,noun,a1,food,a small flat sweet baked food
+vocabulary,soup,hot-liquid-food,noun,a1,food;kitchen,a hot liquid food eaten with a spoon
+vocabulary,salad,cold-raw-vegetable-mix,noun,a1,food;health,a cold mix of raw vegetables
+vocabulary,sandwich,food-between-bread,noun,a1,food,two pieces of bread with food between them
+vocabulary,pizza,flat-bread-with-toppings,noun,a1,food,a flat round bread baked with cheese on top
+vocabulary,burger,ground-beef-in-a-bun,noun,a1,food,cooked ground beef served inside a bread roll
+vocabulary,dish,prepared-food,noun,a1,food,food prepared in a particular way for a meal
+vocabulary,snack,food-between-meals,noun,a1,food;daily-routine,a small amount of food eaten between meals
+vocabulary,juice,liquid-from-fruit,noun,a1,food,the liquid that comes from fruit or vegetables
+vocabulary,beer,alcoholic-grain-drink,noun,a1,food,a bitter alcoholic drink made from grain
+vocabulary,ice,frozen-water,noun,a1,food;nature,water that is hard because it is very cold
+vocabulary,restaurant,place-to-buy-meals,noun,a1,food;city,a place where you pay to eat a meal
+vocabulary,cafe,small-coffee-place,noun,a1,food;city,a small place for coffee and light meals
+vocabulary,menu,list-of-food-choices,noun,a1,food,the list of food a restaurant offers
+vocabulary,waiter,restaurant-server,noun,a1,food;work,a person who brings food to restaurant tables
+vocabulary,bottle,narrow-top-container,noun,a1,kitchen;food,a tall container with a narrow top for liquids
+vocabulary,glass,drinking-container,noun,a1,kitchen;food,a clear container with no handle for drinks
+vocabulary,bowl,deep-round-container,noun,a1,kitchen;food,a deep round container for food or liquid
+vocabulary,thirsty,needing-a-drink,adjective,a1,food;body,feeling that you need to drink something
+vocabulary,delicious,very-good-taste,adjective,a1,food,having a very good taste or smell
+vocabulary,sweet,tasting-like-sugar,adjective,a1,food,having a taste like sugar or honey
+vocabulary,fresh,recently-made-or-picked,adjective,a1,food,made or picked a short time ago
+vocabulary,order,ask-for-food,verb,a1,food;communication,to ask for food in a restaurant
+vocabulary,want,wish-to-have,verb,a1,emotions,to feel you would like to have something
+vocabulary,stove,cooking-appliance-with-burners,noun,a1,kitchen;home,kitchen appliance with burners for cooking food
+vocabulary,oven,hot-box-for-baking,noun,a1,kitchen;home,hot box with a door for baking food
+vocabulary,refrigerator,cold-food-storage-appliance,noun,a1,kitchen;home,large machine that keeps food and drinks cold
+vocabulary,freezer,appliance-that-keeps-food-frozen,noun,a1,kitchen;home,machine that keeps food frozen hard like ice
+vocabulary,microwave,fast-heating-oven,noun,a1,kitchen;home,small electric oven that heats food very fast
+vocabulary,sink,basin-with-faucet,noun,a1,kitchen;home,basin with a faucet for washing things
+vocabulary,counter,kitchen-work-surface,noun,a1,kitchen;home,long flat kitchen surface for preparing food
+vocabulary,cabinet,storage-with-doors,noun,a1,kitchen;home,furniture with doors and shelves for storing things
+vocabulary,drawer,sliding-storage-box,noun,a1,home;kitchen,sliding box in furniture that holds things
+vocabulary,shelf,flat-board-for-storage,noun,a1,home;kitchen,flat board on a wall for holding things
+vocabulary,chair,seat-for-one-person,noun,a1,home,seat with a back for one person
+vocabulary,dishwasher,machine-that-cleans-dishes,noun,a1,kitchen;home,machine that cleans dirty plates and glasses
+vocabulary,pan,flat-metal-cooking-container,noun,a1,kitchen,wide flat metal container for cooking on the stove
+vocabulary,pot,deep-round-cooking-container,noun,a1,kitchen,deep round container for cooking soup or rice
+vocabulary,kettle,container-for-heating-water,noun,a1,kitchen,container with a spout for making water hot
+vocabulary,lid,cover-for-container,noun,a1,kitchen,cover that closes a pot jar or box
+vocabulary,jar,glass-container-with-lid,noun,a1,kitchen;food,round glass container with a lid for food
+vocabulary,mug,large-cup-with-handle,noun,a1,kitchen,large heavy cup with a handle for hot drinks
+vocabulary,tray,flat-board-for-carrying,noun,a1,kitchen,flat board with edges for carrying food and drinks
+vocabulary,napkin,cloth-or-paper-for-mouth,noun,a1,kitchen;food,cloth or paper for cleaning your mouth at meals
+vocabulary,towel,cloth-for-drying,noun,a1,home;kitchen,thick cloth for making wet things dry
+vocabulary,sponge,soft-cleaning-pad,noun,a1,kitchen;home,soft object with holes for washing dishes
+vocabulary,soap,washing-substance,noun,a1,home;kitchen;health,substance used with water to wash things
+vocabulary,trash,things-thrown-away,noun,a1,home;kitchen,things you throw away because nobody wants them
+vocabulary,toaster,machine-that-browns-bread,noun,a1,kitchen,small electric machine that browns slices of bread
+vocabulary,boil,heat-liquid-until-bubbling,verb,a1,kitchen;food,heat a liquid until it bubbles
+vocabulary,fry,cook-in-hot-oil,verb,a1,kitchen;food,cook food in hot oil in a pan
+vocabulary,bake,cook-in-oven,verb,a1,kitchen;food,cook bread or cake in an oven
+vocabulary,mix,combine-into-one,verb,a1,kitchen,put things together so they become one
+vocabulary,pour,make-liquid-flow,verb,a1,kitchen,make a liquid flow out of a container
+vocabulary,add,put-in-with-something-else,verb,a1,kitchen,put something in with another thing
+vocabulary,heat,make-something-hot,verb,a1,kitchen,make something hot or warm
+vocabulary,serve,give-food-to-someone,verb,a1,food;kitchen,give food or drinks to someone
+vocabulary,taste,try-flavor-in-mouth,verb,a1,food;kitchen,try a little food to find its flavor
+vocabulary,smell,notice-with-nose,verb,a1,body;food,notice what something is like with your nose
+vocabulary,burn,damage-with-too-much-heat,verb,a1,kitchen,damage something with fire or too much heat
+vocabulary,fill,make-something-full,verb,a1,kitchen,put in so much that no space is left
+vocabulary,prepare,make-ready,verb,a1,kitchen;food,make food or another thing ready
+vocabulary,dry,remove-water-from,verb,a1,kitchen;home,take the water off something
+vocabulary,stir,move-spoon-around-in-food,verb,a1,kitchen,move a spoon around in liquid or food
+vocabulary,oil,liquid-fat-for-cooking,noun,a1,kitchen;food,thick plant liquid used for cooking
+vocabulary,flour,powder-for-baking,noun,a1,kitchen;food,soft powder from grain for bread and cakes
+vocabulary,recipe,cooking-instructions,noun,a1,kitchen;food,list of foods and steps for cooking something
+vocabulary,sauce,thick-liquid-on-food,noun,a1,food;kitchen,thick liquid put on food for more flavor
+vocabulary,toast,browned-bread,noun,a1,food;kitchen,bread heated until brown and crisp
+vocabulary,honey,sweet-food-from-bees,noun,a1,food;nature,sweet thick yellow liquid made by bees
+vocabulary,garlic,strong-smelling-bulb,noun,a1,food;kitchen,small white plant with a strong taste and smell
+vocabulary,slice,thin-flat-piece-of-food,noun,a1,food;kitchen,thin flat piece cut from larger food
+vocabulary,sharp,able-to-cut-easily,adjective,a1,kitchen,having a thin edge that cuts easily
+vocabulary,wet,covered-in-water,adjective,a1,weather,covered in water or another liquid
+vocabulary,apartment,rooms-to-live-in,noun,a1,home,set of rooms to live in a building
+vocabulary,couch,long-soft-seat,noun,a1,home,long soft seat for two or more people
+vocabulary,lamp,object-that-gives-light,noun,a1,home,object on a table that gives light
+vocabulary,mirror,glass-that-shows-reflection,noun,a1,home,glass where you can see yourself
+vocabulary,pillow,soft-rest-for-head,noun,a1,home,soft thing under your head in bed
+vocabulary,blanket,warm-bed-cover,noun,a1,home,thick warm cover for the bed
+vocabulary,curtain,cloth-over-window,noun,a1,home,cloth that hangs over a window
+vocabulary,rug,small-floor-covering,noun,a1,home,thick cloth covering part of a floor
+vocabulary,stairs,steps-between-floors,noun,a1,home,steps from one floor to another
+vocabulary,roof,top-cover-of-building,noun,a1,home,top outside part covering a building
+vocabulary,ceiling,top-surface-of-room,noun,a1,home,top inside part of a room
+vocabulary,yard,land-around-house,noun,a1,home,area of grass around a house
+vocabulary,garage,place-to-keep-car,noun,a1,home;car,part of a house for the car
+vocabulary,toilet,bathroom-bowl-with-seat,noun,a1,home,bathroom bowl with a seat for body waste
+vocabulary,closet,space-for-clothes,noun,a1,home;clothes,small space with a door for clothes
+vocabulary,furniture,chairs-tables-beds,noun,a1,home,chairs tables beds and similar large things
+vocabulary,picture,image-on-wall,noun,a1,home,painting drawing or photo on a wall
+vocabulary,plant,living-green-thing,noun,a1,home;nature,living green thing with leaves and roots
+vocabulary,flower,colorful-part-of-plant,noun,a1,nature;home,colorful part of a plant
+vocabulary,fan,machine-that-moves-air,noun,a1,home,machine that moves air to cool a room
+vocabulary,gate,door-in-fence,noun,a1,home,door in a fence or outside wall
+vocabulary,fence,barrier-around-land,noun,a1,home,wood or metal line around a yard
+vocabulary,balcony,outside-platform-on-building,noun,a1,home,small outside area on an upper floor
+vocabulary,neighbor,person-living-nearby,noun,a1,home;relationships,person who lives next to you
+vocabulary,address,where-someone-lives,noun,a1,home;communication,building number street and city of a home
+vocabulary,rent,money-paid-for-home,noun,a1,home;money,monthly money paid to live somewhere
+vocabulary,lock,close-with-key,verb,a1,home,close a door with a key
+vocabulary,knock,hit-door-with-hand,verb,a1,home,hit a door so people hear you
+vocabulary,sweep,clean-floor-with-broom,verb,a1,home,clean the floor with a broom
+vocabulary,move,change-home,verb,a1,home,go to live in a different place
+vocabulary,hang,put-on-hook-or-wall,verb,a1,home,put something up on a hook or wall
+vocabulary,upstairs,on-higher-floor,adverb,a1,home,on or to a higher floor
+vocabulary,downstairs,on-lower-floor,adverb,a1,home,on or to a lower floor
+vocabulary,inside,in-a-building,adverb,a1,home,in or into a room or building
+vocabulary,outside,not-in-a-building,adverb,a1,home,not in a building but in open air
+vocabulary,comfortable,pleasant-for-body,adjective,a1,home,nice to sit on or to wear
+vocabulary,broom,long-brush-for-floor,noun,a1,home,brush with a long handle for floors
+vocabulary,bucket,container-with-handle,noun,a1,home,open container with a handle for water
+vocabulary,laundry,clothes-to-wash,noun,a1,home;clothes,clothes and sheets that need washing
+vocabulary,basket,woven-container,noun,a1,home,woven container to hold or carry things
+vocabulary,candle,wax-stick-for-light,noun,a1,home,stick of wax burned to give light
+vocabulary,doorbell,button-at-front-door,noun,a1,home,button at the door that makes a sound
+vocabulary,hallway,passage-between-rooms,noun,a1,home,long narrow space leading to rooms
+vocabulary,corner,where-two-walls-meet,noun,a1,home,place where two walls or sides meet
+vocabulary,toy,thing-child-plays-with,noun,a1,home,thing that a child plays with
+vocabulary,computer,electronic-machine-with-screen,noun,a1,technology;work,electronic machine with a screen and keyboard
+vocabulary,big,large-in-size,adjective,a1,home,large in size and not small
+vocabulary,small,little-in-size,adjective,a1,home,little in size and not big
+vocabulary,visit,go-to-see-someone,verb,a1,relationships;travel,go to see a person or place
+vocabulary,guest,person-invited-home,noun,a1,home;relationships,person you invite to your home
+vocabulary,teacher,person-who-helps-students-learn,noun,a1,education;work,person whose job is helping students learn
+vocabulary,doctor,person-who-treats-sick-people,noun,a1,health;work,person whose job is helping sick people
+vocabulary,nurse,person-who-cares-for-sick,noun,a1,health;work,person who takes care of sick people
+vocabulary,driver,person-who-drives-vehicle,noun,a1,transport;work,person who controls a car or bus
+vocabulary,farmer,person-who-grows-food,noun,a1,work;nature,person who grows food and keeps animals
+vocabulary,worker,person-who-does-a-job,noun,a1,work,person who does a job with their hands
+vocabulary,boss,person-who-tells-you-what-to-do,noun,a1,work,person at your job who gives orders
+vocabulary,manager,person-who-leads-a-team,noun,a1,work,person who leads a team or store
+vocabulary,pilot,person-who-flies-plane,noun,a1,transport;work,person whose job is flying a plane
+vocabulary,dentist,person-who-cares-for-teeth,noun,a1,health;work,person who takes care of your teeth
+vocabulary,engineer,person-who-plans-and-builds,noun,a1,work;technology,person who plans machines roads or bridges
+vocabulary,artist,person-who-makes-paintings,noun,a1,work,person who makes paintings or drawings
+vocabulary,actor,person-who-plays-a-part,noun,a1,work,person who plays a part in movies
+vocabulary,writer,person-who-creates-books,noun,a1,work,person who creates books stories or articles
+vocabulary,police,people-who-stop-crime,noun,a1,city;work,people whose job is keeping everyone safe
+vocabulary,mechanic,person-who-fixes-cars,noun,a1,car;work,person whose job is fixing cars
+vocabulary,company,group-that-makes-or-sells,noun,a1,work;money,group of people making or selling things
+vocabulary,business,work-of-buying-and-selling,noun,a1,work;money,work of making buying or selling things
+vocabulary,factory,building-where-things-are-made,noun,a1,work,large building where machines make things
+vocabulary,meeting,people-coming-together-to-talk,noun,a1,work;communication,time when people come together to talk
+vocabulary,team,group-working-together,noun,a1,work;sports,group that works or plays together
+vocabulary,customer,person-who-buys,noun,a1,shopping;work,person who buys something from a store
+vocabulary,machine,thing-with-moving-parts,noun,a1,work;technology,thing with moving parts that does a job
+vocabulary,tool,thing-used-to-make-or-fix,noun,a1,work,hand object used to make or fix things
+vocabulary,paper,material-to-write-on,noun,a1,work;education,thin flat material you write or print on
+vocabulary,pen,object-with-ink-for-writing,noun,a1,work;education,thin object with ink used to write
+vocabulary,plan,idea-of-what-to-do,noun,a1,work,idea of what you will do and how
+vocabulary,project,big-piece-of-planned-work,noun,a1,work;education,big piece of work done over time
+vocabulary,report,description-that-gives-facts,noun,a1,work;communication,written or spoken description giving the facts
+vocabulary,interview,meeting-with-questions-for-job,noun,a1,work;communication,meeting with questions to get a job
+vocabulary,uniform,special-clothes-for-job,noun,a1,clothes;work,special clothes everyone in a job wears
+vocabulary,vacation,time-away-from-work,noun,a1,travel;work,time off work or school to rest
+vocabulary,problem,something-difficult-to-fix,noun,a1,work,something difficult that you need to fix
+vocabulary,idea,thought-about-what-to-do,noun,a1,work,thought about something you could do
+vocabulary,mistake,something-not-right,noun,a1,work;education,something you do that is not right
+vocabulary,information,facts-about-something,noun,a1,communication;work,facts about a person place or thing
+vocabulary,note,short-written-message,noun,a1,communication;work,short written message to help someone remember
+vocabulary,list,things-written-one-under-another,noun,a1,work;shopping,names or things written one under another
+vocabulary,coworker,person-at-same-job,noun,a1,work;relationships,person with a job at your workplace
+vocabulary,laptop,small-computer-you-carry,noun,a1,technology;work,small computer that you can carry around
+vocabulary,teach,help-someone-learn,verb,a1,education;work,help someone learn by giving lessons
+vocabulary,explain,make-easy-to-understand,verb,a1,communication;work,make something easy to understand by telling
+vocabulary,check,look-to-make-sure,verb,a1,work,look carefully to make sure it is right
+vocabulary,carry,hold-and-take-somewhere,verb,a1,work,hold something and take it somewhere else
+vocabulary,sign,write-your-name,verb,a1,work;communication,write your name on a paper to agree
+vocabulary,print,put-on-paper-with-machine,verb,a1,technology;work,put words from a computer onto paper
+vocabulary,decide,choose-after-thinking,verb,a1,work,think about things and choose one
+vocabulary,important,having-great-value,adjective,a1,work,having great value and needing your attention
+vocabulary,difficult,not-easy,adjective,a1,work;education,not easy to do or to understand
+vocabulary,ready,prepared-to-start,adjective,a1,daily-routine;work,prepared and able to start right now
+vocabulary,dollar,unit-of-us-money,noun,a1,money,unit of money used in the United States
+vocabulary,cent,hundredth-of-a-dollar,noun,a1,money,one of a hundred parts of a dollar
+vocabulary,penny,one-cent-coin,noun,a1,money,small brown coin worth one cent
+vocabulary,coin,round-metal-money,noun,a1,money,small round piece of metal money
+vocabulary,bill,paper-showing-what-you-owe,noun,a1,money;home,paper showing how much you must pay
+vocabulary,cash,bills-and-coins-not-card,noun,a1,money;shopping,money as bills and coins not cards
+vocabulary,price,amount-to-pay,noun,a1,money;shopping,amount of money you pay for something
+vocabulary,bank,place-that-keeps-money,noun,a1,money;city,place that keeps your money safe
+vocabulary,wallet,small-case-for-money,noun,a1,money,small flat case for money and cards
+vocabulary,purse,womans-handbag,noun,a1,money;clothes,bag a woman carries for small things
+vocabulary,card,plastic-card-for-paying,noun,a1,money;shopping,small plastic piece used to pay
+vocabulary,receipt,paper-showing-you-paid,noun,a1,money;shopping,paper showing what you bought and paid
+vocabulary,cashier,person-who-takes-payment,noun,a1,money;shopping;work,person who takes your money in stores
+vocabulary,salary,money-paid-for-job,noun,a1,money;work,money a company pays a worker regularly
+vocabulary,tip,extra-money-for-service,noun,a1,money;food,extra money given for good service
+vocabulary,total,whole-amount-added-up,noun,a1,money;shopping,full amount after adding everything together
+vocabulary,tax,money-paid-to-government,noun,a1,money,money people must pay to the government
+vocabulary,gold,valuable-yellow-metal,noun,a1,money,shiny yellow metal worth much money
+vocabulary,prize,reward-for-winning,noun,a1,money;sports,something given to the winner of a contest
+vocabulary,pocket,small-bag-sewn-in-clothes,noun,a1,clothes;money,small bag sewn into your clothes
+vocabulary,number,word-or-sign-for-amount,noun,a1,education;money,word or sign showing how many
+vocabulary,half,one-of-two-equal-parts,noun,a1,money;food,one of two equal parts of something
+vocabulary,zero,number-for-nothing,numeral,a1,education,number meaning there is not even one
+vocabulary,hundred,ten-times-ten,numeral,a1,money,the number ten times ten
+vocabulary,thousand,ten-times-one-hundred,numeral,a1,money,the number ten times one hundred
+vocabulary,million,thousand-thousands,numeral,a1,money,the number one thousand times one thousand
+vocabulary,much,large-amount-uncountable,determiner,a1,money;shopping,large amount of something you cannot count
+vocabulary,many,large-number-countable,determiner,a1,shopping,large number of things you can count
+vocabulary,more,larger-amount,determiner,a1,money,larger amount or number of something
+vocabulary,less,smaller-amount,determiner,a1,money,smaller amount of something than before
+vocabulary,enough,as-much-as-needed,determiner,a1,money,as much or as many as needed
+vocabulary,some,amount-not-exact,determiner,a1,shopping;food,amount or number that is not exact
+vocabulary,all,whole-amount,determiner,a1,money,the whole amount or every one
+vocabulary,each,every-one-separately,determiner,a1,money;shopping,every one thought about one by one
+vocabulary,nothing,not-any-thing,pronoun,a1,money,not one single thing at all
+vocabulary,only,no-more-than,adverb,a1,money;shopping,no more than a small amount
+vocabulary,expensive,costing-much-money,adjective,a1,money;shopping,costing a lot of money to buy
+vocabulary,lucky,having-good-things-by-chance,adjective,a1,emotions,having good things happen by chance
+vocabulary,spend,use-money-to-buy,verb,a1,money;shopping,use money to buy or pay for things
+vocabulary,save,keep-money-for-later,verb,a1,money,keep money now to use it later
+vocabulary,earn,get-money-for-work,verb,a1,money;work,get money for the work you do
+vocabulary,borrow,take-and-give-back-later,verb,a1,money,take something and give it back later
+vocabulary,lend,give-for-a-short-time,verb,a1,money,give something that will be given back
+vocabulary,owe,need-to-pay-back,verb,a1,money,need to pay money back to someone
+vocabulary,count,find-how-many,verb,a1,money;education,add things one by one to find how many
+vocabulary,keep,continue-to-have,verb,a1,home,continue to have and not give away
+vocabulary,win,be-best-in-contest,verb,a1,sports,be the best in a game or race
+vocabulary,get,receive-something,verb,a1,daily-routine,receive something that someone gives or sends
+vocabulary,have,own-something,verb,a1,daily-routine,own something or hold it as yours
+vocabulary,share,let-others-have-part,verb,a1,relationships,let someone have part of what is yours
+vocabulary,store,place-that-sells-things,noun,a1,shopping;city,place where people go to buy things
+vocabulary,supermarket,large-food-store,noun,a1,shopping;food,large place selling food and home things
+vocabulary,mall,building-with-many-stores,noun,a1,shopping;city,large building with many stores inside
+vocabulary,bakery,place-that-sells-bread,noun,a1,shopping;food,place that makes and sells bread
+vocabulary,pharmacy,place-that-sells-medicine,noun,a1,shopping;health,place where you can buy medicine
+vocabulary,bookstore,place-that-sells-books,noun,a1,shopping;city,place that sells books to read
+vocabulary,shopping,going-to-stores-to-buy,noun,a1,shopping,activity of going to stores to buy
+vocabulary,cart,basket-on-wheels-in-store,noun,a1,shopping,basket on wheels pushed around a store
+vocabulary,sale,time-of-lower-prices,noun,a1,shopping;money,time when a store lowers its prices
+vocabulary,line,row-of-people-waiting,noun,a1,shopping;city,row of people waiting one behind another
+vocabulary,clerk,store-worker-who-helps,noun,a1,shopping;work,store worker who helps people buy things
+vocabulary,closed,not-open-for-business,adjective,a1,shopping,not open for business right now
+vocabulary,online,using-the-internet,adverb,a1,shopping;technology,by using the internet from anywhere
+vocabulary,size,how-big-clothes-are,noun,a1,shopping;clothes,how big or small clothes are
+vocabulary,pair,two-things-used-together,noun,a1,shopping;clothes,two matching things that are used together
+vocabulary,large,big-in-size,adjective,a1,shopping,big in size or in amount
+vocabulary,pound,unit-of-weight,noun,a1,shopping;food,American unit for how heavy things are
+vocabulary,piece,part-of-a-whole,noun,a1,food;shopping,one part cut or broken from something
+vocabulary,thing,object-without-a-name,noun,a1,shopping;home,object you do not call by name
+vocabulary,choose,decide-which-one,verb,a1,shopping,decide which one of several you want
+vocabulary,prefer,like-one-more,verb,a1,emotions;shopping,like one thing more than another
+vocabulary,thank,say-you-are-grateful,verb,a1,communication,tell someone you are happy they helped
+vocabulary,this,one-near-you,determiner,a1,communication;shopping,the person or thing near you
+vocabulary,that,one-not-near-you,determiner,a1,communication;shopping,the person or thing not near you
+vocabulary,these,several-near-you,determiner,a1,communication;shopping,the people or things near you
+vocabulary,those,several-not-near-you,determiner,a1,communication;shopping,the people or things not near you
+vocabulary,too,more-than-wanted,adverb,a1,shopping,more than is good or wanted
+vocabulary,favorite,liked-most,adjective,a1,emotions,liked more than all the others
+vocabulary,long,great-in-length,adjective,a1,clothes,measuring a lot from end to end
+vocabulary,short,small-in-length,adjective,a1,clothes,measuring only a little from end to end
+vocabulary,shirt,top-with-collar-and-buttons,noun,a1,clothes;shopping,clothing for upper body with collar and buttons
+vocabulary,pants,clothing-for-both-legs,noun,a1,clothes;shopping,clothing from waist down covering each leg
+vocabulary,jacket,short-light-coat,noun,a1,clothes;shopping,short light coat ending at the waist
+vocabulary,coat,long-warm-outer-clothing,noun,a1,clothes;shopping,long warm clothing worn over other clothes
+vocabulary,hat,covering-for-the-head,noun,a1,clothes;shopping,piece of clothing worn on the head
+vocabulary,sock,soft-covering-for-foot,noun,a1,clothes;shopping,soft clothing worn on foot inside shoe
+vocabulary,skirt,clothing-hanging-from-waist,noun,a1,clothes;shopping,clothing that hangs down from the waist
+vocabulary,jeans,blue-denim-pants,noun,a1,clothes;shopping,strong pants made of thick blue cotton
+vocabulary,sweater,warm-knitted-top,noun,a1,clothes;shopping,warm knitted top with long sleeves
+vocabulary,boot,shoe-covering-the-ankle,noun,a1,clothes;shopping,strong shoe that also covers the ankle
+vocabulary,red,color-of-blood,adjective,a1,color,having the color of blood or tomatoes
+vocabulary,blue,color-of-clear-sky,adjective,a1,color,having the color of a clear sky
+vocabulary,green,color-of-grass,adjective,a1,color,having the color of grass and leaves
+vocabulary,black,darkest-color,adjective,a1,color,having the darkest color like the night
+vocabulary,white,color-of-snow,adjective,a1,color,having the color of milk or snow
+vocabulary,yellow,color-of-lemon,adjective,a1,color,having the color of a ripe lemon
+vocabulary,brown,color-of-wood,adjective,a1,color,having the color of wood or chocolate
+vocabulary,pink,light-red-color,adjective,a1,color,having a color between red and white
+vocabulary,gray,between-black-and-white,adjective,a1,color,having a color between black and white
+vocabulary,purple,mix-of-red-and-blue,adjective,a1,color,having a color mixing red and blue
+vocabulary,travel,go-from-place-to-place,verb,a1,travel,to go from one place to another
+vocabulary,trip,going-somewhere-and-back,noun,a1,travel,a short visit to a place and back
+vocabulary,plane,vehicle-that-flies,noun,a1,travel;transport,a vehicle with wings that flies
+vocabulary,flight,trip-by-plane,noun,a1,travel;transport,a trip through the air by plane
+vocabulary,passport,travel-document,noun,a1,travel,official book for entering another country
+vocabulary,suitcase,bag-for-travel-clothes,noun,a1,travel,a large bag for clothes on a trip
+vocabulary,backpack,bag-on-your-back,noun,a1,travel;education,a bag carried on your back
+vocabulary,map,drawing-of-an-area,noun,a1,travel;city,a drawing that shows roads and towns
+vocabulary,tourist,person-traveling-for-fun,noun,a1,travel,a person who visits places for fun
+vocabulary,guide,person-who-shows-places,noun,a1,travel;work,a person who shows visitors around
+vocabulary,tour,short-trip-around-a-place,noun,a1,travel,a short trip around a city or building
+vocabulary,museum,building-with-things-to-look-at,noun,a1,travel;city,a building with old or interesting things
+vocabulary,camera,device-for-taking-pictures,noun,a1,travel;technology,a device for taking pictures
+vocabulary,photo,picture-made-with-a-camera,noun,a1,travel;technology,a picture made with a camera
+vocabulary,postcard,picture-card-sent-by-mail,noun,a1,travel;communication,a picture card mailed without an envelope
+vocabulary,boat,small-vehicle-on-water,noun,a1,travel;transport,a small vehicle that moves on water
+vocabulary,ship,large-vehicle-on-the-sea,noun,a1,travel;transport,a very large boat on the sea
+vocabulary,taxi,car-you-pay-to-ride,noun,a1,transport;travel;city,a car with a driver you pay
+vocabulary,subway,underground-city-trains,noun,a1,transport;city;travel,trains that run under a city
+vocabulary,seat,place-to-sit,noun,a1,travel;transport,a place to sit on a bus or plane
+vocabulary,passenger,person-riding-not-driving,noun,a1,travel;transport,a person riding in a vehicle but not driving
+vocabulary,tent,cloth-shelter-for-camping,noun,a1,travel;nature,a cloth shelter for sleeping outdoors
+vocabulary,pack,put-things-in-a-bag,verb,a1,travel,to put things in a bag for a trip
+vocabulary,return,come-or-go-back,verb,a1,travel,to come or go back to a place
+vocabulary,miss,be-too-late-for,verb,a1,travel;transport,to be too late for a bus or plane
+vocabulary,turn,change-direction,verb,a1,travel;city,to change the direction you are moving
+vocabulary,cross,go-to-the-other-side,verb,a1,travel;city,to go from one side to the other
+vocabulary,enjoy,get-pleasure-from,verb,a1,emotions,to get pleasure from something you do
+vocabulary,way,route-to-a-place,noun,a1,travel;city,the road you follow to get somewhere
+vocabulary,mile,unit-of-distance,noun,a1,travel;car,a unit of distance used on American roads
+vocabulary,north,direction-at-top-of-map,noun,a1,travel,the direction at the top of a map
+vocabulary,south,direction-at-bottom-of-map,noun,a1,travel,the direction at the bottom of a map
+vocabulary,east,direction-of-sunrise,noun,a1,travel,the direction where the sun comes up
+vocabulary,west,direction-of-sunset,noun,a1,travel,the direction where the sun goes down
+vocabulary,left,toward-the-left-side,adverb,a1,travel;city,toward the side where your heart is
+vocabulary,right,toward-the-right-side,adverb,a1,travel;city,toward the side opposite your heart
+vocabulary,straight,without-changing-direction,adverb,a1,travel;city,in one direction with no change
+vocabulary,far,a-long-distance-away,adverb,a1,travel,a long distance from where you are
+vocabulary,near,a-short-distance-from,preposition,a1,travel;city,only a short distance from something
+vocabulary,lost,not-knowing-where-you-are,adjective,a1,travel;city,not knowing where you are
+vocabulary,town,place-smaller-than-a-city,noun,a1,city;travel,a place with streets smaller than a city
+vocabulary,village,small-group-of-country-houses,noun,a1,city;travel,a small group of houses in the countryside
+vocabulary,lake,water-with-land-around,noun,a1,nature;travel,a large area of water inside land
+vocabulary,forest,large-area-of-trees,noun,a1,nature;travel,a large area covered with trees
+vocabulary,place,particular-area-or-point,noun,a1,travel;city,a particular area or building or point
+vocabulary,language,words-a-country-speaks,noun,a1,communication;travel,the words people of a country use
+vocabulary,foreign,from-another-country,adjective,a1,travel,from a country that is not yours
+vocabulary,welcome,greeting-on-arrival,interjection,a1,communication;travel,a friendly word for someone who arrives
+vocabulary,hello,greeting-when-you-meet,interjection,a1,communication,a word you say when you meet
+vocabulary,goodbye,said-when-leaving,interjection,a1,communication,a word you say when you leave
+vocabulary,bicycle,two-wheeled-pedal-vehicle,noun,a1,transport;sports,two-wheeled vehicle you ride by pedaling
+vocabulary,motorcycle,two-wheeled-vehicle-with-engine,noun,a1,transport,fast two-wheeled vehicle with an engine
+vocabulary,truck,large-vehicle-for-goods,noun,a1,transport;work,large heavy vehicle that carries things
+vocabulary,van,tall-vehicle-with-cargo-space,noun,a1,transport,tall roomy vehicle for carrying things or people
+vocabulary,helicopter,aircraft-with-spinning-blades,noun,a1,transport,aircraft with spinning blades on top
+vocabulary,tractor,farm-vehicle,noun,a1,transport;work,strong farm vehicle that pulls heavy things
+vocabulary,ambulance,vehicle-to-the-hospital,noun,a1,transport;health,vehicle that takes hurt people to the hospital
+vocabulary,scooter,stand-on-two-wheeler,noun,a1,transport;city,small two-wheeled board vehicle you stand on
+vocabulary,ferry,boat-across-water,noun,a1,transport;travel,boat carrying people and cars across water
+vocabulary,vehicle,machine-that-carries-people,noun,a1,transport;car,machine that carries people or things around
+vocabulary,wheel,round-part-that-turns,noun,a1,transport;car,round turning part that makes a vehicle move
+vocabulary,tire,rubber-ring-on-a-wheel,noun,a1,car;transport,rubber ring filled with air around a wheel
+vocabulary,engine,part-that-makes-power,noun,a1,car;transport,part of a car that makes power
+vocabulary,gas,liquid-fuel-for-cars,noun,a1,car;transport,liquid fuel you put in a car
+vocabulary,trunk,storage-space-of-a-car,noun,a1,car;transport,storage space at the back of a car
+vocabulary,horn,car-warning-sound,noun,a1,car;transport,car part that makes a loud warning sound
+vocabulary,traffic,vehicles-on-the-road,noun,a1,transport;city,all the vehicles moving on a road
+vocabulary,highway,wide-road-between-cities,noun,a1,transport;car,wide fast main road between cities
+vocabulary,sidewalk,path-beside-the-street,noun,a1,city;transport,hard walking path beside a street
+vocabulary,tunnel,passage-under-the-ground,noun,a1,transport;travel,long passage under ground or through a hill
+vocabulary,platform,place-to-board-a-train,noun,a1,transport;travel,raised station area for boarding a train
+vocabulary,track,metal-rails-for-trains,noun,a1,transport,metal rails that a train runs on
+vocabulary,parking,space-to-leave-a-car,noun,a1,car;city;transport,space where you can leave your car
+vocabulary,helmet,hard-hat-for-the-head,noun,a1,transport;sports,hard hat that protects the head of a rider
+vocabulary,luggage,bags-for-a-trip,noun,a1,travel;transport,bags and suitcases taken on a trip
+vocabulary,schedule,list-of-departure-times,noun,a1,transport;time,list of times buses and trains leave
+vocabulary,speed,how-fast-something-moves,noun,a1,transport;car,how fast a person or thing moves
+vocabulary,accident,crash-on-the-road,noun,a1,transport;car,sudden crash on the road that hurts people
+vocabulary,exit,way-out,noun,a1,city;transport,door or way out of a building
+vocabulary,entrance,way-in,noun,a1,city;transport,door or gate into a building or station
+vocabulary,kilometer,unit-of-distance,noun,a1,travel;transport,unit of distance equal to one thousand meters
+vocabulary,transportation,ways-of-moving-people,noun,a1,transport;city,ways of moving people between places
+vocabulary,captain,person-in-charge-of-a-ship,noun,a1,transport;work,person in charge of a ship or plane
+vocabulary,elevator,machine-between-floors,noun,a1,city;home,machine carrying people between floors of a building
+vocabulary,sail,travel-on-water,verb,a1,transport;travel,travel on water in a boat or ship
+vocabulary,land,come-down-to-the-ground,verb,a1,transport;travel,come down from the air onto the ground
+vocabulary,catch,get-on-in-time,verb,a1,transport;travel,get on a bus or train in time
+vocabulary,board,get-on-a-plane-or-ship,verb,a1,transport;travel,get on a plane ship or train
+vocabulary,hurry,move-more-quickly,verb,a1,time;daily-routine,move more quickly because time is short
+vocabulary,follow,go-behind-someone,verb,a1,travel;city,go behind someone in the same direction
+vocabulary,by,using-a-kind-of-transport,preposition,a1,transport;travel,shows the kind of transportation you use
+vocabulary,from,starting-place,preposition,a1,travel;transport,shows the place where a trip starts
+vocabulary,to,destination,preposition,a1,travel;transport,shows the place where someone is going
+vocabulary,across,from-side-to-side,preposition,a1,travel;city,from one side to the other side
+vocabulary,through,in-one-side-out-the-other,preposition,a1,travel;transport,in one side and out the other
+vocabulary,toward,in-the-direction-of,preposition,a1,travel;city,in the direction of someone or something
+vocabulary,next,coming-right-after,adjective,a1,time;transport,coming right after this one
+vocabulary,last,after-all-the-others,adjective,a1,time;transport,coming after all the others
+vocabulary,first,before-all-the-others,adjective,a1,time,coming before all the others
+vocabulary,quick,taking-a-short-time,adjective,a1,time,taking only a short time
+vocabulary,building,structure-with-walls-and-roof,noun,a1,city,structure with walls and a roof
+vocabulary,hospital,place-for-sick-people,noun,a1,city;health,place where sick people get care
+vocabulary,library,place-to-borrow-books,noun,a1,city;education,place to read and borrow books
+vocabulary,church,building-for-christian-worship,noun,a1,city,building where Christians go to pray
+vocabulary,theater,building-for-plays,noun,a1,city,building where people watch plays
+vocabulary,stadium,place-for-sports-games,noun,a1,city;sports,large place for watching sports games
+vocabulary,zoo,place-with-wild-animals,noun,a1,city;animals,place where people see wild animals
+vocabulary,pool,place-to-swim,noun,a1,city;sports,place with water for swimming
+vocabulary,playground,outdoor-play-area,noun,a1,city,outdoor place where children play
+vocabulary,gym,place-to-exercise,noun,a1,city;sports,place to exercise with machines
+vocabulary,bar,place-serving-drinks,noun,a1,city;food,place that sells beer and drinks
+vocabulary,university,school-after-high-school,noun,a1,city;education,school for adults after high school
+vocabulary,clinic,small-medical-place,noun,a1,city;health,small place to see a doctor
+vocabulary,restroom,public-toilet-room,noun,a1,city;travel,room with toilets in a public place
+vocabulary,square,open-area-in-a-town,noun,a1,city,open area with buildings around it
+vocabulary,block,area-between-streets,noun,a1,city,city area with streets on four sides
+vocabulary,avenue,wide-city-street,noun,a1,city,wide city street often lined with trees
+vocabulary,crosswalk,marked-place-to-cross,noun,a1,city;transport,marked place to walk across a street
+vocabulary,downtown,in-the-city-center,adverb,a1,city,in the main business part of a city
+vocabulary,neighborhood,area-where-people-live,noun,a1,city;home,part of a city where people live
+vocabulary,center,middle-of-a-city,noun,a1,city,middle part of a city
+vocabulary,capital,city-of-the-government,noun,a1,city,city where a country's government works
+vocabulary,area,part-of-a-place,noun,a1,city,one part of a city or country
+vocabulary,tower,tall-narrow-building,noun,a1,city,tall narrow building or part of one
+vocabulary,fountain,water-structure,noun,a1,city,structure that sends water into the air
+vocabulary,statue,stone-or-metal-figure,noun,a1,city,figure of a person made of stone
+vocabulary,bench,long-outdoor-seat,noun,a1,city,long seat for two or more people
+vocabulary,mailbox,box-for-letters,noun,a1,city;communication,box for sending or getting letters
+vocabulary,path,narrow-way-for-walking,noun,a1,city;nature,narrow way made for walking
+vocabulary,wide,far-from-side-to-side,adjective,a1,city,long from one side to the other
+vocabulary,firefighter,person-who-stops-fires,noun,a1,work;city,person whose job is stopping fires
+vocabulary,officer,member-of-the-police,noun,a1,work;city,person who works for the police
+vocabulary,guard,person-who-protects-a-place,noun,a1,work;city,person who keeps a place safe
+vocabulary,noisy,full-of-loud-sound,adjective,a1,city,making a lot of loud sound
+vocabulary,high,far-above-the-ground,adjective,a1,city;nature,a long way up from the ground
+vocabulary,modern,of-the-present-time,adjective,a1,city,in the style of the present time
+vocabulary,famous,known-by-many-people,adjective,a1,city;travel,known by a lot of people
+vocabulary,between,in-the-middle-of-two,preposition,a1,city;travel,in the space separating two things
+vocabulary,behind,at-the-back-of,preposition,a1,city,at the back of something
+vocabulary,around,to-many-parts-of-a-place,preposition,a1,city;travel,to many parts of a place
+vocabulary,at,exact-place,preposition,a1,city;travel,shows the exact place of something
+vocabulary,in,inside-a-place,preposition,a1,city;home,shows something is inside a place
+vocabulary,where,asking-about-place,adverb,a1,city;travel,asks about the place of something
+vocabulary,away,at-a-distance,adverb,a1,city;travel,at a distance from a place
+vocabulary,enter,go-into-a-place,verb,a1,city;travel,go into a room or building
+vocabulary,pass,go-by-without-stopping,verb,a1,city;travel,go by a place without stopping
+vocabulary,climb,go-up-with-hands-and-feet,verb,a1,sports;nature,go up using feet and hands
+vocabulary,push,press-to-move-away,verb,a1,daily-routine,press something to move it away
+vocabulary,pull,move-toward-yourself,verb,a1,daily-routine,move something toward you by holding it
+vocabulary,point,show-with-a-finger,verb,a1,communication,show something with your finger
+vocabulary,nature,plants-animals-and-land,noun,a1,nature,plants animals and land not made by people
+vocabulary,animal,living-creature,noun,a1,animals;nature,living thing that can move and feel
+vocabulary,grass,green-ground-plant,noun,a1,nature,thin green plant that covers the ground
+vocabulary,leaf,flat-green-part-of-a-plant,noun,a1,nature,flat green part of a tree or plant
+vocabulary,hill,high-area-of-land,noun,a1,nature,high land smaller than a mountain
+vocabulary,rock,large-piece-of-stone,noun,a1,nature,large hard piece of the ground
+vocabulary,stone,small-piece-of-rock,noun,a1,nature,small piece of rock you can hold
+vocabulary,sand,tiny-grains-on-a-beach,noun,a1,nature,tiny grains that cover beaches and deserts
+vocabulary,ocean,very-large-area-of-salt-water,noun,a1,nature;travel,one of the largest areas of salt water
+vocabulary,wave,raised-line-of-water,noun,a1,nature,raised line of water moving on the sea
+vocabulary,moon,round-object-in-night-sky,noun,a1,nature,round object that shines in the night sky
+vocabulary,star,point-of-light-in-night-sky,noun,a1,nature,small point of light in the night sky
+vocabulary,planet,large-round-object-in-space,noun,a1,nature,large round object that moves around a star
+vocabulary,ground,surface-you-walk-on,noun,a1,nature,surface outside that you walk on
+vocabulary,field,open-area-of-land,noun,a1,nature,open area of land for crops or animals
+vocabulary,wood,material-from-trees,noun,a1,nature,hard material that trees are made of
+vocabulary,fire,flames-heat-and-light,noun,a1,nature,flames heat and light from something burning
+vocabulary,air,gas-we-breathe,noun,a1,nature,mix of gases that we breathe
+vocabulary,seed,small-part-that-grows-into-a-plant,noun,a1,nature,small hard part that grows into a plant
+vocabulary,branch,arm-of-a-tree,noun,a1,nature,part of a tree growing from the trunk
+vocabulary,bush,low-thick-plant,noun,a1,nature,low plant with many thin branches
+vocabulary,rose,flower-with-thorns,noun,a1,nature,sweet-smelling flower with sharp points on its stem
+vocabulary,pond,small-area-of-still-water,noun,a1,nature,small area of still water
+vocabulary,stream,small-narrow-river,noun,a1,nature,small narrow river you can often walk across
+vocabulary,waterfall,river-dropping-over-rocks,noun,a1,nature;travel,place where a river drops over high rocks
+vocabulary,valley,low-land-between-hills,noun,a1,nature,low land between hills or mountains
+vocabulary,desert,dry-land-with-little-rain,noun,a1,nature,large dry area with very little rain
+vocabulary,jungle,thick-tropical-forest,noun,a1,nature,thick forest in a hot wet place
+vocabulary,cave,large-hole-in-a-hill,noun,a1,nature,large hole in a hill or underground
+vocabulary,mud,soft-wet-dirt,noun,a1,nature,soft wet dirt after rain
+vocabulary,nest,home-a-bird-builds,noun,a1,nature;animals,home a bird builds for its eggs
+vocabulary,shell,hard-cover-of-a-sea-animal,noun,a1,nature;animals,hard outside cover of a sea animal
+vocabulary,sunrise,time-the-sun-comes-up,noun,a1,nature;time,time when the sun comes up
+vocabulary,sunset,time-the-sun-goes-down,noun,a1,nature;time,time when the sun goes down
+vocabulary,shade,cool-area-out-of-the-sun,noun,a1,nature,cool dark area out of the sun
+vocabulary,hole,empty-space-in-something-solid,noun,a1,nature,empty space in the ground or a wall
+vocabulary,stick,thin-piece-of-wood,noun,a1,nature,long thin piece of wood from a tree
+vocabulary,insect,small-six-legged-animal,noun,a1,animals;nature,very small animal with six legs
+vocabulary,bee,insect-that-makes-honey,noun,a1,animals;nature,flying insect that makes honey
+vocabulary,butterfly,insect-with-colorful-wings,noun,a1,animals;nature,insect with large colorful wings
+vocabulary,wild,living-free-in-nature,adjective,a1,nature;animals,living free in nature without people's care
+vocabulary,natural,not-made-by-people,adjective,a1,nature,not made or changed by people
+vocabulary,beautiful,very-nice-to-look-at,adjective,a1,nature;travel,very nice to look at
+vocabulary,deep,going-far-down,adjective,a1,nature,going a long way down
+vocabulary,dark,with-little-or-no-light,adjective,a1,nature,with very little or no light
+vocabulary,grow,get-bigger-over-time,verb,a1,nature,get bigger or taller over time
+vocabulary,dig,make-a-hole-in-the-ground,verb,a1,nature,move dirt to make a hole
+vocabulary,hike,take-a-long-walk-in-nature,verb,a1,nature;sports,take a long walk in nature for fun
+vocabulary,camp,sleep-outdoors-in-a-tent,verb,a1,nature;travel,sleep outdoors in a tent for a while
+vocabulary,pick,take-from-a-plant,verb,a1,nature;food,take fruit or flowers from a plant
