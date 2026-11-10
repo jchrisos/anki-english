@@ -1899,3 +1899,103 @@ vocabulary,dig,make-a-hole-in-the-ground,verb,a1,nature,move dirt to make a hole
 vocabulary,hike,take-a-long-walk-in-nature,verb,a1,nature;sports,take a long walk in nature for fun
 vocabulary,camp,sleep-outdoors-in-a-tent,verb,a1,nature;travel,sleep outdoors in a tent for a while
 vocabulary,pick,take-from-a-plant,verb,a1,nature;food,take fruit or flowers from a plant
+vocabulary,weather,state-of-the-air,noun,a1,weather;nature,how hot or wet the air is outside
+vocabulary,cloud,white-shape-in-sky,noun,a1,weather;nature,white shape in the sky made of water
+vocabulary,storm,strong-wind-and-rain,noun,a1,weather;nature,strong wind and heavy rain together
+vocabulary,fog,thick-cloud-near-ground,noun,a1,weather;nature,thick low cloud that hides the road
+vocabulary,thunder,loud-sound-in-a-storm,noun,a1,weather;nature,loud noise in the sky during a storm
+vocabulary,lightning,bright-flash-in-a-storm,noun,a1,weather;nature,bright flash of light in a storm
+vocabulary,rainbow,colors-after-rain,noun,a1,weather;nature,band of colors after the rain
+vocabulary,puddle,small-water-on-ground,noun,a1,weather;nature;city,small pool of water after rain
+vocabulary,snowman,figure-made-of-snow,noun,a1,weather;nature,figure made of snow with a hat
+vocabulary,snowball,ball-of-pressed-snow,noun,a1,weather;nature,round ball of snow you can throw
+vocabulary,thunderstorm,storm-with-thunder,noun,a1,weather;nature,storm with thunder and lightning
+vocabulary,snowflake,one-piece-of-snow,noun,a1,weather;nature,one small piece of falling snow
+vocabulary,raindrop,one-drop-of-rain,noun,a1,weather;nature,one small drop of falling rain
+vocabulary,sunlight,light-from-the-sun,noun,a1,weather;nature,bright light that comes from the sun
+vocabulary,sunshine,warm-light-of-the-sun,noun,a1,weather;nature,warm light of the sun without clouds
+vocabulary,dawn,time-sun-comes-up,noun,a1,time;nature,time when the sun first comes up
+vocabulary,dusk,time-before-night,noun,a1,time;nature,time just before it gets dark
+vocabulary,daylight,natural-light-of-day,noun,a1,time;nature,natural light from the sky by day
+vocabulary,shadow,dark-shape-from-light,noun,a1,nature;weather,dark shape made when light is blocked
+vocabulary,season,part-of-the-year,noun,a1,time;weather,one of the four parts of the year
+vocabulary,summer,warmest-season,noun,a1,time;weather,warmest season between spring and autumn
+vocabulary,winter,coldest-season,noun,a1,time;weather,coldest season between autumn and spring
+vocabulary,spring,season-after-winter,noun,a1,time;weather,season when plants start to grow
+vocabulary,autumn,season-before-winter,noun,a1,time;weather,season when leaves change and drop
+vocabulary,glove,hand-cover-for-cold,noun,a1,clothes;weather,clothing that covers a hand and fingers
+vocabulary,temperature,how-hot-or-cold,noun,a1,weather;health,measure of how hot or cold it is
+vocabulary,degree,unit-of-temperature,noun,a1,weather,unit used to measure temperature
+vocabulary,breeze,light-wind,noun,a1,weather;nature,light wind that moves gently
+vocabulary,flood,water-covering-dry-land,noun,a1,weather;nature;city,large amount of water over dry land
+vocabulary,umbrella,thing-that-keeps-off-rain,noun,a1,weather;clothes,cover held over the head in rain
+vocabulary,raincoat,coat-for-rain,noun,a1,weather;clothes,coat made to keep you dry
+vocabulary,mist,thin-fog,noun,a1,weather;nature,thin fog you can see through
+vocabulary,sunburn,red-skin-from-sun,noun,a1,health;body;weather,red sore skin from too much sun
+vocabulary,forecast,what-the-weather-will-be,noun,a1,weather;communication,report of what the weather will be
+vocabulary,cloudy,full-of-clouds,adjective,a1,weather,with many clouds and little sun
+vocabulary,sunny,with-bright-sun,adjective,a1,weather,with bright light and few clouds
+vocabulary,windy,with-strong-wind,adjective,a1,weather,with a lot of wind blowing
+vocabulary,rainy,with-a-lot-of-rain,adjective,a1,weather,with a lot of rain falling
+vocabulary,snowy,with-a-lot-of-snow,adjective,a1,weather,with a lot of snow falling
+vocabulary,foggy,with-thick-fog,adjective,a1,weather,with thick fog and poor visibility
+vocabulary,stormy,with-storms,adjective,a1,weather,with wind and rain and thunder
+vocabulary,humid,with-warm-wet-air,adjective,a1,weather;health,with warm wet air that feels heavy
+vocabulary,mild,not-too-hot-or-cold,adjective,a1,weather,not too hot and not too cold
+vocabulary,freezing,extremely-cold,adjective,a1,weather,extremely cold to the touch
+vocabulary,freeze,turn-into-ice,verb,a1,weather;nature,turn into ice from the cold
+vocabulary,melt,become-liquid-when-warm,verb,a1,weather;nature;food,become liquid when it gets warm
+vocabulary,blow,wind-moves-air,verb,a1,weather;nature,wind moving air from place to place
+vocabulary,shine,sun-gives-light,verb,a1,weather;nature,give bright light like the sun
+vocabulary,drizzle,light-rain-falling,verb,a1,weather;nature,rain lightly in very small drops
+vocabulary,hail,ice-falling-from-sky,verb,a1,weather;nature,ice balls falling from the sky
+vocabulary,lion,large-wild-cat-with-mane,noun,a2,animals;nature,large wild cat with a loud roar
+vocabulary,tiger,striped-wild-cat,noun,a2,animals;nature,large wild cat with dark stripes
+vocabulary,elephant,huge-animal-with-trunk,noun,a2,animals;nature,huge gray animal with a long nose
+vocabulary,giraffe,tall-animal-with-long-neck,noun,a2,animals;nature,tall animal with a very long neck
+vocabulary,monkey,small-tree-climbing-animal,noun,a2,animals;nature,small tree animal with a long tail
+vocabulary,bear,large-forest-animal,noun,a2,animals;nature,big heavy wild animal with thick fur
+vocabulary,wolf,wild-animal-like-a-dog,noun,a2,animals;nature,wild animal like a large dog
+vocabulary,fox,wild-animal-with-bushy-tail,noun,a2,animals;nature,wild animal with red fur and bushy tail
+vocabulary,deer,wild-animal-with-thin-legs,noun,a2,animals;nature,wild animal with long thin legs
+vocabulary,rabbit,small-animal-with-long-ears,noun,a2,animals;nature,small animal with long ears
+vocabulary,mouse,tiny-animal-with-long-tail,noun,a2,animals;home,very small animal with a long tail
+vocabulary,horse,large-riding-animal,noun,a2,animals;travel,large animal people ride and work with
+vocabulary,cow,farm-animal-for-milk,noun,a2,animals;food,large farm animal kept for milk
+vocabulary,pig,farm-animal-with-wide-nose,noun,a2,animals;food,farm animal with a wide flat nose
+vocabulary,sheep,farm-animal-with-wool,noun,a2,animals;food,farm animal with thick wool
+vocabulary,goat,horned-climbing-farm-animal,noun,a2,animals;nature,farm animal with horns that climbs
+vocabulary,duck,water-bird-with-flat-beak,noun,a2,animals;nature,water bird with a wide flat beak
+vocabulary,goose,large-long-necked-water-bird,noun,a2,animals;nature,large water bird with a long neck
+vocabulary,owl,night-bird-with-big-eyes,noun,a2,animals;nature,night bird with large round eyes
+vocabulary,eagle,large-hunting-bird,noun,a2,animals;nature,large strong bird that hunts high up
+vocabulary,parrot,colorful-talking-bird,noun,a2,animals;nature,colorful bird that copies human words
+vocabulary,penguin,black-and-white-sea-bird,noun,a2,animals;nature,black and white bird that swims well
+vocabulary,shark,large-sea-fish-with-teeth,noun,a2,animals;nature,large sea fish with sharp teeth
+vocabulary,whale,huge-air-breathing-sea-animal,noun,a2,animals;nature,very large sea animal that breathes air
+vocabulary,dolphin,smart-jumping-sea-animal,noun,a2,animals;nature,smart sea animal that jumps and swims
+vocabulary,octopus,eight-armed-sea-animal,noun,a2,animals;nature,sea animal with eight arms
+vocabulary,crab,shelled-sea-animal-with-claws,noun,a2,animals;nature;food,sea animal with a hard shell
+vocabulary,turtle,slow-animal-with-shell,noun,a2,animals;nature,slow animal with a hard shell
+vocabulary,frog,jumping-water-animal,noun,a2,animals;nature,small jumping animal that lives near water
+vocabulary,snake,long-legless-animal,noun,a2,animals;nature,long thin animal with no legs
+vocabulary,spider,eight-legged-web-maker,noun,a2,animals;home,small animal with eight legs
+vocabulary,ant,tiny-group-insect,noun,a2,animals;home,very small insect that lives in groups
+vocabulary,mosquito,biting-flying-insect,noun,a2,animals;health,small flying insect that bites
+vocabulary,worm,soft-legless-soil-animal,noun,a2,animals;nature,long soft animal with no legs
+vocabulary,snail,slow-shelled-animal,noun,a2,animals;nature,very slow small animal with a shell
+vocabulary,squirrel,bushy-tailed-tree-animal,noun,a2,animals;nature,small animal with a bushy tail
+vocabulary,kangaroo,jumping-pouch-animal,noun,a2,animals;nature,jumping animal that carries its baby
+vocabulary,camel,desert-animal-with-humps,noun,a2,animals;travel,desert animal with humps on its back
+vocabulary,zebra,striped-horse-like-animal,noun,a2,animals;nature,horse-like animal with black and white stripes
+vocabulary,crocodile,river-animal-with-teeth,noun,a2,animals;nature,large river animal with many teeth
+vocabulary,tame,not-wild,adjective,a2,animals;home,not wild and not afraid of people
+vocabulary,furry,covered-with-soft-hair,adjective,a2,animals;home,covered with soft thick hair
+vocabulary,rare,only-a-few-exist,adjective,a2,animals;nature,not common and only a few exist
+vocabulary,cute,small-and-nice-looking,adjective,a2,animals;emotions,small and nice to look at
+vocabulary,bite,use-teeth-to-cut,verb,a2,health;animals,use teeth to cut into something
+vocabulary,bark,dog-makes-a-sound,verb,a2,animals;home,make a short loud dog sound
+vocabulary,sting,hurt-with-a-sharp-point,verb,a2,health;animals,hurt with a sharp point
+vocabulary,hunt,chase-animals-for-food,verb,a2,animals;nature,chase and catch animals for food
+vocabulary,feed,give-food-to-someone,verb,a2,animals;food,give food to a person or animal
+vocabulary,hatch,break-out-of-an-egg,verb,a2,animals;nature,break out of an egg

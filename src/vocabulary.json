@@ -11521,5 +11521,1548 @@
     "image": "voc_72965253",
     "image_brief": "a woman on a short ladder reaching up to pull a red apple off a branch with one hand, a basket half full of fruit hooked on her other arm, seen from the side at medium distance in an orchard, warm late afternoon light, more baskets on the grass, fallen apples, a wheelbarrow and rows of trees behind, taking fruit straight from the tree mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
     "example": "Please do not **pick** the flowers in the park."
+  },
+  {
+    "phrase": "weather",
+    "pos": "noun",
+    "sense": "state-of-the-air",
+    "pronunciation": "/ˈwɛðɚ/",
+    "definition": "the state of the air outside, such as how hot, cold, wet or windy it is.",
+    "categories": [
+      "weather",
+      "nature"
+    ],
+    "level": "a1",
+    "image": "voc_d43e107d",
+    "image_brief": "a kitchen window with rain running down the glass, a woman in a sweater looking out at a gray sky, seen from behind at medium distance, a kettle steaming on the counter, dishes in the rack and a wet coat over a chair, quiet indoor mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **weather** is cold and wet this morning."
+  },
+  {
+    "phrase": "cloud",
+    "pos": "noun",
+    "sense": "white-shape-in-sky",
+    "pronunciation": "/klaʊd/",
+    "definition": "a white or gray shape in the sky made of very small drops of water.",
+    "categories": [
+      "weather",
+      "nature"
+    ],
+    "level": "a1",
+    "image": "voc_3f5267e1",
+    "image_brief": "white clouds piled over a low green hill, a farmer walking a path with a dog, wide shot from the side, fence posts, a stopped tractor and long grass in the field, soft afternoon light, calm open-air mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A big white **cloud** moved across the sky."
+  },
+  {
+    "phrase": "storm",
+    "pos": "noun",
+    "sense": "strong-wind-and-rain",
+    "pronunciation": "/stɔrm/",
+    "definition": "a time when there is strong wind and heavy rain.",
+    "categories": [
+      "weather",
+      "nature"
+    ],
+    "level": "a1",
+    "image": "voc_d15d4cd0",
+    "image_brief": "heavy rain bending a line of street trees, a man in a rain jacket pulling his hood down as he walks away, from behind at medium distance on a wet sidewalk, parked cars, a fallen branch and water rushing along the gutter, dark stormy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A big **storm** is coming tonight."
+  },
+  {
+    "phrase": "fog",
+    "pos": "noun",
+    "sense": "thick-cloud-near-ground",
+    "pronunciation": "/fɑɡ/",
+    "definition": "a thick cloud of very small drops of water close to the ground that makes it hard to see.",
+    "categories": [
+      "weather",
+      "nature"
+    ],
+    "level": "a1",
+    "image": "voc_50006e0b",
+    "image_brief": "a country road disappearing into thick white fog, a car with its lights on moving slowly away, from across the road at wide distance, wet grass, a leaning mailbox and bare fence posts, hushed early-morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Thick **fog** covered the road this morning."
+  },
+  {
+    "phrase": "thunder",
+    "pos": "noun",
+    "sense": "loud-sound-in-a-storm",
+    "pronunciation": "/ˈθʌndɚ/",
+    "definition": "the loud noise you hear in the sky during a storm.",
+    "categories": [
+      "weather",
+      "nature"
+    ],
+    "level": "a1",
+    "image": "voc_64d939e6",
+    "image_brief": "a dark summer sky over a row of small houses, a boy at an upstairs window with his hands over his ears, seen from outside at medium distance, a laundry line whipping, bins by the gate and lit windows, tense night mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **thunder** woke the children last night."
+  },
+  {
+    "phrase": "lightning",
+    "pos": "noun",
+    "sense": "bright-flash-in-a-storm",
+    "pronunciation": "/ˈlaɪtnɪŋ/",
+    "definition": "a sudden bright flash of light in the sky during a storm.",
+    "categories": [
+      "weather",
+      "nature"
+    ],
+    "level": "a1",
+    "image": "voc_80a732ca",
+    "image_brief": "a jagged flash lighting up a field and a barn at night, one figure on a porch turning back toward the door, seen from the yard at wide distance, a fence, a water trough and dark trees, electric nervous mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We saw a bright flash of **lightning** over the hills."
+  },
+  {
+    "phrase": "rainbow",
+    "pos": "noun",
+    "sense": "colors-after-rain",
+    "pronunciation": "/ˈreɪnboʊ/",
+    "definition": "a curved band of colors that appears in the sky after rain.",
+    "categories": [
+      "weather",
+      "nature"
+    ],
+    "level": "a1",
+    "image": "voc_ec533c25",
+    "image_brief": "a wide arc of color over a wet playground, one child standing still and pointing up, from behind at wide distance, puddles, a soccer ball, benches and dripping trees, bright hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **rainbow** appeared after the afternoon rain."
+  },
+  {
+    "phrase": "puddle",
+    "pos": "noun",
+    "sense": "small-water-on-ground",
+    "pronunciation": "/ˈpʌdəl/",
+    "definition": "a small pool of water on the ground, usually after rain.",
+    "categories": [
+      "weather",
+      "nature",
+      "city"
+    ],
+    "level": "a1",
+    "image": "voc_db9a8a4a",
+    "image_brief": "a shallow puddle across a cracked sidewalk reflecting a storefront, a woman stepping around it with a shopping bag, low angle at medium distance, wet leaves, a dropped receipt and a bicycle leaning on a wall, gray after-rain mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The children jumped in every **puddle** on the way home."
+  },
+  {
+    "phrase": "snowman",
+    "pos": "noun",
+    "sense": "figure-made-of-snow",
+    "pronunciation": "/ˈsnoʊmæn/",
+    "definition": "a figure shaped like a person that people make from snow, with a head and body.",
+    "categories": [
+      "weather",
+      "nature"
+    ],
+    "level": "a1",
+    "image": "voc_29a98a33",
+    "image_brief": "a lumpy snow figure with a carrot nose and a wool hat standing in a front yard, two children walking away toward the house, wide shot from the side, footprints, a shovel and a sled by the fence, cheerful winter mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The kids built a **snowman** in the front yard."
+  },
+  {
+    "phrase": "snowball",
+    "pos": "noun",
+    "sense": "ball-of-pressed-snow",
+    "pronunciation": "/ˈsnoʊbɔl/",
+    "definition": "snow pressed hard into a round shape that you can throw.",
+    "categories": [
+      "weather",
+      "nature"
+    ],
+    "level": "a1",
+    "image": "voc_aeb981c7",
+    "image_brief": "a packed snowball in a gloved hand aimed at a garden wall, one child crouched behind it, from the side at medium distance, snow on the hedge, a sled and a dropped hat in the yard, lively winter mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He threw a **snowball** at the fence."
+  },
+  {
+    "phrase": "thunderstorm",
+    "pos": "noun",
+    "sense": "storm-with-thunder",
+    "pronunciation": "/ˈθʌndɚstɔrm/",
+    "definition": "a storm with thunder and lightning, usually with heavy rain.",
+    "categories": [
+      "weather",
+      "nature"
+    ],
+    "level": "a1",
+    "image": "voc_061cbac2",
+    "image_brief": "a dark thunderstorm over a small town street, one person hurrying under an awning with a newspaper over their head, from across the street at wide distance, closed market stalls, bicycles chained to a post and litter blowing past, tense evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **thunderstorm** knocked out the power for an hour."
+  },
+  {
+    "phrase": "snowflake",
+    "pos": "noun",
+    "sense": "one-piece-of-snow",
+    "pronunciation": "/ˈsnoʊfleɪk/",
+    "definition": "one small piece of snow that falls from the sky.",
+    "categories": [
+      "weather",
+      "nature"
+    ],
+    "level": "a1",
+    "image": "voc_33761ce7",
+    "image_brief": "a dark wool sleeve held out with a few white flakes resting on the fabric, from the side at medium distance in a quiet street, blurred falling snow, a coat collar and a warm window behind, cold still mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A single **snowflake** landed on her glove."
+  },
+  {
+    "phrase": "raindrop",
+    "pos": "noun",
+    "sense": "one-drop-of-rain",
+    "pronunciation": "/ˈreɪndrɑp/",
+    "definition": "one small drop of water that falls from a cloud.",
+    "categories": [
+      "weather",
+      "nature"
+    ],
+    "level": "a1",
+    "image": "voc_18ae2f8d",
+    "image_brief": "a single drop sliding down a window pane with the street blurred behind it, seen from inside a room at medium distance, a mug on the sill, a coat over a chair and gray light, quiet waiting mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **raindrop** ran down the window."
+  },
+  {
+    "phrase": "sunlight",
+    "pos": "noun",
+    "sense": "light-from-the-sun",
+    "pronunciation": "/ˈsʌnlaɪt/",
+    "definition": "the bright light that comes from the sun.",
+    "categories": [
+      "weather",
+      "nature"
+    ],
+    "level": "a1",
+    "image": "voc_a468e581",
+    "image_brief": "long bands of morning light across a kitchen table and a tiled floor, a woman setting down a plate, seen from the doorway at medium distance, crumbs, a newspaper and a chair pulled out, warm easy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Sunlight** filled the kitchen in the morning."
+  },
+  {
+    "phrase": "sunshine",
+    "pos": "noun",
+    "sense": "warm-light-of-the-sun",
+    "pronunciation": "/ˈsʌnʃaɪn/",
+    "definition": "the warm, bright light of the sun when there are no clouds.",
+    "categories": [
+      "weather",
+      "nature"
+    ],
+    "level": "a1",
+    "image": "voc_707ca19f",
+    "image_brief": "a small park table in open sunshine, two people sitting with sandwiches and paper cups, from behind at medium distance, a bench, bicycles and a dog asleep in the grass, relaxed weekend mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We ate lunch outside in the **sunshine**."
+  },
+  {
+    "phrase": "dawn",
+    "pos": "noun",
+    "sense": "time-sun-comes-up",
+    "pronunciation": "/dɔn/",
+    "definition": "the time of day when the sun first comes up.",
+    "categories": [
+      "time",
+      "nature"
+    ],
+    "level": "a1",
+    "image": "voc_7ab85370",
+    "image_brief": "a harbor at first light with boats still tied and one man uncoiling a rope, from the pier at wide distance, crates, nets and gulls on the water under a pale pink sky, quiet starting mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The fishermen left the harbor at **dawn**."
+  },
+  {
+    "phrase": "dusk",
+    "pos": "noun",
+    "sense": "time-before-night",
+    "pronunciation": "/dʌsk/",
+    "definition": "the time of day just before it gets dark.",
+    "categories": [
+      "time",
+      "nature"
+    ],
+    "level": "a1",
+    "image": "voc_3f9f0f85",
+    "image_brief": "a residential street at dusk with lamps just switching on, one person closing a garden gate, from across the road at medium distance, hedges, a bicycle and a cat on a wall in soft blue fading light, settling mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The street lights come on at **dusk**."
+  },
+  {
+    "phrase": "daylight",
+    "pos": "noun",
+    "sense": "natural-light-of-day",
+    "pronunciation": "/ˈdeɪlaɪt/",
+    "definition": "the natural light from the sky during the day.",
+    "categories": [
+      "time",
+      "nature"
+    ],
+    "level": "a1",
+    "image": "voc_90221a30",
+    "image_brief": "a hiking trail through woods in clear daylight, one walker with a backpack moving away, from behind at medium distance, roots across the path, a trail marker and a stream beside it, fresh open mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We finished the walk before **daylight** ended."
+  },
+  {
+    "phrase": "shadow",
+    "pos": "noun",
+    "sense": "dark-shape-from-light",
+    "pronunciation": "/ˈʃædoʊ/",
+    "definition": "a dark shape on the ground or a wall made when something blocks the light.",
+    "categories": [
+      "nature",
+      "weather"
+    ],
+    "level": "a1",
+    "image": "voc_8fbbb6c9",
+    "image_brief": "a long tree shadow across a lawn and a garden wall, a child running through it, wide shot from the side, a watering can, a soccer goal and flower pots in late golden light, playful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The tree's **shadow** fell across the grass."
+  },
+  {
+    "phrase": "season",
+    "pos": "noun",
+    "sense": "part-of-the-year",
+    "pronunciation": "/ˈsiːzən/",
+    "definition": "one of the four parts of the year, each with its own weather.",
+    "categories": [
+      "time",
+      "weather"
+    ],
+    "level": "a1",
+    "image": "voc_8dada374",
+    "image_brief": "four garden chairs in one yard with a bare branch, a full table, fallen leaves and a wet path behind them, a person setting a jacket on one chair, from across the yard at wide distance, turn-of-the-year mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Autumn is my favorite **season**."
+  },
+  {
+    "phrase": "summer",
+    "pos": "noun",
+    "sense": "warmest-season",
+    "pronunciation": "/ˈsʌmɚ/",
+    "definition": "the warmest season of the year, between spring and autumn.",
+    "categories": [
+      "time",
+      "weather"
+    ],
+    "level": "a1",
+    "image": "voc_123b5529",
+    "image_brief": "a beach in warm light with towels and coolers on the sand, two people walking toward the water, wide shot from the dunes, umbrellas, a kite and a car parked on the road behind, bright carefree mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We go to the beach every **summer**."
+  },
+  {
+    "phrase": "winter",
+    "pos": "noun",
+    "sense": "coldest-season",
+    "pronunciation": "/ˈwɪntɚ/",
+    "definition": "the coldest season of the year, between autumn and spring.",
+    "categories": [
+      "time",
+      "weather"
+    ],
+    "level": "a1",
+    "image": "voc_e578139f",
+    "image_brief": "a village street under thick snow with smoke from the chimneys, one person shoveling a path, from behind at medium distance, a car buried under snow, bare trees and stacked firewood, quiet cold mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The roads are icy in **winter**."
+  },
+  {
+    "phrase": "spring",
+    "pos": "noun",
+    "sense": "season-after-winter",
+    "pronunciation": "/sprɪŋ/",
+    "definition": "the season after winter, when the weather gets warmer and plants start to grow.",
+    "categories": [
+      "time",
+      "weather"
+    ],
+    "level": "a1",
+    "image": "voc_315e16e8",
+    "image_brief": "a garden waking up in bright light with new shoots and one woman cutting flowers, from the side at medium distance, tools, a wheelbarrow and a dripping tap, fresh hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The flowers open every **spring**."
+  },
+  {
+    "phrase": "autumn",
+    "pos": "noun",
+    "sense": "season-before-winter",
+    "pronunciation": "/ˈɔtəm/",
+    "definition": "the season between summer and winter, when leaves change color and drop from the trees.",
+    "categories": [
+      "time",
+      "weather"
+    ],
+    "level": "a1",
+    "image": "voc_074028b1",
+    "image_brief": "a park path covered in red and gold leaves, a man raking them into piles, seen from across the path at wide distance, benches, a lantern and a bicycle in soft low sun, calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The leaves turn red and gold in **autumn**."
+  },
+  {
+    "phrase": "glove",
+    "pos": "noun",
+    "sense": "hand-cover-for-cold",
+    "pronunciation": "/ɡlʌv/",
+    "definition": "a piece of clothing that covers your hand and fingers to keep them warm.",
+    "categories": [
+      "clothes",
+      "weather"
+    ],
+    "level": "a1",
+    "image": "voc_d9a3ef2a",
+    "image_brief": "a single wool glove left on a wet bus seat, one passenger standing and looking back down the aisle, from behind at medium distance, a newspaper, a coffee cup and a fogged window, damp winter mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I lost one **glove** on the bus."
+  },
+  {
+    "phrase": "temperature",
+    "pos": "noun",
+    "sense": "how-hot-or-cold",
+    "pronunciation": "/ˈtɛmpɚətʃɚ/",
+    "definition": "a measure of how hot or cold something is.",
+    "categories": [
+      "weather",
+      "health"
+    ],
+    "level": "a1",
+    "image": "voc_a973c608",
+    "image_brief": "an outdoor wall thermometer on a wooden shed, a man in a coat reading it with a bag of shopping in one hand, from the side at medium distance, frost on the roof, a snow shovel and a parked car, sharp cold mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **temperature** dropped below zero last night."
+  },
+  {
+    "phrase": "degree",
+    "pos": "noun",
+    "sense": "unit-of-temperature",
+    "pronunciation": "/dɪˈɡriː/",
+    "definition": "a unit used to measure temperature, written as a small circle after a number.",
+    "categories": [
+      "weather"
+    ],
+    "level": "a1",
+    "image": "voc_bf4b3002",
+    "image_brief": "a car dashboard showing the outside temperature, a driver's hand on the wheel, from over the shoulder at medium distance, a cold street through the windshield, a coffee cup in the holder and a scarf on the seat, ordinary morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "It is one **degree** below freezing outside."
+  },
+  {
+    "phrase": "breeze",
+    "pos": "noun",
+    "sense": "light-wind",
+    "pronunciation": "/briːz/",
+    "definition": "a light wind that moves gently.",
+    "categories": [
+      "weather",
+      "nature"
+    ],
+    "level": "a1",
+    "image": "voc_8ffb54aa",
+    "image_brief": "a light wind lifting the corner of a tablecloth at a lakeside picnic, one person holding a paper plate down, wide shot from the side, napkins, a cooler and small waves on the water, easy summer mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A cool **breeze** came off the water."
+  },
+  {
+    "phrase": "flood",
+    "pos": "noun",
+    "sense": "water-covering-dry-land",
+    "pronunciation": "/flʌd/",
+    "definition": "a large amount of water that covers land that is usually dry.",
+    "categories": [
+      "weather",
+      "nature",
+      "city"
+    ],
+    "level": "a1",
+    "image": "voc_76b730b6",
+    "image_brief": "brown water covering a street to the top of its curbs, a woman carrying bags wading past a stalled car, from across the road at wide distance, floating bins, a sandbag wall and a closed shop, grim wet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **flood** closed the main road for two days."
+  },
+  {
+    "phrase": "umbrella",
+    "pos": "noun",
+    "sense": "thing-that-keeps-off-rain",
+    "pronunciation": "/ʌmˈbrɛlə/",
+    "definition": "a round cover on a stick that you hold over your head to keep the rain off.",
+    "categories": [
+      "weather",
+      "clothes"
+    ],
+    "level": "a1",
+    "image": "voc_de9899e1",
+    "image_brief": "a black umbrella tilting into the rain on a busy corner, a man hurrying away with a briefcase, from behind at medium distance, wet crossing stripes, a newsstand and a bus stopped at the light, gray rush-hour mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Take an **umbrella** because it may rain."
+  },
+  {
+    "phrase": "raincoat",
+    "pos": "noun",
+    "sense": "coat-for-rain",
+    "pronunciation": "/ˈreɪnkoʊt/",
+    "definition": "a coat made to keep you dry in the rain.",
+    "categories": [
+      "weather",
+      "clothes"
+    ],
+    "level": "a1",
+    "image": "voc_4d90f4ca",
+    "image_brief": "a yellow coat hanging on a hook beside a wet dog, one person reaching for the lead, from across the hall at medium distance, boots, a folded newspaper and a puddle by the step, damp practical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He wore a yellow **raincoat** to walk the dog."
+  },
+  {
+    "phrase": "mist",
+    "pos": "noun",
+    "sense": "thin-fog",
+    "pronunciation": "/mɪst/",
+    "definition": "a thin fog that you can see through but that makes things look soft.",
+    "categories": [
+      "weather",
+      "nature"
+    ],
+    "level": "a1",
+    "image": "voc_4d23e879",
+    "image_brief": "a field half covered in thin mist with a tractor working at the far edge, seen from a gate at wide distance, wet hay bales, a fence and a dog waiting, pale still morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A thin **mist** lay over the field."
+  },
+  {
+    "phrase": "sunburn",
+    "pos": "noun",
+    "sense": "red-skin-from-sun",
+    "pronunciation": "/ˈsʌnbɚn/",
+    "definition": "red, sore skin caused by staying in the sun too long.",
+    "categories": [
+      "health",
+      "body",
+      "weather"
+    ],
+    "level": "a1",
+    "image": "voc_a8fd832d",
+    "image_brief": "a man at a bathroom mirror touching his red shoulder, seen from behind at medium distance, a towel, a bottle of lotion and a damp swimsuit over the tub, rueful evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He got a bad **sunburn** at the beach."
+  },
+  {
+    "phrase": "forecast",
+    "pos": "noun",
+    "sense": "what-the-weather-will-be",
+    "pronunciation": "/ˈfɔrkæst/",
+    "definition": "a report that says what the weather will probably be.",
+    "categories": [
+      "weather",
+      "communication"
+    ],
+    "level": "a1",
+    "image": "voc_7fafa907",
+    "image_brief": "a man at a kitchen radio listening with a cup of tea, a rain coat over the chair behind him, from across the room at medium distance, a calendar, a wet window and boots by the door, practical early-morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **forecast** says it will rain tomorrow."
+  },
+  {
+    "phrase": "cloudy",
+    "pos": "adjective",
+    "sense": "full-of-clouds",
+    "pronunciation": "/ˈklaʊdi/",
+    "definition": "with a lot of clouds and little or no sun.",
+    "categories": [
+      "weather"
+    ],
+    "level": "a1",
+    "image": "voc_575579d0",
+    "image_brief": "a gray sky over a flat playground with a few children still playing, white lines and a net, from the fence at wide distance, a bench, dropped jackets and a flag on a pole, dull but busy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "It stayed **cloudy** all afternoon."
+  },
+  {
+    "phrase": "sunny",
+    "pos": "adjective",
+    "sense": "with-bright-sun",
+    "pronunciation": "/ˈsʌni/",
+    "definition": "with bright light from the sun and few clouds.",
+    "categories": [
+      "weather"
+    ],
+    "level": "a1",
+    "image": "voc_fa1c5e3a",
+    "image_brief": "a bright sidewalk cafe with one person reading at a small table, wide shot from across the street, glasses, a folded paper and a bicycle by the rail, easy mid-morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "It is a **sunny** day, so let's walk."
+  },
+  {
+    "phrase": "windy",
+    "pos": "adjective",
+    "sense": "with-strong-wind",
+    "pronunciation": "/ˈwɪndi/",
+    "definition": "with a lot of wind blowing.",
+    "categories": [
+      "weather"
+    ],
+    "level": "a1",
+    "image": "voc_bf850c97",
+    "image_brief": "a kite pulling hard on its string above a hill, a child leaning back to hold it, from the side at wide distance, bent grass, a dropped hat and a coat flapping, excited blustery mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "It is too **windy** to fly the kite."
+  },
+  {
+    "phrase": "rainy",
+    "pos": "adjective",
+    "sense": "with-a-lot-of-rain",
+    "pronunciation": "/ˈreɪni/",
+    "definition": "with a lot of rain falling.",
+    "categories": [
+      "weather"
+    ],
+    "level": "a1",
+    "image": "voc_3d44ca75",
+    "image_brief": "a rain-soaked bus stop with one person under the shelter, seen from across the street at medium distance, dripping awnings, splashing cars and a newspaper stand, gray patient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We stayed inside on **rainy** days."
+  },
+  {
+    "phrase": "snowy",
+    "pos": "adjective",
+    "sense": "with-a-lot-of-snow",
+    "pronunciation": "/ˈsnoʊi/",
+    "definition": "with a lot of snow on the ground or falling.",
+    "categories": [
+      "weather"
+    ],
+    "level": "a1",
+    "image": "voc_635b25e6",
+    "image_brief": "a snow-covered road curving between dark trees, one car moving slowly with its headlights on, from above at wide distance, tire tracks, a snow pole and a fence, hushed cautious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **snowy** road was hard to drive on."
+  },
+  {
+    "phrase": "foggy",
+    "pos": "adjective",
+    "sense": "with-thick-fog",
+    "pronunciation": "/ˈfɑɡi/",
+    "definition": "with thick fog that makes it hard to see far.",
+    "categories": [
+      "weather"
+    ],
+    "level": "a1",
+    "image": "voc_406a611e",
+    "image_brief": "a bridge vanishing into fog with one cyclist coming through the haze, wide shot from the side, railings, a lamp smeared by mist and a van behind, dim cautious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "It was **foggy** on the bridge this morning."
+  },
+  {
+    "phrase": "stormy",
+    "pos": "adjective",
+    "sense": "with-storms",
+    "pronunciation": "/ˈstɔrmi/",
+    "definition": "with strong wind, heavy rain and sometimes thunder.",
+    "categories": [
+      "weather"
+    ],
+    "level": "a1",
+    "image": "voc_efc49093",
+    "image_brief": "gray waves breaking against a stone harbor wall, a fisherman checking a rope while boats pull at their moorings, from the pier at wide distance, nets, a crate and gulls overhead, rough restless mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **stormy** sea kept the boats in the harbor."
+  },
+  {
+    "phrase": "humid",
+    "pos": "adjective",
+    "sense": "with-warm-wet-air",
+    "pronunciation": "/ˈhjuːmɪd/",
+    "definition": "with air that feels warm and wet.",
+    "categories": [
+      "weather",
+      "health"
+    ],
+    "level": "a1",
+    "image": "voc_cc336e35",
+    "image_brief": "a small fan turning in a shuttered room with one man fanning himself at a desk, from across the room at medium distance, papers, a sweating glass and a shirt over a chair, heavy sticky mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The afternoon was hot and **humid**."
+  },
+  {
+    "phrase": "mild",
+    "pos": "adjective",
+    "sense": "not-too-hot-or-cold",
+    "pronunciation": "/maɪld/",
+    "definition": "not too hot and not too cold.",
+    "categories": [
+      "weather"
+    ],
+    "level": "a1",
+    "image": "voc_2ccc7da9",
+    "image_brief": "a park bench in soft weather with one woman unbuttoning her coat, wide shot from the path, half-bare trees, a pram and a dog bowl, gentle easy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We had a **mild** winter this year."
+  },
+  {
+    "phrase": "freezing",
+    "pos": "adjective",
+    "sense": "extremely-cold",
+    "pronunciation": "/ˈfriːzɪŋ/",
+    "definition": "extremely cold.",
+    "categories": [
+      "weather"
+    ],
+    "level": "a1",
+    "image": "voc_58ddbfa0",
+    "image_brief": "a train platform in hard frost with one commuter stamping their feet, from the far end at wide distance, a fogged timetable, a coffee cup and a waiting train, biting early-morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "It was **freezing** on the platform this morning."
+  },
+  {
+    "phrase": "freeze",
+    "pos": "verb",
+    "sense": "turn-into-ice",
+    "pronunciation": "/friːz/",
+    "definition": "to become hard and turn into ice because of very cold weather.",
+    "categories": [
+      "weather",
+      "nature"
+    ],
+    "level": "a1",
+    "present_example": "The pond **freezes** every January.",
+    "past_simple_example": "The puddles **froze** overnight.",
+    "past_participle_example": "The lake has **frozen** solid this week.",
+    "present_participle_example": "The ground is **freezing** hard now.",
+    "image": "voc_caae2005",
+    "image_brief": "ice forming across a garden pond with a thin skin reaching the reeds, one person crouching to test it with a stick, from the side at medium distance, a stone edge, bare shrubs and a fence, cold quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Water can **freeze** in the pipes at night."
+  },
+  {
+    "phrase": "melt",
+    "pos": "verb",
+    "sense": "become-liquid-when-warm",
+    "pronunciation": "/mɛlt/",
+    "definition": "to become liquid because it gets warm.",
+    "categories": [
+      "weather",
+      "nature",
+      "food"
+    ],
+    "level": "a1",
+    "present_example": "The ice **melts** quickly in the sun.",
+    "past_simple_example": "The snow **melted** before noon.",
+    "past_participle_example": "The butter has **melted** in the pan.",
+    "present_participle_example": "The chocolate is **melting** on the counter.",
+    "image": "voc_2ba47aa3",
+    "image_brief": "the last snow sliding off a tiled roof into a gutter, one man stepping back from the falling drips, from below at medium distance, wet steps, a bucket and a broom, early thaw mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The snow will **melt** by the afternoon."
+  },
+  {
+    "phrase": "blow",
+    "pos": "verb",
+    "sense": "wind-moves-air",
+    "pronunciation": "/bloʊ/",
+    "definition": "when the wind moves air, or moves something along with it.",
+    "categories": [
+      "weather",
+      "nature"
+    ],
+    "level": "a1",
+    "present_example": "The wind **blows** in from the sea.",
+    "past_simple_example": "A strong wind **blew** all night.",
+    "past_participle_example": "The leaves have **blown** into the yard.",
+    "present_participle_example": "The wind is **blowing** hard today.",
+    "image": "voc_89f3d513",
+    "image_brief": "sheets on a washing line snapping sideways in the wind, a woman holding a basket and turning her face away, from the side at medium distance, pegs, a tipped bucket and bent grass, bright gusty mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The wind can **blow** the door shut."
+  },
+  {
+    "phrase": "shine",
+    "pos": "verb",
+    "sense": "sun-gives-light",
+    "pronunciation": "/ʃaɪn/",
+    "definition": "to give bright light, as the sun does.",
+    "categories": [
+      "weather",
+      "nature"
+    ],
+    "level": "a1",
+    "present_example": "The sun **shines** on the roof all morning.",
+    "past_simple_example": "The sun **shone** through the clouds.",
+    "past_participle_example": "The sun has **shone** all day.",
+    "present_participle_example": "The sun is **shining** on the water.",
+    "image": "voc_196b396d",
+    "image_brief": "sunlight glaring off a wet road after rain, one driver lowering their sun visor, from the side at medium distance through the windshield, a puddle, a parked bus and drips from a roof, bright dazzling mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The sun will **shine** after lunch."
+  },
+  {
+    "phrase": "drizzle",
+    "pos": "verb",
+    "sense": "light-rain-falling",
+    "pronunciation": "/ˈdrɪzəl/",
+    "definition": "to rain lightly in very small drops.",
+    "categories": [
+      "weather",
+      "nature"
+    ],
+    "level": "a1",
+    "present_example": "It **drizzles** here most of April.",
+    "past_simple_example": "It **drizzled** all through the game.",
+    "past_participle_example": "It has **drizzled** since we arrived.",
+    "present_participle_example": "It is **drizzling** on the field now.",
+    "image": "voc_000ce2ab",
+    "image_brief": "fine rain falling on a school field with a match still going, one player wiping their face, from the touchline at wide distance, bags, a water bottle and a muddy goal, damp stubborn mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "It may **drizzle** this afternoon, so take a coat."
+  },
+  {
+    "phrase": "hail",
+    "pos": "verb",
+    "sense": "ice-falling-from-sky",
+    "pronunciation": "/heɪl/",
+    "definition": "when small balls of ice fall from the sky like rain.",
+    "categories": [
+      "weather",
+      "nature"
+    ],
+    "level": "a1",
+    "present_example": "It **hails** here in late spring.",
+    "past_simple_example": "It **hailed** for ten minutes this morning.",
+    "past_participle_example": "It has **hailed** twice this week.",
+    "present_participle_example": "It is **hailing** on the road now.",
+    "image": "voc_dc87098e",
+    "image_brief": "small ice stones bouncing off a car roof and a garden table, one man running for the porch with a jacket over his head, from the yard at medium distance, scattered leaves, an overturned chair and a wet dog, sudden chaotic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "It can **hail** even in warm weather."
+  },
+  {
+    "phrase": "lion",
+    "pos": "noun",
+    "sense": "large-wild-cat-with-mane",
+    "pronunciation": "/ˈlaɪən/",
+    "definition": "a large wild cat from Africa that lives in groups and has a very loud roar.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_cfada66e",
+    "image_brief": "a lion lying in dry grass at the edge of a waterhole, a second one walking past behind, seen from across the water at wide distance, flat-topped trees, a broken branch and hoof prints in the mud, slow hot afternoon mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We heard a **lion** roar in the night."
+  },
+  {
+    "phrase": "tiger",
+    "pos": "noun",
+    "sense": "striped-wild-cat",
+    "pronunciation": "/ˈtaɪɡɚ/",
+    "definition": "a large wild cat with orange fur and dark stripes.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_7d4b157e",
+    "image_brief": "a striped cat moving along a muddy forest track, a park guard watching from a jeep at the far edge, from behind at wide distance, thick bamboo, wet leaves and a fallen log, tense quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **tiger** slept in the shade of a tree."
+  },
+  {
+    "phrase": "elephant",
+    "pos": "noun",
+    "sense": "huge-animal-with-trunk",
+    "pronunciation": "/ˈɛləfənt/",
+    "definition": "a very large gray animal with a long nose and big ears.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_00883e4c",
+    "image_brief": "an elephant drinking from a wide river, a smaller one beside it, seen from the far bank at wide distance, cracked mud, dry reeds and birds on the sand, heavy slow evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "An **elephant** drank from the river."
+  },
+  {
+    "phrase": "giraffe",
+    "pos": "noun",
+    "sense": "tall-animal-with-long-neck",
+    "pronunciation": "/dʒəˈræf/",
+    "definition": "a tall African animal with a very long neck and long legs.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_268b29ac",
+    "image_brief": "two tall animals reaching into the top branches of an acacia tree, seen from the ground at low angle and medium distance, dry grass, a parked safari truck and scattered leaves below, bright open mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **giraffe** reached the top leaves easily."
+  },
+  {
+    "phrase": "monkey",
+    "pos": "noun",
+    "sense": "small-tree-climbing-animal",
+    "pronunciation": "/ˈmʌŋki/",
+    "definition": "a small animal with a long tail that climbs trees and lives in warm places.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_742763d3",
+    "image_brief": "a small animal hanging by one arm from a branch above a forest path, a hiker looking up from below, from behind at medium distance, roots across the trail, a dropped water bottle and thick green leaves, playful alert mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **monkey** took the banana from her hand."
+  },
+  {
+    "phrase": "bear",
+    "pos": "noun",
+    "sense": "large-forest-animal",
+    "pronunciation": "/bɛr/",
+    "definition": "a large heavy wild animal with thick fur that lives in forests.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_88f6ce53",
+    "image_brief": "a heavy brown animal turning over a fallen log at the edge of a campsite, one camper standing still by a tent, from across the clearing at wide distance, a cooler, a hanging food bag and pine needles, hushed wary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **bear** crossed the road near the camp."
+  },
+  {
+    "phrase": "wolf",
+    "pos": "noun",
+    "sense": "wild-animal-like-a-dog",
+    "pronunciation": "/wʊlf/",
+    "definition": "a wild animal that looks like a large dog and lives and hunts in groups.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_5d28bba9",
+    "image_brief": "a gray animal standing at the treeline in fresh snow, two more shapes further back in the trees, seen from a field at wide distance, a fence, a frozen ditch and bare branches, cold watchful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We saw a **wolf** at the edge of the forest."
+  },
+  {
+    "phrase": "fox",
+    "pos": "noun",
+    "sense": "wild-animal-with-bushy-tail",
+    "pronunciation": "/fɑks/",
+    "definition": "a wild animal with red-brown fur and a long bushy tail.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_2a32e2a2",
+    "image_brief": "a red-brown animal crossing a lawn at the edge of a garden, a cat watching from a windowsill, from the patio at medium distance, a tipped bin, scattered scraps and a low hedge, quiet evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **fox** ran across the field at dusk."
+  },
+  {
+    "phrase": "deer",
+    "pos": "noun",
+    "sense": "wild-animal-with-thin-legs",
+    "pronunciation": "/dɪr/",
+    "definition": "a wild animal with long thin legs that eats grass and moves quickly.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_0903511a",
+    "image_brief": "a brown animal standing still in a misty meadow with its head up, seen from a gate at wide distance, wet grass, a fence line and a far farmhouse, still early-morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **deer** stood still by the fence."
+  },
+  {
+    "phrase": "rabbit",
+    "pos": "noun",
+    "sense": "small-animal-with-long-ears",
+    "pronunciation": "/ˈræbɪt/",
+    "definition": "a small animal with long ears that digs holes and eats plants.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_df606930",
+    "image_brief": "a small brown animal sitting at the mouth of a burrow in a vegetable patch, one gardener standing back with a basket, from the side at medium distance, half-eaten lettuce, a watering can and a low wire fence, ordinary morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **rabbit** disappeared into a hole."
+  },
+  {
+    "phrase": "mouse",
+    "pos": "noun",
+    "sense": "tiny-animal-with-long-tail",
+    "pronunciation": "/maʊs/",
+    "definition": "a very small animal with a long tail that lives in houses or fields.",
+    "categories": [
+      "animals",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_eb0cecd2",
+    "image_brief": "a tiny gray animal slipping along a kitchen wall toward a gap under the cabinet, one person standing on a chair watching, from across the room at medium distance, a broom, an open bread bag and crumbs on the floor, startled indoor mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **mouse** ran under the table."
+  },
+  {
+    "phrase": "horse",
+    "pos": "noun",
+    "sense": "large-riding-animal",
+    "pronunciation": "/hɔrs/",
+    "definition": "a large strong animal that people ride and use for work in fields.",
+    "categories": [
+      "animals",
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_36bb0acd",
+    "image_brief": "a rider leading a brown animal out of a stable into a muddy yard, seen from the side at medium distance, a saddle on the rail, hay bales and a bucket on the ground, calm morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She rides a **horse** every weekend."
+  },
+  {
+    "phrase": "cow",
+    "pos": "noun",
+    "sense": "farm-animal-for-milk",
+    "pronunciation": "/kaʊ/",
+    "definition": "a large farm animal with horns that is kept for its milk.",
+    "categories": [
+      "animals",
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_70fa0372",
+    "image_brief": "a black and white animal standing in a milking shed while one farm worker attaches a machine, from the side at medium distance, a feed trough, rubber boots and a hose on the floor, steady early-morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **cow** stood by the gate waiting."
+  },
+  {
+    "phrase": "pig",
+    "pos": "noun",
+    "sense": "farm-animal-with-wide-nose",
+    "pronunciation": "/pɪɡ/",
+    "definition": "a farm animal with a wide flat nose and short legs that is kept for its meat.",
+    "categories": [
+      "animals",
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_a86e8e67",
+    "image_brief": "a pink animal lying in straw inside a low shed with others behind it, one farmer filling a trough in the corner, from the doorway at medium distance, a bucket, muddy boots and a torn sack, warm farmyard mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **pig** slept in the straw."
+  },
+  {
+    "phrase": "sheep",
+    "pos": "noun",
+    "sense": "farm-animal-with-wool",
+    "pronunciation": "/ʃiːp/",
+    "definition": "a farm animal with thick wool that is kept for its wool and meat.",
+    "categories": [
+      "animals",
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_ecea7f08",
+    "image_brief": "a woolly white animal grazing on a hillside with a few more behind it, one shepherd walking the fence line, from above at wide distance, stone walls, a wool sack and a dog working the flock, wide open mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **sheep** walked slowly up the hill."
+  },
+  {
+    "phrase": "goat",
+    "pos": "noun",
+    "sense": "horned-climbing-farm-animal",
+    "pronunciation": "/ɡoʊt/",
+    "definition": "a farm animal with horns that climbs well and eats almost any plant.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_708b8385",
+    "image_brief": "a horned animal standing on top of a low stone wall eating leaves from a hedge, one person shooing it down, from the side at medium distance, a bent gate, a bucket and a chewed garden chair, comic stubborn mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **goat** climbed onto the low wall."
+  },
+  {
+    "phrase": "duck",
+    "pos": "noun",
+    "sense": "water-bird-with-flat-beak",
+    "pronunciation": "/dʌk/",
+    "definition": "a water bird with a wide flat beak that swims and makes a loud quacking sound.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_d70f1c69",
+    "image_brief": "a brown water bird paddling across a park pond with smaller ones behind, one person throwing bread from the bank, from across the water at wide distance, reeds, a bench and a floating plastic bag, easy weekend mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **duck** swam across the pond."
+  },
+  {
+    "phrase": "goose",
+    "pos": "noun",
+    "sense": "large-long-necked-water-bird",
+    "pronunciation": "/ɡuːs/",
+    "definition": "a large water bird with a long neck, bigger than a duck.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_5ab37c79",
+    "image_brief": "a large gray bird with its neck stretched out hissing at a dog on a riverbank, the dog backing away, from the side at medium distance, a picnic blanket, a paper plate and wet stones, sharp defensive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **goose** hissed at the dog."
+  },
+  {
+    "phrase": "owl",
+    "pos": "noun",
+    "sense": "night-bird-with-big-eyes",
+    "pronunciation": "/aʊl/",
+    "definition": "a bird with large round eyes that hunts at night and makes a soft calling sound.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_3f12ba96",
+    "image_brief": "a round bird sitting on a fence post at the edge of a dark field, one walker with a torch looking up from the path, from behind at medium distance, a barn, long grass and a leaning gate, still night mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "An **owl** sat in the tree and called."
+  },
+  {
+    "phrase": "eagle",
+    "pos": "noun",
+    "sense": "large-hunting-bird",
+    "pronunciation": "/ˈiːɡəl/",
+    "definition": "a large strong bird with wide wings that hunts and builds its nest high up.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_61668f71",
+    "image_brief": "a big bird circling above a rocky ridge with a high nest on a ledge, one hiker on the trail below looking up, from a distance at wide angle, loose stones, a water bottle and a wooden signpost, grand open mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "An **eagle** circled above the valley."
+  },
+  {
+    "phrase": "parrot",
+    "pos": "noun",
+    "sense": "colorful-talking-bird",
+    "pronunciation": "/ˈpærət/",
+    "definition": "a colorful bird with a curved beak that can copy human words.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_6bd84223",
+    "image_brief": "a bright green bird on a wooden perch in a corner of a living room repeating a word, one woman turning toward it from the sofa, from across the room at medium distance, a seed bowl, a newspaper and a TV remote, amused indoor mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **parrot** copied my voice."
+  },
+  {
+    "phrase": "penguin",
+    "pos": "noun",
+    "sense": "black-and-white-sea-bird",
+    "pronunciation": "/ˈpɛŋɡwɪn/",
+    "definition": "a black and white sea bird that swims well but cannot fly.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_7f25f086",
+    "image_brief": "several black and white birds standing at the edge of an ice shelf, one slipping into the water, seen from a boat at wide distance, cracked ice, gray sea and a low sky, remote cold mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **penguin** slid into the water."
+  },
+  {
+    "phrase": "shark",
+    "pos": "noun",
+    "sense": "large-sea-fish-with-teeth",
+    "pronunciation": "/ʃɑrk/",
+    "definition": "a large sea fish with sharp teeth that hunts other fish.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_785fb5ec",
+    "image_brief": "a dark fin cutting through calm water near a small fishing boat, one fisherman standing up with a line, from the boat at medium distance, a bucket, coiled rope and gulls on the water, tense bright mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We saw a **shark** near the boat."
+  },
+  {
+    "phrase": "whale",
+    "pos": "noun",
+    "sense": "huge-air-breathing-sea-animal",
+    "pronunciation": "/weɪl/",
+    "definition": "a very large sea animal that breathes air through a hole on its back.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_436085b0",
+    "image_brief": "a huge dark back breaking the surface with a spray of water, a whale-watching boat small in the distance, from the side at wide distance, gulls, white water and a rail of wet passengers' bags, awe-struck ocean mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **whale** came up for air."
+  },
+  {
+    "phrase": "dolphin",
+    "pos": "noun",
+    "sense": "smart-jumping-sea-animal",
+    "pronunciation": "/ˈdɑlfɪn/",
+    "definition": "a smart sea animal that swims in groups and often jumps out of the water.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_08f730c8",
+    "image_brief": "two smooth gray animals leaping beside a small boat, one passenger reaching out over the rail, from the deck at wide distance, splashing water, a camera and folded towels, joyful fast mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **dolphin** jumped beside the boat."
+  },
+  {
+    "phrase": "octopus",
+    "pos": "noun",
+    "sense": "eight-armed-sea-animal",
+    "pronunciation": "/ˈɑktəpəs/",
+    "definition": "a sea animal with eight long arms and a soft body.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_6f1024bc",
+    "image_brief": "a soft-bodied sea animal sliding its arms over rocks in a shallow tide pool, one child kneeling at the edge, from low angle at medium distance, seaweed, a shell and a tipped bucket, curious careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **octopus** hid between the rocks."
+  },
+  {
+    "phrase": "crab",
+    "pos": "noun",
+    "sense": "shelled-sea-animal-with-claws",
+    "pronunciation": "/kræb/",
+    "definition": "a sea animal with a hard shell and two large front claws.",
+    "categories": [
+      "animals",
+      "nature",
+      "food"
+    ],
+    "level": "a2",
+    "image": "voc_014cc31c",
+    "image_brief": "a small red shelled animal moving sideways across wet sand, one person crouching with a net nearby, from a low angle at medium distance, shells, seaweed and a plastic bucket, sunny beach mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **crab** moved sideways across the sand."
+  },
+  {
+    "phrase": "turtle",
+    "pos": "noun",
+    "sense": "slow-animal-with-shell",
+    "pronunciation": "/ˈtɝtəl/",
+    "definition": "a slow animal with a hard shell that lives on land or in water.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_a899538d",
+    "image_brief": "a shelled animal crossing a narrow road between grass verges, one driver standing by an open car door and waving traffic past, from the roadside at medium distance, skid marks, a road sign and ferns, patient careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **turtle** crossed the road slowly."
+  },
+  {
+    "phrase": "frog",
+    "pos": "noun",
+    "sense": "jumping-water-animal",
+    "pronunciation": "/frɑɡ/",
+    "definition": "a small jumping animal that lives near water and makes a loud sound at night.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_723285da",
+    "image_brief": "a green animal crouched on a lily pad at the edge of a pond, one person on the bank with a torch, from a low angle at medium distance, reeds, a fallen branch and ripples in the dark water, quiet night mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **frog** jumped into the pond."
+  },
+  {
+    "phrase": "snake",
+    "pos": "noun",
+    "sense": "long-legless-animal",
+    "pronunciation": "/sneɪk/",
+    "definition": "a long thin animal with no legs that moves along the ground.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_d51ff7d1",
+    "image_brief": "a long striped animal sliding through dry grass beside a garden path, one gardener standing back with a rake, from the side at medium distance, a pile of cut branches, a glove and a tipped flowerpot, wary afternoon mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **snake** moved through the grass."
+  },
+  {
+    "phrase": "spider",
+    "pos": "noun",
+    "sense": "eight-legged-web-maker",
+    "pronunciation": "/ˈspaɪdɚ/",
+    "definition": "a small animal with eight legs that makes webs to catch insects.",
+    "categories": [
+      "animals",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_b4a13ace",
+    "image_brief": "a web strung between a window frame and a watering can on a balcony, one small dark animal at its center, seen from inside the room at medium distance, potted herbs, a folded chair and dust in the light, still morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **spider** made a web in the corner."
+  },
+  {
+    "phrase": "ant",
+    "pos": "noun",
+    "sense": "tiny-group-insect",
+    "pronunciation": "/ænt/",
+    "definition": "a very small insect that lives in large groups and works together.",
+    "categories": [
+      "animals",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_73242008",
+    "image_brief": "a line of tiny insects carrying crumbs across a kitchen floor toward a gap in the tiles, one person kneeling with a cloth, from a low angle at medium distance, a dropped biscuit, a chair leg and a broom, small domestic invasion mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "An **ant** carried a crumb across the floor."
+  },
+  {
+    "phrase": "mosquito",
+    "pos": "noun",
+    "sense": "biting-flying-insect",
+    "pronunciation": "/məˈskiːtoʊ/",
+    "definition": "a small flying insect that bites people and drinks their blood.",
+    "categories": [
+      "animals",
+      "health"
+    ],
+    "level": "a2",
+    "image": "voc_e1f0f512",
+    "image_brief": "a thin flying insect landing on a bare arm at a garden table, one person raising a hand to swat it, from across the table at medium distance, a cold drink, a citronella candle and plates, irritated summer evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **mosquito** bit me on the arm."
+  },
+  {
+    "phrase": "worm",
+    "pos": "noun",
+    "sense": "soft-legless-soil-animal",
+    "pronunciation": "/wɝm/",
+    "definition": "a long thin soft animal with no legs that lives in soil.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_7c9b20e1",
+    "image_brief": "a wet pink animal curling on dark soil beside a garden trowel, one gardener holding a handful of earth, from above at medium distance, seed packets, a flowerpot and a watering can, damp spring mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **worm** came up after the rain."
+  },
+  {
+    "phrase": "snail",
+    "pos": "noun",
+    "sense": "slow-shelled-animal",
+    "pronunciation": "/sneɪl/",
+    "definition": "a very slow small animal with a shell on its back.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_8e73fc4d",
+    "image_brief": "a small shelled animal climbing a wet stone wall above a row of lettuce, one gardener pointing it out, from the side at medium distance, a watering can, a trowel and a slug trail on the path, damp morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **snail** climbed the wet wall."
+  },
+  {
+    "phrase": "squirrel",
+    "pos": "noun",
+    "sense": "bushy-tailed-tree-animal",
+    "pronunciation": "/ˈskwɝəl/",
+    "definition": "a small animal with a long bushy tail that climbs trees and hides nuts.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_24867efe",
+    "image_brief": "a small tailed animal digging at the base of a tree in a park, one person on a bench watching with a sandwich, from across the path at medium distance, dropped leaves, a paper bag and a bicycle, easy autumn mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **squirrel** buried a nut under the tree."
+  },
+  {
+    "phrase": "kangaroo",
+    "pos": "noun",
+    "sense": "jumping-pouch-animal",
+    "pronunciation": "/ˌkæŋɡəˈruː/",
+    "definition": "a large Australian animal that jumps on strong back legs and carries its baby in a pouch.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_df128cdb",
+    "image_brief": "a tall animal standing upright in dry grass with a small head poking from its pouch, a second one further off, seen from a dirt track at wide distance, a fence, a water tank and scattered gum leaves, dry warm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **kangaroo** jumped across the field."
+  },
+  {
+    "phrase": "camel",
+    "pos": "noun",
+    "sense": "desert-animal-with-humps",
+    "pronunciation": "/ˈkæməl/",
+    "definition": "a large desert animal with one or two humps on its back.",
+    "categories": [
+      "animals",
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_13593291",
+    "image_brief": "a tall animal kneeling in sand beside a loaded pack while a guide tightens a strap, from the side at medium distance, dunes, a rolled blanket and a water skin on the ground, slow hot travel mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **camel** carried water across the desert."
+  },
+  {
+    "phrase": "zebra",
+    "pos": "noun",
+    "sense": "striped-horse-like-animal",
+    "pronunciation": "/ˈziːbrə/",
+    "definition": "an African animal that looks like a horse with black and white stripes.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_c211dcb3",
+    "image_brief": "a striped animal standing with a group at a dusty waterhole, one more drinking at the edge, from across the pan at wide distance, dry grass, a broken fence and birds on the mud, bright hazy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **zebra** stood with the other animals at the water."
+  },
+  {
+    "phrase": "crocodile",
+    "pos": "noun",
+    "sense": "river-animal-with-teeth",
+    "pronunciation": "/ˈkrɑkədaɪl/",
+    "definition": "a large river animal with a long tail, hard skin and many sharp teeth.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_313d9cdc",
+    "image_brief": "a long dark animal half in shallow river water with only its head and back showing, one person standing well back on the bank, from the side at medium distance, muddy tracks, a warning post and reeds, cautious hot mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **crocodile** waited in the shallow water."
+  },
+  {
+    "phrase": "tame",
+    "pos": "adjective",
+    "sense": "not-wild",
+    "pronunciation": "/teɪm/",
+    "definition": "not wild and not afraid of people.",
+    "categories": [
+      "animals",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_60c4418b",
+    "image_brief": "a calm rabbit eating from an open hand in a back garden, one person kneeling low, from the side at medium distance, a hutch door left open, a bowl of greens and a dropped glove, gentle trustful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The rabbit is **tame** and eats from my hand."
+  },
+  {
+    "phrase": "furry",
+    "pos": "adjective",
+    "sense": "covered-with-soft-hair",
+    "pronunciation": "/ˈfɝi/",
+    "definition": "covered with soft thick hair.",
+    "categories": [
+      "animals",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_fbfec954",
+    "image_brief": "a small thick-coated puppy asleep in a wicker basket, one person sitting on the floor nearby, from above at medium distance, a chewed toy, a water bowl and a blanket on the rug, cozy evening mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **furry** puppy slept in the basket."
+  },
+  {
+    "phrase": "rare",
+    "pos": "adjective",
+    "sense": "only-a-few-exist",
+    "pronunciation": "/rɛr/",
+    "definition": "not common and existing in very small numbers.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "image": "voc_8ed1feaa",
+    "image_brief": "a small brown bird perched on a branch above a nature reserve path, one visitor with binoculars standing far back, from behind at wide distance, a rope barrier, a notebook and a mossy signpost, hushed hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "This **rare** bird lives only on one island."
+  },
+  {
+    "phrase": "cute",
+    "pos": "adjective",
+    "sense": "small-and-nice-looking",
+    "pronunciation": "/kjuːt/",
+    "definition": "small and pretty in a way that people find pleasant.",
+    "categories": [
+      "animals",
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_c6daee14",
+    "image_brief": "a baby goat standing beside a feeding bottle on a farm bench, one child crouching to look at it, from the side at medium distance, straw, a bucket and a worn blanket, warm delighted mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The baby goat is very **cute**."
+  },
+  {
+    "phrase": "bite",
+    "pos": "verb",
+    "sense": "use-teeth-to-cut",
+    "pronunciation": "/baɪt/",
+    "definition": "to use your teeth to cut into or hold something.",
+    "categories": [
+      "health",
+      "animals"
+    ],
+    "level": "a2",
+    "present_example": "That dog **bites** when it is afraid.",
+    "past_simple_example": "The puppy **bit** my shoe.",
+    "past_participle_example": "The child has **bitten** into the apple.",
+    "present_participle_example": "The fish are **biting** today.",
+    "image": "voc_ec02a387",
+    "image_brief": "a small dog pulling hard on a toy held by a person's hand, seen from the side at medium distance in a living room, a chewed slipper, a water bowl and a cushion on the floor, playful rough mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Some dogs **bite** when they are afraid."
+  },
+  {
+    "phrase": "bark",
+    "pos": "verb",
+    "sense": "dog-makes-a-sound",
+    "pronunciation": "/bɑrk/",
+    "definition": "to make a short loud sound, as a dog does.",
+    "categories": [
+      "animals",
+      "home"
+    ],
+    "level": "a2",
+    "present_example": "The neighbor's dog **barks** at every car.",
+    "past_simple_example": "The dog **barked** all night.",
+    "past_participle_example": "That dog has **barked** since noon.",
+    "present_participle_example": "The puppy is **barking** at the cat.",
+    "image": "voc_89c74765",
+    "image_brief": "a dog standing at a front window with its mouth open at a passing delivery van, one person in the hallway turning toward it, from behind at medium distance, a coat rack, parcels by the door and a lead on a hook, noisy domestic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Dogs often **bark** at strangers."
+  },
+  {
+    "phrase": "sting",
+    "pos": "verb",
+    "sense": "hurt-with-a-sharp-point",
+    "pronunciation": "/stɪŋ/",
+    "definition": "to hurt someone with a sharp point on your body.",
+    "categories": [
+      "health",
+      "animals"
+    ],
+    "level": "a2",
+    "present_example": "A bee **stings** when it is afraid.",
+    "past_simple_example": "A wasp **stung** my hand yesterday.",
+    "past_participle_example": "I have been **stung** by a bee before.",
+    "present_participle_example": "The jellyfish is **stinging** my leg.",
+    "image": "voc_aa4e19cc",
+    "image_brief": "a striped insect on a bare forearm at a garden table, one person pulling their arm back, from across the table at medium distance, a jar of jam, a plate and a folded napkin, sudden sharp mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Bees **sting** when they feel danger."
+  },
+  {
+    "phrase": "hunt",
+    "pos": "verb",
+    "sense": "chase-animals-for-food",
+    "pronunciation": "/hʌnt/",
+    "definition": "to chase and catch animals for food.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "present_example": "Foxes **hunt** at night.",
+    "past_simple_example": "The cat **hunted** mice in the barn.",
+    "past_participle_example": "The owl has **hunted** here for years.",
+    "present_participle_example": "A hawk is **hunting** over the field.",
+    "image": "voc_49cbd2e9",
+    "image_brief": "a fox standing low in long grass watching a rabbit far off, seen from behind at wide distance in a field at dusk, a stone wall, a gate and bare hedges, patient tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Owls **hunt** at night."
+  },
+  {
+    "phrase": "feed",
+    "pos": "verb",
+    "sense": "give-food-to-someone",
+    "pronunciation": "/fiːd/",
+    "definition": "to give food to a person or an animal.",
+    "categories": [
+      "animals",
+      "food"
+    ],
+    "level": "a2",
+    "present_example": "We **feed** the ducks at the pond.",
+    "past_simple_example": "She **fed** the horses before school.",
+    "past_participle_example": "Have you **fed** the fish today?",
+    "present_participle_example": "He is **feeding** the chickens.",
+    "image": "voc_232aee47",
+    "image_brief": "a person scattering grain from a bucket while chickens crowd around their boots, seen from the side at medium distance in a farmyard, a feed sack, a water trough and a rake against the wall, ordinary morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We **feed** the ducks at the pond."
+  },
+  {
+    "phrase": "hatch",
+    "pos": "verb",
+    "sense": "break-out-of-an-egg",
+    "pronunciation": "/hætʃ/",
+    "definition": "to break out of an egg.",
+    "categories": [
+      "animals",
+      "nature"
+    ],
+    "level": "a2",
+    "present_example": "The eggs **hatch** in about three weeks.",
+    "past_simple_example": "The chicks **hatched** this morning.",
+    "past_participle_example": "The eggs have **hatched** already.",
+    "present_participle_example": "One chick is **hatching** right now.",
+    "image": "voc_02128ab5",
+    "image_brief": "a small wet bird pushing out of a cracked egg in a straw nest, one person watching through a lamp-lit window, from above at medium distance, an incubator tray, a notebook and a timer on the shelf, quiet expectant mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The eggs need warmth to **hatch**."
   }
 ]
