@@ -3999,3 +3999,203 @@ vocabulary,spill,let-liquid-fall,verb,b1,kitchen,let liquid fall
 vocabulary,spoil,damage-or-ruin,verb,b1,food,damage or ruin
 vocabulary,spread,cover-a-larger-area,verb,b1,communication,cover a larger area
 vocabulary,stare,look-with-wide-eyes,verb,b1,emotions,look for a long time
+vocabulary,notion,idea-or-belief,noun,b1,communication,idea or belief
+vocabulary,obligation,something-you-must-do,noun,b1,work,something you must do
+vocabulary,occasion,special-time-or-event,noun,b1,relationships,special time or event
+vocabulary,opportunity,chance-to-do-something,noun,b1,work,chance to do something
+vocabulary,option,a-choice,noun,b1,work,a choice
+vocabulary,output,amount-produced,noun,b1,work,amount produced
+vocabulary,panel,group-of-experts,noun,b1,work,group of experts
+vocabulary,passage,short-part-of-a-text,noun,b1,education,short part of a text
+vocabulary,percentage,part-of-a-hundred,noun,b1,money,part of a hundred
+vocabulary,permission,right-to-do-something,noun,b1,communication,right to do something
+vocabulary,perspective,way-of-looking-at-something,noun,b1,communication,way of looking at it
+vocabulary,phase,stage-of-a-process,noun,b1,work,stage of a process
+vocabulary,philosophy,beliefs-about-life,noun,b1,emotions,beliefs about life
+vocabulary,phrase,group-of-words,noun,b1,communication,group of words
+vocabulary,position,place-or-rank,noun,b1,work,place or rank
+vocabulary,possibility,something-that-may-happen,noun,b1,time,something that may happen
+vocabulary,poverty,state-of-being-poor,noun,b1,money,state of being poor
+vocabulary,presence,being-in-a-place,noun,b1,relationships,being in a place
+vocabulary,pressure,force-or-strong-influence,noun,b1,work,force or strong influence
+vocabulary,priority,most-important-thing,noun,b1,work,most important thing
+vocabulary,procedure,usual-way-of-doing-something,noun,b1,work,usual way of doing it
+vocabulary,process,series-of-actions,noun,b1,work,series of actions
+vocabulary,production,making-of-goods,noun,b1,work,making of goods
+vocabulary,progress,movement-toward-a-goal,noun,b1,work,movement toward a goal
+vocabulary,proposal,plan-offered-for-decision,noun,b1,work,plan offered for a decision
+vocabulary,southern,in-the-south,adjective,b1,travel,from the south
+vocabulary,spiritual,relating-to-the-spirit,adjective,b1,relationships,relating to the spirit
+vocabulary,splendid,very-good-or-beautiful,adjective,b1,emotions,very good or beautiful
+vocabulary,stable,steady-and-not-changing,adjective,b1,health,steady and unchanging
+vocabulary,static,not-moving-or-changing,adjective,b1,work,not moving or changing
+vocabulary,statistical,relating-to-statistics,adjective,b1,education,relating to statistics
+vocabulary,steady,regular-and-not-changing,adjective,b1,sports,regular and even
+vocabulary,sticky,covered-with-something-that-sticks,adjective,b1,food,covered with stickiness
+vocabulary,strange,unusual,adjective,b1,emotions,unusual
+vocabulary,strategic,planned-for-a-long-term-aim,adjective,b1,work,planned for a long aim
+vocabulary,structural,relating-to-structure,adjective,b1,home,relating to structure
+vocabulary,subjective,based-on-opinion,adjective,b1,communication,based on opinion
+vocabulary,subsequent,happening-after,adjective,b1,time,happening after
+vocabulary,substantial,large-in-amount,adjective,b1,money,large in amount
+vocabulary,subtle,not-obvious,adjective,b1,emotions,not obvious
+vocabulary,steal,take-without-permission,verb,b1,city,take what is not yours
+vocabulary,step,move-one-foot-forward,verb,b1,daily-routine,move one foot forward
+vocabulary,strike,hit,verb,b1,sports,hit something
+vocabulary,succeed,achieve-what-you-wanted,verb,b1,work,achieve what you wanted
+vocabulary,suffer,experience-pain-or-trouble,verb,b1,health,experience pain or trouble
+vocabulary,suppose,think-something-is-true,verb,b1,communication,think it is true
+vocabulary,survive,stay-alive,verb,b1,health,stay alive
+vocabulary,tear,pull-paper-apart,verb,b1,home,pull paper apart
+vocabulary,tend,often-do-something,verb,b1,emotions,often do something
+vocabulary,threaten,say-you-will-harm,verb,b1,city,say you will harm
+vocabulary,prospect,future-possibility,noun,b1,work,future possibility
+vocabulary,protection,keeping-something-safe,noun,b1,health,keeping safe
+vocabulary,protest,public-show-of-disagreement,noun,b1,city,public disagreement
+vocabulary,provision,act-of-providing-something,noun,b1,work,providing something needed
+vocabulary,psychology,study-of-the-mind,noun,b1,education,study of the mind
+vocabulary,publication,book-or-act-of-publishing,noun,b1,communication,book or publishing
+vocabulary,purpose,reason-for-something,noun,b1,work,reason for something
+vocabulary,quantity,an-amount,noun,b1,shopping,an amount
+vocabulary,range,set-of-different-things,noun,b1,shopping,set of different things
+vocabulary,rate,speed-or-amount-over-time,noun,b1,money,amount over time
+vocabulary,reaction,response-to-something,noun,b1,emotions,response to something
+vocabulary,reality,what-is-really-true,noun,b1,emotions,what is really true
+vocabulary,reason,why-something-happens,noun,b1,communication,why it happens
+vocabulary,recognition,praise-for-good-work,noun,b1,work,praise for good work
+vocabulary,recommendation,advice-to-choose-something,noun,b1,communication,advice to choose
+vocabulary,reference,letter-about-a-worker,noun,b1,work,letter about a worker
+vocabulary,reform,change-to-improve-a-system,noun,b1,city,change to improve
+vocabulary,region,area-of-a-country,noun,b1,travel,area of a country
+vocabulary,regulation,official-rule,noun,b1,work,official rule
+vocabulary,relation,connection-between-things,noun,b1,communication,connection between things
+vocabulary,relationship,way-people-connect,noun,b1,relationships,way people connect
+vocabulary,religion,belief-in-a-god,noun,b1,relationships,belief in a god
+vocabulary,reputation,what-people-think-of-someone,noun,b1,work,what people think of you
+vocabulary,requirement,something-needed,noun,b1,work,something needed
+vocabulary,resident,person-who-lives-somewhere,noun,b1,city,person who lives there
+vocabulary,sufficient,enough,adjective,b1,money,enough for the need
+vocabulary,suitable,right-for-a-purpose,adjective,b1,clothes,right for the purpose
+vocabulary,superior,better-than-others,adjective,b1,shopping,better than others
+vocabulary,sure,certain,adjective,b1,emotions,certain
+vocabulary,surprising,unexpected,adjective,b1,emotions,unexpected
+vocabulary,swift,fast,adjective,b1,work,fast and quick
+vocabulary,symbolic,representing-something,adjective,b1,relationships,representing something
+vocabulary,systematic,done-in-an-organized-way,adjective,b1,work,organized and careful
+vocabulary,talented,having-natural-ability,adjective,b1,work,having natural ability
+vocabulary,technical,relating-to-machines-or-methods,adjective,b1,technology,relating to machines
+vocabulary,tender,soft-and-gentle,adjective,b1,food,soft and gentle
+vocabulary,tense,nervous-and-unable-to-relax,adjective,b1,emotions,nervous and stiff
+vocabulary,thorough,careful-and-complete,adjective,b1,work,careful and complete
+vocabulary,tiny,very-small,adjective,b1,animals,very small
+vocabulary,tolerant,accepting-differences,adjective,b1,relationships,accepting differences
+vocabulary,top,highest,adjective,b1,home,highest
+vocabulary,tough,difficult-or-strong,adjective,b1,work,difficult or strong
+vocabulary,toxic,poisonous,adjective,b1,health,poisonous
+vocabulary,traditional,following-old-customs,adjective,b1,food,following old customs
+vocabulary,tremendous,very-great,adjective,b1,emotions,very great
+vocabulary,tropical,from-hot-wet-places,adjective,b1,nature,from hot wet places
+vocabulary,typical,usual,adjective,b1,daily-routine,usual
+vocabulary,ugly,not-nice-to-look-at,adjective,b1,home,not nice to look at
+vocabulary,unable,not-able,adjective,b1,emotions,not able
+vocabulary,unacceptable,not-good-enough,adjective,b1,work,not good enough
+vocabulary,uncertain,not-sure,adjective,b1,emotions,not sure
+vocabulary,underground,below-the-ground,adjective,b1,transport,below the ground
+vocabulary,understanding,kind-and-forgiving,adjective,b1,emotions,kind and forgiving
+vocabulary,unemployed,without-a-job,adjective,b1,work,without a job
+vocabulary,unfair,not-fair,adjective,b1,emotions,not fair
+vocabulary,unhappy,sad,adjective,b1,emotions,sad
+vocabulary,unique,the-only-one-of-its-kind,adjective,b1,shopping,the only one of its kind
+vocabulary,united,joined-together,adjective,b1,relationships,joined together
+vocabulary,universal,true-for-everyone,adjective,b1,communication,true for everyone
+vocabulary,unlikely,not-probable,adjective,b1,time,not probable
+vocabulary,unusual,not-common,adjective,b1,emotions,not common
+vocabulary,upper,higher,adjective,b1,home,higher
+vocabulary,urgent,needing-quick-action,adjective,b1,work,needing quick action
+vocabulary,useful,helpful,adjective,b1,travel,helpful
+vocabulary,useless,not-helpful,adjective,b1,technology,not helpful
+vocabulary,usual,normal,adjective,b1,daily-routine,normal
+vocabulary,valid,officially-acceptable,adjective,b1,travel,officially acceptable
+vocabulary,valuable,worth-a-lot,adjective,b1,money,worth a lot
+vocabulary,variable,likely-to-change,adjective,b1,weather,likely to change
+vocabulary,various,several-different,adjective,b1,shopping,several different
+vocabulary,vast,extremely-large,adjective,b1,nature,extremely large
+vocabulary,verbal,spoken,adjective,b1,communication,spoken not written
+vocabulary,vertical,going-straight-up,adjective,b1,nature,straight up and down
+vocabulary,viable,able-to-work,adjective,b1,work,able to work
+vocabulary,violent,using-force,adjective,b1,city,using force
+vocabulary,resistance,opposition-to-something,noun,b1,work,opposition to something
+vocabulary,resolution,firm-decision,noun,b1,work,firm decision
+vocabulary,resource,useful-supply,noun,b1,nature,useful supply
+vocabulary,response,an-answer,noun,b1,communication,an answer
+vocabulary,restriction,a-limit,noun,b1,city,a limit
+vocabulary,revenue,money-received,noun,b1,money,money received
+vocabulary,revolution,huge-change,noun,b1,technology,huge change
+vocabulary,role,part-someone-plays,noun,b1,work,part someone plays
+vocabulary,sample,small-part-of-something,noun,b1,education,small part of something
+vocabulary,scene,place-where-something-happened,noun,b1,city,place where it happened
+vocabulary,scheme,a-plan,noun,b1,city,a plan
+vocabulary,scope,range-of-something,noun,b1,work,range of something
+vocabulary,section,one-part-of-something,noun,b1,education,one part of something
+vocabulary,security,safety,noun,b1,city,safety
+vocabulary,selection,group-chosen,noun,b1,shopping,group chosen
+vocabulary,sense,feeling-or-meaning,noun,b1,communication,feeling or meaning
+vocabulary,series,set-of-similar-things,noun,b1,technology,set of similar things
+vocabulary,service,help-for-customers,noun,b1,shopping,help for customers
+vocabulary,session,period-of-an-activity,noun,b1,education,period of an activity
+vocabulary,settlement,agreement-ending-a-dispute,noun,b1,work,agreement ending a dispute
+vocabulary,politely,in-a-polite-way,adverb,b1,communication,in a polite way
+vocabulary,potentially,possibly,adverb,b1,time,possibly
+vocabulary,precisely,exactly,adverb,b1,time,exactly
+vocabulary,previously,before-now,adverb,b1,time,before now
+vocabulary,primarily,mainly,adverb,b1,education,mainly
+vocabulary,properly,in-the-right-way,adverb,b1,work,in the right way
+vocabulary,rapidly,very-quickly,adverb,b1,city,very quickly
+vocabulary,rarely,not-often,adverb,b1,daily-routine,not often
+vocabulary,readily,willingly-and-quickly,adverb,b1,communication,willingly and quickly
+vocabulary,reasonably,fairly-and-sensibly,adverb,b1,money,fairly and sensibly
+vocabulary,regularly,at-even-intervals,adverb,b1,health,at even intervals
+vocabulary,relatively,when-compared-with-others,adverb,b1,work,compared with others
+vocabulary,remarkably,in-a-surprising-way,adverb,b1,emotions,in a surprising way
+vocabulary,repeatedly,again-and-again,adverb,b1,communication,again and again
+vocabulary,roughly,about,adverb,b1,time,about not exactly
+vocabulary,sadly,in-a-sad-way,adverb,b1,emotions,in a sad way
+vocabulary,safely,without-danger,adverb,b1,health,without danger
+vocabulary,seriously,in-a-serious-way,adverb,b1,work,in a serious way
+vocabulary,significantly,by-a-large-enough-amount-to-notice,adverb,b1,money,by a noticeable amount
+vocabulary,similarly,in-a-similar-way,adverb,b1,communication,in a similar way
+vocabulary,simply,in-a-simple-way,adverb,b1,communication,in a simple way
+vocabulary,slightly,a-little,adverb,b1,food,a little
+vocabulary,slowly,not-quickly,adverb,b1,transport,not quickly
+vocabulary,solely,only,adverb,b1,work,only
+vocabulary,specifically,for-one-particular-purpose,adverb,b1,education,for one particular purpose
+vocabulary,topic,a-subject,noun,b1,communication,a subject
+vocabulary,tradition,custom-passed-down,noun,b1,relationships,custom passed down
+vocabulary,treatment,medical-care,noun,b1,health,medical care
+vocabulary,trend,general-change,noun,b1,money,general change
+vocabulary,union,group-of-workers,noun,b1,work,group of workers
+vocabulary,unit,one-part-or-section,noun,b1,health,one part or section
+vocabulary,variety,many-different-kinds,noun,b1,shopping,many different kinds
+vocabulary,version,one-form-of-something,noun,b1,communication,one form of it
+vocabulary,view,opinion-or-what-you-see,noun,b1,travel,opinion or what you see
+vocabulary,violence,behaviour-that-hurts,noun,b1,city,behaviour that hurts
+vocabulary,welfare,health-and-safety-of-people,noun,b1,health,health and safety
+vocabulary,workforce,all-the-workers,noun,b1,work,all the workers
+vocabulary,virtual,computer-made,adjective,b1,technology,computer-made
+vocabulary,visible,able-to-be-seen,adjective,b1,nature,able to be seen
+vocabulary,visual,relating-to-sight,adjective,b1,education,relating to sight
+vocabulary,vital,extremely-important,adjective,b1,health,extremely important
+vocabulary,vivid,very-clear-and-strong,adjective,b1,emotions,very clear and strong
+vocabulary,voluntary,done-by-choice,adjective,b1,work,done by choice
+vocabulary,vulnerable,easy-to-hurt,adjective,b1,health,easy to hurt
+vocabulary,wealthy,rich,adjective,b1,money,rich
+vocabulary,western,in-the-west,adjective,b1,travel,from the west
+vocabulary,willing,happy-to-do-something,adjective,b1,relationships,happy to do it
+vocabulary,try,attempt-to-do-something,verb,b1,work,attempt to do
+vocabulary,twist,turn-something,verb,b1,home,turn something
+vocabulary,undertake,start-a-serious-task,verb,b1,work,start a serious task
+vocabulary,waste,use-badly,verb,b1,nature,use badly
+vocabulary,weigh,measure-weight,verb,b1,shopping,measure weight
+vocabulary,wish,want-something,verb,b1,emotions,want something
+vocabulary,wonder,want-to-know,verb,b1,emotions,want to know
+vocabulary,wrap,cover-in-paper,verb,b1,shopping,cover in paper
