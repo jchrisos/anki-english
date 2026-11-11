@@ -4399,3 +4399,253 @@ vocabulary,retain,keep,verb,b1,work,keep
 vocabulary,retreat,move-back,verb,b1,weather,move back
 vocabulary,reward,give-something-for-good-work,verb,b1,work,give for good work
 vocabulary,rotate,turn-around-a-center,verb,b1,work,turn around
+vocabulary,suburb,houses-outside-a-city,noun,b1,city,an area of houses outside a city
+vocabulary,commuter,person-traveling-to-work,noun,b1,transport,someone who travels to work every day
+vocabulary,congestion,roads-too-full,noun,b1,transport,too many vehicles blocking a road
+vocabulary,scaffolding,temporary-frame-on-building,noun,b1,city,a temporary metal frame around a building
+vocabulary,skyscraper,very-tall-building,noun,b1,city,a very tall building with many floors
+vocabulary,landmark,famous-place-in-an-area,noun,b1,travel,a well-known place that identifies an area
+vocabulary,plaza,open-public-square,noun,b1,city,an open public space in a town
+vocabulary,gallery,place-for-looking-at-art,noun,b1,city,a building where people look at art
+vocabulary,arena,large-sports-building,noun,b1,sports,a big building with seats around a court
+vocabulary,curb,edge-of-the-street,noun,b1,car,the raised edge of a street
+vocabulary,gutter,channel-for-rainwater,noun,b1,city,a channel along the street for rainwater
+vocabulary,sewer,underground-waste-pipes,noun,b1,city,underground pipes that carry dirty water away
+vocabulary,litter,waste-left-in-public,noun,b1,city,small pieces of waste left on the ground
+vocabulary,graffiti,paint-on-walls,noun,b1,city,words or pictures painted on walls illegally
+vocabulary,billboard,large-outdoor-advertisement,noun,b1,shopping,a large outdoor board used to advertise something
+vocabulary,kiosk,small-selling-stand,noun,b1,shopping,a small stand selling snacks or newspapers
+vocabulary,vendor,person-selling-from-a-stall,noun,b1,shopping,a person selling things from a stall or cart
+vocabulary,tram,electric-vehicle-on-rails,noun,b1,transport,an electric vehicle running on city rails
+vocabulary,metro,underground-city-trains,noun,b1,transport,an underground train system in a big city
+vocabulary,overpass,road-above-another-road,noun,b1,transport,a road crossing above another road or railway
+vocabulary,underpass,passage-under-a-road,noun,b1,transport,a passage going under a road or railway
+vocabulary,courtyard,open-area-inside-buildings,noun,b1,home,an open area surrounded by building walls
+vocabulary,escalator,moving-staircase,noun,b1,city,a moving staircase carrying people between floors
+vocabulary,corridor,long-passage-inside-building,noun,b1,home,a long narrow passage connecting rooms
+vocabulary,staircase,steps-between-floors,noun,b1,home,a set of steps connecting different floors
+vocabulary,tenant,person-who-rents-a-home,noun,b1,home,someone who pays rent to live somewhere
+vocabulary,landlord,owner-of-a-rented-home,noun,b1,home,the owner of a property other people rent
+vocabulary,lease,rental-agreement,noun,b1,money,a legal agreement to rent a property
+vocabulary,vacant,empty-and-available,adjective,b1,home,empty and available for someone to use
+vocabulary,abandoned,left-empty-and-uncared-for,adjective,b1,city,left empty and no longer cared for
+vocabulary,bustling,full-of-movement-and-noise,adjective,b1,city,full of people movement and noise
+vocabulary,steep,rising-at-a-sharp-angle,adjective,b1,nature,rising or falling at a sharp angle
+vocabulary,spacious,offering-lots-of-room,adjective,b1,home,large enough to move around easily
+vocabulary,cramped,too-small-and-crowded,adjective,b1,home,too small and crowded for the people inside
+vocabulary,residential,made-of-homes,adjective,b1,city,made up of homes rather than businesses
+vocabulary,historic,important-in-the-past,adjective,b1,travel,important in the past and kept as history
+vocabulary,polluted,containing-harmful-waste,adjective,b1,nature,containing harmful waste that makes things dirty
+vocabulary,accessible,easy-to-reach,adjective,b1,city,easy for anyone to reach or enter
+vocabulary,renovate,repair-and-modernize,verb,b1,home,to repair and modernize an old building
+vocabulary,commute,travel-between-home-and-work,verb,b1,work,to travel regularly between home and a workplace
+vocabulary,evict,force-someone-out,verb,b1,home,to force someone legally to leave a rented place
+vocabulary,pave,cover-with-a-hard-surface,verb,b1,work,to cover a surface with a hard flat layer
+vocabulary,demolish,knock-down-a-building,verb,b1,work,to knock down a building completely
+vocabulary,wander,walk-without-direction,verb,b1,travel,to walk slowly around without a clear direction
+vocabulary,stroll,walk-in-a-relaxed-way,verb,b1,travel,to walk in a slow relaxed way for pleasure
+vocabulary,jaywalk,cross-without-a-crosswalk,verb,b1,transport,to cross a street against the right of way
+vocabulary,nearby,at-a-short-distance,adverb,b1,city,at a short distance from the place mentioned
+vocabulary,uphill,toward-a-higher-point,adverb,b1,nature,toward a higher point on a slope
+vocabulary,downhill,toward-a-lower-point,adverb,b1,nature,toward a lower point on a slope
+vocabulary,locally,in-the-close-area,adverb,b1,shopping,in or from the area close to you
+vocabulary,cliff,steep-rock-face,noun,b1,nature,a high steep face of rock
+vocabulary,shore,land-along-water,noun,b1,nature,the land along the edge of a sea
+vocabulary,swamp,soft-wet-wooded-ground,noun,b1,nature,wet ground with trees and standing water
+vocabulary,marsh,low-wet-grassy-ground,noun,b1,nature,low wet ground covered with reeds
+vocabulary,meadow,field-of-grass-and-flowers,noun,b1,nature,a field of grass and wild flowers
+vocabulary,pasture,land-for-grazing-animals,noun,b1,nature,land where farm animals feed on grass
+vocabulary,ridge,long-top-of-a-hill,noun,b1,nature,a long narrow raised part of a hill
+vocabulary,slope,surface-at-an-angle,noun,b1,nature,a surface that rises or falls at an angle
+vocabulary,peak,pointed-mountain-top,noun,b1,nature,the pointed top of a mountain
+vocabulary,summit,highest-point-of-a-mountain,noun,b1,nature,the highest point of a mountain
+vocabulary,boulder,very-large-rock,noun,b1,nature,a very large rock rounded by weather
+vocabulary,soil,earth-for-plants,noun,b1,nature,the loose earth in which plants grow
+vocabulary,dune,hill-of-sand,noun,b1,nature,a hill of sand shaped by wind
+vocabulary,earthquake,shaking-of-the-ground,noun,b1,nature,a sudden shaking of the ground
+vocabulary,drought,long-period-without-rain,noun,b1,nature,a long period with little or no rain
+vocabulary,wildfire,fire-in-wild-land,noun,b1,nature,a large fire spreading through wild land
+vocabulary,wildlife,animals-living-in-nature,noun,b1,animals,animals and plants living naturally in an area
+vocabulary,habitat,natural-home-of-a-species,noun,b1,animals,the natural place where an animal lives
+vocabulary,ecosystem,living-things-in-one-area,noun,b1,nature,all living things in one area as a system
+vocabulary,crop,plant-grown-for-food,noun,b1,nature,a plant grown in large amounts for food
+vocabulary,harvest,gathering-of-crops,noun,b1,nature,the time when crops are gathered
+vocabulary,orchard,land-with-fruit-trees,noun,b1,nature,a piece of land with rows of fruit trees
+vocabulary,hedge,line-of-bushes,noun,b1,home,a line of bushes growing as a border
+vocabulary,weed,unwanted-plant,noun,b1,nature,a plant growing where it is not wanted
+vocabulary,grove,small-group-of-trees,noun,b1,nature,a small group of trees growing together
+vocabulary,shoreline,line-where-water-meets-land,noun,b1,nature,the line where water meets the land
+vocabulary,barren,unable-to-support-plants,adjective,b1,nature,too poor in soil or water for plants
+vocabulary,fertile,able-to-grow-crops,adjective,b1,nature,able to produce healthy plants or crops
+vocabulary,lush,growing-thick-and-green,adjective,b1,nature,growing thickly and looking very green
+vocabulary,rocky,covered-with-stone,adjective,b1,nature,covered with or made of stone
+vocabulary,sandy,covered-with-loose-grains,adjective,b1,nature,covered with or containing a lot of loose grains
+vocabulary,muddy,covered-with-wet-earth,adjective,b1,nature,covered with wet earth
+vocabulary,harsh,severe-and-difficult,adjective,b1,nature,severe and difficult to live in
+vocabulary,overgrown,covered-with-wild-plants,adjective,b1,nature,covered with plants that have grown wild
+vocabulary,untamed,still-wild-and-uncontrolled,adjective,b1,nature,still wild and not controlled by people
+vocabulary,wither,become-dry-and-droop,verb,b1,nature,to become dry and droop from heat
+vocabulary,erode,wear-away-slowly,verb,b1,nature,to wear away rock or soil slowly
+vocabulary,conserve,protect-from-waste,verb,b1,nature,to protect something from damage or waste
+vocabulary,plow,turn-over-the-soil,verb,b1,nature,to turn over soil before planting
+vocabulary,sow,plant-seeds-in-the-ground,verb,b1,nature,to plant seeds in the ground
+vocabulary,graze,eat-grass-in-a-field,verb,b1,animals,to eat grass in a field as cattle do
+vocabulary,roam,move-freely-over-an-area,verb,b1,animals,to move around a wide area freely
+vocabulary,migrate,travel-with-the-seasons,verb,b1,animals,to travel to another region when seasons change
+vocabulary,sprout,begin-to-grow,verb,b1,nature,to begin to grow into a small plant
+vocabulary,flourish,grow-strongly-and-healthily,verb,b1,nature,to grow strongly and stay healthy
+vocabulary,cultivate,prepare-land-and-grow-crops,verb,b1,nature,to prepare land and grow crops on it
+vocabulary,outdoors,not-inside-a-building,adverb,b1,nature,not inside a building
+vocabulary,upstream,toward-the-higher-river,adverb,b1,nature,toward the higher part of a river
+vocabulary,downstream,toward-the-lower-river,adverb,b1,nature,toward the lower part of a river
+vocabulary,inland,toward-the-middle-of-a-country,adverb,b1,nature,toward the middle of a country away from the sea
+vocabulary,gust,sudden-rush-of-wind,noun,b1,weather,a sudden strong rush of wind
+vocabulary,frost,thin-layer-of-ice,noun,b1,weather,a thin layer of ice on cold surfaces
+vocabulary,dew,water-drops-on-grass,noun,b1,weather,small water drops on grass in the morning
+vocabulary,humidity,water-vapor-in-the-air,noun,b1,weather,the amount of water vapor in the air
+vocabulary,downpour,sudden-heavy-rain,noun,b1,weather,a sudden heavy fall of rain
+vocabulary,blizzard,severe-snowstorm,noun,b1,weather,a severe snowstorm with strong wind
+vocabulary,hurricane,violent-tropical-storm,noun,b1,weather,a violent tropical storm with strong winds
+vocabulary,tornado,spinning-funnel-of-wind,noun,b1,weather,a fast spinning funnel of wind on the ground
+vocabulary,heatwave,long-hot-period,noun,b1,weather,a long period of unusually hot weather
+vocabulary,icicle,pointed-hanging-ice,noun,b1,weather,a pointed piece of ice hanging from a roof
+vocabulary,sleet,rain-mixed-with-snow,noun,b1,weather,a mix of rain and snow falling together
+vocabulary,monsoon,season-of-heavy-rain,noun,b1,weather,a season of heavy rain in South Asia
+vocabulary,avalanche,snow-sliding-down-a-mountain,noun,b1,weather,a large mass of snow sliding down a mountain
+vocabulary,frostbite,cold-damage-to-skin,noun,b1,health,damage to skin caused by extreme cold
+vocabulary,dampness,slightly-wet-condition,noun,b1,weather,the state of being slightly wet in a bad way
+vocabulary,barometer,instrument-measuring-air-pressure,noun,b1,weather,an instrument that measures air pressure
+vocabulary,snowstorm,period-of-heavy-snow,noun,b1,weather,a period of heavy snow with strong wind
+vocabulary,sandstorm,wind-carrying-sand,noun,b1,weather,a strong wind carrying clouds of sand
+vocabulary,windbreak,barrier-against-the-wind,noun,b1,weather,a row of trees or fence that blocks wind
+vocabulary,horizon,line-where-sky-meets-land,noun,b1,nature,the line where the sky seems to meet the land
+vocabulary,gloves,coverings-for-the-hands,noun,b1,clothes,pieces of clothing worn to warm the hands
+vocabulary,sunscreen,cream-protecting-from-sun,noun,b1,health,a cream that protects skin from strong sun
+vocabulary,chilly,uncomfortably-cool,adjective,b1,weather,uncomfortably cool
+vocabulary,unpredictable,changing-without-warning,adjective,b1,weather,changing in ways you cannot expect
+vocabulary,overcast,covered-by-cloud,adjective,b1,weather,covered by a solid layer of cloud
+vocabulary,muggy,warm-and-damp,adjective,b1,weather,unpleasantly warm and damp
+vocabulary,breezy,with-a-light-wind,adjective,b1,weather,with a light wind blowing
+vocabulary,frosty,very-cold-with-ice,adjective,b1,weather,very cold with a thin layer of ice
+vocabulary,scorching,extremely-hot,adjective,b1,weather,extremely hot
+vocabulary,misty,covered-by-low-cloud,adjective,b1,weather,covered with a thin cloud near the ground
+vocabulary,slippery,hard-to-walk-on-when-wet,adjective,b1,weather,hard to walk on because it is smooth and wet
+vocabulary,soaked,completely-wet,adjective,b1,weather,completely wet through
+vocabulary,arid,very-dry-without-rain,adjective,b1,nature,very dry with almost no rain
+vocabulary,balmy,pleasantly-warm,adjective,b1,weather,pleasantly warm and gentle
+vocabulary,stuffy,airless-inside-a-room,adjective,b1,home,warm and airless inside a room
+vocabulary,crisp,pleasantly-cold-and-dry,adjective,b1,weather,pleasantly cold and dry
+vocabulary,thaw,become-soft-after-freezing,verb,b1,weather,to become soft again after being frozen
+vocabulary,howl,make-a-long-loud-sound,verb,b1,weather,to make a long loud sound as wind does
+vocabulary,drench,make-completely-wet,verb,b1,weather,to make someone or something completely wet
+vocabulary,evaporate,change-from-liquid-to-vapor,verb,b1,weather,to change from liquid into vapor and disappear
+vocabulary,shiver,shake-because-of-cold,verb,b1,body,to shake slightly because of cold or fear
+vocabulary,insulate,cover-to-hold-heat,verb,b1,home,to cover something to stop heat from escaping
+vocabulary,bundle,dress-in-warm-clothes,verb,b1,clothes,to dress someone in many warm clothes
+vocabulary,drip,fall-in-small-drops,verb,b1,weather,to fall in small drops
+vocabulary,humidify,add-water-to-the-air,verb,b1,home,to add water vapor to the air in a room
+vocabulary,ventilate,let-fresh-air-through,verb,b1,home,to let fresh air move through a room
+vocabulary,heavily,in-large-amounts,adverb,b1,weather,in large amounts or with great force
+vocabulary,lightly,in-small-amounts,adverb,b1,weather,in small amounts or with little force
+vocabulary,indoors,inside-a-building,adverb,b1,home,inside a building
+vocabulary,overhead,in-the-sky-above,adverb,b1,weather,in the sky directly above you
+vocabulary,mammal,warm-blooded-milk-feeding-animal,noun,b1,animals,a warm-blooded animal that feeds its young milk
+vocabulary,reptile,cold-blooded-scaly-animal,noun,b1,animals,a cold-blooded animal with scales
+vocabulary,rodent,small-gnawing-animal,noun,b1,animals,a small animal with sharp front teeth
+vocabulary,predator,animal-that-hunts-others,noun,b1,animals,an animal that hunts and eats others
+vocabulary,prey,animal-that-is-hunted,noun,b1,animals,an animal that is hunted and eaten
+vocabulary,herd,large-group-of-animals,noun,b1,animals,a large group of animals living together
+vocabulary,flock,group-of-birds-or-sheep,noun,b1,animals,a group of birds or sheep staying together
+vocabulary,swarm,large-moving-group-of-insects,noun,b1,animals,a large moving group of insects
+vocabulary,colony,group-of-one-species-together,noun,b1,animals,a group of animals of one kind together
+vocabulary,den,hidden-home-of-a-wild-animal,noun,b1,animals,the hidden home of a wild animal
+vocabulary,burrow,hole-dug-by-a-small-animal,noun,b1,animals,a hole dug in the ground by a small animal
+vocabulary,hive,home-of-bees,noun,b1,animals,a structure where bees live
+vocabulary,paw,animal-foot-with-pads,noun,b1,animals,an animal foot with soft pads and claws
+vocabulary,claw,sharp-curved-nail,noun,b1,animals,a sharp curved nail on an animal foot
+vocabulary,antler,branched-horn-of-a-deer,noun,b1,animals,one of the branched horns of a deer
+vocabulary,tail,back-end-part-of-an-animal,noun,b1,animals,the part growing from an animal's back end
+vocabulary,wing,part-a-bird-uses-to-fly,noun,b1,animals,one of the parts a bird uses to fly
+vocabulary,beak,hard-pointed-bird-mouth,noun,b1,animals,the hard pointed mouth of a bird
+vocabulary,fin,thin-part-that-helps-a-fish-swim,noun,b1,animals,a thin part on a fish that helps it swim
+vocabulary,gill,organ-a-fish-breathes-with,noun,b1,animals,the organ a fish uses to breathe in water
+vocabulary,spine,row-of-bones-down-the-back,noun,b1,body,the row of bones down an animal's back
+vocabulary,whisker,long-stiff-hair-on-the-face,noun,b1,animals,a long stiff hair near an animal's mouth
+vocabulary,cub,young-bear-or-wild-cat,noun,b1,animals,a young bear lion or other wild cat
+vocabulary,calf,young-cow,noun,b1,animals,a young cow
+vocabulary,livestock,farm-animals-kept-for-use,noun,b1,animals,farm animals kept for food or work
+vocabulary,poultry,birds-kept-for-meat-or-eggs,noun,b1,animals,birds kept for meat or eggs
+vocabulary,puppy,young-dog,noun,b1,animals,a young dog
+vocabulary,kitten,young-cat,noun,b1,animals,a young cat
+vocabulary,offspring,young-of-an-animal,noun,b1,animals,the young of an animal or person
+vocabulary,fierce,angry-and-ready-to-attack,adjective,b1,animals,angry and ready to attack
+vocabulary,venomous,able-to-inject-poison,adjective,b1,animals,able to inject poison through a bite
+vocabulary,endangered,at-risk-of-disappearing,adjective,b1,animals,at risk of no longer existing
+vocabulary,extinct,no-longer-existing,adjective,b1,animals,no longer existing anywhere
+vocabulary,nocturnal,active-at-night,adjective,b1,animals,active at night and resting by day
+vocabulary,scaly,covered-with-hard-plates,adjective,b1,animals,covered with small hard plates
+vocabulary,marine,living-in-the-sea,adjective,b1,animals,living in the ocean
+vocabulary,feral,living-wild-after-escaping,adjective,b1,animals,living wild after escaping from people
+vocabulary,purr,make-a-soft-low-sound,verb,b1,animals,to make a soft low sound as a cat does
+vocabulary,growl,make-a-low-warning-sound,verb,b1,animals,to make a low warning sound
+vocabulary,chirp,make-a-short-high-bird-sound,verb,b1,animals,to make a short high sound as a bird does
+vocabulary,buzz,make-a-continuous-low-sound,verb,b1,animals,to make a low continuous sound as a bee does
+vocabulary,crawl,move-close-to-the-ground,verb,b1,animals,to move slowly with the body close to the ground
+vocabulary,leap,jump-a-long-way,verb,b1,animals,to jump a long way or high
+vocabulary,pounce,jump-suddenly-and-grab,verb,b1,animals,to jump suddenly and grab something
+vocabulary,stalk,follow-quietly-to-catch,verb,b1,animals,to follow an animal quietly in order to catch it
+vocabulary,sniff,breathe-in-to-smell,verb,b1,animals,to breathe in through the nose to smell something
+vocabulary,domesticate,train-wild-animals-to-live-with-people,verb,b1,animals,to train wild animals to live with people
+vocabulary,hibernate,sleep-through-the-winter,verb,b1,animals,to spend the winter in a deep sleep
+vocabulary,wildly,in-an-uncontrolled-way,adverb,b1,animals,in a way that is uncontrolled
+vocabulary,fiercely,with-strong-force-or-anger,adverb,b1,animals,with strong force or anger
+vocabulary,skull,bones-of-the-head,noun,b1,body,the bones that form the head
+vocabulary,jaw,lower-bone-of-the-face,noun,b1,body,the lower part of the face that moves
+vocabulary,eyelash,hair-on-the-eyelid,noun,b1,body,a short hair on the edge of the eyelid
+vocabulary,knuckle,joint-of-a-finger,noun,b1,body,a joint where a finger bends
+vocabulary,fingernail,hard-part-of-a-fingertip,noun,b1,body,the hard part at the end of a finger
+vocabulary,thigh,upper-part-of-the-leg,noun,b1,body,the top part of the leg above the knee
+vocabulary,nerve,thin-body-signal-line,noun,b1,body,a thin line that carries signals to the brain
+vocabulary,vein,tube-carrying-blood-back,noun,b1,body,a thin tube carrying blood toward the heart
+vocabulary,organ,body-part-with-a-job,noun,b1,body,a part of the body with a particular job
+vocabulary,lung,breathing-organ,noun,b1,body,one of the two organs used for breathing
+vocabulary,liver,organ-that-cleans-the-blood,noun,b1,body,the large organ that cleans the blood
+vocabulary,kidney,organ-that-filters-waste,noun,b1,body,one of the organs that clean waste from blood
+vocabulary,palm,inside-of-the-hand,noun,b1,body,the inside surface of the hand
+vocabulary,fist,closed-hand,noun,b1,body,a hand with the fingers closed tightly
+vocabulary,belly,front-of-the-body,noun,b1,body,the front part of the body below the chest
+vocabulary,pulse,beat-of-the-blood,noun,b1,body,the regular beat of blood that you can feel
+vocabulary,scar,mark-left-by-a-wound,noun,b1,body,a mark left on the skin after healing
+vocabulary,swelling,swollen-area-of-the-body,noun,b1,health,a swollen area on the body
+vocabulary,recovery,becoming-healthy-again,noun,b1,health,the process of becoming healthy again
+vocabulary,crutch,stick-that-helps-you-walk,noun,b1,health,a stick held under the arm to help walking
+vocabulary,stretcher,bed-for-carrying-the-sick,noun,b1,health,a flat bed used to carry a hurt person
+vocabulary,surgeon,doctor-who-performs-operations,noun,b1,health,a doctor who performs operations
+vocabulary,dose,amount-of-medicine-at-once,noun,b1,health,the amount of medicine taken at one time
+vocabulary,therapy,treatment-to-help-recovery,noun,b1,health,treatment designed to help someone recover
+vocabulary,massage,rub-muscles-to-relax-them,verb,b1,body,to rub and press muscles to relax them
+vocabulary,diagnose,identify-an-illness,verb,b1,health,to identify an illness from its signs
+vocabulary,stitch,join-a-wound-with-thread,verb,b1,health,to join the edges of a wound with thread
+vocabulary,digest,break-down-food-in-the-body,verb,b1,body,to break down food inside the body
+vocabulary,flex,bend-and-tighten-a-muscle,verb,b1,body,to bend and tighten a muscle
+vocabulary,clench,close-hand-or-teeth-tightly,verb,b1,body,to close your hand or teeth tightly
+vocabulary,grip,hold-something-very-tightly,verb,b1,body,to hold something very tightly
+vocabulary,wince,make-a-face-from-pain,verb,b1,body,to make a small face because of pain
+vocabulary,limp,walk-with-difficulty,verb,b1,health,to walk with difficulty because of an injury
+vocabulary,faint,lose-consciousness-briefly,verb,b1,health,to lose consciousness for a short time
+vocabulary,snore,make-noise-while-sleeping,verb,b1,body,to make a loud noise while sleeping
+vocabulary,yawn,open-the-mouth-when-tired,verb,b1,body,to open the mouth wide when tired
+vocabulary,tremble,shake-slightly,verb,b1,body,to shake slightly from fear or cold
+vocabulary,stumble,trip-and-almost-fall,verb,b1,body,to trip and almost fall while walking
+vocabulary,choke,unable-to-breathe-through-the-throat,verb,b1,health,to be unable to breathe because of a block
+vocabulary,twitch,make-a-small-sudden-movement,verb,b1,body,to make a small sudden movement
+vocabulary,numb,unable-to-feel,adjective,b1,body,unable to feel anything in part of the body
+vocabulary,swollen,larger-than-normal,adjective,b1,health,larger than normal because of injury
+vocabulary,bruised,marked-by-a-blow,adjective,b1,health,having dark marks on the skin from a blow
+vocabulary,muscular,having-large-strong-muscles,adjective,b1,body,having large strong muscles
+vocabulary,skinny,very-thin,adjective,b1,body,very thin often in an unhealthy way
+vocabulary,dizzy,feeling-that-things-are-turning,adjective,b1,health,feeling that everything is turning around
+vocabulary,nauseous,feeling-like-vomiting,adjective,b1,health,feeling that you are going to vomit
+vocabulary,sleepless,without-sleep,adjective,b1,health,without sleep especially at night
+vocabulary,restless,unable-to-stay-still,adjective,b1,body,unable to stay still or calm
+vocabulary,unconscious,not-awake-or-aware,adjective,b1,health,not awake and not aware of anything
