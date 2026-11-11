@@ -3199,3 +3199,203 @@ vocabulary,kill,make-someone-or-something-die,verb,a2,nature,make something die
 vocabulary,lay,put-something-down-carefully,verb,a2,home,put something down
 vocabulary,limit,stop-something-going-beyond,verb,a2,transport,stop going beyond a point
 vocabulary,load,put-things-into-a-vehicle,verb,a2,transport,put things into a vehicle
+vocabulary,base,lowest-or-main-part,noun,a2,home,lowest or main part
+vocabulary,bell,metal-object-that-rings,noun,a2,education,metal object that rings
+vocabulary,birth,coming-into-the-world,noun,a2,health;relationships,time a baby is born
+vocabulary,bit,small-piece,noun,a2,food,small piece of something
+vocabulary,blade,cutting-part-of-a-tool,noun,a2,kitchen,cutting part of a tool
+vocabulary,bottom,lowest-part,noun,a2,home,lowest part of something
+vocabulary,breath,air-in-and-out,noun,a2,health,air in and out
+vocabulary,buyer,person-who-buys,noun,a2,shopping,person who buys something
+vocabulary,edge,outside-line-of-something,noun,a2,home,outside line of something
+vocabulary,effect,change-caused-by-something,noun,a2,health,change caused by something
+vocabulary,effort,energy-used-to-do-something,noun,a2,work,energy used to do something
+vocabulary,electricity,power-through-wires,noun,a2,technology,power through wires
+vocabulary,emergency,sudden-danger-needing-action,noun,a2,health,sudden danger needing action
+vocabulary,emotion,strong-feeling,noun,a2,emotions,strong feeling
+vocabulary,enemy,person-who-is-against-you,noun,a2,relationships,person who is against you
+vocabulary,energy,strength-or-power,noun,a2,health,strength or power
+vocabulary,envelope,paper-cover-for-a-letter,noun,a2,communication,paper cover for a letter
+vocabulary,environment,natural-world-around-us,noun,a2,nature,natural world around us
+vocabulary,equipment,tools-needed-for-an-activity,noun,a2,sports;work,tools needed for an activity
+vocabulary,error,mistake,noun,a2,work,a mistake
+vocabulary,event,something-that-happens,noun,a2,city,something that happens
+vocabulary,evidence,facts-that-show-the-truth,noun,a2,work,facts that show the truth
+vocabulary,example,thing-that-shows-what-others-are-like,noun,a2,education,thing that shows the pattern
+vocabulary,excuse,reason-for-a-mistake,noun,a2,communication,reason for a mistake
+vocabulary,hunger,feeling-that-you-need-food,noun,a2,food;health,feeling you need food
+vocabulary,average,usual-or-typical,adjective,a2,money,usual or typical
+vocabulary,good,of-high-quality,adjective,a2,emotions,of high quality
+vocabulary,great,very-good,adjective,a2,emotions,very good
+vocabulary,little,small,adjective,a2,home,small in size
+vocabulary,narrow,not-wide,adjective,a2,city,not wide
+vocabulary,nice,pleasant,adjective,a2,emotions,pleasant
+vocabulary,original,first-or-new,adjective,a2,work,first or new
+vocabulary,personal,belonging-to-one-person,adjective,a2,emotions,belonging to one person
+vocabulary,physical,relating-to-the-body,adjective,a2,health,relating to the body
+vocabulary,pleasant,nice-and-enjoyable,adjective,a2,weather,nice and enjoyable
+vocabulary,popular,liked-by-many-people,adjective,a2,city,liked by many people
+vocabulary,positive,hopeful-and-good,adjective,a2,emotions,hopeful and good
+vocabulary,possible,able-to-happen,adjective,a2,work,able to happen
+vocabulary,powerful,having-a-lot-of-strength,adjective,a2,car,having a lot of strength
+vocabulary,practical,useful-and-sensible,adjective,a2,car,useful and sensible
+vocabulary,accept,agree-to-take-something,verb,a2,communication,agree to take something
+vocabulary,achieve,succeed-in-doing-something,verb,a2,work,succeed after effort
+vocabulary,become,start-to-be-something,verb,a2,work,start to be something
+vocabulary,begin,start,verb,a2,time,to start
+vocabulary,believe,think-something-is-true,verb,a2,communication,think it is true
+vocabulary,cover,put-something-over,verb,a2,home,put something over
+vocabulary,die,stop-living,verb,a2,nature,stop living
+vocabulary,dream,see-pictures-while-asleep,verb,a2,emotions,see pictures while asleep
+vocabulary,elect,choose-by-voting,verb,a2,work,choose by voting
+vocabulary,vote,choose-in-an-election,verb,a2,city,choose in an election
+vocabulary,expert,person-with-special-knowledge,noun,a2,work,person with special knowledge
+vocabulary,explanation,words-that-make-something-clear,noun,a2,communication,words that make it clear
+vocabulary,fact,something-that-is-true,noun,a2,education,something that is true
+vocabulary,failure,time-something-does-not-succeed,noun,a2,work,time something does not succeed
+vocabulary,fault,responsibility-for-a-mistake,noun,a2,relationships,responsibility for a mistake
+vocabulary,favor,kind-thing-you-do-for-someone,noun,a2,relationships,kind thing for someone
+vocabulary,feather,soft-part-on-a-bird,noun,a2,animals,soft part on a bird
+vocabulary,feeling,something-you-feel,noun,a2,emotions,something you feel
+vocabulary,figure,number-or-body-shape,noun,a2,money,number or body shape
+vocabulary,flag,cloth-that-represents-a-country,noun,a2,city,cloth for a country
+vocabulary,form,paper-with-spaces-to-fill,noun,a2,work,paper with spaces to fill
+vocabulary,fortune,very-large-amount-of-money,noun,a2,money,very large amount of money
+vocabulary,freedom,right-to-do-what-you-want,noun,a2,emotions,right to do what you want
+vocabulary,friendship,relationship-between-friends,noun,a2,relationships,relationship between friends
+vocabulary,fur,soft-hair-on-an-animal,noun,a2,animals,soft hair on an animal
+vocabulary,gap,space-between-two-things,noun,a2,home,space between two things
+vocabulary,government,group-that-rules-a-country,noun,a2,city,group that rules a country
+vocabulary,group,several-people-together,noun,a2,relationships,several people together
+vocabulary,growth,process-of-getting-bigger,noun,a2,money,process of getting bigger
+vocabulary,gun,weapon-that-shoots,noun,a2,city,weapon that shoots
+vocabulary,guy,a-man,noun,a2,relationships,a man
+vocabulary,hall,large-room-or-passage,noun,a2,home,large room or passage
+vocabulary,harbor,safe-place-for-boats,noun,a2,travel,safe place for boats
+vocabulary,height,how-tall-something-is,noun,a2,body,how tall something is
+vocabulary,hero,person-admired-for-brave-acts,noun,a2,emotions,person admired for bravery
+vocabulary,pretty,nice-to-look-at,adjective,a2,nature,nice to look at
+vocabulary,private,for-one-person-not-public,adjective,a2,relationships,for one person only
+vocabulary,public,for-everyone,adjective,a2,city,for everyone
+vocabulary,real,true-not-imagined,adjective,a2,emotions,true not imagined
+vocabulary,regular,happening-at-the-same-times,adjective,a2,time,happening at the same times
+vocabulary,rough,not-smooth,adjective,a2,nature,not smooth
+vocabulary,round,shaped-like-a-circle,adjective,a2,home,shaped like a circle
+vocabulary,salty,tasting-of-salt,adjective,a2,food,tasting of salt
+vocabulary,scary,making-you-afraid,adjective,a2,emotions,making you afraid
+vocabulary,sensitive,easily-hurt-or-affected,adjective,a2,health,easily affected
+vocabulary,shallow,not-deep,adjective,a2,nature,not deep
+vocabulary,similar,almost-the-same,adjective,a2,shopping,almost the same
+vocabulary,sleepy,ready-to-sleep,adjective,a2,daily-routine,ready to sleep
+vocabulary,slim,thin-in-an-attractive-way,adjective,a2,body,thin and neat
+vocabulary,smooth,flat-and-even,adjective,a2,nature,flat and even
+vocabulary,fall,move-downwards,verb,a2,nature,move downwards
+vocabulary,fight,use-force-against-someone,verb,a2,sports,use force against someone
+vocabulary,gain,get-more-of-something,verb,a2,work,get more of something
+vocabulary,happen,take-place,verb,a2,time,take place
+vocabulary,hold,have-in-your-hand,verb,a2,home,have in your hand
+vocabulary,let,allow-something-to-happen,verb,a2,communication,allow something to happen
+vocabulary,mind,be-bothered-by-something,verb,a2,emotions,be bothered by something
+vocabulary,notice,see-or-hear-something,verb,a2,communication,see or hear something
+vocabulary,own,have-something-as-property,verb,a2,money,have as property
+vocabulary,pollute,make-air-or-water-dirty,verb,a2,nature,make air or water dirty
+vocabulary,correctly,in-the-right-way,adverb,a2,education,in the right way
+vocabulary,definitely,without-any-doubt,adverb,a2,communication,without any doubt
+vocabulary,directly,with-no-stops,adverb,a2,transport,with no stops
+vocabulary,easily,without-difficulty,adverb,a2,education,without difficulty
+vocabulary,else,other-than-what-was-said,adverb,a2,shopping,other than what was said
+vocabulary,especially,more-than-others,adverb,a2,food,more than others
+vocabulary,even,used-to-show-surprise,adverb,a2,emotions,showing surprise
+vocabulary,ever,at-any-time,adverb,a2,travel,at any time
+vocabulary,exactly,not-more-and-not-less,adverb,a2,money,not more or less
+vocabulary,fairly,quite-but-not-very,adverb,a2,education,quite but not very
+vocabulary,finally,after-a-long-time,adverb,a2,time,after a long time
+vocabulary,forever,for-all-time,adverb,a2,relationships,for all time
+vocabulary,fortunately,by-good-luck,adverb,a2,emotions,by good luck
+vocabulary,forward,toward-the-front,adverb,a2,transport,toward the front
+vocabulary,gently,in-a-soft-way,adverb,a2,home,in a soft way
+vocabulary,happily,in-a-happy-way,adverb,a2,emotions,in a happy way
+vocabulary,hardly,almost-not,adverb,a2,communication,almost not
+vocabulary,highly,very-much,adverb,a2,work,very much
+vocabulary,honestly,in-a-truthful-way,adverb,a2,communication,in a truthful way
+vocabulary,hopefully,it-is-hoped,adverb,a2,emotions,it is hoped
+vocabulary,social,relating-to-people-together,adjective,a2,relationships,relating to people together
+vocabulary,solid,hard-and-not-hollow,adjective,a2,home,hard and not hollow
+vocabulary,sorry,feeling-regret,adjective,a2,emotions,feeling regret
+vocabulary,sour,tasting-sharp-like-lemon,adjective,a2,food,sharp like a lemon
+vocabulary,special,not-ordinary,adjective,a2,relationships,not ordinary
+vocabulary,specific,clear-and-exact,adjective,a2,work,clear and exact
+vocabulary,spicy,with-strong-hot-flavor,adjective,a2,food,strong hot flavor
+vocabulary,stupid,not-clever,adjective,a2,emotions,not clever
+vocabulary,successful,achieving-what-you-wanted,adjective,a2,work,achieving what you wanted
+vocabulary,sudden,happening-quickly-and-unexpectedly,adjective,a2,weather,quick and unexpected
+vocabulary,tasty,good-to-eat,adjective,a2,food,good to eat
+vocabulary,terrible,very-bad,adjective,a2,weather,very bad
+vocabulary,thick,not-thin,adjective,a2,food,not thin
+vocabulary,thin,not-thick,adjective,a2,nature,not thick
+vocabulary,tight,fitting-too-closely,adjective,a2,clothes,fitting too closely
+vocabulary,practise,do-something-again-to-improve,verb,a2,education,do it again to improve
+vocabulary,present,show-or-give-formally,verb,a2,work,show or give formally
+vocabulary,press,push-a-button,verb,a2,technology,push a button
+vocabulary,prevent,stop-something-happening,verb,a2,health,stop it happening
+vocabulary,produce,make-or-grow-something,verb,a2,work,make or grow something
+vocabulary,protect,keep-safe,verb,a2,health,keep safe
+vocabulary,prove,show-something-is-true,verb,a2,communication,show it is true
+vocabulary,provide,give-what-is-needed,verb,a2,work,give what is needed
+vocabulary,punish,make-someone-suffer-for-a-wrong,verb,a2,education,make them suffer for a wrong
+vocabulary,quit,stop-doing-something,verb,a2,work,stop doing something
+vocabulary,reach,arrive-at-or-touch,verb,a2,travel,arrive at or touch
+vocabulary,realize,understand-something,verb,a2,emotions,understand suddenly
+vocabulary,receive,get-something-given,verb,a2,communication,get something given
+vocabulary,recognize,know-someone-or-something-again,verb,a2,communication,know it from before
+vocabulary,recommend,say-something-is-good,verb,a2,communication,say it is good
+vocabulary,achievement,something-important-you-succeed-in,noun,b1,work,something important you succeed in
+vocabulary,awareness,knowledge-that-something-exists,noun,b1,health,knowledge that something exists
+vocabulary,capacity,amount-something-can-hold,noun,b1,work,amount something can hold
+vocabulary,circumstance,fact-that-affects-a-situation,noun,b1,work,fact affecting a situation
+vocabulary,citizen,person-who-belongs-to-a-country,noun,b1,city,person from a country
+vocabulary,climate,usual-weather-of-a-place,noun,b1,weather;nature,usual weather of a place
+vocabulary,commitment,promise-to-do-something,noun,b1,work,promise to do something
+vocabulary,community,group-living-or-working-together,noun,b1,city;relationships,group living together
+vocabulary,consequence,result-of-an-action,noun,b1,work,result of an action
+vocabulary,context,situation-around-something,noun,b1,communication,situation around something
+vocabulary,contribution,something-you-give-to-help,noun,b1,money;work,something you give to help
+vocabulary,cooperation,working-together-for-a-shared-aim,noun,b1,work,working together
+vocabulary,crisis,time-of-great-difficulty,noun,b1,health;city,time of great difficulty
+vocabulary,definition,explanation-of-a-word,noun,b1,education,explanation of a word
+vocabulary,description,words-that-say-what-something-is-like,noun,b1,communication,words that describe something
+vocabulary,economy,money-and-business-of-a-country,noun,b1,money;city,money and business of a country
+vocabulary,influence,power-to-change-how-others-act,noun,b1,relationships,power to change others
+vocabulary,initiative,new-plan-to-solve-a-problem,noun,b1,work,new plan to solve a problem
+vocabulary,policy,official-plan-of-action,noun,b1,work;city,official plan of action
+vocabulary,responsibility,duty-you-must-take-care-of,noun,b1,work,duty you must take care of
+vocabulary,adapt,change-to-fit-a-new-situation,verb,b1,work,change to fit a situation
+vocabulary,adjust,change-something-slightly,verb,b1,home,change something slightly
+vocabulary,affect,change-or-influence-something,verb,b1,work,change or influence something
+vocabulary,analyse,study-something-carefully,verb,b1,education,study something carefully
+vocabulary,assess,judge-the-quality-of-something,verb,b1,work,judge the quality
+vocabulary,assume,think-something-is-true-without-proof,verb,b1,work,think it is true without proof
+vocabulary,behave,act-in-a-particular-way,verb,b1,relationships,act in a particular way
+vocabulary,calculate,find-a-number-using-maths,verb,b1,money,find a number using math
+vocabulary,clarify,make-something-clearer,verb,b1,communication,make something clearer
+vocabulary,combine,put-things-together,verb,b1,food,put things together
+vocabulary,commit,promise-to-do-something,verb,b1,work,promise seriously
+vocabulary,communicate,share-information-with-others,verb,b1,communication,share information
+vocabulary,conclude,finish-or-decide-after-thinking,verb,b1,communication;work,finish or decide
+vocabulary,confirm,say-that-something-is-true,verb,b1,communication,say it is true
+vocabulary,consider,think-about-something-carefully,verb,b1,work,think about carefully
+vocabulary,consist,be-made-of-parts,verb,b1,food,be made of parts
+vocabulary,construct,build-something,verb,b1,work;home,build something
+vocabulary,consult,ask-someone-for-advice,verb,b1,health,ask for advice
+vocabulary,consume,use-up-energy-or-goods,verb,b1,money,use up energy or goods
+vocabulary,contribute,give-something-to-help,verb,b1,work,give something to help
+vocabulary,aware,knowing-that-something-exists,adjective,b1,emotions,knowing it exists
+vocabulary,capable,able-to-do-something,adjective,b1,work,able to do something
+vocabulary,complex,having-many-parts,adjective,b1,work,having many parts
+vocabulary,crucial,extremely-important,adjective,b1,health,extremely important
+vocabulary,efficient,working-well-without-waste,adjective,b1,technology,working well without waste
+vocabulary,essential,completely-needed,adjective,b1,health,completely needed
+vocabulary,flexible,able-to-change-easily,adjective,b1,work,able to change easily
+vocabulary,initial,happening-at-the-start,adjective,b1,work,happening at the start
+vocabulary,relevant,connected-to-the-subject,adjective,b1,communication,connected to the subject
+vocabulary,significant,large-or-important-enough-to-notice,adjective,b1,work,large or important
