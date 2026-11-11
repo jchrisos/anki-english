@@ -4649,3 +4649,253 @@ vocabulary,nauseous,feeling-like-vomiting,adjective,b1,health,feeling that you a
 vocabulary,sleepless,without-sleep,adjective,b1,health,without sleep especially at night
 vocabulary,restless,unable-to-stay-still,adjective,b1,body,unable to stay still or calm
 vocabulary,unconscious,not-awake-or-aware,adjective,b1,health,not awake and not aware of anything
+vocabulary,bacteria,tiny-disease-causing-organisms,noun,b1,health,very small living things that can cause disease
+vocabulary,migraine,severe-repeating-headache,noun,b1,health,a very bad headache that often makes you sick
+vocabulary,asthma,condition-that-makes-breathing-hard,noun,b1,health,a condition that makes breathing difficult
+vocabulary,diabetes,condition-with-blood-sugar-problems,noun,b1,health,a condition where the body cannot control blood sugar
+vocabulary,cancer,serious-disease-of-growing-cells,noun,b1,health,a serious disease in which harmful cells grow
+vocabulary,diagnosis,identification-of-an-illness,noun,b1,health,the identification of an illness by a doctor
+vocabulary,prescription,doctors-written-order-for-medicine,noun,b1,health,a written order from a doctor for medicine
+vocabulary,mask,cover-for-nose-and-mouth,noun,b1,health,a cover worn over the nose and mouth
+vocabulary,sanitizer,liquid-that-kills-germs,noun,b1,health,a liquid that kills germs on the hands
+vocabulary,hygiene,keeping-things-clean,noun,b1,health,keeping the body and surroundings clean
+vocabulary,nutrition,food-the-body-needs,noun,b1,health,the food a body needs to stay healthy
+vocabulary,calorie,unit-of-food-energy,noun,b1,health,a unit for measuring the energy in food
+vocabulary,protein,food-substance-for-muscle,noun,b1,health,a substance in food needed to build muscle
+vocabulary,supplement,product-added-to-the-diet,noun,b1,health,a product taken to add something to the diet
+vocabulary,workout,period-of-exercise,noun,b1,sports,a period of physical exercise
+vocabulary,yoga,stretching-and-breathing-practice,noun,b1,sports,a system of stretching and breathing exercises
+vocabulary,meditation,calming-the-mind-in-silence,noun,b1,health,the practice of calming the mind in silence
+vocabulary,insomnia,inability-to-sleep,noun,b1,health,the condition of being unable to sleep
+vocabulary,fatigue,extreme-tiredness,noun,b1,health,extreme tiredness
+vocabulary,immunity,ability-to-resist-illness,noun,b1,health,the body's ability to resist an illness
+vocabulary,antibody,body-substance-that-fights-infection,noun,b1,health,a substance the body makes to fight infection
+vocabulary,booster,extra-dose-of-a-vaccine,noun,b1,health,an extra dose of a vaccine
+vocabulary,referral,doctors-request-to-see-a-specialist,noun,b1,health,a doctor's request to see a specialist
+vocabulary,specialist,doctor-expert-in-one-area,noun,b1,health,a doctor with deep knowledge of one area
+vocabulary,paramedic,trained-emergency-medical-worker,noun,b1,health,a person trained to treat people in emergencies
+vocabulary,anesthetic,drug-that-stops-pain,noun,b1,health,a drug that stops you feeling pain
+vocabulary,immune,protected-from-a-disease,adjective,b1,health,protected from a disease
+vocabulary,acute,severe-and-sudden,adjective,b1,health,severe and sudden
+vocabulary,infectious,able-to-pass-between-people,adjective,b1,health,able to pass from one person to another
+vocabulary,fatal,causing-death,adjective,b1,health,causing death
+vocabulary,harmless,unable-to-cause-damage,adjective,b1,health,not able to cause damage or injury
+vocabulary,allergic,reacting-badly-to-a-substance,adjective,b1,health,reacting badly to a substance
+vocabulary,frail,weak-and-often-ill,adjective,b1,health,weak and often ill usually from age
+vocabulary,recovering,becoming-healthy-again,adjective,b1,health,becoming healthy again after an illness
+vocabulary,sedentary,spending-much-time-sitting,adjective,b1,health,spending a lot of time sitting
+vocabulary,nutritious,full-of-what-the-body-needs,adjective,b1,health,full of what the body needs
+vocabulary,processed,changed-in-a-factory,adjective,b1,health,changed from its natural state in a factory
+vocabulary,relieve,make-pain-less-strong,verb,b1,health,to make pain or discomfort less strong
+vocabulary,soothe,make-a-sore-area-calmer,verb,b1,health,to make a sore area or person feel calmer
+vocabulary,swell,become-larger-from-injury,verb,b1,health,to become larger usually because of injury
+vocabulary,infect,pass-disease-into-a-body,verb,b1,health,to pass a disease into a person or wound
+vocabulary,transmit,pass-disease-between-people,verb,b1,health,to pass a disease from one person to another
+vocabulary,hydrate,give-the-body-water,verb,b1,health,to give the body enough water
+vocabulary,inhale,breathe-air-in,verb,b1,body,to breathe air into the lungs
+vocabulary,exhale,breathe-air-out,verb,b1,body,to breathe air out of the lungs
+vocabulary,strain,hurt-a-muscle-by-stretching,verb,b1,body,to hurt a muscle by stretching it too much
+vocabulary,starve,become-weak-without-food,verb,b1,health,to become very weak from lack of food
+vocabulary,chronically,over-a-long-period,adverb,b1,health,over a long period again and again
+vocabulary,mildly,in-a-small-gentle-way,adverb,b1,health,in a small or gentle way
+vocabulary,severely,very-badly-or-seriously,adverb,b1,health,very badly or seriously
+vocabulary,grief,deep-sadness-after-death,noun,b1,emotions,deep sadness after someone dies
+vocabulary,sorrow,feeling-of-deep-sadness,noun,b1,emotions,a feeling of deep sadness
+vocabulary,delight,feeling-of-great-pleasure,noun,b1,emotions,a feeling of great pleasure
+vocabulary,excitement,strong-eager-energy,noun,b1,emotions,a strong feeling of eager energy
+vocabulary,frustration,feeling-of-being-blocked,noun,b1,emotions,the feeling of being blocked by something
+vocabulary,disappointment,sadness-when-hopes-fail,noun,b1,emotions,sadness because something was not good enough
+vocabulary,embarrassment,feeling-of-looking-foolish,noun,b1,emotions,the feeling of being uncomfortable in front of others
+vocabulary,empathy,understanding-others-feelings,noun,b1,emotions,the ability to understand another person's feelings
+vocabulary,gratitude,feeling-of-being-thankful,noun,b1,emotions,the feeling of being thankful
+vocabulary,boredom,tiredness-from-no-interest,noun,b1,emotions,the feeling that nothing interests you
+vocabulary,passion,strong-love-or-interest,noun,b1,emotions,a very strong feeling of love or interest
+vocabulary,disgust,strong-feeling-of-revulsion,noun,b1,emotions,a strong feeling that something is very unpleasant
+vocabulary,satisfaction,pleasure-in-what-you-did,noun,b1,emotions,the feeling of being pleased with what you did
+vocabulary,insecurity,lack-of-confidence,noun,b1,emotions,a lack of confidence in yourself
+vocabulary,fondness,gentle-liking,noun,b1,emotions,a gentle liking for someone or something
+vocabulary,longing,wish-to-have-the-unreachable,noun,b1,emotions,a strong wish for something you cannot have
+vocabulary,nostalgia,warm-sadness-about-the-past,noun,b1,emotions,a warm sad feeling about the past
+vocabulary,awe,wonder-and-respect,noun,b1,emotions,a feeling of wonder and respect
+vocabulary,resentment,anger-at-unfair-treatment,noun,b1,emotions,anger at being treated unfairly
+vocabulary,bitterness,anger-from-unfair-events,noun,b1,emotions,a feeling of anger caused by unfair events
+vocabulary,serenity,deep-peace-and-quiet,noun,b1,emotions,deep peace and quiet
+vocabulary,dread,fear-of-something-coming,noun,b1,emotions,a strong fear of something that will happen
+vocabulary,unease,feeling-that-something-is-wrong,noun,b1,emotions,a feeling that something is wrong
+vocabulary,hopeless,having-no-hope-of-success,adjective,b1,emotions,having no hope of success
+vocabulary,frustrated,annoyed-at-being-blocked,adjective,b1,emotions,annoyed because you cannot do what you want
+vocabulary,content,quietly-happy-with-what-you-have,adjective,b1,emotions,quietly happy with what you have
+vocabulary,miserable,very-unhappy-and-uncomfortable,adjective,b1,emotions,very unhappy and uncomfortable
+vocabulary,terrified,extremely-afraid,adjective,b1,emotions,extremely afraid
+vocabulary,irritated,slightly-angry,adjective,b1,emotions,slightly angry about something
+vocabulary,moody,changing-emotions-quickly,adjective,b1,emotions,changing emotions quickly and often badly
+vocabulary,pessimistic,expecting-bad-things,adjective,b1,emotions,expecting bad things to happen
+vocabulary,sincere,honest-and-meaning-it,adjective,b1,emotions,honest and meaning what you say
+vocabulary,arrogant,believing-you-are-better,adjective,b1,emotions,believing you are better than other people
+vocabulary,stubborn,refusing-to-change-your-mind,adjective,b1,emotions,refusing to change your mind
+vocabulary,nostalgic,feeling-warm-sadness-about-the-past,adjective,b1,emotions,feeling warm sadness about the past
+vocabulary,uneasy,slightly-worried,adjective,b1,emotions,slightly worried that something is wrong
+vocabulary,frighten,make-someone-afraid,verb,b1,emotions,to make someone feel afraid
+vocabulary,irritate,make-someone-slightly-angry,verb,b1,emotions,to make someone slightly angry
+vocabulary,impress,make-someone-respect-you,verb,b1,emotions,to make someone respect or admire you
+vocabulary,embarrass,make-someone-feel-ashamed,verb,b1,emotions,to make someone feel ashamed in front of others
+vocabulary,disappoint,fail-someones-hopes,verb,b1,emotions,to make someone sad by not meeting their hopes
+vocabulary,frustrate,make-someone-feel-blocked,verb,b1,emotions,to make someone feel blocked or annoyed
+vocabulary,discourage,make-less-willing,verb,b1,emotions,to make someone less willing to do something
+vocabulary,amuse,make-someone-laugh,verb,b1,emotions,to make someone laugh or smile
+vocabulary,resent,feel-angry-about-unfairness,verb,b1,emotions,to feel angry about something unfair
+vocabulary,cherish,love-and-value-very-much,verb,b1,emotions,to love and value something very much
+vocabulary,anxiously,in-a-worried-way,adverb,b1,emotions,in a worried way
+vocabulary,proudly,with-pleasure-in-yourself,adverb,b1,emotions,with pleasure about something you did
+vocabulary,nervously,in-a-worried-or-tense-way,adverb,b1,emotions,in a worried or tense way
+vocabulary,furiously,with-very-strong-anger,adverb,b1,emotions,with very strong anger
+vocabulary,spouse,person-you-are-married-to,noun,b1,relationships,the person you are married to
+vocabulary,fiance,man-you-promised-to-marry,noun,b1,relationships,the man you have promised to marry
+vocabulary,groom,man-on-his-wedding-day,noun,b1,relationships,a man on his wedding day
+vocabulary,grandparent,parent-of-your-parent,noun,b1,relationships,the parent of your mother or father
+vocabulary,sibling,brother-or-sister,noun,b1,relationships,a brother or sister
+vocabulary,guardian,person-legally-responsible-for-a-child,noun,b1,relationships,a person legally responsible for a child
+vocabulary,stepmother,fathers-new-wife,noun,b1,relationships,the woman your parent marries after a divorce
+vocabulary,stepfather,mothers-new-husband,noun,b1,relationships,the man your parent marries after a divorce
+vocabulary,separation,living-apart-from-a-spouse,noun,b1,relationships,the state of living apart from a spouse
+vocabulary,custody,legal-right-to-care-for-a-child,noun,b1,relationships,the legal right to care for a child
+vocabulary,romance,love-relationship,noun,b1,relationships,a love relationship often exciting
+vocabulary,acquaintance,person-you-know-slightly,noun,b1,relationships,a person you know slightly
+vocabulary,teamwork,working-well-together,noun,b1,work,people working well together
+vocabulary,betrayal,breaking-someones-trust,noun,b1,relationships,the act of breaking someone's trust
+vocabulary,courtesy,polite-behavior,noun,b1,relationships,polite behavior toward others
+vocabulary,hospitality,friendly-treatment-of-guests,noun,b1,relationships,friendly treatment of guests
+vocabulary,reunion,meeting-after-time-apart,noun,b1,relationships,a meeting of people who have been apart
+vocabulary,upbringing,way-parents-raise-a-child,noun,b1,relationships,the way your parents raise you
+vocabulary,descendant,person-related-to-someone-past,noun,b1,relationships,a person related to someone from the past
+vocabulary,household,all-people-in-one-home,noun,b1,home,all the people living in one home
+vocabulary,housemate,person-sharing-your-home,noun,b1,home,a person who shares your home
+vocabulary,widow,woman-whose-husband-died,noun,b1,relationships,a woman whose husband has died
+vocabulary,orphan,child-whose-parents-died,noun,b1,relationships,a child whose parents have died
+vocabulary,misunderstanding,failure-to-understand-each-other,noun,b1,relationships,a failure to understand each other
+vocabulary,forgiveness,act-of-forgiving,noun,b1,relationships,the act of forgiving someone
+vocabulary,supportive,giving-help-and-encouragement,adjective,b1,relationships,giving help and encouragement
+vocabulary,caring,kind-and-interested-in-others,adjective,b1,relationships,kind and interested in other people
+vocabulary,loving,showing-deep-affection,adjective,b1,relationships,showing deep affection
+vocabulary,faithful,keeping-promises-to-a-partner,adjective,b1,relationships,keeping your promises to a partner
+vocabulary,considerate,thinking-of-others-needs,adjective,b1,relationships,thinking about other people's needs
+vocabulary,thoughtful,showing-care-for-others,adjective,b1,relationships,showing care for other people
+vocabulary,hospitable,welcoming-to-guests,adjective,b1,relationships,welcoming to guests
+vocabulary,protective,wanting-to-keep-someone-safe,adjective,b1,relationships,wanting to keep someone safe
+vocabulary,divorced,no-longer-married,adjective,b1,relationships,no longer married after a legal end
+vocabulary,nurture,care-for-someone-growing,verb,b1,relationships,to care for someone as they grow
+vocabulary,flirt,behave-playfully-toward-someone,verb,b1,relationships,to behave playfully toward someone you like
+vocabulary,reunite,bring-people-together-again,verb,b1,relationships,to bring people together after time apart
+vocabulary,befriend,become-a-friend-to-someone,verb,b1,relationships,to become a friend to someone
+vocabulary,console,comfort-someone-who-is-sad,verb,b1,relationships,to comfort someone who is sad
+vocabulary,confide,tell-a-secret-to-someone,verb,b1,relationships,to tell a secret to someone you trust
+vocabulary,propose,ask-someone-to-marry,verb,b1,relationships,to ask someone to marry you
+vocabulary,socialize,spend-time-with-other-people,verb,b1,relationships,to spend time with other people
+vocabulary,mingle,move-around-and-talk-to-people,verb,b1,relationships,to move around and talk to many people
+vocabulary,scold,speak-angrily-to-someone,verb,b1,relationships,to speak angrily to someone who did wrong
+vocabulary,babysit,look-after-a-child-briefly,verb,b1,relationships,to look after a child for a short time
+vocabulary,lovingly,with-deep-affection,adverb,b1,relationships,with deep affection
+vocabulary,warmly,in-a-friendly-way,adverb,b1,relationships,in a friendly way
+vocabulary,respectfully,with-politeness-and-consideration,adverb,b1,relationships,with politeness and consideration
+vocabulary,patiently,with-calm-waiting,adverb,b1,relationships,with calm waiting
+vocabulary,kindly,in-a-gentle-caring-way,adverb,b1,relationships,in a gentle caring way
+vocabulary,headline,title-of-a-news-story,noun,b1,communication,the title of a news story in large letters
+vocabulary,feedback,comments-on-how-someone-did,noun,b1,work,comments about how well someone did something
+vocabulary,rumor,unproven-news-people-repeat,noun,b1,communication,a piece of news people repeat without proof
+vocabulary,gossip,talk-about-private-lives,noun,b1,communication,talk about other people's private lives
+vocabulary,negotiation,formal-talks-for-an-agreement,noun,b1,work,formal talks to reach an agreement
+vocabulary,subtitle,translated-words-on-screen,noun,b1,communication,words on screen that translate spoken language
+vocabulary,interpreter,person-who-translates-speech,noun,b1,communication,a person who translates speech between languages
+vocabulary,listener,person-who-pays-attention,noun,b1,communication,a person who pays attention to what is said
+vocabulary,dialect,regional-form-of-a-language,noun,b1,communication,a form of a language used in one region
+vocabulary,gesture,hand-movement-with-meaning,noun,b1,communication,a movement of the hand that expresses meaning
+vocabulary,symbol,sign-that-stands-for-something,noun,b1,communication,a sign that stands for something else
+vocabulary,memo,short-office-message,noun,b1,work,a short written message inside an office
+vocabulary,newsletter,regular-report-to-members,noun,b1,communication,a short report sent regularly to members
+vocabulary,channel,service-that-carries-broadcasts,noun,b1,technology,a service or frequency that carries broadcasts
+vocabulary,username,name-used-to-log-in,noun,b1,technology,the name you use to log into an account
+vocabulary,emoji,small-picture-in-messages,noun,b1,technology,a small picture used in electronic messages
+vocabulary,slang,very-informal-group-words,noun,b1,communication,very informal words used by a group
+vocabulary,idiom,phrase-with-a-figurative-meaning,noun,b1,communication,a phrase whose meaning is not literal
+vocabulary,proverb,short-saying-with-advice,noun,b1,communication,a short saying with practical advice
+vocabulary,quotation,words-repeated-from-a-source,noun,b1,communication,words taken from a book or speech
+vocabulary,journalist,person-who-reports-news,noun,b1,communication,a person who reports news
+vocabulary,reporter,person-who-gathers-news,noun,b1,communication,a person who gathers news for the public
+vocabulary,editor,person-who-prepares-text,noun,b1,work,a person who checks and prepares text for publishing
+vocabulary,caption,words-under-a-picture,noun,b1,communication,the words printed under a picture
+vocabulary,transcript,written-record-of-speech,noun,b1,communication,a written record of spoken words
+vocabulary,fluent,able-to-speak-easily,adjective,b1,communication,able to speak a language easily
+vocabulary,eloquent,clear-and-powerful-in-speech,adjective,b1,communication,speaking or writing in a clear powerful way
+vocabulary,vague,not-clear-or-exact,adjective,b1,communication,not clear or exact
+vocabulary,confusing,hard-to-understand,adjective,b1,communication,hard to understand
+vocabulary,indirect,not-saying-something-directly,adjective,b1,communication,not saying something in a direct way
+vocabulary,controversial,causing-strong-disagreement,adjective,b1,communication,causing strong disagreement
+vocabulary,persuasive,able-to-make-people-agree,adjective,b1,communication,able to make people agree with you
+vocabulary,outspoken,saying-your-opinion-openly,adjective,b1,communication,saying your opinion openly even if it shocks
+vocabulary,articulate,able-to-express-ideas-clearly,adjective,b1,communication,able to express ideas clearly
+vocabulary,concise,short-and-clearly-expressed,adjective,b1,communication,short and clearly expressed
+vocabulary,blunt,saying-things-very-directly,adjective,b1,communication,saying things very directly without politeness
+vocabulary,mumble,speak-quietly-and-unclearly,verb,b1,communication,to speak quietly so the words are unclear
+vocabulary,murmur,speak-in-a-soft-low-voice,verb,b1,communication,to speak in a soft low voice
+vocabulary,stammer,speak-with-pauses,verb,b1,communication,to speak with pauses and repeated sounds
+vocabulary,interpret,translate-spoken-words,verb,b1,communication,to translate spoken words into another language
+vocabulary,summarize,give-the-main-points,verb,b1,communication,to give the main points in a short form
+vocabulary,notify,tell-someone-officially,verb,b1,communication,to tell someone officially about something
+vocabulary,paraphrase,express-in-your-own-words,verb,b1,communication,to express someone's words in your own words
+vocabulary,converse,have-a-conversation,verb,b1,communication,to have a conversation with someone
+vocabulary,state,say-something-clearly-and-formally,verb,b1,communication,to say something clearly and formally
+vocabulary,convey,communicate-an-idea-or-feeling,verb,b1,communication,to communicate an idea or feeling
+vocabulary,frankly,in-an-honest-direct-way,adverb,b1,communication,in an honest and direct way
+vocabulary,supposedly,as-people-say,adverb,b1,communication,as people say though not proven
+vocabulary,personally,speaking-for-yourself,adverb,b1,communication,speaking for yourself not for others
+vocabulary,openly,without-hiding-anything,adverb,b1,communication,without hiding your feelings or actions
+vocabulary,gadget,small-useful-device,noun,b1,technology,a small useful device
+vocabulary,hardware,physical-parts-of-a-computer,noun,b1,technology,the physical parts of a computer system
+vocabulary,browser,program-for-viewing-websites,noun,b1,technology,a program used to view websites
+vocabulary,database,organized-computer-information-store,noun,b1,technology,an organized store of information a computer can search
+vocabulary,server,computer-that-supplies-data,noun,b1,technology,a computer that supplies data to other computers
+vocabulary,profile,personal-information-page,noun,b1,technology,a page of personal information on a service
+vocabulary,upgrade,newer-better-version,noun,b1,technology,a newer better version of something
+vocabulary,backup,copy-of-data-kept-safely,noun,b1,technology,a copy of data kept in case the original is lost
+vocabulary,sensor,part-that-detects-changes,noun,b1,technology,a part that detects heat light or movement
+vocabulary,algorithm,steps-a-computer-follows,noun,b1,technology,a set of steps a computer follows to solve a problem
+vocabulary,automation,machines-doing-work-without-people,noun,b1,work,the use of machines to do work without people
+vocabulary,glitch,small-fault-in-a-system,noun,b1,technology,a small fault in a program or system
+vocabulary,bug,error-in-a-computer-program,noun,b1,technology,an error in a computer program
+vocabulary,hacker,person-who-breaks-into-systems,noun,b1,technology,a person who breaks into computer systems
+vocabulary,privacy,keeping-personal-information-secret,noun,b1,technology,the state of keeping personal information secret
+vocabulary,encryption,hiding-data-in-a-code,noun,b1,technology,the process of hiding data so others cannot read it
+vocabulary,malware,software-that-damages-computers,noun,b1,technology,software designed to damage or steal from a computer
+vocabulary,notification,message-that-something-happened,noun,b1,technology,a message that tells you something happened
+vocabulary,streaming,sending-media-over-the-internet,noun,b1,technology,sending sound or video continuously over the internet
+vocabulary,startup,new-company-trying-to-grow,noun,b1,work,a new company trying to grow quickly
+vocabulary,developer,person-who-writes-programs,noun,b1,work,a person who writes computer programs
+vocabulary,programmer,person-whose-job-is-code,noun,b1,work,a person whose job is writing code
+vocabulary,coding,writing-computer-programs,noun,b1,technology,the activity of writing computer programs
+vocabulary,storage,space-for-keeping-data,noun,b1,technology,space for keeping data
+vocabulary,chip,small-part-that-processes-data,noun,b1,technology,a small piece of silicon that processes data
+vocabulary,satellite,object-in-space-sending-signals,noun,b1,technology,an object in space that sends signals to Earth
+vocabulary,antenna,device-for-radio-signals,noun,b1,technology,a device that sends or receives radio signals
+vocabulary,router,device-connecting-computers-to-the-internet,noun,b1,technology,a device that connects computers to the internet
+vocabulary,interactive,allowing-users-to-respond,adjective,b1,technology,allowing users to take part and respond
+vocabulary,portable,light-enough-to-carry,adjective,b1,technology,light enough to carry easily
+vocabulary,obsolete,no-longer-used,adjective,b1,technology,no longer used because something better exists
+vocabulary,innovative,introducing-new-ideas,adjective,b1,technology,introducing new ideas or methods
+vocabulary,automated,done-by-machines,adjective,b1,technology,done by machines without people
+vocabulary,buggy,full-of-errors,adjective,b1,technology,full of errors and faults
+vocabulary,versatile,able-to-do-many-things,adjective,b1,technology,able to do many different things
+vocabulary,unstable,likely-to-fail-suddenly,adjective,b1,technology,likely to fail or change suddenly
+vocabulary,unreliable,not-trustworthy-to-work,adjective,b1,technology,not able to be trusted to work well
+vocabulary,tap,touch-a-screen-lightly,verb,b1,technology,to touch a screen lightly with a finger
+vocabulary,swipe,move-a-finger-across-a-screen,verb,b1,technology,to move a finger across a screen
+vocabulary,sync,make-devices-share-data,verb,b1,technology,to make two devices share the same data
+vocabulary,disconnect,break-a-device-connection,verb,b1,technology,to break a connection between devices
+vocabulary,reboot,restart-a-computer,verb,b1,technology,to restart a computer
+vocabulary,reset,return-settings-to-original,verb,b1,technology,to return settings to their original state
+vocabulary,refresh,load-the-latest-page,verb,b1,technology,to load the latest version of a page
+vocabulary,encrypt,convert-data-into-a-code,verb,b1,technology,to convert data into a secret code
+vocabulary,hack,break-into-a-system-illegally,verb,b1,technology,to break into a computer system illegally
+vocabulary,debug,find-and-fix-program-errors,verb,b1,technology,to find and fix errors in a program
+vocabulary,compress,make-a-file-smaller,verb,b1,technology,to make a file smaller in size
+vocabulary,smartphone,phone-that-runs-programs,noun,b1,technology,a mobile phone that runs programs
+vocabulary,gaming,playing-computer-games,noun,b1,sports,the activity of playing computer games
