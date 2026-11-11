@@ -5149,3 +5149,253 @@ vocabulary,punctually,at-the-exact-agreed-time,adverb,b2,time,at the exact agree
 vocabulary,simultaneously,at-the-same-time,adverb,b2,time,at the same time
 vocabulary,seasonally,at-particular-times-of-the-year,adverb,b2,time,at particular times of the year
 vocabulary,temporarily,for-a-limited-time,adverb,b2,time,for a limited time
+vocabulary,crimson,deep-rich-red,noun,b2,color,a deep rich red
+vocabulary,scarlet,bright-red-with-orange,noun,b2,color,a bright red with a slight orange tone
+vocabulary,burgundy,dark-red-almost-purple,noun,b2,color,a dark red that looks almost purple
+vocabulary,magenta,bright-pinkish-purple,noun,b2,color,a bright pinkish purple
+vocabulary,ivory,soft-yellowish-white,noun,b2,color,a soft yellowish white
+vocabulary,teal,blue-green-color,noun,b2,color,a blue-green color
+vocabulary,charcoal,very-dark-gray,noun,b2,color,a very dark gray
+vocabulary,pastel,soft-pale-color,noun,b2,color,a soft pale color
+vocabulary,pigment,substance-that-gives-color,noun,b2,color,a substance that gives color
+vocabulary,gradient,gradual-change-of-color,noun,b2,color,a gradual change from one color to another
+vocabulary,saturation,strength-of-a-color,noun,b2,color,the strength or purity of a color
+vocabulary,neon,bright-gas-light-color,noun,b2,color,a bright gas used in glowing signs
+vocabulary,sapphire,deep-clear-blue,noun,b2,color,a deep clear blue
+vocabulary,copper,reddish-brown-metal-color,noun,b2,color,a reddish brown metal color
+vocabulary,ochre,yellow-brown-earth-color,noun,b2,color,a yellow-brown earth color
+vocabulary,sepia,brown-tone-of-old-photos,noun,b2,color,a brown tone used in old photographs
+vocabulary,ebony,very-dark-black-wood,noun,b2,color,a very dark black wood color
+vocabulary,slate,dark-blue-gray,noun,b2,color,a dark blue-gray color
+vocabulary,clay,reddish-brown-earth-color,noun,b2,color,a reddish brown earth color
+vocabulary,gloss,shiny-reflecting-surface,noun,b2,color,a shiny surface that reflects light
+vocabulary,sheen,soft-shine-on-a-surface,noun,b2,color,a soft shine on a surface
+vocabulary,luster,bright-shine-on-a-surface,noun,b2,color,a bright shine on a surface
+vocabulary,spectrum,full-range-of-light-colors,noun,b2,color,the full range of colors in light
+vocabulary,paintbrush,brush-used-for-painting,noun,b2,color,a brush used for painting
+vocabulary,prism,glass-that-splits-light,noun,b2,color,a glass shape that separates light into colors
+vocabulary,easel,frame-that-holds-a-canvas,noun,b2,color,a frame that holds a canvas while you paint
+vocabulary,mural,large-picture-on-a-wall,noun,b2,color,a large picture painted on a wall
+vocabulary,tarnish,dull-layer-on-metal,noun,b2,color,a dull layer that forms on metal
+vocabulary,glaze,shiny-layer-on-pottery,noun,b2,color,a shiny layer on pottery or paint
+vocabulary,vibrant,bright-and-strong-in-color,adjective,b2,color,bright and strong in color
+vocabulary,muted,soft-and-not-bright,adjective,b2,color,soft and not bright
+vocabulary,transparent,clear-enough-to-see-through,adjective,b2,color,clear enough to see through
+vocabulary,opaque,not-able-to-be-seen-through,adjective,b2,color,not able to be seen through
+vocabulary,tinted,slightly-colored,adjective,b2,color,slightly colored
+vocabulary,speckled,covered-with-small-dots,adjective,b2,color,covered with small dots
+vocabulary,monochrome,in-shades-of-one-color,adjective,b2,color,in shades of one color only
+vocabulary,saturated,very-strong-and-pure-in-color,adjective,b2,color,very strong and pure in color
+vocabulary,iridescent,showing-changing-colors,adjective,b2,color,showing changing colors like a soap bubble
+vocabulary,glowing,giving-out-steady-light,adjective,b2,color,giving out a steady light
+vocabulary,auburn,reddish-brown-hair,adjective,b2,color,reddish brown usually of hair
+vocabulary,blond,pale-yellow-hair,adjective,b2,color,pale yellow usually of hair
+vocabulary,ginger,orange-brown-hair,adjective,b2,color,orange brown usually of hair
+vocabulary,chestnut,deep-reddish-brown,adjective,b2,color,a deep reddish brown
+vocabulary,creamy,pale-yellow-white,adjective,b2,color,pale yellow-white like cream
+vocabulary,fluorescent,very-bright-reflecting-color,adjective,b2,color,very bright as if reflecting light
+vocabulary,shimmer,shine-with-soft-moving-light,verb,b2,color,to shine with a soft moving light
+vocabulary,scribble,write-quickly-and-carelessly,verb,b2,color,to write or draw quickly and carelessly
+vocabulary,smudge,make-a-dirty-mark-by-rubbing,verb,b2,color,to make a dirty mark by rubbing
+vocabulary,vividly,in-a-very-bright-clear-way,adverb,b2,color,in a very bright clear way
+vocabulary,vibrantly,in-a-bright-strong-way,adverb,b2,color,in a bright strong way
+vocabulary,hatchback,car-with-a-back-door,noun,b2,car,a car with a door at the back that opens upward
+vocabulary,convertible,car-with-a-removable-roof,noun,b2,car,a car with a roof that can be removed
+vocabulary,wagon,car-with-extra-space-behind,noun,b2,car,a car with a long body and extra space at the back
+vocabulary,coupe,two-door-car-with-sloping-back,noun,b2,car,a car with two doors and a sloping back
+vocabulary,minivan,large-family-car,noun,b2,car,a large family car with sliding doors
+vocabulary,limousine,very-long-luxury-car,noun,b2,car,a very long luxury car with a driver
+vocabulary,fender,part-covering-the-wheel,noun,b2,car,the part of a car that covers the wheel
+vocabulary,grille,front-air-opening-of-a-car,noun,b2,car,the metal front of a car that lets air in
+vocabulary,indicator,flashing-turn-light,noun,b2,car,a flashing light that shows which way you turn
+vocabulary,exhaust,pipe-for-burned-gas,noun,b2,car,the pipe that carries burned gas from the engine
+vocabulary,muffler,part-that-quiets-the-engine,noun,b2,car,a part that makes the engine quieter
+vocabulary,gearbox,part-that-controls-power-to-wheels,noun,b2,car,the part that controls power to the wheels
+vocabulary,odometer,device-showing-distance-traveled,noun,b2,car,a device that shows how far a car has traveled
+vocabulary,speedometer,device-showing-speed,noun,b2,car,a device that shows how fast you are going
+vocabulary,hybrid,vehicle-using-fuel-and-electricity,noun,b2,car,a vehicle that runs on both fuel and electricity
+vocabulary,charging,putting-electricity-into-a-battery,noun,b2,car,the act of putting electricity into a battery
+vocabulary,mileage,distance-a-car-has-traveled,noun,b2,car,the distance a car has traveled
+vocabulary,maintenance,regular-work-to-keep-a-car-good,noun,b2,car,regular work to keep a car in good condition
+vocabulary,dealership,business-that-sells-cars,noun,b2,car,a business that sells cars
+vocabulary,registration,official-records-for-a-car,noun,b2,car,official records that allow a car to be used
+vocabulary,roadside,area-beside-a-road,noun,b2,car,the area beside a road
+vocabulary,tread,pattern-on-a-tire,noun,b2,car,the pattern on the surface of a tire
+vocabulary,spare,extra-tire-kept-in-a-car,noun,b2,car,an extra tire kept in a car
+vocabulary,jack,tool-that-lifts-a-car,noun,b2,car,a tool that lifts a car
+vocabulary,toolkit,set-of-tools-kept-together,noun,b2,car,a set of tools kept together
+vocabulary,sunroof,window-in-a-car-roof,noun,b2,car,a window in the roof of a car
+vocabulary,caravan,vehicle-pulled-for-living-space,noun,b2,car,a vehicle pulled behind a car with living space
+vocabulary,camper,vehicle-with-beds-for-traveling,noun,b2,car,a vehicle with beds for traveling
+vocabulary,inspection,official-check-of-a-vehicle,noun,b2,car,an official check of a vehicle's condition
+vocabulary,emission,gas-released-into-the-air,noun,b2,car,gas or waste released into the air
+vocabulary,carwash,place-where-cars-are-cleaned,noun,b2,car,a place where cars are cleaned
+vocabulary,motorist,person-who-drives-a-car,noun,b2,car,a person who drives a car
+vocabulary,tollbooth,building-where-drivers-pay,noun,b2,car,a small building where drivers pay to use a road
+vocabulary,valet,person-paid-to-park-cars,noun,b2,car,a person paid to park cars for others
+vocabulary,speeding,driving-faster-than-allowed,noun,b2,car,the act of driving faster than allowed
+vocabulary,navigation,system-that-shows-the-way,noun,b2,car,the system that shows the way to a place
+vocabulary,manual,operated-by-hand,adjective,b2,car,operated by hand rather than automatically
+vocabulary,secondhand,owned-before-by-someone,adjective,b2,car,owned by someone before you
+vocabulary,roadworthy,safe-enough-to-drive,adjective,b2,car,safe enough to be driven
+vocabulary,roomy,having-plenty-of-space-inside,adjective,b2,car,having plenty of space inside
+vocabulary,sturdy,strongly-built,adjective,b2,car,strongly built and unlikely to break
+vocabulary,trusty,reliable-after-long-use,adjective,b2,car,reliable after long use
+vocabulary,merge,join-a-road-with-traffic,verb,b2,car,to join a road with moving traffic
+vocabulary,swerve,turn-suddenly-to-avoid,verb,b2,car,to turn suddenly to avoid something
+vocabulary,stall,stop-working-suddenly,verb,b2,car,to stop working suddenly as an engine
+vocabulary,idle,run-an-engine-while-still,verb,b2,car,to run an engine while the car is not moving
+vocabulary,carpool,share-a-car-for-regular-journeys,verb,b2,car,to share a car for regular journeys
+vocabulary,rideshare,share-a-car-journey-by-app,verb,b2,car,to use an app to share a car journey
+vocabulary,smoothly,in-a-steady-even-way,adverb,b2,car,in a steady even way without problems
+vocabulary,cautiously,in-a-careful-way,adverb,b2,car,in a careful way avoiding danger
+vocabulary,chore,small-regular-house-job,noun,b2,daily-routine,a small regular job around the house
+vocabulary,errand,short-trip-for-a-small-task,noun,b2,daily-routine,a short trip to do a small task
+vocabulary,groceries,food-bought-from-a-shop,noun,b2,daily-routine,food and supplies bought from a shop
+vocabulary,nap,short-daytime-sleep,noun,b2,daily-routine,a short sleep during the day
+vocabulary,snooze,short-extra-sleep-after-the-alarm,noun,b2,daily-routine,a short extra sleep after the alarm
+vocabulary,bedtime,usual-time-to-sleep,noun,b2,daily-routine,the usual time when you go to sleep
+vocabulary,grooming,keeping-yourself-clean-and-neat,noun,b2,daily-routine,the activity of keeping yourself clean and neat
+vocabulary,tidying,making-a-place-neat,noun,b2,daily-routine,the act of making a place neat
+vocabulary,housework,cleaning-and-caring-for-a-home,noun,b2,daily-routine,the work of cleaning and caring for a home
+vocabulary,ironing,smoothing-cloth-with-heat,noun,b2,daily-routine,the act of smoothing cloth with a hot tool
+vocabulary,toothpaste,substance-for-cleaning-teeth,noun,b2,daily-routine,a soft substance used to clean teeth
+vocabulary,comb,tool-for-arranging-hair,noun,b2,daily-routine,a tool with teeth for arranging hair
+vocabulary,razor,tool-used-for-shaving,noun,b2,daily-routine,a tool used for shaving hair
+vocabulary,shampoo,liquid-soap-for-hair,noun,b2,daily-routine,a liquid soap for washing hair
+vocabulary,robe,loose-garment-worn-at-home,noun,b2,daily-routine,a loose garment worn before or after dressing
+vocabulary,hamper,basket-for-dirty-clothes,noun,b2,daily-routine,a basket for dirty clothes
+vocabulary,bin,container-for-waste,noun,b2,daily-routine,a container for waste
+vocabulary,disposal,machine-that-grinds-food-waste,noun,b2,daily-routine,a machine that grinds food waste in a sink
+vocabulary,briefcase,flat-case-for-work-papers,noun,b2,work,a flat case for carrying papers to work
+vocabulary,reminder,something-that-helps-you-remember,noun,b2,daily-routine,something that helps you remember a task
+vocabulary,appliance,machine-used-in-the-home,noun,b2,home,a machine used in the home
+vocabulary,fixture,object-fixed-in-a-building,noun,b2,home,an object fixed permanently in a building
+vocabulary,plumbing,pipes-that-carry-water,noun,b2,home,the pipes and systems that carry water
+vocabulary,bathtub,large-container-for-washing,noun,b2,home,a large container you sit in to wash
+vocabulary,washbasin,bowl-with-a-tap,noun,b2,home,a bowl with a tap for washing hands
+vocabulary,washcloth,small-cloth-for-washing,noun,b2,home,a small cloth used for washing the body
+vocabulary,nightgown,loose-garment-for-bed,noun,b2,clothes,a loose garment worn in bed
+vocabulary,hairbrush,brush-for-arranging-hair,noun,b2,home,a brush used to arrange hair
+vocabulary,skincare,care-given-to-the-skin,noun,b2,health,the care you give your skin
+vocabulary,haircut,act-or-style-of-cutting-hair,noun,b2,body,the act or style of cutting hair
+vocabulary,declutter,remove-unused-things,verb,b2,daily-routine,to remove unused things from a space
+vocabulary,multitask,do-several-things-at-once,verb,b2,daily-routine,to do several things at the same time
+vocabulary,prioritize,decide-what-matters-first,verb,b2,daily-routine,to decide what needs attention first
+vocabulary,procrastinate,delay-something-you-should-do,verb,b2,daily-routine,to delay something you should do
+vocabulary,unwind,relax-after-stress,verb,b2,daily-routine,to relax after work or stress
+vocabulary,recharge,rest-to-get-energy-again,verb,b2,daily-routine,to rest so you have energy again
+vocabulary,meditate,sit-quietly-to-calm-the-mind,verb,b2,daily-routine,to sit quietly and calm the mind
+vocabulary,journal,write-about-your-day,verb,b2,daily-routine,to write about your day in a notebook
+vocabulary,sort,arrange-things-into-groups,verb,b2,daily-routine,to arrange things into groups
+vocabulary,moisturize,put-cream-on-the-skin,verb,b2,health,to put cream on the skin
+vocabulary,braid,twist-hair-into-a-rope,verb,b2,body,to twist hair into a rope-like style
+vocabulary,trim,cut-a-small-amount,verb,b2,daily-routine,to cut a small amount from something
+vocabulary,stack,put-things-in-a-neat-pile,verb,b2,home,to put things in a neat pile
+vocabulary,gargle,wash-the-throat-with-liquid,verb,b2,health,to wash the throat with liquid and air
+vocabulary,groggy,slow-after-sleep,adjective,b2,daily-routine,slow and confused after sleep
+vocabulary,refreshed,feeling-fresh-again,adjective,b2,daily-routine,feeling fresh and full of energy again
+vocabulary,messy,untidy-and-disordered,adjective,b2,home,untidy and disordered
+vocabulary,organized,arranged-in-a-careful-order,adjective,b2,daily-routine,arranged in a careful order
+vocabulary,rested,full-of-energy-after-sleep,adjective,b2,daily-routine,feeling healthy after sleep
+vocabulary,habitually,as-a-regular-habit,adverb,b2,daily-routine,as a regular habit
+vocabulary,cuisine,style-of-cooking-from-a-place,noun,b2,food,the style of cooking from a country or region
+vocabulary,flavor,taste-of-a-food,noun,b2,food,the taste of a food or drink
+vocabulary,pastry,sweet-baked-food,noun,b2,food,a sweet baked food made with flour and butter
+vocabulary,crust,hard-outer-layer-of-bread,noun,b2,food,the hard outer layer of bread or a pie
+vocabulary,filling,food-inside-a-pie,noun,b2,food,the food inside a pie or sandwich
+vocabulary,preservative,substance-that-keeps-food-fresh,noun,b2,food,a substance added to keep food fresh
+vocabulary,additive,substance-added-to-food,noun,b2,food,a substance added to food for a purpose
+vocabulary,carbs,foods-that-give-energy,noun,b2,food,foods that give the body energy
+vocabulary,fiber,plant-part-that-helps-digestion,noun,b2,food,the part of plants that helps digestion
+vocabulary,dairy,milk-and-food-made-from-it,noun,b2,food,milk and foods made from it
+vocabulary,seafood,fish-and-shellfish-as-food,noun,b2,food,fish and shellfish eaten as food
+vocabulary,shellfish,sea-animals-with-shells,noun,b2,food,sea animals with shells that people eat
+vocabulary,gluten,wheat-protein-some-cannot-eat,noun,b2,food,a protein in wheat that some people cannot eat
+vocabulary,appetizer,small-dish-before-the-meal,noun,b2,food,a small dish eaten before the main meal
+vocabulary,beverage,a-drink,noun,b2,food,a drink
+vocabulary,smoothie,thick-fruit-drink,noun,b2,food,a thick drink made from fruit and milk
+vocabulary,dressing,sauce-poured-over-salad,noun,b2,food,a sauce poured over salad
+vocabulary,cinnamon,sweet-brown-bark-spice,noun,b2,food,a sweet brown spice from tree bark
+vocabulary,vanilla,sweet-flavor-for-desserts,noun,b2,food,a sweet flavor used in desserts
+vocabulary,syrup,thick-sweet-liquid,noun,b2,food,a thick sweet liquid
+vocabulary,porridge,warm-soft-oats-dish,noun,b2,food,a soft warm dish made from oats and water
+vocabulary,waffle,crisp-grid-shaped-bread,noun,b2,food,a crisp bread cooked in a grid-shaped iron
+vocabulary,omelet,beaten-eggs-cooked-flat,noun,b2,food,eggs beaten and cooked flat
+vocabulary,lentil,small-flat-cooked-seed,noun,b2,food,a small flat seed cooked and eaten
+vocabulary,chickpea,round-yellow-cooking-seed,noun,b2,food,a round yellow seed used in cooking
+vocabulary,tofu,soft-food-made-from-soybeans,noun,b2,food,a soft white food made from soybeans
+vocabulary,walnut,nut-with-a-hard-shell,noun,b2,food,a nut with a hard shell and wrinkled shape
+vocabulary,raisin,dried-grape,noun,b2,food,a dried grape
+vocabulary,fig,soft-sweet-seeded-fruit,noun,b2,food,a soft sweet fruit with many small seeds
+vocabulary,berry,small-soft-seeded-fruit,noun,b2,food,a small soft fruit with seeds
+vocabulary,citrus,orange-or-lemon-fruit,noun,b2,food,a fruit such as an orange or lemon
+vocabulary,zest,outer-skin-of-citrus,noun,b2,food,the outer skin of a citrus fruit used for flavor
+vocabulary,barbecue,meal-cooked-outdoors-over-fire,noun,b2,food,a meal cooked outdoors over fire
+vocabulary,vegetarian,containing-no-meat,adjective,b2,food,not containing meat
+vocabulary,vegan,with-no-animal-products,adjective,b2,food,with no animal products at all
+vocabulary,savory,salty-or-spicy-not-sweet,adjective,b2,food,salty or spicy rather than sweet
+vocabulary,bland,having-little-taste,adjective,b2,food,having little taste
+vocabulary,crispy,pleasantly-hard-outside,adjective,b2,food,pleasantly hard and dry on the outside
+vocabulary,ripe,ready-to-eat,adjective,b2,food,fully grown and ready to eat
+vocabulary,unripe,not-ready-to-eat,adjective,b2,food,not ready to eat yet
+vocabulary,stale,no-longer-fresh,adjective,b2,food,no longer fresh
+vocabulary,overcooked,cooked-too-long,adjective,b2,food,cooked for too long
+vocabulary,undercooked,not-cooked-enough,adjective,b2,food,not cooked enough
+vocabulary,dice,cut-food-into-small-cubes,verb,b2,food,to cut food into small cubes
+vocabulary,marinate,leave-food-in-flavored-liquid,verb,b2,food,to leave food in a flavored liquid
+vocabulary,saute,cook-quickly-in-little-oil,verb,b2,food,to cook quickly in a little oil
+vocabulary,sprinkle,scatter-small-amounts,verb,b2,food,to scatter small amounts over something
+vocabulary,garnish,decorate-a-dish-with-food,verb,b2,food,to decorate a dish with small pieces of food
+vocabulary,pit,remove-the-stone-from-fruit,verb,b2,food,to remove the stone from a fruit
+vocabulary,core,remove-the-center-of-fruit,verb,b2,food,to remove the center of a fruit
+vocabulary,utensil,tool-used-for-cooking,noun,b2,kitchen,a tool used for cooking or eating
+vocabulary,countertop,flat-work-surface,noun,b2,kitchen,the flat work surface in a kitchen
+vocabulary,foil,thin-metal-sheet-for-food,noun,b2,kitchen,thin metal sheet used to wrap food
+vocabulary,container,box-or-jar-that-holds-things,noun,b2,kitchen,a box or jar used to hold things
+vocabulary,pestle,tool-for-crushing-spices,noun,b2,kitchen,a small heavy tool for crushing spices
+vocabulary,flame,hot-bright-gas-from-fire,noun,b2,kitchen,the hot bright gas from a fire
+vocabulary,burner,part-of-a-stove-that-heats,noun,b2,kitchen,the part of a stove that produces heat
+vocabulary,hotplate,small-flat-cooking-surface,noun,b2,kitchen,a small flat electric cooking surface
+vocabulary,griddle,flat-heated-cooking-surface,noun,b2,kitchen,a flat heated surface for cooking
+vocabulary,dishrack,frame-for-drying-dishes,noun,b2,kitchen,a frame for drying washed dishes
+vocabulary,trivet,stand-for-hot-dishes,noun,b2,kitchen,a stand that protects a table from hot dishes
+vocabulary,potholder,cloth-for-holding-hot-pans,noun,b2,kitchen,a thick cloth for holding hot pans
+vocabulary,backsplash,surface-behind-a-counter,noun,b2,kitchen,the surface behind a kitchen counter
+vocabulary,vent,opening-that-lets-air-out,noun,b2,kitchen,an opening that lets air or steam out
+vocabulary,leftover,food-kept-after-a-meal,noun,b2,kitchen,food kept after a meal
+vocabulary,cube,small-block-of-something,noun,b2,kitchen,a small block of something
+vocabulary,sanitation,systems-that-keep-places-clean,noun,b2,kitchen,the systems that keep places clean and safe
+vocabulary,aroma,pleasant-smell-from-food,noun,b2,kitchen,a pleasant smell from food
+vocabulary,expiry,date-after-which-food-is-unsafe,noun,b2,kitchen,the date after which food is unsafe
+vocabulary,dishcloth,cloth-for-washing-dishes,noun,b2,kitchen,a cloth used for washing dishes
+vocabulary,teakettle,container-for-boiling-water,noun,b2,kitchen,a container for boiling water
+vocabulary,cooktop,top-part-of-a-stove,noun,b2,kitchen,the top part of a stove with burners
+vocabulary,drainboard,ridged-area-beside-a-sink,noun,b2,kitchen,the area beside a sink for drying dishes
+vocabulary,reheat,heat-food-again,verb,b2,kitchen,to heat food again
+vocabulary,defrost,let-frozen-food-become-soft,verb,b2,kitchen,to let frozen food become soft
+vocabulary,refrigerate,keep-food-cold,verb,b2,kitchen,to keep food cold in a fridge
+vocabulary,ferment,let-food-change-over-time,verb,b2,kitchen,to let food change chemically over time
+vocabulary,mash,crush-food-until-soft,verb,b2,kitchen,to crush food until it is soft
+vocabulary,sieve,press-food-through-a-fine-net,verb,b2,kitchen,to press food through a fine net
+vocabulary,toss,mix-food-with-a-quick-movement,verb,b2,kitchen,to mix food with a quick light movement
+vocabulary,scoop,lift-food-with-a-deep-spoon,verb,b2,kitchen,to lift food with a deep spoon
+vocabulary,puree,crush-food-into-a-smooth-paste,verb,b2,kitchen,to crush food into a smooth paste
+vocabulary,chill,make-food-cold-before-serving,verb,b2,kitchen,to make food cold before serving
+vocabulary,sterilize,clean-so-no-germs-remain,verb,b2,kitchen,to clean something so no germs remain
+vocabulary,sizzle,hiss-while-frying,verb,b2,kitchen,to make a hissing sound while frying
+vocabulary,spatter,splash-small-drops-of-liquid,verb,b2,kitchen,to splash small drops of hot liquid
+vocabulary,disinfect,clean-to-kill-germs,verb,b2,kitchen,to clean a surface to kill germs
+vocabulary,nonstick,not-letting-food-stick,adjective,b2,kitchen,not letting food stick to the surface
+vocabulary,heatproof,able-to-resist-heat,adjective,b2,kitchen,able to resist high heat
+vocabulary,stainless,steel-that-does-not-rust,adjective,b2,kitchen,made of steel that does not rust easily
+vocabulary,disposable,made-to-be-thrown-away,adjective,b2,kitchen,made to be thrown away after use
+vocabulary,reusable,able-to-be-used-again,adjective,b2,kitchen,able to be used again
+vocabulary,leakproof,not-letting-liquid-escape,adjective,b2,kitchen,not letting liquid escape
+vocabulary,flimsy,thin-and-easily-broken,adjective,b2,kitchen,thin and easily broken
+vocabulary,greasy,covered-with-oil-or-fat,adjective,b2,kitchen,covered with oil or fat
+vocabulary,rusty,covered-with-red-corrosion,adjective,b2,kitchen,covered with reddish brown corrosion
+vocabulary,culinary,relating-to-cooking,adjective,b2,kitchen,relating to cooking
+vocabulary,gourmet,of-very-high-food-quality,adjective,b2,kitchen,of very high food quality
+vocabulary,homemade,made-at-home,adjective,b2,kitchen,made at home rather than bought
+vocabulary,canned,preserved-in-a-metal-container,adjective,b2,kitchen,preserved in a metal container

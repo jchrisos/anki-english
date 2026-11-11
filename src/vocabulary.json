@@ -60269,5 +60269,3681 @@
     "image": "voc_1f2c5b53",
     "image_brief": "a road closed with cones while workers repair it, a driver turning back, seen from the side at wide distance, grey light, a barrier and a van, patient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
     "example": "The road is **temporarily** closed."
+  },
+  {
+    "phrase": "crimson",
+    "pos": "noun",
+    "sense": "deep-rich-red",
+    "pronunciation": "/ˈkrɪmzən/",
+    "definition": "a deep rich red.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_8de06a42",
+    "image_brief": "a woman in a crimson coat crossing a wet street, seen from the side at wide distance, evening light, umbrellas and a bus, dramatic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The curtains were a heavy **crimson**."
+  },
+  {
+    "phrase": "scarlet",
+    "pos": "noun",
+    "sense": "bright-red-with-orange",
+    "pronunciation": "/ˈskɑrlɪt/",
+    "definition": "a bright red with a slight orange tone.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_58ba834a",
+    "image_brief": "a man painting a door scarlet in a yard, seen from the side at medium distance, bright daylight, a bucket and a brush, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She painted the door **scarlet**."
+  },
+  {
+    "phrase": "burgundy",
+    "pos": "noun",
+    "sense": "dark-red-almost-purple",
+    "pronunciation": "/ˈbɝɡəndi/",
+    "definition": "a dark red that looks almost purple.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_35664ea2",
+    "image_brief": "a man tying a burgundy tie in a mirror, seen from behind at medium distance, bedroom light, a jacket and a chair, formal mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He chose a **burgundy** tie."
+  },
+  {
+    "phrase": "magenta",
+    "pos": "noun",
+    "sense": "bright-pinkish-purple",
+    "pronunciation": "/məˈdʒɛntə/",
+    "definition": "a bright pinkish purple.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_929af8fb",
+    "image_brief": "an artist mixing magenta paint on a palette, seen from above at medium distance, studio light, brushes and jars, absorbed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The poster used **magenta** and yellow."
+  },
+  {
+    "phrase": "ivory",
+    "pos": "noun",
+    "sense": "soft-yellowish-white",
+    "pronunciation": "/ˈaɪvɝi/",
+    "definition": "a soft yellowish white.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_dd390160",
+    "image_brief": "a woman hanging an ivory curtain by a window, seen from the side at medium distance, soft light, a ladder and a rod, calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The walls are painted **ivory**."
+  },
+  {
+    "phrase": "teal",
+    "pos": "noun",
+    "sense": "blue-green-color",
+    "pronunciation": "/til/",
+    "definition": "a blue-green color.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_d4c2193a",
+    "image_brief": "a woman wrapping a teal scarf around her neck, seen from the side at medium distance, cold light, a coat and a cup, cozy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her scarf is a deep **teal**."
+  },
+  {
+    "phrase": "charcoal",
+    "pos": "noun",
+    "sense": "very-dark-gray",
+    "pronunciation": "/ˈtʃɑrˌkoʊl/",
+    "definition": "a very dark gray.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_9a0cab1f",
+    "image_brief": "a man in a charcoal suit waiting at a station, seen from the side at wide distance, grey light, a bag and a bench, subdued mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The coat comes in **charcoal**."
+  },
+  {
+    "phrase": "pastel",
+    "pos": "noun",
+    "sense": "soft-pale-color",
+    "pronunciation": "/pæˈstɛl/",
+    "definition": "a soft pale color.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_2f905392",
+    "image_brief": "a child's room with pastel walls and toys while a mother arranges a shelf, seen from the doorway at medium distance, soft light, a cot and a rug, gentle mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The nursery walls are a soft **pastel**."
+  },
+  {
+    "phrase": "pigment",
+    "pos": "noun",
+    "sense": "substance-that-gives-color",
+    "pronunciation": "/ˈpɪɡmənt/",
+    "definition": "a substance that gives color.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_abe8da4d",
+    "image_brief": "an artisan grinding pigment on a stone slab, seen from above at medium distance, workshop light, jars and a brush, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The paint contains a natural **pigment**."
+  },
+  {
+    "phrase": "gradient",
+    "pos": "noun",
+    "sense": "gradual-change-of-color",
+    "pronunciation": "/ˈɡreɪdiənt/",
+    "definition": "a gradual change from one color to another.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_c333d078",
+    "image_brief": "a sunset sky fading through a gradient above a field with one walker below, seen from behind at wide distance, warm light, a path and a fence, peaceful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The sky showed a pink **gradient**."
+  },
+  {
+    "phrase": "saturation",
+    "pos": "noun",
+    "sense": "strength-of-a-color",
+    "pronunciation": "/ˌsætʃɝˈeɪʃən/",
+    "definition": "the strength or purity of a color.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_4194a8b1",
+    "image_brief": "a photographer adjusting an image on a laptop, seen from the side at medium distance, dim room light, a camera and a cup, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Turn down the **saturation** on the photo."
+  },
+  {
+    "phrase": "neon",
+    "pos": "noun",
+    "sense": "bright-gas-light-color",
+    "pronunciation": "/ˈniɑn/",
+    "definition": "a bright gas used in glowing signs.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_63d3aa63",
+    "image_brief": "a bar sign lit with neon tubes above a wet street, seen from below at wide distance, night light, cables and a doorway, moody mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The bar sign was lit with **neon**."
+  },
+  {
+    "phrase": "sapphire",
+    "pos": "noun",
+    "sense": "deep-clear-blue",
+    "pronunciation": "/ˈsæfaɪr/",
+    "definition": "a deep clear blue.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_6823517b",
+    "image_brief": "a jeweler holding a sapphire ring under a lamp, seen from above at medium distance, shop light, a tray and a cloth, precise mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The ring held a small **sapphire**."
+  },
+  {
+    "phrase": "copper",
+    "pos": "noun",
+    "sense": "reddish-brown-metal-color",
+    "pronunciation": "/ˈkɑpɝ/",
+    "definition": "a reddish brown metal color.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_b8ad4f88",
+    "image_brief": "a woman with copper hair standing by a window, seen from the side at medium distance, afternoon light, a plant and a chair, warm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her hair had a **copper** shine."
+  },
+  {
+    "phrase": "ochre",
+    "pos": "noun",
+    "sense": "yellow-brown-earth-color",
+    "pronunciation": "/ˈoʊkɝ/",
+    "definition": "a yellow-brown earth color.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_8f82fd79",
+    "image_brief": "a worker painting an ochre wall in a courtyard, seen from the side at medium distance, hot light, a ladder and a bucket, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The walls were painted **ochre**."
+  },
+  {
+    "phrase": "sepia",
+    "pos": "noun",
+    "sense": "brown-tone-of-old-photos",
+    "pronunciation": "/ˈsipiə/",
+    "definition": "a brown tone used in old photographs.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_dd5de1ea",
+    "image_brief": "an older man looking at sepia photographs in an album, seen from above at medium distance, lamp light, a cup and a box, nostalgic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The photo faded to **sepia**."
+  },
+  {
+    "phrase": "ebony",
+    "pos": "noun",
+    "sense": "very-dark-black-wood",
+    "pronunciation": "/ˈɛbəni/",
+    "definition": "a very dark black wood color.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_3880db10",
+    "image_brief": "a pianist opening the lid of an ebony piano, seen from the side at medium distance, hall light, a stool and a score turned away, elegant mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The piano is polished **ebony**."
+  },
+  {
+    "phrase": "slate",
+    "pos": "noun",
+    "sense": "dark-blue-gray",
+    "pronunciation": "/sleɪt/",
+    "definition": "a dark blue-gray color.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_b1000903",
+    "image_brief": "a roofer laying slate tiles on a roof, seen from a low angle at wide distance, grey light, tools and a ladder, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The roof is **slate**."
+  },
+  {
+    "phrase": "clay",
+    "pos": "noun",
+    "sense": "reddish-brown-earth-color",
+    "pronunciation": "/kleɪ/",
+    "definition": "a reddish brown earth color.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_98377e7f",
+    "image_brief": "a potter shaping a clay bowl on a wheel, seen from the side at medium distance, studio light, tools and jars, absorbed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The pot is a warm **clay** color."
+  },
+  {
+    "phrase": "gloss",
+    "pos": "noun",
+    "sense": "shiny-reflecting-surface",
+    "pronunciation": "/ɡlɔs/",
+    "definition": "a shiny surface that reflects light.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_6b1bfba9",
+    "image_brief": "a worker applying gloss to a wooden door, seen from the side at medium distance, bright light, a brush and a can, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The paint has a high **gloss**."
+  },
+  {
+    "phrase": "sheen",
+    "pos": "noun",
+    "sense": "soft-shine-on-a-surface",
+    "pronunciation": "/ʃin/",
+    "definition": "a soft shine on a surface.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_544a5b71",
+    "image_brief": "a woman smoothing a silk cloth that catches the light, seen from above at medium distance, window light, a table and scissors, delicate mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The silk has a gentle **sheen**."
+  },
+  {
+    "phrase": "luster",
+    "pos": "noun",
+    "sense": "bright-shine-on-a-surface",
+    "pronunciation": "/ˈlʌstɝ/",
+    "definition": "a bright shine on a surface.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_ebf99711",
+    "image_brief": "a man polishing a silver spoon until it shines, seen from the side at medium distance, kitchen light, a cloth and a tray, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The old silver lost its **luster**."
+  },
+  {
+    "phrase": "spectrum",
+    "pos": "noun",
+    "sense": "full-range-of-light-colors",
+    "pronunciation": "/ˈspɛktrəm/",
+    "definition": "the full range of colors in light.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_07d1dfc7",
+    "image_brief": "a prism splitting sunlight onto a wall while a child points, seen from the side at medium distance, bright window light, a table and a glass, curious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A prism splits light into a **spectrum**."
+  },
+  {
+    "phrase": "paintbrush",
+    "pos": "noun",
+    "sense": "brush-used-for-painting",
+    "pronunciation": "/ˈpeɪntˌbrʌʃ/",
+    "definition": "a brush used for painting.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_bf0970cd",
+    "image_brief": "a woman cleaning a paintbrush at a sink, seen from the side at medium distance, studio light, jars and a cloth, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He cleaned the **paintbrush** under the tap."
+  },
+  {
+    "phrase": "easel",
+    "pos": "noun",
+    "sense": "frame-that-holds-a-canvas",
+    "pronunciation": "/ˈizəl/",
+    "definition": "a frame that holds a canvas while you paint.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_5b6530da",
+    "image_brief": "an artist stepping back from a canvas on an easel, seen from behind at medium distance, studio light, pots and a stool, thoughtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She set the canvas on the **easel**."
+  },
+  {
+    "phrase": "mural",
+    "pos": "noun",
+    "sense": "large-picture-on-a-wall",
+    "pronunciation": "/ˈmjʊrəl/",
+    "definition": "a large picture painted on a wall.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_3b3cd915",
+    "image_brief": "two painters working on a large mural on a station wall, seen from below at wide distance, afternoon light, ladders and buckets, busy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **mural** covers the whole station wall."
+  },
+  {
+    "phrase": "tarnish",
+    "pos": "noun",
+    "sense": "dull-layer-on-metal",
+    "pronunciation": "/ˈtɑrnɪʃ/",
+    "definition": "a dull layer that forms on metal.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_e84bea59",
+    "image_brief": "a woman rubbing tarnish from an old silver tray, seen from above at medium distance, window light, a cloth and a bowl, patient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The spoon had a dark **tarnish**."
+  },
+  {
+    "phrase": "glaze",
+    "pos": "noun",
+    "sense": "shiny-layer-on-pottery",
+    "pronunciation": "/ɡleɪz/",
+    "definition": "a shiny layer on pottery or paint.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_5dee5199",
+    "image_brief": "a potter dipping a bowl into blue glaze, seen from the side at medium distance, workshop light, buckets and shelves, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The bowl has a blue **glaze**."
+  },
+  {
+    "phrase": "vibrant",
+    "pos": "adjective",
+    "sense": "bright-and-strong-in-color",
+    "pronunciation": "/ˈvaɪbrənt/",
+    "definition": "bright and strong in color.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_bca8b5d3",
+    "image_brief": "a market stall piled with vibrant fabrics while a woman lifts one, seen from the side at medium distance, bright light, crates and a mirror, cheerful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The market is full of **vibrant** cloth."
+  },
+  {
+    "phrase": "muted",
+    "pos": "adjective",
+    "sense": "soft-and-not-bright",
+    "pronunciation": "/ˈmjutɪd/",
+    "definition": "soft and not bright.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_8f7a5f2f",
+    "image_brief": "a quiet living room in muted greens with a man reading, seen from across the room at medium distance, soft daylight, a rug and a plant, calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The room uses **muted** greens."
+  },
+  {
+    "phrase": "transparent",
+    "pos": "adjective",
+    "sense": "clear-enough-to-see-through",
+    "pronunciation": "/trænsˈpɛrənt/",
+    "definition": "clear enough to see through.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_c5ecc405",
+    "image_brief": "a woman holding a transparent plastic lid over a container, seen from the side at medium distance, kitchen light, a bowl and a cloth, practical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The lid is **transparent** plastic."
+  },
+  {
+    "phrase": "opaque",
+    "pos": "adjective",
+    "sense": "not-able-to-be-seen-through",
+    "pronunciation": "/oʊˈpeɪk/",
+    "definition": "not able to be seen through.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_a01a59ec",
+    "image_brief": "a frosted window that hides the room while a woman stands inside, seen from outside at medium distance, grey light, a plant and a sill, private mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The glass is **opaque** from the outside."
+  },
+  {
+    "phrase": "tinted",
+    "pos": "adjective",
+    "sense": "slightly-colored",
+    "pronunciation": "/ˈtɪntɪd/",
+    "definition": "slightly colored.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_b119174c",
+    "image_brief": "a man in tinted glasses reading on a bus, seen from the side at medium distance, flat light, a bag and a newspaper, cool mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He wears **tinted** glasses."
+  },
+  {
+    "phrase": "speckled",
+    "pos": "adjective",
+    "sense": "covered-with-small-dots",
+    "pronunciation": "/ˈspɛkəld/",
+    "definition": "covered with small dots.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_3de168e4",
+    "image_brief": "a speckled bird on a garden fence while a woman watches from the door, seen from the side at medium distance, morning light, a feeder and a hedge, quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The bird has a **speckled** breast."
+  },
+  {
+    "phrase": "monochrome",
+    "pos": "adjective",
+    "sense": "in-shades-of-one-color",
+    "pronunciation": "/ˈmɑnəˌkroʊm/",
+    "definition": "in shades of one color only.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_ac4319a4",
+    "image_brief": "a photographer reviewing monochrome prints on a table, seen from above at medium distance, soft light, a camera and a cup, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The film is shot in **monochrome**."
+  },
+  {
+    "phrase": "saturated",
+    "pos": "adjective",
+    "sense": "very-strong-and-pure-in-color",
+    "pronunciation": "/ˈsætʃɝˌeɪtɪd/",
+    "definition": "very strong and pure in color.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_a3fb21e5",
+    "image_brief": "a bright saturated sunset over a beach with two people walking, seen from behind at wide distance, vivid light, towels and a boat, glowing mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The photo looks too **saturated**."
+  },
+  {
+    "phrase": "iridescent",
+    "pos": "adjective",
+    "sense": "showing-changing-colors",
+    "pronunciation": "/ˌɪrɪˈdɛsənt/",
+    "definition": "showing changing colors like a soap bubble.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_e5fd3fbf",
+    "image_brief": "a child holding an iridescent shell up to the light, seen from the side at medium distance, seaside light, a bucket and a towel, delighted mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The shell has an **iridescent** surface."
+  },
+  {
+    "phrase": "glowing",
+    "pos": "adjective",
+    "sense": "giving-out-steady-light",
+    "pronunciation": "/ˈɡloʊɪŋ/",
+    "definition": "giving out a steady light.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_1179f2f8",
+    "image_brief": "a fireplace with glowing coals in a dark room while a man warms his hands, seen from the side at medium distance, orange light, a chair and a book, cozy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **glowing** coals warmed the room."
+  },
+  {
+    "phrase": "auburn",
+    "pos": "adjective",
+    "sense": "reddish-brown-hair",
+    "pronunciation": "/ˈɔbɝn/",
+    "definition": "reddish brown, usually of hair.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_90b5e09d",
+    "image_brief": "a woman with auburn hair tying it back at a mirror, seen from behind at medium distance, morning light, a brush and a coat, calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **auburn** hair caught the sun."
+  },
+  {
+    "phrase": "blond",
+    "pos": "adjective",
+    "sense": "pale-yellow-hair",
+    "pronunciation": "/blɑnd/",
+    "definition": "pale yellow, usually of hair.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_efaec5ec",
+    "image_brief": "a blond child running through a sprinkler, seen from the side at wide distance, bright summer light, a lawn and a hose, joyful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The child has **blond** curls."
+  },
+  {
+    "phrase": "ginger",
+    "pos": "adjective",
+    "sense": "orange-brown-hair",
+    "pronunciation": "/ˈdʒɪndʒɝ/",
+    "definition": "orange-brown, usually of hair.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_183ab300",
+    "image_brief": "a ginger cat asleep on a windowsill while a woman reads nearby, seen from the side at medium distance, afternoon light, a plant and a cup, lazy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He has **ginger** hair like his mother."
+  },
+  {
+    "phrase": "chestnut",
+    "pos": "adjective",
+    "sense": "deep-reddish-brown",
+    "pronunciation": "/ˈtʃɛsˌnʌt/",
+    "definition": "a deep reddish brown.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_a2033eeb",
+    "image_brief": "a chestnut horse standing in a paddock while a rider adjusts a saddle, seen from the side at wide distance, morning light, a fence and a bucket, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The horse is a **chestnut** mare."
+  },
+  {
+    "phrase": "creamy",
+    "pos": "adjective",
+    "sense": "pale-yellow-white",
+    "pronunciation": "/ˈkrimi/",
+    "definition": "pale yellow-white like cream.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_62f9f0c2",
+    "image_brief": "a woman serving creamy soup into bowls, seen from above at medium distance, warm kitchen light, a ladle and bread, comforting mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The walls are a **creamy** white."
+  },
+  {
+    "phrase": "fluorescent",
+    "pos": "adjective",
+    "sense": "very-bright-reflecting-color",
+    "pronunciation": "/ˌflʊˈrɛsənt/",
+    "definition": "very bright, as if reflecting light.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_1668377d",
+    "image_brief": "workers in fluorescent vests crossing a road works site, seen from the side at wide distance, grey light, cones and a truck, busy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She wore a **fluorescent** vest."
+  },
+  {
+    "phrase": "shimmer",
+    "pos": "verb",
+    "sense": "shine-with-soft-moving-light",
+    "pronunciation": "/ˈʃɪmɝ/",
+    "definition": "to shine with a soft moving light.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "present_example": "The lake **shimmers** at sunset.",
+    "past_simple_example": "The silk **shimmered** under the lamp.",
+    "past_participle_example": "The surface has **shimmered** all afternoon.",
+    "present_participle_example": "**Shimmering** light filled the hall.",
+    "image": "voc_36a5ab8b",
+    "image_brief": "heat shimmering above a road at noon with a cyclist in the distance, seen from a low angle at wide distance, white light, a fence and dry grass, hazy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The lake began to **shimmer** at sunset."
+  },
+  {
+    "phrase": "scribble",
+    "pos": "verb",
+    "sense": "write-quickly-and-carelessly",
+    "pronunciation": "/ˈskrɪbəl/",
+    "definition": "to write or draw quickly and carelessly.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "present_example": "He **scribbles** notes on napkins.",
+    "past_simple_example": "She **scribbled** a number on the page.",
+    "past_participle_example": "The address has been **scribbled** in pencil.",
+    "present_participle_example": "**Scribbling** quickly, he missed the last word.",
+    "image": "voc_32f20cfd",
+    "image_brief": "a man scribbling a note on a napkin at a café, seen from the side at medium distance, warm light, a cup and a phone, quick mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He likes to **scribble** on napkins."
+  },
+  {
+    "phrase": "smudge",
+    "pos": "verb",
+    "sense": "make-a-dirty-mark-by-rubbing",
+    "pronunciation": "/smʌdʒ/",
+    "definition": "to make a dirty mark by rubbing.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "present_example": "Wet ink **smudges** easily.",
+    "past_simple_example": "He **smudged** the paint with his sleeve.",
+    "past_participle_example": "The drawing has been **smudged**.",
+    "present_participle_example": "**Smudging** the lines ruins the sketch.",
+    "image": "voc_fc9fc4ce",
+    "image_brief": "a child smudging wet paint on paper with one hand, seen from above at medium distance, bright light, jars and a brush, messy happy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Do not **smudge** the wet paint."
+  },
+  {
+    "phrase": "vividly",
+    "pos": "adverb",
+    "sense": "in-a-very-bright-clear-way",
+    "pronunciation": "/ˈvɪvɪdli/",
+    "definition": "in a very bright clear way.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_f3ebedce",
+    "image_brief": "a vividly painted house on a grey street while a woman passes, seen from across the street at wide distance, flat light, a bicycle and a gate, cheerful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The dress is **vividly** orange."
+  },
+  {
+    "phrase": "vibrantly",
+    "pos": "adverb",
+    "sense": "in-a-bright-strong-way",
+    "pronunciation": "/ˈvaɪbrəntli/",
+    "definition": "in a bright strong way.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_e2f84c05",
+    "image_brief": "a vibrantly painted shop front with flowers outside while a customer enters, seen from the side at medium distance, morning light, crates and a sign turned away, lively mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The shop window is **vibrantly** painted."
+  },
+  {
+    "phrase": "prism",
+    "pos": "noun",
+    "sense": "glass-that-splits-light",
+    "pronunciation": "/ˈprɪzəm/",
+    "definition": "a glass shape that separates light into colors.",
+    "categories": [
+      "color"
+    ],
+    "level": "b2",
+    "image": "voc_c60da97c",
+    "image_brief": "a glass prism on a windowsill casting colors across a table, a woman leaning in, seen from the side at medium distance, bright daylight, a cup and a plant, curious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **prism** turned the sunlight into bands of color."
+  },
+  {
+    "phrase": "hatchback",
+    "pos": "noun",
+    "sense": "car-with-a-back-door",
+    "pronunciation": "/ˈhætʃˌbæk/",
+    "definition": "a car with a door at the back that opens upward.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_9dde0ae2",
+    "image_brief": "a hatchback parked outside a small shop with its rear door open while a woman loads boxes, seen from the side at medium distance, morning light, crates and a bicycle, practical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A small **hatchback** fits in that space."
+  },
+  {
+    "phrase": "convertible",
+    "pos": "noun",
+    "sense": "car-with-a-removable-roof",
+    "pronunciation": "/kənˈvɝtəbəl/",
+    "definition": "a car with a roof that can be removed.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_da804f04",
+    "image_brief": "a convertible on a coastal road with the top down and the driver in sunglasses, seen from the side at wide distance, bright light, cliffs and a barrier, free mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They rented a **convertible** for the coast road."
+  },
+  {
+    "phrase": "wagon",
+    "pos": "noun",
+    "sense": "car-with-extra-space-behind",
+    "pronunciation": "/ˈwæɡən/",
+    "definition": "a car with a long body and extra space at the back.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_2b895a20",
+    "image_brief": "a wagon loaded with camping gear in a driveway while a man closes the back, seen from the side at medium distance, morning light, a tent and a cooler, ready mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **wagon** holds all the camping gear."
+  },
+  {
+    "phrase": "coupe",
+    "pos": "noun",
+    "sense": "two-door-car-with-sloping-back",
+    "pronunciation": "/kup/",
+    "definition": "a car with two doors and a sloping back.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_4fa9f580",
+    "image_brief": "a coupe parked at a roadside diner with its owner leaning on the door, seen from the side at wide distance, evening light, a sign turned away and a truck, cool mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He drives an old **coupe**."
+  },
+  {
+    "phrase": "minivan",
+    "pos": "noun",
+    "sense": "large-family-car",
+    "pronunciation": "/ˈmɪniˌvæn/",
+    "definition": "a large family car with sliding doors.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_76d5c178",
+    "image_brief": "a minivan with its sliding door open while two children climb in and a parent watches, seen from the side at medium distance, morning light, bags and a school, busy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **minivan** seats seven."
+  },
+  {
+    "phrase": "limousine",
+    "pos": "noun",
+    "sense": "very-long-luxury-car",
+    "pronunciation": "/ˈlɪməˌzin/",
+    "definition": "a very long luxury car with a driver.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_0ef33c1c",
+    "image_brief": "a long limousine waiting outside a hotel entrance with a driver by the door, seen from across the street at wide distance, evening light, plants and a canopy, formal mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **limousine** waited outside the hotel."
+  },
+  {
+    "phrase": "fender",
+    "pos": "noun",
+    "sense": "part-covering-the-wheel",
+    "pronunciation": "/ˈfɛndɝ/",
+    "definition": "the part of a car that covers the wheel.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_45aa0ac3",
+    "image_brief": "a mechanic inspecting a bent fender in a workshop, seen from the side at medium distance, work light, tools and a tire, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **fender** was bent in the crash."
+  },
+  {
+    "phrase": "grille",
+    "pos": "noun",
+    "sense": "front-air-opening-of-a-car",
+    "pronunciation": "/ɡrɪl/",
+    "definition": "the metal front of a car that lets air in.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_f411c868",
+    "image_brief": "a man cleaning insects from a car grille at a service stop, seen from the side at medium distance, bright daylight, a cloth and a bucket, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **grille** was full of insects."
+  },
+  {
+    "phrase": "indicator",
+    "pos": "noun",
+    "sense": "flashing-turn-light",
+    "pronunciation": "/ˈɪndəˌkeɪtɝ/",
+    "definition": "a flashing light that shows which way you turn.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_6cb16a41",
+    "image_brief": "a driver flipping the indicator as the car turns, seen from the side at medium distance, grey light, a junction and a fence, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He forgot to use his **indicator**."
+  },
+  {
+    "phrase": "exhaust",
+    "pos": "noun",
+    "sense": "pipe-for-burned-gas",
+    "pronunciation": "/ɪɡˈzɔst/",
+    "definition": "the pipe that carries burned gas away from the engine.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_abf1613d",
+    "image_brief": "smoke rising from a car exhaust in a cold street while a woman walks past, seen from a low angle at medium distance, winter light, snow and a gate, chilly mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Smoke came from the **exhaust**."
+  },
+  {
+    "phrase": "muffler",
+    "pos": "noun",
+    "sense": "part-that-quiets-the-engine",
+    "pronunciation": "/ˈmʌflɝ/",
+    "definition": "a part that makes the engine quieter.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_d28f50e4",
+    "image_brief": "a mechanic fitting a new muffler under a raised car, seen from below at medium distance, work light, tools and a stand, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **muffler** needs replacing."
+  },
+  {
+    "phrase": "gearbox",
+    "pos": "noun",
+    "sense": "part-that-controls-power-to-wheels",
+    "pronunciation": "/ˈɡɪrˌbɑks/",
+    "definition": "the part that controls the engine's power to the wheels.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_c87adc5d",
+    "image_brief": "a mechanic with a gearbox on a bench, seen from above at medium distance, workshop light, tools and a manual, practical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **gearbox** makes a strange noise."
+  },
+  {
+    "phrase": "odometer",
+    "pos": "noun",
+    "sense": "device-showing-distance-traveled",
+    "pronunciation": "/ˌoʊˈdɑmətɝ/",
+    "definition": "a device that shows how far a car has traveled.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_bf2808dd",
+    "image_brief": "a driver glancing at the odometer in an old car, seen from the side at medium distance, afternoon light, a bag and a cup, nostalgic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **odometer** reads ninety thousand miles."
+  },
+  {
+    "phrase": "speedometer",
+    "pos": "noun",
+    "sense": "device-showing-speed",
+    "pronunciation": "/spiˈdɑmətɝ/",
+    "definition": "a device that shows how fast you are going.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_45404b0c",
+    "image_brief": "a driver watching the speedometer on a highway, seen from the side at medium distance, bright light, a wheel and a map, tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **speedometer** stopped working."
+  },
+  {
+    "phrase": "hybrid",
+    "pos": "noun",
+    "sense": "vehicle-using-fuel-and-electricity",
+    "pronunciation": "/ˈhaɪbrɪd/",
+    "definition": "a vehicle that runs on both fuel and electricity.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_a652e435",
+    "image_brief": "a hybrid car plugged into a charging point in a car park while a man waits, seen from the side at wide distance, evening light, bollards and a store, quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Their **hybrid** uses half the fuel."
+  },
+  {
+    "phrase": "charging",
+    "pos": "noun",
+    "sense": "putting-electricity-into-a-battery",
+    "pronunciation": "/ˈtʃɑrdʒɪŋ/",
+    "definition": "the act of putting electricity into a battery.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_ab91b256",
+    "image_brief": "a man plugging a cable into an electric car, seen from the side at medium distance, morning light, a station and a kiosk, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Charging** takes about an hour."
+  },
+  {
+    "phrase": "mileage",
+    "pos": "noun",
+    "sense": "distance-a-car-has-traveled",
+    "pronunciation": "/ˈmaɪlɪdʒ/",
+    "definition": "the distance a car has traveled.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_2782fd85",
+    "image_brief": "a buyer checking the mileage on a used car, seen from the side at medium distance, daylight, a lot and a clipboard turned away, cautious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The car has low **mileage** for its age."
+  },
+  {
+    "phrase": "maintenance",
+    "pos": "noun",
+    "sense": "regular-work-to-keep-a-car-good",
+    "pronunciation": "/ˈmeɪntənəns/",
+    "definition": "regular work to keep a car in good condition.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_2e6f3756",
+    "image_brief": "a mechanic working under a car on a lift, seen from below at medium distance, workshop light, tools and a trolley, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **maintenance** costs more than the fuel."
+  },
+  {
+    "phrase": "dealership",
+    "pos": "noun",
+    "sense": "business-that-sells-cars",
+    "pronunciation": "/ˈdilɝˌʃɪp/",
+    "definition": "a business that sells cars.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_e4e51301",
+    "image_brief": "a couple walking between new cars in a showroom, seen from the side at wide distance, bright light, desks and flags turned away, hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She bought it from a **dealership** downtown."
+  },
+  {
+    "phrase": "registration",
+    "pos": "noun",
+    "sense": "official-records-for-a-car",
+    "pronunciation": "/ˌrɛdʒəˈstreɪʃən/",
+    "definition": "official records that allow a car to be used.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_c365821c",
+    "image_brief": "a woman filling a form at a vehicle office, seen from the side at medium distance, flat light, a queue and a folder, tiresome mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **registration** expires next month."
+  },
+  {
+    "phrase": "roadside",
+    "pos": "noun",
+    "sense": "area-beside-a-road",
+    "pronunciation": "/ˈroʊdˌsaɪd/",
+    "definition": "the area beside a road.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_204e0c42",
+    "image_brief": "a family standing beside a car on the roadside while a truck approaches, seen from the side at wide distance, grey light, a triangle and bags, stranded mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They waited on the **roadside** for help."
+  },
+  {
+    "phrase": "tread",
+    "pos": "noun",
+    "sense": "pattern-on-a-tire",
+    "pronunciation": "/trɛd/",
+    "definition": "the pattern on the surface of a tire.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_de1a3337",
+    "image_brief": "a mechanic measuring tire tread with a gauge, seen from above at medium distance, garage light, a jack and a cloth, precise mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **tread** is worn thin."
+  },
+  {
+    "phrase": "spare",
+    "pos": "noun",
+    "sense": "extra-tire-kept-in-a-car",
+    "pronunciation": "/spɛr/",
+    "definition": "an extra tire kept in a car.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_02b92396",
+    "image_brief": "a man lifting a spare tire from a trunk, seen from behind at medium distance, roadside light, bags and a jack, hurried mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "There is no **spare** in the trunk."
+  },
+  {
+    "phrase": "jack",
+    "pos": "noun",
+    "sense": "tool-that-lifts-a-car",
+    "pronunciation": "/dʒæk/",
+    "definition": "a tool that lifts a car.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_fc0ac8c9",
+    "image_brief": "a man cranking a jack under a car, seen from a low angle at medium distance, roadside light, a wrench and a tire, effortful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He kept the **jack** under the seat."
+  },
+  {
+    "phrase": "toolkit",
+    "pos": "noun",
+    "sense": "set-of-tools-kept-together",
+    "pronunciation": "/ˈtulˌkɪt/",
+    "definition": "a set of tools kept together.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_8f86f564",
+    "image_brief": "a driver opening a toolkit beside an open hood, seen from above at medium distance, morning light, a cloth and a bottle, practical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **toolkit** saved us on the highway."
+  },
+  {
+    "phrase": "sunroof",
+    "pos": "noun",
+    "sense": "window-in-a-car-roof",
+    "pronunciation": "/ˈsʌnˌruf/",
+    "definition": "a window in the roof of a car.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_7188dc7d",
+    "image_brief": "a woman opening the sunroof on a sunny street, seen from the side at medium distance, bright light, trees and a bag, cheerful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She opened the **sunroof** on the first warm day."
+  },
+  {
+    "phrase": "caravan",
+    "pos": "noun",
+    "sense": "vehicle-pulled-for-living-space",
+    "pronunciation": "/ˈkærəˌvæn/",
+    "definition": "a vehicle pulled behind a car with living space.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_8be87f79",
+    "image_brief": "a caravan parked by a lake with a family setting chairs outside, seen from the side at wide distance, golden light, a car and a table, holiday mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They parked the **caravan** by the lake."
+  },
+  {
+    "phrase": "camper",
+    "pos": "noun",
+    "sense": "vehicle-with-beds-for-traveling",
+    "pronunciation": "/ˈkæmpɝ/",
+    "definition": "a vehicle with beds for traveling.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_c17b64e4",
+    "image_brief": "a camper van parked among trees with a man cooking outside, seen from the side at wide distance, morning light, a chair and a lantern, easy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **camper** sleeps four."
+  },
+  {
+    "phrase": "inspection",
+    "pos": "noun",
+    "sense": "official-check-of-a-vehicle",
+    "pronunciation": "/ɪnˈspɛkʃən/",
+    "definition": "an official check of a vehicle's condition.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_dcda2bf9",
+    "image_brief": "an inspector checking a car's lights in a garage, seen from the side at medium distance, work light, a form turned away and tools, serious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **inspection** found a broken light."
+  },
+  {
+    "phrase": "emission",
+    "pos": "noun",
+    "sense": "gas-released-into-the-air",
+    "pronunciation": "/ɪˈmɪʃən/",
+    "definition": "gas or waste released into the air.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_62802eef",
+    "image_brief": "a technician measuring exhaust emission from a car, seen from the side at medium distance, workshop light, a hose and a screen turned away, technical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The test measures **emission** from the engine."
+  },
+  {
+    "phrase": "carwash",
+    "pos": "noun",
+    "sense": "place-where-cars-are-cleaned",
+    "pronunciation": "/ˈkɑrˌwɑʃ/",
+    "definition": "a place where cars are cleaned.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_b83c9046",
+    "image_brief": "a car moving through a carwash with brushes around it, seen from the side at wide distance, bright light, water and a sign turned away, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We stopped at a **carwash** on the way home."
+  },
+  {
+    "phrase": "motorist",
+    "pos": "noun",
+    "sense": "person-who-drives-a-car",
+    "pronunciation": "/ˈmoʊtɝɪst/",
+    "definition": "a person who drives a car.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_e8419bdf",
+    "image_brief": "a motorist standing by his car to let a pedestrian pass, seen from the side at wide distance, morning light, a crossing and a bag, courteous mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Every **motorist** slowed for the flooded road."
+  },
+  {
+    "phrase": "tollbooth",
+    "pos": "noun",
+    "sense": "building-where-drivers-pay",
+    "pronunciation": "/ˈtoʊlˌbuθ/",
+    "definition": "a small building where drivers pay to use a road.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_ee02acab",
+    "image_brief": "a tollbooth on a quiet road with a car paying at the window, seen from the side at wide distance, grey light, barriers and a light, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **tollbooth** was closed, so the road was free."
+  },
+  {
+    "phrase": "valet",
+    "pos": "noun",
+    "sense": "person-paid-to-park-cars",
+    "pronunciation": "/væˈleɪ/",
+    "definition": "a person paid to park cars for others.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_be1cfdd9",
+    "image_brief": "a valet handing a ticket to a guest outside a restaurant, seen from the side at medium distance, evening light, a car and a canopy, formal mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **valet** brought the car around."
+  },
+  {
+    "phrase": "speeding",
+    "pos": "noun",
+    "sense": "driving-faster-than-allowed",
+    "pronunciation": "/ˈspidɪŋ/",
+    "definition": "the act of driving faster than allowed.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_bcdd0fb7",
+    "image_brief": "a police car watching a fast car on a highway, seen from the side at wide distance, bright light, a sign turned away and a barrier, tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Speeding** is the most common cause of crashes."
+  },
+  {
+    "phrase": "navigation",
+    "pos": "noun",
+    "sense": "system-that-shows-the-way",
+    "pronunciation": "/ˌnævəˈɡeɪʃən/",
+    "definition": "the system that shows the way to a place.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_4048577d",
+    "image_brief": "a driver looking at a navigation screen at a junction, seen from the side at medium distance, afternoon light, a bag and a cup, uncertain mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **navigation** sent us down a dead end."
+  },
+  {
+    "phrase": "manual",
+    "pos": "adjective",
+    "sense": "operated-by-hand",
+    "pronunciation": "/ˈmænjuəl/",
+    "definition": "operated by hand rather than automatically.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_a21f7ead",
+    "image_brief": "a driver changing gear with a manual stick, seen from the side at medium distance, daylight, a hand and a wheel, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He prefers a **manual** gearbox."
+  },
+  {
+    "phrase": "secondhand",
+    "pos": "adjective",
+    "sense": "owned-before-by-someone",
+    "pronunciation": "/ˌsɛkəndˈhænd/",
+    "definition": "owned by someone before you.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_58103d6a",
+    "image_brief": "a young man looking at a secondhand car in a lot, seen from the side at wide distance, grey light, rows of cars and a fence, hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **secondhand** car was all they could afford."
+  },
+  {
+    "phrase": "roadworthy",
+    "pos": "adjective",
+    "sense": "safe-enough-to-drive",
+    "pronunciation": "/ˈroʊdˌwɝði/",
+    "definition": "safe enough to be driven.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_da9a4269",
+    "image_brief": "a mechanic signing off a car on a lift, seen from the side at medium distance, workshop light, tools and a clipboard turned away, relieved mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The van is not **roadworthy** until the brakes are fixed."
+  },
+  {
+    "phrase": "roomy",
+    "pos": "adjective",
+    "sense": "having-plenty-of-space-inside",
+    "pronunciation": "/ˈrumi/",
+    "definition": "having plenty of space inside.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_64b56261",
+    "image_brief": "a family loading boxes into a roomy car, seen from the side at medium distance, morning light, a doorway and a bag, easy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The back seat is surprisingly **roomy**."
+  },
+  {
+    "phrase": "sturdy",
+    "pos": "adjective",
+    "sense": "strongly-built",
+    "pronunciation": "/ˈstɝdi/",
+    "definition": "strongly built and unlikely to break.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_75ffbf39",
+    "image_brief": "an old sturdy car covered in mud on a farm track, seen from the side at wide distance, grey light, a barn and a fence, rugged mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **sturdy** old car survived the winter."
+  },
+  {
+    "phrase": "trusty",
+    "pos": "adjective",
+    "sense": "reliable-after-long-use",
+    "pronunciation": "/ˈtrʌsti/",
+    "definition": "reliable after long use.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_795140f1",
+    "image_brief": "a man patting the roof of his trusty old wagon, seen from the side at medium distance, evening light, a house and a dog, fond mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He still drives his **trusty** old wagon."
+  },
+  {
+    "phrase": "merge",
+    "pos": "verb",
+    "sense": "join-a-road-with-traffic",
+    "pronunciation": "/mɝdʒ/",
+    "definition": "to join a road with moving traffic.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "present_example": "Cars **merge** here slowly.",
+    "past_simple_example": "He **merged** onto the highway.",
+    "past_participle_example": "The lanes have **merged** already.",
+    "present_participle_example": "**Merging** in heavy traffic needs nerve.",
+    "image": "voc_162148ee",
+    "image_brief": "cars merging onto a busy highway while a driver checks the mirror, seen from a high angle at wide distance, daylight, lanes and a barrier, alert mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Merge** carefully onto the highway."
+  },
+  {
+    "phrase": "swerve",
+    "pos": "verb",
+    "sense": "turn-suddenly-to-avoid",
+    "pronunciation": "/swɝv/",
+    "definition": "to turn suddenly to avoid something.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "present_example": "Drivers **swerve** around the potholes.",
+    "past_simple_example": "She **swerved** to avoid a cat.",
+    "past_participle_example": "The car has **swerved** twice.",
+    "present_participle_example": "**Swerving** at speed is dangerous.",
+    "image": "voc_b83be980",
+    "image_brief": "a car swerving around a dog on a country road, seen from the side at wide distance, afternoon light, hedges and a sign turned away, sudden mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The driver had to **swerve** around a dog."
+  },
+  {
+    "phrase": "stall",
+    "pos": "verb",
+    "sense": "stop-working-suddenly",
+    "pronunciation": "/stɔl/",
+    "definition": "to stop working suddenly, as an engine.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "present_example": "The engine **stalls** in cold weather.",
+    "past_simple_example": "The car **stalled** at the lights.",
+    "past_participle_example": "It has **stalled** three times.",
+    "present_participle_example": "**Stalling** on a hill worries learners.",
+    "image": "voc_a11f0b3d",
+    "image_brief": "a driver restarting a stalled car at traffic lights, seen from the side at medium distance, evening light, a queue and a horn, awkward mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The engine will **stall** in cold weather."
+  },
+  {
+    "phrase": "idle",
+    "pos": "verb",
+    "sense": "run-an-engine-while-still",
+    "pronunciation": "/ˈaɪdəl/",
+    "definition": "to run an engine while the car is not moving.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "present_example": "Trucks **idle** outside the depot.",
+    "past_simple_example": "The bus **idled** by the gate.",
+    "past_participle_example": "The engine has **idled** all morning.",
+    "present_participle_example": "**Idling** wastes fuel.",
+    "image": "voc_9ac750fe",
+    "image_brief": "a delivery van idling outside a shop while the driver waits, seen from the side at medium distance, grey light, boxes and a door, impatient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Do not leave the engine to **idle**."
+  },
+  {
+    "phrase": "carpool",
+    "pos": "verb",
+    "sense": "share-a-car-for-regular-journeys",
+    "pronunciation": "/ˈkɑrˌpul/",
+    "definition": "to share a car for regular journeys.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "present_example": "Three of us **carpool** to work.",
+    "past_simple_example": "They **carpooled** all summer.",
+    "past_participle_example": "We have **carpooled** for years.",
+    "present_participle_example": "**Carpooling** halves the parking problem.",
+    "image": "voc_eb747940",
+    "image_brief": "three colleagues meeting at a car park to share one car, seen from the side at wide distance, morning light, bags and a coffee, friendly mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Three of us **carpool** to work."
+  },
+  {
+    "phrase": "rideshare",
+    "pos": "verb",
+    "sense": "share-a-car-journey-by-app",
+    "pronunciation": "/ˈraɪdˌʃɛr/",
+    "definition": "to use an app to share a car journey.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "present_example": "They **rideshare** when the buses stop.",
+    "past_simple_example": "She **rideshared** home from the airport.",
+    "past_participle_example": "I have **rideshared** with strangers before.",
+    "present_participle_example": "**Ridesharing** saves money but needs trust.",
+    "image": "voc_905ecc32",
+    "image_brief": "a passenger getting into a shared car at night, seen from the side at medium distance, streetlight, a phone and a bag, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **rideshare** when the buses stop."
+  },
+  {
+    "phrase": "smoothly",
+    "pos": "adverb",
+    "sense": "in-a-steady-even-way",
+    "pronunciation": "/ˈsmuðli/",
+    "definition": "in a steady even way without problems.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_ef8bbf86",
+    "image_brief": "a car moving smoothly along an empty road at dawn, seen from the side at wide distance, soft light, fields and a fence, calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The new car runs **smoothly**."
+  },
+  {
+    "phrase": "cautiously",
+    "pos": "adverb",
+    "sense": "in-a-careful-way",
+    "pronunciation": "/ˈkɔʃəsli/",
+    "definition": "in a careful way, avoiding danger.",
+    "categories": [
+      "car"
+    ],
+    "level": "b2",
+    "image": "voc_b84eb940",
+    "image_brief": "a driver moving cautiously through thick fog, seen from the side at medium distance, grey light, headlights and a marker post, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She drove **cautiously** through the fog."
+  },
+  {
+    "phrase": "chore",
+    "pos": "noun",
+    "sense": "small-regular-house-job",
+    "pronunciation": "/tʃɔr/",
+    "definition": "a small regular job around the house.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "image": "voc_fbf44f81",
+    "image_brief": "a man washing dishes at a kitchen sink, seen from the side at medium distance, evening light, a rack and a cloth, resigned mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Washing up is my least favorite **chore**."
+  },
+  {
+    "phrase": "errand",
+    "pos": "noun",
+    "sense": "short-trip-for-a-small-task",
+    "pronunciation": "/ˈɛrənd/",
+    "definition": "a short trip to do a small task.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "image": "voc_beadbd75",
+    "image_brief": "a woman locking her bike outside a post office, seen from the side at medium distance, morning light, a bag and a queue, purposeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I have one **errand** to run after work."
+  },
+  {
+    "phrase": "groceries",
+    "pos": "noun",
+    "sense": "food-bought-from-a-shop",
+    "pronunciation": "/ˈɡroʊsɝiz/",
+    "definition": "food and household supplies bought from a shop.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "image": "voc_a4ce5932",
+    "image_brief": "a couple packing groceries into bags at a market, seen from the side at medium distance, bright light, crates and a trolley, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We buy **groceries** on Saturday morning."
+  },
+  {
+    "phrase": "nap",
+    "pos": "noun",
+    "sense": "short-daytime-sleep",
+    "pronunciation": "/næp/",
+    "definition": "a short sleep during the day.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "image": "voc_ad3eacba",
+    "image_brief": "a man asleep in an armchair with a book on his chest, seen from across the room at medium distance, afternoon light, a lamp and a cat, peaceful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A short **nap** helps him drive safely."
+  },
+  {
+    "phrase": "snooze",
+    "pos": "noun",
+    "sense": "short-extra-sleep-after-the-alarm",
+    "pronunciation": "/snuz/",
+    "definition": "a short extra sleep after the alarm.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "image": "voc_d740fe23",
+    "image_brief": "a hand reaching for a phone alarm on a bedside table, seen from above at medium distance, dim morning light, a glass and a book, sleepy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He hit **snooze** twice."
+  },
+  {
+    "phrase": "bedtime",
+    "pos": "noun",
+    "sense": "usual-time-to-sleep",
+    "pronunciation": "/ˈbɛdˌtaɪm/",
+    "definition": "the usual time when you go to sleep.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "image": "voc_f9f78d9b",
+    "image_brief": "a parent reading to a child in bed, seen from the side at medium distance, warm lamp light, toys and a blanket, calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Their **bedtime** is half past eight."
+  },
+  {
+    "phrase": "grooming",
+    "pos": "noun",
+    "sense": "keeping-yourself-clean-and-neat",
+    "pronunciation": "/ˈɡrumɪŋ/",
+    "definition": "the activity of keeping yourself clean and neat.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "image": "voc_352bbfaa",
+    "image_brief": "a man trimming his beard at a bathroom mirror, seen from behind at medium distance, bright light, a razor and a towel, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Good **grooming** matters in an interview."
+  },
+  {
+    "phrase": "tidying",
+    "pos": "noun",
+    "sense": "making-a-place-neat",
+    "pronunciation": "/ˈtaɪdiɪŋ/",
+    "definition": "the act of making a place neat.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "image": "voc_da030673",
+    "image_brief": "a woman putting books back on a shelf, seen from the side at medium distance, afternoon light, a box and a chair, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Tidying** the desk takes five minutes."
+  },
+  {
+    "phrase": "housework",
+    "pos": "noun",
+    "sense": "cleaning-and-caring-for-a-home",
+    "pronunciation": "/ˈhaʊsˌwɝk/",
+    "definition": "the work of cleaning and caring for a home.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "image": "voc_d2ad5cd8",
+    "image_brief": "two people cleaning a living room, one vacuuming and one dusting, seen from the doorway at medium distance, daylight, a sofa and a bucket, busy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They share the **housework**."
+  },
+  {
+    "phrase": "ironing",
+    "pos": "noun",
+    "sense": "smoothing-cloth-with-heat",
+    "pronunciation": "/ˈaɪɝnɪŋ/",
+    "definition": "the act of smoothing cloth with a hot tool.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "image": "voc_c7a30a3b",
+    "image_brief": "a woman ironing a shirt on a board, seen from the side at medium distance, morning light, a basket and a spray bottle, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **ironing** waited all week."
+  },
+  {
+    "phrase": "toothpaste",
+    "pos": "noun",
+    "sense": "substance-for-cleaning-teeth",
+    "pronunciation": "/ˈtuθˌpeɪst/",
+    "definition": "a soft substance used to clean teeth.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "image": "voc_04f60a97",
+    "image_brief": "a child squeezing toothpaste onto a brush, seen from the side at medium distance, bathroom light, a cup and a mirror, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **toothpaste** tube is almost empty."
+  },
+  {
+    "phrase": "comb",
+    "pos": "noun",
+    "sense": "tool-for-arranging-hair",
+    "pronunciation": "/koʊm/",
+    "definition": "a tool with teeth for arranging hair.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "image": "voc_12924e16",
+    "image_brief": "a man combing his hair in a hallway mirror, seen from behind at medium distance, morning light, a coat and a bag, hurried mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He keeps a **comb** in his pocket."
+  },
+  {
+    "phrase": "razor",
+    "pos": "noun",
+    "sense": "tool-used-for-shaving",
+    "pronunciation": "/ˈreɪzɝ/",
+    "definition": "a tool used for shaving hair.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "image": "voc_e7ac0369",
+    "image_brief": "a woman shaving her leg in a bath, seen from the side at medium distance, soft light, a towel and a bottle, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **razor** needs a new blade."
+  },
+  {
+    "phrase": "shampoo",
+    "pos": "noun",
+    "sense": "liquid-soap-for-hair",
+    "pronunciation": "/ʃæmˈpu/",
+    "definition": "a liquid soap for washing hair.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "image": "voc_7b3da831",
+    "image_brief": "a woman washing her hair under a shower, seen from the side at medium distance, steamy light, bottles and a towel, refreshing mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "This **shampoo** smells of lemon."
+  },
+  {
+    "phrase": "robe",
+    "pos": "noun",
+    "sense": "loose-garment-worn-at-home",
+    "pronunciation": "/roʊb/",
+    "definition": "a loose garment worn before or after dressing.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "image": "voc_fa394d5e",
+    "image_brief": "a man in a robe making coffee in a kitchen, seen from the side at medium distance, morning light, a mug and a paper, sleepy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She answered the door in a **robe**."
+  },
+  {
+    "phrase": "hamper",
+    "pos": "noun",
+    "sense": "basket-for-dirty-clothes",
+    "pronunciation": "/ˈhæmpɝ/",
+    "definition": "a basket for dirty clothes.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "image": "voc_58156579",
+    "image_brief": "a woman carrying a full laundry hamper down a hall, seen from the side at medium distance, daylight, a door and a basket, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **hamper** is already full."
+  },
+  {
+    "phrase": "bin",
+    "pos": "noun",
+    "sense": "container-for-waste",
+    "pronunciation": "/bɪn/",
+    "definition": "a container for waste.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "image": "voc_2f47cadf",
+    "image_brief": "a man emptying a kitchen bin into a larger one outside, seen from the side at medium distance, grey light, bags and a fence, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Empty the **bin** before it smells."
+  },
+  {
+    "phrase": "disposal",
+    "pos": "noun",
+    "sense": "machine-that-grinds-food-waste",
+    "pronunciation": "/dɪˈspoʊzəl/",
+    "definition": "a machine that grinds food waste in a sink.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "image": "voc_c292f1ce",
+    "image_brief": "a woman scraping food into a sink disposal, seen from above at medium distance, kitchen light, a plate and a cloth, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **disposal** is blocked again."
+  },
+  {
+    "phrase": "briefcase",
+    "pos": "noun",
+    "sense": "flat-case-for-work-papers",
+    "pronunciation": "/ˈbrifˌkeɪs/",
+    "definition": "a flat case for carrying papers to work.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_efca4cd0",
+    "image_brief": "a man setting a briefcase by the door before leaving, seen from the side at medium distance, morning light, shoes and a coat, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "His **briefcase** holds a laptop and lunch."
+  },
+  {
+    "phrase": "reminder",
+    "pos": "noun",
+    "sense": "something-that-helps-you-remember",
+    "pronunciation": "/rɪˈmaɪndɝ/",
+    "definition": "something that helps you remember a task.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "image": "voc_d107a222",
+    "image_brief": "a woman writing a note and sticking it to a fridge, seen from the side at medium distance, kitchen light, magnets and a cup, organized mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I set a **reminder** for the call."
+  },
+  {
+    "phrase": "appliance",
+    "pos": "noun",
+    "sense": "machine-used-in-the-home",
+    "pronunciation": "/əˈplaɪəns/",
+    "definition": "a machine used in the home.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_bb37ae48",
+    "image_brief": "a delivery team carrying a new appliance into a kitchen, seen from the side at medium distance, daylight, boxes and a dolly, busy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The kitchen has every **appliance** they need."
+  },
+  {
+    "phrase": "fixture",
+    "pos": "noun",
+    "sense": "object-fixed-in-a-building",
+    "pronunciation": "/ˈfɪkstʃɝ/",
+    "definition": "an object fixed permanently in a building.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_daeaacb6",
+    "image_brief": "a man on a ladder changing a ceiling light fixture, seen from below at medium distance, room light, tools and a switch, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The light **fixture** needs a new bulb."
+  },
+  {
+    "phrase": "plumbing",
+    "pos": "noun",
+    "sense": "pipes-that-carry-water",
+    "pronunciation": "/ˈplʌmɪŋ/",
+    "definition": "the pipes and systems that carry water.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_9fb146ef",
+    "image_brief": "a plumber working under a sink with a wrench, seen from below at medium distance, work light, pipes and a bucket, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **plumbing** in this building is old."
+  },
+  {
+    "phrase": "bathtub",
+    "pos": "noun",
+    "sense": "large-container-for-washing",
+    "pronunciation": "/ˈbæθˌtʌb/",
+    "definition": "a large container you sit in to wash.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_eba372b9",
+    "image_brief": "a woman filling a bathtub with steam rising, seen from the side at medium distance, soft light, candles and a towel, relaxing mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **bathtub** takes an hour to fill."
+  },
+  {
+    "phrase": "washbasin",
+    "pos": "noun",
+    "sense": "bowl-with-a-tap",
+    "pronunciation": "/ˈwɔʃˌbeɪsən/",
+    "definition": "a bowl with a tap for washing hands.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_04b1d0d4",
+    "image_brief": "a boy washing his hands at a washbasin, seen from the side at medium distance, bright light, a towel and a cup, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He left the **washbasin** full of water."
+  },
+  {
+    "phrase": "washcloth",
+    "pos": "noun",
+    "sense": "small-cloth-for-washing",
+    "pronunciation": "/ˈwɔʃˌklɔθ/",
+    "definition": "a small cloth used for washing the body.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_a3c35964",
+    "image_brief": "a woman folding a washcloth beside a basin, seen from above at medium distance, soft light, soap and a mirror, tidy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She hung the **washcloth** on the rail."
+  },
+  {
+    "phrase": "nightgown",
+    "pos": "noun",
+    "sense": "loose-garment-for-bed",
+    "pronunciation": "/ˈnaɪtˌɡaʊn/",
+    "definition": "a loose garment worn in bed.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "b2",
+    "image": "voc_b8180176",
+    "image_brief": "a woman opening curtains in a nightgown, seen from behind at medium distance, early light, a bed and a chair, quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **nightgown** was folded on the pillow."
+  },
+  {
+    "phrase": "hairbrush",
+    "pos": "noun",
+    "sense": "brush-for-arranging-hair",
+    "pronunciation": "/ˈhɛrˌbrʌʃ/",
+    "definition": "a brush used to arrange hair.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_a3803dd0",
+    "image_brief": "a girl brushing her hair at a dressing table, seen from the side at medium distance, morning light, clips and a mirror, calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **hairbrush** was full of hair."
+  },
+  {
+    "phrase": "skincare",
+    "pos": "noun",
+    "sense": "care-given-to-the-skin",
+    "pronunciation": "/ˈskɪnˌkɛr/",
+    "definition": "the care you give your skin.",
+    "categories": [
+      "health"
+    ],
+    "level": "b2",
+    "image": "voc_f62c2cc1",
+    "image_brief": "a woman applying cream at a bathroom mirror, seen from the side at medium distance, soft light, bottles and a towel, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **skincare** routine takes ten minutes."
+  },
+  {
+    "phrase": "haircut",
+    "pos": "noun",
+    "sense": "act-or-style-of-cutting-hair",
+    "pronunciation": "/ˈhɛrˌkʌt/",
+    "definition": "the act or style of cutting hair.",
+    "categories": [
+      "body"
+    ],
+    "level": "b2",
+    "image": "voc_afaed936",
+    "image_brief": "a man getting a haircut in a small barbershop, seen from the side at medium distance, warm light, mirrors and a cape, relaxed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He needs a **haircut** before the wedding."
+  },
+  {
+    "phrase": "declutter",
+    "pos": "verb",
+    "sense": "remove-unused-things",
+    "pronunciation": "/diˈklʌtɝ/",
+    "definition": "to remove unused things from a space.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "present_example": "They **declutter** the garage every spring.",
+    "past_simple_example": "She **decluttered** her desk on Friday.",
+    "past_participle_example": "The shelves have been **decluttered**.",
+    "present_participle_example": "**Decluttering** one room at a time works best.",
+    "image": "voc_13d66762",
+    "image_brief": "two people sorting boxes in a garage with one holding a bag for donations, seen from the side at wide distance, daylight, shelves and a ladder, determined mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **declutter** the garage every spring."
+  },
+  {
+    "phrase": "multitask",
+    "pos": "verb",
+    "sense": "do-several-things-at-once",
+    "pronunciation": "/ˈmʌltiˌtæsk/",
+    "definition": "to do several things at the same time.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "present_example": "Some people **multitask** better than others.",
+    "past_simple_example": "He **multitasked** during the whole meeting.",
+    "past_participle_example": "I have **multitasked** all morning.",
+    "present_participle_example": "**Multitasking** rarely saves real time.",
+    "image": "voc_141d1a42",
+    "image_brief": "a woman stirring a pot while talking on the phone and watching a child, seen from the side at medium distance, warm light, a table and toys, harried mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Some people **multitask** better than others."
+  },
+  {
+    "phrase": "prioritize",
+    "pos": "verb",
+    "sense": "decide-what-matters-first",
+    "pronunciation": "/praɪˈɔrəˌtaɪz/",
+    "definition": "to decide what needs attention first.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "present_example": "Managers **prioritize** the urgent cases.",
+    "past_simple_example": "She **prioritized** sleep over work.",
+    "past_participle_example": "The repairs have been **prioritized**.",
+    "present_participle_example": "**Prioritizing** takes a clear head.",
+    "image": "voc_a8605d01",
+    "image_brief": "a man marking three items on a long list at a desk, seen from above at medium distance, lamp light, a cup and a phone, decisive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Prioritize** the calls before answering mail."
+  },
+  {
+    "phrase": "procrastinate",
+    "pos": "verb",
+    "sense": "delay-something-you-should-do",
+    "pronunciation": "/proʊˈkræstəˌneɪt/",
+    "definition": "to delay something you should do.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "present_example": "I **procrastinate** when the task feels vague.",
+    "past_simple_example": "He **procrastinated** until the last night.",
+    "past_participle_example": "We have **procrastinated** for weeks.",
+    "present_participle_example": "**Procrastinating** turns small jobs into big ones.",
+    "image": "voc_d1a1e1f1",
+    "image_brief": "a man staring at an untouched letter while folding laundry, seen from the side at medium distance, afternoon light, a clock and a cup, guilty mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I **procrastinate** when the task feels vague."
+  },
+  {
+    "phrase": "unwind",
+    "pos": "verb",
+    "sense": "relax-after-stress",
+    "pronunciation": "/ʌnˈwaɪnd/",
+    "definition": "to relax after work or stress.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "present_example": "She **unwinds** with a book.",
+    "past_simple_example": "He **unwound** on the porch.",
+    "past_participle_example": "I have **unwound** since the deadline passed.",
+    "present_participle_example": "**Unwinding** after a shift takes effort.",
+    "image": "voc_bb115a2c",
+    "image_brief": "a woman reading with a blanket on a sofa after work, seen from across the room at medium distance, lamp light, a cup and a cat, calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A walk helps me **unwind** after work."
+  },
+  {
+    "phrase": "recharge",
+    "pos": "verb",
+    "sense": "rest-to-get-energy-again",
+    "pronunciation": "/riˈtʃɑrdʒ/",
+    "definition": "to rest so you have energy again.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "present_example": "They **recharge** with a quiet weekend.",
+    "past_simple_example": "She **recharged** on the beach.",
+    "past_participle_example": "I have **recharged** since the holiday.",
+    "present_participle_example": "**Recharging** properly prevents burnout.",
+    "image": "voc_635a55a5",
+    "image_brief": "a man sleeping late in a quiet cabin room, seen from across the room at wide distance, soft light, a bag and a window, rested mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **recharge** with a quiet weekend."
+  },
+  {
+    "phrase": "meditate",
+    "pos": "verb",
+    "sense": "sit-quietly-to-calm-the-mind",
+    "pronunciation": "/ˈmɛdəˌteɪt/",
+    "definition": "to sit quietly and calm the mind.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "present_example": "She **meditates** before breakfast.",
+    "past_simple_example": "He **meditated** through the noise.",
+    "past_participle_example": "They have **meditated** together for years.",
+    "present_participle_example": "**Meditating** early keeps him calm.",
+    "image": "voc_31dddb0f",
+    "image_brief": "a woman sitting cross-legged by a window with eyes closed, seen from the side at medium distance, morning light, a cushion and a plant, still mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Some mornings I **meditate** for ten minutes."
+  },
+  {
+    "phrase": "journal",
+    "pos": "verb",
+    "sense": "write-about-your-day",
+    "pronunciation": "/ˈdʒɝnəl/",
+    "definition": "to write about your day in a notebook.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "present_example": "She **journals** every evening.",
+    "past_simple_example": "He **journaled** during the trip.",
+    "past_participle_example": "I have **journaled** since school.",
+    "present_participle_example": "**Journaling** helps sort out the day.",
+    "image": "voc_643149fe",
+    "image_brief": "a man writing in a notebook at a kitchen table, seen from above at medium distance, evening light, a cup and a pen, reflective mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I **journal** before bed."
+  },
+  {
+    "phrase": "sort",
+    "pos": "verb",
+    "sense": "arrange-things-into-groups",
+    "pronunciation": "/sɔrt/",
+    "definition": "to arrange things into groups.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "present_example": "She **sorts** the mail each morning.",
+    "past_simple_example": "He **sorted** the boxes by size.",
+    "past_participle_example": "The papers have been **sorted**.",
+    "present_participle_example": "**Sorting** the recycling takes a minute.",
+    "image": "voc_7efe9a9b",
+    "image_brief": "a woman sorting laundry into two baskets, seen from above at medium distance, bright light, a machine and a shelf, methodical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Sort** the laundry into lights and darks."
+  },
+  {
+    "phrase": "moisturize",
+    "pos": "verb",
+    "sense": "put-cream-on-the-skin",
+    "pronunciation": "/ˈmɔɪstʃɝˌaɪz/",
+    "definition": "to put cream on the skin.",
+    "categories": [
+      "health"
+    ],
+    "level": "b2",
+    "present_example": "She **moisturizes** every night.",
+    "past_simple_example": "He **moisturized** the dry patches.",
+    "past_participle_example": "I have **moisturized** twice today.",
+    "present_participle_example": "**Moisturizing** after a shower works best.",
+    "image": "voc_a64e47eb",
+    "image_brief": "a woman rubbing cream into her hands by a sink, seen from the side at medium distance, soft light, a bottle and a towel, gentle mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Moisturize** your hands after washing."
+  },
+  {
+    "phrase": "braid",
+    "pos": "verb",
+    "sense": "twist-hair-into-a-rope",
+    "pronunciation": "/breɪd/",
+    "definition": "to twist hair into a rope-like style.",
+    "categories": [
+      "body"
+    ],
+    "level": "b2",
+    "present_example": "She **braids** her daughter's hair.",
+    "past_simple_example": "He **braided** the rope to make it stronger.",
+    "past_participle_example": "The hair has been **braided** neatly.",
+    "present_participle_example": "**Braiding** takes steady hands.",
+    "image": "voc_4211d469",
+    "image_brief": "a mother braiding a girl's hair on a bench, seen from behind at medium distance, morning light, a bag and a coat, tender mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She can **braid** her own hair."
+  },
+  {
+    "phrase": "trim",
+    "pos": "verb",
+    "sense": "cut-a-small-amount",
+    "pronunciation": "/trɪm/",
+    "definition": "to cut a small amount from something.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "present_example": "I **trim** my beard every Sunday.",
+    "past_simple_example": "She **trimmed** the hedge on Saturday.",
+    "past_participle_example": "The edges have been **trimmed**.",
+    "present_participle_example": "**Trimming** the bushes takes an hour.",
+    "image": "voc_60976617",
+    "image_brief": "a gardener trimming a hedge with shears, seen from the side at medium distance, bright light, clippings and a wheelbarrow, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I **trim** my beard every Sunday."
+  },
+  {
+    "phrase": "stack",
+    "pos": "verb",
+    "sense": "put-things-in-a-neat-pile",
+    "pronunciation": "/stæk/",
+    "definition": "to put things in a neat pile.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "present_example": "He **stacks** the plates after dinner.",
+    "past_simple_example": "She **stacked** the boxes in the hall.",
+    "past_participle_example": "The chairs have been **stacked**.",
+    "present_participle_example": "**Stacking** firewood keeps it dry.",
+    "image": "voc_c0b59402",
+    "image_brief": "a waiter stacking chairs after closing, seen from the side at medium distance, dim light, tables and a broom, tired mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Stack** the chairs by the wall."
+  },
+  {
+    "phrase": "gargle",
+    "pos": "verb",
+    "sense": "wash-the-throat-with-liquid",
+    "pronunciation": "/ˈɡɑrɡəl/",
+    "definition": "to wash the throat with liquid and air.",
+    "categories": [
+      "health"
+    ],
+    "level": "b2",
+    "present_example": "He **gargles** when his throat hurts.",
+    "past_simple_example": "She **gargled** before bed.",
+    "past_participle_example": "I have **gargled** three times today.",
+    "present_participle_example": "**Gargling** with salt water soothes a sore throat.",
+    "image": "voc_959dc667",
+    "image_brief": "a man gargling at a bathroom sink, seen from behind at medium distance, bright light, a cup and a towel, uncomfortable mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Gargle** with salt water twice a day."
+  },
+  {
+    "phrase": "groggy",
+    "pos": "adjective",
+    "sense": "slow-after-sleep",
+    "pronunciation": "/ˈɡrɑɡi/",
+    "definition": "slow and confused after sleep.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "image": "voc_01bd4d28",
+    "image_brief": "a man squinting at a coffee machine in the morning, seen from the side at medium distance, flat light, a mug and a cat, sleepy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He was still **groggy** at breakfast."
+  },
+  {
+    "phrase": "refreshed",
+    "pos": "adjective",
+    "sense": "feeling-fresh-again",
+    "pronunciation": "/rɪˈfrɛʃt/",
+    "definition": "feeling fresh and full of energy again.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "image": "voc_0d4ab3a1",
+    "image_brief": "a woman stepping out of a lake with wet hair, seen from the side at wide distance, morning light, a towel and a jetty, revived mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She came back from the walk **refreshed**."
+  },
+  {
+    "phrase": "messy",
+    "pos": "adjective",
+    "sense": "untidy-and-disordered",
+    "pronunciation": "/ˈmɛsi/",
+    "definition": "untidy and disordered.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_5ee33fbf",
+    "image_brief": "a teenager's room with clothes on the floor and a parent in the doorway, seen from the doorway at medium distance, daylight, a bed and a desk, exasperated mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The kitchen was **messy** after dinner."
+  },
+  {
+    "phrase": "organized",
+    "pos": "adjective",
+    "sense": "arranged-in-a-careful-order",
+    "pronunciation": "/ˈɔrɡəˌnaɪzd/",
+    "definition": "arranged in a careful order.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "image": "voc_61539b04",
+    "image_brief": "a woman opening a neatly organized drawer, seen from above at medium distance, bright light, folded clothes and labels turned away, satisfied mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her desk is always **organized**."
+  },
+  {
+    "phrase": "rested",
+    "pos": "adjective",
+    "sense": "full-of-energy-after-sleep",
+    "pronunciation": "/ˈrɛstɪd/",
+    "definition": "feeling healthy and full of energy after sleep.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "image": "voc_4bd01553",
+    "image_brief": "a man stretching by an open window after sleep, seen from the side at medium distance, morning light, a bed and a plant, easy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He felt **rested** for the first time in weeks."
+  },
+  {
+    "phrase": "habitually",
+    "pos": "adverb",
+    "sense": "as-a-regular-habit",
+    "pronunciation": "/həˈbɪtʃuəli/",
+    "definition": "as a regular habit.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b2",
+    "image": "voc_d617d06e",
+    "image_brief": "a woman locking her door and checking the handle again, seen from the side at medium distance, hallway light, a bag and a coat, cautious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She **habitually** checks the door twice."
+  },
+  {
+    "phrase": "cuisine",
+    "pos": "noun",
+    "sense": "style-of-cooking-from-a-place",
+    "pronunciation": "/kwɪˈzin/",
+    "definition": "the style of cooking from a country or region.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_9342e491",
+    "image_brief": "a cook serving a plate of curry in a small restaurant, seen from the side at medium distance, warm light, spices and pans, proud mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Thai **cuisine** uses a lot of lime."
+  },
+  {
+    "phrase": "flavor",
+    "pos": "noun",
+    "sense": "taste-of-a-food",
+    "pronunciation": "/ˈfleɪvɝ/",
+    "definition": "the taste of a food or drink.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_b4c04213",
+    "image_brief": "a woman tasting soup from a spoon at a stove, seen from the side at medium distance, kitchen light, a pot and a cloth, thoughtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The soup needs more **flavor**."
+  },
+  {
+    "phrase": "pastry",
+    "pos": "noun",
+    "sense": "sweet-baked-food",
+    "pronunciation": "/ˈpeɪstri/",
+    "definition": "a sweet baked food made with flour and butter.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_b07747f6",
+    "image_brief": "a man choosing a pastry from a bakery case, seen from the side at medium distance, morning light, trays and a till, tempted mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She bought a **pastry** for breakfast."
+  },
+  {
+    "phrase": "crust",
+    "pos": "noun",
+    "sense": "hard-outer-layer-of-bread",
+    "pronunciation": "/krʌst/",
+    "definition": "the hard outer layer of bread or a pie.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_27b398dd",
+    "image_brief": "a baker tapping the crust of a fresh loaf, seen from the side at medium distance, oven light, flour and a rack, satisfied mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **crust** is the best part of the loaf."
+  },
+  {
+    "phrase": "filling",
+    "pos": "noun",
+    "sense": "food-inside-a-pie",
+    "pronunciation": "/ˈfɪlɪŋ/",
+    "definition": "the food inside a pie or sandwich.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_9e5f684c",
+    "image_brief": "a woman spooning apple filling into a pie shell, seen from above at medium distance, daylight, apples and a knife, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The pie has an apple **filling**."
+  },
+  {
+    "phrase": "preservative",
+    "pos": "noun",
+    "sense": "substance-that-keeps-food-fresh",
+    "pronunciation": "/prɪˈzɝvətɪv/",
+    "definition": "a substance added to keep food fresh.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_11058b0a",
+    "image_brief": "a shopper reading the label on a bread package, seen from the side at medium distance, shop light, a basket and rolls, doubtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "This bread has no **preservative**."
+  },
+  {
+    "phrase": "additive",
+    "pos": "noun",
+    "sense": "substance-added-to-food",
+    "pronunciation": "/ˈædətɪv/",
+    "definition": "a substance added to food for a purpose.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_7d9e6ff5",
+    "image_brief": "a parent checking a snack package in a kitchen, seen from above at medium distance, morning light, a lunchbox and fruit, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Check the label for each **additive**."
+  },
+  {
+    "phrase": "carbs",
+    "pos": "noun",
+    "sense": "foods-that-give-energy",
+    "pronunciation": "/kɑrbz/",
+    "definition": "foods that give the body energy, like rice and bread.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_a41cfba4",
+    "image_brief": "a cook serving rice and bread beside a curry, seen from above at medium distance, warm light, bowls and a ladle, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He cut **carbs** after lunch."
+  },
+  {
+    "phrase": "fiber",
+    "pos": "noun",
+    "sense": "plant-part-that-helps-digestion",
+    "pronunciation": "/ˈfaɪbɝ/",
+    "definition": "the part of plants that helps digestion.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_d84e50e6",
+    "image_brief": "a woman filling a bowl with beans and greens, seen from above at medium distance, bright light, jars and a spoon, healthy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Beans are high in **fiber**."
+  },
+  {
+    "phrase": "dairy",
+    "pos": "noun",
+    "sense": "milk-and-food-made-from-it",
+    "pronunciation": "/ˈdɛri/",
+    "definition": "milk and foods made from it.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_e187874a",
+    "image_brief": "a man choosing milk and cheese at a market, seen from the side at medium distance, cold case light, crates and a basket, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She avoids **dairy** in the morning."
+  },
+  {
+    "phrase": "seafood",
+    "pos": "noun",
+    "sense": "fish-and-shellfish-as-food",
+    "pronunciation": "/ˈsiˌfud/",
+    "definition": "fish and shellfish eaten as food.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_2f2a2f6b",
+    "image_brief": "a fishmonger arranging seafood on ice, seen from the side at medium distance, market light, crates and a scale, fresh mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The market sells fresh **seafood**."
+  },
+  {
+    "phrase": "shellfish",
+    "pos": "noun",
+    "sense": "sea-animals-with-shells",
+    "pronunciation": "/ˈʃɛlˌfɪʃ/",
+    "definition": "sea animals with shells that people eat.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_44f67e4c",
+    "image_brief": "a cook steaming a pot of shellfish, seen from the side at medium distance, kitchen light, a lid and a cloth, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He is allergic to **shellfish**."
+  },
+  {
+    "phrase": "gluten",
+    "pos": "noun",
+    "sense": "wheat-protein-some-cannot-eat",
+    "pronunciation": "/ˈɡlutən/",
+    "definition": "a protein in wheat that some people cannot eat.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_ab8c127a",
+    "image_brief": "a baker taking a gluten-free loaf from a separate shelf, seen from the side at medium distance, shop light, labels turned away and tongs, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The bread is free of **gluten**."
+  },
+  {
+    "phrase": "appetizer",
+    "pos": "noun",
+    "sense": "small-dish-before-the-meal",
+    "pronunciation": "/ˈæpɪˌtaɪzɝ/",
+    "definition": "a small dish eaten before the main meal.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_5f6d2b95",
+    "image_brief": "two friends sharing a small plate of appetizers at a bar, seen from the side at medium distance, warm light, glasses and a menu turned away, social mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We shared an **appetizer**."
+  },
+  {
+    "phrase": "beverage",
+    "pos": "noun",
+    "sense": "a-drink",
+    "pronunciation": "/ˈbɛvɝɪdʒ/",
+    "definition": "a drink.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_ecd24a4c",
+    "image_brief": "a waiter setting a cold beverage on a café table, seen from the side at medium distance, afternoon light, a tray and chairs, polite mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The price includes one **beverage**."
+  },
+  {
+    "phrase": "smoothie",
+    "pos": "noun",
+    "sense": "thick-fruit-drink",
+    "pronunciation": "/ˈsmuði/",
+    "definition": "a thick drink made from fruit and milk or juice.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_bec9c8a4",
+    "image_brief": "a woman pouring a smoothie into a glass after a run, seen from the side at medium distance, morning light, fruit and a blender, fresh mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She makes a **smoothie** after running."
+  },
+  {
+    "phrase": "dressing",
+    "pos": "noun",
+    "sense": "sauce-poured-over-salad",
+    "pronunciation": "/ˈdrɛsɪŋ/",
+    "definition": "a sauce poured over salad.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_1f9f72d9",
+    "image_brief": "a woman pouring dressing over a salad bowl, seen from above at medium distance, bright light, a whisk and herbs, fresh mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **dressing** is too sweet."
+  },
+  {
+    "phrase": "cinnamon",
+    "pos": "noun",
+    "sense": "sweet-brown-bark-spice",
+    "pronunciation": "/ˈsɪnəmən/",
+    "definition": "a sweet brown spice from tree bark.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_857ba33c",
+    "image_brief": "a baker dusting cinnamon over buns, seen from above at medium distance, warm light, a shaker and a tray, cozy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He adds **cinnamon** to his coffee."
+  },
+  {
+    "phrase": "vanilla",
+    "pos": "noun",
+    "sense": "sweet-flavor-for-desserts",
+    "pronunciation": "/vəˈnɪlə/",
+    "definition": "a sweet flavor used in desserts.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_3c4a19a1",
+    "image_brief": "a cook splitting a vanilla pod over a bowl, seen from above at medium distance, kitchen light, eggs and a whisk, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The ice cream is plain **vanilla**."
+  },
+  {
+    "phrase": "syrup",
+    "pos": "noun",
+    "sense": "thick-sweet-liquid",
+    "pronunciation": "/ˈsɪrəp/",
+    "definition": "a thick sweet liquid.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_61cd4a92",
+    "image_brief": "a child pouring syrup over pancakes, seen from above at medium distance, morning light, a jug and berries, happy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Pour the **syrup** over the pancakes."
+  },
+  {
+    "phrase": "porridge",
+    "pos": "noun",
+    "sense": "warm-soft-oats-dish",
+    "pronunciation": "/ˈpɔrɪdʒ/",
+    "definition": "a soft warm dish made from oats and water.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_e3787196",
+    "image_brief": "a man stirring a pot of porridge in the morning, seen from the side at medium distance, soft light, a bowl and honey, calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He eats **porridge** every morning."
+  },
+  {
+    "phrase": "waffle",
+    "pos": "noun",
+    "sense": "crisp-grid-shaped-bread",
+    "pronunciation": "/ˈwɑfəl/",
+    "definition": "a crisp bread cooked in a grid-shaped iron.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_ab128ce2",
+    "image_brief": "a waiter bringing a waffle with berries to a table, seen from the side at medium distance, bright light, coffee and a fork, pleased mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **waffle** came with berries."
+  },
+  {
+    "phrase": "omelet",
+    "pos": "noun",
+    "sense": "beaten-eggs-cooked-flat",
+    "pronunciation": "/ˈɑməlɪt/",
+    "definition": "eggs beaten and cooked flat, often with a filling.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_f13ad3e1",
+    "image_brief": "a cook folding an omelet in a pan, seen from the side at medium distance, kitchen light, a spatula and plate, quick mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She ordered a cheese **omelet**."
+  },
+  {
+    "phrase": "lentil",
+    "pos": "noun",
+    "sense": "small-flat-cooked-seed",
+    "pronunciation": "/ˈlɛntəl/",
+    "definition": "a small flat seed cooked and eaten.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_8165ef3c",
+    "image_brief": "a woman rinsing lentils in a colander, seen from above at medium distance, daylight, a pot and a cloth, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Add a cup of **lentil** to the pot."
+  },
+  {
+    "phrase": "chickpea",
+    "pos": "noun",
+    "sense": "round-yellow-cooking-seed",
+    "pronunciation": "/ˈtʃɪkˌpi/",
+    "definition": "a round yellow seed used in cooking.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_d82c9a0f",
+    "image_brief": "a cook roasting chickpeas on a tray, seen from above at medium distance, oven light, spices and a bowl, aromatic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Roast the **chickpea** with spices."
+  },
+  {
+    "phrase": "tofu",
+    "pos": "noun",
+    "sense": "soft-food-made-from-soybeans",
+    "pronunciation": "/ˈtoʊfu/",
+    "definition": "a soft white food made from soybeans.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_fdeb07bf",
+    "image_brief": "a chef pressing tofu on a board, seen from the side at medium distance, kitchen light, a knife and vegetables, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The stir-fry uses **tofu** instead of meat."
+  },
+  {
+    "phrase": "walnut",
+    "pos": "noun",
+    "sense": "nut-with-a-hard-shell",
+    "pronunciation": "/ˈwɔlˌnʌt/",
+    "definition": "a nut with a hard shell and a wrinkled shape.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_ce5c5fee",
+    "image_brief": "a baker placing walnuts on a cake, seen from above at medium distance, window light, a bowl and a sieve, precise mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She put a **walnut** on top of the cake."
+  },
+  {
+    "phrase": "raisin",
+    "pos": "noun",
+    "sense": "dried-grape",
+    "pronunciation": "/ˈreɪzən/",
+    "definition": "a dried grape.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_c59ec814",
+    "image_brief": "a child picking raisins from a bowl of dough, seen from above at medium distance, warm light, flour and a spoon, playful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He picked a **raisin** out of the bun."
+  },
+  {
+    "phrase": "fig",
+    "pos": "noun",
+    "sense": "soft-sweet-seeded-fruit",
+    "pronunciation": "/fɪɡ/",
+    "definition": "a soft sweet fruit with many small seeds.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_adf55e6e",
+    "image_brief": "a woman picking a ripe fig from a tree, seen from the side at medium distance, golden light, a basket and leaves, content mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A ripe **fig** split on the branch."
+  },
+  {
+    "phrase": "berry",
+    "pos": "noun",
+    "sense": "small-soft-seeded-fruit",
+    "pronunciation": "/ˈbɛri/",
+    "definition": "a small soft fruit with seeds.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_0f1354d5",
+    "image_brief": "a gardener examining berries on a bush, seen from the side at medium distance, morning light, a basket and gloves, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "One **berry** was still green."
+  },
+  {
+    "phrase": "citrus",
+    "pos": "noun",
+    "sense": "orange-or-lemon-fruit",
+    "pronunciation": "/ˈsɪtrəs/",
+    "definition": "a fruit such as an orange or lemon.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_f99dec44",
+    "image_brief": "a farmer filling a crate with citrus fruit, seen from the side at wide distance, bright light, trees and a truck, busy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Citrus** grows well in this valley."
+  },
+  {
+    "phrase": "zest",
+    "pos": "noun",
+    "sense": "outer-skin-of-citrus",
+    "pronunciation": "/zɛst/",
+    "definition": "the outer skin of a citrus fruit, used for flavor.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_d6c80a03",
+    "image_brief": "a cook grating lemon zest over a cake, seen from above at medium distance, kitchen light, a grater and a plate, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Add a little lemon **zest** to the cake."
+  },
+  {
+    "phrase": "barbecue",
+    "pos": "noun",
+    "sense": "meal-cooked-outdoors-over-fire",
+    "pronunciation": "/ˈbɑrbɪˌkju/",
+    "definition": "a meal cooked outdoors over fire.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_c297c15d",
+    "image_brief": "a family cooking on a barbecue in a garden, seen from the side at wide distance, evening light, plates and a table, relaxed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We had a **barbecue** in the yard."
+  },
+  {
+    "phrase": "vegetarian",
+    "pos": "adjective",
+    "sense": "containing-no-meat",
+    "pronunciation": "/ˌvɛdʒəˈtɛriən/",
+    "definition": "not containing meat.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_60609d34",
+    "image_brief": "a diner choosing a vegetarian dish from a menu, seen from the side at medium distance, warm light, a glass and bread, thoughtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The menu has a **vegetarian** option."
+  },
+  {
+    "phrase": "vegan",
+    "pos": "adjective",
+    "sense": "with-no-animal-products",
+    "pronunciation": "/ˈviɡən/",
+    "definition": "with no animal products at all.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_7ab464dc",
+    "image_brief": "a woman serving a vegan bowl of grains and vegetables, seen from above at medium distance, bright light, jars and a fork, wholesome mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She asked for the **vegan** dessert."
+  },
+  {
+    "phrase": "savory",
+    "pos": "adjective",
+    "sense": "salty-or-spicy-not-sweet",
+    "pronunciation": "/ˈseɪvɝi/",
+    "definition": "salty or spicy rather than sweet.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_74102a64",
+    "image_brief": "a man eating a savory pie at a market stall, seen from the side at medium distance, grey light, a paper bag and a bench, satisfied mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I prefer a **savory** breakfast."
+  },
+  {
+    "phrase": "bland",
+    "pos": "adjective",
+    "sense": "having-little-taste",
+    "pronunciation": "/blænd/",
+    "definition": "having little taste.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_334809c7",
+    "image_brief": "a woman tasting a pale soup and reaching for salt, seen from the side at medium distance, kitchen light, a pot and a shaker, disappointed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The rice was **bland** without sauce."
+  },
+  {
+    "phrase": "crispy",
+    "pos": "adjective",
+    "sense": "pleasantly-hard-outside",
+    "pronunciation": "/ˈkrɪspi/",
+    "definition": "pleasantly hard and dry on the outside.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_d4c374d8",
+    "image_brief": "a cook lifting crispy potatoes from a tray, seen from above at medium distance, oven light, a cloth and a bowl, eager mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The chicken stays **crispy** for an hour."
+  },
+  {
+    "phrase": "ripe",
+    "pos": "adjective",
+    "sense": "ready-to-eat",
+    "pronunciation": "/raɪp/",
+    "definition": "fully grown and ready to eat.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_39a72cfb",
+    "image_brief": "a shopper pressing a ripe peach at a market, seen from the side at medium distance, warm light, crates and a scale, pleased mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The mango is **ripe** and soft."
+  },
+  {
+    "phrase": "unripe",
+    "pos": "adjective",
+    "sense": "not-ready-to-eat",
+    "pronunciation": "/ˌʌnˈraɪp/",
+    "definition": "not ready to eat yet.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_9eb837bf",
+    "image_brief": "a gardener pointing out an unripe tomato on the vine, seen from the side at medium distance, greenhouse light, tools and a basket, patient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **unripe** pear tastes bitter."
+  },
+  {
+    "phrase": "stale",
+    "pos": "adjective",
+    "sense": "no-longer-fresh",
+    "pronunciation": "/steɪl/",
+    "definition": "no longer fresh.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_5910a0d1",
+    "image_brief": "a man breaking a stale piece of bread over a bin, seen from the side at medium distance, kitchen light, a board and a cup, disappointed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The bread went **stale** overnight."
+  },
+  {
+    "phrase": "overcooked",
+    "pos": "adjective",
+    "sense": "cooked-too-long",
+    "pronunciation": "/ˌoʊvɝˈkʊkt/",
+    "definition": "cooked for too long.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_49999c61",
+    "image_brief": "a woman scraping overcooked pasta from a pan, seen from the side at medium distance, kitchen light, a colander and a towel, annoyed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The pasta was **overcooked** and soft."
+  },
+  {
+    "phrase": "undercooked",
+    "pos": "adjective",
+    "sense": "not-cooked-enough",
+    "pronunciation": "/ˌʌndɝˈkʊkt/",
+    "definition": "not cooked enough.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "image": "voc_fd6a0cad",
+    "image_brief": "a chef cutting into an undercooked piece of fish, seen from above at medium distance, kitchen light, a board and a knife, concerned mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The fish was **undercooked** in the middle."
+  },
+  {
+    "phrase": "dice",
+    "pos": "verb",
+    "sense": "cut-food-into-small-cubes",
+    "pronunciation": "/daɪs/",
+    "definition": "to cut food into small cubes.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "present_example": "She **dices** the carrots quickly.",
+    "past_simple_example": "He **diced** two onions.",
+    "past_participle_example": "The vegetables have been **diced**.",
+    "present_participle_example": "**Dicing** a tomato evenly takes practice.",
+    "image": "voc_c717dc86",
+    "image_brief": "a cook dicing onions on a board, seen from above at medium distance, kitchen light, a knife and a bowl, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Dice** the onion before you start."
+  },
+  {
+    "phrase": "marinate",
+    "pos": "verb",
+    "sense": "leave-food-in-flavored-liquid",
+    "pronunciation": "/ˈmærəˌneɪt/",
+    "definition": "to leave food in a flavored liquid before cooking.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "present_example": "They **marinate** the meat for a day.",
+    "past_simple_example": "She **marinated** the fish in lime.",
+    "past_participle_example": "The lamb has **marinated** since morning.",
+    "present_participle_example": "**Marinating** improves cheap cuts.",
+    "image": "voc_f759dd7c",
+    "image_brief": "a man placing chicken in a marinade bowl, seen from above at medium distance, kitchen light, herbs and a jug, patient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Let the chicken **marinate** overnight."
+  },
+  {
+    "phrase": "saute",
+    "pos": "verb",
+    "sense": "cook-quickly-in-little-oil",
+    "pronunciation": "/sɔˈteɪ/",
+    "definition": "to cook quickly in a little oil.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "present_example": "He **sautes** the garlic first.",
+    "past_simple_example": "We **sauteed** the onions.",
+    "past_participle_example": "The greens have been **sauteed**.",
+    "present_participle_example": "**Sauteing** at high heat browns the edges.",
+    "image": "voc_ae7ab834",
+    "image_brief": "a cook sauteing mushrooms in a hot pan, seen from the side at medium distance, stove light, a spatula and garlic, quick mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Saute** the mushrooms for two minutes."
+  },
+  {
+    "phrase": "sprinkle",
+    "pos": "verb",
+    "sense": "scatter-small-amounts",
+    "pronunciation": "/ˈsprɪŋkəl/",
+    "definition": "to scatter small amounts over something.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "present_example": "She **sprinkles** cheese on top.",
+    "past_simple_example": "He **sprinkled** sugar over the cake.",
+    "past_participle_example": "The nuts have been **sprinkled** with salt.",
+    "present_participle_example": "**Sprinkling** the herbs last keeps the color.",
+    "image": "voc_00f09ff2",
+    "image_brief": "a baker sprinkling salt over bread dough, seen from above at medium distance, warm light, a shaker and a tray, precise mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Sprinkle** salt on the potatoes."
+  },
+  {
+    "phrase": "garnish",
+    "pos": "verb",
+    "sense": "decorate-a-dish-with-food",
+    "pronunciation": "/ˈɡɑrnɪʃ/",
+    "definition": "to decorate a dish with small pieces of food.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "present_example": "The chef **garnishes** every plate.",
+    "past_simple_example": "She **garnished** the salad with lemon.",
+    "past_participle_example": "The dish has been **garnished**.",
+    "present_participle_example": "**Garnishing** takes a steady hand.",
+    "image": "voc_e84bbb42",
+    "image_brief": "a chef garnishing a plate with herbs, seen from above at medium distance, pass light, tweezers and a cloth, exacting mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Garnish** the soup with herbs."
+  },
+  {
+    "phrase": "pit",
+    "pos": "verb",
+    "sense": "remove-the-stone-from-fruit",
+    "pronunciation": "/pɪt/",
+    "definition": "to remove the stone from a fruit.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "present_example": "He **pits** olives by hand.",
+    "past_simple_example": "They **pitted** the dates.",
+    "past_participle_example": "The cherries have been **pitted**.",
+    "present_participle_example": "**Pitting** fruit stains your fingers.",
+    "image": "voc_6b209aa1",
+    "image_brief": "a woman pitting cherries over a bowl, seen from above at medium distance, summer light, a knife and a cloth, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She will **pit** the cherries."
+  },
+  {
+    "phrase": "core",
+    "pos": "verb",
+    "sense": "remove-the-center-of-fruit",
+    "pronunciation": "/kɔr/",
+    "definition": "to remove the center of a fruit.",
+    "categories": [
+      "food"
+    ],
+    "level": "b2",
+    "present_example": "She **cores** the pears first.",
+    "past_simple_example": "He **cored** six apples.",
+    "past_participle_example": "The fruit has been **cored**.",
+    "present_participle_example": "**Coring** takes a small sharp knife.",
+    "image": "voc_feedb1bd",
+    "image_brief": "a man coring apples at a kitchen counter, seen from above at medium distance, morning light, a peeler and a dish, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Core** the apples before baking."
+  },
+  {
+    "phrase": "utensil",
+    "pos": "noun",
+    "sense": "tool-used-for-cooking",
+    "pronunciation": "/juˈtɛnsəl/",
+    "definition": "a tool used for cooking or eating.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_41198353",
+    "image_brief": "a cook reaching for a utensil from a hook above a stove, seen from the side at medium distance, warm light, pans and a towel, busy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Every **utensil** hangs on a hook."
+  },
+  {
+    "phrase": "countertop",
+    "pos": "noun",
+    "sense": "flat-work-surface",
+    "pronunciation": "/ˈkaʊntɝˌtɑp/",
+    "definition": "the flat work surface in a kitchen.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_ae8e1d16",
+    "image_brief": "a baker kneading dough on a stone countertop, seen from above at medium distance, window light, flour and a bowl, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **countertop** is made of stone."
+  },
+  {
+    "phrase": "foil",
+    "pos": "noun",
+    "sense": "thin-metal-sheet-for-food",
+    "pronunciation": "/fɔɪl/",
+    "definition": "thin metal sheet used to wrap food.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_fc6fae88",
+    "image_brief": "a man wrapping fish in foil on a kitchen table, seen from above at medium distance, daylight, a tray and lemon, practical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Wrap the fish in **foil**."
+  },
+  {
+    "phrase": "container",
+    "pos": "noun",
+    "sense": "box-or-jar-that-holds-things",
+    "pronunciation": "/kənˈteɪnɝ/",
+    "definition": "a box or jar used to hold things.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_d04dd828",
+    "image_brief": "a woman filling a glass container with flour from a scoop, seen from the side at medium distance, kitchen light, jars and a cloth, tidy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Keep the flour in a **container**."
+  },
+  {
+    "phrase": "pestle",
+    "pos": "noun",
+    "sense": "tool-for-crushing-spices",
+    "pronunciation": "/ˈpɛsəl/",
+    "definition": "a small heavy tool for crushing spices.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_96651b83",
+    "image_brief": "a cook crushing spices with a pestle in a stone bowl, seen from above at medium distance, warm light, jars and a cloth, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He crushed the seeds with a **pestle**."
+  },
+  {
+    "phrase": "flame",
+    "pos": "noun",
+    "sense": "hot-bright-gas-from-fire",
+    "pronunciation": "/fleɪm/",
+    "definition": "the hot bright gas from a fire.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_6910c31d",
+    "image_brief": "a cook lowering a gas flame under a pan, seen from the side at medium distance, stove light, a spoon and a cloth, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Lower the **flame** under the pan."
+  },
+  {
+    "phrase": "burner",
+    "pos": "noun",
+    "sense": "part-of-a-stove-that-heats",
+    "pronunciation": "/ˈbɝnɝ/",
+    "definition": "the part of a stove that produces heat.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_16a9512b",
+    "image_brief": "a repairman lifting a burner on an old stove, seen from above at medium distance, work light, tools and a pan, practical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The back **burner** stopped working."
+  },
+  {
+    "phrase": "hotplate",
+    "pos": "noun",
+    "sense": "small-flat-cooking-surface",
+    "pronunciation": "/ˈhɑtˌpleɪt/",
+    "definition": "a small flat electric cooking surface.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_37ae58ab",
+    "image_brief": "a student cooking rice on a hotplate in a small room, seen from the side at medium distance, lamplight, a pot and a plate, modest mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They cooked rice on a **hotplate**."
+  },
+  {
+    "phrase": "griddle",
+    "pos": "noun",
+    "sense": "flat-heated-cooking-surface",
+    "pronunciation": "/ˈɡrɪdəl/",
+    "definition": "a flat heated surface for cooking.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_fae74fe0",
+    "image_brief": "a cook pouring batter onto a hot griddle, seen from the side at medium distance, morning light, a jug and a plate, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Heat the **griddle** before the pancakes."
+  },
+  {
+    "phrase": "dishrack",
+    "pos": "noun",
+    "sense": "frame-for-drying-dishes",
+    "pronunciation": "/ˈdɪʃˌræk/",
+    "definition": "a frame for drying washed dishes.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_ea6f855a",
+    "image_brief": "a woman stacking plates in a dishrack by a sink, seen from the side at medium distance, daylight, soap and a towel, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **dishrack** is full again."
+  },
+  {
+    "phrase": "trivet",
+    "pos": "noun",
+    "sense": "stand-for-hot-dishes",
+    "pronunciation": "/ˈtrɪvɪt/",
+    "definition": "a stand that protects a table from hot dishes.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_f713ecb2",
+    "image_brief": "a hand setting a hot pot on a trivet, seen from above at medium distance, table light, plates and a jug, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Put the pot on a **trivet**."
+  },
+  {
+    "phrase": "potholder",
+    "pos": "noun",
+    "sense": "cloth-for-holding-hot-pans",
+    "pronunciation": "/ˈpɑtˌhoʊldɝ/",
+    "definition": "a thick cloth for holding hot pans.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_8d800087",
+    "image_brief": "a man lifting a hot dish with a potholder, seen from the side at medium distance, oven light, a tray and a cloth, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Grab a **potholder** before that dish."
+  },
+  {
+    "phrase": "backsplash",
+    "pos": "noun",
+    "sense": "surface-behind-a-counter",
+    "pronunciation": "/ˈbækˌsplæʃ/",
+    "definition": "the surface behind a kitchen counter.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_16046cdf",
+    "image_brief": "a woman wiping a tiled backsplash behind a stove, seen from the side at medium distance, kitchen light, a sponge and a bottle, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **backsplash** catches every splash."
+  },
+  {
+    "phrase": "vent",
+    "pos": "noun",
+    "sense": "opening-that-lets-air-out",
+    "pronunciation": "/vɛnt/",
+    "definition": "an opening that lets air or steam out.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_fa39d919",
+    "image_brief": "a technician checking a vent above a stove, seen from below at medium distance, work light, a ladder and a cloth, practical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **vent** above the stove is clogged."
+  },
+  {
+    "phrase": "leftover",
+    "pos": "noun",
+    "sense": "food-kept-after-a-meal",
+    "pronunciation": "/ˈlɛftˌoʊvɝ/",
+    "definition": "food kept after a meal.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_f28c31de",
+    "image_brief": "a woman putting a leftover into a container in a fridge, seen from the side at medium distance, cold light, shelves and a jug, thrifty mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "There is one **leftover** in the fridge."
+  },
+  {
+    "phrase": "cube",
+    "pos": "noun",
+    "sense": "small-block-of-something",
+    "pronunciation": "/kjub/",
+    "definition": "a small block of something.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_dc314b9f",
+    "image_brief": "a hand dropping an ice cube into a glass, seen from above at medium distance, bright light, a bottle and a cloth, refreshing mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Drop a **cube** of ice in the glass."
+  },
+  {
+    "phrase": "sanitation",
+    "pos": "noun",
+    "sense": "systems-that-keep-places-clean",
+    "pronunciation": "/ˌsænɪˈteɪʃən/",
+    "definition": "the systems that keep places clean and safe.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_66b8ceed",
+    "image_brief": "an inspector checking a restaurant kitchen with a clipboard, seen from the side at medium distance, bright light, steel surfaces and a chef, serious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Kitchen **sanitation** is checked every month."
+  },
+  {
+    "phrase": "aroma",
+    "pos": "noun",
+    "sense": "pleasant-smell-from-food",
+    "pronunciation": "/əˈroʊmə/",
+    "definition": "a pleasant smell from food.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_a6ed4522",
+    "image_brief": "a woman breathing in the aroma of fresh bread, seen from the side at medium distance, bakery light, trays and a cloth, pleased mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **aroma** of bread filled the hall."
+  },
+  {
+    "phrase": "expiry",
+    "pos": "noun",
+    "sense": "date-after-which-food-is-unsafe",
+    "pronunciation": "/ɪkˈspaɪri/",
+    "definition": "the date after which food is unsafe.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_8b2f3c08",
+    "image_brief": "a shopper turning a carton to check the expiry date, seen from above at medium distance, cold case light, a basket and milk, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Check the **expiry** before you open it."
+  },
+  {
+    "phrase": "dishcloth",
+    "pos": "noun",
+    "sense": "cloth-for-washing-dishes",
+    "pronunciation": "/ˈdɪʃˌklɔθ/",
+    "definition": "a cloth used for washing dishes.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_4cb55ca6",
+    "image_brief": "a woman wringing out a dishcloth over a sink, seen from the side at medium distance, daylight, plates and soap, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **dishcloth** smells sour."
+  },
+  {
+    "phrase": "teakettle",
+    "pos": "noun",
+    "sense": "container-for-boiling-water",
+    "pronunciation": "/ˈtiˌkɛtəl/",
+    "definition": "a container for boiling water.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_e2052a58",
+    "image_brief": "a teakettle steaming on a stove while a man reaches for a cup, seen from the side at medium distance, morning light, a mug and a cloth, calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **teakettle** whistled on the stove."
+  },
+  {
+    "phrase": "cooktop",
+    "pos": "noun",
+    "sense": "top-part-of-a-stove",
+    "pronunciation": "/ˈkʊkˌtɑp/",
+    "definition": "the top part of a stove with burners.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_1dafef65",
+    "image_brief": "a woman cleaning a cooktop after frying, seen from above at medium distance, kitchen light, a sponge and a pan, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Clean the **cooktop** after frying."
+  },
+  {
+    "phrase": "drainboard",
+    "pos": "noun",
+    "sense": "ridged-area-beside-a-sink",
+    "pronunciation": "/ˈdreɪnˌbɔrd/",
+    "definition": "the ridged area beside a sink for drying dishes.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_6af47677",
+    "image_brief": "a man setting wet plates on a drainboard, seen from the side at medium distance, window light, a sink and a towel, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Leave the plates on the **drainboard**."
+  },
+  {
+    "phrase": "reheat",
+    "pos": "verb",
+    "sense": "heat-food-again",
+    "pronunciation": "/riˈhit/",
+    "definition": "to heat food again.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "present_example": "She **reheats** soup for lunch.",
+    "past_simple_example": "He **reheated** the rice.",
+    "past_participle_example": "The stew has been **reheated** twice.",
+    "present_participle_example": "**Reheating** pasta dries it out.",
+    "image": "voc_448596b8",
+    "image_brief": "a woman reheating soup in a pot, seen from the side at medium distance, evening light, a bowl and a spoon, tired mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Reheat** the soup before serving."
+  },
+  {
+    "phrase": "defrost",
+    "pos": "verb",
+    "sense": "let-frozen-food-become-soft",
+    "pronunciation": "/diˈfrɔst/",
+    "definition": "to let frozen food become soft.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "present_example": "We **defrost** the freezer each spring.",
+    "past_simple_example": "She **defrosted** the fish overnight.",
+    "past_participle_example": "The chicken has **defrosted**.",
+    "present_participle_example": "**Defrosting** takes hours in the fridge.",
+    "image": "voc_75d9eef7",
+    "image_brief": "a man placing frozen chicken on a plate to defrost, seen from above at medium distance, kitchen light, a sink and a cloth, practical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Defrost** the chicken overnight."
+  },
+  {
+    "phrase": "refrigerate",
+    "pos": "verb",
+    "sense": "keep-food-cold",
+    "pronunciation": "/rɪˈfrɪdʒəˌreɪt/",
+    "definition": "to keep food cold in a fridge.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "present_example": "They **refrigerate** the dough overnight.",
+    "past_simple_example": "He **refrigerated** the leftovers.",
+    "past_participle_example": "The cake has been **refrigerated**.",
+    "present_participle_example": "**Refrigerating** cheese changes its texture.",
+    "image": "voc_dd62d7a9",
+    "image_brief": "a woman putting a cake into a fridge, seen from the side at medium distance, cold light, shelves and a jug, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Refrigerate** the cake after an hour."
+  },
+  {
+    "phrase": "ferment",
+    "pos": "verb",
+    "sense": "let-food-change-over-time",
+    "pronunciation": "/fɝˈmɛnt/",
+    "definition": "to let food change chemically over time.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "present_example": "They **ferment** cabbage for a month.",
+    "past_simple_example": "The beer **fermented** in the cellar.",
+    "past_participle_example": "The dough has **fermented** enough.",
+    "present_participle_example": "**Fermenting** needs a steady temperature.",
+    "image": "voc_309c16d4",
+    "image_brief": "a home brewer checking a fermenting jar, seen from the side at medium distance, dim cellar light, bottles and a cloth, patient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **ferment** cabbage for a month."
+  },
+  {
+    "phrase": "mash",
+    "pos": "verb",
+    "sense": "crush-food-until-soft",
+    "pronunciation": "/mæʃ/",
+    "definition": "to crush food until it is soft.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "present_example": "She **mashes** the potatoes with butter.",
+    "past_simple_example": "He **mashed** the avocado roughly.",
+    "past_participle_example": "The fruit has been **mashed**.",
+    "present_participle_example": "**Mashing** by hand leaves lumps.",
+    "image": "voc_01e56ecf",
+    "image_brief": "a cook mashing potatoes in a pot, seen from the side at medium distance, kitchen light, butter and a masher, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Mash** the potatoes with butter."
+  },
+  {
+    "phrase": "sieve",
+    "pos": "verb",
+    "sense": "press-food-through-a-fine-net",
+    "pronunciation": "/sɪv/",
+    "definition": "to press food through a fine net.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "present_example": "She **sieves** the cocoa over the cake.",
+    "past_simple_example": "He **sieved** the sauce.",
+    "past_participle_example": "The flour has been **sieved**.",
+    "present_participle_example": "**Sieving** removes the lumps.",
+    "image": "voc_5ec6b8a7",
+    "image_brief": "a baker sieving flour into a bowl, seen from above at medium distance, window light, a scale and a spoon, precise mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Sieve** the flour before baking."
+  },
+  {
+    "phrase": "toss",
+    "pos": "verb",
+    "sense": "mix-food-with-a-quick-movement",
+    "pronunciation": "/tɔs/",
+    "definition": "to mix food with a quick light movement.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "present_example": "She **tosses** the pasta in oil.",
+    "past_simple_example": "He **tossed** the vegetables in the pan.",
+    "past_participle_example": "The salad has been **tossed**.",
+    "present_participle_example": "**Tossing** gently keeps the leaves whole.",
+    "image": "voc_5f691306",
+    "image_brief": "a woman tossing salad in a large bowl, seen from above at medium distance, bright light, dressing and herbs, fresh mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Toss** the salad with dressing."
+  },
+  {
+    "phrase": "scoop",
+    "pos": "verb",
+    "sense": "lift-food-with-a-deep-spoon",
+    "pronunciation": "/skup/",
+    "definition": "to lift food with a deep spoon.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "present_example": "He **scoops** the rice into bowls.",
+    "past_simple_example": "She **scooped** ice cream for the children.",
+    "past_participle_example": "The seeds have been **scooped** out.",
+    "present_participle_example": "**Scooping** with a warm spoon is easier.",
+    "image": "voc_3ca2e37f",
+    "image_brief": "a man scooping rice into bowls with a cup, seen from above at medium distance, warm light, a pot and a cloth, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Scoop** the seeds out of the melon."
+  },
+  {
+    "phrase": "puree",
+    "pos": "verb",
+    "sense": "crush-food-into-a-smooth-paste",
+    "pronunciation": "/pjʊˈreɪ/",
+    "definition": "to crush food into a smooth paste.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "present_example": "She **purees** the vegetables.",
+    "past_simple_example": "He **pureed** the fruit for the baby.",
+    "past_participle_example": "The sauce has been **pureed**.",
+    "present_participle_example": "**Pureeing** hot soup needs care.",
+    "image": "voc_16c9b50a",
+    "image_brief": "a cook pureeing soup with a hand blender, seen from the side at medium distance, kitchen light, a pot and a towel, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Puree** the soup until smooth."
+  },
+  {
+    "phrase": "chill",
+    "pos": "verb",
+    "sense": "make-food-cold-before-serving",
+    "pronunciation": "/tʃɪl/",
+    "definition": "to make food cold before serving.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "present_example": "They **chill** the dough before rolling.",
+    "past_simple_example": "She **chilled** the wine.",
+    "past_participle_example": "The salad has been **chilled**.",
+    "present_participle_example": "**Chilling** the mixture sets it faster.",
+    "image": "voc_0de2a9fa",
+    "image_brief": "a woman placing a dessert in the fridge to chill, seen from the side at medium distance, cold light, shelves and a timer, patient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Chill** the dessert for two hours."
+  },
+  {
+    "phrase": "sterilize",
+    "pos": "verb",
+    "sense": "clean-so-no-germs-remain",
+    "pronunciation": "/ˈstɛrəˌlaɪz/",
+    "definition": "to clean something so no germs remain.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "present_example": "She **sterilizes** the bottles every night.",
+    "past_simple_example": "He **sterilized** the tools.",
+    "past_participle_example": "The jars have been **sterilized**.",
+    "present_participle_example": "**Sterilizing** takes boiling water.",
+    "image": "voc_1964716c",
+    "image_brief": "a woman lifting hot jars from a pot of boiling water, seen from the side at medium distance, steam and light, tongs and a cloth, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Sterilize** the jars before filling them."
+  },
+  {
+    "phrase": "sizzle",
+    "pos": "verb",
+    "sense": "hiss-while-frying",
+    "pronunciation": "/ˈsɪzəl/",
+    "definition": "to make a hissing sound while frying.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "present_example": "The onions **sizzle** in the pan.",
+    "past_simple_example": "The bacon **sizzled** under the grill.",
+    "past_participle_example": "The oil has **sizzled** since we started.",
+    "present_participle_example": "**Sizzling** butter smells wonderful.",
+    "image": "voc_66078f2d",
+    "image_brief": "onions sizzling in a hot pan with a cook watching, seen from the side at medium distance, stove light, a spatula and salt, eager mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The onions **sizzle** in the pan."
+  },
+  {
+    "phrase": "spatter",
+    "pos": "verb",
+    "sense": "splash-small-drops-of-liquid",
+    "pronunciation": "/ˈspætɝ/",
+    "definition": "to splash small drops of hot liquid.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "present_example": "Bacon **spatters** across the stove.",
+    "past_simple_example": "The sauce **spattered** on my shirt.",
+    "past_participle_example": "Grease has **spattered** the wall.",
+    "present_participle_example": "**Spattering** oil can burn your arm.",
+    "image": "voc_0e2f73df",
+    "image_brief": "bacon spattering in a pan while a man steps back, seen from the side at medium distance, kitchen light, a cloth and a plate, wary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Bacon can **spatter** across the stove."
+  },
+  {
+    "phrase": "disinfect",
+    "pos": "verb",
+    "sense": "clean-to-kill-germs",
+    "pronunciation": "/ˌdɪsɪnˈfɛkt/",
+    "definition": "to clean a surface to kill germs.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "present_example": "She **disinfects** the sink each night.",
+    "past_simple_example": "He **disinfected** the counter.",
+    "past_participle_example": "The surface has been **disinfected**.",
+    "present_participle_example": "**Disinfecting** takes a minute.",
+    "image": "voc_9da080ad",
+    "image_brief": "a woman spraying and wiping a cutting board, seen from above at medium distance, bright light, gloves and a bottle, thorough mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Disinfect** the board after raw meat."
+  },
+  {
+    "phrase": "nonstick",
+    "pos": "adjective",
+    "sense": "not-letting-food-stick",
+    "pronunciation": "/ˌnɑnˈstɪk/",
+    "definition": "not letting food stick to the surface.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_3504045e",
+    "image_brief": "a cook sliding an omelet from a nonstick pan, seen from the side at medium distance, kitchen light, a spatula and a plate, easy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Use a **nonstick** pan for eggs."
+  },
+  {
+    "phrase": "heatproof",
+    "pos": "adjective",
+    "sense": "able-to-resist-heat",
+    "pronunciation": "/ˈhitˌpruf/",
+    "definition": "able to resist high heat.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_dec61345",
+    "image_brief": "a woman setting a hot dish on a heatproof mat, seen from above at medium distance, table light, plates and a jug, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Put the dish on a **heatproof** mat."
+  },
+  {
+    "phrase": "stainless",
+    "pos": "adjective",
+    "sense": "steel-that-does-not-rust",
+    "pronunciation": "/ˈsteɪnləs/",
+    "definition": "made of steel that does not rust easily.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_5f437f8e",
+    "image_brief": "a man polishing a stainless steel sink, seen from the side at medium distance, bright light, a cloth and a bottle, tidy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **stainless** sink looks new."
+  },
+  {
+    "phrase": "disposable",
+    "pos": "adjective",
+    "sense": "made-to-be-thrown-away",
+    "pronunciation": "/dɪˈspoʊzəbəl/",
+    "definition": "made to be thrown away after use.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_9ff47840",
+    "image_brief": "guests using disposable plates at an outdoor party, seen from the side at wide distance, afternoon light, a table and a bin, casual mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They used **disposable** cups at the party."
+  },
+  {
+    "phrase": "reusable",
+    "pos": "adjective",
+    "sense": "able-to-be-used-again",
+    "pronunciation": "/riˈjuzəbəl/",
+    "definition": "able to be used again.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_07bf5f7d",
+    "image_brief": "a shopper packing groceries into a reusable bag, seen from the side at medium distance, market light, crates and a trolley, thoughtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Bring a **reusable** bag."
+  },
+  {
+    "phrase": "leakproof",
+    "pos": "adjective",
+    "sense": "not-letting-liquid-escape",
+    "pronunciation": "/ˈlikˌpruf/",
+    "definition": "not letting liquid escape.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_d620ab59",
+    "image_brief": "a woman shaking a leakproof bottle in a gym bag, seen from the side at medium distance, bright light, a towel and shoes, confident mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **leakproof** lid saved my bag."
+  },
+  {
+    "phrase": "flimsy",
+    "pos": "adjective",
+    "sense": "thin-and-easily-broken",
+    "pronunciation": "/ˈflɪmzi/",
+    "definition": "thin and easily broken.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_57cf98c5",
+    "image_brief": "a flimsy tray bending under plates while a waiter steadies it, seen from the side at medium distance, restaurant light, glasses and a cloth, tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **flimsy** tray bent under the plates."
+  },
+  {
+    "phrase": "greasy",
+    "pos": "adjective",
+    "sense": "covered-with-oil-or-fat",
+    "pronunciation": "/ˈɡrisi/",
+    "definition": "covered with oil or fat.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_8eb39cb1",
+    "image_brief": "a man scrubbing a greasy pan at a sink, seen from the side at medium distance, kitchen light, soap and a cloth, determined mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **greasy** pan needs soaking."
+  },
+  {
+    "phrase": "rusty",
+    "pos": "adjective",
+    "sense": "covered-with-red-corrosion",
+    "pronunciation": "/ˈrʌsti/",
+    "definition": "covered with reddish brown corrosion.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_6018da69",
+    "image_brief": "a cook finding a rusty knife in a drawer, seen from above at medium distance, kitchen light, tools and a cloth, disappointed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **rusty** knife lay in the drawer."
+  },
+  {
+    "phrase": "culinary",
+    "pos": "adjective",
+    "sense": "relating-to-cooking",
+    "pronunciation": "/ˈkʌləˌnɛri/",
+    "definition": "relating to cooking.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_31800cf6",
+    "image_brief": "students working at benches in a culinary class, seen from the side at wide distance, bright light, pots and a chef, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She trained at a **culinary** school."
+  },
+  {
+    "phrase": "gourmet",
+    "pos": "adjective",
+    "sense": "of-very-high-food-quality",
+    "pronunciation": "/ˈɡʊrˌmeɪ/",
+    "definition": "of very high food quality.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_ad3187ed",
+    "image_brief": "a shop assistant wrapping gourmet cheese, seen from the side at medium distance, warm light, shelves and a board, refined mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The shop sells **gourmet** cheese."
+  },
+  {
+    "phrase": "homemade",
+    "pos": "adjective",
+    "sense": "made-at-home",
+    "pronunciation": "/ˈhoʊmˈmeɪd/",
+    "definition": "made at home rather than bought.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_bd38ed19",
+    "image_brief": "a family slicing homemade bread at a table, seen from the side at medium distance, morning light, butter and a jug, warm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **homemade** bread tastes better."
+  },
+  {
+    "phrase": "canned",
+    "pos": "adjective",
+    "sense": "preserved-in-a-metal-container",
+    "pronunciation": "/kænd/",
+    "definition": "preserved in a metal container.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b2",
+    "image": "voc_8a6d7af7",
+    "image_brief": "a man opening a canned tomato into a pot, seen from the side at medium distance, kitchen light, a spoon and a board, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We used **canned** beans for the stew."
   }
 ]
