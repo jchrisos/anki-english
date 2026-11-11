@@ -40240,5 +40240,3045 @@
     "image": "voc_b2ca95e0",
     "image_brief": "a gardener kneeling to plant a flower, one child beside, from the side at medium distance, a trowel, a pot and a lamp, gentle mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
     "example": "He can **kneel** on the mat."
+  },
+  {
+    "phrase": "ability",
+    "pos": "noun",
+    "sense": "power-or-skill-to-do",
+    "pronunciation": "/əˈbɪləti/",
+    "definition": "the power or skill to do something.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_7525c1e3",
+    "image_brief": "a student solving a hard puzzle while one teacher watches, from the side at medium distance, a desk, a lamp and a bag, capable mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She has the **ability** to learn fast."
+  },
+  {
+    "phrase": "accuracy",
+    "pos": "noun",
+    "sense": "quality-of-being-correct",
+    "pronunciation": "/ˈækjərəsi/",
+    "definition": "the quality of being correct.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_c2952efd",
+    "image_brief": "a hiker checking a map against a signpost, one friend beside, from the side at medium distance, a compass, a bag and a lamp, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **accuracy** of the map matters."
+  },
+  {
+    "phrase": "adjustment",
+    "pos": "noun",
+    "sense": "a-small-change",
+    "pronunciation": "/əˈdʒʌstmənt/",
+    "definition": "a small change.",
+    "categories": [
+      "home"
+    ],
+    "level": "b1",
+    "image": "voc_5dbdef14",
+    "image_brief": "a worker turning a dial on a machine, one supervisor pointing, from the side at medium distance, a chart, tools and a lamp, precise mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The plan needs one small **adjustment**."
+  },
+  {
+    "phrase": "body",
+    "pos": "noun",
+    "sense": "whole-physical-form",
+    "pronunciation": "/ˈbɑdi/",
+    "definition": "the whole physical form of a person.",
+    "categories": [
+      "body"
+    ],
+    "level": "b1",
+    "image": "voc_a4ef0a58",
+    "image_brief": "a runner stretching before a run in a park, one friend beside, from the side at medium distance, a bench, a bottle and a lamp, healthy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Exercise keeps the **body** strong."
+  },
+  {
+    "phrase": "code",
+    "pos": "noun",
+    "sense": "set-of-rules",
+    "pronunciation": "/koʊd/",
+    "definition": "a set of rules or symbols.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_fe1d3eba",
+    "image_brief": "a caretaker pointing at a safety code notice on a wall, one visitor reading, from the side at medium distance, a door, a lamp and a bin, official mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The building has a fire **code**."
+  },
+  {
+    "phrase": "desire",
+    "pos": "noun",
+    "sense": "a-strong-wish",
+    "pronunciation": "/dɪˈzaɪɚ/",
+    "definition": "a strong wish.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "b1",
+    "image": "voc_1770e5cb",
+    "image_brief": "a young man looking at travel photos on a wall, one friend beside, from behind at medium distance, a map, a bag and a lamp, longing mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He had a strong **desire** to travel."
+  },
+  {
+    "phrase": "education",
+    "pos": "noun",
+    "sense": "process-of-learning",
+    "pronunciation": "/ˌɛdʒəˈkeɪʃən/",
+    "definition": "the process of learning.",
+    "categories": [
+      "education"
+    ],
+    "level": "b1",
+    "image": "voc_1a257f0c",
+    "image_brief": "a teacher with a class of students in a bright room, from behind at wide distance, desks, a board and a lamp, hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Education** opens many doors."
+  },
+  {
+    "phrase": "entertainment",
+    "pos": "noun",
+    "sense": "things-that-amuse-people",
+    "pronunciation": "/ˌɛntɚˈteɪnmənt/",
+    "definition": "things that amuse people.",
+    "categories": [
+      "music"
+    ],
+    "level": "b1",
+    "image": "voc_64522bee",
+    "image_brief": "a small stage with one performer and a thin audience, from the back at wide distance, chairs, lights and a lamp, quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The town has little **entertainment**."
+  },
+  {
+    "phrase": "habit",
+    "pos": "noun",
+    "sense": "something-you-do-often",
+    "pronunciation": "/ˈhæbɪt/",
+    "definition": "something you do often.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b1",
+    "image": "voc_31b1b675",
+    "image_brief": "a woman reading in bed before sleep, one lamp beside, from the side at medium distance, a book, a cup and a blanket, calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Reading is a good **habit**."
+  },
+  {
+    "phrase": "image",
+    "pos": "noun",
+    "sense": "picture-or-idea",
+    "pronunciation": "/ˈɪmɪdʒ/",
+    "definition": "a picture or idea of something.",
+    "categories": [
+      "communication"
+    ],
+    "level": "b1",
+    "image": "voc_72da9843",
+    "image_brief": "a designer showing a new logo on a screen to two clients, from behind at medium distance, a table, cups and a lamp, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The company changed its **image**."
+  },
+  {
+    "phrase": "impression",
+    "pos": "noun",
+    "sense": "idea-about-someone",
+    "pronunciation": "/ɪmˈprɛʃən/",
+    "definition": "the idea you get about someone.",
+    "categories": [
+      "communication"
+    ],
+    "level": "b1",
+    "image": "voc_368787e0",
+    "image_brief": "a candidate shaking hands at an interview, one panel member smiling, from the side at medium distance, a desk, a folder and a lamp, positive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He made a good **impression**."
+  },
+  {
+    "phrase": "industry",
+    "pos": "noun",
+    "sense": "making-goods-in-factories",
+    "pronunciation": "/ˈɪndəstri/",
+    "definition": "the making of goods in factories.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_61812983",
+    "image_brief": "factory buildings with one worker crossing a yard, from the road at wide distance, trucks, a fence and a lamp, working mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Tourism is a big **industry** here."
+  },
+  {
+    "phrase": "issue",
+    "pos": "noun",
+    "sense": "important-subject-or-problem",
+    "pronunciation": "/ˈɪʃuː/",
+    "definition": "an important subject or problem.",
+    "categories": [
+      "city"
+    ],
+    "level": "b1",
+    "image": "voc_c4d2fa22",
+    "image_brief": "residents at a public meeting with one speaking into a mic, from the back at wide distance, chairs, a banner and a lamp, concerned mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Housing is the main **issue**."
+  },
+  {
+    "phrase": "item",
+    "pos": "noun",
+    "sense": "one-thing-in-a-list",
+    "pronunciation": "/ˈaɪtəm/",
+    "definition": "one thing in a list or group.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b1",
+    "image": "voc_fefd558e",
+    "image_brief": "a cashier scanning items at a till, one customer packing, from the side at medium distance, a bag, a screen and a lamp, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Each **item** has a price."
+  },
+  {
+    "phrase": "level",
+    "pos": "noun",
+    "sense": "amount-or-height",
+    "pronunciation": "/ˈlɛvəl/",
+    "definition": "the amount or height of something.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_99db975c",
+    "image_brief": "a worker pointing at a gauge on a machine, one colleague beside, from the side at medium distance, a chart, tools and a lamp, alert mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The noise reached a high **level**."
+  },
+  {
+    "phrase": "life",
+    "pos": "noun",
+    "sense": "time-a-person-is-alive",
+    "pronunciation": "/laɪf/",
+    "definition": "the time a person is alive.",
+    "categories": [
+      "time"
+    ],
+    "level": "b1",
+    "image": "voc_c8c67027",
+    "image_brief": "an older woman looking at the sea from a bench, one boat far off, from behind at wide distance, a bag, a lamp and a fence, reflective mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She spent her **life** near the sea."
+  },
+  {
+    "phrase": "material",
+    "pos": "noun",
+    "sense": "substance-for-making-things",
+    "pronunciation": "/məˈtɪriəl/",
+    "definition": "substance used to make things.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b1",
+    "image": "voc_0371f9df",
+    "image_brief": "a maker holding up a bag made from old cloth, one customer feeling it, from the side at medium distance, a table, tools and a lamp, crafty mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The bag is made of recycled **material**."
+  },
+  {
+    "phrase": "matter",
+    "pos": "noun",
+    "sense": "a-subject-or-situation",
+    "pronunciation": "/ˈmætɚ/",
+    "definition": "a subject or situation.",
+    "categories": [
+      "communication"
+    ],
+    "level": "b1",
+    "image": "voc_422c221b",
+    "image_brief": "two people talking quietly at a table with documents, one leaning in, from the side at medium distance, a lamp, cups and a folder, serious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "This is a serious **matter**."
+  },
+  {
+    "phrase": "meaning",
+    "pos": "noun",
+    "sense": "what-something-means",
+    "pronunciation": "/ˈmiːnɪŋ/",
+    "definition": "what something means.",
+    "categories": [
+      "communication"
+    ],
+    "level": "b1",
+    "image": "voc_1c554ad2",
+    "image_brief": "a teacher pointing at a picture and a word on a board, one student nodding, from behind at medium distance, desks, a lamp and a window, clear mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **meaning** is clear from the picture."
+  },
+  {
+    "phrase": "media",
+    "pos": "noun",
+    "sense": "news-outlets",
+    "pronunciation": "/ˈmiːdiə/",
+    "definition": "newspapers, TV and radio.",
+    "categories": [
+      "communication"
+    ],
+    "level": "b1",
+    "image": "voc_82cc909c",
+    "image_brief": "a reporter with a camera outside a building, one passerby looking, from across the street at wide distance, a van, a lamp and a sign, busy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The story was in the **media**."
+  },
+  {
+    "phrase": "member",
+    "pos": "noun",
+    "sense": "person-in-a-group",
+    "pronunciation": "/ˈmɛmbɚ/",
+    "definition": "a person in a group.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "b1",
+    "image": "voc_7326b145",
+    "image_brief": "club members raising hands at a meeting, one chair counting, from the back at wide distance, chairs, a table and a lamp, civic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Every **member** voted."
+  },
+  {
+    "phrase": "memory",
+    "pos": "noun",
+    "sense": "ability-to-remember",
+    "pronunciation": "/ˈmɛməri/",
+    "definition": "the ability to remember.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "b1",
+    "image": "voc_c3297593",
+    "image_brief": "an older man greeting a young visitor by name, one photo on the wall, from the side at medium distance, a lamp, a chair and a cup, warm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He has a good **memory** for names."
+  },
+  {
+    "phrase": "method",
+    "pos": "noun",
+    "sense": "a-way-of-doing-something",
+    "pronunciation": "/ˈmɛθəd/",
+    "definition": "a way of doing something.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_13fd67ac",
+    "image_brief": "a trainer showing a step on a board to two workers, one trying it, from the side at medium distance, tools, a screen and a lamp, practical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They tried a new **method**."
+  },
+  {
+    "phrase": "mission",
+    "pos": "noun",
+    "sense": "important-job-or-aim",
+    "pronunciation": "/ˈmɪʃən/",
+    "definition": "an important job or aim.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_3df3fa72",
+    "image_brief": "volunteers planning a campaign around a table, one pointing at a map, from the side at medium distance, cups, a laptop and a lamp, driven mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The team's **mission** is to save water."
+  },
+  {
+    "phrase": "mixture",
+    "pos": "noun",
+    "sense": "combination-of-things",
+    "pronunciation": "/ˈmɪkstʃɚ/",
+    "definition": "a combination of things.",
+    "categories": [
+      "food"
+    ],
+    "level": "b1",
+    "image": "voc_d0c8fa2d",
+    "image_brief": "a baker stirring a bowl of mixture, one recipe beside, from above at medium distance, a whisk, flour and a lamp, baking mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The cake uses a simple **mixture**."
+  },
+  {
+    "phrase": "model",
+    "pos": "noun",
+    "sense": "small-copy-or-example",
+    "pronunciation": "/ˈmɑdəl/",
+    "definition": "a small copy or an example.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_6dd24437",
+    "image_brief": "two engineers looking at a small bridge model on a table, one pointing, from the side at medium distance, plans, tools and a lamp, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They built a **model** of the bridge."
+  },
+  {
+    "phrase": "motive",
+    "pos": "noun",
+    "sense": "reason-for-doing-something",
+    "pronunciation": "/ˈmoʊtɪv/",
+    "definition": "a reason for doing something.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_4d57b0a0",
+    "image_brief": "two officers reading notes at a table, one pointing at a photo, from the side at medium distance, a lamp, a phone and a folder, serious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Police looked for a **motive**."
+  },
+  {
+    "phrase": "movement",
+    "pos": "noun",
+    "sense": "act-of-moving",
+    "pronunciation": "/ˈmuːvmənt/",
+    "definition": "the act of moving.",
+    "categories": [
+      "sports"
+    ],
+    "level": "b1",
+    "image": "voc_2c56f853",
+    "image_brief": "a crowd moving through a station gate, one guard directing, from behind at wide distance, bags, a sign and a lamp, busy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **movement** of the crowd was slow."
+  },
+  {
+    "phrase": "nation",
+    "pos": "noun",
+    "sense": "country-and-its-people",
+    "pronunciation": "/ˈneɪʃən/",
+    "definition": "a country and its people.",
+    "categories": [
+      "city"
+    ],
+    "level": "b1",
+    "image": "voc_e5919f69",
+    "image_brief": "a family watching a national event on screen, one flag beside, from behind at medium distance, a sofa, cups and a lamp, united mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The whole **nation** watched."
+  },
+  {
+    "phrase": "norm",
+    "pos": "noun",
+    "sense": "usual-way-things-are-done",
+    "pronunciation": "/nɔrm/",
+    "definition": "the usual way things are done.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_80411aa3",
+    "image_brief": "an office at night with several people still at desks, one leaving, from the doorway at wide distance, lamps, cups and coats, tired mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Working late became the **norm**."
+  },
+  {
+    "phrase": "bet",
+    "pos": "verb",
+    "sense": "risk-money-on-a-result",
+    "pronunciation": "/bɛt/",
+    "definition": "to risk money on a result.",
+    "categories": [
+      "money"
+    ],
+    "level": "b1",
+    "present_example": "He **bets** on horses.",
+    "past_simple_example": "She **bet** ten dollars.",
+    "past_participle_example": "They have **bet** before.",
+    "present_participle_example": "He is **betting** again.",
+    "image": "voc_2b84c6aa",
+    "image_brief": "two friends watching a match with one holding a ticket, from behind at medium distance, a screen, cups and a lamp, excited mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I **bet** on the home team."
+  },
+  {
+    "phrase": "bind",
+    "pos": "verb",
+    "sense": "tie-things-together",
+    "pronunciation": "/baɪnd/",
+    "definition": "to tie things together.",
+    "categories": [
+      "home"
+    ],
+    "level": "b1",
+    "present_example": "She **binds** the reports.",
+    "past_simple_example": "He **bound** the parcel.",
+    "past_participle_example": "The books have been **bound**.",
+    "present_participle_example": "They are **binding** the edges.",
+    "image": "voc_3fbc0034",
+    "image_brief": "a worker tying a stack of papers with string, one colleague beside, from above at medium distance, a box, tape and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Bind** the papers with string."
+  },
+  {
+    "phrase": "fancy",
+    "pos": "verb",
+    "sense": "want-or-like-something",
+    "pronunciation": "/ˈfænsi/",
+    "definition": "to want or like something.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "b1",
+    "present_example": "She **fancies** a walk.",
+    "past_simple_example": "He **fancied** the red car.",
+    "past_participle_example": "They have **fancied** this trip for years.",
+    "present_participle_example": "I am **fancying** a break.",
+    "image": "voc_0bde5c08",
+    "image_brief": "two friends at a cafe table with one pointing at the menu, from the side at medium distance, cups, a bag and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Do you **fancy** a coffee?"
+  },
+  {
+    "phrase": "bloom",
+    "pos": "verb",
+    "sense": "produce-flowers",
+    "pronunciation": "/bluːm/",
+    "definition": "to produce flowers.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b1",
+    "present_example": "The roses **bloom** in June.",
+    "past_simple_example": "The tree **bloomed** early.",
+    "past_participle_example": "The garden has **bloomed** at last.",
+    "present_participle_example": "The cactus is **blooming** now.",
+    "image": "voc_ca24b2a1",
+    "image_brief": "a garden full of roses in bloom with one gardener cutting some, from the path at medium distance, a basket, a fence and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "These flowers **bloom** every spring."
+  },
+  {
+    "phrase": "knit",
+    "pos": "verb",
+    "sense": "make-cloth-from-wool",
+    "pronunciation": "/nɪt/",
+    "definition": "to make cloth from wool.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "b1",
+    "present_example": "She **knits** every winter.",
+    "past_simple_example": "He **knitted** a hat.",
+    "past_participle_example": "They have **knitted** for years.",
+    "present_participle_example": "She is **knitting** a sweater.",
+    "image": "voc_4ba95099",
+    "image_brief": "a woman knitting in an armchair with wool beside, one cat on the floor, from the side at medium distance, a basket, a lamp and a blanket --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She can **knit** a warm scarf."
+  },
+  {
+    "phrase": "launch",
+    "pos": "verb",
+    "sense": "start-something-new",
+    "pronunciation": "/lɔntʃ/",
+    "definition": "to start-something-new",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "present_example": "She **launches** a course each spring.",
+    "past_simple_example": "They **launched** the site.",
+    "past_participle_example": "The plan has been **launched**.",
+    "present_participle_example": "The firm is **launching** a brand.",
+    "image": "voc_e3087cc2",
+    "image_brief": "a team presenting a new product on a screen, one holding a phone, from the side at medium distance, a table, cups and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They will **launch** the app in May."
+  },
+  {
+    "phrase": "lean",
+    "pos": "verb",
+    "sense": "bend-from-upright",
+    "pronunciation": "/liːn/",
+    "definition": "to bend from an upright position.",
+    "categories": [
+      "body"
+    ],
+    "level": "b1",
+    "present_example": "She **leans** on the rail.",
+    "past_simple_example": "He **leaned** against the wall.",
+    "past_participle_example": "They have **leaned** on that fence.",
+    "present_participle_example": "He is **leaning** out of the window.",
+    "image": "voc_d2c45daf",
+    "image_brief": "a museum guard warning a visitor leaning near a case, from the side at medium distance, a rope, a bench and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Do not **lean** on the glass."
+  },
+  {
+    "phrase": "lower",
+    "pos": "verb",
+    "sense": "move-something-down",
+    "pronunciation": "/ˈloʊɚ/",
+    "definition": "to move something down.",
+    "categories": [
+      "home"
+    ],
+    "level": "b1",
+    "present_example": "She **lowers** the price.",
+    "past_simple_example": "He **lowered** the flag.",
+    "past_participle_example": "The volume has been **lowered**.",
+    "present_participle_example": "They are **lowering** the shelf.",
+    "image": "voc_5d194830",
+    "image_brief": "a person lowering a window blind in the evening, one lamp beside, from the side at medium distance, a sofa, a cup and a book --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Please **lower** the blind."
+  },
+  {
+    "phrase": "maintain",
+    "pos": "verb",
+    "sense": "keep-in-good-condition",
+    "pronunciation": "/meɪnˈteɪn/",
+    "definition": "to keep something in good condition.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "present_example": "She **maintains** the garden.",
+    "past_simple_example": "He **maintained** the road.",
+    "past_participle_example": "The house has been **maintained** well.",
+    "present_participle_example": "They are **maintaining** the pool.",
+    "image": "voc_2ed52b91",
+    "image_brief": "a technician servicing a machine with tools, one worker beside, from the side at medium distance, a checklist, a lamp and a bench --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We **maintain** the machines monthly."
+  },
+  {
+    "phrase": "observe",
+    "pos": "verb",
+    "sense": "watch-carefully",
+    "pronunciation": "/əbˈzɝv/",
+    "definition": "to watch something carefully.",
+    "categories": [
+      "education"
+    ],
+    "level": "b1",
+    "present_example": "She **observes** the class.",
+    "past_simple_example": "He **observed** the change.",
+    "past_participle_example": "They have **observed** the pattern.",
+    "present_participle_example": "We are **observing** the results.",
+    "image": "voc_96174712",
+    "image_brief": "a researcher watching birds from a hide with binoculars, one notebook beside, from behind at medium distance, a flask, a lamp and a chart --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Scientists **observe** the birds."
+  },
+  {
+    "phrase": "excellent",
+    "pos": "adjective",
+    "sense": "extremely-good",
+    "pronunciation": "/ˈɛksələnt/",
+    "definition": "extremely good.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "b1",
+    "image": "voc_3b3f464b",
+    "image_brief": "a family finishing dinner and smiling at the table, one guest raising a glass, from the side at medium distance, plates, a jug and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The meal was **excellent**."
+  },
+  {
+    "phrase": "external",
+    "pos": "adjective",
+    "sense": "on-the-outside",
+    "pronunciation": "/ɪkˈstɝnəl/",
+    "definition": "on-or-from-the-outside.",
+    "categories": [
+      "home"
+    ],
+    "level": "b1",
+    "image": "voc_6b5655fc",
+    "image_brief": "a painter checking an outside wall of a house, one homeowner beside, from the garden at wide distance, a ladder, a bucket and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **external** walls need paint."
+  },
+  {
+    "phrase": "extreme",
+    "pos": "adjective",
+    "sense": "very-great-in-degree",
+    "pronunciation": "/ɪkˈstriːm/",
+    "definition": "very-great-in-degree.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b1",
+    "image": "voc_00574453",
+    "image_brief": "a hiker resting in shade during a heatwave, one bottle beside, from the side at wide distance, a dry field, a fence and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The heat was **extreme**."
+  },
+  {
+    "phrase": "latin",
+    "pos": "adjective",
+    "sense": "relating-to-latin",
+    "pronunciation": "/ˈlætən/",
+    "definition": "relating-to-an-old-language.",
+    "categories": [
+      "education"
+    ],
+    "level": "b1",
+    "image": "voc_9ebae744",
+    "image_brief": "a student reading an old text with a teacher pointing, from the side at medium distance, a dictionary, a lamp and a desk --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The word comes from **latin**."
+  },
+  {
+    "phrase": "likely",
+    "pos": "adjective",
+    "sense": "probable",
+    "pronunciation": "/ˈlaɪkli/",
+    "definition": "probable.",
+    "categories": [
+      "time"
+    ],
+    "level": "b1",
+    "image": "voc_8d65884e",
+    "image_brief": "a farmer looking at dark clouds with one neighbor, from the field at wide distance, a tractor, a fence and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Rain is **likely** tonight."
+  },
+  {
+    "phrase": "limited",
+    "pos": "adjective",
+    "sense": "small-in-amount",
+    "pronunciation": "/ˈlɪmɪtɪd/",
+    "definition": "small-in-amount.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b1",
+    "image": "voc_55a78e74",
+    "image_brief": "a queue outside a small box office with one sign, from the street at wide distance, a lamp, a barrier and a bench --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Tickets are **limited**."
+  },
+  {
+    "phrase": "male",
+    "pos": "adjective",
+    "sense": "of-the-man-kind",
+    "pronunciation": "/meɪl/",
+    "definition": "of-the-boy-or-man-kind.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b1",
+    "image": "voc_21855365",
+    "image_brief": "a birdwatcher pointing at a bright bird on a branch, one friend beside, from the side at medium distance, binoculars, a book and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **male** bird has brighter colors."
+  },
+  {
+    "phrase": "noble",
+    "pos": "adjective",
+    "sense": "brave-and-good",
+    "pronunciation": "/ˈnoʊbəl/",
+    "definition": "brave-and-good.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "b1",
+    "image": "voc_76e2254d",
+    "image_brief": "a volunteer helping an older neighbor from a flooded house, from behind at wide distance, a boat, a bag and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "It was a **noble** thing to do."
+  },
+  {
+    "phrase": "organic",
+    "pos": "adjective",
+    "sense": "grown-without-chemicals",
+    "pronunciation": "/ɔrˈɡænɪk/",
+    "definition": "grown-without-chemicals.",
+    "categories": [
+      "food"
+    ],
+    "level": "b1",
+    "image": "voc_e14b4db2",
+    "image_brief": "a shopper choosing vegetables at a farm stall, one farmer pointing, from the side at medium distance, crates, a sign and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They buy **organic** vegetables."
+  },
+  {
+    "phrase": "outer",
+    "pos": "adjective",
+    "sense": "on-the-outside",
+    "pronunciation": "/ˈaʊtɚ/",
+    "definition": "on-the-outside.",
+    "categories": [
+      "home"
+    ],
+    "level": "b1",
+    "image": "voc_6f65b32b",
+    "image_brief": "a person locking an outer door at night, one key in hand, from the hallway at medium distance, a mat, a coat and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **outer** door stays locked."
+  },
+  {
+    "phrase": "multiply",
+    "pos": "verb",
+    "sense": "increase-by-a-number",
+    "pronunciation": "/ˈmʌltəplaɪ/",
+    "definition": "to increase a number by another number.",
+    "categories": [
+      "education"
+    ],
+    "level": "b1",
+    "present_example": "Two **multiplies** quickly.",
+    "past_simple_example": "He **multiplied** the figures.",
+    "past_participle_example": "The costs have **multiplied**.",
+    "present_participle_example": "Errors are **multiplying**.",
+    "image": "voc_dd023274",
+    "image_brief": "a student working through sums on a board, one teacher pointing, from behind at medium distance, desks, a calculator and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Figures can **multiply** quickly."
+  },
+  {
+    "phrase": "obey",
+    "pos": "verb",
+    "sense": "do-what-a-rule-says",
+    "pronunciation": "/əˈbeɪ/",
+    "definition": "to do what a person or rule says.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "b1",
+    "present_example": "Children **obey** the rules.",
+    "past_simple_example": "He **obeyed** the sign.",
+    "past_participle_example": "They have **obeyed** every order.",
+    "present_participle_example": "The dog is **obeying** well.",
+    "image": "voc_7ed38abf",
+    "image_brief": "a dog sitting at a trainer's signal, one owner watching, from the side at medium distance, a lead, a bench and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Dogs can **obey** simple orders."
+  },
+  {
+    "phrase": "offer",
+    "pos": "verb",
+    "sense": "say-you-will-give",
+    "pronunciation": "/ˈɔfɚ/",
+    "definition": "to say that you will give something.",
+    "categories": [
+      "communication"
+    ],
+    "level": "b1",
+    "present_example": "They **offer** free tea.",
+    "past_simple_example": "She **offered** me a seat.",
+    "past_participle_example": "A reward has been **offered**.",
+    "present_participle_example": "He is **offering** help.",
+    "image": "voc_4fb9a36f",
+    "image_brief": "a cafe owner offering a cup to a customer at the counter, from the side at medium distance, a tray, cups and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They can **offer** free tea."
+  },
+  {
+    "phrase": "operate",
+    "pos": "verb",
+    "sense": "make-something-work",
+    "pronunciation": "/ˈɑpəreɪt/",
+    "definition": "to work or make a machine work.",
+    "categories": [
+      "technology"
+    ],
+    "level": "b1",
+    "present_example": "She **operates** the machine.",
+    "past_simple_example": "He **operated** the crane.",
+    "past_participle_example": "The clinic has **operated** for years.",
+    "present_participle_example": "They are **operating** the system.",
+    "image": "voc_fcdee3b4",
+    "image_brief": "a worker using a control panel with one supervisor beside, from the side at medium distance, a screen, tools and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Only she can **operate** the machine."
+  },
+  {
+    "phrase": "pause",
+    "pos": "verb",
+    "sense": "stop-for-a-short-time",
+    "pronunciation": "/pɔz/",
+    "definition": "to stop for a short time and then continue.",
+    "categories": [
+      "time"
+    ],
+    "level": "b1",
+    "present_example": "He **pauses** before answering.",
+    "past_simple_example": "She **paused** at the door.",
+    "past_participle_example": "They have **paused** the project.",
+    "present_participle_example": "The music is **pausing** for the news.",
+    "image": "voc_e4ae187f",
+    "image_brief": "a person pressing pause on a remote during a film, one friend beside, from the side at medium distance, a sofa, a bowl and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "You can **pause** the film."
+  },
+  {
+    "phrase": "permit",
+    "pos": "verb",
+    "sense": "allow-something",
+    "pronunciation": "/pɚˈmɪt/",
+    "definition": "to allow something to happen.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "present_example": "The rules **permit** two guests.",
+    "past_simple_example": "They **permitted** the event.",
+    "past_participle_example": "Smoking is not **permitted**.",
+    "present_participle_example": "The council is **permitting** repairs.",
+    "image": "voc_f6d875f7",
+    "image_brief": "a clerk pointing at a permit rule while a visitor reads, from the side at medium distance, a desk, a folder and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The rules **permit** two guests."
+  },
+  {
+    "phrase": "pray",
+    "pos": "verb",
+    "sense": "speak-to-god",
+    "pronunciation": "/preɪ/",
+    "definition": "to speak to God.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "b1",
+    "present_example": "They **pray** every morning.",
+    "past_simple_example": "She **prayed** for rain.",
+    "past_participle_example": "The family has **prayed** for years.",
+    "present_participle_example": "He is **praying** quietly.",
+    "image": "voc_4b52f76d",
+    "image_brief": "a family praying quietly in a small chapel, one candle lit, from behind at medium distance, benches, a lamp and a window --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **pray** every morning."
+  },
+  {
+    "phrase": "preserve",
+    "pos": "verb",
+    "sense": "keep-safe-or-unchanged",
+    "pronunciation": "/prɪˈzɝv/",
+    "definition": "to keep something safe or unchanged.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b1",
+    "present_example": "They **preserve** old buildings.",
+    "past_simple_example": "We **preserved** the fruit.",
+    "past_participle_example": "The forest has been **preserved**.",
+    "present_participle_example": "The team is **preserving** the site.",
+    "image": "voc_86180b00",
+    "image_brief": "workers restoring an old stone wall, one architect pointing, from the side at medium distance, tools, a plan and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We must **preserve** old buildings."
+  },
+  {
+    "phrase": "publish",
+    "pos": "verb",
+    "sense": "print-and-sell-a-book",
+    "pronunciation": "/ˈpʌblɪʃ/",
+    "definition": "to print and sell a book or paper.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "present_example": "They **publish** two magazines.",
+    "past_simple_example": "She **published** a novel.",
+    "past_participle_example": "The report has been **published**.",
+    "present_participle_example": "The paper is **publishing** the story.",
+    "image": "voc_9e1042e7",
+    "image_brief": "a small printer stacking new magazines, one editor checking a cover, from the side at medium distance, a desk, boxes and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **publish** two magazines."
+  },
+  {
+    "phrase": "reduce",
+    "pos": "verb",
+    "sense": "make-something-smaller",
+    "pronunciation": "/rɪˈduːs/",
+    "definition": "to make something smaller.",
+    "categories": [
+      "money"
+    ],
+    "level": "b1",
+    "present_example": "They **reduce** prices in winter.",
+    "past_simple_example": "We **reduced** the waste.",
+    "past_participle_example": "The noise has been **reduced**.",
+    "present_participle_example": "The firm is **reducing** costs.",
+    "image": "voc_c053263d",
+    "image_brief": "a worker sorting recycling beside a small bin, one manager pointing, from the side at medium distance, a chart, bags and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We can **reduce** the waste."
+  },
+  {
+    "phrase": "refuse",
+    "pos": "verb",
+    "sense": "say-you-will-not-do",
+    "pronunciation": "/rɪˈfjuːz/",
+    "definition": "to say that you will not do something.",
+    "categories": [
+      "communication"
+    ],
+    "level": "b1",
+    "present_example": "He **refuses** to pay.",
+    "past_simple_example": "She **refused** the offer.",
+    "past_participle_example": "They have **refused** twice.",
+    "present_participle_example": "He is **refusing** to move.",
+    "image": "voc_1daacd95",
+    "image_brief": "a woman shaking her head at a salesman at a door, from the side at medium distance, a bag, a step and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He can **refuse** the offer."
+  },
+  {
+    "phrase": "regard",
+    "pos": "verb",
+    "sense": "think-of-in-a-certain-way",
+    "pronunciation": "/rɪˈɡɑrd/",
+    "definition": "to think of something in a certain way.",
+    "categories": [
+      "communication"
+    ],
+    "level": "b1",
+    "present_example": "They **regard** him as a leader.",
+    "past_simple_example": "We **regarded** the plan as risky.",
+    "past_participle_example": "She has been **regarded** as an expert.",
+    "present_participle_example": "He is **regarding** the change as good.",
+    "image": "voc_689c81fc",
+    "image_brief": "a team nodding toward one colleague at a meeting, from the side at medium distance, a table, cups and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **regard** him as a leader."
+  },
+  {
+    "phrase": "register",
+    "pos": "verb",
+    "sense": "put-a-name-on-a-list",
+    "pronunciation": "/ˈrɛdʒəstɚ/",
+    "definition": "to put a name on an official list.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "present_example": "You **register** at the desk.",
+    "past_simple_example": "She **registered** the birth.",
+    "past_participle_example": "The car has been **registered**.",
+    "present_participle_example": "They are **registering** new members.",
+    "image": "voc_ba7e19fa",
+    "image_brief": "a visitor writing a name in a book at reception, one clerk pointing, from the side at medium distance, a lamp, a plant and a phone --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "You **register** at the desk."
+  },
+  {
+    "phrase": "regret",
+    "pos": "verb",
+    "sense": "feel-sorry-about-something",
+    "pronunciation": "/rɪˈɡrɛt/",
+    "definition": "to feel sorry about something.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "b1",
+    "present_example": "I **regret** the delay.",
+    "past_simple_example": "She **regretted** her words.",
+    "past_participle_example": "He has **regretted** that choice.",
+    "present_participle_example": "They are **regretting** the move.",
+    "image": "voc_9b80faf8",
+    "image_brief": "a manager apologizing to a waiting customer, one clock behind, from the side at medium distance, a folder, a phone and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I **regret** the delay."
+  },
+  {
+    "phrase": "reject",
+    "pos": "verb",
+    "sense": "refuse-to-accept",
+    "pronunciation": "/rɪˈdʒɛkt/",
+    "definition": "to refuse to accept something.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "present_example": "The bank **rejects** the form.",
+    "past_simple_example": "They **rejected** the offer.",
+    "past_participle_example": "The plan has been **rejected**.",
+    "present_participle_example": "The panel is **rejecting** weak bids.",
+    "image": "voc_7a463be0",
+    "image_brief": "a clerk handing back a form to a customer, one colleague beside, from the side at medium distance, a desk, a stamp and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The bank can **reject** the form."
+  },
+  {
+    "phrase": "relate",
+    "pos": "verb",
+    "sense": "connect-or-understand",
+    "pronunciation": "/rɪˈleɪt/",
+    "definition": "to connect things or understand someone.",
+    "categories": [
+      "communication"
+    ],
+    "level": "b1",
+    "present_example": "The story **relates** to our town.",
+    "past_simple_example": "She **related** the events clearly.",
+    "past_participle_example": "The two cases have been **related**.",
+    "present_participle_example": "He is **relating** the idea to his work.",
+    "image": "voc_1818261c",
+    "image_brief": "a teacher connecting two ideas on a board, one student taking notes, from behind at medium distance, desks, a lamp and a window --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "These rules **relate** to our town."
+  },
+  {
+    "phrase": "release",
+    "pos": "verb",
+    "sense": "let-go-or-make-available",
+    "pronunciation": "/rɪˈliːs/",
+    "definition": "to let something go or make it available.",
+    "categories": [
+      "communication"
+    ],
+    "level": "b1",
+    "present_example": "They **release** new films on Fridays.",
+    "past_simple_example": "He **released** the bird.",
+    "past_participle_example": "The report has been **released**.",
+    "present_participle_example": "The band is **releasing** an album.",
+    "image": "voc_af20dbc2",
+    "image_brief": "a cinema worker changing a poster for a new film, one customer waiting, from the side at medium distance, a kiosk, a lamp and a door --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **release** new films on Fridays."
+  },
+  {
+    "phrase": "remain",
+    "pos": "verb",
+    "sense": "stay-in-a-place-or-state",
+    "pronunciation": "/rɪˈmeɪn/",
+    "definition": "to stay in a place or state.",
+    "categories": [
+      "time"
+    ],
+    "level": "b1",
+    "present_example": "Few **remain** open late.",
+    "past_simple_example": "She **remained** calm.",
+    "past_participle_example": "The seat has **remained** empty.",
+    "present_participle_example": "He is **remaining** hopeful.",
+    "image": "voc_c0667fad",
+    "image_brief": "an empty late-night street with one shop still lit, one owner inside, from across the road at wide distance, a sign, a bin and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Few **remain** open late."
+  },
+  {
+    "phrase": "remind",
+    "pos": "verb",
+    "sense": "make-someone-remember",
+    "pronunciation": "/rɪˈmaɪnd/",
+    "definition": "to make someone remember something.",
+    "categories": [
+      "communication"
+    ],
+    "level": "b1",
+    "present_example": "Please **remind** me at six.",
+    "past_simple_example": "She **reminded** him of the call.",
+    "past_participle_example": "I have **reminded** the team.",
+    "present_participle_example": "He is **reminding** the class.",
+    "image": "voc_d3c5f9a1",
+    "image_brief": "a person setting a reminder on a phone, one colleague beside, from the side at medium distance, a desk, a cup and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Please **remind** me at six."
+  },
+  {
+    "phrase": "remove",
+    "pos": "verb",
+    "sense": "take-something-away",
+    "pronunciation": "/rɪˈmuːv/",
+    "definition": "to take something away.",
+    "categories": [
+      "home"
+    ],
+    "level": "b1",
+    "present_example": "They **remove** the snow early.",
+    "past_simple_example": "He **removed** the stain.",
+    "past_participle_example": "The tree has been **removed**.",
+    "present_participle_example": "Workers are **removing** the sign.",
+    "image": "voc_55b5e623",
+    "image_brief": "a worker shoveling snow from a path, one resident beside, from the side at medium distance, a bucket, a lamp and a gate --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **remove** the snow early."
+  },
+  {
+    "phrase": "repair",
+    "pos": "verb",
+    "sense": "fix-something-broken",
+    "pronunciation": "/rɪˈpɛr/",
+    "definition": "to fix something that is broken.",
+    "categories": [
+      "home"
+    ],
+    "level": "b1",
+    "present_example": "They **repair** bikes on Saturdays.",
+    "past_simple_example": "She **repaired** the chair.",
+    "past_participle_example": "The road has been **repaired**.",
+    "present_participle_example": "He is **repairing** the roof.",
+    "image": "voc_00eb26e5",
+    "image_brief": "a mechanic repairing a bicycle in a workshop, one customer waiting, from the side at medium distance, tools, a wheel and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **repair** bikes on Saturdays."
+  },
+  {
+    "phrase": "replace",
+    "pos": "verb",
+    "sense": "put-a-new-one-in-place",
+    "pronunciation": "/rɪˈpleɪs/",
+    "definition": "to put something new in place of another.",
+    "categories": [
+      "home"
+    ],
+    "level": "b1",
+    "present_example": "They **replace** the bulbs yearly.",
+    "past_simple_example": "We **replaced** the old fridge.",
+    "past_participle_example": "The battery has been **replaced**.",
+    "present_participle_example": "She is **replacing** the filter.",
+    "image": "voc_985b4ece",
+    "image_brief": "a worker on a ladder replacing a bulb, one colleague holding it, from below at medium distance, a box, a lamp and a hallway --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **replace** the bulbs yearly."
+  },
+  {
+    "phrase": "request",
+    "pos": "verb",
+    "sense": "ask-for-formally",
+    "pronunciation": "/rɪˈkwɛst/",
+    "definition": "to ask for something in a formal way.",
+    "categories": [
+      "communication"
+    ],
+    "level": "b1",
+    "present_example": "They **request** a quiet room.",
+    "past_simple_example": "She **requested** more time.",
+    "past_participle_example": "A meeting has been **requested**.",
+    "present_participle_example": "He is **requesting** a transfer.",
+    "image": "voc_d38e4712",
+    "image_brief": "a guest writing a request at a hotel desk, one clerk reading it, from the side at medium distance, a key, a bag and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **request** a quiet room."
+  },
+  {
+    "phrase": "rescue",
+    "pos": "verb",
+    "sense": "save-from-danger",
+    "pronunciation": "/ˈrɛskjuː/",
+    "definition": "to save someone from danger.",
+    "categories": [
+      "health"
+    ],
+    "level": "b1",
+    "present_example": "They **rescue** swimmers every summer.",
+    "past_simple_example": "The team **rescued** a dog.",
+    "past_participle_example": "Three people have been **rescued**.",
+    "present_participle_example": "Crews are **rescuing** the climbers.",
+    "image": "voc_3c56cfbe",
+    "image_brief": "a lifeguard helping a swimmer to the shore, one colleague with a board, from the beach at wide distance, a flag, a rope and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **rescue** swimmers every summer."
+  },
+  {
+    "phrase": "research",
+    "pos": "verb",
+    "sense": "study-a-subject-carefully",
+    "pronunciation": "/rɪˈsɝtʃ/",
+    "definition": "to study a subject carefully.",
+    "categories": [
+      "education"
+    ],
+    "level": "b1",
+    "present_example": "She **researches** local history.",
+    "past_simple_example": "They **researched** the market.",
+    "past_participle_example": "The topic has been **researched** well.",
+    "present_participle_example": "He is **researching** the plan.",
+    "image": "voc_effa3fec",
+    "image_brief": "a historian reading old records at a desk, one assistant beside, from the side at medium distance, boxes, a lamp and a notebook --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **research** local history."
+  },
+  {
+    "phrase": "reserve",
+    "pos": "verb",
+    "sense": "keep-for-later-use",
+    "pronunciation": "/rɪˈzɝv/",
+    "definition": "to keep something for later use.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b1",
+    "present_example": "They **reserve** tables by the window.",
+    "past_simple_example": "We **reserved** two seats.",
+    "past_participle_example": "The room has been **reserved**.",
+    "present_participle_example": "She is **reserving** a place.",
+    "image": "voc_37f6b83e",
+    "image_brief": "a waiter marking a table as reserved, one couple arriving, from the side at medium distance, a sign, cups and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **reserve** tables by the window."
+  },
+  {
+    "phrase": "resist",
+    "pos": "verb",
+    "sense": "try-to-stop-something",
+    "pronunciation": "/rɪˈzɪst/",
+    "definition": "to try to stop something from happening.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "b1",
+    "present_example": "They **resist** the change.",
+    "past_simple_example": "He **resisted** the urge.",
+    "past_participle_example": "The plan has been **resisted**.",
+    "present_participle_example": "The town is **resisting** the road.",
+    "image": "voc_2313cafa",
+    "image_brief": "workers standing together against a new plan, one holding a sign, from the side at wide distance, a gate, a lamp and a van --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **resist** the change."
+  },
+  {
+    "phrase": "respond",
+    "pos": "verb",
+    "sense": "answer-or-react",
+    "pronunciation": "/rɪˈspɑnd/",
+    "definition": "to answer or react to something.",
+    "categories": [
+      "communication"
+    ],
+    "level": "b1",
+    "present_example": "She **responds** to every email.",
+    "past_simple_example": "He **responded** quickly.",
+    "past_participle_example": "They have **responded** to the offer.",
+    "present_participle_example": "The team is **responding** well.",
+    "image": "voc_30524aad",
+    "image_brief": "a woman answering a message at a desk, one colleague beside, from the side at medium distance, a laptop, a cup and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Staff **respond** to every email."
+  },
+  {
+    "phrase": "rise",
+    "pos": "verb",
+    "sense": "go-up",
+    "pronunciation": "/raɪz/",
+    "definition": "to go up.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b1",
+    "present_example": "Prices **rise** in spring.",
+    "past_simple_example": "The sun **rose** at six.",
+    "past_participle_example": "Temperatures have **risen**.",
+    "present_participle_example": "The river is **rising**.",
+    "image": "voc_214b52b9",
+    "image_brief": "a shop owner pointing at a higher price on a label, one customer beside, from the side at medium distance, a shelf, a bag and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Prices **rise** in spring."
+  },
+  {
+    "phrase": "risk",
+    "pos": "verb",
+    "sense": "put-something-in-danger",
+    "pronunciation": "/rɪsk/",
+    "definition": "to put something in danger of loss.",
+    "categories": [
+      "money"
+    ],
+    "level": "b1",
+    "present_example": "They **risk** a fine.",
+    "past_simple_example": "He **risked** his savings.",
+    "past_participle_example": "Much has been **risked** for this.",
+    "present_participle_example": "She is **risking** her job.",
+    "image": "voc_a236f58d",
+    "image_brief": "a driver looking at a no-parking sign, one officer nearby, from the pavement at medium distance, a car, a lamp and a bag --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **risk** a fine."
+  },
+  {
+    "phrase": "shortage",
+    "pos": "noun",
+    "sense": "not-enough-of-something",
+    "pronunciation": "/ˈʃɔrtɪdʒ/",
+    "definition": "a time when there is not enough of something.",
+    "categories": [
+      "money"
+    ],
+    "level": "b1",
+    "image": "voc_55c91993",
+    "image_brief": "a farmer looking at a low water tank, one helper beside, from the side at wide distance, a bucket, a fence and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "There is a water **shortage**."
+  },
+  {
+    "phrase": "significance",
+    "pos": "noun",
+    "sense": "importance-of-something",
+    "pronunciation": "/sɪɡˈnɪfɪkəns/",
+    "definition": "the importance of something.",
+    "categories": [
+      "education"
+    ],
+    "level": "b1",
+    "image": "voc_cc350b80",
+    "image_brief": "an archaeologist showing a small object to two visitors, one taking notes, from the side at medium distance, a case, a lamp and a notebook --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The find has great **significance**."
+  },
+  {
+    "phrase": "situation",
+    "pos": "noun",
+    "sense": "things-happening-at-a-time",
+    "pronunciation": "/ˌsɪtʃuˈeɪʃən/",
+    "definition": "the things that are happening at a particular time.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_6b4b5a93",
+    "image_brief": "a manager briefing two staff at a board, one pointing at a map, from the side at medium distance, cups, a lamp and a window --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **situation** improved."
+  },
+  {
+    "phrase": "skill",
+    "pos": "noun",
+    "sense": "ability-to-do-something-well",
+    "pronunciation": "/skɪl/",
+    "definition": "the ability to do something well.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_c3f38aa1",
+    "image_brief": "a chef showing a young cook how to cut vegetables, from the side at medium distance, a board, a pan and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Cooking is a useful **skill**."
+  },
+  {
+    "phrase": "society",
+    "pos": "noun",
+    "sense": "people-living-together",
+    "pronunciation": "/səˈsaɪəti/",
+    "definition": "people living together in an organized group.",
+    "categories": [
+      "city"
+    ],
+    "level": "b1",
+    "image": "voc_27258a83",
+    "image_brief": "a village square with neighbors talking and one elder seated, from above at wide distance, benches, a lamp and a shop --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Older people are valued in that **society**."
+  },
+  {
+    "phrase": "solution",
+    "pos": "noun",
+    "sense": "way-to-fix-a-problem",
+    "pronunciation": "/səˈluːʃən/",
+    "definition": "a way to fix a problem.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_ffa62911",
+    "image_brief": "two colleagues pointing at a diagram on a board, one smiling, from the side at medium distance, a table, cups and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We found a simple **solution**."
+  },
+  {
+    "phrase": "source",
+    "pos": "noun",
+    "sense": "place-something-comes-from",
+    "pronunciation": "/sɔrs/",
+    "definition": "the place that something comes from.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b1",
+    "image": "voc_8a4b32fd",
+    "image_brief": "a hiker filling a bottle at a spring, one friend waiting, from the side at medium distance, a map, a bag and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The river is a water **source**."
+  },
+  {
+    "phrase": "species",
+    "pos": "noun",
+    "sense": "type-of-animal-or-plant",
+    "pronunciation": "/ˈspiːʃiːz/",
+    "definition": "a type of animal or plant.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b1",
+    "image": "voc_bd0168cf",
+    "image_brief": "a birdwatcher pointing at a rare bird, one companion with binoculars, from the side at medium distance, a book, a fence and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "This **species** is rare."
+  },
+  {
+    "phrase": "standard",
+    "pos": "noun",
+    "sense": "level-of-quality",
+    "pronunciation": "/ˈstændɚd/",
+    "definition": "a level of quality that is expected.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_803bec44",
+    "image_brief": "an inspector checking a kitchen with one chef waiting, from the side at medium distance, a chart, a sink and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The food meets a high **standard**."
+  },
+  {
+    "phrase": "statistics",
+    "pos": "noun",
+    "sense": "numbers-that-show-facts",
+    "pronunciation": "/stəˈtɪstɪks/",
+    "definition": "numbers that show facts about something.",
+    "categories": [
+      "education"
+    ],
+    "level": "b1",
+    "image": "voc_f1a9f124",
+    "image_brief": "a presenter pointing at a chart on a screen, one listener taking notes, from the side at medium distance, a desk, cups and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **statistics** show a fall."
+  },
+  {
+    "phrase": "outstanding",
+    "pos": "adjective",
+    "sense": "extremely-good",
+    "pronunciation": "/aʊtˈstændɪŋ/",
+    "definition": "extremely good.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_b57985ca",
+    "image_brief": "a manager showing a worker's project to two colleagues, one impressed, from the side at medium distance, a desk, a lamp and a chart --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her work is **outstanding**."
+  },
+  {
+    "phrase": "parallel",
+    "pos": "adjective",
+    "sense": "side-by-side",
+    "pronunciation": "/ˈpærəlɛl/",
+    "definition": "side by side and always the same distance apart.",
+    "categories": [
+      "city"
+    ],
+    "level": "b1",
+    "image": "voc_ca877699",
+    "image_brief": "two straight roads side by side with one car on each, from above at wide distance, a fence, a sign and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The two roads run **parallel**."
+  },
+  {
+    "phrase": "partial",
+    "pos": "adjective",
+    "sense": "not-complete",
+    "pronunciation": "/ˈpɑrʃəl/",
+    "definition": "not complete.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_94ba1217",
+    "image_brief": "a worker showing a half-finished wall to a client, one pointing at a gap, from the side at medium distance, tools, a bucket and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The repair was only **partial**."
+  },
+  {
+    "phrase": "particular",
+    "pos": "adjective",
+    "sense": "specific",
+    "pronunciation": "/pɚˈtɪkjəlɚ/",
+    "definition": "specific and not general.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b1",
+    "image": "voc_92502a8e",
+    "image_brief": "a shopper pointing at one shop on a street, one friend beside, from the pavement at wide distance, a sign, a bin and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "This **particular** shop is cheap."
+  },
+  {
+    "phrase": "passive",
+    "pos": "adjective",
+    "sense": "not-active",
+    "pronunciation": "/ˈpæsɪv/",
+    "definition": "not active or not taking part.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "b1",
+    "image": "voc_211763fb",
+    "image_brief": "a man sitting back while others work at a table, one colleague glancing, from the side at medium distance, a laptop, cups and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He took a **passive** role."
+  },
+  {
+    "phrase": "peaceful",
+    "pos": "adjective",
+    "sense": "calm-and-quiet",
+    "pronunciation": "/ˈpiːsfəl/",
+    "definition": "calm and quiet.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b1",
+    "image": "voc_ecc430c2",
+    "image_brief": "an empty village lane at sunset with one cat, from the corner at wide distance, a bench, a lamp and a garden --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The village is **peaceful**."
+  },
+  {
+    "phrase": "perfect",
+    "pos": "adjective",
+    "sense": "with-no-faults",
+    "pronunciation": "/pɚˈfɛkt/",
+    "definition": "with no faults.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b1",
+    "image": "voc_f3e894c5",
+    "image_brief": "a family on a beach under a clear sky, one child running, from the dunes at wide distance, a towel, a bag and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The weather was **perfect**."
+  },
+  {
+    "phrase": "pleased",
+    "pos": "adjective",
+    "sense": "happy-about-something",
+    "pronunciation": "/pliːzd/",
+    "definition": "happy about something.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "b1",
+    "image": "voc_d6dbb0b2",
+    "image_brief": "a woman smiling at a marked paper, one friend beside, from across the table at medium distance, a cup, a lamp and a bag --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She was **pleased** with the result."
+  },
+  {
+    "phrase": "potential",
+    "pos": "adjective",
+    "sense": "possible-in-the-future",
+    "pronunciation": "/pəˈtɛnʃəl/",
+    "definition": "possible in the future.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_7131c027",
+    "image_brief": "an agent showing a flat to a young couple, one measuring a wall, from the side at medium distance, a plan, a lamp and a bag --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He is a **potential** buyer."
+  },
+  {
+    "phrase": "political",
+    "pos": "adjective",
+    "sense": "relating-to-government",
+    "pronunciation": "/pəˈlɪtɪkəl/",
+    "definition": "relating to government and public power.",
+    "categories": [
+      "city"
+    ],
+    "level": "b1",
+    "image": "voc_b74df393",
+    "image_brief": "two people at a dinner table steering away from a newspaper, one changing the subject, from the side at medium distance, plates, a lamp and a glass --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They avoided **political** talk."
+  },
+  {
+    "phrase": "precious",
+    "pos": "adjective",
+    "sense": "very-valuable",
+    "pronunciation": "/ˈprɛʃəs/",
+    "definition": "very valuable.",
+    "categories": [
+      "money"
+    ],
+    "level": "b1",
+    "image": "voc_4cafc9b1",
+    "image_brief": "a woman showing an old ring to a jeweler, one lamp between them, from the side at medium distance, a box, a cloth and a glass --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The ring is **precious**."
+  },
+  {
+    "phrase": "precise",
+    "pos": "adjective",
+    "sense": "exact-in-detail",
+    "pronunciation": "/prɪˈsaɪs/",
+    "definition": "exact-in-detail.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_c7c5c870",
+    "image_brief": "a carpenter measuring a joint with a tool, one apprentice beside, from above at medium distance, a bench, a pencil and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The measurement must be **precise**."
+  },
+  {
+    "phrase": "pregnant",
+    "pos": "adjective",
+    "sense": "expecting-a-baby",
+    "pronunciation": "/ˈprɛɡnənt/",
+    "definition": "expecting-a-baby.",
+    "categories": [
+      "health"
+    ],
+    "level": "b1",
+    "image": "voc_39c35c44",
+    "image_brief": "a woman resting a hand on her stomach in a bright room, one partner beside, from the side at medium distance, a chair, a lamp and a plant --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She is **pregnant** with her second child."
+  },
+  {
+    "phrase": "prepared",
+    "pos": "adjective",
+    "sense": "ready-for-something",
+    "pronunciation": "/prɪˈpɛrd/",
+    "definition": "ready-for-something.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b1",
+    "image": "voc_ae30e045",
+    "image_brief": "a family with packed bags at a door, one checking a list, from behind at medium distance, a suitcase, a coat and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We are **prepared** for the trip."
+  },
+  {
+    "phrase": "previous",
+    "pos": "adjective",
+    "sense": "happening-before",
+    "pronunciation": "/ˈpriːviəs/",
+    "definition": "happening-before.",
+    "categories": [
+      "time"
+    ],
+    "level": "b1",
+    "image": "voc_657077a7",
+    "image_brief": "a new homeowner looking at old garden photos, one neighbor beside, from the side at medium distance, a fence, a tool and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **previous** owner kept the garden."
+  },
+  {
+    "phrase": "primary",
+    "pos": "adjective",
+    "sense": "main-or-first",
+    "pronunciation": "/ˈpraɪmɛri/",
+    "definition": "main-or-first.",
+    "categories": [
+      "education"
+    ],
+    "level": "b1",
+    "image": "voc_c1fc1e72",
+    "image_brief": "children walking into a small school gate, one teacher greeting them, from across the road at wide distance, a sign, a bike and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **primary** school is nearby."
+  },
+  {
+    "phrase": "prime",
+    "pos": "adjective",
+    "sense": "most-important",
+    "pronunciation": "/praɪm/",
+    "definition": "most-important.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_aa11862a",
+    "image_brief": "a site manager pointing at a safety board, two workers listening, from the side at medium distance, helmets, a bench and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **prime** concern is safety."
+  },
+  {
+    "phrase": "principal",
+    "pos": "adjective",
+    "sense": "main-or-most-important",
+    "pronunciation": "/ˈprɪnsəpəl/",
+    "definition": "main-or-most-important.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_a9f361f6",
+    "image_brief": "a manager pointing at a budget line on a screen, one colleague beside, from behind at medium distance, a desk, cups and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **principal** reason is cost."
+  },
+  {
+    "phrase": "probable",
+    "pos": "adjective",
+    "sense": "likely-to-happen",
+    "pronunciation": "/ˈprɑbəbəl/",
+    "definition": "likely-to-happen.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b1",
+    "image": "voc_d1bcbb1a",
+    "image_brief": "a farmer looking at heavy clouds over a field, one dog beside, from the side at wide distance, a fence, a barn and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Rain is **probable** tomorrow."
+  },
+  {
+    "phrase": "productive",
+    "pos": "adjective",
+    "sense": "getting-a-lot-done",
+    "pronunciation": "/prəˈdʌktɪv/",
+    "definition": "getting-a-lot-done.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_0f95d151",
+    "image_brief": "a team finishing a plan on a board with several ticks, one pointing, from the side at medium distance, laptops, cups and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "It was a **productive** meeting."
+  },
+  {
+    "phrase": "profound",
+    "pos": "adjective",
+    "sense": "very-strong-or-deep",
+    "pronunciation": "/prəˈfaʊnd/",
+    "definition": "very-strong-or-deep.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "b1",
+    "image": "voc_a81cad78",
+    "image_brief": "a reader sitting quietly with a closed book, one friend beside, from the side at medium distance, a lamp, a cup and a window --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The book had a **profound** effect."
+  },
+  {
+    "phrase": "proper",
+    "pos": "adjective",
+    "sense": "right-and-suitable",
+    "pronunciation": "/ˈprɑpɚ/",
+    "definition": "right-and-suitable.",
+    "categories": [
+      "home"
+    ],
+    "level": "b1",
+    "image": "voc_9d9509d7",
+    "image_brief": "a mechanic choosing the right wrench from a tray, one helper beside, from the side at medium distance, a car, a lamp and a rag --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Use the **proper** tool."
+  },
+  {
+    "phrase": "pure",
+    "pos": "adjective",
+    "sense": "with-nothing-added",
+    "pronunciation": "/pjʊr/",
+    "definition": "with-nothing-added.",
+    "categories": [
+      "food"
+    ],
+    "level": "b1",
+    "image": "voc_04b8260d",
+    "image_brief": "a hiker filling a bottle from a mountain spring, one friend waiting, from the side at medium distance, a map, rocks and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The water is **pure**."
+  },
+  {
+    "phrase": "radical",
+    "pos": "adjective",
+    "sense": "very-different-from-before",
+    "pronunciation": "/ˈrædɪkəl/",
+    "definition": "very-different-from-before.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_5600d5a5",
+    "image_brief": "a team looking at a completely new plan on a board, one pointing, from the side at medium distance, a table, cups and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They made a **radical** change."
+  },
+  {
+    "phrase": "random",
+    "pos": "adjective",
+    "sense": "chosen-without-a-plan",
+    "pronunciation": "/ˈrændəm/",
+    "definition": "chosen-without-a-plan.",
+    "categories": [
+      "education"
+    ],
+    "level": "b1",
+    "image": "voc_406a29c2",
+    "image_brief": "students picking names from a box in class, one teacher holding it, from behind at medium distance, desks, a bag and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The seats were given in **random** order."
+  },
+  {
+    "phrase": "rapid",
+    "pos": "adjective",
+    "sense": "very-fast",
+    "pronunciation": "/ˈræpɪd/",
+    "definition": "very-fast.",
+    "categories": [
+      "city"
+    ],
+    "level": "b1",
+    "image": "voc_d84199c8",
+    "image_brief": "a street of new houses with one worker on a roof, from the road at wide distance, a crane, a fence and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The town saw **rapid** growth."
+  },
+  {
+    "phrase": "raw",
+    "pos": "adjective",
+    "sense": "not-cooked",
+    "pronunciation": "/rɔ/",
+    "definition": "not-cooked.",
+    "categories": [
+      "food"
+    ],
+    "level": "b1",
+    "image": "voc_d886474a",
+    "image_brief": "a chef arranging raw fish on a plate, one diner watching, from the side at medium distance, a knife, a board and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The fish is served **raw**."
+  },
+  {
+    "phrase": "realistic",
+    "pos": "adjective",
+    "sense": "sensible-and-possible",
+    "pronunciation": "/ˌriːəˈlɪstɪk/",
+    "definition": "sensible-and-possible.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_e071adfa",
+    "image_brief": "a manager showing a simple schedule to two staff, one nodding, from the side at medium distance, a laptop, cups and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The plan is **realistic**."
+  },
+  {
+    "phrase": "reasonable",
+    "pos": "adjective",
+    "sense": "fair-and-not-too-expensive",
+    "pronunciation": "/ˈriːzənəbəl/",
+    "definition": "fair-and-not-too-expensive.",
+    "categories": [
+      "money"
+    ],
+    "level": "b1",
+    "image": "voc_8c9e2fb1",
+    "image_brief": "a shopper reading a price tag and nodding, one assistant beside, from the side at medium distance, a shelf, a bag and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The price is **reasonable**."
+  },
+  {
+    "phrase": "regional",
+    "pos": "adjective",
+    "sense": "relating-to-one-area",
+    "pronunciation": "/ˈriːdʒənəl/",
+    "definition": "relating-to-one-area.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b1",
+    "image": "voc_ab145c63",
+    "image_brief": "a small regional train at a country platform, one passenger boarding, from the end at wide distance, a bench, a sign and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **regional** train stops here."
+  },
+  {
+    "phrase": "relaxed",
+    "pos": "adjective",
+    "sense": "calm-and-not-worried",
+    "pronunciation": "/rɪˈlækst/",
+    "definition": "calm-and-not-worried.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "b1",
+    "image": "voc_0b3e9603",
+    "image_brief": "a woman sitting on a bench with a book after a walk, one friend beside, from the side at medium distance, a bag, a lamp and trees --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She felt **relaxed** after the walk."
+  },
+  {
+    "phrase": "religious",
+    "pos": "adjective",
+    "sense": "believing-in-a-religion",
+    "pronunciation": "/rɪˈlɪdʒəs/",
+    "definition": "believing-in-a-religion.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "b1",
+    "image": "voc_35df5518",
+    "image_brief": "a family lighting a candle in a small church, one elder leading, from behind at medium distance, benches, a lamp and a window --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The family is **religious**."
+  },
+  {
+    "phrase": "reluctant",
+    "pos": "adjective",
+    "sense": "not-wanting-to-do",
+    "pronunciation": "/rɪˈlʌktənt/",
+    "definition": "not-wanting-to-do-something.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "b1",
+    "image": "voc_9fae44e8",
+    "image_brief": "a boy standing at the back of a group with one teacher coaxing him, from the side at medium distance, chairs, a bag and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He was **reluctant** to speak."
+  },
+  {
+    "phrase": "remarkable",
+    "pos": "adjective",
+    "sense": "unusual-and-impressive",
+    "pronunciation": "/rɪˈmɑrkəbəl/",
+    "definition": "unusual-and-impressive.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "b1",
+    "image": "voc_cdf9429e",
+    "image_brief": "a patient walking without help while two nurses smile, from the side at medium distance, a frame, a chair and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The recovery was **remarkable**."
+  },
+  {
+    "phrase": "representative",
+    "pos": "adjective",
+    "sense": "typical-of-a-group",
+    "pronunciation": "/ˌrɛprɪˈzɛntətɪv/",
+    "definition": "typical-of-a-whole-group.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_c38dd0fc",
+    "image_brief": "a researcher showing a small sample to two colleagues, one comparing a chart, from the side at medium distance, a desk, jars and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The sample is **representative** of the whole."
+  },
+  {
+    "phrase": "responsible",
+    "pos": "adjective",
+    "sense": "having-a-duty",
+    "pronunciation": "/rɪˈspɑnsəbəl/",
+    "definition": "having-a-duty-to-do-something.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_606f6d00",
+    "image_brief": "a manager handing a schedule to a worker, one colleague beside, from the side at medium distance, a board, cups and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She is **responsible** for the rota."
+  },
+  {
+    "phrase": "rigid",
+    "pos": "adjective",
+    "sense": "stiff-and-not-flexible",
+    "pronunciation": "/ˈrɪdʒɪd/",
+    "definition": "stiff-and-not-flexible.",
+    "categories": [
+      "home"
+    ],
+    "level": "b1",
+    "image": "voc_10d58331",
+    "image_brief": "a builder testing a stiff metal frame, one helper beside, from the side at medium distance, tools, plans and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The frame is **rigid**."
+  },
+  {
+    "phrase": "romantic",
+    "pos": "adjective",
+    "sense": "about-love",
+    "pronunciation": "/roʊˈmæntɪk/",
+    "definition": "about-love.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "b1",
+    "image": "voc_6512655e",
+    "image_brief": "a couple at a candlelit table for two, one waiter in the background, from across the room at medium distance, flowers, glasses and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They had a **romantic** dinner."
+  },
+  {
+    "phrase": "royal",
+    "pos": "adjective",
+    "sense": "belonging-to-a-king",
+    "pronunciation": "/ˈrɔɪəl/",
+    "definition": "belonging-to-a-king-or-queen.",
+    "categories": [
+      "city"
+    ],
+    "level": "b1",
+    "image": "voc_c816bb16",
+    "image_brief": "a palace gate with one guard and a visitor, from the road at wide distance, a flag, a fence and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **royal** palace is open today."
+  },
+  {
+    "phrase": "rural",
+    "pos": "adjective",
+    "sense": "in-the-countryside",
+    "pronunciation": "/ˈrʊrəl/",
+    "definition": "in-the-countryside.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b1",
+    "image": "voc_85304d6b",
+    "image_brief": "a farmhouse among green fields with one car on a lane, from the hillside at wide distance, a fence, a barn and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They moved to a **rural** area."
+  },
+  {
+    "phrase": "status",
+    "pos": "noun",
+    "sense": "level-of-importance",
+    "pronunciation": "/ˈstætəs/",
+    "definition": "the level of importance of something.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_8a278f92",
+    "image_brief": "a hospital consultant walking through a ward with one junior colleague, from the side at medium distance, a chart, a chair and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The job has a high **status**."
+  },
+  {
+    "phrase": "strategy",
+    "pos": "noun",
+    "sense": "plan-to-reach-a-goal",
+    "pronunciation": "/ˈstrætədʒi/",
+    "definition": "a plan to reach a goal.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_ae00395f",
+    "image_brief": "two colleagues pointing at a map with numbered steps, one taking notes, from the side at medium distance, a laptop, cups and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The team agreed on a **strategy**."
+  },
+  {
+    "phrase": "structure",
+    "pos": "noun",
+    "sense": "way-parts-are-joined",
+    "pronunciation": "/ˈstrʌktʃɚ/",
+    "definition": "the way the parts of something are joined.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_439e5da0",
+    "image_brief": "an engineer pointing at a bridge model, one student beside, from the side at medium distance, a plan, tools and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The bridge has a simple **structure**."
+  },
+  {
+    "phrase": "struggle",
+    "pos": "noun",
+    "sense": "long-hard-effort",
+    "pronunciation": "/ˈstrʌɡəl/",
+    "definition": "a long, hard effort.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "b1",
+    "image": "voc_b3c56e73",
+    "image_brief": "a tired hiker sitting on a rock with one friend beside, from the side at wide distance, a backpack, a bottle and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The climb was a long **struggle**."
+  },
+  {
+    "phrase": "success",
+    "pos": "noun",
+    "sense": "achieving-what-you-wanted",
+    "pronunciation": "/səkˈsɛs/",
+    "definition": "the achieving of what you wanted.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_c8da8c2b",
+    "image_brief": "a team celebrating a finished project with one cake at a table, from the side at medium distance, cups, a lamp and a chart --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The event was a **success**."
+  },
+  {
+    "phrase": "suggestion",
+    "pos": "noun",
+    "sense": "idea-offered-to-someone",
+    "pronunciation": "/səɡˈdʒɛstʃən/",
+    "definition": "an idea that you offer to someone.",
+    "categories": [
+      "communication"
+    ],
+    "level": "b1",
+    "image": "voc_86c6c67b",
+    "image_brief": "a worker raising a hand with an idea at a meeting, others listening, from the side at medium distance, a table, cups and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "His **suggestion** saved money."
+  },
+  {
+    "phrase": "summary",
+    "pos": "noun",
+    "sense": "short-statement-of-main-points",
+    "pronunciation": "/ˈsʌməri/",
+    "definition": "a short statement of the main points.",
+    "categories": [
+      "communication"
+    ],
+    "level": "b1",
+    "image": "voc_e87c44f9",
+    "image_brief": "a student writing a summary at a desk, one teacher pointing at a page, from the side at medium distance, books, a lamp and a bag --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Write a short **summary**."
+  },
+  {
+    "phrase": "supply",
+    "pos": "noun",
+    "sense": "amount-available-for-use",
+    "pronunciation": "/səˈplaɪ/",
+    "definition": "the amount of something that is available.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b1",
+    "image": "voc_ae5a484d",
+    "image_brief": "a caretaker checking a nearly empty water tank, one resident beside, from the side at medium distance, a pipe, a ladder and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The water **supply** is low."
+  },
+  {
+    "phrase": "surface",
+    "pos": "noun",
+    "sense": "outside-layer-of-something",
+    "pronunciation": "/ˈsɝfəs/",
+    "definition": "the outside layer of something.",
+    "categories": [
+      "home"
+    ],
+    "level": "b1",
+    "image": "voc_02da2f76",
+    "image_brief": "a painter touching a damp wall before painting, one helper beside, from the side at medium distance, a bucket, a brush and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **surface** is wet."
+  },
+  {
+    "phrase": "survey",
+    "pos": "noun",
+    "sense": "study-of-peoples-answers",
+    "pronunciation": "/ˈsɝveɪ/",
+    "definition": "a study that asks people questions.",
+    "categories": [
+      "communication"
+    ],
+    "level": "b1",
+    "image": "voc_5aaee90a",
+    "image_brief": "a researcher with a clipboard asking a shopper questions, from the side at medium distance, a bag, a stand and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **survey** found three problems."
+  },
+  {
+    "phrase": "roll",
+    "pos": "verb",
+    "sense": "move-by-turning-over",
+    "pronunciation": "/roʊl/",
+    "definition": "to move by turning over and over.",
+    "categories": [
+      "sports"
+    ],
+    "level": "b1",
+    "present_example": "The ball **rolls** down the hill.",
+    "past_simple_example": "It **rolled** under the car.",
+    "past_participle_example": "The tyres have **rolled** for miles.",
+    "present_participle_example": "The cart is **rolling** away.",
+    "image": "voc_7f5de661",
+    "image_brief": "a ball rolling down a garden slope while one child chases it, from the side at medium distance, a fence, a bucket and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Balls **roll** downhill."
+  },
+  {
+    "phrase": "rub",
+    "pos": "verb",
+    "sense": "press-and-move-your-hand",
+    "pronunciation": "/rʌb/",
+    "definition": "to press and move your hand on something.",
+    "categories": [
+      "home"
+    ],
+    "level": "b1",
+    "present_example": "She **rubs** her hands in the cold.",
+    "past_simple_example": "He **rubbed** the table with oil.",
+    "past_participle_example": "The stain has been **rubbed** out.",
+    "present_participle_example": "He is **rubbing** his eyes.",
+    "image": "voc_f79bd3c4",
+    "image_brief": "a person rubbing their hands in the cold at a bus stop, one commuter beside, from the side at medium distance, a bag, a bench and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Rub** your hands together."
+  },
+  {
+    "phrase": "ruin",
+    "pos": "verb",
+    "sense": "damage-completely",
+    "pronunciation": "/ˈruːɪn/",
+    "definition": "to damage something completely.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b1",
+    "present_example": "Rain can **ruin** a picnic.",
+    "past_simple_example": "The flood **ruined** the crops.",
+    "past_participle_example": "The dress has been **ruined**.",
+    "present_participle_example": "The smell is **ruining** the meal.",
+    "image": "voc_778a267f",
+    "image_brief": "a family packing up a picnic as rain starts, one holding a blanket, from the side at medium distance, a basket, a tree and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Rain can **ruin** a picnic."
+  },
+  {
+    "phrase": "rule",
+    "pos": "verb",
+    "sense": "control-a-country-or-group",
+    "pronunciation": "/ruːl/",
+    "definition": "to control a country or group.",
+    "categories": [
+      "city"
+    ],
+    "level": "b1",
+    "present_example": "Kings **rule** for years.",
+    "past_simple_example": "She **ruled** the club for a decade.",
+    "past_participle_example": "The court has **ruled** on the case.",
+    "present_participle_example": "The judge is **ruling** today.",
+    "image": "voc_5291934c",
+    "image_brief": "a queen on a throne with two advisers bowing, from behind at wide distance, a banner, a lamp and a hall --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Kings **rule** for years."
+  },
+  {
+    "phrase": "rush",
+    "pos": "verb",
+    "sense": "move-very-quickly",
+    "pronunciation": "/rʌʃ/",
+    "definition": "to move or do something very quickly.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b1",
+    "present_example": "People **rush** to work at eight.",
+    "past_simple_example": "He **rushed** to the station.",
+    "past_participle_example": "They have **rushed** the decision.",
+    "present_participle_example": "She is **rushing** through lunch.",
+    "image": "voc_4c66139a",
+    "image_brief": "commuters hurrying through a station gate, one checking a watch, from behind at wide distance, bags, a sign and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "People **rush** to work at eight."
+  },
+  {
+    "phrase": "scare",
+    "pos": "verb",
+    "sense": "make-someone-afraid",
+    "pronunciation": "/skɛr/",
+    "definition": "to make someone feel afraid.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "b1",
+    "present_example": "Thunder can **scare** a dog.",
+    "past_simple_example": "The noise **scared** the child.",
+    "past_participle_example": "The horse has been **scared**.",
+    "present_participle_example": "The mask is **scaring** the baby.",
+    "image": "voc_5407dc92",
+    "image_brief": "a dog hiding under a table during a storm, one owner kneeling, from the side at medium distance, a bowl, a blanket and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Thunder can **scare** a dog."
+  },
+  {
+    "phrase": "seem",
+    "pos": "verb",
+    "sense": "appear-to-be",
+    "pronunciation": "/siːm/",
+    "definition": "to appear to be something.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "b1",
+    "present_example": "The plan **seems** simple.",
+    "past_simple_example": "It **seemed** like a good idea.",
+    "past_participle_example": "They have **seemed** happy here.",
+    "present_participle_example": "Everything is **seeming** easier now.",
+    "image": "voc_3905aa69",
+    "image_brief": "two people looking at a simple plan on a board, one nodding, from the side at medium distance, a table, cups and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Plans can **seem** simple at first."
+  },
+  {
+    "phrase": "select",
+    "pos": "verb",
+    "sense": "choose-from-a-group",
+    "pronunciation": "/sɪˈlɛkt/",
+    "definition": "to choose something from a group.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b1",
+    "present_example": "They **select** a new team each year.",
+    "past_simple_example": "She **selected** a book.",
+    "past_participle_example": "The site has been **selected**.",
+    "present_participle_example": "The panel is **selecting** a winner.",
+    "image": "voc_4ab5e3f3",
+    "image_brief": "a coach pointing at names on a list, two players waiting, from the side at medium distance, a bench, a ball and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **select** a new team each year."
+  },
+  {
+    "phrase": "set",
+    "pos": "verb",
+    "sense": "put-something-in-place",
+    "pronunciation": "/sɛt/",
+    "definition": "to put something in a particular place or state.",
+    "categories": [
+      "home"
+    ],
+    "level": "b1",
+    "present_example": "They **set** the table at six.",
+    "past_simple_example": "She **set** the alarm.",
+    "past_participle_example": "The date has been **set**.",
+    "present_participle_example": "He is **setting** the rules.",
+    "image": "voc_246e2783",
+    "image_brief": "a family setting plates on a table before dinner, one child helping, from above at medium distance, cutlery, glasses and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **set** the table at six."
+  },
+  {
+    "phrase": "settle",
+    "pos": "verb",
+    "sense": "make-a-place-your-home",
+    "pronunciation": "/ˈsɛtəl/",
+    "definition": "to start living in a new place.",
+    "categories": [
+      "home"
+    ],
+    "level": "b1",
+    "present_example": "They **settle** in quickly.",
+    "past_simple_example": "She **settled** the bill.",
+    "past_participle_example": "The dust has **settled**.",
+    "present_participle_example": "The family is **settling** in.",
+    "image": "voc_8a04e3c9",
+    "image_brief": "a family unpacking boxes in a new flat, one opening curtains, from the door at medium distance, a sofa, a lamp and a plant --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **settle** in quickly."
+  },
+  {
+    "phrase": "excessively",
+    "pos": "adverb",
+    "sense": "more-than-is-reasonable",
+    "pronunciation": "/ɪkˈsɛsɪvli/",
+    "definition": "more than is reasonable or healthy.",
+    "categories": [
+      "health"
+    ],
+    "level": "b1",
+    "image": "voc_0439789e",
+    "image_brief": "a person opening a window in an overheated office, one colleague fanning, from the side at medium distance, a radiator, a desk and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The room was **excessively** hot."
+  },
+  {
+    "phrase": "exclusively",
+    "pos": "adverb",
+    "sense": "only-for-one-group",
+    "pronunciation": "/ɪkˈskluːsɪvli/",
+    "definition": "only for one group and not for others.",
+    "categories": [
+      "city"
+    ],
+    "level": "b1",
+    "image": "voc_c3c1633f",
+    "image_brief": "a doorman checking a card at a private club entrance, one guest waiting, from the street at medium distance, a sign, a lamp and a step --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The club is **exclusively** for members."
+  },
+  {
+    "phrase": "inevitably",
+    "pos": "adverb",
+    "sense": "in-a-way-that-cannot-be-avoided",
+    "pronunciation": "/ɪˈnɛvɪtəbli/",
+    "definition": "in a way that cannot be avoided.",
+    "categories": [
+      "time"
+    ],
+    "level": "b1",
+    "image": "voc_01cb5dc3",
+    "image_brief": "a commuter looking at a raised fare sign and sighing, one person beside, from the platform at medium distance, a bench, a bag and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Inevitably**, prices rose."
+  },
+  {
+    "phrase": "instantly",
+    "pos": "adverb",
+    "sense": "at-once",
+    "pronunciation": "/ˈɪnstəntli/",
+    "definition": "at once, with no delay.",
+    "categories": [
+      "time"
+    ],
+    "level": "b1",
+    "image": "voc_3df4e3a5",
+    "image_brief": "two old friends spotting each other across a station hall, one waving, from behind at wide distance, bags, a bench and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She recognized him **instantly**."
+  },
+  {
+    "phrase": "literally",
+    "pos": "adverb",
+    "sense": "in-the-exact-meaning-of-the-words",
+    "pronunciation": "/ˈlɪtərəli/",
+    "definition": "in the exact meaning of the words.",
+    "categories": [
+      "communication"
+    ],
+    "level": "b1",
+    "image": "voc_92b719a8",
+    "image_brief": "a runner arriving red-faced at a door, one friend laughing, from the side at medium distance, a bag, a bottle and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He **literally** ran the whole way."
+  },
+  {
+    "phrase": "mutually",
+    "pos": "adverb",
+    "sense": "felt-or-done-by-both-sides",
+    "pronunciation": "/ˈmjuːtʃuəli/",
+    "definition": "felt or done by both sides.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "b1",
+    "image": "voc_507c4d19",
+    "image_brief": "two business partners shaking hands over a contract, from the side at medium distance, a table, cups and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The decision was **mutually** agreed."
+  },
+  {
+    "phrase": "naturally",
+    "pos": "adverb",
+    "sense": "as-you-would-expect",
+    "pronunciation": "/ˈnætʃrəli/",
+    "definition": "as you would expect.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "b1",
+    "image": "voc_9b5271df",
+    "image_brief": "a woman smiling at good news with one friend beside, from the side at medium distance, a letter, a cup and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Naturally**, she was pleased."
+  },
+  {
+    "phrase": "nearly",
+    "pos": "adverb",
+    "sense": "almost",
+    "pronunciation": "/ˈnɪrli/",
+    "definition": "almost.",
+    "categories": [
+      "time"
+    ],
+    "level": "b1",
+    "image": "voc_77aa406d",
+    "image_brief": "a team packing up a project at a table with one box left, from the side at medium distance, a laptop, cups and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We are **nearly** finished."
+  },
+  {
+    "phrase": "necessarily",
+    "pos": "adverb",
+    "sense": "in-every-case",
+    "pronunciation": "/ˌnɛsəˈsɛrəli/",
+    "definition": "in every case, always.",
+    "categories": [
+      "communication"
+    ],
+    "level": "b1",
+    "image": "voc_a20efd12",
+    "image_brief": "a shopper comparing a cheap and an expensive item, one assistant beside, from the side at medium distance, a shelf, a bag and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Good food is not **necessarily** expensive."
+  },
+  {
+    "phrase": "normally",
+    "pos": "adverb",
+    "sense": "usually",
+    "pronunciation": "/ˈnɔrməli/",
+    "definition": "usually, in most cases.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b1",
+    "image": "voc_2fadd750",
+    "image_brief": "a customer reading a shop hours sign on a door, one staff member unlocking, from the pavement at medium distance, a lamp, a bin and a step --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The shop is **normally** open until six."
+  },
+  {
+    "phrase": "notably",
+    "pos": "adverb",
+    "sense": "especially",
+    "pronunciation": "/ˈnoʊtəbli/",
+    "definition": "especially, in a way that is easy to notice.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_0e441cad",
+    "image_brief": "a coach pointing at a chart with one area circled, players listening, from the side at medium distance, a board, bottles and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The team improved, **notably** in defense."
+  },
+  {
+    "phrase": "obviously",
+    "pos": "adverb",
+    "sense": "in-a-way-that-is-easy-to-see",
+    "pronunciation": "/ˈɑbviəsli/",
+    "definition": "in a way that is easy to see or understand.",
+    "categories": [
+      "communication"
+    ],
+    "level": "b1",
+    "image": "voc_0c320554",
+    "image_brief": "a manager pointing at a budget line while staff nod, from the side at medium distance, a table, cups and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Obviously**, the plan needs money."
+  },
+  {
+    "phrase": "occasionally",
+    "pos": "adverb",
+    "sense": "sometimes-but-not-often",
+    "pronunciation": "/əˈkeɪʒənəli/",
+    "definition": "sometimes but not often.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "b1",
+    "image": "voc_ea7e387e",
+    "image_brief": "a couple at a restaurant table on a quiet evening, one waiter passing, from across the room at medium distance, plates, a lamp and a window --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We **occasionally** eat out."
+  },
+  {
+    "phrase": "officially",
+    "pos": "adverb",
+    "sense": "in-an-official-way",
+    "pronunciation": "/əˈfɪʃəli/",
+    "definition": "in an official way.",
+    "categories": [
+      "city"
+    ],
+    "level": "b1",
+    "image": "voc_fce8d0a5",
+    "image_brief": "two officials cutting a ribbon across a new road, one driver waiting, from the side at wide distance, a sign, a barrier and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The road is **officially** open now."
+  },
+  {
+    "phrase": "otherwise",
+    "pos": "adverb",
+    "sense": "if-not",
+    "pronunciation": "/ˈʌðɚwaɪz/",
+    "definition": "if not, or in other ways.",
+    "categories": [
+      "communication"
+    ],
+    "level": "b1",
+    "image": "voc_b11fb107",
+    "image_brief": "a woman writing a note on her hand at a desk, one colleague smiling, from the side at medium distance, a phone, a cup and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Write it down, **otherwise** you will forget."
+  },
+  {
+    "phrase": "partly",
+    "pos": "adverb",
+    "sense": "to-some-degree",
+    "pronunciation": "/ˈpɑrtli/",
+    "definition": "to some degree, but not completely.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_38b72780",
+    "image_brief": "a worker explaining a mistake to a supervisor, one colleague beside, from the side at medium distance, a desk, a folder and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The delay was **partly** my fault."
+  },
+  {
+    "phrase": "perfectly",
+    "pos": "adverb",
+    "sense": "in-a-perfect-way",
+    "pronunciation": "/ˈpɝfɪktli/",
+    "definition": "in a perfect way, with no problems.",
+    "categories": [
+      "home"
+    ],
+    "level": "b1",
+    "image": "voc_64442095",
+    "image_brief": "a carpenter sliding a joint into place, one apprentice watching, from the side at medium distance, a bench, tools and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The two parts fit **perfectly**."
+  },
+  {
+    "phrase": "permanently",
+    "pos": "adverb",
+    "sense": "for-all-time",
+    "pronunciation": "/ˈpɝmənəntli/",
+    "definition": "for all time, with no end.",
+    "categories": [
+      "city"
+    ],
+    "level": "b1",
+    "image": "voc_cc6f3ecd",
+    "image_brief": "a closed shop with a notice on the door and one passerby, from across the street at medium distance, a bin, a sign and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The shop closed **permanently**."
+  },
+  {
+    "phrase": "widely",
+    "pos": "adverb",
+    "sense": "by-many-people-or-places",
+    "pronunciation": "/ˈwaɪdli/",
+    "definition": "by many people or in many places.",
+    "categories": [
+      "communication"
+    ],
+    "level": "b1",
+    "image": "voc_6a3884dd",
+    "image_brief": "a reader in a library beside a stack of the same book, one shelf behind, from the side at medium distance, a lamp, a cup and a chair --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The book is **widely** read."
+  },
+  {
+    "phrase": "overall",
+    "pos": "adverb",
+    "sense": "considering-everything",
+    "pronunciation": "/ˌoʊvɚˈɔl/",
+    "definition": "considering everything.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_51fcde77",
+    "image_brief": "a team looking at a final summary on a board, one nodding, from the side at medium distance, a table, cups and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Overall**, the plan works."
+  },
+  {
+    "phrase": "survival",
+    "pos": "noun",
+    "sense": "staying-alive",
+    "pronunciation": "/sɚˈvaɪvəl/",
+    "definition": "the state of staying alive.",
+    "categories": [
+      "health"
+    ],
+    "level": "b1",
+    "image": "voc_31737d8c",
+    "image_brief": "a hiker drinking from a bottle in a dry valley, one friend beside, from the side at wide distance, a map, a pack and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Water is key to **survival**."
+  },
+  {
+    "phrase": "system",
+    "pos": "noun",
+    "sense": "set-of-connected-parts",
+    "pronunciation": "/ˈsɪstəm/",
+    "definition": "a set of connected parts that work together.",
+    "categories": [
+      "technology"
+    ],
+    "level": "b1",
+    "image": "voc_761c8b78",
+    "image_brief": "a technician checking a boiler in a basement, one resident waiting, from the side at medium distance, pipes, tools and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The heating **system** failed."
+  },
+  {
+    "phrase": "talent",
+    "pos": "noun",
+    "sense": "natural-ability",
+    "pronunciation": "/ˈtælənt/",
+    "definition": "a natural ability to do something well.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_29f512ca",
+    "image_brief": "a girl playing a piano while one teacher listens, from the side at medium distance, sheet music, a lamp and a chair --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She has a **talent** for music."
+  },
+  {
+    "phrase": "target",
+    "pos": "noun",
+    "sense": "goal-or-aim",
+    "pronunciation": "/ˈtɑrɡət/",
+    "definition": "a goal that you aim to reach.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_01662e10",
+    "image_brief": "a manager pointing at a target line on a chart, two staff smiling, from behind at medium distance, a laptop, cups and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They hit the sales **target**."
+  },
+  {
+    "phrase": "setting",
+    "pos": "noun",
+    "sense": "place-and-situation",
+    "pronunciation": "/ˈsɛtɪŋ/",
+    "definition": "the place and situation in which something happens.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b1",
+    "image": "voc_88708692",
+    "image_brief": "a small cottage among trees with one guest on the step, from the lane at wide distance, a fence, a garden and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The cottage is a quiet **setting**."
+  },
+  {
+    "phrase": "technique",
+    "pos": "noun",
+    "sense": "special-way-of-doing-something",
+    "pronunciation": "/tɛkˈniːk/",
+    "definition": "a special way of doing something.",
+    "categories": [
+      "sports"
+    ],
+    "level": "b1",
+    "image": "voc_7c3dde13",
+    "image_brief": "a coach showing a swimmer an arm movement at the poolside, from the side at medium distance, a board, bottles and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The coach taught a new **technique**."
+  },
+  {
+    "phrase": "tendency",
+    "pos": "noun",
+    "sense": "habit-of-behaving-in-a-way",
+    "pronunciation": "/ˈtɛndənsi/",
+    "definition": "a habit of behaving in a particular way.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "b1",
+    "image": "voc_b3623252",
+    "image_brief": "a man hurrying out with a half-open bag, one colleague calling after him, from the side at medium distance, a desk, a coat and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He has a **tendency** to rush."
+  },
+  {
+    "phrase": "sector",
+    "pos": "noun",
+    "sense": "part-of-an-economy",
+    "pronunciation": "/ˈsɛktɚ/",
+    "definition": "one part of a country's economy.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_d4e0a1f9",
+    "image_brief": "a new hospital wing with one worker and a visitor outside, from the road at wide distance, a crane, a sign and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The health **sector** is growing."
+  },
+  {
+    "phrase": "theory",
+    "pos": "noun",
+    "sense": "idea-that-explains-something",
+    "pronunciation": "/ˈθɪri/",
+    "definition": "an idea that explains why something happens.",
+    "categories": [
+      "education"
+    ],
+    "level": "b1",
+    "image": "voc_951575d9",
+    "image_brief": "a teacher drawing a simple diagram for a class, one student taking notes, from behind at medium distance, desks, a lamp and a window --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **theory** was tested."
+  },
+  {
+    "phrase": "threat",
+    "pos": "noun",
+    "sense": "danger",
+    "pronunciation": "/θrɛt/",
+    "definition": "a person or thing likely to cause harm.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b1",
+    "image": "voc_8515cdd0",
+    "image_brief": "residents boarding up a shop window as clouds gather, one looking at the sea, from the street at wide distance, a bin, a lamp and a sign --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The storm is a **threat** to the coast."
+  },
+  {
+    "phrase": "sacred",
+    "pos": "adjective",
+    "sense": "holy",
+    "pronunciation": "/ˈseɪkrɪd/",
+    "definition": "holy and respected.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "b1",
+    "image": "voc_5fd96b4f",
+    "image_brief": "a visitor standing quietly before an old stone marker, one guide beside, from behind at medium distance, a path, a fence and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The site is **sacred** to the village."
+  },
+  {
+    "phrase": "satisfied",
+    "pos": "adjective",
+    "sense": "pleased",
+    "pronunciation": "/ˈsætɪsfaɪd/",
+    "definition": "pleased because something was good enough.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "b1",
+    "image": "voc_f0d95859",
+    "image_brief": "a customer nodding at a repaired chair, one craftsperson beside, from the side at medium distance, tools, a cloth and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The customer was **satisfied**."
+  },
+  {
+    "phrase": "scientific",
+    "pos": "adjective",
+    "sense": "relating-to-science",
+    "pronunciation": "/ˌsaɪənˈtɪfɪk/",
+    "definition": "relating to science.",
+    "categories": [
+      "education"
+    ],
+    "level": "b1",
+    "image": "voc_d52f1982",
+    "image_brief": "a researcher pointing at a chart in a lab, one colleague beside, from the side at medium distance, a microscope, notes and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The claim has no **scientific** basis."
+  },
+  {
+    "phrase": "secondary",
+    "pos": "adjective",
+    "sense": "less-important",
+    "pronunciation": "/ˈsɛkəndɛri/",
+    "definition": "less important than something else.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_a7f3b9cd",
+    "image_brief": "a manager pointing at two lines on a plan, one marked first, from the side at medium distance, a table, cups and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Cost is a **secondary** issue."
+  },
+  {
+    "phrase": "secure",
+    "pos": "adjective",
+    "sense": "safe",
+    "pronunciation": "/sɪˈkjʊr/",
+    "definition": "safe and well protected.",
+    "categories": [
+      "home"
+    ],
+    "level": "b1",
+    "image": "voc_7cb53d35",
+    "image_brief": "a guard checking a locked door and a camera, one resident passing, from the corridor at medium distance, a lamp, a key and a sign --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The building is **secure** at night."
+  },
+  {
+    "phrase": "senior",
+    "pos": "adjective",
+    "sense": "older-or-higher-in-rank",
+    "pronunciation": "/ˈsiːnjɚ/",
+    "definition": "older or higher in rank.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "image": "voc_d8f02520",
+    "image_brief": "a senior nurse guiding a junior one through a ward, one patient behind, from the side at medium distance, a chart, a lamp and a bed --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She is a **senior** nurse."
+  },
+  {
+    "phrase": "sensible",
+    "pos": "adjective",
+    "sense": "wise",
+    "pronunciation": "/ˈsɛnsəbəl/",
+    "definition": "wise and practical.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "b1",
+    "image": "voc_a77a800a",
+    "image_brief": "a couple choosing a smaller car for city driving, one pointing at a plan, from the side at medium distance, a bag, a lamp and a sign --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "It was a **sensible** choice."
+  },
+  {
+    "phrase": "severe",
+    "pos": "adjective",
+    "sense": "very-bad",
+    "pronunciation": "/səˈvɪr/",
+    "definition": "very bad or serious.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b1",
+    "image": "voc_7dbda3bb",
+    "image_brief": "a fallen tree across a road after a storm, one worker with a saw, from the side at wide distance, a van, a cone and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The storm was **severe**."
+  },
+  {
+    "phrase": "slight",
+    "pos": "adjective",
+    "sense": "small",
+    "pronunciation": "/slaɪt/",
+    "definition": "small and not important.",
+    "categories": [
+      "time"
+    ],
+    "level": "b1",
+    "image": "voc_c52e1636",
+    "image_brief": "a commuter checking a watch as one train pulls in, from the platform at medium distance, a bench, a bag and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "There was a **slight** delay."
+  },
+  {
+    "phrase": "solar",
+    "pos": "adjective",
+    "sense": "relating-to-the-sun",
+    "pronunciation": "/ˈsoʊlɚ/",
+    "definition": "relating to the sun or its energy.",
+    "categories": [
+      "technology"
+    ],
+    "level": "b1",
+    "image": "voc_de078d6f",
+    "image_brief": "a worker fitting panels on a roof while one homeowner watches, from the garden at wide distance, a ladder, a meter and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They installed **solar** panels."
+  },
+  {
+    "phrase": "shake",
+    "pos": "verb",
+    "sense": "move-quickly-side-to-side",
+    "pronunciation": "/ʃeɪk/",
+    "definition": "to move quickly from side to side.",
+    "categories": [
+      "sports"
+    ],
+    "level": "b1",
+    "present_example": "Branches **shake** in the wind.",
+    "past_simple_example": "He **shook** the bottle.",
+    "past_participle_example": "The building has **shaken**.",
+    "present_participle_example": "The dog is **shaking**.",
+    "image": "voc_a7b9d8f2",
+    "image_brief": "a windy tree with one walker holding their hat, from the path at medium distance, a bench, a bag and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Branches **shake** in the wind."
+  },
+  {
+    "phrase": "shelter",
+    "pos": "verb",
+    "sense": "protect-from-weather",
+    "pronunciation": "/ˈʃɛltɚ/",
+    "definition": "to protect someone or something from weather or danger.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b1",
+    "present_example": "The trees **shelter** the house.",
+    "past_simple_example": "They **sheltered** from the rain.",
+    "past_participle_example": "The plants have been **sheltered**.",
+    "present_participle_example": "The wall is **sheltering** the garden.",
+    "image": "voc_7bc93c15",
+    "image_brief": "a farmhouse behind a row of trees in strong wind, one resident at the door, from the lane at wide distance, a fence, a shed and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Trees can **shelter** a house."
+  },
+  {
+    "phrase": "shut",
+    "pos": "verb",
+    "sense": "close",
+    "pronunciation": "/ʃʌt/",
+    "definition": "to close something.",
+    "categories": [
+      "home"
+    ],
+    "level": "b1",
+    "present_example": "**Shut** the window.",
+    "past_simple_example": "She **shut** the book.",
+    "past_participle_example": "The shop has **shut**.",
+    "present_participle_example": "He is **shutting** the gate.",
+    "image": "voc_0311f4ec",
+    "image_brief": "a person closing a window against rain, one colleague beside, from the side at medium distance, a desk, a cup and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Shut** the window."
+  },
+  {
+    "phrase": "slide",
+    "pos": "verb",
+    "sense": "move-smoothly",
+    "pronunciation": "/slaɪd/",
+    "definition": "to move smoothly over a surface.",
+    "categories": [
+      "home"
+    ],
+    "level": "b1",
+    "present_example": "The drawer **slides** easily.",
+    "past_simple_example": "The car **slid** on the ice.",
+    "past_participle_example": "The door has **slid** open.",
+    "present_participle_example": "The plate is **sliding** off.",
+    "image": "voc_98fd39a9",
+    "image_brief": "a person opening a smooth kitchen drawer, one child beside, from the side at medium distance, a counter, a towel and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Drawers **slide** easily."
+  },
+  {
+    "phrase": "smoke",
+    "pos": "verb",
+    "sense": "breathe-in-smoke",
+    "pronunciation": "/smoʊk/",
+    "definition": "to breathe in smoke from a cigarette.",
+    "categories": [
+      "health"
+    ],
+    "level": "b1",
+    "present_example": "Some people **smoke** outside.",
+    "past_simple_example": "He **smoked** for years.",
+    "past_participle_example": "They have **smoked** here.",
+    "present_participle_example": "She is **smoking** by the door.",
+    "image": "voc_8c2de692",
+    "image_brief": "two people smoking by a back door with one bin nearby, from the side at medium distance, a step, a lamp and a coat --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Some people **smoke** outside."
+  },
+  {
+    "phrase": "solve",
+    "pos": "verb",
+    "sense": "find-an-answer",
+    "pronunciation": "/sɑlv/",
+    "definition": "to find an answer to a problem.",
+    "categories": [
+      "work"
+    ],
+    "level": "b1",
+    "present_example": "We can **solve** this problem.",
+    "past_simple_example": "She **solved** the puzzle.",
+    "past_participle_example": "The issue has been **solved**.",
+    "present_participle_example": "He is **solving** the case.",
+    "image": "voc_57b3187d",
+    "image_brief": "two colleagues working on a puzzle at a table, one pointing at a page, from the side at medium distance, cups, a laptop and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We can **solve** this problem."
+  },
+  {
+    "phrase": "spill",
+    "pos": "verb",
+    "sense": "let-liquid-fall",
+    "pronunciation": "/spɪl/",
+    "definition": "to let liquid fall out of a container.",
+    "categories": [
+      "kitchen"
+    ],
+    "level": "b1",
+    "present_example": "Do not **spill** the milk.",
+    "past_simple_example": "He **spilled** the coffee.",
+    "past_participle_example": "The water has **spilled**.",
+    "present_participle_example": "The glass is **spilling**.",
+    "image": "voc_77ebbe52",
+    "image_brief": "a child reaching for a cup as milk tips, one adult catching it, from the side at medium distance, a table, a cloth and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Do not **spill** the milk."
+  },
+  {
+    "phrase": "spoil",
+    "pos": "verb",
+    "sense": "damage-or-ruin",
+    "pronunciation": "/spɔɪl/",
+    "definition": "to damage something or make it less enjoyable.",
+    "categories": [
+      "food"
+    ],
+    "level": "b1",
+    "present_example": "Rain can **spoil** the trip.",
+    "past_simple_example": "The surprise was **spoiled**.",
+    "past_participle_example": "The food has **spoiled**.",
+    "present_participle_example": "The weather is **spoiling** the day.",
+    "image": "voc_5d1cedfe",
+    "image_brief": "a family sheltering under a tree as a picnic gets wet, one holding a basket, from the side at medium distance, a blanket, a lamp and a path --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Rain can **spoil** the trip."
+  },
+  {
+    "phrase": "spread",
+    "pos": "verb",
+    "sense": "cover-a-larger-area",
+    "pronunciation": "/sprɛd/",
+    "definition": "to move over a larger area.",
+    "categories": [
+      "communication"
+    ],
+    "level": "b1",
+    "present_example": "The news **spreads** fast.",
+    "past_simple_example": "The fire **spread** quickly.",
+    "past_participle_example": "The stain has **spread**.",
+    "present_participle_example": "The illness is **spreading**.",
+    "image": "voc_d6208f09",
+    "image_brief": "two people reading the same news on phones at a table, one showing the screen, from the side at medium distance, cups, a laptop and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Stories **spread** fast online."
+  },
+  {
+    "phrase": "stare",
+    "pos": "verb",
+    "sense": "look-with-wide-eyes",
+    "pronunciation": "/stɛr/",
+    "definition": "to look at something for a long time.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "b1",
+    "present_example": "It is rude to **stare**.",
+    "past_simple_example": "She **stared** at the screen.",
+    "past_participle_example": "They have **stared** at it for hours.",
+    "present_participle_example": "He is **staring** at me.",
+    "image": "voc_46f58a51",
+    "image_brief": "a person staring at a phone on a busy platform, one passenger glancing, from the side at medium distance, a bag, a bench and a lamp --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "It is rude to **stare**."
   }
 ]

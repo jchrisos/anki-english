@@ -3799,3 +3799,203 @@ vocabulary,injure,hurt-someone,verb,b1,health,hurt someone
 vocabulary,insist,say-firmly,verb,b1,communication,say firmly
 vocabulary,intend,plan-to-do,verb,b1,work,plan to do
 vocabulary,kneel,go-down-on-your-knees,verb,b1,body,go down on knees
+vocabulary,ability,power-or-skill-to-do,noun,b1,work,power or skill to do
+vocabulary,accuracy,quality-of-being-correct,noun,b1,work,quality of being correct
+vocabulary,adjustment,a-small-change,noun,b1,home,a small change
+vocabulary,body,whole-physical-form,noun,b1,body,whole physical form
+vocabulary,code,set-of-rules,noun,b1,work,set of rules
+vocabulary,desire,a-strong-wish,noun,b1,emotions,a strong wish
+vocabulary,education,process-of-learning,noun,b1,education,process of learning
+vocabulary,entertainment,things-that-amuse-people,noun,b1,music,things that amuse people
+vocabulary,habit,something-you-do-often,noun,b1,daily-routine,something you do often
+vocabulary,image,picture-or-idea,noun,b1,communication,picture or idea
+vocabulary,impression,idea-about-someone,noun,b1,communication,idea about someone
+vocabulary,industry,making-goods-in-factories,noun,b1,work,making goods in factories
+vocabulary,issue,important-subject-or-problem,noun,b1,city,important subject or problem
+vocabulary,item,one-thing-in-a-list,noun,b1,shopping,one thing in a list
+vocabulary,level,amount-or-height,noun,b1,work,amount or height
+vocabulary,life,time-a-person-is-alive,noun,b1,time,time a person is alive
+vocabulary,material,substance-for-making-things,noun,b1,shopping,substance for making things
+vocabulary,matter,a-subject-or-situation,noun,b1,communication,a subject or situation
+vocabulary,meaning,what-something-means,noun,b1,communication,what something means
+vocabulary,media,news-outlets,noun,b1,communication,newspapers TV and radio
+vocabulary,member,person-in-a-group,noun,b1,relationships,person in a group
+vocabulary,memory,ability-to-remember,noun,b1,emotions,ability to remember
+vocabulary,method,a-way-of-doing-something,noun,b1,work,a way of doing something
+vocabulary,mission,important-job-or-aim,noun,b1,work,important job or aim
+vocabulary,mixture,combination-of-things,noun,b1,food,combination of things
+vocabulary,model,small-copy-or-example,noun,b1,work,small copy or example
+vocabulary,motive,reason-for-doing-something,noun,b1,work,reason for doing something
+vocabulary,movement,act-of-moving,noun,b1,sports,act of moving
+vocabulary,nation,country-and-its-people,noun,b1,city,country and its people
+vocabulary,norm,usual-way-things-are-done,noun,b1,work,usual way things are done
+vocabulary,bet,risk-money-on-a-result,verb,b1,money,risk money on a result
+vocabulary,bind,tie-things-together,verb,b1,home,tie things together
+vocabulary,fancy,want-or-like-something,verb,b1,emotions,want or like something
+vocabulary,bloom,produce-flowers,verb,b1,nature,produce flowers
+vocabulary,knit,make-cloth-from-wool,verb,b1,clothes,make cloth from wool
+vocabulary,launch,start-something-new,verb,b1,work,start something new
+vocabulary,lean,bend-from-upright,verb,b1,body,bend from upright
+vocabulary,lower,move-something-down,verb,b1,home,move something down
+vocabulary,maintain,keep-in-good-condition,verb,b1,work,keep in good condition
+vocabulary,observe,watch-carefully,verb,b1,education,watch carefully
+vocabulary,excellent,extremely-good,adjective,b1,emotions,extremely good
+vocabulary,external,on-the-outside,adjective,b1,home,on the outside
+vocabulary,extreme,very-great-in-degree,adjective,b1,weather,very great in degree
+vocabulary,latin,relating-to-latin,adjective,b1,education,relating to Latin
+vocabulary,likely,probable,adjective,b1,time,probable
+vocabulary,limited,small-in-amount,adjective,b1,shopping,small in amount
+vocabulary,male,of-the-man-kind,adjective,b1,animals,of the man kind
+vocabulary,noble,brave-and-good,adjective,b1,emotions,brave and good
+vocabulary,organic,grown-without-chemicals,adjective,b1,food,grown without chemicals
+vocabulary,outer,on-the-outside,adjective,b1,home,on the outside
+vocabulary,multiply,increase-by-a-number,verb,b1,education,increase by a number
+vocabulary,obey,do-what-a-rule-says,verb,b1,relationships,do what a rule says
+vocabulary,offer,say-you-will-give,verb,b1,communication,say you will give
+vocabulary,operate,make-something-work,verb,b1,technology,make something work
+vocabulary,pause,stop-for-a-short-time,verb,b1,time,stop for a short time
+vocabulary,permit,allow-something,verb,b1,work,allow something
+vocabulary,pray,speak-to-god,verb,b1,relationships,speak to God
+vocabulary,preserve,keep-safe-or-unchanged,verb,b1,nature,keep it unchanged
+vocabulary,publish,print-and-sell-a-book,verb,b1,work,print and sell
+vocabulary,reduce,make-something-smaller,verb,b1,money,make it smaller
+vocabulary,refuse,say-you-will-not-do,verb,b1,communication,say you will not
+vocabulary,regard,think-of-in-a-certain-way,verb,b1,communication,think of it as
+vocabulary,register,put-a-name-on-a-list,verb,b1,work,put a name on a list
+vocabulary,regret,feel-sorry-about-something,verb,b1,emotions,feel sorry about
+vocabulary,reject,refuse-to-accept,verb,b1,work,refuse to accept
+vocabulary,relate,connect-or-understand,verb,b1,communication,connect or understand
+vocabulary,release,let-go-or-make-available,verb,b1,communication,let go or make available
+vocabulary,remain,stay-in-a-place-or-state,verb,b1,time,stay in a place
+vocabulary,remind,make-someone-remember,verb,b1,communication,make someone remember
+vocabulary,remove,take-something-away,verb,b1,home,take something away
+vocabulary,repair,fix-something-broken,verb,b1,home,fix something broken
+vocabulary,replace,put-a-new-one-in-place,verb,b1,home,put a new one in
+vocabulary,request,ask-for-formally,verb,b1,communication,ask for formally
+vocabulary,rescue,save-from-danger,verb,b1,health,save from danger
+vocabulary,research,study-a-subject-carefully,verb,b1,education,study it carefully
+vocabulary,reserve,keep-for-later-use,verb,b1,travel,keep for later
+vocabulary,resist,try-to-stop-something,verb,b1,emotions,try to stop something
+vocabulary,respond,answer-or-react,verb,b1,communication,answer or react
+vocabulary,rise,go-up,verb,b1,weather,go up
+vocabulary,risk,put-something-in-danger,verb,b1,money,put in danger
+vocabulary,shortage,not-enough-of-something,noun,b1,money,not enough of something
+vocabulary,significance,importance-of-something,noun,b1,education,importance of something
+vocabulary,situation,things-happening-at-a-time,noun,b1,work,things happening now
+vocabulary,skill,ability-to-do-something-well,noun,b1,work,ability to do well
+vocabulary,society,people-living-together,noun,b1,city,people living together
+vocabulary,solution,way-to-fix-a-problem,noun,b1,work,way to fix a problem
+vocabulary,source,place-something-comes-from,noun,b1,nature,place it comes from
+vocabulary,species,type-of-animal-or-plant,noun,b1,animals,type of animal or plant
+vocabulary,standard,level-of-quality,noun,b1,work,level of quality
+vocabulary,statistics,numbers-that-show-facts,noun,b1,education,numbers showing facts
+vocabulary,outstanding,extremely-good,adjective,b1,work,extremely good
+vocabulary,parallel,side-by-side,adjective,b1,city,side by side
+vocabulary,partial,not-complete,adjective,b1,work,not complete
+vocabulary,particular,specific,adjective,b1,shopping,specific not general
+vocabulary,passive,not-active,adjective,b1,emotions,not active
+vocabulary,peaceful,calm-and-quiet,adjective,b1,nature,calm and quiet
+vocabulary,perfect,with-no-faults,adjective,b1,weather,with no faults
+vocabulary,pleased,happy-about-something,adjective,b1,emotions,happy about something
+vocabulary,potential,possible-in-the-future,adjective,b1,work,possible in future
+vocabulary,political,relating-to-government,adjective,b1,city,relating to government
+vocabulary,precious,very-valuable,adjective,b1,money,very valuable
+vocabulary,precise,exact-in-detail,adjective,b1,work,exact in detail
+vocabulary,pregnant,expecting-a-baby,adjective,b1,health,expecting a baby
+vocabulary,prepared,ready-for-something,adjective,b1,travel,ready for something
+vocabulary,previous,happening-before,adjective,b1,time,happening before
+vocabulary,primary,main-or-first,adjective,b1,education,main or first
+vocabulary,prime,most-important,adjective,b1,work,most important
+vocabulary,principal,main-or-most-important,adjective,b1,work,main or most important
+vocabulary,probable,likely-to-happen,adjective,b1,weather,likely to happen
+vocabulary,productive,getting-a-lot-done,adjective,b1,work,getting a lot done
+vocabulary,profound,very-strong-or-deep,adjective,b1,emotions,very strong or deep
+vocabulary,proper,right-and-suitable,adjective,b1,home,right and suitable
+vocabulary,pure,with-nothing-added,adjective,b1,food,with nothing added
+vocabulary,radical,very-different-from-before,adjective,b1,work,very different from before
+vocabulary,random,chosen-without-a-plan,adjective,b1,education,chosen without a plan
+vocabulary,rapid,very-fast,adjective,b1,city,very fast
+vocabulary,raw,not-cooked,adjective,b1,food,not cooked
+vocabulary,realistic,sensible-and-possible,adjective,b1,work,sensible and possible
+vocabulary,reasonable,fair-and-not-too-expensive,adjective,b1,money,fair and not too expensive
+vocabulary,regional,relating-to-one-area,adjective,b1,travel,relating to one area
+vocabulary,relaxed,calm-and-not-worried,adjective,b1,emotions,calm and not worried
+vocabulary,religious,believing-in-a-religion,adjective,b1,relationships,believing in a religion
+vocabulary,reluctant,not-wanting-to-do,adjective,b1,emotions,not wanting to do
+vocabulary,remarkable,unusual-and-impressive,adjective,b1,emotions,unusual and impressive
+vocabulary,representative,typical-of-a-group,adjective,b1,work,typical of a group
+vocabulary,responsible,having-a-duty,adjective,b1,work,having a duty
+vocabulary,rigid,stiff-and-not-flexible,adjective,b1,home,stiff and not flexible
+vocabulary,romantic,about-love,adjective,b1,relationships,about love
+vocabulary,royal,belonging-to-a-king,adjective,b1,city,belonging to a king
+vocabulary,rural,in-the-countryside,adjective,b1,nature,in the countryside
+vocabulary,status,level-of-importance,noun,b1,work,level of importance
+vocabulary,strategy,plan-to-reach-a-goal,noun,b1,work,plan to reach a goal
+vocabulary,structure,way-parts-are-joined,noun,b1,work,way parts are joined
+vocabulary,struggle,long-hard-effort,noun,b1,emotions,long hard effort
+vocabulary,success,achieving-what-you-wanted,noun,b1,work,achieving what you wanted
+vocabulary,suggestion,idea-offered-to-someone,noun,b1,communication,idea offered to someone
+vocabulary,summary,short-statement-of-main-points,noun,b1,communication,short statement of main points
+vocabulary,supply,amount-available-for-use,noun,b1,shopping,amount available
+vocabulary,surface,outside-layer-of-something,noun,b1,home,outside layer
+vocabulary,survey,study-of-peoples-answers,noun,b1,communication,study of answers
+vocabulary,roll,move-by-turning-over,verb,b1,sports,move by turning
+vocabulary,rub,press-and-move-your-hand,verb,b1,home,press and move a hand
+vocabulary,ruin,damage-completely,verb,b1,weather,damage completely
+vocabulary,rule,control-a-country-or-group,verb,b1,city,control a country
+vocabulary,rush,move-very-quickly,verb,b1,daily-routine,move very quickly
+vocabulary,scare,make-someone-afraid,verb,b1,emotions,make someone afraid
+vocabulary,seem,appear-to-be,verb,b1,emotions,appear to be
+vocabulary,select,choose-from-a-group,verb,b1,shopping,choose from a group
+vocabulary,set,put-something-in-place,verb,b1,home,put in place
+vocabulary,settle,make-a-place-your-home,verb,b1,home,start living somewhere
+vocabulary,excessively,more-than-is-reasonable,adverb,b1,health,more than is reasonable
+vocabulary,exclusively,only-for-one-group,adverb,b1,city,only for one group
+vocabulary,inevitably,in-a-way-that-cannot-be-avoided,adverb,b1,time,cannot be avoided
+vocabulary,instantly,at-once,adverb,b1,time,at once
+vocabulary,literally,in-the-exact-meaning-of-the-words,adverb,b1,communication,in the exact meaning
+vocabulary,mutually,felt-or-done-by-both-sides,adverb,b1,relationships,by both sides
+vocabulary,naturally,as-you-would-expect,adverb,b1,emotions,as you would expect
+vocabulary,nearly,almost,adverb,b1,time,almost
+vocabulary,necessarily,in-every-case,adverb,b1,communication,in every case
+vocabulary,normally,usually,adverb,b1,daily-routine,usually
+vocabulary,notably,especially,adverb,b1,work,especially
+vocabulary,obviously,in-a-way-that-is-easy-to-see,adverb,b1,communication,easy to see
+vocabulary,occasionally,sometimes-but-not-often,adverb,b1,daily-routine,sometimes not often
+vocabulary,officially,in-an-official-way,adverb,b1,city,in an official way
+vocabulary,otherwise,if-not,adverb,b1,communication,if not
+vocabulary,partly,to-some-degree,adverb,b1,work,to some degree
+vocabulary,perfectly,in-a-perfect-way,adverb,b1,home,in a perfect way
+vocabulary,permanently,for-all-time,adverb,b1,city,for all time
+vocabulary,widely,by-many-people-or-places,adverb,b1,communication,by many people
+vocabulary,overall,considering-everything,adverb,b1,work,considering everything
+vocabulary,survival,staying-alive,noun,b1,health,staying alive
+vocabulary,system,set-of-connected-parts,noun,b1,technology,set of connected parts
+vocabulary,talent,natural-ability,noun,b1,work,natural ability
+vocabulary,target,goal-or-aim,noun,b1,work,goal or aim
+vocabulary,setting,place-and-situation,noun,b1,travel,place and situation
+vocabulary,technique,special-way-of-doing-something,noun,b1,sports,special way of doing it
+vocabulary,tendency,habit-of-behaving-in-a-way,noun,b1,emotions,habit of behaving
+vocabulary,sector,part-of-an-economy,noun,b1,work,part of an economy
+vocabulary,theory,idea-that-explains-something,noun,b1,education,idea that explains
+vocabulary,threat,danger,noun,b1,weather,danger
+vocabulary,sacred,holy,adjective,b1,relationships,holy and respected
+vocabulary,satisfied,pleased,adjective,b1,emotions,pleased with it
+vocabulary,scientific,relating-to-science,adjective,b1,education,relating to science
+vocabulary,secondary,less-important,adjective,b1,work,less important
+vocabulary,secure,safe,adjective,b1,home,safe and protected
+vocabulary,senior,older-or-higher-in-rank,adjective,b1,work,higher in rank
+vocabulary,sensible,wise,adjective,b1,emotions,wise and practical
+vocabulary,severe,very-bad,adjective,b1,weather,very bad
+vocabulary,slight,small,adjective,b1,time,small and not important
+vocabulary,solar,relating-to-the-sun,adjective,b1,technology,relating to the sun
+vocabulary,shake,move-quickly-side-to-side,verb,b1,sports,move side to side
+vocabulary,shelter,protect-from-weather,verb,b1,weather,protect from weather
+vocabulary,shut,close,verb,b1,home,close something
+vocabulary,slide,move-smoothly,verb,b1,home,move smoothly
+vocabulary,smoke,breathe-in-smoke,verb,b1,health,breathe in smoke
+vocabulary,solve,find-an-answer,verb,b1,work,find an answer
+vocabulary,spill,let-liquid-fall,verb,b1,kitchen,let liquid fall
+vocabulary,spoil,damage-or-ruin,verb,b1,food,damage or ruin
+vocabulary,spread,cover-a-larger-area,verb,b1,communication,cover a larger area
+vocabulary,stare,look-with-wide-eyes,verb,b1,emotions,look for a long time
