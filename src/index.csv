@@ -2899,3 +2899,103 @@ vocabulary,exchange,give-one-thing-for-another,verb,a2,travel;money,give money o
 vocabulary,scenic,with-beautiful-views,adjective,a2,travel;nature,having beautiful natural views
 vocabulary,remote,far-from-other-places,adjective,a2,travel;nature,far away from towns and people
 vocabulary,international,between-two-countries,adjective,a2,travel,between or involving two countries
+vocabulary,budget,plan-for-spending-money,noun,a2,money,a plan for how much you can spend
+vocabulary,loan,money-borrowed-and-repaid,noun,a2,money,money that you borrow and must pay back
+vocabulary,debt,money-you-owe,noun,a2,money,money that you owe to someone
+vocabulary,credit,paying-later-or-added-money,noun,a2,money,a way of paying later or money added
+vocabulary,debit,money-taken-from-an-account,noun,a2,money,money taken out of a bank account
+vocabulary,account,arrangement-for-money-at-a-bank,noun,a2,money,an arrangement to keep money at a bank
+vocabulary,currency,money-used-in-a-country,noun,a2,money;travel,the money used in a country
+vocabulary,fee,money-paid-for-a-service,noun,a2,money,money paid for a service
+vocabulary,profit,money-gained-after-costs,noun,a2,money,money gained after costs are paid
+vocabulary,loss,money-lost-in-business,noun,a2,money,money lost in a business or sale
+vocabulary,investment,money-put-in-to-grow,noun,a2,money,money put in to make more later
+vocabulary,discount,lower-price-than-usual,noun,a2,shopping,money a lower price than usual
+vocabulary,refund,money-given-back,noun,a2,shopping,money given back when you return something
+vocabulary,invoice,paper-asking-for-payment,noun,a2,money;work,a paper asking for payment for goods
+vocabulary,euro,money-used-in-europe,noun,a2,money;travel,the money used in many European countries
+vocabulary,change,money-back-after-paying,noun,a2,money;shopping,the money you get back when you overpay
+vocabulary,pension,income-after-retiring,noun,a2,money;work,money paid regularly after you retire
+vocabulary,savings,money-kept-for-later,noun,a2,money,money kept for the future
+vocabulary,wealth,large-amount-of-money,noun,a2,money,a large amount of money and possessions
+vocabulary,paycheck,pay-received-for-work,noun,a2,money;work,the money you receive for your work
+vocabulary,banknote,piece-of-paper-money,noun,a2,money,a piece of paper money
+vocabulary,transfer,movement-of-money-between-accounts,noun,a2,money,a movement of money between accounts
+vocabulary,deposit,money-put-into-an-account,noun,a2,money,money put into a bank account
+vocabulary,withdrawal,money-taken-out-of-an-account,noun,a2,money,money taken out of a bank account
+vocabulary,balance,money-left-in-an-account,noun,a2,money,the amount of money left in an account
+vocabulary,statement,record-of-account-activity,noun,a2,money,a paper showing account activity
+vocabulary,interest,extra-money-for-lending,noun,a2,money,extra money paid for keeping or borrowing money
+vocabulary,mortgage,long-loan-for-a-house,noun,a2,money;home,a long loan used to buy a house
+vocabulary,installment,one-of-several-payments,noun,a2,money,one of several regular payments
+vocabulary,payment,amount-of-money-paid,noun,a2,money,an amount of money paid
+vocabulary,value,how-much-something-is-worth,noun,a2,shopping,how much something is worth
+vocabulary,worth,money-value-of-something,noun,a2,shopping,the value of something in money
+vocabulary,bargain,thing-bought-cheaply,noun,a2,shopping,something bought for less than usual
+vocabulary,quality,how-good-something-is,noun,a2,shopping,how good or bad something is
+vocabulary,brand,name-of-a-company-product,noun,a2,shopping,the name of a company's product
+vocabulary,product,thing-made-to-be-sold,noun,a2,shopping,something made to be sold
+vocabulary,label,paper-with-product-information,noun,a2,shopping,paper with information on a product
+vocabulary,tag,small-label-attached-to-something,noun,a2,shopping,a small label attached to something
+vocabulary,coupon,paper-that-gives-money-off,noun,a2,shopping,a paper that gives money off something
+vocabulary,voucher,paper-used-instead-of-money,noun,a2,shopping,money a piece of paper used instead of money
+vocabulary,trolley,cart-for-carrying-shopping,noun,a2,shopping,a metal cart for carrying shopping
+vocabulary,barcode,pattern-read-by-a-machine,noun,a2,shopping,a pattern of lines read by a scanner
+vocabulary,scanner,machine-that-reads-barcodes,noun,a2,shopping,a machine that reads barcodes
+vocabulary,till,machine-that-takes-payment,noun,a2,shopping,the machine where a shop takes payment
+vocabulary,warranty,promise-to-repair-a-product,noun,a2,shopping,a promise to repair a product if it breaks
+vocabulary,guarantee,promise-that-it-will-work,noun,a2,shopping,a promise that something will work
+vocabulary,checkout,place-where-you-pay,noun,a2,shopping,the place where you pay in a shop
+vocabulary,afford,have-enough-money-for,verb,a2,money,have enough money for something
+vocabulary,withdraw,take-money-from-a-bank,verb,a2,money,take money out of a bank account
+vocabulary,affordable,cheap-enough-to-pay,adjective,a2,money;shopping,cheap enough to pay for
+vocabulary,kind,caring-about-others,adjective,a2,emotions;relationships,caring about other people
+vocabulary,friendly,warm-to-other-people,adjective,a2,emotions;relationships,warm and pleasant to other people
+vocabulary,brave,not-afraid-of-danger,adjective,a2,emotions,able to face danger without fear
+vocabulary,careful,giving-attention-to-details,adjective,a2,emotions,giving attention so nothing goes wrong
+vocabulary,careless,not-giving-enough-attention,adjective,a2,emotions,not giving enough attention
+vocabulary,generous,happy-to-give,adjective,a2,emotions;money,happy to give money or help
+vocabulary,selfish,thinking-only-of-yourself,adjective,a2,emotions,thinking only about yourself
+vocabulary,lazy,not-wanting-to-work,adjective,a2,emotions,not wanting to work or move
+vocabulary,hardworking,putting-lots-of-effort-in,adjective,a2,work,putting a lot of effort into work
+vocabulary,exciting,making-you-feel-eager,adjective,a2,emotions,making you feel eager and happy
+vocabulary,confident,sure-about-yourself,adjective,a2,emotions,sure that you can do something well
+vocabulary,silly,not-sensible-in-a-funny-way,adjective,a2,emotions,not sensible but funny
+vocabulary,care,looking-after-someone,noun,a2,emotions;health,attention and help for someone
+vocabulary,patience,ability-to-wait-calmly,noun,a2,emotions,the ability to wait without getting angry
+vocabulary,courage,ability-to-face-danger,noun,a2,emotions,the ability to face fear or danger
+vocabulary,kindness,quality-of-being-kind,noun,a2,emotions,the quality of being kind
+vocabulary,fun,enjoyment-and-pleasure,noun,a2,emotions,enjoyment and pleasure
+vocabulary,guilt,bad-feeling-after-doing-wrong,noun,a2,emotions,a bad feeling after doing something wrong
+vocabulary,nervousness,feeling-of-being-worried,noun,a2,emotions;health,the feeling of being worried and tense
+vocabulary,loneliness,sadness-from-being-alone,noun,a2,emotions;relationships,sadness from being alone
+vocabulary,personality,way-a-person-behaves,noun,a2,emotions,the qualities that make a person special
+vocabulary,character,qualities-of-a-person,noun,a2,emotions,the qualities that make a person
+vocabulary,attitude,way-you-think-or-feel,noun,a2,emotions,the way you think about something
+vocabulary,temper,ability-to-stay-calm,noun,a2,emotions,how easily you become angry
+vocabulary,pity,feeling-sorry-for-someone,noun,a2,emotions,a feeling of sadness for someone
+vocabulary,sympathy,sharing-someones-sadness,noun,a2,emotions,understanding of another person's sadness
+vocabulary,comfort,feeling-of-being-relaxed,noun,a2,emotions;home,a pleasant feeling of being relaxed
+vocabulary,honesty,quality-of-telling-the-truth,noun,a2,emotions;relationships,the quality of telling the truth
+vocabulary,humor,ability-to-make-people-laugh,noun,a2,emotions,the ability to make people laugh
+vocabulary,loyalty,staying-faithful-to-someone,noun,a2,relationships,being faithful to a person or group
+vocabulary,jealousy,unhappy-feeling-about-others,noun,a2,emotions,an unhappy feeling about what others have
+vocabulary,confidence,belief-in-your-own-ability,noun,a2,emotions,belief in your own ability
+vocabulary,determination,firmness-about-a-goal,noun,a2,emotions,strong will to reach a goal
+vocabulary,motivation,reason-to-work-hard,noun,a2,work,a reason that makes you work hard
+vocabulary,shyness,fear-of-speaking-to-people,noun,a2,emotions,being nervous with other people
+vocabulary,generosity,willingness-to-give,noun,a2,emotions;money,willingness to give money or help
+vocabulary,laziness,not-wanting-to-work,noun,a2,emotions,the habit of not wanting to work
+vocabulary,politeness,friendly-good-manners,noun,a2,communication;relationships,good manners toward other people
+vocabulary,sensitivity,care-about-others-feelings,noun,a2,emotions,care and understanding for others' feelings
+vocabulary,envy,want-what-someone-else-has,verb,a2,emotions;relationships,want something that another person has
+vocabulary,encourage,give-someone-confidence,verb,a2,emotions,help someone feel confident
+vocabulary,praise,say-someone-did-well,verb,a2,emotions,express that someone did something well
+vocabulary,blame,say-someone-caused-a-problem,verb,a2,emotions;relationships,say that someone caused a problem
+vocabulary,insult,say-something-hurtful,verb,a2,emotions,be rude and hurtful to someone
+vocabulary,tease,make-fun-of-someone,verb,a2,relationships;emotions,make fun of someone in a playful way
+vocabulary,bully,hurt-someone-weaker,verb,a2,health;relationships,hurt or frighten someone weaker
+vocabulary,quarrel,argue-in-an-angry-way,verb,a2,relationships;emotions,argue in an angry way
+vocabulary,appreciate,be-grateful-for-something,verb,a2,emotions,feel grateful for something
+vocabulary,criticize,say-what-is-wrong,verb,a2,communication;emotions,say what is wrong with something
+vocabulary,confess,admit-you-did-something,verb,a2,communication,admit that you did something wrong

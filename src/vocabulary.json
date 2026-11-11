@@ -26614,5 +26614,1481 @@
     "image": "voc_703a36c0",
     "image_brief": "travelers from different places waiting at an international terminal gate, one reading a passport, from behind at wide distance, bags, a screen and seats, busy world-travel mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
     "example": "They flew on an **international** flight."
+  },
+  {
+    "phrase": "budget",
+    "pos": "noun",
+    "sense": "plan-for-spending-money",
+    "pronunciation": "/ˈbʌdʒɪt/",
+    "definition": "a plan for how much money you can spend.",
+    "categories": [
+      "money"
+    ],
+    "level": "a2",
+    "image": "voc_40a59f59",
+    "image_brief": "a couple working on a monthly budget at a kitchen table, one writing figures, from above at medium distance, bills, a calculator and a cup, careful household mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We made a **budget** for the holiday."
+  },
+  {
+    "phrase": "loan",
+    "pos": "noun",
+    "sense": "money-borrowed-and-repaid",
+    "pronunciation": "/loʊn/",
+    "definition": "money that you borrow and must pay back.",
+    "categories": [
+      "money"
+    ],
+    "level": "a2",
+    "image": "voc_5d8a2f2b",
+    "image_brief": "a man signing loan papers at a bank desk, one clerk beside him, from the side at medium distance, a folder, a pen and a plant, serious adult mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They took a **loan** to buy a car."
+  },
+  {
+    "phrase": "debt",
+    "pos": "noun",
+    "sense": "money-you-owe",
+    "pronunciation": "/dɛt/",
+    "definition": "money that you owe to someone.",
+    "categories": [
+      "money"
+    ],
+    "level": "a2",
+    "image": "voc_53f02368",
+    "image_brief": "a woman opening letters at a table with a worried face, one friend beside her, from across the table at medium distance, bills, a cup and a folder, heavy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He paid off his **debt** last year."
+  },
+  {
+    "phrase": "credit",
+    "pos": "noun",
+    "sense": "paying-later-or-added-money",
+    "pronunciation": "/ˈkrɛdɪt/",
+    "definition": "a way of paying later, or money added to an account.",
+    "categories": [
+      "money"
+    ],
+    "level": "a2",
+    "image": "voc_1a415f11",
+    "image_brief": "a shopper paying with a card at a till while the cashier checks the screen, from the side at medium distance, a bag, a scanner and a receipt, ordinary shop mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She bought the chair on **credit**."
+  },
+  {
+    "phrase": "debit",
+    "pos": "noun",
+    "sense": "money-taken-from-an-account",
+    "pronunciation": "/ˈdɛbɪt/",
+    "definition": "money that is taken out of a bank account.",
+    "categories": [
+      "money"
+    ],
+    "level": "a2",
+    "image": "voc_8741d0b5",
+    "image_brief": "a customer holding a debit card at a counter while one clerk points at a screen, from the side at medium distance, a bag, a phone and a plant, routine banking mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **debit** came out on Monday."
+  },
+  {
+    "phrase": "account",
+    "pos": "noun",
+    "sense": "arrangement-for-money-at-a-bank",
+    "pronunciation": "/əˈkaʊnt/",
+    "definition": "an arrangement to keep your money at a bank.",
+    "categories": [
+      "money"
+    ],
+    "level": "a2",
+    "image": "voc_0ca9515d",
+    "image_brief": "a young person opening a bank account at a desk, one adviser explaining a form, from the side at medium distance, a folder, a card and a plant, first-account mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He opened a savings **account**."
+  },
+  {
+    "phrase": "currency",
+    "pos": "noun",
+    "sense": "money-used-in-a-country",
+    "pronunciation": "/ˈkɝənsi/",
+    "definition": "the money that is used in a country.",
+    "categories": [
+      "money",
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_ff83555a",
+    "image_brief": "a traveler at an exchange desk with notes of two currencies, one clerk counting, from the side at medium distance, a screen, a passport and a bag, practical travel mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "What **currency** do they use there?"
+  },
+  {
+    "phrase": "fee",
+    "pos": "noun",
+    "sense": "money-paid-for-a-service",
+    "pronunciation": "/fiː/",
+    "definition": "money that you pay for a service.",
+    "categories": [
+      "money"
+    ],
+    "level": "a2",
+    "image": "voc_ff23e12c",
+    "image_brief": "a customer asking about a fee at a service desk, one clerk pointing at a paper, from the side at medium distance, a phone, a folder and a chair, small surprise mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "There is a small **fee** for delivery."
+  },
+  {
+    "phrase": "profit",
+    "pos": "noun",
+    "sense": "money-gained-after-costs",
+    "pronunciation": "/ˈprɑfɪt/",
+    "definition": "the money gained after costs have been paid.",
+    "categories": [
+      "money"
+    ],
+    "level": "a2",
+    "image": "voc_486d27be",
+    "image_brief": "a small shop owner checking the week's profit at a counter, one worker beside, from behind at medium distance, a till, a notebook and a lamp, quiet business mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The cafe made a small **profit**."
+  },
+  {
+    "phrase": "loss",
+    "pos": "noun",
+    "sense": "money-lost-in-business",
+    "pronunciation": "/lɔs/",
+    "definition": "money that is lost in a business or sale.",
+    "categories": [
+      "money"
+    ],
+    "level": "a2",
+    "image": "voc_ab040c2e",
+    "image_brief": "two shop owners looking at figures on a laptop with serious faces, from across the counter at medium distance, a till, cups and boxes, worried business mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The shop made a **loss** this year."
+  },
+  {
+    "phrase": "investment",
+    "pos": "noun",
+    "sense": "money-put-in-to-grow",
+    "pronunciation": "/ɪnˈvɛstmənt/",
+    "definition": "money that is put into something to make more money later.",
+    "categories": [
+      "money"
+    ],
+    "level": "a2",
+    "image": "voc_730e4480",
+    "image_brief": "a man reading an investment letter with a laptop open, one adviser across the table, from the side at medium distance, a folder, a cup and a window, cautious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The house was a good **investment**."
+  },
+  {
+    "phrase": "discount",
+    "pos": "noun",
+    "sense": "lower-price-than-usual",
+    "pronunciation": "/ˈdɪskaʊnt/",
+    "definition": "a lower price than usual.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "a2",
+    "image": "voc_da6743c5",
+    "image_brief": "a shopper holding a discount sign in a shop window while one customer looks in, from the street at medium distance, clothes, a tag and a lamp, good-deal mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Students get a ten percent **discount**."
+  },
+  {
+    "phrase": "refund",
+    "pos": "noun",
+    "sense": "money-given-back",
+    "pronunciation": "/ˈriːfʌnd/",
+    "definition": "money that is given back when you return something.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "a2",
+    "image": "voc_f6c129d2",
+    "image_brief": "a customer returning a jacket at a shop counter, one clerk holding a form, from the side at medium distance, a bag, a till and a lamp, polite transaction mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She asked for a **refund** on the shoes."
+  },
+  {
+    "phrase": "invoice",
+    "pos": "noun",
+    "sense": "paper-asking-for-payment",
+    "pronunciation": "/ˈɪnvɔɪs/",
+    "definition": "a paper that asks for payment for goods or work.",
+    "categories": [
+      "money",
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_a603d8e3",
+    "image_brief": "a small business owner checking an invoice at a desk, one client on the phone, from behind at medium distance, a laptop, a folder and a cup, careful admin mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **invoice** is due at the end of the month."
+  },
+  {
+    "phrase": "euro",
+    "pos": "noun",
+    "sense": "money-used-in-europe",
+    "pronunciation": "/ˈjʊroʊ/",
+    "definition": "the money that is used in many European countries.",
+    "categories": [
+      "money",
+      "travel"
+    ],
+    "level": "a2",
+    "image": "voc_20b3e273",
+    "image_brief": "a traveler paying with euro notes at a cafe in a European city, one waiter holding a tray, from the side at medium distance, cups, a tip dish and a newspaper, easy holiday mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The ticket costs twenty **euro**."
+  },
+  {
+    "phrase": "change",
+    "pos": "noun",
+    "sense": "money-back-after-paying",
+    "pronunciation": "/tʃeɪndʒ/",
+    "definition": "the money that you get back when you pay more than the price.",
+    "categories": [
+      "money",
+      "shopping"
+    ],
+    "level": "a2",
+    "image": "voc_ddcb7e4d",
+    "image_brief": "a customer holding out a hand for change at a market stall, one seller with a small purse, from the side at medium distance, fruit, a scale and a bag, ordinary market mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Keep the **change**."
+  },
+  {
+    "phrase": "pension",
+    "pos": "noun",
+    "sense": "income-after-retiring",
+    "pronunciation": "/ˈpɛnʃən/",
+    "definition": "money that is paid regularly to someone after they retire.",
+    "categories": [
+      "money",
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_8e157e7f",
+    "image_brief": "an older couple reading a pension letter at a kitchen table, from across the table at medium distance, a cup, glasses and a calendar, settled mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He lives on a small **pension**."
+  },
+  {
+    "phrase": "savings",
+    "pos": "noun",
+    "sense": "money-kept-for-later",
+    "pronunciation": "/ˈseɪvɪŋz/",
+    "definition": "money that you keep for the future.",
+    "categories": [
+      "money"
+    ],
+    "level": "a2",
+    "image": "voc_d99912eb",
+    "image_brief": "a person putting notes into a savings jar on a shelf, one child watching, from the side at medium distance, a lamp, a book and a plant, patient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They used their **savings** for the trip."
+  },
+  {
+    "phrase": "wealth",
+    "pos": "noun",
+    "sense": "large-amount-of-money",
+    "pronunciation": "/wɛlθ/",
+    "definition": "a large amount of money and possessions.",
+    "categories": [
+      "money"
+    ],
+    "level": "a2",
+    "image": "voc_2b7098a5",
+    "image_brief": "a large old house with a long garden and one caretaker at the gate, from the road at wide distance, a car, a hedge and a lamp, quiet inherited mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The family's **wealth** came from farming."
+  },
+  {
+    "phrase": "paycheck",
+    "pos": "noun",
+    "sense": "pay-received-for-work",
+    "pronunciation": "/ˈpeɪtʃɛk/",
+    "definition": "the money that you receive for your work.",
+    "categories": [
+      "money",
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_76e13670",
+    "image_brief": "a worker opening a paycheck at the end of a shift, one colleague at a locker, from behind at medium distance, a coat, a bag and a clock, relieved mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "His **paycheck** arrives on the last Friday."
+  },
+  {
+    "phrase": "banknote",
+    "pos": "noun",
+    "sense": "piece-of-paper-money",
+    "pronunciation": "/ˈbæŋknoʊt/",
+    "definition": "a piece of paper money.",
+    "categories": [
+      "money"
+    ],
+    "level": "a2",
+    "image": "voc_978e33e6",
+    "image_brief": "a cashier counting banknotes into a drawer at a till, one customer waiting, from the side at medium distance, a scanner, a bag and a lamp, ordinary shop mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He paid with a ten-euro **banknote**."
+  },
+  {
+    "phrase": "transfer",
+    "pos": "noun",
+    "sense": "movement-of-money-between-accounts",
+    "pronunciation": "/ˈtrænsfɚ/",
+    "definition": "a movement of money from one account to another.",
+    "categories": [
+      "money"
+    ],
+    "level": "a2",
+    "image": "voc_b5998d95",
+    "image_brief": "a man setting up a money transfer on a laptop at a kitchen table, from behind at medium distance, a phone, a cup and a letter, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **transfer** arrived the next day."
+  },
+  {
+    "phrase": "deposit",
+    "pos": "noun",
+    "sense": "money-put-into-an-account",
+    "pronunciation": "/dɪˈpɑzɪt/",
+    "definition": "money that is put into a bank account.",
+    "categories": [
+      "money"
+    ],
+    "level": "a2",
+    "image": "voc_b56824fb",
+    "image_brief": "a customer handing cash to a clerk at a bank counter, one form between them, from the side at medium distance, a screen, a queue and a plant, routine banking mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She made a **deposit** of two hundred."
+  },
+  {
+    "phrase": "withdrawal",
+    "pos": "noun",
+    "sense": "money-taken-out-of-an-account",
+    "pronunciation": "/wɪðˈdrɔəl/",
+    "definition": "money that is taken out of a bank account.",
+    "categories": [
+      "money"
+    ],
+    "level": "a2",
+    "image": "voc_b34d0c43",
+    "image_brief": "a person using a cash machine at night with one person waiting behind, from the side at medium distance, a card, a receipt and a lamp, quick errand mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Each **withdrawal** costs a small fee."
+  },
+  {
+    "phrase": "balance",
+    "pos": "noun",
+    "sense": "money-left-in-an-account",
+    "pronunciation": "/ˈbæləns/",
+    "definition": "the amount of money that is left in an account.",
+    "categories": [
+      "money"
+    ],
+    "level": "a2",
+    "image": "voc_fceee15d",
+    "image_brief": "a woman checking her balance on a phone at a bus stop, one passenger beside her, from the side at medium distance, a bag, a bench and a bus, small worry mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **balance** is lower than I thought."
+  },
+  {
+    "phrase": "statement",
+    "pos": "noun",
+    "sense": "record-of-account-activity",
+    "pronunciation": "/ˈsteɪtmənt/",
+    "definition": "a paper or email that shows activity on an account.",
+    "categories": [
+      "money"
+    ],
+    "level": "a2",
+    "image": "voc_d83ac76a",
+    "image_brief": "a man reading a bank statement at a kitchen table with a cup beside him, from across the table at medium distance, a laptop, letters and a pen, checking mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **statement** shows every payment."
+  },
+  {
+    "phrase": "interest",
+    "pos": "noun",
+    "sense": "extra-money-for-lending",
+    "pronunciation": "/ˈɪntrəst/",
+    "definition": "extra money that you pay for borrowing money or receive for keeping it.",
+    "categories": [
+      "money"
+    ],
+    "level": "a2",
+    "image": "voc_48d786d6",
+    "image_brief": "a bank adviser explaining interest to a young couple, one pointing at a screen, from the side at medium distance, a folder, cups and a plant, attentive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The loan has very low **interest**."
+  },
+  {
+    "phrase": "mortgage",
+    "pos": "noun",
+    "sense": "long-loan-for-a-house",
+    "pronunciation": "/ˈmɔrɡɪdʒ/",
+    "definition": "a long loan that is used to buy a house.",
+    "categories": [
+      "money",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_13faf87c",
+    "image_brief": "a couple looking at a house while one holds mortgage papers, from the front gate at wide distance, keys, a folder and a plant, hopeful serious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They still pay a **mortgage** every month."
+  },
+  {
+    "phrase": "installment",
+    "pos": "noun",
+    "sense": "one-of-several-payments",
+    "pronunciation": "/ɪnˈstɔlmənt/",
+    "definition": "one of several regular payments for something.",
+    "categories": [
+      "money"
+    ],
+    "level": "a2",
+    "image": "voc_e66623d1",
+    "image_brief": "a shopper discussing payments over a counter, one clerk with a payment book, from the side at medium distance, a box, a till and a bag, practical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They pay for the sofa in **installment** plans."
+  },
+  {
+    "phrase": "payment",
+    "pos": "noun",
+    "sense": "amount-of-money-paid",
+    "pronunciation": "/ˈpeɪmənt/",
+    "definition": "an amount of money that is paid.",
+    "categories": [
+      "money"
+    ],
+    "level": "a2",
+    "image": "voc_d426c24b",
+    "image_brief": "a customer making a card payment at a small shop till, one shopkeeper checking the screen, from the side at medium distance, a bag, a scanner and a lamp, quick transaction mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The first **payment** is due in May."
+  },
+  {
+    "phrase": "value",
+    "pos": "noun",
+    "sense": "how-much-something-is-worth",
+    "pronunciation": "/ˈvæljuː/",
+    "definition": "how much money something is worth.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "a2",
+    "image": "voc_d8362049",
+    "image_brief": "a jeweler checking a ring with a small tool while the owner waits, from the side at medium distance, a lamp, a cloth and a box, careful appraisal mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **value** of the car dropped quickly."
+  },
+  {
+    "phrase": "worth",
+    "pos": "noun",
+    "sense": "money-value-of-something",
+    "pronunciation": "/wɝθ/",
+    "definition": "the value of something in money.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "a2",
+    "image": "voc_b2e1767a",
+    "image_brief": "a buyer and seller discussing a used bicycle in a driveway, one pointing at the frame, from the side at medium distance, a car, a tool and a bag, negotiating mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "It is not **worth** that much."
+  },
+  {
+    "phrase": "bargain",
+    "pos": "noun",
+    "sense": "thing-bought-cheaply",
+    "pronunciation": "/ˈbɑrɡən/",
+    "definition": "something that is bought for less than its usual price.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "a2",
+    "image": "voc_d765210d",
+    "image_brief": "a woman holding up a coat at a market rail with a price tag, one friend nodding, from the side at medium distance, other clothes, a bag and a lamp, pleased mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "That jacket was a real **bargain**."
+  },
+  {
+    "phrase": "quality",
+    "pos": "noun",
+    "sense": "how-good-something-is",
+    "pronunciation": "/ˈkwɑləti/",
+    "definition": "how good or bad something is.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "a2",
+    "image": "voc_7cbcdbcb",
+    "image_brief": "a shopper feeling the cloth of a shirt on a rail, one shop assistant nearby, from the side at medium distance, a mirror, hangers and a bag, judging mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **quality** of these boots is excellent."
+  },
+  {
+    "phrase": "brand",
+    "pos": "noun",
+    "sense": "name-of-a-company-product",
+    "pronunciation": "/brænd/",
+    "definition": "the name of a company's product.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "a2",
+    "image": "voc_968e4964",
+    "image_brief": "a customer comparing two boxes of tea on a supermarket shelf, one in each hand, from behind at medium distance, a cart, a sign and a lamp, browsing mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She only buys one **brand** of coffee."
+  },
+  {
+    "phrase": "product",
+    "pos": "noun",
+    "sense": "thing-made-to-be-sold",
+    "pronunciation": "/ˈprɑdʌkt/",
+    "definition": "something that is made to be sold.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "a2",
+    "image": "voc_9454c28e",
+    "image_brief": "a woman looking at a product on a shelf in a shop, one assistant behind her, from the side at medium distance, a basket, a sign and a lamp, considering mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "This **product** is made locally."
+  },
+  {
+    "phrase": "label",
+    "pos": "noun",
+    "sense": "paper-with-product-information",
+    "pronunciation": "/ˈleɪbəl/",
+    "definition": "a small piece of paper with information about a product.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "a2",
+    "image": "voc_ff8d0c39",
+    "image_brief": "a shopper turning a jar to read the label, one friend waiting beside, from the side at medium distance, a basket, shelves and a sign, careful shopping mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Read the **label** before you buy it."
+  },
+  {
+    "phrase": "tag",
+    "pos": "noun",
+    "sense": "small-label-attached-to-something",
+    "pronunciation": "/tæɡ/",
+    "definition": "a small label that is attached to something.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "a2",
+    "image": "voc_1758bb3c",
+    "image_brief": "a woman checking the tag on a dress in a shop, one friend looking at another rail, from behind at medium distance, a mirror, bags and a lamp, deciding mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **tag** says forty dollars."
+  },
+  {
+    "phrase": "coupon",
+    "pos": "noun",
+    "sense": "paper-that-gives-money-off",
+    "pronunciation": "/ˈkuːpɑn/",
+    "definition": "a piece of paper that gives you money off something.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "a2",
+    "image": "voc_9c51486c",
+    "image_brief": "a shopper handing a coupon to a cashier at a till, one bag on the counter, from the side at medium distance, a scanner, a receipt and a lamp, thrifty mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I used a **coupon** for the pizza."
+  },
+  {
+    "phrase": "voucher",
+    "pos": "noun",
+    "sense": "paper-used-instead-of-money",
+    "pronunciation": "/ˈvaʊtʃɚ/",
+    "definition": "a piece of paper that is used instead of money.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "a2",
+    "image": "voc_3432cf41",
+    "image_brief": "a woman holding a gift voucher at a shop counter, one assistant checking it, from the side at medium distance, a card, a bag and a plant, pleasant mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She paid with a gift **voucher**."
+  },
+  {
+    "phrase": "trolley",
+    "pos": "noun",
+    "sense": "cart-for-carrying-shopping",
+    "pronunciation": "/ˈtrɑli/",
+    "definition": "a metal cart that is used for carrying shopping.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "a2",
+    "image": "voc_bd233b1e",
+    "image_brief": "a shopper pushing a trolley through a supermarket aisle, one child walking beside, from behind at medium distance, shelves, a list and a bag, ordinary weekly mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Our **trolley** was full by the end."
+  },
+  {
+    "phrase": "barcode",
+    "pos": "noun",
+    "sense": "pattern-read-by-a-machine",
+    "pronunciation": "/ˈbɑrkoʊd/",
+    "definition": "a pattern of lines on a product that a machine reads.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "a2",
+    "image": "voc_8077767a",
+    "image_brief": "a cashier passing a product over a barcode reader at a till, one customer watching, from the side at medium distance, a bag, a screen and a lamp, quick checkout mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **barcode** would not scan."
+  },
+  {
+    "phrase": "scanner",
+    "pos": "noun",
+    "sense": "machine-that-reads-barcodes",
+    "pronunciation": "/ˈskænɚ/",
+    "definition": "a machine that reads barcodes or copies documents.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "a2",
+    "image": "voc_e5975f69",
+    "image_brief": "a shop worker holding a scanner over a shelf, one colleague with a box, from the side at medium distance, labels, a cart and a lamp, stocktaking mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **scanner** at the till was broken."
+  },
+  {
+    "phrase": "till",
+    "pos": "noun",
+    "sense": "machine-that-takes-payment",
+    "pronunciation": "/tɪl/",
+    "definition": "the machine where a shop takes payment.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "a2",
+    "image": "voc_21a59f6a",
+    "image_brief": "a cashier opening a till to give change, one customer with a bag, from the side at medium distance, a scanner, a receipt and a lamp, ordinary shop mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Please pay at the **till**."
+  },
+  {
+    "phrase": "warranty",
+    "pos": "noun",
+    "sense": "promise-to-repair-a-product",
+    "pronunciation": "/ˈwɔrənti/",
+    "definition": "a promise to repair a product if it breaks.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "a2",
+    "image": "voc_81dc3653",
+    "image_brief": "a customer showing a broken kettle and a warranty paper at a service desk, one clerk reading it, from the side at medium distance, a phone, a box and a plant, polite complaint mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **warranty** covers the first two years."
+  },
+  {
+    "phrase": "guarantee",
+    "pos": "noun",
+    "sense": "promise-that-it-will-work",
+    "pronunciation": "/ˌɡærənˈtiː/",
+    "definition": "a promise that something will work or be as described.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "a2",
+    "image": "voc_6c089554",
+    "image_brief": "a shop assistant explaining a guarantee to a customer holding a kettle, from across the counter at medium distance, a box, a folder and a bag, reassuring mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The shop gives a one-year **guarantee**."
+  },
+  {
+    "phrase": "checkout",
+    "pos": "noun",
+    "sense": "place-where-you-pay",
+    "pronunciation": "/ˈtʃɛkaʊt/",
+    "definition": "the place in a shop where you pay for things.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "a2",
+    "image": "voc_c9a8be94",
+    "image_brief": "a line of shoppers waiting at a supermarket checkout, one cashier scanning items, from behind at wide distance, trolleys, bags and a sign, busy weekend mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "There was a long line at the **checkout**."
+  },
+  {
+    "phrase": "afford",
+    "pos": "verb",
+    "sense": "have-enough-money-for",
+    "pronunciation": "/əˈfɔrd/",
+    "definition": "to have enough money for something.",
+    "categories": [
+      "money"
+    ],
+    "level": "a2",
+    "present_example": "They **afford** the rent on two salaries.",
+    "past_simple_example": "We **afforded** a short holiday last year.",
+    "past_participle_example": "They have never **afforded** a new car.",
+    "present_participle_example": "He is **affording** less each month.",
+    "image": "voc_7f38cd9a",
+    "image_brief": "a couple looking at a price tag in a furniture shop, one shaking their head, from the side at medium distance, a sofa, a bag and a lamp, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We cannot **afford** a bigger flat."
+  },
+  {
+    "phrase": "withdraw",
+    "pos": "verb",
+    "sense": "take-money-from-a-bank",
+    "pronunciation": "/wɪðˈdrɔ/",
+    "definition": "to take money out of a bank account.",
+    "categories": [
+      "money"
+    ],
+    "level": "a2",
+    "present_example": "He **withdraws** cash every Friday.",
+    "past_simple_example": "She **withdrew** two hundred dollars.",
+    "past_participle_example": "The money has been **withdrawn**.",
+    "present_participle_example": "He is **withdrawing** money at the machine.",
+    "image": "voc_024c12ff",
+    "image_brief": "a man withdrawing cash from a machine while one person waits behind, from the side at medium distance, a card, a receipt and a lamp, quick errand mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I need to **withdraw** some cash."
+  },
+  {
+    "phrase": "affordable",
+    "pos": "adjective",
+    "sense": "cheap-enough-to-pay",
+    "pronunciation": "/əˈfɔrdəbəl/",
+    "definition": "cheap enough that you can pay for it.",
+    "categories": [
+      "money",
+      "shopping"
+    ],
+    "level": "a2",
+    "image": "voc_3b49192b",
+    "image_brief": "a student looking at a row of affordable chairs in a shop, one friend beside, from behind at medium distance, price tags, a bag and a window, hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They found an **affordable** flat near the station."
+  },
+  {
+    "phrase": "kind",
+    "pos": "adjective",
+    "sense": "caring-about-others",
+    "pronunciation": "/kaɪnd/",
+    "definition": "caring about other people and wanting to help them.",
+    "categories": [
+      "emotions",
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_b5425edc",
+    "image_brief": "a woman helping an older neighbor carry a bag up the steps, from behind at medium distance, a door, a mat and a plant, warm everyday mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "It was **kind** of you to call."
+  },
+  {
+    "phrase": "friendly",
+    "pos": "adjective",
+    "sense": "warm-to-other-people",
+    "pronunciation": "/ˈfrɛndli/",
+    "definition": "warm and pleasant to other people.",
+    "categories": [
+      "emotions",
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_257354a9",
+    "image_brief": "a shop assistant greeting a customer with a smile at the counter, from the side at medium distance, a bag, a till and a plant, welcoming mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The staff were very **friendly**."
+  },
+  {
+    "phrase": "brave",
+    "pos": "adjective",
+    "sense": "not-afraid-of-danger",
+    "pronunciation": "/breɪv/",
+    "definition": "able to face danger or fear without running away.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_e42123ce",
+    "image_brief": "a firefighter walking toward a smoking doorway while one neighbor waits outside, from behind at medium distance, a hose, a helmet and a lamp, tense steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She was **brave** during the storm."
+  },
+  {
+    "phrase": "careful",
+    "pos": "adjective",
+    "sense": "giving-attention-to-details",
+    "pronunciation": "/ˈkɛrfəl/",
+    "definition": "giving attention to what you do so nothing goes wrong.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_7830fbc5",
+    "image_brief": "a man carrying a full tray slowly through a cafe, one customer stepping aside, from the side at medium distance, cups, a table and a door, cautious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Be **careful** with that hot pan."
+  },
+  {
+    "phrase": "careless",
+    "pos": "adjective",
+    "sense": "not-giving-enough-attention",
+    "pronunciation": "/ˈkɛrləs/",
+    "definition": "not giving enough attention, so mistakes happen.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_6ef0cb76",
+    "image_brief": "a cyclist riding no-handed past a puddle while one walker steps back, from the side at medium distance, a lamp, a bench and a bag, reckless mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "That was a **careless** mistake."
+  },
+  {
+    "phrase": "generous",
+    "pos": "adjective",
+    "sense": "happy-to-give",
+    "pronunciation": "/ˈdʒɛnɚəs/",
+    "definition": "happy to give money, time or help to others.",
+    "categories": [
+      "emotions",
+      "money"
+    ],
+    "level": "a2",
+    "image": "voc_e70e6eb0",
+    "image_brief": "a man giving a large bag of food to a neighbor at a door, from the side at medium distance, a basket, a step and a plant, warm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He is **generous** with his time."
+  },
+  {
+    "phrase": "selfish",
+    "pos": "adjective",
+    "sense": "thinking-only-of-yourself",
+    "pronunciation": "/ˈsɛlfɪʃ/",
+    "definition": "thinking only about yourself and not other people.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_93f0ec1e",
+    "image_brief": "a boy taking the last piece of cake from a shared plate while one sister watches, from across the table at medium distance, plates, a jug and a chair, small injustice mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "It was **selfish** to take the last seat."
+  },
+  {
+    "phrase": "lazy",
+    "pos": "adjective",
+    "sense": "not-wanting-to-work",
+    "pronunciation": "/ˈleɪzi/",
+    "definition": "not wanting to work or move your body.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_41a61e6c",
+    "image_brief": "a teenager lying on a sofa with a phone while one parent holds a broom, from across the room at medium distance, a blanket, a cup and a door, slow Sunday mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He felt **lazy** after lunch."
+  },
+  {
+    "phrase": "hardworking",
+    "pos": "adjective",
+    "sense": "putting-lots-of-effort-in",
+    "pronunciation": "/ˌhɑrdˈwɝkɪŋ/",
+    "definition": "putting a lot of effort into work.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_08e09e14",
+    "image_brief": "a student working late at a desk with books around, one friend leaving, from the side at medium distance, a lamp, a cup and a window, steady effort mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She is a **hardworking** nurse."
+  },
+  {
+    "phrase": "exciting",
+    "pos": "adjective",
+    "sense": "making-you-feel-eager",
+    "pronunciation": "/ɪkˈsaɪtɪŋ/",
+    "definition": "making you feel eager and happy about something.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_59f050c2",
+    "image_brief": "two people watching a football match from the front row with arms up, from behind at medium distance, a railing, a flag and a bag, thrilling mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "It was an **exciting** game."
+  },
+  {
+    "phrase": "confident",
+    "pos": "adjective",
+    "sense": "sure-about-yourself",
+    "pronunciation": "/ˈkɑnfɪdənt/",
+    "definition": "sure that you can do something well.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_522fe7ad",
+    "image_brief": "a woman speaking at a small meeting table with a calm face, two colleagues listening, from across the room at medium distance, a laptop, cups and a window, assured mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She felt **confident** before the test."
+  },
+  {
+    "phrase": "silly",
+    "pos": "adjective",
+    "sense": "not-sensible-in-a-funny-way",
+    "pronunciation": "/ˈsɪli/",
+    "definition": "not sensible, but funny and harmless.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_537cb492",
+    "image_brief": "a man wearing a paper hat at a family lunch while one child laughs, from across the table at medium distance, plates, a jug and a chair, playful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They made **silly** faces for the photo."
+  },
+  {
+    "phrase": "care",
+    "pos": "noun",
+    "sense": "looking-after-someone",
+    "pronunciation": "/kɛr/",
+    "definition": "attention and help that you give to someone.",
+    "categories": [
+      "emotions",
+      "health"
+    ],
+    "level": "a2",
+    "image": "voc_0eb26a93",
+    "image_brief": "a nurse helping an older patient with a cup, one relative at the door, from the side at medium distance, a chair, a chart and a lamp, gentle care mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The children need **care** and attention."
+  },
+  {
+    "phrase": "patience",
+    "pos": "noun",
+    "sense": "ability-to-wait-calmly",
+    "pronunciation": "/ˈpeɪʃəns/",
+    "definition": "the ability to wait or keep trying without getting angry.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_86e1ca6c",
+    "image_brief": "a teacher helping a child with a puzzle for the third time, from the side at medium distance, a table, pencils and a window, calm repetitive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Learning a language takes **patience**."
+  },
+  {
+    "phrase": "courage",
+    "pos": "noun",
+    "sense": "ability-to-face-danger",
+    "pronunciation": "/ˈkɝɪdʒ/",
+    "definition": "the ability to face fear or danger.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_7a6ed03f",
+    "image_brief": "a young swimmer standing at the edge of a high diving board while a coach waits below, from behind at medium distance, a ladder, water and a rail, nervous brave mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "It took **courage** to speak up."
+  },
+  {
+    "phrase": "kindness",
+    "pos": "noun",
+    "sense": "quality-of-being-kind",
+    "pronunciation": "/ˈkaɪndnəs/",
+    "definition": "the quality of being kind and helpful.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_67dc38de",
+    "image_brief": "a stranger holding an umbrella over a woman with a pram in the rain, from across the street at medium distance, a bus, a lamp and a crossing, warm small mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She will remember his **kindness**."
+  },
+  {
+    "phrase": "fun",
+    "pos": "noun",
+    "sense": "enjoyment-and-pleasure",
+    "pronunciation": "/fʌn/",
+    "definition": "enjoyment and pleasure.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_abb3133f",
+    "image_brief": "two friends laughing on a playground swing, one pushing the other, from the side at medium distance, a bag, a bench and trees, bright playful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We had a lot of **fun** at the beach."
+  },
+  {
+    "phrase": "guilt",
+    "pos": "noun",
+    "sense": "bad-feeling-after-doing-wrong",
+    "pronunciation": "/ɡɪlt/",
+    "definition": "a bad feeling that you have after doing something wrong.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_310fe48f",
+    "image_brief": "a man sitting alone on the edge of a bed with his head down, one phone face down beside him, from across the room at medium distance, a lamp, a bag and a jacket, heavy quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He felt **guilt** about the lie."
+  },
+  {
+    "phrase": "nervousness",
+    "pos": "noun",
+    "sense": "feeling-of-being-worried",
+    "pronunciation": "/ˈnɝvəsnəs/",
+    "definition": "the feeling of being worried and tense.",
+    "categories": [
+      "emotions",
+      "health"
+    ],
+    "level": "a2",
+    "image": "voc_6d59b583",
+    "image_brief": "a student waiting outside an exam hall with a folder in both hands, from the corridor at medium distance, a clock, a bench and a bag, jittery mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **nervousness** vanished at the start."
+  },
+  {
+    "phrase": "loneliness",
+    "pos": "noun",
+    "sense": "sadness-from-being-alone",
+    "pronunciation": "/ˈloʊnlinəs/",
+    "definition": "sadness that comes from being alone.",
+    "categories": [
+      "emotions",
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_9c794fcb",
+    "image_brief": "a man eating at a small table by a window while one couple sits far off, from outside at wide distance, a cup, a newspaper and a lamp, muted mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Moving to a new city can bring **loneliness**."
+  },
+  {
+    "phrase": "personality",
+    "pos": "noun",
+    "sense": "way-a-person-behaves",
+    "pronunciation": "/ˌpɝsəˈnæləti/",
+    "definition": "the qualities that make a person special and different.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_d0b41c94",
+    "image_brief": "a group at a party with one person laughing loudly and others smiling, from across the room at medium distance, a table, glasses and a lamp, outgoing mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He has a warm **personality**."
+  },
+  {
+    "phrase": "character",
+    "pos": "noun",
+    "sense": "qualities-of-a-person",
+    "pronunciation": "/ˈkɛrɪktɚ/",
+    "definition": "the qualities that make a person who they are.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_27d5010e",
+    "image_brief": "an older man helping a neighbor fix a fence while a child watches, from the side at medium distance, tools, a gate and a bucket, steady good mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She has a strong **character**."
+  },
+  {
+    "phrase": "attitude",
+    "pos": "noun",
+    "sense": "way-you-think-or-feel",
+    "pronunciation": "/ˈætɪtuːd/",
+    "definition": "the way that you think or feel about something.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_fb624218",
+    "image_brief": "a teenager at a kitchen table with crossed arms while a parent talks, from the side at medium distance, a plate, a bag and a clock, stubborn mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "His **attitude** changed after the talk."
+  },
+  {
+    "phrase": "temper",
+    "pos": "noun",
+    "sense": "ability-to-stay-calm",
+    "pronunciation": "/ˈtɛmpɚ/",
+    "definition": "how easily you become angry.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_850b7f03",
+    "image_brief": "a man taking a deep breath at a kitchen counter after a loud exchange, one other person at the door, from across the room at medium distance, a pan, a cup and a chair, cooling mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He has a quick **temper**."
+  },
+  {
+    "phrase": "pity",
+    "pos": "noun",
+    "sense": "feeling-sorry-for-someone",
+    "pronunciation": "/ˈpɪti/",
+    "definition": "a feeling of sadness for someone who is in a bad situation.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_f54c329c",
+    "image_brief": "a woman looking at a stray dog by a shop door, one shopkeeper bringing a bowl of water, from the side at medium distance, a bin, a mat and a lamp, soft sad mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She felt **pity** for the lost dog."
+  },
+  {
+    "phrase": "sympathy",
+    "pos": "noun",
+    "sense": "sharing-someones-sadness",
+    "pronunciation": "/ˈsɪmpəθi/",
+    "definition": "understanding and care for another person's sadness.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_e592df6d",
+    "image_brief": "a friend sitting beside a woman on a bench after bad news, one hand on her arm, from behind at medium distance, a bag, a lamp and a tree, gentle quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We sent our **sympathy** to the family."
+  },
+  {
+    "phrase": "comfort",
+    "pos": "noun",
+    "sense": "feeling-of-being-relaxed",
+    "pronunciation": "/ˈkʌmfɚt/",
+    "definition": "a pleasant feeling of being relaxed and free from pain.",
+    "categories": [
+      "emotions",
+      "home"
+    ],
+    "level": "a2",
+    "image": "voc_241cdf1b",
+    "image_brief": "a person in a soft chair by a fire with a blanket and a book, from across the room at medium distance, a lamp, a cup and slippers, cozy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The old chair is full of **comfort**."
+  },
+  {
+    "phrase": "honesty",
+    "pos": "noun",
+    "sense": "quality-of-telling-the-truth",
+    "pronunciation": "/ˈɑnəsti/",
+    "definition": "the quality of telling the truth.",
+    "categories": [
+      "emotions",
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_da85893a",
+    "image_brief": "a boy telling his teacher about a broken window while two classmates listen, from the side at medium distance, desks, a bag and a board, brave quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I respect her **honesty**."
+  },
+  {
+    "phrase": "humor",
+    "pos": "noun",
+    "sense": "ability-to-make-people-laugh",
+    "pronunciation": "/ˈhjuːmɚ/",
+    "definition": "the ability to make people laugh.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_641c42ae",
+    "image_brief": "a man telling a story at a dinner table while everyone laughs, from across the room at medium distance, plates, glasses and a lamp, warm loud mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He has a good sense of **humor**."
+  },
+  {
+    "phrase": "loyalty",
+    "pos": "noun",
+    "sense": "staying-faithful-to-someone",
+    "pronunciation": "/ˈlɔɪəlti/",
+    "definition": "being faithful and supportive to a person or group.",
+    "categories": [
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_5e457f0c",
+    "image_brief": "a dog waiting by a gate for its owner to return, one neighbor passing, from the lane at medium distance, a bowl, a fence and a lamp, faithful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Their **loyalty** to the club never faded."
+  },
+  {
+    "phrase": "jealousy",
+    "pos": "noun",
+    "sense": "unhappy-feeling-about-others",
+    "pronunciation": "/ˈdʒɛləsi/",
+    "definition": "an unhappy feeling about what another person has.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_1a3e5dbd",
+    "image_brief": "a girl watching a classmate open a new phone from the back of a classroom, from behind at medium distance, desks, bags and a window, quiet envy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He hid his **jealousy** well."
+  },
+  {
+    "phrase": "confidence",
+    "pos": "noun",
+    "sense": "belief-in-your-own-ability",
+    "pronunciation": "/ˈkɑnfɪdəns/",
+    "definition": "belief in your own ability.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_5fed28ea",
+    "image_brief": "a young woman stepping on stage with a steady face, one organizer at the side, from behind at medium distance, lights, a microphone and a curtain, ready mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Practice gave her **confidence**."
+  },
+  {
+    "phrase": "determination",
+    "pos": "noun",
+    "sense": "firmness-about-a-goal",
+    "pronunciation": "/dɪˌtɝməˈneɪʃən/",
+    "definition": "a strong will to reach a goal.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_352053df",
+    "image_brief": "a runner climbing the last hill of a race with a hard face, one spectator at the side, from the side at medium distance, a marker, a bottle and a fence, gritty mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **determination** got her through school."
+  },
+  {
+    "phrase": "motivation",
+    "pos": "noun",
+    "sense": "reason-to-work-hard",
+    "pronunciation": "/ˌmoʊtəˈveɪʃən/",
+    "definition": "a reason that makes you want to work hard.",
+    "categories": [
+      "work"
+    ],
+    "level": "a2",
+    "image": "voc_70414b97",
+    "image_brief": "a student pinning a photo of a graduation goal above a desk, from the side at medium distance, books, a lamp and a coffee cup, driven mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The new job gave him **motivation**."
+  },
+  {
+    "phrase": "shyness",
+    "pos": "noun",
+    "sense": "fear-of-speaking-to-people",
+    "pronunciation": "/ˈʃaɪnəs/",
+    "definition": "the feeling of being nervous with other people.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_aac7028d",
+    "image_brief": "a boy standing at the edge of a school party with one friend pulling his arm, from the side at medium distance, tables, coats and decorations, awkward gentle mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He spoke little because of **shyness**."
+  },
+  {
+    "phrase": "generosity",
+    "pos": "noun",
+    "sense": "willingness-to-give",
+    "pronunciation": "/ˌdʒɛnəˈrɑsəti/",
+    "definition": "the willingness to give money or help to others.",
+    "categories": [
+      "emotions",
+      "money"
+    ],
+    "level": "a2",
+    "image": "voc_3bb9aca6",
+    "image_brief": "a man giving a bag of clothes to a charity collection point, one volunteer receiving it, from the side at medium distance, boxes, a sign and a lamp, kind mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They thanked her for her **generosity**."
+  },
+  {
+    "phrase": "laziness",
+    "pos": "noun",
+    "sense": "not-wanting-to-work",
+    "pronunciation": "/ˈleɪzinəs/",
+    "definition": "the habit of not wanting to work or move.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_b451414f",
+    "image_brief": "a man lying on a sofa with a remote while dishes sit in the sink, from across the room at medium distance, a blanket, a cup and a bin, sleepy messy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "His **laziness** costs him time every week."
+  },
+  {
+    "phrase": "politeness",
+    "pos": "noun",
+    "sense": "friendly-good-manners",
+    "pronunciation": "/pəˈlaɪtnəs/",
+    "definition": "good manners and friendly behavior toward other people.",
+    "categories": [
+      "communication",
+      "relationships"
+    ],
+    "level": "a2",
+    "image": "voc_ceef38ef",
+    "image_brief": "a young man greeting an older neighbor and holding the gate, from the side at medium distance, a bag, a fence and a mat, respectful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He spoke with great **politeness**."
+  },
+  {
+    "phrase": "sensitivity",
+    "pos": "noun",
+    "sense": "care-about-others-feelings",
+    "pronunciation": "/ˌsɛnsəˈtɪvəti/",
+    "definition": "care and understanding for other people's feelings.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "image": "voc_c590ede2",
+    "image_brief": "a woman lowering her voice to speak with a friend on a bench, one passerby nearby, from behind at medium distance, a bag, a tree and a lamp, gentle mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She handled the news with **sensitivity**."
+  },
+  {
+    "phrase": "envy",
+    "pos": "verb",
+    "sense": "want-what-someone-else-has",
+    "pronunciation": "/ˈɛnvi/",
+    "definition": "to want something that another person has.",
+    "categories": [
+      "emotions",
+      "relationships"
+    ],
+    "level": "a2",
+    "present_example": "She **envies** her sister's confidence.",
+    "past_simple_example": "He **envied** the beach house.",
+    "past_participle_example": "They have **envied** that garden for years.",
+    "present_participle_example": "He is **envying** the neighbor's new car.",
+    "image": "voc_15644ff3",
+    "image_brief": "a man looking through a fence at a neighbor's new car, from the side at medium distance, a garage, a bike and a lamp, wistful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Do not **envy** what others have."
+  },
+  {
+    "phrase": "encourage",
+    "pos": "verb",
+    "sense": "give-someone-confidence",
+    "pronunciation": "/ɪnˈkɝɪdʒ/",
+    "definition": "to help someone feel confident to do something.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "present_example": "Her coach **encourages** her every week.",
+    "past_simple_example": "He **encouraged** me to apply.",
+    "past_participle_example": "They have **encouraged** the whole team.",
+    "present_participle_example": "She is **encouraging** the new students.",
+    "image": "voc_585e42b6",
+    "image_brief": "a coach clapping from the sideline while a young runner looks up, from the side at medium distance, a bench, a bottle and a bag, supportive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Parents should **encourage** their children to read."
+  },
+  {
+    "phrase": "praise",
+    "pos": "verb",
+    "sense": "say-someone-did-well",
+    "pronunciation": "/preɪz/",
+    "definition": "to say that someone has done something well.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "present_example": "The teacher **praises** good work in class.",
+    "past_simple_example": "She **praised** his honesty.",
+    "past_participle_example": "The team has been **praised** for its effort.",
+    "present_participle_example": "The manager is **praising** the new plan.",
+    "image": "voc_c9d8fd1f",
+    "image_brief": "a manager thanking a worker in front of a small team, one clapping, from the side at medium distance, desks, a screen and a cup, warm recognition mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The teacher will **praise** good work."
+  },
+  {
+    "phrase": "blame",
+    "pos": "verb",
+    "sense": "say-someone-caused-a-problem",
+    "pronunciation": "/bleɪm/",
+    "definition": "to say that someone caused a problem.",
+    "categories": [
+      "emotions",
+      "relationships"
+    ],
+    "level": "a2",
+    "present_example": "He **blames** the weather for the delay.",
+    "past_simple_example": "They **blamed** the driver.",
+    "past_participle_example": "She has been **blamed** unfairly.",
+    "present_participle_example": "Stop **blaming** everyone else.",
+    "image": "voc_99464f03",
+    "image_brief": "two people pointing at each other after a spilled coffee, one cup on the floor, from across the room at medium distance, a desk, papers and a lamp, tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Do not **blame** him for the mistake."
+  },
+  {
+    "phrase": "insult",
+    "pos": "verb",
+    "sense": "say-something-hurtful",
+    "pronunciation": "/ɪnˈsʌlt/",
+    "definition": "to say something rude that hurts or offends someone.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "present_example": "He **insults** people when he is angry.",
+    "past_simple_example": "She **insulted** the waiter by mistake.",
+    "past_participle_example": "They have **insulted** the whole family.",
+    "present_participle_example": "He is **insulting** his own team.",
+    "image": "voc_36649735",
+    "image_brief": "a man turning away from a table after a sharp remark, one guest looking down, from across the room at medium distance, plates, glasses and a lamp, awkward cold mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "It is not funny to **insult** people."
+  },
+  {
+    "phrase": "tease",
+    "pos": "verb",
+    "sense": "make-fun-of-someone",
+    "pronunciation": "/tiːz/",
+    "definition": "to make fun of someone in a playful or unkind way.",
+    "categories": [
+      "relationships",
+      "emotions"
+    ],
+    "level": "a2",
+    "present_example": "His brother **teases** him about his hair.",
+    "past_simple_example": "They **teased** her new shoes.",
+    "past_participle_example": "He has been **teased** at school.",
+    "present_participle_example": "The boys are **teasing** their sister.",
+    "image": "voc_14118448",
+    "image_brief": "two siblings laughing at a third who is rolling their eyes at a table, from the side at medium distance, a cereal box, a cup and a chair, playful family mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **tease** him about his old car."
+  },
+  {
+    "phrase": "bully",
+    "pos": "verb",
+    "sense": "hurt-someone-weaker",
+    "pronunciation": "/ˈbʊli/",
+    "definition": "to hurt or frighten someone who is weaker.",
+    "categories": [
+      "health",
+      "relationships"
+    ],
+    "level": "a2",
+    "present_example": "Some older boys **bully** the new students.",
+    "past_simple_example": "He **bullied** a classmate last year.",
+    "past_participle_example": "She has been **bullied** online.",
+    "present_participle_example": "They are **bullying** him again.",
+    "image": "voc_0fd852b5",
+    "image_brief": "a smaller student walking past a group in a school corridor, one of the group stepping forward, from behind at medium distance, lockers, bags and a window, tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Schools must act when students **bully** others."
+  },
+  {
+    "phrase": "quarrel",
+    "pos": "verb",
+    "sense": "argue-in-an-angry-way",
+    "pronunciation": "/ˈkwɔrəl/",
+    "definition": "to argue in an angry way.",
+    "categories": [
+      "relationships",
+      "emotions"
+    ],
+    "level": "a2",
+    "present_example": "The neighbors **quarrel** about parking.",
+    "past_simple_example": "They **quarreled** over the bill.",
+    "past_participle_example": "The family has **quarreled** for years.",
+    "present_participle_example": "The couple is **quarreling** in the kitchen.",
+    "image": "voc_1ac11160",
+    "image_brief": "two people arguing in a driveway beside two cars, one with a hand raised, from across the street at wide distance, a bin, a hedge and a lamp, heated neighbor mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **quarrel** about money every month."
+  },
+  {
+    "phrase": "appreciate",
+    "pos": "verb",
+    "sense": "be-grateful-for-something",
+    "pronunciation": "/əˈpriːʃieɪt/",
+    "definition": "to feel grateful for something.",
+    "categories": [
+      "emotions"
+    ],
+    "level": "a2",
+    "present_example": "We **appreciate** all your help.",
+    "past_simple_example": "She **appreciated** the small gift.",
+    "past_participle_example": "The support has been **appreciated**.",
+    "present_participle_example": "He is **appreciating** the quiet weekend.",
+    "image": "voc_c3ec431a",
+    "image_brief": "a woman thanking a neighbor for watering her plants, one pot in hand, from the side at medium distance, a door, a mat and a watering can, warm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I really **appreciate** your help."
+  },
+  {
+    "phrase": "criticize",
+    "pos": "verb",
+    "sense": "say-what-is-wrong",
+    "pronunciation": "/ˈkrɪtɪsaɪz/",
+    "definition": "to say what is wrong with something or someone.",
+    "categories": [
+      "communication",
+      "emotions"
+    ],
+    "level": "a2",
+    "present_example": "He **criticizes** every plan before reading it.",
+    "past_simple_example": "The manager **criticized** the report.",
+    "past_participle_example": "The idea has been **criticized** widely.",
+    "present_participle_example": "She is **criticizing** the new design.",
+    "image": "voc_d0d3deb3",
+    "image_brief": "a reviewer marking notes on a printed plan at a table, one designer listening, from the side at medium distance, a laptop, a pen and a cup, frank mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Try not to **criticize** before you listen."
+  },
+  {
+    "phrase": "confess",
+    "pos": "verb",
+    "sense": "admit-you-did-something",
+    "pronunciation": "/kənˈfɛs/",
+    "definition": "to admit that you did something wrong.",
+    "categories": [
+      "communication"
+    ],
+    "level": "a2",
+    "present_example": "He **confesses** when he breaks something.",
+    "past_simple_example": "She **confessed** to the mistake.",
+    "past_participle_example": "They have **confessed** to the theft.",
+    "present_participle_example": "He is **confessing** to the teacher.",
+    "image": "voc_aef236cb",
+    "image_brief": "a boy admitting to a broken window while one adult listens, from the side at medium distance, a ball, a garden hose and a fence, sheepish mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He had to **confess** to the mistake."
   }
 ]
