@@ -3399,3 +3399,203 @@ vocabulary,flexible,able-to-change-easily,adjective,b1,work,able to change easil
 vocabulary,initial,happening-at-the-start,adjective,b1,work,happening at the start
 vocabulary,relevant,connected-to-the-subject,adjective,b1,communication,connected to the subject
 vocabulary,significant,large-or-important-enough-to-notice,adjective,b1,work,large or important
+vocabulary,action,something-done-to-achieve-a-result,noun,b1,work,something done for a result
+vocabulary,affair,event-or-situation,noun,b1,relationships,event or situation
+vocabulary,analysis,careful-study-of-something,noun,b1,work,careful study of something
+vocabulary,aspect,one-part-of-a-situation,noun,b1,work,one part of a situation
+vocabulary,assessment,judgment-about-quality,noun,b1,work,judgment about quality
+vocabulary,assistance,help,noun,b1,communication,help
+vocabulary,basis,main-reason-or-starting-point,noun,b1,work,main reason or start
+vocabulary,category,group-of-similar-things,noun,b1,shopping,group of similar things
+vocabulary,characteristic,typical-quality,noun,b1,emotions,typical quality
+vocabulary,combination,two-or-more-things-together,noun,b1,work,things used together
+vocabulary,comparison,act-of-looking-at-differences,noun,b1,shopping,looking at differences
+vocabulary,complexity,state-of-having-many-parts,noun,b1,work,many parts together
+vocabulary,conclusion,decision-after-thinking,noun,b1,work,decision after thinking
+vocabulary,conflict,serious-disagreement,noun,b1,relationships,serious disagreement
+vocabulary,creativity,ability-to-make-new-things,noun,b1,work,ability to make new things
+vocabulary,criterion,standard-used-to-judge,noun,b1,work,standard used to judge
+vocabulary,criticism,words-saying-what-is-wrong,noun,b1,communication,words saying what is wrong
+vocabulary,curriculum,subjects-taught-in-a-school,noun,b1,education,subjects taught in school
+vocabulary,democracy,system-where-people-vote,noun,b1,city,system where people vote
+vocabulary,distinction,clear-difference,noun,b1,education,clear difference
+vocabulary,element,one-part-of-something-larger,noun,b1,work,one part of something larger
+vocabulary,emphasis,special-importance,noun,b1,education,special importance
+vocabulary,equality,state-of-being-equal,noun,b1,work,state of being equal
+vocabulary,existence,state-of-existing,noun,b1,nature,state of existing
+vocabulary,expansion,act-of-becoming-larger,noun,b1,work,act of becoming larger
+vocabulary,factor,thing-that-affects-a-result,noun,b1,work,thing affecting a result
+vocabulary,feature,important-part-of-something,noun,b1,home,important part of something
+vocabulary,function,purpose-of-something,noun,b1,technology,purpose of something
+vocabulary,guidance,help-and-advice,noun,b1,education,help and advice
+vocabulary,impact,strong-effect,noun,b1,city,strong effect
+vocabulary,abstract,existing-as-an-idea,adjective,b1,education,existing as an idea
+vocabulary,academic,relating-to-study,adjective,b1,education,relating to study
+vocabulary,accurate,correct-and-exact,adjective,b1,work,correct and exact
+vocabulary,actual,real-not-guessed,adjective,b1,money,real not guessed
+vocabulary,adequate,enough-for-the-purpose,adjective,b1,home,enough for the purpose
+vocabulary,advanced,at-a-high-level,adjective,b1,education,at a high level
+vocabulary,aggressive,ready-to-fight,adjective,b1,animals,ready to fight
+vocabulary,alternative,different-from-the-usual,adjective,b1,travel,different from usual
+vocabulary,ambitious,wanting-to-achieve-a-lot,adjective,b1,work,wanting to achieve a lot
+vocabulary,apparent,easy-to-see-or-understand,adjective,b1,communication,easy to see
+vocabulary,acquire,get-or-obtain-something,verb,b1,shopping,to get or obtain
+vocabulary,aid,help-something-happen,verb,b1,health,help something happen
+vocabulary,appoint,choose-someone-for-a-job,verb,b1,work,choose someone for a job
+vocabulary,attach,join-or-fasten-something,verb,b1,communication,join or fasten
+vocabulary,declare,say-something-officially,verb,b1,communication,say something officially
+vocabulary,boost,increase-or-improve,verb,b1,money;work,increase or improve
+vocabulary,capture,catch-or-record-something,verb,b1,travel,catch or record
+vocabulary,convince,make-someone-believe,verb,b1,communication,make someone believe
+vocabulary,cooperate,work-together,verb,b1,work,work together
+vocabulary,cope,deal-with-a-difficult-situation,verb,b1,emotions,deal with difficulty
+vocabulary,decline,become-less,verb,b1,money,become less
+vocabulary,define,explain-the-meaning,verb,b1,education,explain the meaning
+vocabulary,demonstrate,show-how-something-works,verb,b1,education,show how it works
+vocabulary,determine,decide-or-find-out,verb,b1,work,decide or find out
+vocabulary,differ,be-not-the-same,verb,b1,communication,be different
+vocabulary,direct,guide-or-manage,verb,b1,work,guide or manage
+vocabulary,distinguish,see-the-difference,verb,b1,education,see the difference
+vocabulary,distribute,give-out-to-many,verb,b1,work,give out to many
+vocabulary,dominate,have-the-most-power,verb,b1,sports,have the most power
+vocabulary,emerge,come-out-or-appear,verb,b1,nature,come out or appear
+vocabulary,emphasize,give-special-importance,verb,b1,communication,give special importance
+vocabulary,enable,make-something-possible,verb,b1,technology,make it possible
+vocabulary,encounter,meet-or-face-something,verb,b1,travel,meet or face something
+vocabulary,engage,take-part-or-interest,verb,b1,work,take part or interest
+vocabulary,ensure,make-sure,verb,b1,work,make sure
+vocabulary,establish,start-or-set-up,verb,b1,work,start or set up
+vocabulary,estimate,guess-an-amount,verb,b1,money,guess an amount
+vocabulary,evaluate,judge-the-value,verb,b1,work,judge the value
+vocabulary,examine,look-at-carefully,verb,b1,health,look at carefully
+vocabulary,expand,become-larger,verb,b1,work,become larger
+vocabulary,extend,make-longer-or-larger,verb,b1,home,make longer or larger
+vocabulary,finance,pay-for-something,verb,b1,money,pay for something
+vocabulary,fund,give-money-for-something,verb,b1,money,give money for something
+vocabulary,generate,produce-or-create,verb,b1,technology,produce or create
+vocabulary,govern,rule-or-control,verb,b1,city,rule or control
+vocabulary,identify,recognize-or-name,verb,b1,work,recognize or name
+vocabulary,illustrate,show-with-examples-or-pictures,verb,b1,education,show with examples
+vocabulary,implement,put-a-plan-into-action,verb,b1,work,put a plan into action
+vocabulary,imply,suggest-without-saying,verb,b1,communication,suggest without saying
+vocabulary,indicate,show-or-point-out,verb,b1,communication,show or point out
+vocabulary,improvement,change-that-makes-something-better,noun,b1,work,change for the better
+vocabulary,independence,freedom-from-control,noun,b1,city,freedom from control
+vocabulary,individual,one-single-person,noun,b1,relationships,one single person
+vocabulary,innovation,new-idea-or-method,noun,b1,technology,new idea or method
+vocabulary,insight,clear-understanding,noun,b1,education,clear understanding
+vocabulary,institution,large-organization,noun,b1,city,large organization
+vocabulary,interaction,communication-between-people,noun,b1,communication,communication between people
+vocabulary,interpretation,way-something-is-understood,noun,b1,communication,way it is understood
+vocabulary,involvement,act-of-taking-part,noun,b1,work,taking part
+vocabulary,judgment,ability-to-decide-wisely,noun,b1,work,ability to decide well
+vocabulary,appropriate,right-for-the-situation,adjective,b1,clothes,right for the situation
+vocabulary,approximate,close-but-not-exact,adjective,b1,money,close but not exact
+vocabulary,artificial,made-by-people,adjective,b1,nature,made by people
+vocabulary,attractive,pleasant-to-look-at,adjective,b1,shopping,pleasant to look at
+vocabulary,balanced,with-equal-parts,adjective,b1,health,with equal parts
+vocabulary,biological,relating-to-living-things,adjective,b1,nature,relating to living things
+vocabulary,central,in-the-middle-or-most-important,adjective,b1,city,in the middle or most important
+vocabulary,chemical,relating-to-chemicals,adjective,b1,technology,relating to chemicals
+vocabulary,civil,relating-to-citizens,adjective,b1,city,relating to citizens
+vocabulary,classic,typical-and-well-known,adjective,b1,music,typical and well known
+vocabulary,clinical,relating-to-medical-treatment,adjective,b1,health,relating to treatment
+vocabulary,commercial,relating-to-business,adjective,b1,work;money,relating to business
+vocabulary,competitive,trying-hard-to-win,adjective,b1,sports,trying hard to win
+vocabulary,complicated,hard-to-understand,adjective,b1,technology,hard to understand
+vocabulary,comprehensive,including-everything,adjective,b1,work,including everything
+vocabulary,conscious,awake-and-aware,adjective,b1,health,awake and aware
+vocabulary,considerable,large-in-amount,adjective,b1,money,large in amount
+vocabulary,consistent,always-the-same,adjective,b1,sports,always the same
+vocabulary,constant,happening-all-the-time,adjective,b1,city,happening all the time
+vocabulary,contemporary,modern-or-from-now,adjective,b1,education,modern or current
+vocabulary,continuous,without-a-stop,adjective,b1,weather,without a stop
+vocabulary,conventional,usual-and-traditional,adjective,b1,home,usual and traditional
+vocabulary,creative,good-at-making-new-things,adjective,b1,work,good at making new things
+vocabulary,critical,extremely-important,adjective,b1,health,extremely important
+vocabulary,cultural,relating-to-culture,adjective,b1,city,relating to culture
+vocabulary,democratic,based-on-voting,adjective,b1,city,based on voting
+vocabulary,dependent,needing-someone-or-something,adjective,b1,money,needing something
+vocabulary,detailed,with-many-details,adjective,b1,work,with many details
+vocabulary,distinct,clearly-different,adjective,b1,communication,clearly different
+vocabulary,diverse,with-many-different-kinds,adjective,b1,city;relationships,with many kinds
+vocabulary,domestic,inside-a-country-or-home,adjective,b1,travel,inside a country or home
+vocabulary,dramatic,sudden-and-noticeable,adjective,b1,emotions,sudden and noticeable
+vocabulary,dynamic,full-of-energy-or-change,adjective,b1,city,full of energy
+vocabulary,economic,relating-to-money-and-trade,adjective,b1,money,relating to money and trade
+vocabulary,educational,helping-people-learn,adjective,b1,education,helping people learn
+vocabulary,effective,working-well,adjective,b1,health,working well
+vocabulary,elderly,old,adjective,b1,health,old
+vocabulary,electronic,using-electric-parts,adjective,b1,technology,using electric parts
+vocabulary,emotional,with-strong-feelings,adjective,b1,emotions,with strong feelings
+vocabulary,equal,the-same-in-size-or-value,adjective,b1,money,the same in size
+vocabulary,justice,fair-treatment,noun,b1,city,fair treatment
+vocabulary,labor,hard-work,noun,b1,work,hard work
+vocabulary,leadership,ability-to-lead,noun,b1,work,ability to lead
+vocabulary,legislation,laws-made-by-government,noun,b1,city,laws made by government
+vocabulary,leisure,free-time,noun,b1,daily-routine,free time
+vocabulary,literature,books-and-writing,noun,b1,education,books and writing
+vocabulary,majority,more-than-half,noun,b1,city,more than half
+vocabulary,management,control-of-a-company,noun,b1,work,control of a company
+vocabulary,manufacturing,making-goods-in-factories,noun,b1,work,making goods in factories
+vocabulary,measure,action-to-achieve-something,noun,b1,city,action for a result
+vocabulary,inspire,make-someone-want-to-act,verb,b1,emotions,make someone want to act
+vocabulary,invest,put-money-in-to-gain-more,verb,b1,money,put money in to gain
+vocabulary,involve,include-as-a-part,verb,b1,work,include as a part
+vocabulary,justify,show-something-is-reasonable,verb,b1,communication,show it is reasonable
+vocabulary,modify,change-something-slightly,verb,b1,work,change slightly
+vocabulary,monitor,watch-and-check,verb,b1,health,watch and check
+vocabulary,motivate,make-someone-want-to-act,verb,b1,work,make someone want to act
+vocabulary,obtain,get-something,verb,b1,work,get something
+vocabulary,occur,happen,verb,b1,time,happen
+vocabulary,overcome,deal-with-a-problem-successfully,verb,b1,emotions,deal with a problem
+vocabulary,accurately,in-an-exact-way,adverb,b1,travel,in an exact way
+vocabulary,actively,in-an-energetic-way,adverb,b1,sports,in an energetic way
+vocabulary,additionally,as-an-extra-thing,adverb,b1,shopping,as an extra thing
+vocabulary,adequately,well-enough,adverb,b1,work,well enough
+vocabulary,alternatively,as-another-choice,adverb,b1,travel,as another choice
+vocabulary,annually,every-year,adverb,b1,money,every year
+vocabulary,apparently,as-it-seems,adverb,b1,communication,as it seems
+vocabulary,approximately,about,adverb,b1,time,about not exactly
+vocabulary,automatically,by-itself,adverb,b1,technology,by itself
+vocabulary,basically,in-the-most-important-way,adverb,b1,communication,in the main way
+vocabulary,briefly,for-a-short-time,adverb,b1,communication,for a short time
+vocabulary,carefully,with-attention,adverb,b1,work,with attention
+vocabulary,closely,with-great-attention,adverb,b1,sports,with great attention
+vocabulary,commonly,often,adverb,b1,nature,often or usually
+vocabulary,consequently,as-a-result,adverb,b1,travel,as a result
+vocabulary,considerably,by-a-large-amount,adverb,b1,money,by a large amount
+vocabulary,constantly,all-the-time,adverb,b1,daily-routine,all the time
+vocabulary,continually,again-and-again,adverb,b1,weather,again and again
+vocabulary,currently,now,adverb,b1,work,at the present time
+vocabulary,deeply,very-much,adverb,b1,emotions,very much
+vocabulary,minority,less-than-half,noun,b1,city,less than half
+vocabulary,necessity,something-you-must-have,noun,b1,food,something you must have
+vocabulary,objective,goal-you-want-to-reach,noun,b1,work,goal you want to reach
+vocabulary,observation,act-of-watching-carefully,noun,b1,education,watching carefully
+vocabulary,organization,group-with-a-purpose,noun,b1,work,group with a purpose
+vocabulary,origin,place-something-started,noun,b1,education,where it started
+vocabulary,outcome,result-of-a-process,noun,b1,work,result of a process
+vocabulary,participation,act-of-taking-part,noun,b1,education,taking part
+vocabulary,partnership,working-together-as-partners,noun,b1,work,working together
+vocabulary,performance,how-well-something-works,noun,b1,work,how well it works
+vocabulary,familiar,well-known-to-you,adjective,b1,relationships,well known to you
+vocabulary,financial,relating-to-money,adjective,b1,money,relating to money
+vocabulary,frequent,happening-often,adjective,b1,weather,happening often
+vocabulary,fundamental,basic-and-very-important,adjective,b1,education,basic and important
+vocabulary,genuine,real-and-honest,adjective,b1,emotions,real and honest
+vocabulary,gradual,happening-slowly,adjective,b1,health,happening slowly
+vocabulary,historical,relating-to-the-past,adjective,b1,time,relating to the past
+vocabulary,ideal,perfect-for-a-purpose,adjective,b1,travel,perfect for a purpose
+vocabulary,identical,exactly-the-same,adjective,b1,shopping,exactly the same
+vocabulary,immediate,happening-at-once,adjective,b1,health,happening at once
+vocabulary,participate,take-part,verb,b1,sports,take part
+vocabulary,persuade,make-someone-agree,verb,b1,communication,make someone agree
+vocabulary,predict,say-what-will-happen,verb,b1,weather,say what will happen
+vocabulary,promote,help-something-grow-or-rise,verb,b1,work,help it grow or rise
+vocabulary,purchase,buy-something,verb,b1,shopping,buy something
+vocabulary,pursue,try-to-achieve-something,verb,b1,work,try to achieve
+vocabulary,react,respond-to-something,verb,b1,emotions,respond to something
+vocabulary,refer,mention-or-point-to,verb,b1,communication,mention or point to
+vocabulary,rely,depend-on-someone,verb,b1,daily-routine,depend on someone
+vocabulary,represent,stand-for-something,verb,b1,work,stand for something
