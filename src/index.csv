@@ -4899,3 +4899,253 @@ vocabulary,debug,find-and-fix-program-errors,verb,b1,technology,to find and fix 
 vocabulary,compress,make-a-file-smaller,verb,b1,technology,to make a file smaller in size
 vocabulary,smartphone,phone-that-runs-programs,noun,b1,technology,a mobile phone that runs programs
 vocabulary,gaming,playing-computer-games,noun,b1,sports,the activity of playing computer games
+vocabulary,tuition,money-paid-for-teaching,noun,b1,education,the money you pay for teaching at a college
+vocabulary,undergraduate,student-on-a-first-degree,noun,b1,education,a student studying for a first degree
+vocabulary,campus,grounds-of-a-college,noun,b1,education,the land and buildings of a college
+vocabulary,dormitory,building-where-students-live,noun,b1,education,a building where students live
+vocabulary,lecturer,person-who-teaches-at-a-college,noun,b1,education,a person who teaches at a college
+vocabulary,pupil,child-in-school,noun,b1,education,a child in school
+vocabulary,syllabus,list-of-course-contents,noun,b1,education,a list of what a course will cover
+vocabulary,laboratory,room-for-science-work,noun,b1,education,a room with equipment for science
+vocabulary,internship,period-of-work-experience,noun,b1,work,a period of work to gain experience
+vocabulary,apprenticeship,learning-a-trade-from-a-worker,noun,b1,work,a period of learning a trade from a skilled worker
+vocabulary,revision,studying-again-before-an-exam,noun,b1,education,the act of studying again before an exam
+vocabulary,plagiarism,using-someone-elses-work,noun,b1,education,using someone else's work as your own
+vocabulary,enrollment,joining-a-school-or-course,noun,b1,education,the act of joining a school or course
+vocabulary,graduation,ceremony-at-the-end-of-study,noun,b1,education,the ceremony when students finish a course
+vocabulary,literacy,ability-to-read-and-write,noun,b1,education,the ability to read and write
+vocabulary,numeracy,ability-to-work-with-numbers,noun,b1,education,the ability to work with numbers
+vocabulary,alumni,people-who-finished-a-school,noun,b1,education,people who have finished a school
+vocabulary,dean,head-of-a-college-department,noun,b1,education,the head of a college department
+vocabulary,faculty,all-the-teachers-at-a-college,noun,b1,education,all the teachers at a college
+vocabulary,scholar,person-who-studies-deeply,noun,b1,education,a person who studies a subject deeply
+vocabulary,dissertation,long-writing-for-a-degree,noun,b1,education,a long piece of writing for a degree
+vocabulary,thesis,long-writing-arguing-one-idea,noun,b1,education,a long piece of writing arguing one idea
+vocabulary,coursework,work-done-during-a-course,noun,b1,education,work done during a course rather than exams
+vocabulary,qualification,official-record-of-skills,noun,b1,education,an official record of skills or learning
+vocabulary,seminar,small-class-for-discussion,noun,b1,education,a small class for discussion
+vocabulary,vocational,teaching-skills-for-a-job,adjective,b1,education,teaching skills for a particular job
+vocabulary,theoretical,based-on-ideas-not-practice,adjective,b1,education,based on ideas rather than practice
+vocabulary,optional,not-required,adjective,b1,education,not required
+vocabulary,postgraduate,after-a-first-degree,adjective,b1,education,relating to study after a first degree
+vocabulary,intensive,lots-of-work-in-a-short-time,adjective,b1,education,involving a lot of work in a short time
+vocabulary,scholarly,serious-and-carefully-researched,adjective,b1,education,serious and carefully researched
+vocabulary,eligible,allowed-to-take-part,adjective,b1,education,allowed to take part or apply
+vocabulary,illiterate,unable-to-read-or-write,adjective,b1,education,unable to read or write
+vocabulary,literate,able-to-read-and-write,adjective,b1,education,able to read and write
+vocabulary,diligent,working-carefully-and-steadily,adjective,b1,education,working carefully and steadily
+vocabulary,studious,spending-much-time-studying,adjective,b1,education,spending much time studying
+vocabulary,attentive,watching-and-listening-carefully,adjective,b1,education,watching and listening carefully
+vocabulary,motivated,wanting-strongly-to-succeed,adjective,b1,education,wanting strongly to succeed
+vocabulary,enroll,join-a-course-officially,verb,b1,education,to join a school or course officially
+vocabulary,recite,say-learned-words-aloud,verb,b1,education,to say something learned aloud
+vocabulary,submit,hand-in-work-for-checking,verb,b1,education,to hand in work for checking
+vocabulary,instruct,teach-how-to-do-something,verb,b1,education,to teach someone how to do something
+vocabulary,mentor,advise-someone-less-experienced,verb,b1,work,to advise someone with less experience
+vocabulary,supervise,watch-over-work-being-done,verb,b1,work,to watch over work to make sure it is done well
+vocabulary,brainstorm,produce-many-ideas-quickly,verb,b1,education,to produce many ideas quickly in a group
+vocabulary,analyze,examine-something-in-detail,verb,b1,education,to examine something in detail
+vocabulary,academically,in-relation-to-study,adverb,b1,education,in relation to school or study
+vocabulary,thoroughly,completely-and-carefully,adverb,b1,education,completely and carefully
+vocabulary,successfully,with-the-intended-result,adverb,b1,education,with the intended result
+vocabulary,diligently,with-steady-careful-effort,adverb,b1,education,with steady careful effort
+vocabulary,hem,bottom-edge-of-clothing,noun,b1,clothes,the folded bottom edge of a garment
+vocabulary,seam,line-where-cloth-is-joined,noun,b1,clothes,the line where two pieces of cloth are joined
+vocabulary,linen,light-plant-fiber-cloth,noun,b1,clothes,a light cloth made from a plant fiber
+vocabulary,accessory,extra-item-worn-with-clothes,noun,b1,clothes,something extra worn with clothes
+vocabulary,sandal,open-shoe-for-warm-weather,noun,b1,clothes,a light open shoe for warm weather
+vocabulary,sneaker,soft-shoe-for-sport,noun,b1,clothes,a soft shoe for sport or daily wear
+vocabulary,slipper,soft-shoe-for-indoors,noun,b1,clothes,a soft shoe worn inside the house
+vocabulary,leggings,tight-stretchy-trousers,noun,b1,clothes,tight trousers made of stretchy cloth
+vocabulary,blazer,light-smart-jacket,noun,b1,clothes,a light jacket worn as part of smart dress
+vocabulary,boutique,small-fashion-shop,noun,b1,shopping,a small shop selling fashionable clothes
+vocabulary,designer,person-who-plans-clothes,noun,b1,clothes,a person who plans how clothes look
+vocabulary,texture,way-a-cloth-feels,noun,b1,clothes,the way a surface or cloth feels
+vocabulary,thread,thin-cotton-for-sewing,noun,b1,clothes,a thin line of cotton used for sewing
+vocabulary,needle,thin-tool-for-sewing,noun,b1,clothes,a thin pointed tool used for sewing
+vocabulary,cuff,end-of-a-sleeve,noun,b1,clothes,the end of a sleeve around the wrist
+vocabulary,waistband,strip-around-the-waist,noun,b1,clothes,the strip of cloth around the top of trousers
+vocabulary,lining,layer-inside-a-garment,noun,b1,clothes,a layer of cloth inside a garment
+vocabulary,padding,soft-material-for-shape,noun,b1,clothes,soft material added for shape or protection
+vocabulary,suede,soft-leather-with-a-rough-surface,noun,b1,clothes,soft leather with a rough surface
+vocabulary,velvet,thick-soft-smooth-cloth,noun,b1,clothes,a thick soft cloth with a smooth surface
+vocabulary,corduroy,cloth-with-raised-lines,noun,b1,clothes,a thick cloth with raised lines on it
+vocabulary,tweed,rough-wool-cloth,noun,b1,clothes,a rough wool cloth used for coats
+vocabulary,polyester,strong-artificial-cloth,noun,b1,clothes,a strong artificial cloth
+vocabulary,nylon,strong-light-artificial-cloth,noun,b1,clothes,a strong light artificial cloth
+vocabulary,cashmere,very-soft-goat-wool,noun,b1,clothes,very soft wool from a kind of goat
+vocabulary,felt,thick-pressed-fiber-cloth,noun,b1,clothes,a thick soft cloth made by pressing fibers
+vocabulary,tuxedo,formal-black-suit,noun,b1,clothes,a formal suit for men usually black
+vocabulary,ribbon,narrow-strip-for-tying,noun,b1,clothes,a long narrow strip of cloth used for tying
+vocabulary,buckle,metal-catch-for-a-belt,noun,b1,clothes,a metal catch that joins the ends of a belt
+vocabulary,strap,narrow-strip-that-holds-something,noun,b1,clothes,a narrow strip that holds something in place
+vocabulary,baggy,loose-and-hanging,adjective,b1,clothes,loose and hanging in folds
+vocabulary,patterned,covered-with-a-design,adjective,b1,clothes,covered with a repeated design
+vocabulary,elegant,simple-and-graceful,adjective,b1,clothes,attractive in a simple graceful way
+vocabulary,casual,relaxed-and-not-formal,adjective,b1,clothes,relaxed and not formal
+vocabulary,trendy,following-the-newest-fashion,adjective,b1,clothes,following the newest fashion
+vocabulary,vintage,old-but-fashionable,adjective,b1,clothes,old but valuable or fashionable
+vocabulary,wrinkled,with-lines-and-folds,adjective,b1,clothes,with lines and folds in the cloth
+vocabulary,ironed,made-smooth-with-heat,adjective,b1,clothes,made smooth with a hot tool
+vocabulary,oversized,bigger-than-the-usual-size,adjective,b1,clothes,bigger than the usual size
+vocabulary,sleeveless,without-sleeves,adjective,b1,clothes,without sleeves
+vocabulary,waterproof,not-letting-water-through,adjective,b1,clothes,not letting water through
+vocabulary,stylish,attractive-and-well-designed,adjective,b1,clothes,attractive and well designed
+vocabulary,fashionable,popular-in-the-newest-style,adjective,b1,clothes,popular in the newest style
+vocabulary,tailor,adjust-clothes-to-fit,verb,b1,clothes,to adjust clothes to fit one person
+vocabulary,crochet,make-cloth-with-a-hook,verb,b1,clothes,to make cloth with a hooked needle and thread
+vocabulary,embroider,decorate-cloth-with-stitches,verb,b1,clothes,to decorate cloth with stitched patterns
+vocabulary,bleach,remove-color-with-chemicals,verb,b1,clothes,to remove color with a chemical
+vocabulary,patch,cover-a-hole-with-cloth,verb,b1,clothes,to cover a hole with a piece of cloth
+vocabulary,pin,fasten-with-a-small-sharp-object,verb,b1,clothes,to fasten with a small sharp object
+vocabulary,elegantly,in-an-attractive-graceful-way,adverb,b1,clothes,in an attractive graceful way
+vocabulary,goalkeeper,player-who-stops-the-ball,noun,b1,sports,the player who stops the ball entering the goal
+vocabulary,spectator,person-who-watches-an-event,noun,b1,sports,a person who watches an event
+vocabulary,opponent,person-you-play-against,noun,b1,sports,the person or team you play against
+vocabulary,marathon,long-distance-running-race,noun,b1,sports,a running race of about forty-two kilometers
+vocabulary,archery,sport-of-shooting-arrows,noun,b1,sports,the sport of shooting arrows at a target
+vocabulary,wrestling,sport-of-holding-an-opponent-down,noun,b1,sports,a sport in which people try to hold each other down
+vocabulary,rugby,game-with-an-oval-ball,noun,b1,sports,a game played with an oval ball and hard contact
+vocabulary,hockey,game-with-sticks-and-a-ball,noun,b1,sports,a game played with sticks and a small ball
+vocabulary,skiing,sport-of-moving-on-snow,noun,b1,sports,the sport of moving over snow on long boards
+vocabulary,surfing,sport-of-riding-waves,noun,b1,sports,the sport of riding waves on a board
+vocabulary,hiking,walking-long-distances-outdoors,noun,b1,sports,the activity of walking long distances outdoors
+vocabulary,endurance,ability-to-keep-going,noun,b1,sports,the ability to keep going for a long time
+vocabulary,strength,quality-of-being-strong,noun,b1,sports,the quality of being physically strong
+vocabulary,agility,ability-to-move-quickly,noun,b1,sports,the ability to move quickly and easily
+vocabulary,tactics,plans-used-to-win,noun,b1,sports,plans used to win a game or contest
+vocabulary,penalty,punishment-for-a-rule-break,noun,b1,sports,a punishment given for breaking a rule
+vocabulary,victory,act-of-winning,noun,b1,sports,the act of winning
+vocabulary,jersey,shirt-worn-by-a-player,noun,b1,sports,a shirt worn by a sports player
+vocabulary,trainer,person-who-prepares-athletes,noun,b1,sports,a person who prepares athletes
+vocabulary,athletics,running-jumping-and-throwing-sports,noun,b1,sports,sports such as running jumping and throwing
+vocabulary,relay,race-with-turns-between-teammates,noun,b1,sports,a race in which teammates take turns
+vocabulary,lap,one-circuit-of-a-track,noun,b1,sports,one complete circuit of a track or pool
+vocabulary,pitch,field-for-football-or-hockey,noun,b1,sports,the field where football or hockey is played
+vocabulary,teammate,person-on-the-same-team,noun,b1,sports,a person on the same team
+vocabulary,underdog,competitor-expected-to-lose,noun,b1,sports,the competitor expected to lose
+vocabulary,comeback,return-to-success,noun,b1,sports,a return to success after a bad period
+vocabulary,rivalry,strong-competition-between-sides,noun,b1,sports,strong competition between two sides
+vocabulary,stamina,strength-to-keep-going,noun,b1,sports,the strength to keep going for a long time
+vocabulary,flexibility,ability-to-bend-safely,noun,b1,sports,the ability to bend without injury
+vocabulary,posture,way-you-hold-your-body,noun,b1,sports,the way you hold your body
+vocabulary,reflex,fast-automatic-body-movement,noun,b1,sports,a fast automatic movement of the body
+vocabulary,hydration,having-enough-water-in-the-body,noun,b1,sports,the state of having enough water in the body
+vocabulary,linesman,official-who-watches-the-lines,noun,b1,sports,an official who watches the lines of a field
+vocabulary,pilates,exercise-system-for-strength-and-posture,noun,b1,sports,a system of exercises for strength and posture
+vocabulary,sporty,liking-or-good-at-sport,adjective,b1,sports,liking or good at sport
+vocabulary,agile,able-to-move-quickly-and-easily,adjective,b1,sports,able to move quickly and easily
+vocabulary,exhausted,extremely-tired,adjective,b1,sports,extremely tired
+vocabulary,undefeated,having-never-lost,adjective,b1,sports,having never lost a game
+vocabulary,dominant,stronger-and-more-successful,adjective,b1,sports,stronger and more successful than others
+vocabulary,amateur,playing-without-payment,adjective,b1,sports,doing a sport without payment
+vocabulary,dribble,move-a-ball-with-small-touches,verb,b1,sports,to move a ball forward with small touches
+vocabulary,tackle,stop-an-opponent,verb,b1,sports,to stop an opponent by taking the ball
+vocabulary,volley,hit-the-ball-before-it-bounces,verb,b1,sports,to hit the ball before it touches the ground
+vocabulary,swing,move-a-bat-in-a-wide-arc,verb,b1,sports,to move a bat or club in a wide arc
+vocabulary,substitute,replace-one-player-with-another,verb,b1,sports,to replace one player with another
+vocabulary,forfeit,lose-a-game-by-not-playing,verb,b1,sports,to lose a game by not playing
+vocabulary,row,move-a-boat-with-long-oars,verb,b1,sports,to move a boat with long oars
+vocabulary,paddle,move-a-small-boat-with-a-short-oar,verb,b1,sports,to move a small boat with a short oar
+vocabulary,wrestle,fight-by-holding-an-opponent,verb,b1,sports,to fight by holding and pushing an opponent
+vocabulary,umpire,judge-the-play-in-a-game,verb,b1,sports,to judge the play in a game
+vocabulary,chord,notes-played-together,noun,b2,music,several musical notes played together
+vocabulary,soprano,highest-female-singing-voice,noun,b2,music,the highest female singing voice
+vocabulary,rehearsal,practice-before-a-performance,noun,b2,music,a practice session before a performance
+vocabulary,composer,person-who-writes-music,noun,b2,music,a person who writes music
+vocabulary,conductor,person-who-directs-an-orchestra,noun,b2,music,a person who directs an orchestra
+vocabulary,vocalist,singer-in-a-band,noun,b2,music,a singer especially in a band
+vocabulary,vinyl,plastic-music-record,noun,b2,music,a plastic record used for music
+vocabulary,soundtrack,music-from-a-film,noun,b2,music,the music from a film
+vocabulary,jingle,short-advertising-tune,noun,b2,music,a short tune used in advertising
+vocabulary,anthem,official-song-for-a-group,noun,b2,music,an official song for a country or group
+vocabulary,ballad,slow-story-song,noun,b2,music,a slow song that tells a story
+vocabulary,blues,slow-sad-southern-music,noun,b2,music,a style of slow sad music from the southern US
+vocabulary,folk,traditional-music-of-ordinary-people,noun,b2,music,traditional music of ordinary people
+vocabulary,symphony,long-piece-for-orchestra,noun,b2,music,a long piece of music for an orchestra
+vocabulary,quartet,group-of-four-musicians,noun,b2,music,a group of four musicians
+vocabulary,solo,piece-for-one-musician,noun,b2,music,a piece performed by one musician
+vocabulary,accompaniment,music-supporting-a-performer,noun,b2,music,music played to support a main performer
+vocabulary,audition,short-performance-to-get-a-role,noun,b2,music,a short performance to get a role
+vocabulary,lyricist,person-who-writes-song-words,noun,b2,music,a person who writes the words of songs
+vocabulary,octave,range-of-eight-notes,noun,b2,music,a range of eight notes in music
+vocabulary,percussion,drums-and-things-you-hit,noun,b2,music,drums and other instruments you hit
+vocabulary,violinist,person-who-plays-the-violin,noun,b2,music,a person who plays the violin
+vocabulary,cellist,person-who-plays-the-cello,noun,b2,music,a person who plays the cello
+vocabulary,saxophonist,person-who-plays-the-saxophone,noun,b2,music,a person who plays the saxophone
+vocabulary,flutist,person-who-plays-the-flute,noun,b2,music,a person who plays the flute
+vocabulary,trumpeter,person-who-plays-the-trumpet,noun,b2,music,a person who plays the trumpet
+vocabulary,bassist,person-who-plays-the-bass,noun,b2,music,a person who plays the bass
+vocabulary,genre,type-of-music-or-art,noun,b2,music,a type of music or art
+vocabulary,riff,short-repeated-musical-phrase,noun,b2,music,a short repeated musical phrase
+vocabulary,groove,strong-enjoyable-rhythm,noun,b2,music,a strong enjoyable rhythm
+vocabulary,cadence,rhythm-of-a-series-of-sounds,noun,b2,music,the rhythm of a series of sounds
+vocabulary,setlist,list-of-songs-to-play,noun,b2,music,the list of songs a band will play
+vocabulary,soundcheck,test-of-sound-equipment,noun,b2,music,a test of sound equipment before a show
+vocabulary,mixing,combining-recorded-sounds,noun,b2,music,combining recorded sounds into one track
+vocabulary,mastering,final-preparation-of-a-recording,noun,b2,music,the final preparation of a recording
+vocabulary,rhythmic,having-a-strong-regular-beat,adjective,b2,music,having a strong regular beat
+vocabulary,melodic,pleasant-with-a-clear-tune,adjective,b2,music,having a pleasant tune
+vocabulary,tuneful,pleasant-because-it-has-a-tune,adjective,b2,music,pleasant because it has a clear tune
+vocabulary,instrumental,with-no-singing,adjective,b2,music,with no singing
+vocabulary,vocal,relating-to-the-voice,adjective,b2,music,relating to the voice
+vocabulary,harmonic,relating-to-combined-notes,adjective,b2,music,relating to combined musical notes
+vocabulary,mellow,soft-smooth-and-relaxed,adjective,b2,music,soft smooth and relaxed
+vocabulary,upbeat,cheerful-and-fast,adjective,b2,music,cheerful and fast
+vocabulary,improvise,play-without-preparation,verb,b2,music,to play or speak without preparation
+vocabulary,strum,play-strings-with-a-light-sweep,verb,b2,music,to play strings with a light sweeping movement
+vocabulary,pluck,pull-and-release-a-string,verb,b2,music,to pull and release a string
+vocabulary,amplify,make-a-sound-louder,verb,b2,music,to make a sound louder
+vocabulary,harmonize,sing-notes-that-blend,verb,b2,music,to sing or play notes that blend
+vocabulary,compose,write-music,verb,b2,music,to write music
+vocabulary,musically,in-relation-to-music,adverb,b2,music,in relation to music
+vocabulary,interval,time-between-two-events,noun,b2,time,a period of time between two events
+vocabulary,duration,length-of-time-something-lasts,noun,b2,time,the length of time something lasts
+vocabulary,timeline,plan-of-when-things-happen,noun,b2,time,a plan of when things will happen
+vocabulary,stopwatch,watch-for-short-periods,noun,b2,time,a watch used for measuring short periods
+vocabulary,punctuality,habit-of-being-on-time,noun,b2,time,the habit of being on time
+vocabulary,meantime,period-between-two-events,noun,b2,time,the period between two events
+vocabulary,interim,time-between-two-stages,noun,b2,time,the period between two stages
+vocabulary,span,length-of-time-covered,noun,b2,time,the length of time something covers
+vocabulary,ritual,actions-always-done-the-same-way,noun,b2,time,a set of actions always done in the same way
+vocabulary,sequence,things-in-a-particular-order,noun,b2,time,a set of things in a particular order
+vocabulary,frequency,how-often-something-happens,noun,b2,time,how often something happens
+vocabulary,lag,delay-between-two-events,noun,b2,time,a delay between two events
+vocabulary,pace,speed-at-which-something-happens,noun,b2,time,the speed at which something happens
+vocabulary,urgency,need-to-act-quickly,noun,b2,time,the need to act quickly
+vocabulary,haste,great-speed-often-too-much,noun,b2,time,great speed often more than is wise
+vocabulary,countdown,counting-time-before-an-event,noun,b2,time,the counting of time before an event
+vocabulary,timeframe,period-within-which-something-happens,noun,b2,time,the period within which something happens
+vocabulary,millennium,period-of-a-thousand-years,noun,b2,time,a period of a thousand years
+vocabulary,milestone,important-stage-in-progress,noun,b2,time,an important stage in progress
+vocabulary,timezone,region-with-the-same-clock-time,noun,b2,time,a region with the same clock time
+vocabulary,offset,difference-in-time-or-position,noun,b2,time,a difference in time or position
+vocabulary,punctual,arriving-at-the-agreed-time,adjective,b2,time,arriving at the agreed time
+vocabulary,overdue,later-than-expected,adjective,b2,time,later than expected
+vocabulary,timely,happening-at-a-good-moment,adjective,b2,time,happening at a good moment
+vocabulary,simultaneous,happening-at-the-same-time,adjective,b2,time,happening at the same time
+vocabulary,hourly,happening-every-hour,adjective,b2,time,happening every hour
+vocabulary,nightly,happening-every-night,adjective,b2,time,happening every night
+vocabulary,seasonal,happening-in-a-particular-season,adjective,b2,time,happening in a particular season
+vocabulary,quarterly,happening-four-times-a-year,adjective,b2,time,happening four times a year
+vocabulary,lengthy,lasting-a-long-time,adjective,b2,time,lasting or taking a long time
+vocabulary,prolonged,lasting-longer-than-usual,adjective,b2,time,lasting longer than usual
+vocabulary,endless,seeming-to-have-no-end,adjective,b2,time,seeming to have no end
+vocabulary,eternal,lasting-forever,adjective,b2,time,lasting forever
+vocabulary,fleeting,lasting-a-very-short-time,adjective,b2,time,lasting only a very short time
+vocabulary,linger,stay-longer-than-expected,verb,b2,time,to stay longer than expected
+vocabulary,expire,reach-the-end-of-a-valid-period,verb,b2,time,to reach the end of a valid period
+vocabulary,await,wait-for-something,verb,b2,time,to wait for something
+vocabulary,hasten,make-something-happen-sooner,verb,b2,time,to make something happen sooner
+vocabulary,lengthen,make-something-last-longer,verb,b2,time,to make something last longer
+vocabulary,shorten,make-something-last-less,verb,b2,time,to make something last less time
+vocabulary,promptly,immediately-and-without-delay,adverb,b2,time,immediately and without delay
+vocabulary,formerly,in-an-earlier-period,adverb,b2,time,in an earlier period
+vocabulary,seldom,not-often,adverb,b2,time,not often
+vocabulary,whenever,at-any-time-that,adverb,b2,time,at any time that
+vocabulary,nowadays,in-the-present-time,adverb,b2,time,in the present time
+vocabulary,afterward,at-a-later-time,adverb,b2,time,at a later time
+vocabulary,punctually,at-the-exact-agreed-time,adverb,b2,time,at the exact agreed time
+vocabulary,simultaneously,at-the-same-time,adverb,b2,time,at the same time
+vocabulary,seasonally,at-particular-times-of-the-year,adverb,b2,time,at particular times of the year
+vocabulary,temporarily,for-a-limited-time,adverb,b2,time,for a limited time
