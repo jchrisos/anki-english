@@ -5899,3 +5899,253 @@ vocabulary,aquatic,living-or-growing-in-water,adjective,b2,animals,living or gro
 vocabulary,terrestrial,living-or-growing-on-land,adjective,b2,animals,living or growing on land
 vocabulary,carnivorous,eating-meat,adjective,b2,animals,eating meat
 vocabulary,herbivorous,eating-only-plants,adjective,b2,animals,eating only plants
+vocabulary,tendon,cord-joining-muscle-to-bone,noun,b2,body,a strong cord that joins muscle to bone
+vocabulary,ligament,band-holding-bones-together,noun,b2,body,a strong band that holds bones together
+vocabulary,cartilage,soft-tissue-cushioning-joints,noun,b2,body,soft firm tissue that cushions joints
+vocabulary,marrow,soft-tissue-inside-bones,noun,b2,body,the soft tissue inside bones
+vocabulary,artery,tube-carrying-blood-from-the-heart,noun,b2,body,a tube that carries blood away from the heart
+vocabulary,capillary,very-thin-blood-vessel,noun,b2,body,a very thin blood vessel
+vocabulary,gland,organ-that-produces-a-substance,noun,b2,body,an organ that produces a substance the body needs
+vocabulary,hormone,chemical-that-controls-body-processes,noun,b2,body,a chemical the body uses to control processes
+vocabulary,follicle,small-sac-where-hair-grows,noun,b2,body,a small sac in the skin where hair grows
+vocabulary,pore,very-small-opening-in-the-skin,noun,b2,body,a very small opening in the skin
+vocabulary,wrinkle,small-line-on-the-skin,noun,b2,body,a small line on the skin
+vocabulary,freckle,small-brown-spot-on-the-skin,noun,b2,body,a small brown spot on the skin
+vocabulary,mole,small-dark-mark-on-the-skin,noun,b2,body,a small dark mark on the skin
+vocabulary,dimple,small-hollow-in-a-cheek,noun,b2,body,a small hollow in a cheek
+vocabulary,nostril,opening-of-the-nose,noun,b2,body,one of the two openings of the nose
+vocabulary,gum,flesh-around-the-teeth,noun,b2,body,the firm flesh around the teeth
+vocabulary,palate,top-of-the-inside-of-the-mouth,noun,b2,body,the top of the inside of the mouth
+vocabulary,tonsil,small-organ-at-the-back-of-the-throat,noun,b2,body,one of two small organs at the back of the throat
+vocabulary,larynx,organ-that-produces-the-voice,noun,b2,body,the organ in the throat that produces the voice
+vocabulary,rib,curved-bone-around-the-chest,noun,b2,body,one of the curved bones around the chest
+vocabulary,vertebra,one-bone-of-the-spine,noun,b2,body,one of the bones of the spine
+vocabulary,pelvis,ring-of-bones-at-the-base-of-the-spine,noun,b2,body,the ring of bones at the base of the spine
+vocabulary,spleen,organ-that-filters-the-blood,noun,b2,body,an organ that filters the blood
+vocabulary,pancreas,organ-that-produces-insulin,noun,b2,body,an organ that produces insulin
+vocabulary,intestine,long-tube-where-food-is-digested,noun,b2,body,the long tube where food is digested
+vocabulary,bladder,organ-that-holds-urine,noun,b2,body,the organ that holds urine
+vocabulary,thyroid,gland-in-the-neck,noun,b2,body,a gland in the neck that controls growth
+vocabulary,eyelid,flap-of-skin-over-the-eye,noun,b2,body,the flap of skin that covers the eye
+vocabulary,retina,layer-at-the-back-of-the-eye,noun,b2,body,the layer at the back of the eye that senses light
+vocabulary,iris,colored-ring-around-the-pupil,noun,b2,body,the colored ring around the pupil
+vocabulary,cornea,clear-front-of-the-eye,noun,b2,body,the clear front surface of the eye
+vocabulary,forearm,arm-between-elbow-and-wrist,noun,b2,body,the part of the arm between elbow and wrist
+vocabulary,bicep,muscle-at-the-front-of-the-upper-arm,noun,b2,body,the large muscle at the front of the upper arm
+vocabulary,shin,front-of-the-leg-below-the-knee,noun,b2,body,the front of the leg below the knee
+vocabulary,sole,bottom-surface-of-the-foot,noun,b2,body,the bottom surface of the foot
+vocabulary,arch,curved-part-of-the-foot,noun,b2,body,the curved part of the foot
+vocabulary,abdomen,body-part-below-the-chest,noun,b2,body,the part of the body below the chest
+vocabulary,torso,main-part-of-the-body,noun,b2,body,the main part of the body without head or limbs
+vocabulary,navel,small-hollow-in-the-belly,noun,b2,body,the small hollow in the middle of the belly
+vocabulary,saliva,liquid-in-the-mouth,noun,b2,body,the liquid in the mouth that helps digestion
+vocabulary,mucus,wet-substance-from-nose-and-throat,noun,b2,body,the wet substance produced in the nose and throat
+vocabulary,plasma,clear-liquid-part-of-blood,noun,b2,body,the clear liquid part of blood
+vocabulary,platelet,cell-fragment-that-helps-blood-clot,noun,b2,body,a small cell fragment that helps blood clot
+vocabulary,metabolism,chemical-processes-of-the-body,noun,b2,body,the chemical processes that keep the body alive
+vocabulary,glandular,relating-to-glands,adjective,b2,body,relating to glands
+vocabulary,skeletal,relating-to-the-skeleton,adjective,b2,body,relating to the skeleton
+vocabulary,spinal,relating-to-the-spine,adjective,b2,body,relating to the spine
+vocabulary,digestive,relating-to-digesting-food,adjective,b2,body,relating to digesting food
+vocabulary,respiratory,relating-to-breathing,adjective,b2,body,relating to breathing
+vocabulary,circulatory,relating-to-the-flow-of-blood,adjective,b2,body,relating to the flow of blood
+vocabulary,antibiotic,medicine-that-kills-bacteria,noun,b2,health,a medicine that kills bacteria
+vocabulary,antiseptic,liquid-that-kills-germs-on-skin,noun,b2,health,a liquid that kills germs on the skin
+vocabulary,sedative,medicine-that-calms-or-sleeps,noun,b2,health,a medicine that makes you calm or sleepy
+vocabulary,placebo,harmless-treatment-given-for-comparison,noun,b2,health,a harmless treatment used in tests
+vocabulary,vaccination,act-of-giving-a-vaccine,noun,b2,health,the act of giving a vaccine
+vocabulary,immunization,process-of-making-someone-immune,noun,b2,health,the process of making someone immune
+vocabulary,transplant,operation-moving-an-organ,noun,b2,health,an operation that moves an organ to another body
+vocabulary,donor,person-who-gives-blood-or-an-organ,noun,b2,health,a person who gives blood or an organ
+vocabulary,transfusion,transfer-of-blood-into-a-patient,noun,b2,health,the transfer of blood into a patient
+vocabulary,rehabilitation,recovering-strength-after-illness,noun,b2,health,the process of recovering after illness
+vocabulary,physiotherapy,treatment-using-movement,noun,b2,health,treatment using movement and exercise
+vocabulary,psychiatry,medical-study-of-mental-illness,noun,b2,health,the medical study of mental illness
+vocabulary,psychologist,specialist-in-the-mind,noun,b2,health,a specialist in the mind and behavior
+vocabulary,epidemic,fast-spread-of-disease-in-one-area,noun,b2,health,a fast spread of disease in one area
+vocabulary,pandemic,disease-spreading-across-countries,noun,b2,health,a disease spreading across many countries
+vocabulary,outbreak,sudden-start-of-disease,noun,b2,health,a sudden start of disease or violence
+vocabulary,quarantine,separation-to-stop-disease,noun,b2,health,a period of separation to stop disease
+vocabulary,syndrome,set-of-symptoms-together,noun,b2,health,a set of symptoms that occur together
+vocabulary,disorder,illness-affecting-body-function,noun,b2,health,an illness that affects how the body works
+vocabulary,complication,problem-that-makes-illness-worse,noun,b2,health,a problem that makes an illness worse
+vocabulary,relapse,return-of-illness-after-improvement,noun,b2,health,a return of an illness after improvement
+vocabulary,screening,tests-to-find-disease-early,noun,b2,health,tests to find disease early
+vocabulary,biopsy,removal-of-tissue-for-testing,noun,b2,health,the removal of tissue for testing
+vocabulary,ultrasound,scan-using-sound-waves,noun,b2,health,a scan using sound waves
+vocabulary,overdose,too-much-of-a-drug-at-once,noun,b2,health,too much of a drug at one time
+vocabulary,ointment,soft-cream-put-on-the-skin,noun,b2,health,a soft cream put on the skin
+vocabulary,sling,cloth-that-supports-an-injured-arm,noun,b2,health,a cloth that supports an injured arm
+vocabulary,inflammation,painful-swelling-in-the-body,noun,b2,health,painful swelling in part of the body
+vocabulary,ulcer,painful-open-sore-inside-the-body,noun,b2,health,a painful open sore inside the body
+vocabulary,tumor,unusual-growth-of-cells,noun,b2,health,an unusual growth of cells
+vocabulary,cyst,small-fluid-filled-lump,noun,b2,health,a small fluid-filled lump
+vocabulary,lump,hard-swelling-under-the-skin,noun,b2,health,a hard swelling under the skin
+vocabulary,stroke,sudden-loss-of-brain-function,noun,b2,health,a sudden loss of brain function from blocked blood
+vocabulary,seizure,sudden-attack-of-body-movement,noun,b2,health,a sudden attack of uncontrolled body movement
+vocabulary,coma,deep-state-of-unconsciousness,noun,b2,health,a deep state of unconsciousness
+vocabulary,paralysis,loss-of-ability-to-move,noun,b2,health,the loss of ability to move part of the body
+vocabulary,dementia,condition-damaging-memory,noun,b2,health,a condition that damages memory and thinking
+vocabulary,arthritis,painful-swelling-in-the-joints,noun,b2,health,painful swelling in the joints
+vocabulary,capsule,small-container-of-medicine,noun,b2,health,a small container of medicine you swallow
+vocabulary,syringe,tube-with-a-needle,noun,b2,health,a tube with a needle for injections
+vocabulary,stethoscope,tool-for-listening-to-the-body,noun,b2,health,a tool a doctor uses to listen to the body
+vocabulary,wheelchair,chair-with-wheels,noun,b2,health,a chair with wheels for someone who cannot walk
+vocabulary,dosage,amount-and-frequency-of-medicine,noun,b2,health,the amount and frequency of a medicine
+vocabulary,benign,not-dangerous-or-cancerous,adjective,b2,health,not dangerous or cancerous
+vocabulary,malignant,cancerous-and-likely-to-spread,adjective,b2,health,cancerous and likely to spread
+vocabulary,vaccinate,give-someone-a-vaccine,verb,b2,health,to give someone a vaccine
+vocabulary,immunize,protect-someone-from-a-disease,verb,b2,health,to protect someone from a disease
+vocabulary,hospitalize,take-someone-into-hospital,verb,b2,health,to take someone into hospital for care
+vocabulary,recuperate,rest-and-become-healthy,verb,b2,health,to rest and become healthy again
+vocabulary,administer,give-medicine-or-treatment,verb,b2,health,to give medicine or treatment
+vocabulary,fury,very-strong-anger,noun,b2,emotions,very strong anger
+vocabulary,rage,violent-uncontrolled-anger,noun,b2,emotions,violent uncontrolled anger
+vocabulary,horror,strong-fear-and-shock,noun,b2,emotions,a strong feeling of fear and shock
+vocabulary,terror,extreme-fear,noun,b2,emotions,extreme fear
+vocabulary,tenderness,gentle-kindness-and-care,noun,b2,emotions,gentle kindness and care
+vocabulary,eagerness,strong-wish-to-start-soon,noun,b2,emotions,a strong wish to do something soon
+vocabulary,calmness,state-of-being-quiet-and-relaxed,noun,b2,emotions,a state of being quiet and relaxed
+vocabulary,irritation,feeling-of-slight-anger,noun,b2,emotions,a feeling of slight anger
+vocabulary,annoyance,feeling-of-being-slightly-angry,noun,b2,emotions,a feeling of being slightly angry
+vocabulary,humiliation,feeling-of-being-made-foolish,noun,b2,emotions,the feeling of being made to look foolish
+vocabulary,contempt,feeling-someone-deserves-no-respect,noun,b2,emotions,a feeling that someone deserves no respect
+vocabulary,devotion,deep-love-and-loyalty,noun,b2,emotions,deep love and loyalty
+vocabulary,despair,feeling-that-there-is-no-hope,noun,b2,emotions,the feeling that there is no hope
+vocabulary,anguish,very-strong-pain-of-mind,noun,b2,emotions,very strong pain of mind or body
+vocabulary,agony,extreme-pain,noun,b2,emotions,extreme pain
+vocabulary,ecstasy,feeling-of-great-happiness,noun,b2,emotions,a feeling of great happiness
+vocabulary,elation,feeling-of-great-joy,noun,b2,emotions,a feeling of great joy and excitement
+vocabulary,contentment,quiet-happiness-with-what-you-have,noun,b2,emotions,quiet happiness with what you have
+vocabulary,apprehension,slight-fear-about-something-coming,noun,b2,emotions,a slight fear about something coming
+vocabulary,trepidation,nervous-worry-about-a-task,noun,b2,emotions,nervous worry about something you must do
+vocabulary,yearning,strong-wish-for-something,noun,b2,emotions,a strong wish for something
+vocabulary,melancholy,sad-thoughtful-feeling,noun,b2,emotions,a sad thoughtful feeling
+vocabulary,gloom,feeling-of-sadness-and-low-hope,noun,b2,emotions,a feeling of sadness and low hope
+vocabulary,woe,great-sadness-and-trouble,noun,b2,emotions,great sadness and trouble
+vocabulary,amazement,great-surprise,noun,b2,emotions,great surprise
+vocabulary,astonishment,very-great-surprise,noun,b2,emotions,very great surprise
+vocabulary,warmth,kind-friendly-feeling,noun,b2,emotions,a kind friendly feeling
+vocabulary,hatred,very-strong-dislike,noun,b2,emotions,a very strong dislike
+vocabulary,hostility,unfriendly-angry-behavior,noun,b2,emotions,unfriendly angry behavior
+vocabulary,spite,wish-to-hurt-someone-from-anger,noun,b2,emotions,a wish to hurt someone because of anger
+vocabulary,malice,wish-to-harm-someone,noun,b2,emotions,a wish to harm someone
+vocabulary,craving,strong-desire-for-something,noun,b2,emotions,a strong desire for something
+vocabulary,temptation,wish-to-do-what-you-should-not,noun,b2,emotions,a strong wish to do something you should not
+vocabulary,dismay,worry-at-bad-news,noun,b2,emotions,worry and disappointment at bad news
+vocabulary,shock,sudden-feeling-after-bad-news,noun,b2,emotions,a sudden strong feeling after bad news
+vocabulary,restlessness,inability-to-stay-still,noun,b2,emotions,the state of being unable to stay still
+vocabulary,cheerfulness,quality-of-being-happy,noun,b2,emotions,the quality of being happy and positive
+vocabulary,inspiration,sudden-good-idea-or-motivation,noun,b2,emotions,a sudden good idea or strong motivation
+vocabulary,ecstatic,extremely-happy,adjective,b2,emotions,extremely happy
+vocabulary,elated,very-happy-and-excited,adjective,b2,emotions,very happy and excited
+vocabulary,anguished,showing-great-pain,adjective,b2,emotions,showing very great pain
+vocabulary,resentful,angry-about-unfair-treatment,adjective,b2,emotions,feeling angry about unfair treatment
+vocabulary,envious,wanting-what-someone-else-has,adjective,b2,emotions,wanting what someone else has
+vocabulary,thankful,feeling-grateful,adjective,b2,emotions,feeling grateful
+vocabulary,enrage,make-someone-very-angry,verb,b2,emotions,to make someone very angry
+vocabulary,terrify,make-someone-very-afraid,verb,b2,emotions,to make someone very afraid
+vocabulary,horrify,shock-someone-very-much,verb,b2,emotions,to shock someone very much
+vocabulary,humiliate,make-someone-ashamed-in-public,verb,b2,emotions,to make someone feel ashamed in public
+vocabulary,despise,dislike-very-strongly,verb,b2,emotions,to dislike someone or something very strongly
+vocabulary,adore,love-someone-very-much,verb,b2,emotions,to love someone very much
+vocabulary,kinship,relationship-between-family-members,noun,c1,relationships,the relationship between members of a family
+vocabulary,bonding,forming-a-close-relationship,noun,c1,relationships,the process of forming a close relationship
+vocabulary,camaraderie,friendly-trust-in-a-group,noun,c1,relationships,friendly trust between people who spend time together
+vocabulary,intimacy,close-private-relationship,noun,c1,relationships,a close private relationship
+vocabulary,closeness,state-of-being-emotionally-near,noun,c1,relationships,the state of being emotionally near
+vocabulary,solidarity,support-and-unity-among-people,noun,c1,relationships,support and unity among people with the same aims
+vocabulary,fraternity,feeling-of-friendship-between-people,noun,c1,relationships,a feeling of friendship between people
+vocabulary,estrangement,state-of-no-longer-being-close,noun,c1,relationships,the state of no longer being close
+vocabulary,alienation,feeling-separate-from-others,noun,c1,relationships,the feeling of being separate from others
+vocabulary,reconciliation,ending-of-a-disagreement,noun,c1,relationships,the ending of a disagreement
+vocabulary,feud,long-angry-disagreement,noun,c1,relationships,a long angry disagreement between people
+vocabulary,fidelity,loyalty-to-a-partner,noun,c1,relationships,loyalty to a partner
+vocabulary,infidelity,act-of-being-unfaithful,noun,c1,relationships,the act of being unfaithful to a partner
+vocabulary,guardianship,legal-responsibility-for-a-child,noun,c1,relationships,the legal responsibility for a child
+vocabulary,orphanage,home-for-children-without-parents,noun,c1,relationships,a home for children without parents
+vocabulary,bereavement,loss-of-a-close-person,noun,c1,relationships,the loss of a close person through death
+vocabulary,ancestry,family-line-a-person-comes-from,noun,c1,relationships,the family line a person comes from
+vocabulary,lineage,line-of-people-someone-descends-from,noun,c1,relationships,the line of people from whom someone descends
+vocabulary,heritage,traditions-passed-down,noun,c1,relationships,traditions and culture passed down from the past
+vocabulary,legacy,something-important-left-behind,noun,c1,relationships,something important left by a person or event
+vocabulary,flirtation,playful-romantic-behavior,noun,c1,relationships,playful romantic behavior without serious intent
+vocabulary,seduction,act-of-persuading-into-a-relationship,noun,c1,relationships,the act of persuading someone into a relationship
+vocabulary,dependency,state-of-needing-someone,noun,c1,relationships,the state of needing someone or something
+vocabulary,distrust,lack-of-trust,noun,c1,relationships,a lack of trust
+vocabulary,suspicion,feeling-that-something-is-wrong,noun,c1,relationships,a feeling that something is wrong
+vocabulary,allegiance,loyalty-to-a-person-or-group,noun,c1,relationships,loyalty to a person group or country
+vocabulary,tolerance,ability-to-accept-differences,noun,c1,relationships,the ability to accept differences
+vocabulary,reciprocity,practice-of-exchange-between-people,noun,c1,relationships,the practice of exchange between people
+vocabulary,parental,relating-to-parents,adjective,c1,relationships,relating to parents
+vocabulary,maternal,relating-to-a-mother,adjective,c1,relationships,relating to a mother
+vocabulary,paternal,relating-to-a-father,adjective,c1,relationships,relating to a father
+vocabulary,devoted,showing-deep-love-and-loyalty,adjective,c1,relationships,showing deep love and loyalty
+vocabulary,committed,seriously-devoted-to-something,adjective,c1,relationships,seriously devoted to something
+vocabulary,estranged,no-longer-close-to-someone,adjective,c1,relationships,no longer close to someone
+vocabulary,alienated,feeling-separate-from-others,adjective,c1,relationships,feeling separate from others
+vocabulary,amicable,friendly-and-without-anger,adjective,c1,relationships,friendly and without anger
+vocabulary,cordial,polite-and-friendly-but-not-close,adjective,c1,relationships,polite and friendly but not close
+vocabulary,affectionate,showing-love-or-fondness,adjective,c1,relationships,showing love or fondness
+vocabulary,estrange,make-someone-stop-being-close,verb,c1,relationships,to make someone stop being close
+vocabulary,reconcile,make-people-friendly-again,verb,c1,relationships,to make people friendly again
+vocabulary,alienate,make-someone-feel-separate,verb,c1,relationships,to make someone feel separate
+vocabulary,abandon,leave-someone-permanently,verb,c1,relationships,to leave someone or something permanently
+vocabulary,neglect,fail-to-care-for-someone,verb,c1,relationships,to fail to care for someone properly
+vocabulary,endure,suffer-something-patiently,verb,c1,relationships,to suffer something difficult patiently
+vocabulary,treasure,value-something-very-much,verb,c1,relationships,to value something very much
+vocabulary,empathize,understand-anothers-feelings,verb,c1,relationships,to understand and share another's feelings
+vocabulary,sympathize,show-sorrow-for-someones-trouble,verb,c1,relationships,to show you are sorry for someone's trouble
+vocabulary,rekindle,make-a-feeling-start-again,verb,c1,relationships,to make a feeling start again
+vocabulary,reciprocate,give-something-back-in-return,verb,c1,relationships,to give something back in return
+vocabulary,foster,encourage-something-to-grow,verb,c1,relationships,to encourage a feeling or skill to grow
+vocabulary,rhetoric,skill-of-persuasive-language,noun,c1,communication,the skill of using language to persuade
+vocabulary,articulation,clear-pronunciation-of-words,noun,c1,communication,the clear pronunciation of words
+vocabulary,eloquence,ability-to-speak-powerfully,noun,c1,communication,the ability to speak in a clear powerful way
+vocabulary,discourse,serious-discussion-on-a-subject,noun,c1,communication,serious discussion or writing on a subject
+vocabulary,vernacular,ordinary-language-of-a-place,noun,c1,communication,the ordinary language of a place or group
+vocabulary,jargon,special-words-of-a-profession,noun,c1,communication,special words used by one profession
+vocabulary,euphemism,mild-word-for-a-harsh-one,noun,c1,communication,a mild word used instead of a harsh one
+vocabulary,sarcasm,words-meaning-the-opposite,noun,c1,communication,the use of words to mean the opposite often to mock
+vocabulary,irony,opposite-of-what-is-expected,noun,c1,communication,a situation that is the opposite of what is expected
+vocabulary,satire,humor-that-criticizes,noun,c1,communication,the use of humor to criticize people or ideas
+vocabulary,metaphor,describing-one-thing-as-another,noun,c1,communication,a way of describing one thing as another
+vocabulary,simile,comparison-using-like-or-as,noun,c1,communication,a comparison using like or as
+vocabulary,analogy,comparison-used-to-explain,noun,c1,communication,a comparison used to explain something
+vocabulary,hyperbole,deliberate-exaggeration,noun,c1,communication,deliberate exaggeration for effect
+vocabulary,pun,joke-on-two-meanings,noun,c1,communication,a joke that plays on two meanings of a word
+vocabulary,nuance,small-difference-in-meaning,noun,c1,communication,a small difference in meaning or feeling
+vocabulary,subtext,hidden-meaning-under-the-words,noun,c1,communication,the hidden meaning under the words
+vocabulary,connotation,feeling-a-word-suggests,noun,c1,communication,the feeling a word suggests beyond its meaning
+vocabulary,denotation,literal-meaning-of-a-word,noun,c1,communication,the literal meaning of a word
+vocabulary,ambiguity,state-of-having-two-meanings,noun,c1,communication,the state of having more than one meaning
+vocabulary,coherence,quality-of-being-clear-and-connected,noun,c1,communication,the quality of being clear and well connected
+vocabulary,assertion,confident-statement-of-truth,noun,c1,communication,a confident statement that something is true
+vocabulary,implication,something-suggested-not-said,noun,c1,communication,something suggested but not said directly
+vocabulary,inference,conclusion-drawn-from-evidence,noun,c1,communication,a conclusion drawn from evidence
+vocabulary,presumption,belief-accepted-without-proof,noun,c1,communication,a belief accepted without proof
+vocabulary,generalization,broad-statement-from-few-cases,noun,c1,communication,a broad statement based on a few cases
+vocabulary,verbose,using-more-words-than-needed,adjective,c1,communication,using more words than needed
+vocabulary,incoherent,not-clear-or-connected,adjective,c1,communication,not clear or logically connected
+vocabulary,succinct,clear-and-short,adjective,c1,communication,clear and short
+vocabulary,rambling,long-and-confused,adjective,c1,communication,long and confused
+vocabulary,candid,honest-and-direct,adjective,c1,communication,honest and direct
+vocabulary,diplomatic,careful-not-to-offend,adjective,c1,communication,careful not to offend people
+vocabulary,tactful,careful-not-to-upset-anyone,adjective,c1,communication,careful not to upset anyone
+vocabulary,evasive,not-giving-a-direct-answer,adjective,c1,communication,not giving a direct answer
+vocabulary,forthright,direct-and-honest,adjective,c1,communication,direct and honest
+vocabulary,elaborate,explain-in-more-detail,verb,c1,communication,to explain something in more detail
+vocabulary,expound,explain-an-idea-in-detail,verb,c1,communication,to explain an idea in detail
+vocabulary,assert,state-something-firmly,verb,c1,communication,to state something firmly
+vocabulary,infer,reach-a-conclusion-from-evidence,verb,c1,communication,to reach a conclusion from evidence
+vocabulary,insinuate,suggest-something-bad-indirectly,verb,c1,communication,to suggest something bad indirectly
+vocabulary,allude,refer-to-something-indirectly,verb,c1,communication,to refer to something indirectly
+vocabulary,reiterate,say-something-again-for-emphasis,verb,c1,communication,to say something again for emphasis
+vocabulary,recap,repeat-the-main-points-briefly,verb,c1,communication,to repeat the main points briefly
+vocabulary,elucidate,make-something-clear-by-explaining,verb,c1,communication,to make something clear by explaining
+vocabulary,interject,interrupt-with-a-comment,verb,c1,communication,to interrupt with a comment
+vocabulary,intervene,become-involved-to-change-something,verb,c1,communication,to become involved in order to change something
+vocabulary,mediate,help-two-sides-reach-agreement,verb,c1,communication,to help two sides reach an agreement
+vocabulary,misquote,repeat-words-inaccurately,verb,c1,communication,to repeat words inaccurately
+vocabulary,misinterpret,understand-something-wrongly,verb,c1,communication,to understand something wrongly
+vocabulary,misconstrue,understand-words-or-actions-wrongly,verb,c1,communication,to understand words or actions wrongly
