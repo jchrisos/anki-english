@@ -63945,5 +63945,3597 @@
     "image": "voc_8a6d7af7",
     "image_brief": "a man opening a canned tomato into a pot, seen from the side at medium distance, kitchen light, a spoon and a board, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
     "example": "We used **canned** beans for the stew."
+  },
+  {
+    "phrase": "nightstand",
+    "pos": "noun",
+    "sense": "small-table-beside-a-bed",
+    "pronunciation": "/ˈnaɪtˌstænd/",
+    "definition": "a small table beside a bed.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_24f59c0c",
+    "image_brief": "a man placing glasses and a book on a nightstand, seen from the side at medium distance, lamp light, a bed and a clock, quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He left his glasses on the **nightstand**."
+  },
+  {
+    "phrase": "stool",
+    "pos": "noun",
+    "sense": "seat-with-no-back",
+    "pronunciation": "/stul/",
+    "definition": "a seat with no back.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_51e1f13e",
+    "image_brief": "a woman sitting on a stool at a kitchen counter, seen from the side at medium distance, morning light, a bowl and a cup, easy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She sat on a **stool** at the counter."
+  },
+  {
+    "phrase": "cushion",
+    "pos": "noun",
+    "sense": "soft-bag-to-sit-on",
+    "pronunciation": "/ˈkʊʃən/",
+    "definition": "a soft bag filled with material to sit or lean on.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_accbb738",
+    "image_brief": "a woman plumping a cushion on an armchair, seen from the side at medium distance, window light, a rug and a plant, cozy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The chair needs a new **cushion**."
+  },
+  {
+    "phrase": "shutter",
+    "pos": "noun",
+    "sense": "cover-for-a-window",
+    "pronunciation": "/ˈʃʌtɝ/",
+    "definition": "a wooden or metal cover for a window.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_d638b08b",
+    "image_brief": "a man closing wooden shutters against bright sun, seen from the side at medium distance, strong light, a plant and a sill, practical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He closed the **shutter** against the sun."
+  },
+  {
+    "phrase": "thermostat",
+    "pos": "noun",
+    "sense": "device-that-controls-temperature",
+    "pronunciation": "/ˈθɝməˌstæt/",
+    "definition": "a device that controls the temperature.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_a1cd33b5",
+    "image_brief": "a woman adjusting a wall thermostat in a hallway, seen from the side at medium distance, dim light, a coat and a door, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Turn the **thermostat** down at night."
+  },
+  {
+    "phrase": "boiler",
+    "pos": "noun",
+    "sense": "machine-that-heats-water",
+    "pronunciation": "/ˈbɔɪlɝ/",
+    "definition": "a large machine that heats water.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_a8d8ef10",
+    "image_brief": "a technician kneeling beside a boiler in a utility room, seen from the side at medium distance, work light, pipes and a toolbox, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **boiler** broke in December."
+  },
+  {
+    "phrase": "furnace",
+    "pos": "noun",
+    "sense": "machine-that-heats-a-building",
+    "pronunciation": "/ˈfɝnəs/",
+    "definition": "a machine that heats a building.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_60ab84f0",
+    "image_brief": "a man checking a furnace in a basement, seen from the side at medium distance, warm light, ducts and tools, serious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **furnace** runs all winter."
+  },
+  {
+    "phrase": "insulation",
+    "pos": "noun",
+    "sense": "material-that-stops-heat-escaping",
+    "pronunciation": "/ˌɪnsəˈleɪʃən/",
+    "definition": "material that stops heat escaping.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_66b10a7e",
+    "image_brief": "a worker fitting insulation between roof beams, seen from below at medium distance, work light, rolls and a ladder, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "New **insulation** cut the bills."
+  },
+  {
+    "phrase": "ventilation",
+    "pos": "noun",
+    "sense": "movement-of-fresh-air",
+    "pronunciation": "/ˌvɛntəˈleɪʃən/",
+    "definition": "the movement of fresh air through a space.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_87bd747d",
+    "image_brief": "a man opening a vent in a bathroom ceiling, seen from below at medium distance, bright light, a stool and a towel, practical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The bathroom lacks proper **ventilation**."
+  },
+  {
+    "phrase": "cellar",
+    "pos": "noun",
+    "sense": "room-under-a-house",
+    "pronunciation": "/ˈsɛlɝ/",
+    "definition": "a room under a house, often for storage.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_cb7a58db",
+    "image_brief": "a woman carrying a box down stone steps into a cellar, seen from the side at medium distance, dim bulb light, shelves and jars, musty mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **cellar** smells of damp wood."
+  },
+  {
+    "phrase": "lawn",
+    "pos": "noun",
+    "sense": "area-of-short-grass",
+    "pronunciation": "/lɔn/",
+    "definition": "an area of short grass around a house.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_9771b008",
+    "image_brief": "a man pushing a mower across a lawn, seen from the side at wide distance, summer light, a fence and a tree, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He cuts the **lawn** on Sundays."
+  },
+  {
+    "phrase": "bedspread",
+    "pos": "noun",
+    "sense": "cover-over-a-bed",
+    "pronunciation": "/ˈbɛdˌsprɛd/",
+    "definition": "a cover spread over a bed.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_f0c65f39",
+    "image_brief": "a woman smoothing a bedspread over a bed, seen from the side at medium distance, morning light, pillows and a lamp, calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **bedspread** matches the curtains."
+  },
+  {
+    "phrase": "headboard",
+    "pos": "noun",
+    "sense": "upright-board-at-the-head-of-a-bed",
+    "pronunciation": "/ˈhɛdˌbɔrd/",
+    "definition": "the upright board at the head of a bed.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_61b5d3e0",
+    "image_brief": "a man reading against a wooden headboard, seen from the side at medium distance, lamp light, a book and a clock, relaxed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She leaned against the **headboard**."
+  },
+  {
+    "phrase": "keyhole",
+    "pos": "noun",
+    "sense": "hole-in-a-lock",
+    "pronunciation": "/ˈkiˌhoʊl/",
+    "definition": "the hole in a lock for a key.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_d72db399",
+    "image_brief": "a woman peering through a keyhole in a dark door, seen from the side at medium distance, hallway light, a coat and a bag, curious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The key would not fit the **keyhole**."
+  },
+  {
+    "phrase": "hinge",
+    "pos": "noun",
+    "sense": "joint-that-lets-a-door-swing",
+    "pronunciation": "/hɪndʒ/",
+    "definition": "a joint that lets a door swing.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_b7ebf729",
+    "image_brief": "a man oiling a squeaky hinge on a door, seen from the side at medium distance, daylight, a can and a cloth, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **hinge** squeaks every night."
+  },
+  {
+    "phrase": "doorknob",
+    "pos": "noun",
+    "sense": "round-handle-that-opens-a-door",
+    "pronunciation": "/ˈdɔrˌnɑb/",
+    "definition": "the round handle that opens a door.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_1d3093bf",
+    "image_brief": "a man holding a loose doorknob in a hallway, seen from the side at medium distance, flat light, a door and a coat, exasperated mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **doorknob** came off in his hand."
+  },
+  {
+    "phrase": "latch",
+    "pos": "noun",
+    "sense": "small-bar-that-keeps-a-door-shut",
+    "pronunciation": "/lætʃ/",
+    "definition": "a small bar that keeps a door closed.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_0ab8df10",
+    "image_brief": "a child lifting a garden gate latch, seen from behind at medium distance, afternoon light, flowers and a fence, playful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She lifted the **latch** and went in."
+  },
+  {
+    "phrase": "bolt",
+    "pos": "noun",
+    "sense": "metal-bar-that-locks-a-door",
+    "pronunciation": "/boʊlt/",
+    "definition": "a metal bar that locks a door.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_f83babb6",
+    "image_brief": "a woman sliding a bolt across a door at night, seen from the side at medium distance, dim light, a lamp and a coat, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He slid the **bolt** across."
+  },
+  {
+    "phrase": "skylight",
+    "pos": "noun",
+    "sense": "window-in-a-roof",
+    "pronunciation": "/ˈskaɪˌlaɪt/",
+    "definition": "a window in a roof.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_8b02ae09",
+    "image_brief": "rain running down a skylight above a kitchen while a woman looks up, seen from below at wide distance, grey light, pots and a table, quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Rain drummed on the **skylight**."
+  },
+  {
+    "phrase": "awning",
+    "pos": "noun",
+    "sense": "cover-over-a-doorway",
+    "pronunciation": "/ˈɔnɪŋ/",
+    "definition": "a cover that keeps sun or rain off a doorway.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_08bfae82",
+    "image_brief": "two people waiting under an awning during rain, seen from across the street at wide distance, wet light, a bench and a window, patient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We waited under the **awning**."
+  },
+  {
+    "phrase": "drainpipe",
+    "pos": "noun",
+    "sense": "pipe-that-carries-rain-away",
+    "pronunciation": "/ˈdreɪnˌpaɪp/",
+    "definition": "a pipe that carries rainwater away.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_798be0f7",
+    "image_brief": "a man clearing leaves from a drainpipe on a wall, seen from below at medium distance, autumn light, a ladder and a rake, practical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Leaves blocked the **drainpipe**."
+  },
+  {
+    "phrase": "hearth",
+    "pos": "noun",
+    "sense": "floor-area-by-a-fireplace",
+    "pronunciation": "/hɑrθ/",
+    "definition": "the floor area in front of a fireplace.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_541b101d",
+    "image_brief": "a dog asleep on a rug by a hearth while a woman reads nearby, seen from across the room at medium distance, fire light, a chair and a basket, peaceful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The dog slept by the **hearth**."
+  },
+  {
+    "phrase": "mantel",
+    "pos": "noun",
+    "sense": "shelf-above-a-fireplace",
+    "pronunciation": "/ˈmæntəl/",
+    "definition": "the shelf above a fireplace.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_ef864058",
+    "image_brief": "a man placing a photo on a mantel above a fireplace, seen from the side at medium distance, warm light, a clock and candles, reflective mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Photos crowded the **mantel**."
+  },
+  {
+    "phrase": "deed",
+    "pos": "noun",
+    "sense": "legal-proof-of-property-ownership",
+    "pronunciation": "/did/",
+    "definition": "a legal document proving who owns a property.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_9ff2ae53",
+    "image_brief": "a couple reading a property deed at a kitchen table, seen from above at medium distance, morning light, a folder and cups, serious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **deed** is kept at the bank."
+  },
+  {
+    "phrase": "backyard",
+    "pos": "noun",
+    "sense": "area-behind-a-house",
+    "pronunciation": "/ˈbækˌjɑrd/",
+    "definition": "the area behind a house.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_bc6f0d79",
+    "image_brief": "children playing in a backyard while a parent watches from the door, seen from behind at wide distance, afternoon light, a swing and a fence, easy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The children play in the **backyard**."
+  },
+  {
+    "phrase": "flowerbed",
+    "pos": "noun",
+    "sense": "area-where-flowers-are-planted",
+    "pronunciation": "/ˈflaʊɝˌbɛd/",
+    "definition": "an area where flowers are planted.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_3e7616f9",
+    "image_brief": "a woman pulling weeds from a flowerbed, seen from the side at medium distance, morning light, a trowel and gloves, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She weeded the **flowerbed**."
+  },
+  {
+    "phrase": "greenhouse",
+    "pos": "noun",
+    "sense": "glass-building-for-plants",
+    "pronunciation": "/ˈɡrinˌhaʊs/",
+    "definition": "a glass building for growing plants.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_ae5f46f9",
+    "image_brief": "a gardener watering tomatoes in a greenhouse, seen from the side at wide distance, green filtered light, pots and a bench, warm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Tomatoes ripen in the **greenhouse**."
+  },
+  {
+    "phrase": "paving",
+    "pos": "noun",
+    "sense": "hard-surface-of-a-path",
+    "pronunciation": "/ˈpeɪvɪŋ/",
+    "definition": "the hard surface of a path or yard.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_e3083081",
+    "image_brief": "a man lifting a cracked paving stone near a gate, seen from above at medium distance, daylight, a shovel and a bucket, practical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **paving** is cracked near the gate."
+  },
+  {
+    "phrase": "hose",
+    "pos": "noun",
+    "sense": "long-tube-for-water",
+    "pronunciation": "/hoʊz/",
+    "definition": "a long tube used to carry water.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_9f798295",
+    "image_brief": "a woman watering plants with a hose, seen from the side at medium distance, bright light, a tap and a bucket, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He left the **hose** across the path."
+  },
+  {
+    "phrase": "sprinkler",
+    "pos": "noun",
+    "sense": "device-that-sprays-water",
+    "pronunciation": "/ˈsprɪŋklɝ/",
+    "definition": "a device that sprays water on plants.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_aedd31bc",
+    "image_brief": "a lawn sprinkler spraying water at dawn, seen from a low angle at wide distance, golden light, grass and a fence, fresh mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **sprinkler** runs at dawn."
+  },
+  {
+    "phrase": "lawnmower",
+    "pos": "noun",
+    "sense": "machine-that-cuts-grass",
+    "pronunciation": "/ˈlɔnˌmoʊɝ/",
+    "definition": "a machine that cuts grass.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_a2a092de",
+    "image_brief": "a man pulling the cord of a stubborn lawnmower, seen from the side at medium distance, summer light, a shed and a can, frustrated mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **lawnmower** will not start."
+  },
+  {
+    "phrase": "wheelbarrow",
+    "pos": "noun",
+    "sense": "small-cart-for-garden-work",
+    "pronunciation": "/ˈwilˌbæroʊ/",
+    "definition": "a small cart with one wheel for garden work.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_b880d2ef",
+    "image_brief": "a gardener pushing a loaded wheelbarrow across a yard, seen from the side at wide distance, afternoon light, a hedge and tools, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He filled the **wheelbarrow** with soil."
+  },
+  {
+    "phrase": "basin",
+    "pos": "noun",
+    "sense": "bowl-for-washing",
+    "pronunciation": "/ˈbeɪsən/",
+    "definition": "a bowl for washing, or a sink.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_af19d926",
+    "image_brief": "a woman washing her face at a basin, seen from behind at medium distance, morning light, a towel and a mirror, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **basin** is cracked."
+  },
+  {
+    "phrase": "outlet",
+    "pos": "noun",
+    "sense": "socket-for-electricity",
+    "pronunciation": "/ˈaʊtˌlɛt/",
+    "definition": "a socket where electricity is available.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_cd6918af",
+    "image_brief": "a man plugging a lamp into a wall outlet, seen from a low angle at medium distance, evening light, a cable and a table, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **outlet** beside the bed is loose."
+  },
+  {
+    "phrase": "fuse",
+    "pos": "noun",
+    "sense": "part-that-stops-too-much-electricity",
+    "pronunciation": "/fjuz/",
+    "definition": "a part that stops too much electricity.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_fea5c3ff",
+    "image_brief": "a man replacing a fuse in a dark hallway, seen from the side at medium distance, torch light, a box and a stool, urgent mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **fuse** blew during the storm."
+  },
+  {
+    "phrase": "generator",
+    "pos": "noun",
+    "sense": "machine-that-produces-electricity",
+    "pronunciation": "/ˈdʒɛnəˌreɪtɝ/",
+    "definition": "a machine that produces electricity.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_ccd27e1b",
+    "image_brief": "a man starting a generator outside a house at night, seen from the side at medium distance, cold light, cables and a door, relieved mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **generator** kept the lights on."
+  },
+  {
+    "phrase": "doorstep",
+    "pos": "noun",
+    "sense": "step-in-front-of-an-entrance",
+    "pronunciation": "/ˈdɔrˌstɛp/",
+    "definition": "the step in front of an entrance.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_e235c2c4",
+    "image_brief": "a parcel waiting on a doorstep in the rain, seen from the side at medium distance, grey light, a plant and a mat, quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A parcel waited on the **doorstep**."
+  },
+  {
+    "phrase": "rake",
+    "pos": "noun",
+    "sense": "tool-for-gathering-leaves",
+    "pronunciation": "/reɪk/",
+    "definition": "a tool with a long handle and teeth for leaves.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_4a89ac57",
+    "image_brief": "a woman raking leaves into a pile, seen from the side at wide distance, autumn light, a wheelbarrow and a tree, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He left the **rake** in the grass."
+  },
+  {
+    "phrase": "shovel",
+    "pos": "noun",
+    "sense": "tool-with-a-wide-blade",
+    "pronunciation": "/ˈʃʌvəl/",
+    "definition": "a tool with a wide blade for digging.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_63874bc2",
+    "image_brief": "a man digging a hole with a shovel, seen from the side at medium distance, morning light, a flowerbed and gloves, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She took the **shovel** to the flowerbed."
+  },
+  {
+    "phrase": "furnish",
+    "pos": "verb",
+    "sense": "put-furniture-into-a-place",
+    "pronunciation": "/ˈfɝnɪʃ/",
+    "definition": "to put furniture into a place.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "present_example": "They **furnish** the flat slowly.",
+    "past_simple_example": "He **furnished** the room with old chairs.",
+    "past_participle_example": "The house has been **furnished** already.",
+    "present_participle_example": "**Furnishing** a place from scratch is expensive.",
+    "image": "voc_8e161c73",
+    "image_brief": "a couple carrying a chair into an empty flat, seen from the side at medium distance, daylight, boxes and a lamp, hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **furnish** the flat slowly."
+  },
+  {
+    "phrase": "wallpaper",
+    "pos": "verb",
+    "sense": "cover-a-wall-with-paper",
+    "pronunciation": "/ˈwɔlˌpeɪpɝ/",
+    "definition": "to cover a wall with decorative paper.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "present_example": "They **wallpaper** the hall every few years.",
+    "past_simple_example": "She **wallpapered** the bedroom herself.",
+    "past_participle_example": "The walls have been **wallpapered**.",
+    "present_participle_example": "**Wallpapering** around corners takes patience.",
+    "image": "voc_8da685bf",
+    "image_brief": "a woman smoothing wallpaper onto a wall, seen from the side at medium distance, window light, a brush and a roll, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They plan to **wallpaper** the hall."
+  },
+  {
+    "phrase": "plumb",
+    "pos": "verb",
+    "sense": "fit-or-repair-water-pipes",
+    "pronunciation": "/plʌm/",
+    "definition": "to fit or repair water pipes.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "present_example": "A plumber will **plumb** the new kitchen.",
+    "past_simple_example": "They **plumbed** the bathroom last month.",
+    "past_participle_example": "The sink has been **plumbed** in.",
+    "present_participle_example": "**Plumbing** an old house is slow work.",
+    "image": "voc_f63ce108",
+    "image_brief": "a plumber fitting a pipe under a new sink, seen from below at medium distance, work light, tools and a bucket, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A plumber will **plumb** the new kitchen."
+  },
+  {
+    "phrase": "wire",
+    "pos": "verb",
+    "sense": "connect-with-electrical-wires",
+    "pronunciation": "/waɪɝ/",
+    "definition": "to connect with electrical wires.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "present_example": "An electrician will **wire** the extension.",
+    "past_simple_example": "He **wired** the garage himself.",
+    "past_participle_example": "The shed has been **wired** for light.",
+    "present_participle_example": "**Wiring** a house needs a licensed expert.",
+    "image": "voc_e4ca9e73",
+    "image_brief": "an electrician pulling wires through a wall, seen from the side at medium distance, work light, a drill and a box, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "An electrician will **wire** the extension."
+  },
+  {
+    "phrase": "screw",
+    "pos": "verb",
+    "sense": "fasten-with-a-twisted-metal-pin",
+    "pronunciation": "/skru/",
+    "definition": "to fasten with a twisted metal pin.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "present_example": "He **screws** the bracket to the post.",
+    "past_simple_example": "She **screwed** the handle back on.",
+    "past_participle_example": "The panel has been **screwed** shut.",
+    "present_participle_example": "**Screwing** into brick needs a drill.",
+    "image": "voc_43647309",
+    "image_brief": "a man screwing a shelf bracket to a wall, seen from the side at medium distance, daylight, a drill and a level, precise mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Screw** the shelf to the wall."
+  },
+  {
+    "phrase": "cluttered",
+    "pos": "adjective",
+    "sense": "full-of-too-many-things",
+    "pronunciation": "/ˈklʌtɝd/",
+    "definition": "full of too many things.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_988bdf72",
+    "image_brief": "a cluttered desk covered in papers and cups while a woman searches for a pen, seen from above at medium distance, lamp light, a chair and a phone, overwhelmed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The desk was **cluttered** with papers."
+  },
+  {
+    "phrase": "spotless",
+    "pos": "adjective",
+    "sense": "perfectly-clean",
+    "pronunciation": "/ˈspɑtləs/",
+    "definition": "perfectly clean.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_aeac8023",
+    "image_brief": "a woman admiring a spotless kitchen counter, seen from the side at medium distance, bright light, a cloth and a sink, satisfied mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She keeps the kitchen **spotless**."
+  },
+  {
+    "phrase": "dusty",
+    "pos": "adjective",
+    "sense": "covered-with-fine-dry-dust",
+    "pronunciation": "/ˈdʌsti/",
+    "definition": "covered with a fine dry powder.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_cfdafc87",
+    "image_brief": "a man wiping a dusty shelf in an old room, seen from the side at medium distance, window light, boxes and a cloth, nostalgic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The shelves were **dusty**."
+  },
+  {
+    "phrase": "shabby",
+    "pos": "adjective",
+    "sense": "old-and-in-poor-condition",
+    "pronunciation": "/ˈʃæbi/",
+    "definition": "old and in poor condition.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_b86dfe19",
+    "image_brief": "a shabby armchair in a bare room while a woman looks at it, seen from the side at medium distance, grey light, a lamp and a box, doubtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **shabby** sofa needs replacing."
+  },
+  {
+    "phrase": "welcoming",
+    "pos": "adjective",
+    "sense": "friendly-and-inviting",
+    "pronunciation": "/ˈwɛlkəmɪŋ/",
+    "definition": "friendly and inviting.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_17f0c93f",
+    "image_brief": "a host greeting guests in a welcoming hallway, seen from the side at medium distance, warm light, coats and flowers, friendly mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The hall felt warm and **welcoming**."
+  },
+  {
+    "phrase": "airy",
+    "pos": "adjective",
+    "sense": "with-plenty-of-fresh-air",
+    "pronunciation": "/ˈɛri/",
+    "definition": "with plenty of fresh air and light.",
+    "categories": [
+      "home"
+    ],
+    "level": "b2",
+    "image": "voc_622f63fb",
+    "image_brief": "a bright airy bedroom with open windows while a woman makes the bed, seen from the doorway at medium distance, morning light, curtains and a plant, fresh mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The bedroom is bright and **airy**."
+  },
+  {
+    "phrase": "resignation",
+    "pos": "noun",
+    "sense": "act-of-leaving-a-job",
+    "pronunciation": "/ˌrɛzɪɡˈneɪʃən/",
+    "definition": "the act of officially leaving a job.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_efbafdb9",
+    "image_brief": "a man handing a letter to his manager across a desk, seen from the side at medium distance, office light, a folder and a chair, tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "His **resignation** surprised the whole team."
+  },
+  {
+    "phrase": "retirement",
+    "pos": "noun",
+    "sense": "stopping-work-for-good",
+    "pronunciation": "/rɪˈtaɪɝmənt/",
+    "definition": "the time when someone stops working for good.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_0874e6af",
+    "image_brief": "a woman clearing her desk into a box on her last day, seen from the side at medium distance, warm light, a plant and cards, bittersweet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She plans her **retirement** carefully."
+  },
+  {
+    "phrase": "roster",
+    "pos": "noun",
+    "sense": "list-of-who-works-when",
+    "pronunciation": "/ˈrɑstɝ/",
+    "definition": "a list showing who works when.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_d9d4ffbc",
+    "image_brief": "a manager pinning a staff roster to a noticeboard, seen from behind at medium distance, hallway light, a bag and a door, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **roster** changes every Friday."
+  },
+  {
+    "phrase": "stakeholder",
+    "pos": "noun",
+    "sense": "person-with-an-interest-in-a-project",
+    "pronunciation": "/ˈsteɪkˌhoʊldɝ/",
+    "definition": "a person with an interest in a project.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_2200a928",
+    "image_brief": "five people around a table reviewing plans while one speaks, seen from the side at wide distance, bright room light, papers and water, serious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Every **stakeholder** must approve the plan."
+  },
+  {
+    "phrase": "supplier",
+    "pos": "noun",
+    "sense": "company-that-provides-goods",
+    "pronunciation": "/səˈplaɪɝ/",
+    "definition": "a company that provides goods.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_a68e0259",
+    "image_brief": "a warehouse worker checking a supplier's delivery, seen from the side at medium distance, loading light, boxes and a clipboard turned away, practical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **supplier** delayed the delivery."
+  },
+  {
+    "phrase": "procurement",
+    "pos": "noun",
+    "sense": "buying-supplies-for-an-organization",
+    "pronunciation": "/prəˈkjʊrmənt/",
+    "definition": "the process of buying supplies for an organization.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_45689ad9",
+    "image_brief": "a buyer comparing forms at a desk with samples, seen from above at medium distance, office light, a phone and a folder, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Procurement** takes three signatures."
+  },
+  {
+    "phrase": "logistics",
+    "pos": "noun",
+    "sense": "planning-the-movement-of-goods",
+    "pronunciation": "/ləˈdʒɪstɪks/",
+    "definition": "the planning of moving goods and people.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_35283942",
+    "image_brief": "a planner marking routes on a wall map, seen from behind at medium distance, office light, trucks visible through a window, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Logistics** decides where the trucks stop."
+  },
+  {
+    "phrase": "inventory",
+    "pos": "noun",
+    "sense": "goods-a-business-has-in-stock",
+    "pronunciation": "/ˈɪnvənˌtɔri/",
+    "definition": "the goods a business has in stock.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_8e3b4c48",
+    "image_brief": "a worker counting boxes with a scanner in a storeroom, seen from the side at medium distance, shelf light, a cart and a ladder, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They count the **inventory** each month."
+  },
+  {
+    "phrase": "warehouse",
+    "pos": "noun",
+    "sense": "large-building-for-storing-goods",
+    "pronunciation": "/ˈwɛrˌhaʊs/",
+    "definition": "a large building for storing goods.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_197034a4",
+    "image_brief": "a forklift moving pallets in a large warehouse, seen from a high angle at wide distance, industrial light, racks and boxes, busy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **warehouse** holds two thousand boxes."
+  },
+  {
+    "phrase": "dispatch",
+    "pos": "noun",
+    "sense": "act-of-sending-goods-somewhere",
+    "pronunciation": "/dɪˈspætʃ/",
+    "definition": "the act of sending goods or people somewhere.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_1c4310d0",
+    "image_brief": "a dispatcher talking into a headset beside screens, seen from the side at medium distance, dim room light, a van outside, urgent mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Dispatch** confirms every order by noon."
+  },
+  {
+    "phrase": "shipment",
+    "pos": "noun",
+    "sense": "load-of-goods-sent-together",
+    "pronunciation": "/ˈʃɪpmənt/",
+    "definition": "a load of goods sent together.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_ebb8b04b",
+    "image_brief": "workers unloading a shipment from a truck, seen from the side at wide distance, morning light, pallets and a ramp, busy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The first **shipment** arrives Monday."
+  },
+  {
+    "phrase": "courier",
+    "pos": "noun",
+    "sense": "person-who-delivers-packages",
+    "pronunciation": "/ˈkɝiɝ/",
+    "definition": "a person who delivers packages.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_cbe2abd9",
+    "image_brief": "a courier handing a parcel to a woman at a door, seen from the side at medium distance, daylight, a bicycle and a bag, brisk mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **courier** brought the documents."
+  },
+  {
+    "phrase": "freight",
+    "pos": "noun",
+    "sense": "goods-carried-in-large-amounts",
+    "pronunciation": "/freɪt/",
+    "definition": "goods carried in large amounts.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_84c491ec",
+    "image_brief": "freight trains loaded with containers crossing a yard, seen from a high angle at wide distance, grey light, tracks and cranes, industrial mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **freight** goes by rail."
+  },
+  {
+    "phrase": "cargo",
+    "pos": "noun",
+    "sense": "goods-carried-by-ship-or-plane",
+    "pronunciation": "/ˈkɑrɡoʊ/",
+    "definition": "the goods carried by a ship or plane.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_95e41f2a",
+    "image_brief": "a cargo hold being loaded with crates beside a ship, seen from the side at wide distance, dockside light, ropes and a crane, heavy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **cargo** was checked twice."
+  },
+  {
+    "phrase": "workshop",
+    "pos": "noun",
+    "sense": "practical-training-session",
+    "pronunciation": "/ˈwɝkˌʃɑp/",
+    "definition": "a practical training session for a group.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_5a5a9104",
+    "image_brief": "a trainer guiding a small group at a workshop, seen from the side at wide distance, bright room light, chairs and notes, engaged mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **workshop** lasted all morning."
+  },
+  {
+    "phrase": "briefing",
+    "pos": "noun",
+    "sense": "short-meeting-to-give-information",
+    "pronunciation": "/ˈbrifɪŋ/",
+    "definition": "a short meeting to give information.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_3106599d",
+    "image_brief": "a team standing around a table for a morning briefing, seen from the side at medium distance, office light, cups and a board turned away, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **briefing** started at eight."
+  },
+  {
+    "phrase": "quota",
+    "pos": "noun",
+    "sense": "fixed-amount-someone-must-produce",
+    "pronunciation": "/ˈkwoʊtə/",
+    "definition": "a fixed amount someone must produce or sell.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_41ab05d6",
+    "image_brief": "a salesperson marking a chart on the wall after reaching a target, seen from behind at medium distance, office light, a desk and a phone, relieved mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He met his **quota** in ten days."
+  },
+  {
+    "phrase": "payroll",
+    "pos": "noun",
+    "sense": "list-of-employees-and-their-pay",
+    "pronunciation": "/ˈpeɪˌroʊl/",
+    "definition": "the list of employees and their pay.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_7cbab44c",
+    "image_brief": "an accountant checking payslips at a desk, seen from above at medium distance, lamp light, a calculator and folders, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Payroll** runs on the last Friday."
+  },
+  {
+    "phrase": "benefits",
+    "pos": "noun",
+    "sense": "extras-an-employer-gives-besides-pay",
+    "pronunciation": "/ˈbɛnəfɪts/",
+    "definition": "extra things an employer gives besides pay.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_764eb393",
+    "image_brief": "an HR officer explaining benefits to a new employee, seen from the side at medium distance, office light, a folder and a plant, helpful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **benefits** include health cover."
+  },
+  {
+    "phrase": "maternity",
+    "pos": "noun",
+    "sense": "time-off-to-have-a-baby",
+    "pronunciation": "/məˈtɝnəti/",
+    "definition": "the time a woman takes off work to have a baby.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_1e0a30a8",
+    "image_brief": "a pregnant woman packing her desk before leave, seen from the side at medium distance, afternoon light, a box and cards, warm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She is on **maternity** until June."
+  },
+  {
+    "phrase": "probation",
+    "pos": "noun",
+    "sense": "trial-period-at-the-start-of-a-job",
+    "pronunciation": "/proʊˈbeɪʃən/",
+    "definition": "a trial period at the start of a job.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_308b5c5a",
+    "image_brief": "a new employee being shown around an office by a supervisor, seen from behind at medium distance, bright light, desks and a coffee machine, cautious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "New staff spend three months on **probation**."
+  },
+  {
+    "phrase": "redundancy",
+    "pos": "noun",
+    "sense": "loss-of-a-job-no-longer-needed",
+    "pronunciation": "/rɪˈdʌndənsi/",
+    "definition": "the loss of a job because it is no longer needed.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_84332c18",
+    "image_brief": "a worker carrying a box out of a factory gate, seen from behind at wide distance, grey light, a fence and a bus, grim mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Redundancy** hit the older staff hardest."
+  },
+  {
+    "phrase": "layoff",
+    "pos": "noun",
+    "sense": "ending-jobs-for-economic-reasons",
+    "pronunciation": "/ˈleɪˌɔf/",
+    "definition": "the ending of jobs for economic reasons.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_1e553a5c",
+    "image_brief": "two workers talking quietly outside a closed factory door, seen from the side at wide distance, overcast light, a notice turned away and a bench, anxious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **layoff** affected two departments."
+  },
+  {
+    "phrase": "dismissal",
+    "pos": "noun",
+    "sense": "act-of-removing-someone-from-a-job",
+    "pronunciation": "/dɪsˈmɪsəl/",
+    "definition": "the act of removing someone from a job.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_cb10a7ad",
+    "image_brief": "a man leaving an office building with a bag and his head down, seen from across the street at wide distance, flat light, a bus stop and a bin, defeated mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He is appealing against his **dismissal**."
+  },
+  {
+    "phrase": "severance",
+    "pos": "noun",
+    "sense": "money-paid-when-losing-a-job",
+    "pronunciation": "/ˈsɛvɝəns/",
+    "definition": "money paid to someone who loses a job.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_40942c6d",
+    "image_brief": "a woman reviewing a severance letter at a kitchen table, seen from above at medium distance, morning light, a cup and a folder, worried mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **severance** covered six months."
+  },
+  {
+    "phrase": "appraisal",
+    "pos": "noun",
+    "sense": "formal-review-of-someones-work",
+    "pronunciation": "/əˈpreɪzəl/",
+    "definition": "a formal review of someone's work.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_d81e184c",
+    "image_brief": "a manager and employee talking across a desk with notes, seen from the side at medium distance, bright office light, a calendar and a plant, formal mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **appraisal** praised the new system."
+  },
+  {
+    "phrase": "evaluation",
+    "pos": "noun",
+    "sense": "careful-judgment-of-quality",
+    "pronunciation": "/ɪˌvæljuˈeɪʃən/",
+    "definition": "a careful judgment of how good something is.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_a661eb79",
+    "image_brief": "a trainer scoring a trainee's work on a clipboard, seen from the side at medium distance, workshop light, tools and a bench, measured mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **evaluation** takes a week."
+  },
+  {
+    "phrase": "onboarding",
+    "pos": "noun",
+    "sense": "bringing-a-new-employee-in",
+    "pronunciation": "/ˈɑnˌbɔrdɪŋ/",
+    "definition": "the process of bringing a new employee into a company.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_a8027925",
+    "image_brief": "a new hire receiving a laptop and badge at a desk, seen from the side at medium distance, office light, a folder and a plant, welcoming mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Onboarding** includes a tour and a laptop."
+  },
+  {
+    "phrase": "induction",
+    "pos": "noun",
+    "sense": "course-introducing-a-new-job",
+    "pronunciation": "/ɪnˈdʌkʃən/",
+    "definition": "a course that introduces people to a new job.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_2e287345",
+    "image_brief": "a group watching a safety demonstration in a training room, seen from behind at wide distance, flat light, chairs and equipment, attentive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **induction** covers safety rules."
+  },
+  {
+    "phrase": "orientation",
+    "pos": "noun",
+    "sense": "introduction-to-a-new-place-or-role",
+    "pronunciation": "/ˌɔriɛnˈteɪʃən/",
+    "definition": "an introduction to a new place or role.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_55010cac",
+    "image_brief": "new staff walking through a large office on a tour, seen from behind at wide distance, bright light, desks and a guide, curious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Orientation** starts on the first Monday."
+  },
+  {
+    "phrase": "trainee",
+    "pos": "noun",
+    "sense": "person-learning-a-job",
+    "pronunciation": "/treɪˈni/",
+    "definition": "a person learning a job.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_c67f3dd6",
+    "image_brief": "a trainee watching a senior worker at a machine, seen from the side at medium distance, workshop light, tools and a clipboard, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Each **trainee** shadows a senior worker."
+  },
+  {
+    "phrase": "cubicle",
+    "pos": "noun",
+    "sense": "small-divided-office-space",
+    "pronunciation": "/ˈkjubɪkəl/",
+    "definition": "a small office space divided by low walls.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_ff889c72",
+    "image_brief": "a man working in a cubicle with low walls, seen from behind at medium distance, office light, a chair and a phone, quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "His **cubicle** is by the window."
+  },
+  {
+    "phrase": "headquarters",
+    "pos": "noun",
+    "sense": "main-office-of-an-organization",
+    "pronunciation": "/ˈhɛdˌkwɔrtɝz/",
+    "definition": "the main office of an organization.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_b978b908",
+    "image_brief": "a modern office tower with employees entering, seen from across the street at wide distance, morning light, a plaza and a bus, corporate mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **headquarters** moved to another city."
+  },
+  {
+    "phrase": "franchise",
+    "pos": "noun",
+    "sense": "business-using-anothers-name",
+    "pronunciation": "/ˈfrænˌtʃaɪz/",
+    "definition": "a business that uses another company's name.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_e66339d6",
+    "image_brief": "a couple arranging a new franchise shop before opening, seen from the side at medium distance, daylight, boxes and a counter, hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They opened their first **franchise**."
+  },
+  {
+    "phrase": "premises",
+    "pos": "noun",
+    "sense": "buildings-a-business-uses",
+    "pronunciation": "/ˈprɛmɪsɪz/",
+    "definition": "the buildings and land a business uses.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_0e63cfd8",
+    "image_brief": "an inspector walking through business premises with a manager, seen from behind at wide distance, bright light, machines and a door, serious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **premises** are inspected yearly."
+  },
+  {
+    "phrase": "facility",
+    "pos": "noun",
+    "sense": "building-used-for-a-purpose",
+    "pronunciation": "/fəˈsɪləti/",
+    "definition": "a building or place used for a purpose.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_4b572baf",
+    "image_brief": "workers moving equipment into a new facility, seen from the side at wide distance, daylight, a truck and a ramp, busy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The new **facility** holds two hundred staff."
+  },
+  {
+    "phrase": "supervisor",
+    "pos": "noun",
+    "sense": "person-who-watches-over-workers",
+    "pronunciation": "/ˈsupɝˌvaɪzɝ/",
+    "definition": "a person who watches over other workers.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_7579efa9",
+    "image_brief": "a supervisor checking a worker's task on the floor, seen from the side at medium distance, factory light, a clipboard and a machine, watchful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Ask your **supervisor** before leaving."
+  },
+  {
+    "phrase": "executive",
+    "pos": "noun",
+    "sense": "senior-manager-in-a-company",
+    "pronunciation": "/ɪɡˈzɛkjətɪv/",
+    "definition": "a senior manager in a company.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_7bae35ac",
+    "image_brief": "an executive speaking in a glass meeting room, seen from across the office at wide distance, cool light, desks and a plant, formal mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "An **executive** approved the budget."
+  },
+  {
+    "phrase": "entrepreneur",
+    "pos": "noun",
+    "sense": "person-who-starts-businesses",
+    "pronunciation": "/ˌɑntrəprəˈnɝ/",
+    "definition": "a person who starts businesses.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_b04bcf24",
+    "image_brief": "a young woman setting up a market stall of her own products, seen from the side at medium distance, morning light, boxes and a sign turned away, driven mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She became an **entrepreneur** at twenty-five."
+  },
+  {
+    "phrase": "freelancer",
+    "pos": "noun",
+    "sense": "person-working-for-different-clients",
+    "pronunciation": "/ˈfriˌlænsɝ/",
+    "definition": "a person who works for different clients.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_42d2b594",
+    "image_brief": "a freelancer working at a café table with a laptop, seen from the side at medium distance, warm light, a cup and headphones, independent mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The design was done by a **freelancer**."
+  },
+  {
+    "phrase": "contractor",
+    "pos": "noun",
+    "sense": "person-paid-to-do-work-for-others",
+    "pronunciation": "/ˈkɑntræktɝ/",
+    "definition": "a person or firm paid to do work for others.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_a4031eca",
+    "image_brief": "a contractor measuring a doorway with a client, seen from the side at medium distance, daylight, a toolbox and a notebook, practical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **contractor** finished the roof early."
+  },
+  {
+    "phrase": "delegate",
+    "pos": "verb",
+    "sense": "give-a-task-to-someone-else",
+    "pronunciation": "/ˈdɛləˌɡeɪt/",
+    "definition": "to give a task to someone else.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "present_example": "Good managers **delegate** routine work.",
+    "past_simple_example": "She **delegated** the report to me.",
+    "past_participle_example": "Too much has been **delegated** already.",
+    "present_participle_example": "**Delegating** well takes trust.",
+    "image": "voc_b7c01d19",
+    "image_brief": "a manager handing a folder to a junior colleague, seen from the side at medium distance, office light, a desk and a phone, trusting mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Good managers **delegate** the routine work."
+  },
+  {
+    "phrase": "collaborate",
+    "pos": "verb",
+    "sense": "work-together-on-something",
+    "pronunciation": "/kəˈlæbəˌreɪt/",
+    "definition": "to work together on something.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "present_example": "Two teams **collaborate** on the app.",
+    "past_simple_example": "They **collaborated** for a year.",
+    "past_participle_example": "We have **collaborated** on three projects.",
+    "present_participle_example": "**Collaborating** across time zones is hard.",
+    "image": "voc_1a50b5d7",
+    "image_brief": "two colleagues working side by side on one screen, seen from behind at medium distance, office light, notes and cups, cooperative mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Two teams **collaborate** on the app."
+  },
+  {
+    "phrase": "coordinate",
+    "pos": "verb",
+    "sense": "organize-people-so-they-work-together",
+    "pronunciation": "/koʊˈɔrdəˌneɪt/",
+    "definition": "to organize people or tasks so they work together.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "present_example": "She will **coordinate** the move.",
+    "past_simple_example": "He **coordinated** the delivery times.",
+    "past_participle_example": "The schedule has been **coordinated**.",
+    "present_participle_example": "**Coordinating** forty people is stressful.",
+    "image": "voc_b11b3dc3",
+    "image_brief": "a woman with a radio coordinating workers at an event, seen from the side at medium distance, evening light, a stage and cables, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She will **coordinate** the move."
+  },
+  {
+    "phrase": "outsource",
+    "pos": "verb",
+    "sense": "pay-another-company-to-do-work",
+    "pronunciation": "/ˈaʊtˌsɔrs/",
+    "definition": "to pay another company to do work.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "present_example": "They **outsource** the cleaning.",
+    "past_simple_example": "We **outsourced** the design work.",
+    "past_participle_example": "Support has been **outsourced** abroad.",
+    "present_participle_example": "**Outsourcing** saved money but lost control.",
+    "image": "voc_0bf113df",
+    "image_brief": "a manager on a call about a contract, seen from the side at medium distance, office light, a laptop and a folder, thoughtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **outsource** the cleaning."
+  },
+  {
+    "phrase": "overworked",
+    "pos": "adjective",
+    "sense": "having-too-much-work",
+    "pronunciation": "/ˌoʊvɝˈwɝkt/",
+    "definition": "having too much work.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_24b3c0f5",
+    "image_brief": "a man at a desk piled with files late at night, seen from behind at medium distance, desk lamp light, a cold cup and a phone, drained mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **overworked** staff missed the deadline."
+  },
+  {
+    "phrase": "understaffed",
+    "pos": "adjective",
+    "sense": "not-having-enough-workers",
+    "pronunciation": "/ˌʌndɝˈstæft/",
+    "definition": "not having enough workers.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_01fcab4f",
+    "image_brief": "a nurse hurrying between beds in a busy ward, seen from the side at wide distance, bright light, a desk and a trolley, strained mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The clinic is **understaffed** at night."
+  },
+  {
+    "phrase": "rewarding",
+    "pos": "adjective",
+    "sense": "giving-satisfaction",
+    "pronunciation": "/rɪˈwɔrdɪŋ/",
+    "definition": "giving satisfaction.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_5d4cecfe",
+    "image_brief": "a teacher watching a student solve a problem, seen from the side at medium distance, classroom light, desks and a board, proud mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Teaching can be **rewarding**."
+  },
+  {
+    "phrase": "tedious",
+    "pos": "adjective",
+    "sense": "long-and-boring",
+    "pronunciation": "/ˈtidiəs/",
+    "definition": "long and boring.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_c59ce521",
+    "image_brief": "a worker entering data at a desk for hours, seen from the side at medium distance, flat light, a screen turned away and a cup, bored mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Data entry is **tedious** work."
+  },
+  {
+    "phrase": "menial",
+    "pos": "adjective",
+    "sense": "not-skilled-or-important",
+    "pronunciation": "/ˈminiəl/",
+    "definition": "not skilled or important.",
+    "categories": [
+      "work"
+    ],
+    "level": "b2",
+    "image": "voc_d89aa885",
+    "image_brief": "a worker washing dishes in a busy kitchen, seen from the side at medium distance, steam and light, stacks of plates, resigned mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He refused the **menial** tasks."
+  },
+  {
+    "phrase": "liability",
+    "pos": "noun",
+    "sense": "debt-or-obligation-owed",
+    "pronunciation": "/ˌlaɪəˈbɪləti/",
+    "definition": "a debt or obligation a person or company owes.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_d87a2b56",
+    "image_brief": "a small business owner reviewing a pile of bills at a desk, seen from the side at medium distance, dim office light, a calculator and a cup, worried mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The loan is a large **liability**."
+  },
+  {
+    "phrase": "turnover",
+    "pos": "noun",
+    "sense": "total-money-a-business-receives",
+    "pronunciation": "/ˈtɝnˌoʊvɝ/",
+    "definition": "the total money a business receives in a period.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_f2986b58",
+    "image_brief": "a shop owner checking a till roll at closing, seen from the side at medium distance, warm light, shelves and a counter, thoughtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Annual **turnover** passed two million."
+  },
+  {
+    "phrase": "dividend",
+    "pos": "noun",
+    "sense": "profit-share-paid-to-shareholders",
+    "pronunciation": "/ˈdɪvɪˌdɛnd/",
+    "definition": "part of a company's profit paid to shareholders.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_de88d4af",
+    "image_brief": "an older man reading a bank statement at a kitchen table, seen from above at medium distance, morning light, a cup and glasses, calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **dividend** arrives twice a year."
+  },
+  {
+    "phrase": "transaction",
+    "pos": "noun",
+    "sense": "act-of-buying-or-transferring-money",
+    "pronunciation": "/trænˈzækʃən/",
+    "definition": "an act of buying, selling or transferring money.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_4532d89b",
+    "image_brief": "a woman paying with a card at a market stall, seen from the side at medium distance, daylight, crates and a card reader turned away, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Each **transaction** appears on the app."
+  },
+  {
+    "phrase": "allowance",
+    "pos": "noun",
+    "sense": "money-given-regularly",
+    "pronunciation": "/əˈlaʊəns/",
+    "definition": "money given regularly, often to a child.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_e82cdc81",
+    "image_brief": "a child counting coins on a table while a parent watches, seen from above at medium distance, afternoon light, a jar and a comic, pleased mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He spends his **allowance** on comics."
+  },
+  {
+    "phrase": "payslip",
+    "pos": "noun",
+    "sense": "paper-showing-your-pay",
+    "pronunciation": "/ˈpeɪˌslɪp/",
+    "definition": "a paper showing how much you were paid and what was taken.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_e979dda9",
+    "image_brief": "a worker reading a payslip at a kitchen table, seen from above at medium distance, evening light, a cup and a folder, concerned mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **payslip** shows the new tax rate."
+  },
+  {
+    "phrase": "inflation",
+    "pos": "noun",
+    "sense": "general-rise-in-prices",
+    "pronunciation": "/ɪnˈfleɪʃən/",
+    "definition": "a general rise in prices over time.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_cb1804d3",
+    "image_brief": "a shopper comparing prices on a shelf, seen from the side at medium distance, shop light, a basket and a trolley, thoughtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Inflation** pushed up the price of bread."
+  },
+  {
+    "phrase": "recession",
+    "pos": "noun",
+    "sense": "period-when-the-economy-shrinks",
+    "pronunciation": "/rɪˈsɛʃən/",
+    "definition": "a period when the economy shrinks.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_4b1db34d",
+    "image_brief": "a closed shop with an empty window on a quiet street while one man walks past, seen from across the street at wide distance, grey light, a bench and a bin, bleak mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **recession** closed three factories."
+  },
+  {
+    "phrase": "banking",
+    "pos": "noun",
+    "sense": "business-of-keeping-and-lending-money",
+    "pronunciation": "/ˈbæŋkɪŋ/",
+    "definition": "the business of keeping and lending money.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_5b529c82",
+    "image_brief": "a woman using a banking app on her phone in a café, seen from the side at medium distance, warm light, a cup and a bag, easy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Mobile **banking** changed how she pays bills."
+  },
+  {
+    "phrase": "accounting",
+    "pos": "noun",
+    "sense": "work-of-keeping-financial-records",
+    "pronunciation": "/əˈkaʊntɪŋ/",
+    "definition": "the work of keeping financial records.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_0a8ba44d",
+    "image_brief": "a woman working through ledgers at a desk, seen from the side at medium distance, desk lamp light, folders and a calculator, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He studied **accounting** at college."
+  },
+  {
+    "phrase": "audit",
+    "pos": "noun",
+    "sense": "official-check-of-financial-records",
+    "pronunciation": "/ˈɔdɪt/",
+    "definition": "an official check of financial records.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_d9e11bd2",
+    "image_brief": "two auditors checking files at a long table, seen from the side at wide distance, bright light, boxes and cups, serious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **audit** found two errors."
+  },
+  {
+    "phrase": "auditor",
+    "pos": "noun",
+    "sense": "person-who-checks-financial-records",
+    "pronunciation": "/ˈɔdɪtɝ/",
+    "definition": "a person who checks financial records.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_85b9f701",
+    "image_brief": "an auditor holding a receipt up to the light, seen from the side at medium distance, office light, a folder and a pen, suspicious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **auditor** asked for receipts."
+  },
+  {
+    "phrase": "teller",
+    "pos": "noun",
+    "sense": "person-who-serves-bank-customers",
+    "pronunciation": "/ˈtɛlɝ/",
+    "definition": "a person who serves customers in a bank.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_a4993861",
+    "image_brief": "a bank teller counting notes behind a counter, seen from the side at medium distance, bright light, a till and a queue, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **teller** counted the notes twice."
+  },
+  {
+    "phrase": "vault",
+    "pos": "noun",
+    "sense": "strong-room-for-money",
+    "pronunciation": "/vɔlt/",
+    "definition": "a strong room for keeping money or valuables.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_b464cae6",
+    "image_brief": "two staff locking a bank vault door, seen from the side at wide distance, cold light, a trolley and a guard, secure mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The cash goes in the **vault** at night."
+  },
+  {
+    "phrase": "shareholder",
+    "pos": "noun",
+    "sense": "person-who-owns-part-of-a-company",
+    "pronunciation": "/ˈʃɛrˌhoʊldɝ/",
+    "definition": "a person who owns part of a company.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_a290aa67",
+    "image_brief": "shareholders raising hands at a company meeting, seen from the back of the room at wide distance, flat light, chairs and a stage, formal mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Every **shareholder** gets a vote."
+  },
+  {
+    "phrase": "stockbroker",
+    "pos": "noun",
+    "sense": "person-who-trades-shares-for-others",
+    "pronunciation": "/ˈstɑkˌbroʊkɝ/",
+    "definition": "a person who buys and sells shares for others.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_533c858a",
+    "image_brief": "a stockbroker watching screens with a phone at his ear, seen from behind at medium distance, dim office light, papers and a cup, tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **stockbroker** warned her about the risk."
+  },
+  {
+    "phrase": "investor",
+    "pos": "noun",
+    "sense": "person-who-puts-money-into-business",
+    "pronunciation": "/ɪnˈvɛstɝ/",
+    "definition": "a person who puts money into a business.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_82e884ca",
+    "image_brief": "an investor walking through a new shop with the owner, seen from behind at medium distance, bright light, a counter and boxes, hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "An **investor** funded the second shop."
+  },
+  {
+    "phrase": "creditor",
+    "pos": "noun",
+    "sense": "person-you-owe-money-to",
+    "pronunciation": "/ˈkrɛdɪtɝ/",
+    "definition": "a person or company you owe money to.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_1a43e315",
+    "image_brief": "a creditor and a debtor talking across a desk, seen from the side at medium distance, office light, a folder and a phone, tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **creditor** agreed to wait a month."
+  },
+  {
+    "phrase": "debtor",
+    "pos": "noun",
+    "sense": "person-who-owes-money",
+    "pronunciation": "/ˈdɛtɝ/",
+    "definition": "a person who owes money.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_df2690ec",
+    "image_brief": "a man opening a final reminder letter, seen from the side at medium distance, hallway light, a bag and a coat, anxious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **debtor** promised to pay by Friday."
+  },
+  {
+    "phrase": "borrower",
+    "pos": "noun",
+    "sense": "person-who-takes-money-to-repay",
+    "pronunciation": "/ˈbɑroʊɝ/",
+    "definition": "a person who takes money and must repay it.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_11457ad4",
+    "image_brief": "a young couple signing a loan agreement, seen from above at medium distance, kitchen light, a folder and cups, nervous mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **borrower** pays a low rate."
+  },
+  {
+    "phrase": "lender",
+    "pos": "noun",
+    "sense": "person-or-company-that-lends-money",
+    "pronunciation": "/ˈlɛndɝ/",
+    "definition": "a person or company that lends money.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_2bdce0fe",
+    "image_brief": "a lender explaining a contract to a customer, seen from the side at medium distance, office light, a calculator and papers, formal mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **lender** asked for proof of income."
+  },
+  {
+    "phrase": "equity",
+    "pos": "noun",
+    "sense": "property-value-after-debts",
+    "pronunciation": "/ˈɛkwəti/",
+    "definition": "the value of a property after debts are removed.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_97671873",
+    "image_brief": "a couple standing outside a house they own, seen from across the street at wide distance, evening light, a gate and a tree, proud mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They have little **equity** in the house."
+  },
+  {
+    "phrase": "collateral",
+    "pos": "noun",
+    "sense": "property-promised-for-a-loan",
+    "pronunciation": "/kəˈlætɝəl/",
+    "definition": "property promised if a loan is not repaid.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_49c30cc0",
+    "image_brief": "a man handing over car keys as loan security, seen from the side at medium distance, office light, a folder and a desk, reluctant mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The car was **collateral** for the loan."
+  },
+  {
+    "phrase": "premium",
+    "pos": "noun",
+    "sense": "money-paid-for-insurance",
+    "pronunciation": "/ˈprimiəm/",
+    "definition": "the money paid for an insurance policy.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_5d0df2a9",
+    "image_brief": "a woman reviewing an insurance premium at a table, seen from above at medium distance, morning light, a letter and a cup, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **premium** rose after the claim."
+  },
+  {
+    "phrase": "fundraiser",
+    "pos": "noun",
+    "sense": "event-that-collects-money",
+    "pronunciation": "/ˈfʌndˌreɪzɝ/",
+    "definition": "an event that collects money for a cause.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_97200101",
+    "image_brief": "a school fundraiser with a cake table and a donation box, seen from the side at wide distance, afternoon light, chairs and a banner turned away, cheerful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **fundraiser** raised enough for a new roof."
+  },
+  {
+    "phrase": "donation",
+    "pos": "noun",
+    "sense": "money-given-to-help",
+    "pronunciation": "/doʊˈneɪʃən/",
+    "definition": "money or goods given to help.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_0d15c604",
+    "image_brief": "a volunteer accepting a donation at a shelter door, seen from the side at medium distance, grey light, boxes and a sign turned away, grateful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Every **donation** goes to the shelter."
+  },
+  {
+    "phrase": "subsidy",
+    "pos": "noun",
+    "sense": "government-money-to-lower-costs",
+    "pronunciation": "/ˈsʌbsədi/",
+    "definition": "money a government gives to lower costs.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_5cb61420",
+    "image_brief": "a farmer filling a fuel tank, seen from the side at medium distance, morning light, a tractor and a can, practical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **subsidy** keeps bus fares low."
+  },
+  {
+    "phrase": "lottery",
+    "pos": "noun",
+    "sense": "game-with-numbered-tickets",
+    "pronunciation": "/ˈlɑtɝi/",
+    "definition": "a game where numbered tickets can win money.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_9264a7b0",
+    "image_brief": "a man buying a lottery ticket at a kiosk, seen from the side at medium distance, evening light, a queue and a counter, hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He bought a **lottery** ticket on Friday."
+  },
+  {
+    "phrase": "jackpot",
+    "pos": "noun",
+    "sense": "largest-prize-in-a-game",
+    "pronunciation": "/ˈdʒækˌpɑt/",
+    "definition": "the largest prize in a game.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_bcf26bfb",
+    "image_brief": "a crowd watching a game show winner react, seen from behind at wide distance, stage light, a screen turned away and chairs, excited mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Nobody won the **jackpot** this week."
+  },
+  {
+    "phrase": "overdraft",
+    "pos": "noun",
+    "sense": "spending-beyond-your-account",
+    "pronunciation": "/ˈoʊvɝˌdræft/",
+    "definition": "money spent beyond what is in an account.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_d21f4eec",
+    "image_brief": "a woman checking her balance at a cash machine, seen from the side at medium distance, night light, a card and a queue, worried mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **overdraft** charges are high."
+  },
+  {
+    "phrase": "arrears",
+    "pos": "noun",
+    "sense": "money-owed-from-before",
+    "pronunciation": "/əˈrɪrz/",
+    "definition": "money owed that should have been paid earlier.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_1a21eb4a",
+    "image_brief": "a tenant reading a rent letter at a table, seen from above at medium distance, dim light, a cup and keys, stressed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They are three months in **arrears**."
+  },
+  {
+    "phrase": "default",
+    "pos": "noun",
+    "sense": "failure-to-repay-a-loan",
+    "pronunciation": "/dɪˈfɔlt/",
+    "definition": "failure to repay a loan on time.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_6d9f6932",
+    "image_brief": "a bank officer marking a file with a red stamp, seen from above at medium distance, office light, a folder and a phone, grim mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **default** damaged his credit."
+  },
+  {
+    "phrase": "bailout",
+    "pos": "noun",
+    "sense": "money-given-to-save-a-business",
+    "pronunciation": "/ˈbeɪˌlaʊt/",
+    "definition": "money given to save a failing business.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_8f5f9e32",
+    "image_brief": "officials signing a rescue deal in a meeting room, seen from the side at wide distance, flat light, folders and water, serious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The bank needed a **bailout**."
+  },
+  {
+    "phrase": "fraud",
+    "pos": "noun",
+    "sense": "deceiving-people-for-money",
+    "pronunciation": "/frɔd/",
+    "definition": "the crime of deceiving people for money.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_babea1bb",
+    "image_brief": "police examining documents in an office while one points at a page, seen from the side at medium distance, cold light, boxes and a laptop, grim mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The clerk was arrested for **fraud**."
+  },
+  {
+    "phrase": "scam",
+    "pos": "noun",
+    "sense": "dishonest-plan-to-take-money",
+    "pronunciation": "/skæm/",
+    "definition": "a dishonest plan to take money.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_b1e284a0",
+    "image_brief": "an older woman reading a suspicious message on her phone, seen from the side at medium distance, kitchen light, a cup and a purse, worried mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The email was an obvious **scam**."
+  },
+  {
+    "phrase": "rebate",
+    "pos": "noun",
+    "sense": "money-returned-after-paying",
+    "pronunciation": "/ˈriˌbeɪt/",
+    "definition": "money returned after you have paid.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_addf44b9",
+    "image_brief": "a man opening an envelope with a refund check, seen from above at medium distance, morning light, a cup and a bill, pleased mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **rebate** came with the next bill."
+  },
+  {
+    "phrase": "levy",
+    "pos": "noun",
+    "sense": "extra-charge-or-tax",
+    "pronunciation": "/ˈlɛvi/",
+    "definition": "an extra charge or tax.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_680b5a63",
+    "image_brief": "a town official explaining a new charge at a meeting, seen from the side at medium distance, hall light, chairs and papers, uneasy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A small **levy** funds the service."
+  },
+  {
+    "phrase": "tariff",
+    "pos": "noun",
+    "sense": "tax-on-imported-goods",
+    "pronunciation": "/ˈtærɪf/",
+    "definition": "a tax on goods entering a country.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_882aa5fe",
+    "image_brief": "a customs officer inspecting imported crates, seen from the side at wide distance, dock light, a clipboard and a truck, official mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The new **tariff** raised import prices."
+  },
+  {
+    "phrase": "reimburse",
+    "pos": "verb",
+    "sense": "pay-someone-back",
+    "pronunciation": "/ˌriɪmˈbɝs/",
+    "definition": "to pay someone back money they spent.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "present_example": "The company **reimburses** travel costs.",
+    "past_simple_example": "They **reimbursed** the full amount.",
+    "past_participle_example": "Every receipt has been **reimbursed**.",
+    "present_participle_example": "**Reimbursing** staff promptly keeps morale up.",
+    "image": "voc_47b58df1",
+    "image_brief": "an employee handing receipts to a manager, seen from the side at medium distance, office light, a folder and a cup, hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The company will **reimburse** your travel."
+  },
+  {
+    "phrase": "haggle",
+    "pos": "verb",
+    "sense": "argue-about-a-price",
+    "pronunciation": "/ˈhæɡəl/",
+    "definition": "to argue about a price.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "present_example": "Tourists **haggle** at the market.",
+    "past_simple_example": "She **haggled** over the price of a rug.",
+    "past_participle_example": "We have **haggled** for an hour.",
+    "present_participle_example": "**Haggling** is expected here.",
+    "image": "voc_e68ccdc3",
+    "image_brief": "a buyer and seller bargaining over a rug at a market, seen from the side at medium distance, warm light, other rugs and a glass of tea, lively mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Tourists **haggle** at the market."
+  },
+  {
+    "phrase": "splurge",
+    "pos": "verb",
+    "sense": "spend-a-lot-on-something-special",
+    "pronunciation": "/splɝdʒ/",
+    "definition": "to spend a lot on something special.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "present_example": "They **splurge** on one good meal a month.",
+    "past_simple_example": "He **splurged** on a new guitar.",
+    "past_participle_example": "We have **splurged** enough this year.",
+    "present_participle_example": "**Splurging** once in a while is fine.",
+    "image": "voc_1f94f476",
+    "image_brief": "a couple ordering an expensive dessert at a restaurant, seen from the side at medium distance, warm light, a bottle and a menu turned away, happy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **splurge** on one good meal a month."
+  },
+  {
+    "phrase": "overspend",
+    "pos": "verb",
+    "sense": "spend-more-than-planned",
+    "pronunciation": "/ˌoʊvɝˈspɛnd/",
+    "definition": "to spend more than you planned.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "present_example": "It is easy to **overspend** online.",
+    "past_simple_example": "They **overspent** on the wedding.",
+    "past_participle_example": "I have **overspent** my budget.",
+    "present_participle_example": "**Overspending** on small items adds up.",
+    "image": "voc_0ba9253d",
+    "image_brief": "a woman reviewing a long receipt with a frown, seen from above at medium distance, kitchen light, bags and a purse, regretful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "It is easy to **overspend** online."
+  },
+  {
+    "phrase": "gamble",
+    "pos": "verb",
+    "sense": "risk-money-on-a-result",
+    "pronunciation": "/ˈɡæmbəl/",
+    "definition": "to risk money on a game or result.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "present_example": "He **gambles** only on weekends.",
+    "past_simple_example": "She **gambled** her savings on the deal.",
+    "past_participle_example": "They have **gambled** with the company's future.",
+    "present_participle_example": "**Gambling** is illegal in that state.",
+    "image": "voc_6a1139c9",
+    "image_brief": "a man placing chips on a casino table, seen from behind at medium distance, dim light, a dealer and a glass, tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Do not **gamble** with rent money."
+  },
+  {
+    "phrase": "broke",
+    "pos": "adjective",
+    "sense": "having-no-money-left",
+    "pronunciation": "/broʊk/",
+    "definition": "having no money left.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_cace9447",
+    "image_brief": "a young man counting small change at a table, seen from above at medium distance, morning light, an empty cup and a phone, rueful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I am **broke** until Friday."
+  },
+  {
+    "phrase": "overpriced",
+    "pos": "adjective",
+    "sense": "costing-more-than-it-is-worth",
+    "pronunciation": "/ˌoʊvɝˈpraɪst/",
+    "definition": "costing more than it is worth.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_c0d6814e",
+    "image_brief": "a shopper putting an item back on a shelf, seen from the side at medium distance, shop light, a price tag turned away and a basket, annoyed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The drinks are **overpriced**."
+  },
+  {
+    "phrase": "worthless",
+    "pos": "adjective",
+    "sense": "having-no-value",
+    "pronunciation": "/ˈwɝθləs/",
+    "definition": "having no value.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_fbd08186",
+    "image_brief": "a man holding old share certificates over a bin, seen from the side at medium distance, dusty room light, a box and a chair, resigned mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The shares became **worthless**."
+  },
+  {
+    "phrase": "profitable",
+    "pos": "adjective",
+    "sense": "making-money",
+    "pronunciation": "/ˈprɑfɪtəbəl/",
+    "definition": "making money.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_a9aef3de",
+    "image_brief": "a shop owner smiling at a full till, seen from behind at medium distance, warm light, shelves and a counter, satisfied mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The shop is finally **profitable**."
+  },
+  {
+    "phrase": "bankrupt",
+    "pos": "adjective",
+    "sense": "unable-to-pay-debts",
+    "pronunciation": "/ˈbæŋkrʌpt/",
+    "definition": "unable to pay debts and legally finished as a business.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_fc01967c",
+    "image_brief": "a shop with shutters down while a man walks away, seen from across the street at wide distance, grey light, a bench and a bin, defeated mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The firm went **bankrupt** in May."
+  },
+  {
+    "phrase": "solvent",
+    "pos": "adjective",
+    "sense": "able-to-pay-debts",
+    "pronunciation": "/ˈsɑlvənt/",
+    "definition": "having enough money to pay your debts.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_5aea0ca8",
+    "image_brief": "an accountant showing a positive balance to a business owner, seen from the side at medium distance, office light, a laptop and folders, relieved mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The company stayed **solvent** through the crisis."
+  },
+  {
+    "phrase": "counterfeit",
+    "pos": "adjective",
+    "sense": "made-to-look-real-in-order-to-cheat",
+    "pronunciation": "/ˈkaʊntɝfɪt/",
+    "definition": "made to look real in order to cheat.",
+    "categories": [
+      "money"
+    ],
+    "level": "b2",
+    "image": "voc_84302b26",
+    "image_brief": "a cashier holding a note up to a lamp, seen from the side at medium distance, counter light, a till and a queue, suspicious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The note was **counterfeit**."
+  },
+  {
+    "phrase": "rack",
+    "pos": "noun",
+    "sense": "frame-for-hanging-things",
+    "pronunciation": "/ræk/",
+    "definition": "a frame with bars or hooks for hanging things.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_93876226",
+    "image_brief": "a man hanging coats on a wooden rack in a hallway, seen from the side at medium distance, morning light, shoes and a mirror, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Coats hung on a **rack** by the door."
+  },
+  {
+    "phrase": "mannequin",
+    "pos": "noun",
+    "sense": "model-used-to-display-clothes",
+    "pronunciation": "/ˈmænəkɪn/",
+    "definition": "a model of a human body used to display clothes.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_967ce036",
+    "image_brief": "a woman adjusting a dress on a shop mannequin, seen from the side at medium distance, spotlights, clothes and a mirror, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The dress looked better on the **mannequin**."
+  },
+  {
+    "phrase": "membership",
+    "pos": "noun",
+    "sense": "state-of-belonging-to-a-service",
+    "pronunciation": "/ˈmɛmbɝˌʃɪp/",
+    "definition": "the state of belonging to a group or service.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_eea7ea7b",
+    "image_brief": "a man signing up for a gym membership at a desk, seen from the side at medium distance, bright light, weights and a plant, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her gym **membership** ends in May."
+  },
+  {
+    "phrase": "subscription",
+    "pos": "noun",
+    "sense": "regular-payment-for-a-service",
+    "pronunciation": "/səbˈskrɪpʃən/",
+    "definition": "a regular payment for a service.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_95636c98",
+    "image_brief": "a woman opening a subscription box on a table, seen from above at medium distance, morning light, a cup and packaging, pleased mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **subscription** renews every month."
+  },
+  {
+    "phrase": "shipping",
+    "pos": "noun",
+    "sense": "process-of-sending-goods",
+    "pronunciation": "/ˈʃɪpɪŋ/",
+    "definition": "the process of sending goods to a customer.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_31a7ccd7",
+    "image_brief": "a worker labeling boxes for shipping in a stockroom, seen from the side at medium distance, shelf light, a cart and tape, busy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Shipping** is free over fifty dollars."
+  },
+  {
+    "phrase": "packaging",
+    "pos": "noun",
+    "sense": "material-that-wraps-a-product",
+    "pronunciation": "/ˈpækɪdʒɪŋ/",
+    "definition": "the material that wraps a product.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_d60163c1",
+    "image_brief": "a woman opening a product with too much packaging, seen from above at medium distance, kitchen light, a bin and scissors, annoyed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **packaging** filled half the bin."
+  },
+  {
+    "phrase": "parcel",
+    "pos": "noun",
+    "sense": "package-sent-by-post",
+    "pronunciation": "/ˈpɑrsəl/",
+    "definition": "a package sent by post.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_5b45cd4c",
+    "image_brief": "a delivery worker handing a parcel to a man at a door, seen from the side at medium distance, morning light, a bag and a mat, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **parcel** arrived this morning."
+  },
+  {
+    "phrase": "retail",
+    "pos": "noun",
+    "sense": "sale-to-ordinary-customers",
+    "pronunciation": "/ˈriˌteɪl/",
+    "definition": "the sale of goods to ordinary customers.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_838b6687",
+    "image_brief": "a shop worker folding shirts on a retail floor, seen from the side at medium distance, bright light, racks and a basket, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She works in **retail**."
+  },
+  {
+    "phrase": "wholesale",
+    "pos": "noun",
+    "sense": "sale-in-large-amounts",
+    "pronunciation": "/ˈhoʊlˌseɪl/",
+    "definition": "the sale of goods in large amounts to shops.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_7a0277a6",
+    "image_brief": "a buyer checking large boxes in a wholesale store, seen from the side at wide distance, industrial light, pallets and a trolley, practical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They buy at **wholesale** prices."
+  },
+  {
+    "phrase": "merchandise",
+    "pos": "noun",
+    "sense": "goods-offered-for-sale",
+    "pronunciation": "/ˈmɝtʃənˌdaɪz/",
+    "definition": "goods offered for sale.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_5cb383b8",
+    "image_brief": "a band's merchandise table at a concert while a fan pays, seen from the side at medium distance, dim warm light, shirts and a box, lively mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The band sells **merchandise** after shows."
+  },
+  {
+    "phrase": "goods",
+    "pos": "noun",
+    "sense": "things-made-to-be-sold",
+    "pronunciation": "/ɡʊdz/",
+    "definition": "things made to be sold.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_db15ac7f",
+    "image_brief": "workers unloading goods from a truck outside a shop, seen from the side at wide distance, daylight, crates and a ramp, busy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **goods** arrive by truck."
+  },
+  {
+    "phrase": "clearance",
+    "pos": "noun",
+    "sense": "sale-to-empty-old-stock",
+    "pronunciation": "/ˈklɪrəns/",
+    "definition": "a sale to empty old stock.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_703b2960",
+    "image_brief": "a shopper searching a clearance rack, seen from the side at medium distance, shop light, price tags turned away and a basket, hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The shoes were in the **clearance**."
+  },
+  {
+    "phrase": "auction",
+    "pos": "noun",
+    "sense": "sale-where-people-bid",
+    "pronunciation": "/ˈɔkʃən/",
+    "definition": "a sale where people offer prices and the highest wins.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_ad1b4608",
+    "image_brief": "an auctioneer calling for bids with a raised hand, seen from the side at medium distance, hall light, chairs and a painting, tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The painting sold at **auction**."
+  },
+  {
+    "phrase": "bidder",
+    "pos": "noun",
+    "sense": "person-who-offers-a-price",
+    "pronunciation": "/ˈbɪdɝ/",
+    "definition": "a person who offers a price at an auction.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_e1231702",
+    "image_brief": "a bidder raising a card at an auction, seen from behind at medium distance, soft light, chairs and a catalog turned away, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Only one **bidder** turned up."
+  },
+  {
+    "phrase": "seller",
+    "pos": "noun",
+    "sense": "person-who-sells-something",
+    "pronunciation": "/ˈsɛlɝ/",
+    "definition": "a person who sells something.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_3932ad2f",
+    "image_brief": "a seller handing a bag to a customer at a stall, seen from the side at medium distance, warm light, crates and a box, friendly mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **seller** accepted a lower price."
+  },
+  {
+    "phrase": "shopper",
+    "pos": "noun",
+    "sense": "person-buying-things",
+    "pronunciation": "/ˈʃɑpɝ/",
+    "definition": "a person who is buying things.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_82b1a57f",
+    "image_brief": "a shopper comparing two items in a supermarket aisle, seen from the side at medium distance, flat light, a trolley and shelves, thoughtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Every **shopper** got a free sample."
+  },
+  {
+    "phrase": "wishlist",
+    "pos": "noun",
+    "sense": "list-of-things-you-want",
+    "pronunciation": "/ˈwɪʃˌlɪst/",
+    "definition": "a list of things you want to buy.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_48e1df8a",
+    "image_brief": "a woman adding an item to a wishlist on her phone, seen from the side at medium distance, café light, a cup and a bag, wishful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She added the coat to her **wishlist**."
+  },
+  {
+    "phrase": "tracking",
+    "pos": "noun",
+    "sense": "following-a-deliverys-progress",
+    "pronunciation": "/ˈtrækɪŋ/",
+    "definition": "the process of following a delivery's progress.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_74684d8c",
+    "image_brief": "a man checking delivery tracking on his phone at home, seen from the side at medium distance, evening light, a door and a coat, impatient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Tracking** says the parcel is nearby."
+  },
+  {
+    "phrase": "returns",
+    "pos": "noun",
+    "sense": "goods-sent-back-to-a-shop",
+    "pronunciation": "/rɪˈtɝnz/",
+    "definition": "goods sent back to a shop.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_bfccc52d",
+    "image_brief": "a customer handing a parcel to a returns desk, seen from the side at medium distance, bright shop light, a queue and a counter, apologetic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The shop handles **returns** at the back."
+  },
+  {
+    "phrase": "layaway",
+    "pos": "noun",
+    "sense": "paying-in-parts-before-receiving",
+    "pronunciation": "/ˈleɪəˌweɪ/",
+    "definition": "a way to pay for goods in parts before receiving them.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_ca80dd3e",
+    "image_brief": "a woman paying the first part of a layaway plan, seen from the side at medium distance, shop light, a till and a bag, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They put the sofa on **layaway**."
+  },
+  {
+    "phrase": "concession",
+    "pos": "noun",
+    "sense": "small-shop-inside-a-larger-place",
+    "pronunciation": "/kənˈsɛʃən/",
+    "definition": "a small shop inside a larger place.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_14ca9ba6",
+    "image_brief": "a cinema concession worker serving popcorn, seen from the side at medium distance, warm light, snacks and a counter, brisk mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The cinema **concession** sells popcorn."
+  },
+  {
+    "phrase": "vending",
+    "pos": "noun",
+    "sense": "sale-of-goods-from-machines",
+    "pronunciation": "/ˈvɛndɪŋ/",
+    "definition": "the sale of goods from machines.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_a0dc0895",
+    "image_brief": "a man buying a drink from a vending machine, seen from the side at medium distance, station light, a bench and a bag, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **vending** machine is empty."
+  },
+  {
+    "phrase": "storefront",
+    "pos": "noun",
+    "sense": "front-of-a-shop-facing-the-street",
+    "pronunciation": "/ˈstɔrˌfrʌnt/",
+    "definition": "the front of a shop facing the street.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_b4a307f7",
+    "image_brief": "a couple painting a new storefront before opening, seen from across the street at wide distance, morning light, a ladder and a brush, hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They painted the **storefront** blue."
+  },
+  {
+    "phrase": "shopfront",
+    "pos": "noun",
+    "sense": "front-of-a-shop-seen-from-outside",
+    "pronunciation": "/ˈʃɑpˌfrʌnt/",
+    "definition": "the front of a shop, seen from outside.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_bc72ebf5",
+    "image_brief": "an old shopfront with a fresh sign frame while a woman looks up, seen from across the street at wide distance, afternoon light, a bicycle and a bin, nostalgic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A new **shopfront** replaced the old one."
+  },
+  {
+    "phrase": "bazaar",
+    "pos": "noun",
+    "sense": "market-with-many-small-stalls",
+    "pronunciation": "/bəˈzɑr/",
+    "definition": "a market with many small stalls.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_b91ff035",
+    "image_brief": "shoppers moving between stalls at a busy bazaar, seen from a high angle at wide distance, warm evening light, lanterns and rugs, lively mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **bazaar** opens at sunset."
+  },
+  {
+    "phrase": "cashback",
+    "pos": "noun",
+    "sense": "money-returned-on-a-purchase",
+    "pronunciation": "/ˈkæʃˌbæk/",
+    "definition": "money returned on a purchase.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_e55196ff",
+    "image_brief": "a woman checking cashback on a receipt at a café, seen from above at medium distance, warm light, a cup and a phone, pleased mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The card gives two percent **cashback**."
+  },
+  {
+    "phrase": "points",
+    "pos": "noun",
+    "sense": "rewards-collected-for-purchases",
+    "pronunciation": "/pɔɪnts/",
+    "definition": "rewards collected for purchases.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_720cbc70",
+    "image_brief": "a man showing his points balance on a phone at a counter, seen from the side at medium distance, bright light, a bag and a till, satisfied mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She pays with **points** from the app."
+  },
+  {
+    "phrase": "perk",
+    "pos": "noun",
+    "sense": "extra-benefit-from-a-membership",
+    "pronunciation": "/pɝk/",
+    "definition": "an extra benefit from a job or membership.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_ba5a73fa",
+    "image_brief": "an employee choosing a perk on a laptop at work, seen from the side at medium distance, office light, a coffee and a plant, thoughtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Free delivery is a useful **perk**."
+  },
+  {
+    "phrase": "markup",
+    "pos": "noun",
+    "sense": "amount-added-to-a-cost",
+    "pronunciation": "/ˈmɑrˌkʌp/",
+    "definition": "the amount added to a cost to set a price.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_4858f5f6",
+    "image_brief": "a shop owner changing a price on a tag, seen from the side at medium distance, counter light, a pen and goods, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **markup** on coffee is huge."
+  },
+  {
+    "phrase": "theft",
+    "pos": "noun",
+    "sense": "crime-of-stealing",
+    "pronunciation": "/θɛft/",
+    "definition": "the crime of stealing.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_5cf8c846",
+    "image_brief": "a security guard reviewing a store aisle after a theft, seen from the side at wide distance, flat light, a cart and a camera, tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The store reported the **theft**."
+  },
+  {
+    "phrase": "pickpocket",
+    "pos": "noun",
+    "sense": "person-who-steals-from-pockets",
+    "pronunciation": "/ˈpɪkˌpɑkɪt/",
+    "definition": "a person who steals from pockets.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_d85bb7e0",
+    "image_brief": "a crowd on a bus while a man checks his empty pocket, seen from the side at medium distance, dim light, a rail and a bag, alarmed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **pickpocket** took his wallet."
+  },
+  {
+    "phrase": "poster",
+    "pos": "noun",
+    "sense": "large-printed-advertising-picture",
+    "pronunciation": "/ˈpoʊstɝ/",
+    "definition": "a large printed picture used for advertising.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_c0a89ee4",
+    "image_brief": "a worker hanging a large poster in a shop window, seen from the side at medium distance, morning light, tape and a ladder, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **poster** advertised the sale."
+  },
+  {
+    "phrase": "shoplift",
+    "pos": "verb",
+    "sense": "steal-goods-from-a-shop",
+    "pronunciation": "/ˈʃɑpˌlɪft/",
+    "definition": "to steal goods from a shop.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "present_example": "He **shoplifts** when nobody watches.",
+    "past_simple_example": "She **shoplifted** a scarf last year.",
+    "past_participle_example": "The goods have been **shoplifted**.",
+    "present_participle_example": "**Shoplifting** costs shops millions.",
+    "image": "voc_5c8b007d",
+    "image_brief": "a guard watching a person slip an item into a bag, seen from the side at medium distance, store light, shelves and a cart, suspicious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He tried to **shoplift** a jacket."
+  },
+  {
+    "phrase": "bid",
+    "pos": "verb",
+    "sense": "offer-a-price-at-an-auction",
+    "pronunciation": "/bɪd/",
+    "definition": "to offer a price at an auction.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "present_example": "Dealers **bid** quickly at the sale.",
+    "past_simple_example": "He **bid** twice and stopped.",
+    "past_participle_example": "Nobody has **bid** on the painting.",
+    "present_participle_example": "**Bidding** starts at noon.",
+    "image": "voc_18b5eee4",
+    "image_brief": "a man raising a hand to bid at an auction, seen from the side at medium distance, hall light, chairs and a catalog, decisive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She will **bid** on the old clock."
+  },
+  {
+    "phrase": "barter",
+    "pos": "verb",
+    "sense": "exchange-goods-without-money",
+    "pronunciation": "/ˈbɑrtɝ/",
+    "definition": "to exchange goods without money.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "present_example": "They **barter** vegetables for eggs.",
+    "past_simple_example": "We **bartered** a radio for a bike.",
+    "past_participle_example": "Nothing has been **bartered** yet.",
+    "present_participle_example": "**Bartering** works well in small towns.",
+    "image": "voc_87d46fa6",
+    "image_brief": "two farmers exchanging produce at a market, seen from the side at medium distance, morning light, crates and scales, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **barter** vegetables for eggs."
+  },
+  {
+    "phrase": "trade",
+    "pos": "verb",
+    "sense": "exchange-one-thing-for-another",
+    "pronunciation": "/treɪd/",
+    "definition": "to exchange one thing for another.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "present_example": "Collectors **trade** cards at the fair.",
+    "past_simple_example": "She **traded** her old phone.",
+    "past_participle_example": "They have **traded** stamps for years.",
+    "present_participle_example": "**Trading** without money is rare now.",
+    "image": "voc_e26b3a84",
+    "image_brief": "collectors trading cards at a table, seen from above at medium distance, afternoon light, albums and cups, friendly mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Collectors **trade** cards at the fair."
+  },
+  {
+    "phrase": "swap",
+    "pos": "verb",
+    "sense": "give-something-and-receive-something",
+    "pronunciation": "/swɑp/",
+    "definition": "to give something and receive something else.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "present_example": "Friends **swap** clothes every season.",
+    "past_simple_example": "He **swapped** seats with me.",
+    "past_participle_example": "The parts have been **swapped**.",
+    "present_participle_example": "**Swapping** shifts takes a week.",
+    "image": "voc_35a2b907",
+    "image_brief": "two friends swapping jackets on a street, seen from the side at medium distance, daylight, bags and a bench, playful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Friends **swap** clothes every season."
+  },
+  {
+    "phrase": "outbid",
+    "pos": "verb",
+    "sense": "offer-more-than-someone-else",
+    "pronunciation": "/ˌaʊtˈbɪd/",
+    "definition": "to offer a higher price than someone.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "present_example": "Dealers **outbid** each other quickly.",
+    "past_simple_example": "She **outbid** him by five dollars.",
+    "past_participle_example": "We have been **outbid** twice.",
+    "present_participle_example": "**Outbidding** rivals gets expensive.",
+    "image": "voc_70cabdf5",
+    "image_brief": "two bidders glancing at each other during an auction, seen from the side at medium distance, hall light, chairs and a gavel, tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A dealer **outbid** everyone on the painting."
+  },
+  {
+    "phrase": "vend",
+    "pos": "verb",
+    "sense": "sell-goods-especially-by-machine",
+    "pronunciation": "/vɛnd/",
+    "definition": "to sell goods, especially from a machine.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "present_example": "The machines **vend** coffee and snacks.",
+    "past_simple_example": "The kiosk **vended** cold drinks all summer.",
+    "past_participle_example": "Fresh fruit is **vended** here.",
+    "present_participle_example": "**Vending** machines are checked weekly.",
+    "image": "voc_6b7af93a",
+    "image_brief": "a machine vending snacks in an office corridor while a man waits, seen from the side at medium distance, flat light, a door and a bin, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The machines **vend** coffee and snacks."
+  },
+  {
+    "phrase": "defective",
+    "pos": "adjective",
+    "sense": "not-working-because-of-a-fault",
+    "pronunciation": "/dɪˈfɛktɪv/",
+    "definition": "not working properly because of a fault.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_a3507ea4",
+    "image_brief": "a man returning a defective kettle to a shop, seen from the side at medium distance, bright light, a counter and a bag, annoyed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **defective** charger was replaced."
+  },
+  {
+    "phrase": "faulty",
+    "pos": "adjective",
+    "sense": "not-working-correctly",
+    "pronunciation": "/ˈfɔlti/",
+    "definition": "not working correctly.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_f8a60bed",
+    "image_brief": "a woman testing a faulty lamp at home, seen from the side at medium distance, evening light, a plug and a table, frustrated mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **faulty** switch started a fire."
+  },
+  {
+    "phrase": "unopened",
+    "pos": "adjective",
+    "sense": "still-closed-and-unused",
+    "pronunciation": "/ʌnˈoʊpənd/",
+    "definition": "still closed and not used.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_03023638",
+    "image_brief": "a woman placing an unopened box on a returns counter, seen from the side at medium distance, shop light, a receipt and a queue, apologetic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **unopened** box went back to the shop."
+  },
+  {
+    "phrase": "sealed",
+    "pos": "adjective",
+    "sense": "closed-tightly",
+    "pronunciation": "/sild/",
+    "definition": "closed tightly so nothing can enter.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_c778b885",
+    "image_brief": "a man checking that a package is sealed before opening, seen from above at medium distance, kitchen light, a knife and a box, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Keep the bag **sealed** until use."
+  },
+  {
+    "phrase": "refundable",
+    "pos": "adjective",
+    "sense": "able-to-be-paid-back",
+    "pronunciation": "/rɪˈfʌndəbəl/",
+    "definition": "able to be paid back.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_82c2239e",
+    "image_brief": "a clerk explaining a refundable deposit at a counter, seen from the side at medium distance, bright light, a till and a form, helpful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The deposit is **refundable**."
+  },
+  {
+    "phrase": "returnable",
+    "pos": "adjective",
+    "sense": "able-to-be-sent-back",
+    "pronunciation": "/rɪˈtɝnəbəl/",
+    "definition": "able to be sent back to the shop.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_7ca1571f",
+    "image_brief": "a woman stacking returnable bottles by a shop door, seen from the side at medium distance, morning light, a crate and a bin, tidy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Glass bottles are **returnable** here."
+  },
+  {
+    "phrase": "priceless",
+    "pos": "adjective",
+    "sense": "worth-more-than-any-price",
+    "pronunciation": "/ˈpraɪsləs/",
+    "definition": "worth so much that no price can be set.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_817f0a98",
+    "image_brief": "an older woman showing a family photo to a friend, seen from the side at medium distance, lamp light, a cup and an album, warm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The family photos are **priceless**."
+  },
+  {
+    "phrase": "pricy",
+    "pos": "adjective",
+    "sense": "more-expensive-than-expected",
+    "pronunciation": "/ˈpraɪsi/",
+    "definition": "more expensive than expected.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_fedfd087",
+    "image_brief": "a diner checking a pricy menu at a restaurant, seen from the side at medium distance, warm light, a glass and a napkin, hesitant mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The hotel restaurant is **pricy**."
+  },
+  {
+    "phrase": "economical",
+    "pos": "adjective",
+    "sense": "cheap-to-use-or-buy",
+    "pronunciation": "/ˌɛkəˈnɑmɪkəl/",
+    "definition": "cheap to use or buy.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_aad41d65",
+    "image_brief": "a man comparing fuel use on two car listings, seen from the side at medium distance, daylight, a notebook and keys, practical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A small car is more **economical**."
+  },
+  {
+    "phrase": "thrifty",
+    "pos": "adjective",
+    "sense": "careful-with-money",
+    "pronunciation": "/ˈθrɪfti/",
+    "definition": "careful with money.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_c35288b4",
+    "image_brief": "a woman mending a shirt instead of buying a new one, seen from the side at medium distance, window light, a sewing kit and a cup, content mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **thrifty** habits paid the deposit."
+  },
+  {
+    "phrase": "extravagant",
+    "pos": "adjective",
+    "sense": "spending-more-than-necessary",
+    "pronunciation": "/ɪkˈstrævəɡənt/",
+    "definition": "spending much more than necessary.",
+    "categories": [
+      "shopping"
+    ],
+    "level": "b2",
+    "image": "voc_b3202520",
+    "image_brief": "a couple receiving an extravagant dessert with sparklers, seen from the side at medium distance, warm light, a table and glasses, amused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The party was **extravagant**."
+  },
+  {
+    "phrase": "destination",
+    "pos": "noun",
+    "sense": "place-someone-is-traveling-to",
+    "pronunciation": "/ˌdɛstəˈneɪʃən/",
+    "definition": "the place someone is traveling to.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_40f31b06",
+    "image_brief": "a traveler reading a sign at a bus station, seen from the side at medium distance, morning light, a bag and a bench, hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The island is a popular **destination**."
+  },
+  {
+    "phrase": "transit",
+    "pos": "noun",
+    "sense": "passing-through-a-place-on-a-journey",
+    "pronunciation": "/ˈtrænzɪt/",
+    "definition": "the act of passing through a place on a journey.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_203bb1d8",
+    "image_brief": "passengers waiting with bags in a transit hall, seen from the side at wide distance, flat light, screens turned away and chairs, tired mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We had two hours in **transit**."
+  },
+  {
+    "phrase": "baggage",
+    "pos": "noun",
+    "sense": "bags-and-cases-you-travel-with",
+    "pronunciation": "/ˈbæɡɪdʒ/",
+    "definition": "the bags and cases you travel with.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_6d8c5f7d",
+    "image_brief": "a man waiting beside a baggage carousel, seen from the side at medium distance, terminal light, a suitcase and a strap, impatient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "His **baggage** arrived a day late."
+  },
+  {
+    "phrase": "inn",
+    "pos": "noun",
+    "sense": "small-traditional-hotel",
+    "pronunciation": "/ɪn/",
+    "definition": "a small hotel, often old and traditional.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_03f9d8a8",
+    "image_brief": "a couple arriving at a small country inn, seen from across the road at wide distance, evening light, a gate and a lamp, cozy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They stayed at a country **inn**."
+  },
+  {
+    "phrase": "lodge",
+    "pos": "noun",
+    "sense": "small-hotel-in-the-countryside",
+    "pronunciation": "/lɑdʒ/",
+    "definition": "a small hotel in the countryside or mountains.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_c7c089b3",
+    "image_brief": "a wooden lodge among trees with a guest on the porch, seen from the side at wide distance, morning light, a path and a canoe, quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **lodge** has six rooms."
+  },
+  {
+    "phrase": "motel",
+    "pos": "noun",
+    "sense": "hotel-beside-a-road",
+    "pronunciation": "/moʊˈtɛl/",
+    "definition": "a hotel beside a road, with parking outside the rooms.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_e9cad977",
+    "image_brief": "a motel with parked cars outside the rooms while a traveler unlocks a door, seen from the side at wide distance, dusk light, a sign turned away, weary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We stopped at a **motel** by the highway."
+  },
+  {
+    "phrase": "traveler",
+    "pos": "noun",
+    "sense": "person-who-is-traveling",
+    "pronunciation": "/ˈtrævəlɝ/",
+    "definition": "a person who is traveling.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_1eed1d03",
+    "image_brief": "a traveler checking a paper map on a station bench, seen from the side at medium distance, morning light, a backpack and a cup, curious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Every **traveler** needs a charged phone."
+  },
+  {
+    "phrase": "guidebook",
+    "pos": "noun",
+    "sense": "book-of-information-about-a-place",
+    "pronunciation": "/ˈɡaɪdˌbʊk/",
+    "definition": "a book of information about a place.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_a7ebf67c",
+    "image_brief": "a woman reading a guidebook on a café terrace, seen from the side at medium distance, warm light, a cup and a bag, planning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **guidebook** listed three good walks."
+  },
+  {
+    "phrase": "brochure",
+    "pos": "noun",
+    "sense": "thin-book-that-advertises",
+    "pronunciation": "/broʊˈʃʊr/",
+    "definition": "a thin book that advertises something.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_86f9bd3b",
+    "image_brief": "a man choosing a brochure at a travel desk, seen from the side at medium distance, bright light, shelves and a plant, hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She picked up a **brochure** at the desk."
+  },
+  {
+    "phrase": "excursion",
+    "pos": "noun",
+    "sense": "short-organized-trip",
+    "pronunciation": "/ɪkˈskɝʒən/",
+    "definition": "a short organized trip.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_190f9cf3",
+    "image_brief": "a small group boarding a minibus for an excursion, seen from the side at wide distance, morning light, a guide and bags, cheerful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The hotel runs a daily **excursion**."
+  },
+  {
+    "phrase": "shuttle",
+    "pos": "noun",
+    "sense": "vehicle-traveling-between-two-points",
+    "pronunciation": "/ˈʃʌtəl/",
+    "definition": "a vehicle that travels regularly between two points.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_8c48ec71",
+    "image_brief": "a shuttle bus pulling up at an airport curb with passengers waiting, seen from the side at wide distance, flat light, luggage and a sign turned away, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **shuttle** leaves every twenty minutes."
+  },
+  {
+    "phrase": "carriage",
+    "pos": "noun",
+    "sense": "vehicle-pulled-by-horses",
+    "pronunciation": "/ˈkærɪdʒ/",
+    "definition": "a vehicle pulled by horses or a train coach.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_60e60666",
+    "image_brief": "a horse-drawn carriage waiting in a cobbled street, seen from the side at wide distance, afternoon light, a driver and a lamp, nostalgic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They rode in a horse-drawn **carriage**."
+  },
+  {
+    "phrase": "voyage",
+    "pos": "noun",
+    "sense": "long-journey-by-sea",
+    "pronunciation": "/ˈvɔɪɪdʒ/",
+    "definition": "a long journey by sea or space.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_e27a0781",
+    "image_brief": "a ship leaving a harbor on a long voyage, seen from the shore at wide distance, evening light, a pier and gulls, wistful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **voyage** took six weeks."
+  },
+  {
+    "phrase": "expedition",
+    "pos": "noun",
+    "sense": "long-organized-journey-for-a-purpose",
+    "pronunciation": "/ˌɛkspəˈdɪʃən/",
+    "definition": "a long organized journey for a purpose.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_d394b193",
+    "image_brief": "climbers roped together on a snowy slope, seen from behind at wide distance, cold light, packs and poles, determined mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **expedition** crossed the ice."
+  },
+  {
+    "phrase": "pilgrimage",
+    "pos": "noun",
+    "sense": "journey-to-a-holy-place",
+    "pronunciation": "/ˈpɪlɡrəmɪdʒ/",
+    "definition": "a journey to a holy place.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_d33d1e07",
+    "image_brief": "walkers arriving at an old stone church, seen from behind at wide distance, morning light, a path and crosses turned away, reverent mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **pilgrimage** ends at the old church."
+  },
+  {
+    "phrase": "honeymoon",
+    "pos": "noun",
+    "sense": "holiday-after-a-wedding",
+    "pronunciation": "/ˈhʌniˌmun/",
+    "definition": "a holiday taken after a wedding.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_2ac136d8",
+    "image_brief": "a couple walking on a beach at sunset with a small bag, seen from behind at wide distance, golden light, a boat and towels, romantic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Their **honeymoon** was in Portugal."
+  },
+  {
+    "phrase": "camping",
+    "pos": "noun",
+    "sense": "sleeping-outdoors-in-a-tent",
+    "pronunciation": "/ˈkæmpɪŋ/",
+    "definition": "the activity of sleeping outdoors in a tent.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_06668756",
+    "image_brief": "a tent pitched by a stream with two people cooking, seen from the side at wide distance, evening light, a lantern and packs, peaceful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We go **camping** every August."
+  },
+  {
+    "phrase": "backpacking",
+    "pos": "noun",
+    "sense": "traveling-cheaply-with-a-backpack",
+    "pronunciation": "/ˈbækˌpækɪŋ/",
+    "definition": "traveling with a backpack, usually cheaply.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_73c34a7e",
+    "image_brief": "a young traveler with a large backpack walking a mountain road, seen from behind at wide distance, morning light, a fence and a village below, free mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Backpacking** through Asia changed her."
+  },
+  {
+    "phrase": "safari",
+    "pos": "noun",
+    "sense": "trip-to-watch-wild-animals",
+    "pronunciation": "/səˈfɑri/",
+    "definition": "a trip to watch wild animals.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_c705f29f",
+    "image_brief": "a jeep stopped near giraffes on a plain while a guide points, seen from the side at wide distance, golden light, dust and a camera, awed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **safari** started before sunrise."
+  },
+  {
+    "phrase": "monument",
+    "pos": "noun",
+    "sense": "structure-that-remembers-an-event",
+    "pronunciation": "/ˈmɑnjəmənt/",
+    "definition": "a structure built to remember a person or event.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_f8954061",
+    "image_brief": "a stone monument in a square with a guide speaking, seen from the side at wide distance, afternoon light, benches and pigeons, solemn mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **monument** stands in the square."
+  },
+  {
+    "phrase": "cathedral",
+    "pos": "noun",
+    "sense": "very-large-important-church",
+    "pronunciation": "/kəˈθidrəl/",
+    "definition": "a very large important church.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_d65b6694",
+    "image_brief": "visitors standing beneath the arches of a cathedral, seen from a low angle at wide distance, colored window light, candles and chairs, hushed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **cathedral** took two centuries to build."
+  },
+  {
+    "phrase": "castle",
+    "pos": "noun",
+    "sense": "large-strong-building-from-the-past",
+    "pronunciation": "/ˈkæsəl/",
+    "definition": "a large strong building from the past.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_9f595de5",
+    "image_brief": "a castle on a hill above a river with a boat passing below, seen from across the river at wide distance, grey light, walls and trees, grand mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **castle** sits above the river."
+  },
+  {
+    "phrase": "ruins",
+    "pos": "noun",
+    "sense": "remains-of-an-old-building",
+    "pronunciation": "/ˈruɪnz/",
+    "definition": "the remains of an old building.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_3ae2a531",
+    "image_brief": "tourists walking among the ruins of old columns, seen from the side at wide distance, bright light, grass and stones, curious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **ruins** are open to visitors."
+  },
+  {
+    "phrase": "viewpoint",
+    "pos": "noun",
+    "sense": "place-with-a-good-view",
+    "pronunciation": "/ˈvjuˌpɔɪnt/",
+    "definition": "a place with a good view.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_8c16f0a4",
+    "image_brief": "a couple at a viewpoint above a valley, seen from behind at wide distance, soft evening light, a rail and a bench, expansive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **viewpoint** looks over the bay."
+  },
+  {
+    "phrase": "panorama",
+    "pos": "noun",
+    "sense": "wide-view-of-an-area",
+    "pronunciation": "/ˌpænəˈræmə/",
+    "definition": "a wide view of an area.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_183f74af",
+    "image_brief": "the panorama of a city from a rooftop while a woman turns slowly, seen from behind at wide distance, dusk light, antennas and a rail, amazed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The roof gives a **panorama** of the city."
+  },
+  {
+    "phrase": "scenery",
+    "pos": "noun",
+    "sense": "natural-views-of-an-area",
+    "pronunciation": "/ˈsinɝi/",
+    "definition": "the natural views of an area.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_ed6fe213",
+    "image_brief": "a train window framing mountains and fields while a passenger looks out, seen from the side at medium distance, morning light, a cup and a seat, calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The train follows some beautiful **scenery**."
+  },
+  {
+    "phrase": "landscape",
+    "pos": "noun",
+    "sense": "visible-shape-of-the-land",
+    "pronunciation": "/ˈlændˌskeɪp/",
+    "definition": "the visible shape of the land.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_3f6f0158",
+    "image_brief": "a wide landscape of fields and hills under a cloudy sky with one walker small on a path, seen from a high angle at wide distance, soft light, a fence and a tree, serene mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **landscape** turns green in spring."
+  },
+  {
+    "phrase": "seaside",
+    "pos": "noun",
+    "sense": "area-beside-the-sea",
+    "pronunciation": "/ˈsiˌsaɪd/",
+    "definition": "the area beside the sea.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_dcf8ec40",
+    "image_brief": "a family walking along a seaside promenade, seen from the side at wide distance, bright light, a kiosk and a railing, easy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They spent a week at the **seaside**."
+  },
+  {
+    "phrase": "port",
+    "pos": "noun",
+    "sense": "place-where-ships-load-and-unload",
+    "pronunciation": "/pɔrt/",
+    "definition": "a town or place where ships load and unload.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_a9c6a9fd",
+    "image_brief": "cranes loading containers at a busy port, seen from the side at wide distance, morning light, ships and trucks, industrial mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **port** handles a hundred ships a day."
+  },
+  {
+    "phrase": "pier",
+    "pos": "noun",
+    "sense": "structure-built-out-into-water",
+    "pronunciation": "/pɪr/",
+    "definition": "a long structure built out into the water.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_4e532a99",
+    "image_brief": "two people fishing from a wooden pier at dawn, seen from the side at wide distance, pink light, buckets and ropes, quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "People fished from the **pier**."
+  },
+  {
+    "phrase": "memento",
+    "pos": "noun",
+    "sense": "object-kept-to-remember-a-place",
+    "pronunciation": "/məˈmɛntoʊ/",
+    "definition": "an object kept to remember a place or event.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_813a7c9c",
+    "image_brief": "a woman placing a small stone from a trip on a shelf, seen from the side at medium distance, afternoon light, photos and a box, nostalgic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He kept the ticket as a **memento**."
+  },
+  {
+    "phrase": "keepsake",
+    "pos": "noun",
+    "sense": "small-object-kept-for-memories",
+    "pronunciation": "/ˈkipˌseɪk/",
+    "definition": "a small object kept for its memories.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_887df4a9",
+    "image_brief": "a man holding an old ticket in a small box, seen from above at medium distance, lamp light, letters and a cup, reflective mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The shell is a **keepsake** from that summer."
+  },
+  {
+    "phrase": "nomad",
+    "pos": "noun",
+    "sense": "person-who-moves-from-place-to-place",
+    "pronunciation": "/ˈnoʊˌmæd/",
+    "definition": "a person who moves from place to place.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_6d5d8ed0",
+    "image_brief": "a nomad leading animals across a dry plain, seen from behind at wide distance, dusty light, tents and a cart, hardy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **nomad** carries everything he owns."
+  },
+  {
+    "phrase": "migrant",
+    "pos": "noun",
+    "sense": "person-who-moves-for-work",
+    "pronunciation": "/ˈmaɪɡrənt/",
+    "definition": "a person who moves to another place for work.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_eb10460f",
+    "image_brief": "workers picking fruit in a field with baskets, seen from the side at wide distance, morning light, a truck and crates, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **migrant** picked fruit for the season."
+  },
+  {
+    "phrase": "emigrant",
+    "pos": "noun",
+    "sense": "person-who-leaves-their-country",
+    "pronunciation": "/ˈɛmɪɡrənt/",
+    "definition": "a person who leaves their country to live elsewhere.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_376adc0a",
+    "image_brief": "a family with suitcases on an old ship deck, seen from the side at wide distance, sepia light, rails and hats, bittersweet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her grandfather was an **emigrant**."
+  },
+  {
+    "phrase": "immigrant",
+    "pos": "noun",
+    "sense": "person-who-comes-to-live-elsewhere",
+    "pronunciation": "/ˈɪmɪɡrənt/",
+    "definition": "a person who comes to live in another country.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_4282b55f",
+    "image_brief": "a baker opening a small shop for the first time, seen from across the street at wide distance, morning light, a sign turned away and crates, hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **immigrant** opened a bakery."
+  },
+  {
+    "phrase": "refugee",
+    "pos": "noun",
+    "sense": "person-who-fled-for-safety",
+    "pronunciation": "/ˌrɛfjʊˈdʒi/",
+    "definition": "a person who fled their country for safety.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_a90b5c0d",
+    "image_brief": "a family arriving at a shelter with a few bags, seen from the side at medium distance, grey light, a volunteer and a door, tired relieved mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **refugee** learned the language quickly."
+  },
+  {
+    "phrase": "frontier",
+    "pos": "noun",
+    "sense": "border-between-two-countries",
+    "pronunciation": "/frʌnˈtɪr/",
+    "definition": "the border between two countries.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_44370a08",
+    "image_brief": "a quiet road crossing a border line between fields, seen from a high angle at wide distance, pale light, a barrier and a hut, tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They crossed the **frontier** at night."
+  },
+  {
+    "phrase": "checkpoint",
+    "pos": "noun",
+    "sense": "place-where-officials-check-travelers",
+    "pronunciation": "/ˈtʃɛkˌpɔɪnt/",
+    "definition": "a place where officials check travelers.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_7ed3d266",
+    "image_brief": "cars queuing at a checkpoint while guards check papers, seen from the side at wide distance, harsh light, barriers and a booth, serious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **checkpoint** slowed every car."
+  },
+  {
+    "phrase": "lounge",
+    "pos": "noun",
+    "sense": "comfortable-airport-waiting-room",
+    "pronunciation": "/laʊndʒ/",
+    "definition": "a comfortable waiting room at an airport.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_154bb75a",
+    "image_brief": "a traveler asleep in an airport lounge chair, seen from the side at medium distance, dim light, a bag and a coffee, weary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She slept in the **lounge**."
+  },
+  {
+    "phrase": "detour",
+    "pos": "noun",
+    "sense": "longer-route-to-avoid-something",
+    "pronunciation": "/ˈditʊr/",
+    "definition": "a longer route taken to avoid something.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_a6d56b3f",
+    "image_brief": "a driver turning onto a detour road marked by cones, seen from the side at wide distance, grey light, a truck and a field, patient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The road works forced a **detour**."
+  },
+  {
+    "phrase": "shortcut",
+    "pos": "noun",
+    "sense": "quicker-way-to-a-place",
+    "pronunciation": "/ˈʃɔrtˌkʌt/",
+    "definition": "a quicker way to a place.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_6f1deb6f",
+    "image_brief": "a man climbing over a low wall into a park path, seen from the side at medium distance, morning light, trees and a bench, furtive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He knows a **shortcut** through the park."
+  },
+  {
+    "phrase": "jetlag",
+    "pos": "noun",
+    "sense": "tiredness-after-crossing-time-zones",
+    "pronunciation": "/ˈdʒɛtˌlæɡ/",
+    "definition": "tiredness after flying across time zones.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_0285820d",
+    "image_brief": "a man awake in a hotel bed in daylight, seen from across the room at medium distance, curtains and a clock, groggy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Jetlag** kept her awake until dawn."
+  },
+  {
+    "phrase": "seasickness",
+    "pos": "noun",
+    "sense": "nausea-from-a-boats-movement",
+    "pronunciation": "/ˈsiˌsɪknəs/",
+    "definition": "nausea caused by the movement of a boat.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_c479c60d",
+    "image_brief": "a passenger leaning on a ferry rail looking pale, seen from the side at medium distance, grey sea light, a lifebuoy and a bag, queasy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Seasickness** ruined the first day."
+  },
+  {
+    "phrase": "embark",
+    "pos": "verb",
+    "sense": "get-on-a-ship-or-plane",
+    "pronunciation": "/ɪmˈbɑrk/",
+    "definition": "to get on a ship or plane for a journey.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "present_example": "Passengers **embark** at nine.",
+    "past_simple_example": "They **embarked** on the ferry.",
+    "past_participle_example": "The group has **embarked** already.",
+    "present_participle_example": "**Embarking** in the rain was slow.",
+    "image": "voc_97c61533",
+    "image_brief": "passengers walking up a gangway to a ferry, seen from the side at wide distance, morning light, ropes and a booth, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Passengers **embark** at nine."
+  },
+  {
+    "phrase": "hitchhike",
+    "pos": "verb",
+    "sense": "travel-by-asking-for-free-rides",
+    "pronunciation": "/ˈhɪtʃˌhaɪk/",
+    "definition": "to travel by asking for free rides.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "present_example": "They **hitchhike** along the coast road.",
+    "past_simple_example": "He **hitchhiked** to the border.",
+    "past_participle_example": "She has **hitchhiked** across three countries.",
+    "present_participle_example": "**Hitchhiking** is slower than the bus.",
+    "image": "voc_a267701d",
+    "image_brief": "a young woman with a backpack waiting at the edge of a road, seen from across the road at wide distance, afternoon light, a post and fields, hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **hitchhike** along the coast road."
+  },
+  {
+    "phrase": "overseas",
+    "pos": "adjective",
+    "sense": "in-a-foreign-country-across-the-sea",
+    "pronunciation": "/ˌoʊvɝˈsiz/",
+    "definition": "in or to a foreign country across the sea.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_f1ae16ae",
+    "image_brief": "a traveler showing photos from an overseas trip, seen from the side at medium distance, lamp light, a laptop and a cup, proud mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **overseas** trip took two weeks."
+  },
+  {
+    "phrase": "exotic",
+    "pos": "adjective",
+    "sense": "foreign-and-unusual",
+    "pronunciation": "/ɪɡˈzɑtɪk/",
+    "definition": "exciting because it is foreign and unusual.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_5a222d7f",
+    "image_brief": "a market stall piled with exotic fruit while a shopper points, seen from the side at medium distance, warm light, baskets and a scale, curious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The market sells **exotic** fruit."
+  },
+  {
+    "phrase": "touristy",
+    "pos": "adjective",
+    "sense": "full-of-tourists-and-shops",
+    "pronunciation": "/ˈtʊrəsti/",
+    "definition": "full of tourists and their shops.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_24b7c32c",
+    "image_brief": "a crowded souvenir street with shops and visitors, seen from a high angle at wide distance, bright light, signs turned away and bags, busy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The old town is **touristy** in summer."
+  },
+  {
+    "phrase": "picturesque",
+    "pos": "adjective",
+    "sense": "pretty-enough-for-a-picture",
+    "pronunciation": "/ˌpɪktʃəˈrɛsk/",
+    "definition": "pretty enough to be in a picture.",
+    "categories": [
+      "travel"
+    ],
+    "level": "b2",
+    "image": "voc_11d2dae8",
+    "image_brief": "a picturesque village of stone houses by a lake with one visitor photographing, seen from across the water at wide distance, soft light, a boat and a bridge, postcard mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **picturesque** village sits by a lake."
   }
 ]

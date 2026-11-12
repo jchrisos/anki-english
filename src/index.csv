@@ -5399,3 +5399,253 @@ vocabulary,culinary,relating-to-cooking,adjective,b2,kitchen,relating to cooking
 vocabulary,gourmet,of-very-high-food-quality,adjective,b2,kitchen,of very high food quality
 vocabulary,homemade,made-at-home,adjective,b2,kitchen,made at home rather than bought
 vocabulary,canned,preserved-in-a-metal-container,adjective,b2,kitchen,preserved in a metal container
+vocabulary,nightstand,small-table-beside-a-bed,noun,b2,home,a small table beside a bed
+vocabulary,stool,seat-with-no-back,noun,b2,home,a seat with no back
+vocabulary,cushion,soft-bag-to-sit-on,noun,b2,home,a soft bag filled with material to sit on
+vocabulary,shutter,cover-for-a-window,noun,b2,home,a wooden or metal cover for a window
+vocabulary,thermostat,device-that-controls-temperature,noun,b2,home,a device that controls the temperature
+vocabulary,boiler,machine-that-heats-water,noun,b2,home,a large machine that heats water
+vocabulary,furnace,machine-that-heats-a-building,noun,b2,home,a machine that heats a building
+vocabulary,insulation,material-that-stops-heat-escaping,noun,b2,home,material that stops heat escaping
+vocabulary,ventilation,movement-of-fresh-air,noun,b2,home,the movement of fresh air through a space
+vocabulary,cellar,room-under-a-house,noun,b2,home,a room under a house often for storage
+vocabulary,lawn,area-of-short-grass,noun,b2,home,an area of short grass around a house
+vocabulary,bedspread,cover-over-a-bed,noun,b2,home,a cover spread over a bed
+vocabulary,headboard,upright-board-at-the-head-of-a-bed,noun,b2,home,the upright board at the head of a bed
+vocabulary,keyhole,hole-in-a-lock,noun,b2,home,the hole in a lock for a key
+vocabulary,hinge,joint-that-lets-a-door-swing,noun,b2,home,a joint that lets a door swing
+vocabulary,doorknob,round-handle-that-opens-a-door,noun,b2,home,the round handle that opens a door
+vocabulary,latch,small-bar-that-keeps-a-door-shut,noun,b2,home,a small bar that keeps a door closed
+vocabulary,bolt,metal-bar-that-locks-a-door,noun,b2,home,a metal bar that locks a door
+vocabulary,skylight,window-in-a-roof,noun,b2,home,a window in a roof
+vocabulary,awning,cover-over-a-doorway,noun,b2,home,a cover that keeps sun or rain off a doorway
+vocabulary,drainpipe,pipe-that-carries-rain-away,noun,b2,home,a pipe that carries rainwater away
+vocabulary,hearth,floor-area-by-a-fireplace,noun,b2,home,the floor area in front of a fireplace
+vocabulary,mantel,shelf-above-a-fireplace,noun,b2,home,the shelf above a fireplace
+vocabulary,deed,legal-proof-of-property-ownership,noun,b2,home,a legal document proving who owns a property
+vocabulary,backyard,area-behind-a-house,noun,b2,home,the area behind a house
+vocabulary,flowerbed,area-where-flowers-are-planted,noun,b2,home,an area where flowers are planted
+vocabulary,greenhouse,glass-building-for-plants,noun,b2,home,a glass building for growing plants
+vocabulary,paving,hard-surface-of-a-path,noun,b2,home,the hard surface of a path or yard
+vocabulary,hose,long-tube-for-water,noun,b2,home,a long tube used to carry water
+vocabulary,sprinkler,device-that-sprays-water,noun,b2,home,a device that sprays water on plants
+vocabulary,lawnmower,machine-that-cuts-grass,noun,b2,home,a machine that cuts grass
+vocabulary,wheelbarrow,small-cart-for-garden-work,noun,b2,home,a small cart with one wheel for garden work
+vocabulary,basin,bowl-for-washing,noun,b2,home,a bowl for washing or a sink
+vocabulary,outlet,socket-for-electricity,noun,b2,home,a socket where electricity is available
+vocabulary,fuse,part-that-stops-too-much-electricity,noun,b2,home,a part that stops too much electricity
+vocabulary,generator,machine-that-produces-electricity,noun,b2,home,a machine that produces electricity
+vocabulary,doorstep,step-in-front-of-an-entrance,noun,b2,home,the step in front of an entrance
+vocabulary,rake,tool-for-gathering-leaves,noun,b2,home,a tool with a long handle and teeth
+vocabulary,shovel,tool-with-a-wide-blade,noun,b2,home,a tool with a wide blade for digging
+vocabulary,furnish,put-furniture-into-a-place,verb,b2,home,to put furniture into a place
+vocabulary,wallpaper,cover-a-wall-with-paper,verb,b2,home,to cover a wall with decorative paper
+vocabulary,plumb,fit-or-repair-water-pipes,verb,b2,home,to fit or repair water pipes
+vocabulary,wire,connect-with-electrical-wires,verb,b2,home,to connect with electrical wires
+vocabulary,screw,fasten-with-a-twisted-metal-pin,verb,b2,home,to fasten with a twisted metal pin
+vocabulary,cluttered,full-of-too-many-things,adjective,b2,home,full of too many things
+vocabulary,spotless,perfectly-clean,adjective,b2,home,perfectly clean
+vocabulary,dusty,covered-with-fine-dry-dust,adjective,b2,home,covered with a fine dry powder
+vocabulary,shabby,old-and-in-poor-condition,adjective,b2,home,old and in poor condition
+vocabulary,welcoming,friendly-and-inviting,adjective,b2,home,friendly and inviting
+vocabulary,airy,with-plenty-of-fresh-air,adjective,b2,home,with plenty of fresh air and light
+vocabulary,resignation,act-of-leaving-a-job,noun,b2,work,the act of officially leaving a job
+vocabulary,retirement,stopping-work-for-good,noun,b2,work,the time when someone stops working for good
+vocabulary,roster,list-of-who-works-when,noun,b2,work,a list showing who works when
+vocabulary,stakeholder,person-with-an-interest-in-a-project,noun,b2,work,a person with an interest in a project
+vocabulary,supplier,company-that-provides-goods,noun,b2,work,a company that provides goods
+vocabulary,procurement,buying-supplies-for-an-organization,noun,b2,work,the process of buying supplies for an organization
+vocabulary,logistics,planning-the-movement-of-goods,noun,b2,work,the planning of moving goods and people
+vocabulary,inventory,goods-a-business-has-in-stock,noun,b2,work,the goods a business has in stock
+vocabulary,warehouse,large-building-for-storing-goods,noun,b2,work,a large building for storing goods
+vocabulary,dispatch,act-of-sending-goods-somewhere,noun,b2,work,the act of sending goods or people somewhere
+vocabulary,shipment,load-of-goods-sent-together,noun,b2,work,a load of goods sent together
+vocabulary,courier,person-who-delivers-packages,noun,b2,work,a person who delivers packages
+vocabulary,freight,goods-carried-in-large-amounts,noun,b2,work,goods carried in large amounts
+vocabulary,cargo,goods-carried-by-ship-or-plane,noun,b2,work,the goods carried by a ship or plane
+vocabulary,workshop,practical-training-session,noun,b2,work,a practical training session for a group
+vocabulary,briefing,short-meeting-to-give-information,noun,b2,work,a short meeting to give information
+vocabulary,quota,fixed-amount-someone-must-produce,noun,b2,work,a fixed amount someone must produce or sell
+vocabulary,payroll,list-of-employees-and-their-pay,noun,b2,work,the list of employees and their pay
+vocabulary,benefits,extras-an-employer-gives-besides-pay,noun,b2,work,extra things an employer gives besides pay
+vocabulary,maternity,time-off-to-have-a-baby,noun,b2,work,the time a woman takes off work to have a baby
+vocabulary,probation,trial-period-at-the-start-of-a-job,noun,b2,work,a trial period at the start of a job
+vocabulary,redundancy,loss-of-a-job-no-longer-needed,noun,b2,work,the loss of a job because it is no longer needed
+vocabulary,layoff,ending-jobs-for-economic-reasons,noun,b2,work,the ending of jobs for economic reasons
+vocabulary,dismissal,act-of-removing-someone-from-a-job,noun,b2,work,the act of removing someone from a job
+vocabulary,severance,money-paid-when-losing-a-job,noun,b2,work,money paid to someone who loses a job
+vocabulary,appraisal,formal-review-of-someones-work,noun,b2,work,a formal review of someone's work
+vocabulary,evaluation,careful-judgment-of-quality,noun,b2,work,a careful judgment of how good something is
+vocabulary,onboarding,bringing-a-new-employee-in,noun,b2,work,the process of bringing a new employee into a company
+vocabulary,induction,course-introducing-a-new-job,noun,b2,work,a course that introduces people to a new job
+vocabulary,orientation,introduction-to-a-new-place-or-role,noun,b2,work,an introduction to a new place or role
+vocabulary,trainee,person-learning-a-job,noun,b2,work,a person learning a job
+vocabulary,cubicle,small-divided-office-space,noun,b2,work,a small office space divided by low walls
+vocabulary,headquarters,main-office-of-an-organization,noun,b2,work,the main office of an organization
+vocabulary,franchise,business-using-anothers-name,noun,b2,work,a business that uses another company's name
+vocabulary,premises,buildings-a-business-uses,noun,b2,work,the buildings and land a business uses
+vocabulary,facility,building-used-for-a-purpose,noun,b2,work,a building or place used for a purpose
+vocabulary,supervisor,person-who-watches-over-workers,noun,b2,work,a person who watches over other workers
+vocabulary,executive,senior-manager-in-a-company,noun,b2,work,a senior manager in a company
+vocabulary,entrepreneur,person-who-starts-businesses,noun,b2,work,a person who starts businesses
+vocabulary,freelancer,person-working-for-different-clients,noun,b2,work,a person who works for different clients
+vocabulary,contractor,person-paid-to-do-work-for-others,noun,b2,work,a person or firm paid to do work for others
+vocabulary,delegate,give-a-task-to-someone-else,verb,b2,work,to give a task to someone else
+vocabulary,collaborate,work-together-on-something,verb,b2,work,to work together on something
+vocabulary,coordinate,organize-people-so-they-work-together,verb,b2,work,to organize people or tasks so they work together
+vocabulary,outsource,pay-another-company-to-do-work,verb,b2,work,to pay another company to do work
+vocabulary,overworked,having-too-much-work,adjective,b2,work,having too much work
+vocabulary,understaffed,not-having-enough-workers,adjective,b2,work,not having enough workers
+vocabulary,rewarding,giving-satisfaction,adjective,b2,work,giving satisfaction
+vocabulary,tedious,long-and-boring,adjective,b2,work,long and boring
+vocabulary,menial,not-skilled-or-important,adjective,b2,work,not skilled or important
+vocabulary,liability,debt-or-obligation-owed,noun,b2,money,a debt or obligation a person or company owes
+vocabulary,turnover,total-money-a-business-receives,noun,b2,money,the total money a business receives in a period
+vocabulary,dividend,profit-share-paid-to-shareholders,noun,b2,money,part of a company's profit paid to shareholders
+vocabulary,transaction,act-of-buying-or-transferring-money,noun,b2,money,an act of buying selling or transferring money
+vocabulary,allowance,money-given-regularly,noun,b2,money,money given regularly often to a child
+vocabulary,payslip,paper-showing-your-pay,noun,b2,money,a paper showing how much you were paid
+vocabulary,inflation,general-rise-in-prices,noun,b2,money,a general rise in prices over time
+vocabulary,recession,period-when-the-economy-shrinks,noun,b2,money,a period when the economy shrinks
+vocabulary,banking,business-of-keeping-and-lending-money,noun,b2,money,the business of keeping and lending money
+vocabulary,accounting,work-of-keeping-financial-records,noun,b2,money,the work of keeping financial records
+vocabulary,audit,official-check-of-financial-records,noun,b2,money,an official check of financial records
+vocabulary,auditor,person-who-checks-financial-records,noun,b2,money,a person who checks financial records
+vocabulary,teller,person-who-serves-bank-customers,noun,b2,money,a person who serves customers in a bank
+vocabulary,vault,strong-room-for-money,noun,b2,money,a strong room for keeping money or valuables
+vocabulary,shareholder,person-who-owns-part-of-a-company,noun,b2,money,a person who owns part of a company
+vocabulary,stockbroker,person-who-trades-shares-for-others,noun,b2,money,a person who buys and sells shares for others
+vocabulary,investor,person-who-puts-money-into-business,noun,b2,money,a person who puts money into a business
+vocabulary,creditor,person-you-owe-money-to,noun,b2,money,a person or company you owe money to
+vocabulary,debtor,person-who-owes-money,noun,b2,money,a person who owes money
+vocabulary,borrower,person-who-takes-money-to-repay,noun,b2,money,a person who takes money and must repay it
+vocabulary,lender,person-or-company-that-lends-money,noun,b2,money,a person or company that lends money
+vocabulary,equity,property-value-after-debts,noun,b2,money,the value of a property after debts are removed
+vocabulary,collateral,property-promised-for-a-loan,noun,b2,money,property promised if a loan is not repaid
+vocabulary,premium,money-paid-for-insurance,noun,b2,money,the money paid for an insurance policy
+vocabulary,fundraiser,event-that-collects-money,noun,b2,money,an event that collects money for a cause
+vocabulary,donation,money-given-to-help,noun,b2,money,money or goods given to help
+vocabulary,subsidy,government-money-to-lower-costs,noun,b2,money,money a government gives to lower costs
+vocabulary,lottery,game-with-numbered-tickets,noun,b2,money,a game where numbered tickets can win money
+vocabulary,jackpot,largest-prize-in-a-game,noun,b2,money,the largest prize in a game
+vocabulary,overdraft,spending-beyond-your-account,noun,b2,money,money spent beyond what is in an account
+vocabulary,arrears,money-owed-from-before,noun,b2,money,money owed that should have been paid earlier
+vocabulary,default,failure-to-repay-a-loan,noun,b2,money,failure to repay a loan on time
+vocabulary,bailout,money-given-to-save-a-business,noun,b2,money,money given to save a failing business
+vocabulary,fraud,deceiving-people-for-money,noun,b2,money,the crime of deceiving people for money
+vocabulary,scam,dishonest-plan-to-take-money,noun,b2,money,a dishonest plan to take money
+vocabulary,rebate,money-returned-after-paying,noun,b2,money,money returned after you have paid
+vocabulary,levy,extra-charge-or-tax,noun,b2,money,an extra charge or tax
+vocabulary,tariff,tax-on-imported-goods,noun,b2,money,a tax on goods entering a country
+vocabulary,reimburse,pay-someone-back,verb,b2,money,to pay someone back money they spent
+vocabulary,haggle,argue-about-a-price,verb,b2,money,to argue about a price
+vocabulary,splurge,spend-a-lot-on-something-special,verb,b2,money,to spend a lot on something special
+vocabulary,overspend,spend-more-than-planned,verb,b2,money,to spend more than you planned
+vocabulary,gamble,risk-money-on-a-result,verb,b2,money,to risk money on a game or result
+vocabulary,broke,having-no-money-left,adjective,b2,money,having no money left
+vocabulary,overpriced,costing-more-than-it-is-worth,adjective,b2,money,costing more than it is worth
+vocabulary,worthless,having-no-value,adjective,b2,money,having no value
+vocabulary,profitable,making-money,adjective,b2,money,making money
+vocabulary,bankrupt,unable-to-pay-debts,adjective,b2,money,unable to pay debts and finished as a business
+vocabulary,solvent,able-to-pay-debts,adjective,b2,money,having enough money to pay your debts
+vocabulary,counterfeit,made-to-look-real-in-order-to-cheat,adjective,b2,money,made to look real in order to cheat
+vocabulary,rack,frame-for-hanging-things,noun,b2,shopping,a frame with bars or hooks for hanging things
+vocabulary,mannequin,model-used-to-display-clothes,noun,b2,shopping,a model of a human body used to display clothes
+vocabulary,membership,state-of-belonging-to-a-service,noun,b2,shopping,the state of belonging to a group or service
+vocabulary,subscription,regular-payment-for-a-service,noun,b2,shopping,a regular payment for a service
+vocabulary,shipping,process-of-sending-goods,noun,b2,shopping,the process of sending goods to a customer
+vocabulary,packaging,material-that-wraps-a-product,noun,b2,shopping,the material that wraps a product
+vocabulary,parcel,package-sent-by-post,noun,b2,shopping,a package sent by post
+vocabulary,retail,sale-to-ordinary-customers,noun,b2,shopping,the sale of goods to ordinary customers
+vocabulary,wholesale,sale-in-large-amounts,noun,b2,shopping,the sale of goods in large amounts to shops
+vocabulary,merchandise,goods-offered-for-sale,noun,b2,shopping,goods offered for sale
+vocabulary,goods,things-made-to-be-sold,noun,b2,shopping,things made to be sold
+vocabulary,clearance,sale-to-empty-old-stock,noun,b2,shopping,a sale to empty old stock
+vocabulary,auction,sale-where-people-bid,noun,b2,shopping,a sale where people offer prices
+vocabulary,bidder,person-who-offers-a-price,noun,b2,shopping,a person who offers a price at an auction
+vocabulary,seller,person-who-sells-something,noun,b2,shopping,a person who sells something
+vocabulary,shopper,person-buying-things,noun,b2,shopping,a person who is buying things
+vocabulary,wishlist,list-of-things-you-want,noun,b2,shopping,a list of things you want to buy
+vocabulary,tracking,following-a-deliverys-progress,noun,b2,shopping,the process of following a delivery's progress
+vocabulary,returns,goods-sent-back-to-a-shop,noun,b2,shopping,goods sent back to a shop
+vocabulary,layaway,paying-in-parts-before-receiving,noun,b2,shopping,a way to pay in parts before receiving goods
+vocabulary,concession,small-shop-inside-a-larger-place,noun,b2,shopping,a small shop inside a larger place
+vocabulary,vending,sale-of-goods-from-machines,noun,b2,shopping,the sale of goods from machines
+vocabulary,storefront,front-of-a-shop-facing-the-street,noun,b2,shopping,the front of a shop facing the street
+vocabulary,shopfront,front-of-a-shop-seen-from-outside,noun,b2,shopping,the front of a shop seen from outside
+vocabulary,bazaar,market-with-many-small-stalls,noun,b2,shopping,a market with many small stalls
+vocabulary,cashback,money-returned-on-a-purchase,noun,b2,shopping,money returned on a purchase
+vocabulary,points,rewards-collected-for-purchases,noun,b2,shopping,rewards collected for purchases
+vocabulary,perk,extra-benefit-from-a-membership,noun,b2,shopping,an extra benefit from a job or membership
+vocabulary,markup,amount-added-to-a-cost,noun,b2,shopping,the amount added to a cost to set a price
+vocabulary,theft,crime-of-stealing,noun,b2,shopping,the crime of stealing
+vocabulary,pickpocket,person-who-steals-from-pockets,noun,b2,shopping,a person who steals from pockets
+vocabulary,poster,large-printed-advertising-picture,noun,b2,shopping,a large printed picture used for advertising
+vocabulary,shoplift,steal-goods-from-a-shop,verb,b2,shopping,to steal goods from a shop
+vocabulary,bid,offer-a-price-at-an-auction,verb,b2,shopping,to offer a price at an auction
+vocabulary,barter,exchange-goods-without-money,verb,b2,shopping,to exchange goods without money
+vocabulary,trade,exchange-one-thing-for-another,verb,b2,shopping,to exchange one thing for another
+vocabulary,swap,give-something-and-receive-something,verb,b2,shopping,to give something and receive something else
+vocabulary,outbid,offer-more-than-someone-else,verb,b2,shopping,to offer a higher price than someone
+vocabulary,vend,sell-goods-especially-by-machine,verb,b2,shopping,to sell goods especially from a machine
+vocabulary,defective,not-working-because-of-a-fault,adjective,b2,shopping,not working properly because of a fault
+vocabulary,faulty,not-working-correctly,adjective,b2,shopping,not working correctly
+vocabulary,unopened,still-closed-and-unused,adjective,b2,shopping,still closed and not used
+vocabulary,sealed,closed-tightly,adjective,b2,shopping,closed tightly so nothing can enter
+vocabulary,refundable,able-to-be-paid-back,adjective,b2,shopping,able to be paid back
+vocabulary,returnable,able-to-be-sent-back,adjective,b2,shopping,able to be sent back to the shop
+vocabulary,priceless,worth-more-than-any-price,adjective,b2,shopping,worth so much that no price can be set
+vocabulary,pricy,more-expensive-than-expected,adjective,b2,shopping,more expensive than expected
+vocabulary,economical,cheap-to-use-or-buy,adjective,b2,shopping,cheap to use or buy
+vocabulary,thrifty,careful-with-money,adjective,b2,shopping,careful with money
+vocabulary,extravagant,spending-more-than-necessary,adjective,b2,shopping,spending much more than necessary
+vocabulary,destination,place-someone-is-traveling-to,noun,b2,travel,the place someone is traveling to
+vocabulary,transit,passing-through-a-place-on-a-journey,noun,b2,travel,the act of passing through a place on a journey
+vocabulary,baggage,bags-and-cases-you-travel-with,noun,b2,travel,the bags and cases you travel with
+vocabulary,inn,small-traditional-hotel,noun,b2,travel,a small hotel often old and traditional
+vocabulary,lodge,small-hotel-in-the-countryside,noun,b2,travel,a small hotel in the countryside or mountains
+vocabulary,motel,hotel-beside-a-road,noun,b2,travel,a hotel beside a road with parking outside rooms
+vocabulary,traveler,person-who-is-traveling,noun,b2,travel,a person who is traveling
+vocabulary,guidebook,book-of-information-about-a-place,noun,b2,travel,a book of information about a place
+vocabulary,brochure,thin-book-that-advertises,noun,b2,travel,a thin book that advertises something
+vocabulary,excursion,short-organized-trip,noun,b2,travel,a short organized trip
+vocabulary,shuttle,vehicle-traveling-between-two-points,noun,b2,travel,a vehicle that travels regularly between two points
+vocabulary,carriage,vehicle-pulled-by-horses,noun,b2,travel,a vehicle pulled by horses or a train coach
+vocabulary,voyage,long-journey-by-sea,noun,b2,travel,a long journey by sea or space
+vocabulary,expedition,long-organized-journey-for-a-purpose,noun,b2,travel,a long organized journey for a purpose
+vocabulary,pilgrimage,journey-to-a-holy-place,noun,b2,travel,a journey to a holy place
+vocabulary,honeymoon,holiday-after-a-wedding,noun,b2,travel,a holiday taken after a wedding
+vocabulary,camping,sleeping-outdoors-in-a-tent,noun,b2,travel,the activity of sleeping outdoors in a tent
+vocabulary,backpacking,traveling-cheaply-with-a-backpack,noun,b2,travel,traveling with a backpack usually cheaply
+vocabulary,safari,trip-to-watch-wild-animals,noun,b2,travel,a trip to watch wild animals
+vocabulary,monument,structure-that-remembers-an-event,noun,b2,travel,a structure built to remember a person or event
+vocabulary,cathedral,very-large-important-church,noun,b2,travel,a very large important church
+vocabulary,castle,large-strong-building-from-the-past,noun,b2,travel,a large strong building from the past
+vocabulary,ruins,remains-of-an-old-building,noun,b2,travel,the remains of an old building
+vocabulary,viewpoint,place-with-a-good-view,noun,b2,travel,a place with a good view
+vocabulary,panorama,wide-view-of-an-area,noun,b2,travel,a wide view of an area
+vocabulary,scenery,natural-views-of-an-area,noun,b2,travel,the natural views of an area
+vocabulary,landscape,visible-shape-of-the-land,noun,b2,travel,the visible shape of the land
+vocabulary,seaside,area-beside-the-sea,noun,b2,travel,the area beside the sea
+vocabulary,port,place-where-ships-load-and-unload,noun,b2,travel,a town or place where ships load and unload
+vocabulary,pier,structure-built-out-into-water,noun,b2,travel,a long structure built out into the water
+vocabulary,memento,object-kept-to-remember-a-place,noun,b2,travel,an object kept to remember a place or event
+vocabulary,keepsake,small-object-kept-for-memories,noun,b2,travel,a small object kept for its memories
+vocabulary,nomad,person-who-moves-from-place-to-place,noun,b2,travel,a person who moves from place to place
+vocabulary,migrant,person-who-moves-for-work,noun,b2,travel,a person who moves to another place for work
+vocabulary,emigrant,person-who-leaves-their-country,noun,b2,travel,a person who leaves their country to live elsewhere
+vocabulary,immigrant,person-who-comes-to-live-elsewhere,noun,b2,travel,a person who comes to live in another country
+vocabulary,refugee,person-who-fled-for-safety,noun,b2,travel,a person who fled their country for safety
+vocabulary,frontier,border-between-two-countries,noun,b2,travel,the border between two countries
+vocabulary,checkpoint,place-where-officials-check-travelers,noun,b2,travel,a place where officials check travelers
+vocabulary,lounge,comfortable-airport-waiting-room,noun,b2,travel,a comfortable waiting room at an airport
+vocabulary,detour,longer-route-to-avoid-something,noun,b2,travel,a longer route taken to avoid something
+vocabulary,shortcut,quicker-way-to-a-place,noun,b2,travel,a quicker way to a place
+vocabulary,jetlag,tiredness-after-crossing-time-zones,noun,b2,travel,tiredness after flying across time zones
+vocabulary,seasickness,nausea-from-a-boats-movement,noun,b2,travel,nausea caused by the movement of a boat
+vocabulary,embark,get-on-a-ship-or-plane,verb,b2,travel,to get on a ship or plane for a journey
+vocabulary,hitchhike,travel-by-asking-for-free-rides,verb,b2,travel,to travel by asking for free rides
+vocabulary,overseas,in-a-foreign-country-across-the-sea,adjective,b2,travel,in or to a foreign country across the sea
+vocabulary,exotic,foreign-and-unusual,adjective,b2,travel,exciting because it is foreign and unusual
+vocabulary,touristy,full-of-tourists-and-shops,adjective,b2,travel,full of tourists and their shops
+vocabulary,picturesque,pretty-enough-for-a-picture,adjective,b2,travel,pretty enough to be in a picture
