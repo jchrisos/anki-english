@@ -5649,3 +5649,253 @@ vocabulary,overseas,in-a-foreign-country-across-the-sea,adjective,b2,travel,in o
 vocabulary,exotic,foreign-and-unusual,adjective,b2,travel,exciting because it is foreign and unusual
 vocabulary,touristy,full-of-tourists-and-shops,adjective,b2,travel,full of tourists and their shops
 vocabulary,picturesque,pretty-enough-for-a-picture,adjective,b2,travel,pretty enough to be in a picture
+vocabulary,interchange,place-where-major-roads-meet,noun,b2,transport,a place where two major roads meet and cross
+vocabulary,motorway,wide-road-for-fast-traffic,noun,b2,transport,a wide road for fast long-distance traffic
+vocabulary,overtaking,passing-another-vehicle,noun,b2,transport,the act of passing another vehicle
+vocabulary,dock,place-where-a-ship-ties-up,noun,b2,transport,the place where a ship ties up to load
+vocabulary,anchor,heavy-object-that-holds-a-ship,noun,b2,transport,a heavy object dropped to keep a ship still
+vocabulary,immigration,official-control-of-people-entering,noun,b2,transport,the official control of people entering a country
+vocabulary,airfare,price-of-a-plane-ticket,noun,b2,transport,the price of a plane ticket
+vocabulary,motorbike,two-wheeled-vehicle-with-an-engine,noun,b2,transport,a two-wheeled vehicle with an engine
+vocabulary,moped,small-slow-motorcycle,noun,b2,transport,a small slow motorcycle
+vocabulary,skateboard,board-with-wheels-for-riding,noun,b2,transport,a board with wheels for riding
+vocabulary,railway,system-of-tracks-for-trains,noun,b2,transport,the system of tracks for trains
+vocabulary,rail,metal-line-a-train-runs-on,noun,b2,transport,one of the metal lines a train runs on
+vocabulary,locomotive,engine-that-pulls-a-train,noun,b2,transport,the engine that pulls a train
+vocabulary,signpost,post-showing-directions,noun,b2,transport,a post showing the direction of places
+vocabulary,freighter,ship-or-plane-that-carries-goods,noun,b2,transport,a ship or plane that carries goods
+vocabulary,tanker,ship-or-truck-that-carries-liquid,noun,b2,transport,a ship or truck that carries liquid
+vocabulary,cockpit,part-of-a-plane-for-pilots,noun,b2,transport,the part of a plane where the pilots sit
+vocabulary,taxiway,path-a-plane-uses-on-the-ground,noun,b2,transport,the path a plane uses to move on the ground
+vocabulary,wharf,platform-where-ships-load,noun,b2,transport,a platform beside water where ships load
+vocabulary,jetty,small-structure-out-into-water,noun,b2,transport,a small structure built out into the water
+vocabulary,marina,harbor-for-small-boats,noun,b2,transport,a harbor for small boats
+vocabulary,buoy,floating-marker-in-water,noun,b2,transport,a floating marker in the water
+vocabulary,lifeboat,boat-used-to-rescue-people,noun,b2,transport,a boat used to rescue people at sea
+vocabulary,lifejacket,vest-that-keeps-you-floating,noun,b2,transport,a vest that keeps you floating
+vocabulary,lifeguard,person-who-watches-swimmers,noun,b2,transport,a person who watches swimmers for safety
+vocabulary,raft,flat-boat-of-joined-material,noun,b2,transport,a flat boat made of joined material
+vocabulary,sailboat,boat-moved-by-the-wind,noun,b2,transport,a boat moved by the wind
+vocabulary,barge,large-flat-boat-for-goods,noun,b2,transport,a large flat boat for goods
+vocabulary,handlebar,bar-you-hold-to-steer,noun,b2,transport,the bar you hold to steer a bicycle
+vocabulary,saddle,seat-on-a-bicycle-or-horse,noun,b2,transport,the seat on a bicycle or horse
+vocabulary,carrier,company-that-transports-goods,noun,b2,transport,a company that transports goods or people
+vocabulary,minibus,small-bus-for-about-twelve,noun,b2,transport,a small bus for about twelve people
+vocabulary,cab,a-taxi,noun,b2,transport,a taxi
+vocabulary,viaduct,long-bridge-for-a-road-or-railway,noun,b2,transport,a long bridge that carries a road or railway
+vocabulary,roadworks,repairs-being-done-on-a-road,noun,b2,transport,repairs being done on a road
+vocabulary,parkway,wide-road-through-open-country,noun,b2,transport,a wide road through a park or countryside
+vocabulary,turnpike,road-where-drivers-pay,noun,b2,transport,a road where drivers pay a toll
+vocabulary,convoy,group-of-vehicles-traveling-together,noun,b2,transport,a group of vehicles traveling together
+vocabulary,escort,person-or-vehicle-that-protects,noun,b2,transport,a person or vehicle traveling with someone for protection
+vocabulary,tollway,road-that-charges-drivers,noun,b2,transport,a road that charges drivers to use it
+vocabulary,disembark,get-off-a-ship-or-plane,verb,b2,transport,to get off a ship or plane
+vocabulary,navigate,find-the-way-through-a-place,verb,b2,transport,to find the way through a place
+vocabulary,pedal,move-a-bicycle-by-pushing-pedals,verb,b2,transport,to move a bicycle by pushing the pedals
+vocabulary,congested,so-full-of-traffic-that-it-slows,adjective,b2,transport,so full of traffic that movement is slow
+vocabulary,gridlocked,so-blocked-traffic-cannot-move,adjective,b2,transport,so blocked that traffic cannot move
+vocabulary,nonstop,without-stopping,adjective,b2,transport,without stopping
+vocabulary,airborne,in-the-air-after-leaving-the-ground,adjective,b2,transport,in the air after leaving the ground
+vocabulary,seaborne,carried-by-sea,adjective,b2,transport,carried by sea
+vocabulary,onboard,on-a-ship-plane-or-train,adjective,b2,transport,on a ship plane or train
+vocabulary,seasick,feeling-sick-from-a-boats-movement,adjective,b2,transport,feeling sick because of a boat's movement
+vocabulary,borough,town-with-its-own-government,noun,b2,city,a town or district with its own local government
+vocabulary,municipality,city-with-its-own-government,noun,b2,city,a city or town with its own government
+vocabulary,precinct,small-official-district-of-a-city,noun,b2,city,a small official district of a city
+vocabulary,ward,district-that-elects-a-representative,noun,b2,city,a district of a city that elects a representative
+vocabulary,skyline,outline-of-buildings-against-the-sky,noun,b2,city,the outline of tall buildings against the sky
+vocabulary,promenade,wide-path-beside-the-sea,noun,b2,city,a wide path for walking beside the sea
+vocabulary,outskirts,outer-areas-of-a-town,noun,b2,city,the outer areas of a town
+vocabulary,uptown,part-of-a-city-away-from-the-center,noun,b2,city,the part of a city away from the center
+vocabulary,midtown,central-business-area,noun,b2,city,the central business area of a city
+vocabulary,council,group-that-governs-a-town,noun,b2,city,the group that governs a town
+vocabulary,mayor,elected-head-of-a-city,noun,b2,city,the elected head of a city government
+vocabulary,zoning,rules-controlling-land-use,noun,b2,city,the rules that control how land can be used
+vocabulary,planning,deciding-how-a-city-will-develop,noun,b2,city,the work of deciding how a city will develop
+vocabulary,infrastructure,basic-roads-and-pipes-of-a-city,noun,b2,city,the basic roads pipes and systems a city needs
+vocabulary,utilities,services-such-as-water-and-power,noun,b2,city,services such as water gas and electricity
+vocabulary,population,number-of-people-in-a-place,noun,b2,city,the number of people living in a place
+vocabulary,census,official-count-of-people,noun,b2,city,an official count of the people in a place
+vocabulary,demographics,statistical-features-of-a-population,noun,b2,city,the statistical features of a population
+vocabulary,gentrification,richer-people-moving-into-a-poor-area,noun,b2,city,the process of richer people moving into a poor area
+vocabulary,slum,poor-crowded-part-of-a-city,noun,b2,city,a poor crowded part of a city
+vocabulary,hawker,person-selling-goods-in-the-street,noun,b2,city,a person who sells goods in the street
+vocabulary,peddler,traveling-person-who-sells-things,noun,b2,city,a person who travels around selling things
+vocabulary,busker,person-performing-in-the-street,noun,b2,city,a person who performs in the street for money
+vocabulary,crossroads,place-where-two-roads-cross,noun,b2,city,a place where two roads cross
+vocabulary,waterfront,land-along-a-citys-water,noun,b2,city,the land along the edge of a city's water
+vocabulary,riverfront,land-beside-a-river-in-a-town,noun,b2,city,the land beside a river in a town
+vocabulary,docklands,area-around-old-docks,noun,b2,city,the area around old docks often redeveloped
+vocabulary,courthouse,building-where-cases-are-heard,noun,b2,city,the building where legal cases are heard
+vocabulary,zone,area-with-a-particular-purpose,noun,b2,city,an area with a particular purpose
+vocabulary,quarter,part-of-a-city-with-character,noun,b2,city,a part of a city with a special character
+vocabulary,arcade,covered-passage-with-shops,noun,b2,city,a covered passage with shops
+vocabulary,atrium,large-open-space-inside-a-building,noun,b2,city,a large open space inside a building
+vocabulary,perimeter,outer-edge-of-an-area,noun,b2,city,the outer edge of an area
+vocabulary,beltway,road-that-circles-a-city,noun,b2,city,a road that circles a city
+vocabulary,housing,buildings-people-live-in,noun,b2,city,buildings that people live in
+vocabulary,tenement,old-building-divided-into-flats,noun,b2,city,an old building divided into small flats
+vocabulary,landfill,place-where-waste-is-buried,noun,b2,city,a large place where waste is buried
+vocabulary,recycling,reusing-materials,noun,b2,city,the process of reusing materials
+vocabulary,siren,loud-device-that-warns-of-danger,noun,b2,city,a loud device that warns of danger
+vocabulary,esplanade,long-open-area-beside-water,noun,b2,city,a long open area for walking beside water
+vocabulary,municipal,belonging-to-a-town-government,adjective,b2,city,belonging to a town or city government
+vocabulary,civic,relating-to-a-city-and-its-people,adjective,b2,city,relating to a city and its people
+vocabulary,metropolitan,relating-to-a-large-city-area,adjective,b2,city,relating to a large city and its area
+vocabulary,cosmopolitan,full-of-many-nationalities,adjective,b2,city,full of people and influences from many countries
+vocabulary,homeless,without-a-place-to-live,adjective,b2,city,without a place to live
+vocabulary,urbanize,make-an-area-more-city-like,verb,b2,city,to make an area more city-like
+vocabulary,populate,fill-a-place-with-people,verb,b2,city,to fill a place with people
+vocabulary,inhabit,live-in-a-place,verb,b2,city,to live in a place
+vocabulary,redevelop,rebuild-an-area-in-a-new-way,verb,b2,city,to rebuild an area in a new way
+vocabulary,revitalize,bring-new-life-to-a-place,verb,b2,city,to bring new life and activity to a place
+vocabulary,gorge,narrow-valley-with-steep-sides,noun,b2,nature,a narrow valley with steep sides
+vocabulary,plateau,high-flat-area-of-land,noun,b2,nature,a high flat area of land
+vocabulary,tundra,cold-treeless-northern-region,noun,b2,nature,a cold treeless region in the far north
+vocabulary,rainforest,thick-wet-forest-in-a-hot-region,noun,b2,nature,a thick wet forest in a hot region
+vocabulary,wetland,land-that-is-wet-most-of-the-year,noun,b2,nature,land that is wet for much of the year
+vocabulary,estuary,wide-river-mouth-meeting-the-sea,noun,b2,nature,the wide mouth of a river where it meets the sea
+vocabulary,delta,land-where-a-river-splits,noun,b2,nature,the land where a river splits before the sea
+vocabulary,lagoon,shallow-water-separated-from-the-sea,noun,b2,nature,a shallow pool of water separated from the sea
+vocabulary,reef,line-of-rock-or-coral-under-water,noun,b2,nature,a line of rock or coral under the water
+vocabulary,atoll,ring-shaped-coral-island,noun,b2,nature,a ring-shaped island of coral
+vocabulary,cape,land-sticking-out-into-the-sea,noun,b2,nature,a piece of land sticking out into the sea
+vocabulary,bay,wide-curve-of-coast,noun,b2,nature,a wide curve of coast where the sea comes in
+vocabulary,gulf,large-sea-partly-surrounded-by-land,noun,b2,nature,a very large area of sea partly surrounded by land
+vocabulary,strait,narrow-water-between-two-lands,noun,b2,nature,a narrow passage of water between two lands
+vocabulary,inlet,small-water-area-reaching-into-land,noun,b2,nature,a small narrow area of water reaching into land
+vocabulary,fjord,deep-sea-inlet-between-cliffs,noun,b2,nature,a deep narrow sea inlet between high cliffs
+vocabulary,geyser,hot-spring-that-shoots-water,noun,b2,nature,a hot spring that shoots water into the air
+vocabulary,crater,large-round-hole-from-an-impact,noun,b2,nature,a large round hole made by an explosion or impact
+vocabulary,savanna,grassy-plain-with-few-trees,noun,b2,nature,a grassy plain with few trees in a hot region
+vocabulary,steppe,large-flat-dry-grassland,noun,b2,nature,a large flat dry grassland
+vocabulary,bog,soft-wet-ground-that-sinks,noun,b2,nature,soft wet ground that sinks under your feet
+vocabulary,creek,small-stream,noun,b2,nature,a small stream
+vocabulary,brook,small-stream,noun,b2,nature,a small stream
+vocabulary,rapids,fast-rough-part-of-a-river,noun,b2,nature,a fast rough part of a river
+vocabulary,cascade,small-waterfall-in-stages,noun,b2,nature,water falling in stages over rocks
+vocabulary,fern,plant-with-long-divided-leaves,noun,b2,nature,a plant with long divided leaves
+vocabulary,moss,small-soft-green-plant,noun,b2,nature,a small soft green plant on damp surfaces
+vocabulary,lichen,gray-green-growth-on-rocks,noun,b2,nature,a small gray-green growth on rocks and trees
+vocabulary,vine,plant-that-climbs-or-trails,noun,b2,nature,a plant that climbs or trails along surfaces
+vocabulary,ivy,climbing-plant-with-dark-leaves,noun,b2,nature,a climbing plant with dark green leaves
+vocabulary,oak,large-tree-with-hard-wood,noun,b2,nature,a large tree with hard wood and acorns
+vocabulary,pine,tall-tree-with-needles,noun,b2,nature,a tall tree with needles that stays green all year
+vocabulary,willow,tree-with-long-soft-branches,noun,b2,nature,a tree with long soft branches near water
+vocabulary,maple,tree-with-broad-leaves,noun,b2,nature,a tree with broad leaves that turns red in autumn
+vocabulary,birch,tree-with-white-bark,noun,b2,nature,a tree with white bark
+vocabulary,wildflower,flower-growing-naturally,noun,b2,nature,a flower growing naturally in a field
+vocabulary,reed,tall-grass-in-shallow-water,noun,b2,nature,a tall grass that grows in shallow water
+vocabulary,peat,dark-soil-of-rotted-plants,noun,b2,nature,dark soil made of partly rotted plants
+vocabulary,gravel,small-loose-stones,noun,b2,nature,small loose stones used on paths
+vocabulary,silt,fine-mud-left-by-water,noun,b2,nature,fine mud carried and left by water
+vocabulary,biodiversity,variety-of-living-things,noun,b2,nature,the variety of living things in a place
+vocabulary,deforestation,cutting-down-of-forests,noun,b2,nature,the cutting down of forests
+vocabulary,pollination,moving-pollen-between-flowers,noun,b2,nature,the process of moving pollen between flowers
+vocabulary,moorland,open-land-with-rough-grass,noun,b2,nature,open high land covered with rough grass and heather
+vocabulary,crest,top-of-a-hill-or-wave,noun,b2,nature,the top of a hill or wave
+vocabulary,pristine,completely-clean-and-unchanged,adjective,b2,nature,completely clean and unchanged
+vocabulary,untouched,not-changed-by-people,adjective,b2,nature,not changed or damaged by people
+vocabulary,pollinate,carry-pollen-to-a-flower,verb,b2,nature,to carry pollen to a flower
+vocabulary,germinate,begin-to-grow-from-a-seed,verb,b2,nature,to begin to grow from a seed
+vocabulary,blossom,open-into-flowers,verb,b2,nature,to open into flowers
+vocabulary,precipitation,water-falling-from-clouds,noun,b2,weather,water that falls from clouds as rain or snow
+vocabulary,haze,thin-mist-that-clouds-the-air,noun,b2,weather,a thin mist that makes the air unclear
+vocabulary,smog,air-pollution-mixed-with-smoke,noun,b2,weather,dirty air mixed with smoke and fumes
+vocabulary,gale,very-strong-wind,noun,b2,weather,a very strong wind
+vocabulary,typhoon,violent-western-pacific-storm,noun,b2,weather,a violent storm in the western Pacific
+vocabulary,cyclone,violent-rotating-storm,noun,b2,weather,a violent rotating storm
+vocabulary,snowfall,amount-of-snow-that-falls,noun,b2,weather,the amount of snow that falls
+vocabulary,rainfall,amount-of-rain-that-falls,noun,b2,weather,the amount of rain that falls
+vocabulary,cloudburst,sudden-very-heavy-rain,noun,b2,weather,a sudden very heavy fall of rain
+vocabulary,hailstone,small-ball-of-ice-from-the-sky,noun,b2,weather,a small ball of ice that falls like rain
+vocabulary,snowdrift,deep-pile-of-moved-snow,noun,b2,weather,a deep pile of snow moved by wind
+vocabulary,tide,regular-rise-and-fall-of-the-sea,noun,b2,weather,the regular rise and fall of the sea
+vocabulary,tsunami,huge-wave-from-undersea-event,noun,b2,weather,a huge wave caused by an undersea event
+vocabulary,solstice,longest-or-shortest-day,noun,b2,weather,the longest or shortest day of the year
+vocabulary,equinox,day-when-day-and-night-are-equal,noun,b2,weather,a day when day and night are equal
+vocabulary,eclipse,one-body-hiding-another,noun,b2,weather,when one body hides another in space
+vocabulary,aurora,colored-lights-in-the-night-sky,noun,b2,weather,colored lights in the night sky near the poles
+vocabulary,hypothermia,dangerous-drop-in-body-temperature,noun,b2,health,a dangerous drop in body temperature
+vocabulary,sunstroke,illness-from-too-much-sun,noun,b2,health,illness caused by too much sun
+vocabulary,dehydration,dangerous-lack-of-water-in-the-body,noun,b2,health,a dangerous lack of water in the body
+vocabulary,windbreaker,light-jacket-that-resists-wind,noun,b2,clothes,a light jacket that resists wind
+vocabulary,poncho,simple-cloth-worn-as-a-raincoat,noun,b2,clothes,a simple cloth worn as a rain coat
+vocabulary,snowplow,vehicle-that-clears-snow,noun,b2,weather,a vehicle that clears snow from roads
+vocabulary,sandbag,bag-of-sand-used-as-a-barrier,noun,b2,weather,a bag of sand used as a barrier
+vocabulary,levee,bank-built-to-stop-flooding,noun,b2,weather,a bank built to stop a river flooding
+vocabulary,vane,device-that-shows-wind-direction,noun,b2,weather,a device that shows wind direction
+vocabulary,foghorn,loud-horn-that-warns-ships,noun,b2,weather,a loud horn that warns ships in fog
+vocabulary,squall,sudden-violent-gust-of-wind,noun,b2,weather,a sudden violent gust of wind
+vocabulary,flurry,short-light-fall-of-snow,noun,b2,weather,a short light fall of snow
+vocabulary,iceberg,large-floating-mass-of-ice,noun,b2,weather,a large floating mass of ice
+vocabulary,floe,flat-sheet-of-floating-ice,noun,b2,weather,a flat sheet of floating ice
+vocabulary,sled,vehicle-with-runners-for-snow,noun,b2,weather,a vehicle with runners for snow
+vocabulary,sleigh,large-sled-pulled-by-horses,noun,b2,weather,a large sled pulled by horses
+vocabulary,parasol,light-umbrella-for-sun,noun,b2,weather,a light umbrella for sun
+vocabulary,thundercloud,dark-cloud-that-makes-thunder,noun,b2,weather,a dark cloud that produces thunder
+vocabulary,windstorm,storm-with-very-strong-wind,noun,b2,weather,a storm with very strong wind
+vocabulary,deluge,very-heavy-flood-of-rain,noun,b2,weather,a very heavy flood of rain
+vocabulary,torrent,fast-powerful-flow-of-water,noun,b2,weather,a fast powerful flow of water
+vocabulary,polar,relating-to-the-cold-ends-of-the-earth,adjective,b2,weather,relating to the cold areas at the ends of the earth
+vocabulary,temperate,having-mild-temperatures,adjective,b2,weather,having mild temperatures not very hot or cold
+vocabulary,arctic,extremely-cold-like-the-far-north,adjective,b2,weather,extremely cold like the far north
+vocabulary,sultry,hot-and-damp-uncomfortably,adjective,b2,weather,hot and damp in an uncomfortable way
+vocabulary,wintry,typical-of-winter,adjective,b2,weather,typical of winter cold and snowy
+vocabulary,summery,typical-of-summer,adjective,b2,weather,typical of summer warm and bright
+vocabulary,autumnal,typical-of-autumn,adjective,b2,weather,typical of autumn
+vocabulary,gusty,with-sudden-strong-wind,adjective,b2,weather,with sudden strong bursts of wind
+vocabulary,dampen,make-slightly-wet,verb,b2,weather,to make something slightly wet
+vocabulary,douse,pour-liquid-over-something,verb,b2,weather,to pour liquid over something
+vocabulary,saturate,make-completely-wet,verb,b2,weather,to make something completely wet
+vocabulary,downwind,in-the-direction-the-wind-blows,adverb,b2,weather,in the direction the wind is blowing
+vocabulary,amphibian,animal-living-in-water-and-on-land,noun,b2,animals,an animal that lives both in water and on land
+vocabulary,invertebrate,animal-without-a-backbone,noun,b2,animals,an animal without a backbone
+vocabulary,vertebrate,animal-with-a-backbone,noun,b2,animals,an animal with a backbone
+vocabulary,primate,monkey-ape-or-related-animal,noun,b2,animals,a monkey ape or related animal
+vocabulary,marsupial,mammal-with-a-pouch,noun,b2,animals,a mammal that carries its young in a pouch
+vocabulary,crustacean,water-animal-with-a-hard-shell,noun,b2,animals,a water animal with a hard shell
+vocabulary,mollusk,soft-bodied-animal-often-with-a-shell,noun,b2,animals,a soft-bodied animal often with a shell
+vocabulary,larva,young-form-of-an-insect,noun,b2,animals,the young form of an insect before it changes
+vocabulary,pupa,insect-stage-before-adult,noun,b2,animals,the stage of an insect between larva and adult
+vocabulary,tadpole,young-frog-with-a-tail,noun,b2,animals,a young frog or toad with a tail
+vocabulary,plumage,the-feathers-of-a-bird,noun,b2,animals,the feathers covering a bird
+vocabulary,tusk,long-pointed-tooth-outside-the-mouth,noun,b2,animals,a long pointed tooth outside the mouth
+vocabulary,mane,long-hair-on-a-neck,noun,b2,animals,the long hair on a horse's or lion's neck
+vocabulary,hoof,hard-foot-of-a-horse,noun,b2,animals,the hard foot of a horse or cow
+vocabulary,fang,long-sharp-tooth,noun,b2,animals,a long sharp tooth
+vocabulary,talon,sharp-claw-of-a-bird,noun,b2,animals,a sharp claw of a bird
+vocabulary,pouch,pocket-of-skin-for-carrying-young,noun,b2,animals,a pocket of skin for carrying young
+vocabulary,hump,raised-part-on-an-animals-back,noun,b2,animals,a raised part on the back of an animal
+vocabulary,quill,long-sharp-spine-of-a-porcupine,noun,b2,animals,a long sharp spine on a porcupine
+vocabulary,brood,young-birds-born-together,noun,b2,animals,a group of young birds born together
+vocabulary,shoal,large-group-of-fish,noun,b2,animals,a large group of fish
+vocabulary,web,the-net-a-spider-makes,noun,b2,animals,the net a spider makes
+vocabulary,cocoon,silk-case-before-becoming-a-moth,noun,b2,animals,the silk case a moth makes before changing
+vocabulary,mate,the-partner-an-animal-breeds-with,noun,b2,animals,the partner an animal breeds with
+vocabulary,courtship,behavior-to-attract-a-partner,noun,b2,animals,the behavior animals use to attract a partner
+vocabulary,territory,area-an-animal-defends,noun,b2,animals,an area an animal defends
+vocabulary,migration,seasonal-movement-of-animals,noun,b2,animals,the seasonal movement of animals
+vocabulary,hibernation,deep-winter-sleep-of-animals,noun,b2,animals,the deep winter sleep of animals
+vocabulary,camouflage,coloring-that-hides-an-animal,noun,b2,animals,coloring that hides an animal
+vocabulary,mimicry,copying-another-animals-look,noun,b2,animals,copying another animal's look for protection
+vocabulary,extinction,death-of-the-last-of-a-species,noun,b2,animals,the death of the last of a species
+vocabulary,poaching,illegal-hunting-of-animals,noun,b2,animals,illegal hunting of animals
+vocabulary,breeding,keeping-animals-to-produce-young,noun,b2,animals,keeping animals so they produce young
+vocabulary,veterinarian,doctor-for-animals,noun,b2,animals,a doctor for animals
+vocabulary,zoologist,scientist-who-studies-animals,noun,b2,animals,a scientist who studies animals
+vocabulary,ranger,person-who-looks-after-a-reserve,noun,b2,animals,a person who looks after a park or reserve
+vocabulary,keeper,person-who-cares-for-zoo-animals,noun,b2,animals,a person who feeds and cares for zoo animals
+vocabulary,stinger,sharp-part-an-insect-stings-with,noun,b2,animals,the sharp part an insect uses to sting
+vocabulary,venom,poison-produced-by-an-animal,noun,b2,animals,poison produced by an animal
+vocabulary,scavenger,animal-that-eats-dead-animals,noun,b2,animals,an animal that eats dead animals
+vocabulary,omnivore,animal-that-eats-plants-and-meat,noun,b2,animals,an animal that eats plants and meat
+vocabulary,carnivore,animal-that-eats-meat,noun,b2,animals,an animal that eats meat
+vocabulary,forage,search-for-food,verb,b2,animals,to search for food
+vocabulary,roost,settle-on-a-branch-to-sleep,verb,b2,animals,to settle on a branch to sleep as birds do
+vocabulary,neigh,make-the-sound-of-a-horse,verb,b2,animals,to make the long sound of a horse
+vocabulary,moo,make-the-sound-of-a-cow,verb,b2,animals,to make the long sound of a cow
+vocabulary,aquatic,living-or-growing-in-water,adjective,b2,animals,living or growing in water
+vocabulary,terrestrial,living-or-growing-on-land,adjective,b2,animals,living or growing on land
+vocabulary,carnivorous,eating-meat,adjective,b2,animals,eating meat
+vocabulary,herbivorous,eating-only-plants,adjective,b2,animals,eating only plants

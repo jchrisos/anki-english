@@ -67537,5 +67537,3577 @@
     "image": "voc_11d2dae8",
     "image_brief": "a picturesque village of stone houses by a lake with one visitor photographing, seen from across the water at wide distance, soft light, a boat and a bridge, postcard mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
     "example": "The **picturesque** village sits by a lake."
+  },
+  {
+    "phrase": "interchange",
+    "pos": "noun",
+    "sense": "place-where-major-roads-meet",
+    "pronunciation": "/ˈɪntɝˌtʃeɪndʒ/",
+    "definition": "a place where two major roads meet and cross.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_3407d627",
+    "image_brief": "cars crossing at a multi-level road interchange, seen from a high angle at wide distance, overcast light, signs turned away and barriers, busy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Take the second **interchange** after the bridge."
+  },
+  {
+    "phrase": "motorway",
+    "pos": "noun",
+    "sense": "wide-road-for-fast-traffic",
+    "pronunciation": "/ˈmoʊtɝˌweɪ/",
+    "definition": "a wide road for fast long-distance traffic.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_15bd348a",
+    "image_brief": "a wide motorway curving through fields with one truck small in the distance, seen from a high angle at wide distance, grey light, a bridge and a barrier, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **motorway** was closed by fog."
+  },
+  {
+    "phrase": "overtaking",
+    "pos": "noun",
+    "sense": "passing-another-vehicle",
+    "pronunciation": "/ˌoʊvɝˈteɪkɪŋ/",
+    "definition": "the act of passing another vehicle.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_b184c19a",
+    "image_brief": "a car passing a slow truck on a two-lane road, seen from behind at wide distance, daylight, hedges and a sign turned away, tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Overtaking** is banned on this stretch."
+  },
+  {
+    "phrase": "dock",
+    "pos": "noun",
+    "sense": "place-where-a-ship-ties-up",
+    "pronunciation": "/dɑk/",
+    "definition": "the place where a ship ties up to load.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_967cd494",
+    "image_brief": "a cargo ship tied at a dock with workers on the quay, seen from the side at wide distance, morning light, cranes and containers, industrial mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The ship reached the **dock** at dawn."
+  },
+  {
+    "phrase": "anchor",
+    "pos": "noun",
+    "sense": "heavy-object-that-holds-a-ship",
+    "pronunciation": "/ˈæŋkɝ/",
+    "definition": "a heavy object dropped to keep a ship still.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_1741e7e4",
+    "image_brief": "a sailor dropping an anchor from the bow of a small boat, seen from the side at medium distance, grey sea light, ropes and a winch, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They dropped the **anchor** in the bay."
+  },
+  {
+    "phrase": "immigration",
+    "pos": "noun",
+    "sense": "official-control-of-people-entering",
+    "pronunciation": "/ˌɪmɪˈɡreɪʃən/",
+    "definition": "the official control of people entering a country.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_e29a84e5",
+    "image_brief": "travelers queuing at an immigration desk with passports, seen from the side at wide distance, flat light, barriers and a booth, tired mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Immigration** took twenty minutes."
+  },
+  {
+    "phrase": "airfare",
+    "pos": "noun",
+    "sense": "price-of-a-plane-ticket",
+    "pronunciation": "/ˈɛrˌfɛr/",
+    "definition": "the price of a plane ticket.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_985a0d54",
+    "image_brief": "a traveler comparing airfare prices on a laptop, seen from the side at medium distance, evening light, a cup and a bag, thoughtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Airfare** doubles in December."
+  },
+  {
+    "phrase": "motorbike",
+    "pos": "noun",
+    "sense": "two-wheeled-vehicle-with-an-engine",
+    "pronunciation": "/ˈmoʊtɝˌbaɪk/",
+    "definition": "a two-wheeled vehicle with an engine.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_fd054a32",
+    "image_brief": "a rider parking a motorbike outside a café, seen from the side at medium distance, morning light, a helmet and a jacket, easy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He rides a **motorbike** to work."
+  },
+  {
+    "phrase": "moped",
+    "pos": "noun",
+    "sense": "small-slow-motorcycle",
+    "pronunciation": "/ˈmoʊˌpɛd/",
+    "definition": "a small slow motorcycle.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_7b08291b",
+    "image_brief": "a teenager riding a moped along a narrow street, seen from the side at wide distance, warm light, a wall and a bicycle, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **moped** is enough for these streets."
+  },
+  {
+    "phrase": "skateboard",
+    "pos": "noun",
+    "sense": "board-with-wheels-for-riding",
+    "pronunciation": "/ˈskeɪtˌbɔrd/",
+    "definition": "a board with wheels for riding.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_0b58d998",
+    "image_brief": "a young man carrying a skateboard into a station, seen from behind at medium distance, flat light, steps and a bag, casual mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **skateboard** leans by the door."
+  },
+  {
+    "phrase": "railway",
+    "pos": "noun",
+    "sense": "system-of-tracks-for-trains",
+    "pronunciation": "/ˈreɪlˌweɪ/",
+    "definition": "the system of tracks for trains.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_3de4300a",
+    "image_brief": "a railway line curving along a coast, seen from a high angle at wide distance, morning light, a tunnel and a fence, scenic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **railway** follows the coast."
+  },
+  {
+    "phrase": "rail",
+    "pos": "noun",
+    "sense": "metal-line-a-train-runs-on",
+    "pronunciation": "/reɪl/",
+    "definition": "one of the metal lines a train runs on.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_3c7f75d3",
+    "image_brief": "workers replacing a rail on a track, seen from the side at medium distance, work light, tools and a trolley, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Workers replaced a broken **rail**."
+  },
+  {
+    "phrase": "locomotive",
+    "pos": "noun",
+    "sense": "engine-that-pulls-a-train",
+    "pronunciation": "/ˌloʊkəˈmoʊtɪv/",
+    "definition": "the engine that pulls a train.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_8720db86",
+    "image_brief": "an old locomotive pulling carriages out of a station, seen from the side at wide distance, steam and light, a platform and a signal, nostalgic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The old **locomotive** still runs in summer."
+  },
+  {
+    "phrase": "signpost",
+    "pos": "noun",
+    "sense": "post-showing-directions",
+    "pronunciation": "/ˈsaɪnˌpoʊst/",
+    "definition": "a post showing the direction of places.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_0f083764",
+    "image_brief": "a walker reading a signpost at a crossroads, seen from behind at medium distance, morning light, a gate and a field, uncertain mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **signpost** points left for the village."
+  },
+  {
+    "phrase": "freighter",
+    "pos": "noun",
+    "sense": "ship-or-plane-that-carries-goods",
+    "pronunciation": "/ˈfreɪtɝ/",
+    "definition": "a ship or plane that carries goods.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_cbe83887",
+    "image_brief": "a freighter leaving a harbor loaded with containers, seen from the side at wide distance, grey light, a tug and gulls, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **freighter** left the harbor at noon."
+  },
+  {
+    "phrase": "tanker",
+    "pos": "noun",
+    "sense": "ship-or-truck-that-carries-liquid",
+    "pronunciation": "/ˈtæŋkɝ/",
+    "definition": "a ship or truck that carries liquid.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_42aa6a4c",
+    "image_brief": "a tanker unloading at a port terminal, seen from the side at wide distance, industrial light, pipes and a fence, serious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **tanker** carried oil to the port."
+  },
+  {
+    "phrase": "cockpit",
+    "pos": "noun",
+    "sense": "part-of-a-plane-for-pilots",
+    "pronunciation": "/ˈkɑkˌpɪt/",
+    "definition": "the part of a plane where the pilots sit.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_0b125091",
+    "image_brief": "pilots checking instruments in a cockpit before departure, seen from behind at medium distance, instrument glow, seats and a checklist turned away, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The pilot checked the **cockpit** before boarding."
+  },
+  {
+    "phrase": "taxiway",
+    "pos": "noun",
+    "sense": "path-a-plane-uses-on-the-ground",
+    "pronunciation": "/ˈtækˌsiˌweɪ/",
+    "definition": "the path a plane uses to move on the ground.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_42cdce32",
+    "image_brief": "a plane moving slowly along a taxiway, seen from the side at wide distance, dusk light, runway lights and a tower, patient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The plane waited on the **taxiway**."
+  },
+  {
+    "phrase": "wharf",
+    "pos": "noun",
+    "sense": "platform-where-ships-load",
+    "pronunciation": "/wɔrf/",
+    "definition": "a platform beside water where ships load.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_f9468915",
+    "image_brief": "workers stacking crates on a wharf beside a boat, seen from the side at wide distance, morning light, ropes and a crane, busy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Crates piled up on the **wharf**."
+  },
+  {
+    "phrase": "jetty",
+    "pos": "noun",
+    "sense": "small-structure-out-into-water",
+    "pronunciation": "/ˈdʒɛti/",
+    "definition": "a small structure built out into the water.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_71d9d033",
+    "image_brief": "two people fishing from a small jetty, seen from the side at wide distance, soft light, buckets and a boat, quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We fished from the **jetty**."
+  },
+  {
+    "phrase": "marina",
+    "pos": "noun",
+    "sense": "harbor-for-small-boats",
+    "pronunciation": "/məˈrinə/",
+    "definition": "a harbor for small boats.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_56c4aed4",
+    "image_brief": "sailboats lined up in a marina at dusk, seen from a high angle at wide distance, warm light, pontoons and a lamp, calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **marina** is full in summer."
+  },
+  {
+    "phrase": "buoy",
+    "pos": "noun",
+    "sense": "floating-marker-in-water",
+    "pronunciation": "/ˈbui/",
+    "definition": "a floating marker in the water.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_d0dfcad1",
+    "image_brief": "a red buoy bobbing in choppy water near a boat, seen from a low angle at medium distance, grey light, ropes and a life ring, alert mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **buoy** marks the shallow water."
+  },
+  {
+    "phrase": "lifeboat",
+    "pos": "noun",
+    "sense": "boat-used-to-rescue-people",
+    "pronunciation": "/ˈlaɪfˌboʊt/",
+    "definition": "a boat used to rescue people at sea.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_706d9f7c",
+    "image_brief": "a lifeboat speeding toward a small boat in trouble, seen from the side at wide distance, rough light, spray and a crew, urgent mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **lifeboat** reached the yacht in minutes."
+  },
+  {
+    "phrase": "lifejacket",
+    "pos": "noun",
+    "sense": "vest-that-keeps-you-floating",
+    "pronunciation": "/ˈlaɪfˌdʒækɪt/",
+    "definition": "a vest that keeps you floating.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_8d268d1a",
+    "image_brief": "a family putting on lifejackets on a boat deck, seen from the side at medium distance, bright light, rails and a bag, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Everyone wore a **lifejacket**."
+  },
+  {
+    "phrase": "lifeguard",
+    "pos": "noun",
+    "sense": "person-who-watches-swimmers",
+    "pronunciation": "/ˈlaɪfˌɡɑrd/",
+    "definition": "a person who watches swimmers for safety.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_e93c1566",
+    "image_brief": "a lifeguard watching swimmers from a tall chair, seen from the side at wide distance, bright light, flags and a beach, watchful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **lifeguard** whistled at the boys."
+  },
+  {
+    "phrase": "raft",
+    "pos": "noun",
+    "sense": "flat-boat-of-joined-material",
+    "pronunciation": "/ræft/",
+    "definition": "a flat boat made of joined material.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_04be5121",
+    "image_brief": "two people paddling a raft down a river, seen from the side at wide distance, morning light, trees and rapids, adventurous mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They crossed the river on a **raft**."
+  },
+  {
+    "phrase": "sailboat",
+    "pos": "noun",
+    "sense": "boat-moved-by-the-wind",
+    "pronunciation": "/ˈseɪlˌboʊt/",
+    "definition": "a boat moved by the wind.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_762365ed",
+    "image_brief": "a sailboat leaning in the wind on a lake, seen from the side at wide distance, bright light, hills and a buoy, free mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A white **sailboat** crossed the bay."
+  },
+  {
+    "phrase": "barge",
+    "pos": "noun",
+    "sense": "large-flat-boat-for-goods",
+    "pronunciation": "/bɑrdʒ/",
+    "definition": "a large flat boat for goods.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_869ed348",
+    "image_brief": "a barge moving slowly along a canal, seen from the side at wide distance, grey light, a towpath and trees, slow mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **barge** carried coal along the canal."
+  },
+  {
+    "phrase": "handlebar",
+    "pos": "noun",
+    "sense": "bar-you-hold-to-steer",
+    "pronunciation": "/ˈhændəlˌbɑr/",
+    "definition": "the bar you hold to steer a bicycle.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_d63e2961",
+    "image_brief": "a cyclist gripping the handlebar on a rough path, seen from the side at medium distance, afternoon light, a bag and a fence, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He bent the **handlebar** in the fall."
+  },
+  {
+    "phrase": "saddle",
+    "pos": "noun",
+    "sense": "seat-on-a-bicycle-or-horse",
+    "pronunciation": "/ˈsædəl/",
+    "definition": "the seat on a bicycle or horse.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_a62fb6c2",
+    "image_brief": "a woman adjusting the saddle on a bicycle, seen from the side at medium distance, morning light, a wall and a bottle, practical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She raised the **saddle** before the ride."
+  },
+  {
+    "phrase": "carrier",
+    "pos": "noun",
+    "sense": "company-that-transports-goods",
+    "pronunciation": "/ˈkæriɝ/",
+    "definition": "a company that transports goods or people.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_5d5a4536",
+    "image_brief": "a delivery carrier loading boxes into a van, seen from the side at medium distance, grey light, a ramp and a cart, busy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **carrier** lost the parcel."
+  },
+  {
+    "phrase": "minibus",
+    "pos": "noun",
+    "sense": "small-bus-for-about-twelve",
+    "pronunciation": "/ˈmɪniˌbʌs/",
+    "definition": "a small bus for about twelve people.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_50db9784",
+    "image_brief": "a minibus picking up passengers outside a hotel, seen from the side at wide distance, morning light, bags and a canopy, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **minibus** took us to the airport."
+  },
+  {
+    "phrase": "cab",
+    "pos": "noun",
+    "sense": "a-taxi",
+    "pronunciation": "/kæb/",
+    "definition": "a taxi.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_f0459c3e",
+    "image_brief": "a man hailing a cab on a rainy street, seen from the side at wide distance, wet light, a lamp and a puddle, hurried mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We shared a **cab** into town."
+  },
+  {
+    "phrase": "viaduct",
+    "pos": "noun",
+    "sense": "long-bridge-for-a-road-or-railway",
+    "pronunciation": "/ˈvaɪəˌdʌkt/",
+    "definition": "a long bridge that carries a road or railway.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_1d8b81db",
+    "image_brief": "a train crossing a stone viaduct above a valley, seen from below at wide distance, morning light, arches and trees, grand mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The train crossed a stone **viaduct**."
+  },
+  {
+    "phrase": "roadworks",
+    "pos": "noun",
+    "sense": "repairs-being-done-on-a-road",
+    "pronunciation": "/ˈroʊdˌwɝks/",
+    "definition": "repairs being done on a road.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_8418582a",
+    "image_brief": "workers repairing a road with cones around them, seen from the side at wide distance, flat light, a digger and a van, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Roadworks** slowed the morning traffic."
+  },
+  {
+    "phrase": "parkway",
+    "pos": "noun",
+    "sense": "wide-road-through-open-country",
+    "pronunciation": "/ˈpɑrkˌweɪ/",
+    "definition": "a wide road through a park or countryside.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_e4536c0c",
+    "image_brief": "a car driving along a tree-lined parkway, seen from a high angle at wide distance, autumn light, fields and a bridge, easy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They followed the **parkway** north."
+  },
+  {
+    "phrase": "turnpike",
+    "pos": "noun",
+    "sense": "road-where-drivers-pay",
+    "pronunciation": "/ˈtɝnˌpaɪk/",
+    "definition": "a road where drivers pay a toll.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_87bc92e6",
+    "image_brief": "a toll plaza on a turnpike with a car paying, seen from the side at wide distance, evening light, barriers and a booth, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **turnpike** was empty at that hour."
+  },
+  {
+    "phrase": "convoy",
+    "pos": "noun",
+    "sense": "group-of-vehicles-traveling-together",
+    "pronunciation": "/ˈkɑnˌvɔɪ/",
+    "definition": "a group of vehicles traveling together.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_2acd2825",
+    "image_brief": "a convoy of trucks moving along a road, seen from the side at wide distance, dusty light, a checkpoint and a field, serious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **convoy** of trucks passed the gate."
+  },
+  {
+    "phrase": "escort",
+    "pos": "noun",
+    "sense": "person-or-vehicle-that-protects",
+    "pronunciation": "/ˈɛsˌkɔrt/",
+    "definition": "a person or vehicle that travels with someone for protection.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_eb453962",
+    "image_brief": "a police car escorting a wide load along a road, seen from the side at wide distance, grey light, cones and a truck, cautious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Police gave the bus an **escort**."
+  },
+  {
+    "phrase": "tollway",
+    "pos": "noun",
+    "sense": "road-that-charges-drivers",
+    "pronunciation": "/ˈtoʊlˌweɪ/",
+    "definition": "a road that charges drivers to use it.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_4785aeba",
+    "image_brief": "a tollway stretching across open land with a car small on it, seen from a high angle at wide distance, clear light, barriers and a sign turned away, open mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **tollway** saves half an hour."
+  },
+  {
+    "phrase": "disembark",
+    "pos": "verb",
+    "sense": "get-off-a-ship-or-plane",
+    "pronunciation": "/ˌdɪsɪmˈbɑrk/",
+    "definition": "to get off a ship or plane.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "present_example": "Passengers **disembark** through the front door.",
+    "past_simple_example": "They **disembarked** at the ferry terminal.",
+    "past_participle_example": "The group has **disembarked** already.",
+    "present_participle_example": "**Disembarking** took twenty minutes.",
+    "image": "voc_fb663632",
+    "image_brief": "passengers stepping off a ferry onto a ramp, seen from the side at medium distance, morning light, ropes and a booth, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Passengers **disembark** through the front door."
+  },
+  {
+    "phrase": "navigate",
+    "pos": "verb",
+    "sense": "find-the-way-through-a-place",
+    "pronunciation": "/ˈnævəˌɡeɪt/",
+    "definition": "to find the way through a place.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "present_example": "She can **navigate** the city without a map.",
+    "past_simple_example": "He **navigated** the narrow lanes carefully.",
+    "past_participle_example": "The route has been **navigated** by many drivers.",
+    "present_participle_example": "**Navigating** at night is harder.",
+    "image": "voc_22493e19",
+    "image_brief": "a driver checking a map at a junction, seen from the side at medium distance, daylight, a bag and a wheel, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She can **navigate** the city without a map."
+  },
+  {
+    "phrase": "pedal",
+    "pos": "verb",
+    "sense": "move-a-bicycle-by-pushing-pedals",
+    "pronunciation": "/ˈpɛdəl/",
+    "definition": "to move a bicycle by pushing the pedals.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "present_example": "He **pedals** to work every day.",
+    "past_simple_example": "She **pedaled** up the hill slowly.",
+    "past_participle_example": "They have **pedaled** this route before.",
+    "present_participle_example": "**Pedaling** against the wind is exhausting.",
+    "image": "voc_840c876b",
+    "image_brief": "a man pedaling a bicycle uphill, seen from the side at wide distance, morning light, houses and a fence, effortful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He had to **pedal** hard up the hill."
+  },
+  {
+    "phrase": "congested",
+    "pos": "adjective",
+    "sense": "so-full-of-traffic-that-it-slows",
+    "pronunciation": "/kənˈdʒɛstɪd/",
+    "definition": "so full of traffic that movement is slow.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_70d322bf",
+    "image_brief": "a congested street full of stopped cars, seen from a high angle at wide distance, grey light, lights and a bus, tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The bridge is **congested** every evening."
+  },
+  {
+    "phrase": "gridlocked",
+    "pos": "adjective",
+    "sense": "so-blocked-traffic-cannot-move",
+    "pronunciation": "/ˈɡrɪdˌlɑkt/",
+    "definition": "so blocked that traffic cannot move.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_d75e9016",
+    "image_brief": "cars at a complete standstill in a city center, seen from above at wide distance, evening light, crossings and a taxi, frustrated mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The center was **gridlocked** after the crash."
+  },
+  {
+    "phrase": "nonstop",
+    "pos": "adjective",
+    "sense": "without-stopping",
+    "pronunciation": "/ˌnɑnˈstɑp/",
+    "definition": "without stopping.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_9c6aca47",
+    "image_brief": "a plane in the sky over clouds on a nonstop flight, seen from the side at wide distance, bright light, a wing and a horizon, calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "It is a **nonstop** flight to Denver."
+  },
+  {
+    "phrase": "airborne",
+    "pos": "adjective",
+    "sense": "in-the-air-after-leaving-the-ground",
+    "pronunciation": "/ˈɛrˌbɔrn/",
+    "definition": "in the air, after leaving the ground.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_b9b462c5",
+    "image_brief": "a plane lifting off a runway with wheels just above the ground, seen from the side at wide distance, morning light, a fence and a tower, tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The plane was **airborne** within minutes."
+  },
+  {
+    "phrase": "seaborne",
+    "pos": "adjective",
+    "sense": "carried-by-sea",
+    "pronunciation": "/ˈsiˌbɔrn/",
+    "definition": "carried by sea.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_91b42c24",
+    "image_brief": "containers stacked on a seaborne cargo ship, seen from the side at wide distance, grey light, cranes and water, industrial mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Most of the trade is **seaborne**."
+  },
+  {
+    "phrase": "onboard",
+    "pos": "adjective",
+    "sense": "on-a-ship-plane-or-train",
+    "pronunciation": "/ˌɑnˈbɔrd/",
+    "definition": "on a ship, plane or train.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_a98965c9",
+    "image_brief": "passengers eating at tables onboard a ferry, seen from the side at medium distance, window light, a counter and bags, relaxed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Food is served **onboard**."
+  },
+  {
+    "phrase": "seasick",
+    "pos": "adjective",
+    "sense": "feeling-sick-from-a-boats-movement",
+    "pronunciation": "/ˈsiˌsɪk/",
+    "definition": "feeling sick because of a boat's movement.",
+    "categories": [
+      "transport"
+    ],
+    "level": "b2",
+    "image": "voc_cc5700fe",
+    "image_brief": "a passenger sitting pale on a boat with a bag nearby, seen from the side at medium distance, grey light, a rail and a bottle, queasy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He gets **seasick** on small boats."
+  },
+  {
+    "phrase": "borough",
+    "pos": "noun",
+    "sense": "town-with-its-own-government",
+    "pronunciation": "/ˈbɝoʊ/",
+    "definition": "a town or district with its own local government.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_3d9e87b4",
+    "image_brief": "a town hall with a flag in a small borough, seen from across the street at wide distance, morning light, trees and a bus, civic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **borough** runs its own schools."
+  },
+  {
+    "phrase": "municipality",
+    "pos": "noun",
+    "sense": "city-with-its-own-government",
+    "pronunciation": "/mjuˌnɪsəˈpæləti/",
+    "definition": "a city or town with its own government.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_529881bc",
+    "image_brief": "workers repairing a municipal swimming pool, seen from the side at wide distance, bright light, ladders and a van, busy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **municipality** built the new pool."
+  },
+  {
+    "phrase": "precinct",
+    "pos": "noun",
+    "sense": "small-official-district-of-a-city",
+    "pronunciation": "/ˈprisɪŋkt/",
+    "definition": "a small official district of a city.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_f729e358",
+    "image_brief": "voters queuing outside a precinct hall, seen from the side at wide distance, grey light, a noticeboard turned away and a bench, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He votes at the **precinct** hall."
+  },
+  {
+    "phrase": "ward",
+    "pos": "noun",
+    "sense": "district-that-elects-a-representative",
+    "pronunciation": "/wɔrd/",
+    "definition": "a district of a city that elects a representative.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_97dbb832",
+    "image_brief": "a councilor walking a residential ward street, seen from behind at medium distance, afternoon light, houses and a fence, thoughtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She represents the third **ward**."
+  },
+  {
+    "phrase": "skyline",
+    "pos": "noun",
+    "sense": "outline-of-buildings-against-the-sky",
+    "pronunciation": "/ˈskaɪˌlaɪn/",
+    "definition": "the outline of tall buildings against the sky.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_cba3f151",
+    "image_brief": "a city skyline at dusk with towers against the sky, seen from across the river at wide distance, blue light, a bridge and a boat, grand mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **skyline** changed after the towers went up."
+  },
+  {
+    "phrase": "promenade",
+    "pos": "noun",
+    "sense": "wide-path-beside-the-sea",
+    "pronunciation": "/ˌprɑməˈneɪd/",
+    "definition": "a wide path for walking beside the sea.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_c3c6304a",
+    "image_brief": "people walking a seaside promenade at sunset, seen from the side at wide distance, golden light, railings and a kiosk, easy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They walked the **promenade** after dinner."
+  },
+  {
+    "phrase": "outskirts",
+    "pos": "noun",
+    "sense": "outer-areas-of-a-town",
+    "pronunciation": "/ˈaʊtˌskɝts/",
+    "definition": "the outer areas of a town.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_1ef307b3",
+    "image_brief": "a factory on the outskirts of a town, seen from a high angle at wide distance, grey light, fields and a road, plain mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The factory sits on the **outskirts**."
+  },
+  {
+    "phrase": "uptown",
+    "pos": "noun",
+    "sense": "part-of-a-city-away-from-the-center",
+    "pronunciation": "/ˈʌpˌtaʊn/",
+    "definition": "the part of a city away from the center.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_efee8836",
+    "image_brief": "a woman walking past smart shops uptown, seen from the side at medium distance, daylight, awnings and a taxi, polished mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They moved **uptown** last year."
+  },
+  {
+    "phrase": "midtown",
+    "pos": "noun",
+    "sense": "central-business-area",
+    "pronunciation": "/ˈmɪdˌtaʊn/",
+    "definition": "the central business area of a city.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_bf5e1e5c",
+    "image_brief": "office workers crossing a midtown street, seen from a high angle at wide distance, flat light, towers and traffic, busy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her office is in **midtown**."
+  },
+  {
+    "phrase": "council",
+    "pos": "noun",
+    "sense": "group-that-governs-a-town",
+    "pronunciation": "/ˈkaʊnsəl/",
+    "definition": "the group that governs a town.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_a91c6611",
+    "image_brief": "a council meeting with members around a table, seen from the side at wide distance, hall light, papers and microphones, formal mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **council** approved the plan."
+  },
+  {
+    "phrase": "mayor",
+    "pos": "noun",
+    "sense": "elected-head-of-a-city",
+    "pronunciation": "/ˈmeɪɝ/",
+    "definition": "the elected head of a city government.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_290bb841",
+    "image_brief": "a mayor cutting a ribbon at a market opening, seen from the side at medium distance, morning light, stalls and a crowd blurred, proud mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **mayor** opened the market."
+  },
+  {
+    "phrase": "zoning",
+    "pos": "noun",
+    "sense": "rules-controlling-land-use",
+    "pronunciation": "/ˈzoʊnɪŋ/",
+    "definition": "the rules that control how land can be used.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_aa25b903",
+    "image_brief": "a planner pointing at a land-use map on a table, seen from above at medium distance, office light, folders and a cup, serious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Zoning** blocks shops on this street."
+  },
+  {
+    "phrase": "planning",
+    "pos": "noun",
+    "sense": "deciding-how-a-city-will-develop",
+    "pronunciation": "/ˈplænɪŋ/",
+    "definition": "the work of deciding how a city will develop.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_1141a7d6",
+    "image_brief": "planning officers studying a scale model of a district, seen from the side at medium distance, bright light, chairs and plans, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Planning** takes years for a new road."
+  },
+  {
+    "phrase": "infrastructure",
+    "pos": "noun",
+    "sense": "basic-roads-and-pipes-of-a-city",
+    "pronunciation": "/ˈɪnfrəˌstrʌktʃɝ/",
+    "definition": "the basic roads, pipes and systems a city needs.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_5656c76f",
+    "image_brief": "workers repairing a cracked water main under a street, seen from the side at wide distance, work light, barriers and a digger, gritty mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **infrastructure** is old and failing."
+  },
+  {
+    "phrase": "utilities",
+    "pos": "noun",
+    "sense": "services-such-as-water-and-power",
+    "pronunciation": "/juˈtɪlətiz/",
+    "definition": "services such as water, gas and electricity.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_27f7e8bb",
+    "image_brief": "a technician reading meters in a basement, seen from the side at medium distance, torch light, pipes and a clipboard, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Utilities** are included in the rent."
+  },
+  {
+    "phrase": "population",
+    "pos": "noun",
+    "sense": "number-of-people-in-a-place",
+    "pronunciation": "/ˌpɑpjəˈleɪʃən/",
+    "definition": "the number of people living in a place.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_8a24ff81",
+    "image_brief": "a crowded square full of people at lunchtime, seen from a high angle at wide distance, bright light, benches and trees, lively mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **population** doubled in ten years."
+  },
+  {
+    "phrase": "census",
+    "pos": "noun",
+    "sense": "official-count-of-people",
+    "pronunciation": "/ˈsɛnsəs/",
+    "definition": "an official count of the people in a place.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_b13230cc",
+    "image_brief": "a census worker interviewing a resident at a door, seen from the side at medium distance, morning light, a folder and a mat, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **census** happens every ten years."
+  },
+  {
+    "phrase": "demographics",
+    "pos": "noun",
+    "sense": "statistical-features-of-a-population",
+    "pronunciation": "/ˌdɛməˈɡræfɪks/",
+    "definition": "the statistical features of a population.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_7725fb78",
+    "image_brief": "a researcher presenting population charts to a small group, seen from the side at medium distance, office light, chairs and a screen turned away, analytical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **demographics** of the area are changing."
+  },
+  {
+    "phrase": "gentrification",
+    "pos": "noun",
+    "sense": "richer-people-moving-into-a-poor-area",
+    "pronunciation": "/ˌdʒɛntrəfɪˈkeɪʃən/",
+    "definition": "the process of richer people moving into a poor area.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_6ad1c0b1",
+    "image_brief": "an old corner shop beside a new coffee bar while a resident looks at both, seen from across the street at wide distance, evening light, bicycles and a bin, uneasy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Gentrification** pushed rents up fast."
+  },
+  {
+    "phrase": "slum",
+    "pos": "noun",
+    "sense": "poor-crowded-part-of-a-city",
+    "pronunciation": "/slʌm/",
+    "definition": "a poor crowded part of a city.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_70d98882",
+    "image_brief": "narrow alleys with crowded makeshift housing while one resident fills a bucket, seen from a high angle at wide distance, grey light, wires and puddles, grim mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **slum** lacked clean water."
+  },
+  {
+    "phrase": "hawker",
+    "pos": "noun",
+    "sense": "person-selling-goods-in-the-street",
+    "pronunciation": "/ˈhɔkɝ/",
+    "definition": "a person who sells goods in the street.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_f77ea51f",
+    "image_brief": "a street hawker selling fruit from a cart, seen from the side at medium distance, morning light, a bicycle and a box, lively mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **hawker** sold mangoes at the corner."
+  },
+  {
+    "phrase": "peddler",
+    "pos": "noun",
+    "sense": "traveling-person-who-sells-things",
+    "pronunciation": "/ˈpɛdlɝ/",
+    "definition": "a person who travels around selling things.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_f79ba254",
+    "image_brief": "a peddler with a loaded bicycle stopping at a village gate, seen from the side at medium distance, afternoon light, a bag and a fence, wandering mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **peddler** carried knives and thread."
+  },
+  {
+    "phrase": "busker",
+    "pos": "noun",
+    "sense": "person-performing-in-the-street",
+    "pronunciation": "/ˈbʌskɝ/",
+    "definition": "a person who performs in the street for money.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_4a39190c",
+    "image_brief": "a busker playing guitar outside a station while a commuter passes, seen from the side at medium distance, evening light, a case and a lamp, mellow mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **busker** played by the station."
+  },
+  {
+    "phrase": "crossroads",
+    "pos": "noun",
+    "sense": "place-where-two-roads-cross",
+    "pronunciation": "/ˈkrɔsˌroʊdz/",
+    "definition": "a place where two roads cross.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_a1095c3f",
+    "image_brief": "a country crossroads with a signpost and a waiting car, seen from a high angle at wide distance, grey light, hedges and a barn, quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The inn stands at a **crossroads**."
+  },
+  {
+    "phrase": "waterfront",
+    "pos": "noun",
+    "sense": "land-along-a-citys-water",
+    "pronunciation": "/ˈwɔtɝˌfrʌnt/",
+    "definition": "the land along the edge of a city's water.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_9d2dbe2d",
+    "image_brief": "a waterfront of cafés and boats along a city river, seen from across the water at wide distance, evening light, rails and a bridge, pleasant mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **waterfront** has new cafés."
+  },
+  {
+    "phrase": "riverfront",
+    "pos": "noun",
+    "sense": "land-beside-a-river-in-a-town",
+    "pronunciation": "/ˈrɪvɝˌfrʌnt/",
+    "definition": "the land beside a river in a town.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_a2b2fd46",
+    "image_brief": "a jogger on a riverfront path at dawn, seen from behind at wide distance, pink light, benches and a bridge, fresh mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They walk the **riverfront** each morning."
+  },
+  {
+    "phrase": "docklands",
+    "pos": "noun",
+    "sense": "area-around-old-docks",
+    "pronunciation": "/ˈdɑkˌlændz/",
+    "definition": "the area around old docks, often redeveloped.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_422e9777",
+    "image_brief": "new flats built among old dock cranes, seen from across the water at wide distance, grey light, a pier and a boat, changing mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **docklands** became flats and offices."
+  },
+  {
+    "phrase": "courthouse",
+    "pos": "noun",
+    "sense": "building-where-cases-are-heard",
+    "pronunciation": "/ˈkɔrtˌhaʊs/",
+    "definition": "the building where legal cases are heard.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_da0828b1",
+    "image_brief": "people climbing the steps of a courthouse, seen from the side at wide distance, hard light, columns and a bag, tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **courthouse** opens at nine."
+  },
+  {
+    "phrase": "zone",
+    "pos": "noun",
+    "sense": "area-with-a-particular-purpose",
+    "pronunciation": "/zoʊn/",
+    "definition": "an area with a particular purpose.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_9749714f",
+    "image_brief": "a worker painting a zone line on a warehouse floor, seen from above at medium distance, bright light, a forklift and a sign turned away, practical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Parking is banned in this **zone**."
+  },
+  {
+    "phrase": "quarter",
+    "pos": "noun",
+    "sense": "part-of-a-city-with-character",
+    "pronunciation": "/ˈkwɔrtɝ/",
+    "definition": "a part of a city with a special character.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_652ed050",
+    "image_brief": "a narrow street in the old quarter with stone houses, seen from the side at wide distance, warm light, a café and a church, historic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The old **quarter** is full of narrow streets."
+  },
+  {
+    "phrase": "arcade",
+    "pos": "noun",
+    "sense": "covered-passage-with-shops",
+    "pronunciation": "/ɑrˈkeɪd/",
+    "definition": "a covered passage with shops.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_42ec0ee9",
+    "image_brief": "shoppers walking through a covered arcade of shops, seen from the side at wide distance, soft light, a clock and a bench, calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **arcade** connects the two streets."
+  },
+  {
+    "phrase": "atrium",
+    "pos": "noun",
+    "sense": "large-open-space-inside-a-building",
+    "pronunciation": "/ˈeɪtriəm/",
+    "definition": "a large open space inside a building.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_b937e681",
+    "image_brief": "people crossing a glass-roofed atrium in an office building, seen from a high angle at wide distance, daylight, plants and a café, airy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The office **atrium** has a glass roof."
+  },
+  {
+    "phrase": "perimeter",
+    "pos": "noun",
+    "sense": "outer-edge-of-an-area",
+    "pronunciation": "/pəˈrɪmɪtɝ/",
+    "definition": "the outer edge of an area.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_54f950e9",
+    "image_brief": "a security guard walking the perimeter fence of a site, seen from the side at wide distance, grey light, a gate and a tower, watchful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Fences ring the **perimeter**."
+  },
+  {
+    "phrase": "beltway",
+    "pos": "noun",
+    "sense": "road-that-circles-a-city",
+    "pronunciation": "/ˈbɛltˌweɪ/",
+    "definition": "a road that circles a city.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_30e42374",
+    "image_brief": "cars moving along a beltway around a city, seen from a high angle at wide distance, evening light, fields and a bridge, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Traffic on the **beltway** was slow."
+  },
+  {
+    "phrase": "housing",
+    "pos": "noun",
+    "sense": "buildings-people-live-in",
+    "pronunciation": "/ˈhaʊzɪŋ/",
+    "definition": "buildings that people live in.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_7691951d",
+    "image_brief": "new housing being built on a former car park, seen from the side at wide distance, morning light, cranes and bricks, hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The city needs more **housing**."
+  },
+  {
+    "phrase": "tenement",
+    "pos": "noun",
+    "sense": "old-building-divided-into-flats",
+    "pronunciation": "/ˈtɛnəmənt/",
+    "definition": "an old building divided into small flats.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_993fc833",
+    "image_brief": "a worn tenement block with washing lines and a child on the steps, seen from across the street at wide distance, afternoon light, bins and a shop, lived-in mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **tenement** has no lift."
+  },
+  {
+    "phrase": "landfill",
+    "pos": "noun",
+    "sense": "place-where-waste-is-buried",
+    "pronunciation": "/ˈlændˌfɪl/",
+    "definition": "a large place where waste is buried.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_2528309d",
+    "image_brief": "a landfill with birds over mountains of waste while a truck tips, seen from a high angle at wide distance, grey light, fences and a road, grim mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **landfill** is nearly full."
+  },
+  {
+    "phrase": "recycling",
+    "pos": "noun",
+    "sense": "reusing-materials",
+    "pronunciation": "/riˈsaɪklɪŋ/",
+    "definition": "the process of reusing materials.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_8d4596d9",
+    "image_brief": "a worker sorting recycling on a conveyor, seen from the side at medium distance, bright light, bins and gloves, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Recycling** is collected on Mondays."
+  },
+  {
+    "phrase": "siren",
+    "pos": "noun",
+    "sense": "loud-device-that-warns-of-danger",
+    "pronunciation": "/ˈsaɪrən/",
+    "definition": "a loud device that warns of danger.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_436dd594",
+    "image_brief": "an ambulance with its siren on moving through traffic, seen from the side at wide distance, evening light, lights and a crossing, urgent mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **siren** woke the whole street."
+  },
+  {
+    "phrase": "esplanade",
+    "pos": "noun",
+    "sense": "long-open-area-beside-water",
+    "pronunciation": "/ˌɛspləˈneɪd/",
+    "definition": "a long open area for walking beside water.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_6c48c17f",
+    "image_brief": "a wide esplanade beside a bay with walkers and cyclists, seen from a high angle at wide distance, bright light, palms and a railing, breezy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **esplanade** runs along the bay."
+  },
+  {
+    "phrase": "municipal",
+    "pos": "adjective",
+    "sense": "belonging-to-a-town-government",
+    "pronunciation": "/mjuˈnɪsəpəl/",
+    "definition": "belonging to a town or city government.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_72132c9d",
+    "image_brief": "a municipal swimming pool with families entering, seen from the side at wide distance, bright light, a ticket desk and flags, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **municipal** pool opens in June."
+  },
+  {
+    "phrase": "civic",
+    "pos": "adjective",
+    "sense": "relating-to-a-city-and-its-people",
+    "pronunciation": "/ˈsɪvɪk/",
+    "definition": "relating to a city and its people.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_9ae14329",
+    "image_brief": "a civic ceremony in a town square with a small band, seen from the side at wide distance, afternoon light, chairs and a stage, proud mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **civic** center hosts concerts."
+  },
+  {
+    "phrase": "metropolitan",
+    "pos": "adjective",
+    "sense": "relating-to-a-large-city-area",
+    "pronunciation": "/ˌmɛtrəˈpɑlɪtən/",
+    "definition": "relating to a large city and its area.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_5acce8c2",
+    "image_brief": "the metropolitan area seen from a hill at night with lights spreading to the horizon, seen from a high angle at wide distance, blue light, roads and towers, vast mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **metropolitan** area has six million people."
+  },
+  {
+    "phrase": "cosmopolitan",
+    "pos": "adjective",
+    "sense": "full-of-many-nationalities",
+    "pronunciation": "/ˌkɑzməˈpɑlɪtən/",
+    "definition": "full of people and influences from many countries.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_1db48092",
+    "image_brief": "a street market with food from many countries while shoppers browse, seen from the side at medium distance, warm light, stalls and flags blurred, lively mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The city is young and **cosmopolitan**."
+  },
+  {
+    "phrase": "homeless",
+    "pos": "adjective",
+    "sense": "without-a-place-to-live",
+    "pronunciation": "/ˈhoʊmləs/",
+    "definition": "without a place to live.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "image": "voc_9d007c9c",
+    "image_brief": "a man sitting with a bag outside a station while a woman offers a cup, seen from the side at medium distance, grey light, a bench and a paper, somber mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **homeless** shelter opened in winter."
+  },
+  {
+    "phrase": "urbanize",
+    "pos": "verb",
+    "sense": "make-an-area-more-city-like",
+    "pronunciation": "/ˈɝbəˌnaɪz/",
+    "definition": "to make an area more city-like.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "present_example": "The valley is starting to **urbanize**.",
+    "past_simple_example": "The coast **urbanized** quickly after the road.",
+    "past_participle_example": "The area has **urbanized** since the mill opened.",
+    "present_participle_example": "**Urbanizing** farmland worries the farmers.",
+    "image": "voc_240737f4",
+    "image_brief": "new apartment blocks rising where fields were, seen from a high angle at wide distance, morning light, cranes and a road, changing mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The valley is starting to **urbanize**."
+  },
+  {
+    "phrase": "populate",
+    "pos": "verb",
+    "sense": "fill-a-place-with-people",
+    "pronunciation": "/ˈpɑpjəˌleɪt/",
+    "definition": "to fill a place with people.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "present_example": "Settlers **populate** the coast each summer.",
+    "past_simple_example": "Migrants **populated** the new district.",
+    "past_participle_example": "The island has been **populated** for centuries.",
+    "present_participle_example": "**Populating** empty towns takes incentives.",
+    "image": "voc_e347f4a0",
+    "image_brief": "settlers arriving in a new district with carts, seen from behind at wide distance, warm light, empty houses and a well, hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Settlers **populate** the coast each summer."
+  },
+  {
+    "phrase": "inhabit",
+    "pos": "verb",
+    "sense": "live-in-a-place",
+    "pronunciation": "/ɪnˈhæbɪt/",
+    "definition": "to live in a place.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "present_example": "Few families **inhabit** the old quarter now.",
+    "past_simple_example": "Birds **inhabited** the marsh before the building.",
+    "past_participle_example": "The caves have been **inhabited** for years.",
+    "present_participle_example": "**Inhabiting** the site required permits.",
+    "image": "voc_e61541b2",
+    "image_brief": "a family living in a restored old house, seen from the side at medium distance, evening light, a courtyard and plants, settled mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Few families **inhabit** the old quarter now."
+  },
+  {
+    "phrase": "redevelop",
+    "pos": "verb",
+    "sense": "rebuild-an-area-in-a-new-way",
+    "pronunciation": "/ˌridɪˈvɛləp/",
+    "definition": "to rebuild an area in a new way.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "present_example": "They plan to **redevelop** the docks.",
+    "past_simple_example": "The council **redeveloped** the market area.",
+    "past_participle_example": "The station has been **redeveloped**.",
+    "present_participle_example": "**Redeveloping** the site took five years.",
+    "image": "voc_87df4c4a",
+    "image_brief": "demolition machines working on an old market site, seen from the side at wide distance, dusty light, fences and a crane, changing mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They plan to **redevelop** the docks."
+  },
+  {
+    "phrase": "revitalize",
+    "pos": "verb",
+    "sense": "bring-new-life-to-a-place",
+    "pronunciation": "/riˈvaɪtəˌlaɪz/",
+    "definition": "to bring new life and activity to a place.",
+    "categories": [
+      "city"
+    ],
+    "level": "b2",
+    "present_example": "The market helped **revitalize** the street.",
+    "past_simple_example": "The grant **revitalized** the town center.",
+    "past_participle_example": "The area has been **revitalized**.",
+    "present_participle_example": "**Revitalizing** a high street takes cooperation.",
+    "image": "voc_8dddf0a6",
+    "image_brief": "a newly busy high street with market stalls and lights, seen from the side at wide distance, evening light, shopfronts and people, cheerful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The market helped **revitalize** the street."
+  },
+  {
+    "phrase": "gorge",
+    "pos": "noun",
+    "sense": "narrow-valley-with-steep-sides",
+    "pronunciation": "/ɡɔrdʒ/",
+    "definition": "a narrow valley with steep sides.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_5bd18940",
+    "image_brief": "a river cutting through a deep rocky gorge, seen from above at wide distance, morning light, cliffs and a bridge, dramatic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The river cuts through a deep **gorge**."
+  },
+  {
+    "phrase": "plateau",
+    "pos": "noun",
+    "sense": "high-flat-area-of-land",
+    "pronunciation": "/plæˈtoʊ/",
+    "definition": "a high flat area of land.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_aeb052c6",
+    "image_brief": "a dry flat plateau with a lone herder, seen from a high angle at wide distance, pale light, stones and a track, empty mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **plateau** is dry and windy."
+  },
+  {
+    "phrase": "tundra",
+    "pos": "noun",
+    "sense": "cold-treeless-northern-region",
+    "pronunciation": "/ˈtʌndrə/",
+    "definition": "a cold treeless region in the far north.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_c9270cd8",
+    "image_brief": "low moss and stones across a tundra plain with a research tent in the distance, seen from a high angle at wide distance, cold light, a sled and a marker, stark mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Only moss grows on the **tundra**."
+  },
+  {
+    "phrase": "rainforest",
+    "pos": "noun",
+    "sense": "thick-wet-forest-in-a-hot-region",
+    "pronunciation": "/ˈreɪnˌfɔrɪst/",
+    "definition": "a thick wet forest in a hot region.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_58603498",
+    "image_brief": "thick rainforest with hanging vines and mist while a walker follows a narrow trail, seen from the side at wide distance, green filtered light, ferns and logs, humid mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **rainforest** holds thousands of species."
+  },
+  {
+    "phrase": "wetland",
+    "pos": "noun",
+    "sense": "land-that-is-wet-most-of-the-year",
+    "pronunciation": "/ˈwɛtˌlænd/",
+    "definition": "land that is wet for much of the year.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_d755a659",
+    "image_brief": "reeds and open water in a wetland with birds and a boardwalk crossing it, seen from a high angle at wide distance, soft light, a hide and a fence, quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **wetland** filters the river water."
+  },
+  {
+    "phrase": "estuary",
+    "pos": "noun",
+    "sense": "wide-river-mouth-meeting-the-sea",
+    "pronunciation": "/ˈɛstʃuˌɛri/",
+    "definition": "the wide mouth of a river where it meets the sea.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_093c2791",
+    "image_brief": "birds feeding on the mud of an estuary at low tide, seen from the side at wide distance, grey light, channels and a boat, calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Birds feed in the **estuary** at low tide."
+  },
+  {
+    "phrase": "delta",
+    "pos": "noun",
+    "sense": "land-where-a-river-splits",
+    "pronunciation": "/ˈdɛltə/",
+    "definition": "the land where a river splits before the sea.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_408b1db8",
+    "image_brief": "a wide river delta with green fields and channels, seen from a high angle at wide distance, morning light, boats and a hut, fertile mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **delta** is rich farmland."
+  },
+  {
+    "phrase": "lagoon",
+    "pos": "noun",
+    "sense": "shallow-water-separated-from-the-sea",
+    "pronunciation": "/ləˈɡun/",
+    "definition": "a shallow pool of water separated from the sea.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_09dd8f23",
+    "image_brief": "a warm turquoise lagoon with two swimmers, seen from the side at wide distance, bright light, sand and palms, relaxed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They swam in the warm **lagoon**."
+  },
+  {
+    "phrase": "reef",
+    "pos": "noun",
+    "sense": "line-of-rock-or-coral-under-water",
+    "pronunciation": "/rif/",
+    "definition": "a line of rock or coral under the water.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_a38271f3",
+    "image_brief": "a coral reef under clear water, seen from above at wide distance, bright light, fish and rocks, vivid mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **reef** protects the shore from waves."
+  },
+  {
+    "phrase": "atoll",
+    "pos": "noun",
+    "sense": "ring-shaped-coral-island",
+    "pronunciation": "/ˈæˌtɔl/",
+    "definition": "a ring-shaped island of coral.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_24cc2081",
+    "image_brief": "a ring-shaped atoll seen from the air with one boat inside it, seen from a high angle at wide distance, turquoise light, waves and sand, isolated mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **atoll** barely rises above the sea."
+  },
+  {
+    "phrase": "cape",
+    "pos": "noun",
+    "sense": "land-sticking-out-into-the-sea",
+    "pronunciation": "/keɪp/",
+    "definition": "a piece of land sticking out into the sea.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_a2daeab6",
+    "image_brief": "a lighthouse on a windy cape above the sea, seen from the side at wide distance, grey light, grass and a fence, exposed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A lighthouse stands on the **cape**."
+  },
+  {
+    "phrase": "bay",
+    "pos": "noun",
+    "sense": "wide-curve-of-coast",
+    "pronunciation": "/beɪ/",
+    "definition": "a wide curve of coast where the sea comes in.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_6327ea7e",
+    "image_brief": "boats sheltering in a calm bay at dusk, seen from a high angle at wide distance, warm light, a jetty and houses, peaceful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Boats shelter in the **bay**."
+  },
+  {
+    "phrase": "gulf",
+    "pos": "noun",
+    "sense": "large-sea-partly-surrounded-by-land",
+    "pronunciation": "/ɡʌlf/",
+    "definition": "a very large area of sea partly surrounded by land.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_46e089ad",
+    "image_brief": "a wide gulf with a cargo ship small on the water, seen from a high angle at wide distance, hazy light, a coast and a platform, vast mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **gulf** is warm all year."
+  },
+  {
+    "phrase": "strait",
+    "pos": "noun",
+    "sense": "narrow-water-between-two-lands",
+    "pronunciation": "/streɪt/",
+    "definition": "a narrow passage of water between two lands.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_db5683d4",
+    "image_brief": "a narrow strait between two rocky shores with a ferry crossing, seen from a high angle at wide distance, grey light, cliffs and a lighthouse, tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **strait** is difficult to cross in winter."
+  },
+  {
+    "phrase": "inlet",
+    "pos": "noun",
+    "sense": "small-water-area-reaching-into-land",
+    "pronunciation": "/ˈɪnˌlɛt/",
+    "definition": "a small narrow area of water reaching into land.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_a2d51a14",
+    "image_brief": "a quiet inlet hidden by trees with a small boat moored, seen from the side at wide distance, soft light, reeds and a jetty, secret mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A quiet **inlet** hid the boat."
+  },
+  {
+    "phrase": "fjord",
+    "pos": "noun",
+    "sense": "deep-sea-inlet-between-cliffs",
+    "pronunciation": "/fjɔrd/",
+    "definition": "a deep narrow sea inlet between high cliffs.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_6240c423",
+    "image_brief": "a deep fjord between high cliffs with a small boat, seen from the side at wide distance, cold light, waterfalls and pines, grand mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **fjord** is too deep to anchor."
+  },
+  {
+    "phrase": "geyser",
+    "pos": "noun",
+    "sense": "hot-spring-that-shoots-water",
+    "pronunciation": "/ˈɡaɪzɝ/",
+    "definition": "a hot spring that shoots water into the air.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_9f45f8f5",
+    "image_brief": "a geyser shooting steam and water into the air while a visitor watches from a path, seen from the side at wide distance, bright light, rocks and a rail, awed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **geyser** erupts every hour."
+  },
+  {
+    "phrase": "crater",
+    "pos": "noun",
+    "sense": "large-round-hole-from-an-impact",
+    "pronunciation": "/ˈkreɪtɝ/",
+    "definition": "a large round hole made by an explosion or impact.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_b9936e0e",
+    "image_brief": "a round crater filled with blue water and two hikers on the rim, seen from a high angle at wide distance, clear light, rocks and scrub, amazed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The lake fills an old **crater**."
+  },
+  {
+    "phrase": "savanna",
+    "pos": "noun",
+    "sense": "grassy-plain-with-few-trees",
+    "pronunciation": "/səˈvænə/",
+    "definition": "a grassy plain with few trees in a hot region.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_5ff40020",
+    "image_brief": "animals gathered on a savanna under a wide sky, seen from the side at wide distance, golden light, a tree and dust, wild mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Animals gather on the **savanna** in the dry season."
+  },
+  {
+    "phrase": "steppe",
+    "pos": "noun",
+    "sense": "large-flat-dry-grassland",
+    "pronunciation": "/stɛp/",
+    "definition": "a large flat dry grassland.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_647e067a",
+    "image_brief": "wheat stretching across a dry steppe with a farmhouse small in the distance, seen from a high angle at wide distance, pale light, a track and a fence, lonely mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Wheat grows across the **steppe**."
+  },
+  {
+    "phrase": "bog",
+    "pos": "noun",
+    "sense": "soft-wet-ground-that-sinks",
+    "pronunciation": "/bɑɡ/",
+    "definition": "soft wet ground that sinks under your feet.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_0fab2773",
+    "image_brief": "a walker crossing a bog on stepping stones, seen from the side at wide distance, grey light, reeds and water, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The path crosses a **bog**."
+  },
+  {
+    "phrase": "creek",
+    "pos": "noun",
+    "sense": "small-stream",
+    "pronunciation": "/krik/",
+    "definition": "a small stream.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_233687c9",
+    "image_brief": "a small creek running behind a house while a child watches, seen from the side at medium distance, morning light, stones and a fence, gentle mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **creek** runs behind the house."
+  },
+  {
+    "phrase": "brook",
+    "pos": "noun",
+    "sense": "small-stream",
+    "pronunciation": "/brʊk/",
+    "definition": "a small stream.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_03cd5b5d",
+    "image_brief": "a brook running between snowy banks, seen from the side at medium distance, winter light, ice and reeds, quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **brook** froze in January."
+  },
+  {
+    "phrase": "rapids",
+    "pos": "noun",
+    "sense": "fast-rough-part-of-a-river",
+    "pronunciation": "/ˈræpɪdz/",
+    "definition": "a fast rough part of a river.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_f9c2f418",
+    "image_brief": "a boat turning in white rapids, seen from the side at wide distance, bright light, rocks and spray, tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **rapids** turned the boat sideways."
+  },
+  {
+    "phrase": "cascade",
+    "pos": "noun",
+    "sense": "small-waterfall-in-stages",
+    "pronunciation": "/kæˈskeɪd/",
+    "definition": "a small waterfall, or water falling in stages.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_6b458076",
+    "image_brief": "water cascading over mossy rocks into a pool, seen from the side at medium distance, forest light, ferns and stones, fresh mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **cascade** pours into the pool."
+  },
+  {
+    "phrase": "fern",
+    "pos": "noun",
+    "sense": "plant-with-long-divided-leaves",
+    "pronunciation": "/fɝn/",
+    "definition": "a plant with long divided leaves.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_6d864a66",
+    "image_brief": "ferns filling a damp corner of a garden while a gardener trims them, seen from the side at medium distance, green light, a wall and a pot, calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Fern** fills the damp corner of the garden."
+  },
+  {
+    "phrase": "moss",
+    "pos": "noun",
+    "sense": "small-soft-green-plant",
+    "pronunciation": "/mɔs/",
+    "definition": "a small soft green plant that grows on damp surfaces.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_1468f526",
+    "image_brief": "moss covering a stone wall while a woman touches it, seen from the side at medium distance, soft light, a gate and ivy, quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Moss** covers the north side of the wall."
+  },
+  {
+    "phrase": "lichen",
+    "pos": "noun",
+    "sense": "gray-green-growth-on-rocks",
+    "pronunciation": "/ˈlaɪkən/",
+    "definition": "a small gray-green growth on rocks and trees.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_1c45d0bc",
+    "image_brief": "gray-green lichen on a rock by a path while a hiker pauses, seen from above at medium distance, cold light, grass and stones, still mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Lichen** shows the air is clean."
+  },
+  {
+    "phrase": "vine",
+    "pos": "noun",
+    "sense": "plant-that-climbs-or-trails",
+    "pronunciation": "/vaɪn/",
+    "definition": "a plant that climbs or trails along surfaces.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_bad6b108",
+    "image_brief": "a vine climbing a balcony rail while a woman waters it, seen from the side at medium distance, warm light, pots and chairs, homely mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **vine** climbs the balcony rail."
+  },
+  {
+    "phrase": "ivy",
+    "pos": "noun",
+    "sense": "climbing-plant-with-dark-leaves",
+    "pronunciation": "/ˈaɪvi/",
+    "definition": "a climbing plant with dark green leaves.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_b5324c6e",
+    "image_brief": "ivy covering an old shed while a man pulls some away, seen from the side at medium distance, afternoon light, tools and a window, practical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Ivy** covers the old shed."
+  },
+  {
+    "phrase": "oak",
+    "pos": "noun",
+    "sense": "large-tree-with-hard-wood",
+    "pronunciation": "/oʊk/",
+    "definition": "a large tree with hard wood and acorns.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_e946952d",
+    "image_brief": "a huge oak shading a yard with two people picnicking beneath, seen from the side at wide distance, summer light, a table and a fence, peaceful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "An **oak** shades the whole yard."
+  },
+  {
+    "phrase": "pine",
+    "pos": "noun",
+    "sense": "tall-tree-with-needles",
+    "pronunciation": "/paɪn/",
+    "definition": "a tall tree with needles that stays green all year.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_0f0de468",
+    "image_brief": "pines on a hillside after rain with one walker on a path, seen from the side at wide distance, damp light, rocks and mist, fresh mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **pine** smells sharp after rain."
+  },
+  {
+    "phrase": "willow",
+    "pos": "noun",
+    "sense": "tree-with-long-soft-branches",
+    "pronunciation": "/ˈwɪloʊ/",
+    "definition": "a tree with long soft branches near water.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_4cba0bc5",
+    "image_brief": "a willow leaning over a pond while a woman reads beneath, seen from the side at wide distance, soft light, reeds and a bench, calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **willow** leans over the pond."
+  },
+  {
+    "phrase": "maple",
+    "pos": "noun",
+    "sense": "tree-with-broad-leaves",
+    "pronunciation": "/ˈmeɪpəl/",
+    "definition": "a tree with broad leaves that turns red in autumn.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_43964c3c",
+    "image_brief": "a maple turning red in an autumn street while a child collects leaves, seen from the side at medium distance, golden light, a fence and a bicycle, warm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **maple** turns gold in October."
+  },
+  {
+    "phrase": "birch",
+    "pos": "noun",
+    "sense": "tree-with-white-bark",
+    "pronunciation": "/bɝtʃ/",
+    "definition": "a tree with white bark.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_574f53a2",
+    "image_brief": "white birches in low sun with a photographer among them, seen from the side at wide distance, cold light, leaves and a path, serene mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **birch** glows in the low sun."
+  },
+  {
+    "phrase": "wildflower",
+    "pos": "noun",
+    "sense": "flower-growing-naturally",
+    "pronunciation": "/ˈwaɪldˌflaʊɝ/",
+    "definition": "a flower growing naturally in a field.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_97bcf1bf",
+    "image_brief": "a wildflower opening by a field path while a bee lands, seen from a low angle at medium distance, morning light, grass and a fence, delicate mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **wildflower** opened by the path."
+  },
+  {
+    "phrase": "reed",
+    "pos": "noun",
+    "sense": "tall-grass-in-shallow-water",
+    "pronunciation": "/rid/",
+    "definition": "a tall grass that grows in shallow water.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_534db0e0",
+    "image_brief": "reeds bending by a lake in the wind, seen from the side at wide distance, grey light, water and a boat, breezy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **reed** bends in the wind."
+  },
+  {
+    "phrase": "peat",
+    "pos": "noun",
+    "sense": "dark-soil-of-rotted-plants",
+    "pronunciation": "/pit/",
+    "definition": "dark soil made of partly rotted plants.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_77109dd2",
+    "image_brief": "a gardener working dark peat soil into a bed, seen from above at medium distance, dull light, tools and a barrow, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The garden soil is heavy **peat**."
+  },
+  {
+    "phrase": "gravel",
+    "pos": "noun",
+    "sense": "small-loose-stones",
+    "pronunciation": "/ˈɡrævəl/",
+    "definition": "small loose stones used on paths.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_10d252b8",
+    "image_brief": "a gravel path through a garden after rain while a man walks, seen from the side at wide distance, wet light, hedges and a gate, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **gravel** crunches underfoot."
+  },
+  {
+    "phrase": "silt",
+    "pos": "noun",
+    "sense": "fine-mud-left-by-water",
+    "pronunciation": "/sɪlt/",
+    "definition": "fine mud carried and left by water.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_1607f39c",
+    "image_brief": "silt left on a field after a flood while a farmer walks across, seen from a high angle at wide distance, grey light, a fence and a tractor, grim mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The flood left **silt** on the fields."
+  },
+  {
+    "phrase": "biodiversity",
+    "pos": "noun",
+    "sense": "variety-of-living-things",
+    "pronunciation": "/ˌbaɪoʊdaɪˈvɝsəti/",
+    "definition": "the variety of living things in a place.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_200e525a",
+    "image_brief": "a meadow thick with insects and flowers while a biologist with a net works, seen from the side at wide distance, bright light, grass and a fence, busy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The marsh is rich in **biodiversity**."
+  },
+  {
+    "phrase": "deforestation",
+    "pos": "noun",
+    "sense": "cutting-down-of-forests",
+    "pronunciation": "/diˌfɔrɪˈsteɪʃən/",
+    "definition": "the cutting down of forests.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_fa0c8053",
+    "image_brief": "a cleared hillside with fallen trunks and a road, seen from a high angle at wide distance, dusty light, a truck and stumps, bleak mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Deforestation** changed the rainfall."
+  },
+  {
+    "phrase": "pollination",
+    "pos": "noun",
+    "sense": "moving-pollen-between-flowers",
+    "pronunciation": "/ˌpɑləˈneɪʃən/",
+    "definition": "the process of moving pollen between flowers.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_e337cc16",
+    "image_brief": "a bee moving between flowers in an orchard, seen from a low angle at medium distance, warm light, blossom and a hive, delicate mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Bees are essential for **pollination**."
+  },
+  {
+    "phrase": "moorland",
+    "pos": "noun",
+    "sense": "open-land-with-rough-grass",
+    "pronunciation": "/ˈmʊrˌlænd/",
+    "definition": "open high land covered with rough grass and heather.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_e7aa5d36",
+    "image_brief": "sheep on open moorland under a grey sky, seen from a high angle at wide distance, soft light, heather and a wall, lonely mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Sheep roam the **moorland**."
+  },
+  {
+    "phrase": "crest",
+    "pos": "noun",
+    "sense": "top-of-a-hill-or-wave",
+    "pronunciation": "/krɛst/",
+    "definition": "the top of a hill or wave.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_8debf218",
+    "image_brief": "two hikers reaching the crest of a hill, seen from behind at wide distance, morning light, grass and a cairn, triumphant mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They reached the **crest** by noon."
+  },
+  {
+    "phrase": "pristine",
+    "pos": "adjective",
+    "sense": "completely-clean-and-unchanged",
+    "pronunciation": "/ˈprɪsˌtin/",
+    "definition": "completely clean and unchanged.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_a7f781f0",
+    "image_brief": "a pristine beach with no footprints while one person stands at the edge, seen from behind at wide distance, pale light, driftwood and shells, pure mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The beach is **pristine** in winter."
+  },
+  {
+    "phrase": "untouched",
+    "pos": "adjective",
+    "sense": "not-changed-by-people",
+    "pronunciation": "/ʌnˈtʌtʃt/",
+    "definition": "not changed or damaged by people.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "image": "voc_9917eef6",
+    "image_brief": "an untouched forest valley with no road, seen from a high angle at wide distance, morning haze, a river and trees, wild mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The forest remains **untouched**."
+  },
+  {
+    "phrase": "pollinate",
+    "pos": "verb",
+    "sense": "carry-pollen-to-a-flower",
+    "pronunciation": "/ˈpɑləˌneɪt/",
+    "definition": "to carry pollen to a flower.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "present_example": "Bees **pollinate** the orchards.",
+    "past_simple_example": "The wind **pollinated** the grasses.",
+    "past_participle_example": "The crop has been **pollinated** well.",
+    "present_participle_example": "**Pollinating** by hand is slow.",
+    "image": "voc_12ca47b0",
+    "image_brief": "a bee pollinating blossom in an orchard, seen from a low angle at medium distance, warm light, branches and a hive box, delicate mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Bees **pollinate** the orchards."
+  },
+  {
+    "phrase": "germinate",
+    "pos": "verb",
+    "sense": "begin-to-grow-from-a-seed",
+    "pronunciation": "/ˈdʒɝməˌneɪt/",
+    "definition": "to begin to grow from a seed.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "present_example": "The seeds **germinate** in warm soil.",
+    "past_simple_example": "The beans **germinated** within a week.",
+    "past_participle_example": "None of the seeds have **germinated**.",
+    "present_participle_example": "**Germinating** indoors gives a head start.",
+    "image": "voc_26fe51db",
+    "image_brief": "seedlings germinating in trays on a windowsill while a woman checks them, seen from above at medium distance, soft light, soil and labels, hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The seeds **germinate** in warm soil."
+  },
+  {
+    "phrase": "blossom",
+    "pos": "verb",
+    "sense": "open-into-flowers",
+    "pronunciation": "/ˈblɑsəm/",
+    "definition": "to open into flowers.",
+    "categories": [
+      "nature"
+    ],
+    "level": "b2",
+    "present_example": "The trees **blossom** in April.",
+    "past_simple_example": "The cherry **blossomed** early this year.",
+    "past_participle_example": "The hedges have **blossomed** already.",
+    "present_participle_example": "**Blossoming** branches filled the lane.",
+    "image": "voc_86791a6e",
+    "image_brief": "a fruit tree blossoming in a garden while two people walk under it, seen from the side at wide distance, bright light, a bench and a fence, joyful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The trees **blossom** in April."
+  },
+  {
+    "phrase": "precipitation",
+    "pos": "noun",
+    "sense": "water-falling-from-clouds",
+    "pronunciation": "/prɪˌsɪpɪˈteɪʃən/",
+    "definition": "water that falls from clouds as rain, snow or hail.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_a7ad5475",
+    "image_brief": "rain falling over a grey valley with a gauge on a post, seen from the side at wide distance, soft light, fields and a fence, damp mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Precipitation** was low all month."
+  },
+  {
+    "phrase": "haze",
+    "pos": "noun",
+    "sense": "thin-mist-that-clouds-the-air",
+    "pronunciation": "/heɪz/",
+    "definition": "a thin mist that makes the air unclear.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_bad92958",
+    "image_brief": "a hazy view of hills from a road with one car small in the distance, seen from a high angle at wide distance, pale light, a fence and a tree, soft mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **haze** hid the hills."
+  },
+  {
+    "phrase": "smog",
+    "pos": "noun",
+    "sense": "air-pollution-mixed-with-smoke",
+    "pronunciation": "/smɑɡ/",
+    "definition": "dirty air mixed with smoke and fumes.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_e59b2be7",
+    "image_brief": "a city skyline under a layer of smog, seen from a hill at wide distance, yellow light, towers and a bridge, heavy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Smog** covers the city in summer."
+  },
+  {
+    "phrase": "gale",
+    "pos": "noun",
+    "sense": "very-strong-wind",
+    "pronunciation": "/ɡeɪl/",
+    "definition": "a very strong wind.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_df8cb4ef",
+    "image_brief": "a gale bending trees and lifting a tarp, seen from the side at wide distance, grey light, a shed and a fence, wild mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **gale** tore the awning."
+  },
+  {
+    "phrase": "typhoon",
+    "pos": "noun",
+    "sense": "violent-western-pacific-storm",
+    "pronunciation": "/taɪˈfun/",
+    "definition": "a violent storm in the western Pacific.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_f3ac9e9a",
+    "image_brief": "a typhoon bending palm trees beside a flooded road, seen from the side at wide distance, dark light, a car and debris, dangerous mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **typhoon** closed the airport."
+  },
+  {
+    "phrase": "cyclone",
+    "pos": "noun",
+    "sense": "violent-rotating-storm",
+    "pronunciation": "/ˈsaɪˌkloʊn/",
+    "definition": "a violent rotating storm.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_04aa2367",
+    "image_brief": "a cyclone over the ocean seen from a distance with waves and a small boat, seen from a high angle at wide distance, dark light, spray and a beacon, ominous mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **cyclone** hit the coast at night."
+  },
+  {
+    "phrase": "snowfall",
+    "pos": "noun",
+    "sense": "amount-of-snow-that-falls",
+    "pronunciation": "/ˈsnoʊˌfɔl/",
+    "definition": "the amount of snow that falls.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_870556ce",
+    "image_brief": "snowfall covering a quiet street with one person walking, seen from the side at medium distance, grey light, lamps and a fence, hushed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **snowfall** reached thirty centimeters."
+  },
+  {
+    "phrase": "rainfall",
+    "pos": "noun",
+    "sense": "amount-of-rain-that-falls",
+    "pronunciation": "/ˈreɪnˌfɔl/",
+    "definition": "the amount of rain that falls.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_c87835e9",
+    "image_brief": "a rain gauge in a field after rainfall while a farmer reads it, seen from the side at medium distance, grey light, crops and a bucket, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Rainfall** is measured every morning."
+  },
+  {
+    "phrase": "cloudburst",
+    "pos": "noun",
+    "sense": "sudden-very-heavy-rain",
+    "pronunciation": "/ˈklaʊdˌbɝst/",
+    "definition": "a sudden very heavy fall of rain.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_cd3fa00c",
+    "image_brief": "a sudden cloudburst flooding a street while people run for cover, seen from the side at wide distance, dark light, awnings and a bus, chaotic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **cloudburst** flooded the street."
+  },
+  {
+    "phrase": "hailstone",
+    "pos": "noun",
+    "sense": "small-ball-of-ice-from-the-sky",
+    "pronunciation": "/ˈheɪlˌstoʊn/",
+    "definition": "a small ball of ice that falls like rain.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_8eca1578",
+    "image_brief": "a hailstone held in a gloved hand, seen from above at medium distance, grey light, a damaged plant and a roof, surprised mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **hailstone** cracked the window."
+  },
+  {
+    "phrase": "snowdrift",
+    "pos": "noun",
+    "sense": "deep-pile-of-moved-snow",
+    "pronunciation": "/ˈsnoʊˌdrɪft/",
+    "definition": "a deep pile of snow moved by wind.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_55395586",
+    "image_brief": "a car stuck in a snowdrift while the driver digs, seen from the side at wide distance, white light, a fence and a pole, stranded mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The car was stuck in a **snowdrift**."
+  },
+  {
+    "phrase": "tide",
+    "pos": "noun",
+    "sense": "regular-rise-and-fall-of-the-sea",
+    "pronunciation": "/taɪd/",
+    "definition": "the regular rise and fall of the sea.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_2b5bdf9d",
+    "image_brief": "the tide coming in over rocks at the shore, seen from the side at wide distance, soft light, seaweed and a post, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **tide** comes in fast here."
+  },
+  {
+    "phrase": "tsunami",
+    "pos": "noun",
+    "sense": "huge-wave-from-undersea-event",
+    "pronunciation": "/tsuˈnɑmi/",
+    "definition": "a huge wave caused by an undersea event.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_46527ddc",
+    "image_brief": "a huge wave approaching a coastline while tiny figures run, seen from a high angle at wide distance, grey light, a boat and a road, terrifying mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **tsunami** warning emptied the beach."
+  },
+  {
+    "phrase": "solstice",
+    "pos": "noun",
+    "sense": "longest-or-shortest-day",
+    "pronunciation": "/ˈsɑlstɪs/",
+    "definition": "the longest or shortest day of the year.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_a2eea062",
+    "image_brief": "people gathered at a stone circle at midsummer, seen from behind at wide distance, golden light, grass and a path, reverent mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **solstice** marks midsummer."
+  },
+  {
+    "phrase": "equinox",
+    "pos": "noun",
+    "sense": "day-when-day-and-night-are-equal",
+    "pronunciation": "/ˈikwəˌnɑks/",
+    "definition": "a day when day and night are equal.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_8026db8e",
+    "image_brief": "a field at dusk with equal light and shadow and one walker, seen from a high angle at wide distance, soft light, a fence and a tree, balanced mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **equinox** falls in March."
+  },
+  {
+    "phrase": "eclipse",
+    "pos": "noun",
+    "sense": "one-body-hiding-another",
+    "pronunciation": "/ɪˈklɪps/",
+    "definition": "when one body hides another in space.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_f6dea7d6",
+    "image_brief": "people watching an eclipse through dark glasses in a park, seen from the side at medium distance, dim light, a blanket and a telescope, awed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **eclipse** darkened the sky."
+  },
+  {
+    "phrase": "aurora",
+    "pos": "noun",
+    "sense": "colored-lights-in-the-night-sky",
+    "pronunciation": "/əˈrɔrə/",
+    "definition": "colored lights in the night sky near the poles.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_cc7b6b53",
+    "image_brief": "green aurora lights above a snowy plain with one person watching, seen from behind at wide distance, night light, a cabin and pines, magical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **aurora** glowed green."
+  },
+  {
+    "phrase": "hypothermia",
+    "pos": "noun",
+    "sense": "dangerous-drop-in-body-temperature",
+    "pronunciation": "/ˌhaɪpoʊˈθɝmiə/",
+    "definition": "a dangerous drop in body temperature.",
+    "categories": [
+      "health"
+    ],
+    "level": "b2",
+    "image": "voc_3b793be2",
+    "image_brief": "rescuers wrapping a shivering swimmer in a blanket, seen from the side at medium distance, cold light, a boat and a rail, urgent mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Hypothermia** sets in fast in cold water."
+  },
+  {
+    "phrase": "sunstroke",
+    "pos": "noun",
+    "sense": "illness-from-too-much-sun",
+    "pronunciation": "/ˈsʌnˌstroʊk/",
+    "definition": "illness caused by too much sun.",
+    "categories": [
+      "health"
+    ],
+    "level": "b2",
+    "image": "voc_8a83302f",
+    "image_brief": "a worker resting in shade with a wet cloth, seen from the side at medium distance, harsh light, a bottle and a helmet, dizzy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He got **sunstroke** at the beach."
+  },
+  {
+    "phrase": "dehydration",
+    "pos": "noun",
+    "sense": "dangerous-lack-of-water-in-the-body",
+    "pronunciation": "/ˌdihaɪˈdreɪʃən/",
+    "definition": "a dangerous lack of water in the body.",
+    "categories": [
+      "health"
+    ],
+    "level": "b2",
+    "image": "voc_b9b2898f",
+    "image_brief": "a runner drinking at a water station, seen from the side at medium distance, bright light, cups and a table, relieved mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Dehydration** made him dizzy."
+  },
+  {
+    "phrase": "windbreaker",
+    "pos": "noun",
+    "sense": "light-jacket-that-resists-wind",
+    "pronunciation": "/ˈwɪndˌbreɪkɝ/",
+    "definition": "a light jacket that resists wind.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "b2",
+    "image": "voc_3b3d3e57",
+    "image_brief": "a hiker zipping a windbreaker on a ridge, seen from the side at medium distance, grey light, a pack and grass, prepared mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Take a **windbreaker** for the coast."
+  },
+  {
+    "phrase": "poncho",
+    "pos": "noun",
+    "sense": "simple-cloth-worn-as-a-raincoat",
+    "pronunciation": "/ˈpɑntʃoʊ/",
+    "definition": "a simple cloth worn as a rain coat.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "b2",
+    "image": "voc_24c39432",
+    "image_brief": "a tourist in a poncho walking through rain, seen from the side at medium distance, wet light, a bag and a street, cheerful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She wore a plastic **poncho**."
+  },
+  {
+    "phrase": "snowplow",
+    "pos": "noun",
+    "sense": "vehicle-that-clears-snow",
+    "pronunciation": "/ˈsnoʊˌplaʊ/",
+    "definition": "a vehicle that clears snow from roads.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_7f5b9a2b",
+    "image_brief": "a snowplow clearing a road at dawn, seen from the side at wide distance, cold light, snowbanks and a car, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **snowplow** passed at dawn."
+  },
+  {
+    "phrase": "sandbag",
+    "pos": "noun",
+    "sense": "bag-of-sand-used-as-a-barrier",
+    "pronunciation": "/ˈsændˌbæɡ/",
+    "definition": "a bag of sand used as a barrier.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_acdca84c",
+    "image_brief": "volunteers stacking sandbags by a flooded river, seen from the side at wide distance, grey light, a truck and water, urgent mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They stacked a **sandbag** against the door."
+  },
+  {
+    "phrase": "levee",
+    "pos": "noun",
+    "sense": "bank-built-to-stop-flooding",
+    "pronunciation": "/ˈlɛvi/",
+    "definition": "a bank built to stop a river flooding.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_31732d9d",
+    "image_brief": "a levee holding back a swollen river, seen from the side at wide distance, grey light, grass and a pump, tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **levee** held through the storm."
+  },
+  {
+    "phrase": "vane",
+    "pos": "noun",
+    "sense": "device-that-shows-wind-direction",
+    "pronunciation": "/veɪn/",
+    "definition": "a device that shows wind direction.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_0d241dca",
+    "image_brief": "a weather vane turning on a barn roof, seen from below at medium distance, windy light, clouds and a chimney, alert mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **vane** points north tonight."
+  },
+  {
+    "phrase": "foghorn",
+    "pos": "noun",
+    "sense": "loud-horn-that-warns-ships",
+    "pronunciation": "/ˈfɔɡˌhɔrn/",
+    "definition": "a loud horn that warns ships in fog.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_de0381ca",
+    "image_brief": "a foghorn on a pier sounding into mist, seen from the side at wide distance, grey light, a boat and rails, eerie mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **foghorn** sounded across the bay."
+  },
+  {
+    "phrase": "squall",
+    "pos": "noun",
+    "sense": "sudden-violent-gust-of-wind",
+    "pronunciation": "/skwɔl/",
+    "definition": "a sudden violent gust of wind.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_c31010bf",
+    "image_brief": "a squall hitting a sailboat while the crew lowers sails, seen from the side at wide distance, dark light, spray and ropes, urgent mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **squall** hit the sailboat."
+  },
+  {
+    "phrase": "flurry",
+    "pos": "noun",
+    "sense": "short-light-fall-of-snow",
+    "pronunciation": "/ˈflɝi/",
+    "definition": "a short light fall of snow.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_5f4ef0b2",
+    "image_brief": "a light flurry of snow over a path while a dog runs, seen from the side at wide distance, soft light, trees and a bench, playful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **flurry** dusted the path."
+  },
+  {
+    "phrase": "iceberg",
+    "pos": "noun",
+    "sense": "large-floating-mass-of-ice",
+    "pronunciation": "/ˈaɪsˌbɝɡ/",
+    "definition": "a large floating mass of ice.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_e8b5f8c1",
+    "image_brief": "a large iceberg floating near a ship, seen from the side at wide distance, cold light, water and a rail, awe-struck mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The ship passed an **iceberg**."
+  },
+  {
+    "phrase": "floe",
+    "pos": "noun",
+    "sense": "flat-sheet-of-floating-ice",
+    "pronunciation": "/floʊ/",
+    "definition": "a flat sheet of floating ice.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_eaa9c13c",
+    "image_brief": "seals resting on a floe in still water, seen from the side at wide distance, pale light, ice and a boat, quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Seals rested on a **floe**."
+  },
+  {
+    "phrase": "sled",
+    "pos": "noun",
+    "sense": "vehicle-with-runners-for-snow",
+    "pronunciation": "/slɛd/",
+    "definition": "a vehicle with runners for snow.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_db7ee9ce",
+    "image_brief": "children pulling a sled up a snowy hill, seen from the side at wide distance, pink light, trees and a fence, joyful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They pulled a **sled** up the hill."
+  },
+  {
+    "phrase": "sleigh",
+    "pos": "noun",
+    "sense": "large-sled-pulled-by-horses",
+    "pronunciation": "/sleɪ/",
+    "definition": "a large sled pulled by horses.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_4c07c4ac",
+    "image_brief": "a horse-drawn sleigh waiting outside an inn, seen from the side at wide distance, evening light, snow and a lamp, cozy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **sleigh** waited outside the inn."
+  },
+  {
+    "phrase": "parasol",
+    "pos": "noun",
+    "sense": "light-umbrella-for-sun",
+    "pronunciation": "/ˈpærəˌsɔl/",
+    "definition": "a light umbrella for sun.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_4ac02bb2",
+    "image_brief": "a woman opening a parasol on a sunny beach, seen from the side at medium distance, bright light, a towel and a bag, relaxed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She opened a **parasol** on the beach."
+  },
+  {
+    "phrase": "thundercloud",
+    "pos": "noun",
+    "sense": "dark-cloud-that-makes-thunder",
+    "pronunciation": "/ˈθʌndɝˌklaʊd/",
+    "definition": "a dark cloud that produces thunder.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_f5821fce",
+    "image_brief": "a dark thundercloud rising over a plain while a farmer looks up, seen from the side at wide distance, strange light, a barn and a fence, ominous mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **thundercloud** rose over the plain."
+  },
+  {
+    "phrase": "windstorm",
+    "pos": "noun",
+    "sense": "storm-with-very-strong-wind",
+    "pronunciation": "/ˈwɪndˌstɔrm/",
+    "definition": "a storm with very strong wind.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_3cd3a452",
+    "image_brief": "a windstorm blowing tiles off a roof, seen from below at wide distance, grey light, a ladder and a street, alarming mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **windstorm** blew tiles off the roof."
+  },
+  {
+    "phrase": "deluge",
+    "pos": "noun",
+    "sense": "very-heavy-flood-of-rain",
+    "pronunciation": "/ˈdɛljudʒ/",
+    "definition": "a very heavy flood of rain.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_448e4b4a",
+    "image_brief": "a deluge flooding a road with cars stopped, seen from the side at wide distance, dark light, a bridge and barriers, grim mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **deluge** closed the road."
+  },
+  {
+    "phrase": "torrent",
+    "pos": "noun",
+    "sense": "fast-powerful-flow-of-water",
+    "pronunciation": "/ˈtɔrənt/",
+    "definition": "a fast powerful flow of water.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_531f6003",
+    "image_brief": "a torrent sweeping under a bridge, seen from the side at wide distance, grey light, rocks and a rail, powerful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **torrent** swept away the bridge."
+  },
+  {
+    "phrase": "polar",
+    "pos": "adjective",
+    "sense": "relating-to-the-cold-ends-of-the-earth",
+    "pronunciation": "/ˈpoʊlɝ/",
+    "definition": "relating to the cold areas at the ends of the earth.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_7049d2f0",
+    "image_brief": "polar ice with a research vessel small in the distance, seen from a high angle at wide distance, cold light, water and a flag, vast mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Polar** ice is shrinking."
+  },
+  {
+    "phrase": "temperate",
+    "pos": "adjective",
+    "sense": "having-mild-temperatures",
+    "pronunciation": "/ˈtɛmpɝɪt/",
+    "definition": "having mild temperatures, not very hot or cold.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_18d55947",
+    "image_brief": "a temperate valley with orchards and a farmhouse, seen from a high angle at wide distance, soft light, a road and a fence, mild mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The region has a **temperate** climate."
+  },
+  {
+    "phrase": "arctic",
+    "pos": "adjective",
+    "sense": "extremely-cold-like-the-far-north",
+    "pronunciation": "/ˈɑrktɪk/",
+    "definition": "extremely cold, like the far north.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_16bcf2e6",
+    "image_brief": "an arctic wind blowing snow across a street while one person bends forward, seen from the side at wide distance, blue light, a lamp and a fence, bitter mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Arctic** winds reached the city."
+  },
+  {
+    "phrase": "sultry",
+    "pos": "adjective",
+    "sense": "hot-and-damp-uncomfortably",
+    "pronunciation": "/ˈsʌltri/",
+    "definition": "hot and damp in an uncomfortable way.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_28dcef33",
+    "image_brief": "a sultry evening on a porch with two people fanning themselves, seen from the side at medium distance, dim light, glasses and a plant, sticky mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **sultry** evening kept everyone indoors."
+  },
+  {
+    "phrase": "wintry",
+    "pos": "adjective",
+    "sense": "typical-of-winter",
+    "pronunciation": "/ˈwɪntri/",
+    "definition": "typical of winter, cold and snowy.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_89b3aee6",
+    "image_brief": "a wintry street with bare trees and frost and one walker, seen from the side at wide distance, pale light, a bench and a lamp, cold mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **wintry** wind swept the street."
+  },
+  {
+    "phrase": "summery",
+    "pos": "adjective",
+    "sense": "typical-of-summer",
+    "pronunciation": "/ˈsʌmɝi/",
+    "definition": "typical of summer, warm and bright.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_eca609e9",
+    "image_brief": "a summery park with people on the grass, seen from a high angle at wide distance, bright light, trees and a fountain, happy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The day felt **summery** for October."
+  },
+  {
+    "phrase": "autumnal",
+    "pos": "adjective",
+    "sense": "typical-of-autumn",
+    "pronunciation": "/ɔˈtʌmnəl/",
+    "definition": "typical of autumn.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_b5b86559",
+    "image_brief": "an autumnal path covered in leaves with one walker, seen from the side at wide distance, golden light, a bench and a fence, wistful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The park has an **autumnal** smell."
+  },
+  {
+    "phrase": "gusty",
+    "pos": "adjective",
+    "sense": "with-sudden-strong-wind",
+    "pronunciation": "/ˈɡʌsti/",
+    "definition": "with sudden strong bursts of wind.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_e6728041",
+    "image_brief": "a gusty day with laundry whipping on a line, seen from the side at medium distance, bright light, a garden and a fence, lively mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "It was a **gusty** afternoon."
+  },
+  {
+    "phrase": "dampen",
+    "pos": "verb",
+    "sense": "make-slightly-wet",
+    "pronunciation": "/ˈdæmpən/",
+    "definition": "to make something slightly wet.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "present_example": "The fog **dampens** the streets.",
+    "past_simple_example": "Rain **dampened** the parade.",
+    "past_participle_example": "The dust has been **dampened** by the mist.",
+    "present_participle_example": "**Dampening** the soil helps the seeds.",
+    "image": "voc_a73d55f6",
+    "image_brief": "a gardener spraying water to dampen the soil, seen from the side at medium distance, morning light, a hose and pots, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A little rain will **dampen** the dust."
+  },
+  {
+    "phrase": "douse",
+    "pos": "verb",
+    "sense": "pour-liquid-over-something",
+    "pronunciation": "/daʊs/",
+    "definition": "to pour liquid over something.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "present_example": "Firefighters **douse** the embers.",
+    "past_simple_example": "He **doused** the fire with water.",
+    "past_participle_example": "The coals have been **doused**.",
+    "present_participle_example": "**Dousing** the tent kept the dust down.",
+    "image": "voc_5c902927",
+    "image_brief": "a firefighter dousing embers with water, seen from the side at wide distance, smoke and light, a hose and a helmet, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Firefighters **douse** the embers."
+  },
+  {
+    "phrase": "saturate",
+    "pos": "verb",
+    "sense": "make-completely-wet",
+    "pronunciation": "/ˈsætʃəˌreɪt/",
+    "definition": "to make something completely wet.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "present_example": "Heavy rain can **saturate** the soil.",
+    "past_simple_example": "The storm **saturated** the fields.",
+    "past_participle_example": "The ground is **saturated**.",
+    "present_participle_example": "**Saturating** the cloth makes it heavy.",
+    "image": "voc_1dfa194b",
+    "image_brief": "heavy rain saturating a field while a farmer watches from a gate, seen from the side at wide distance, grey light, a tractor and a fence, resigned mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Heavy rain can **saturate** the soil."
+  },
+  {
+    "phrase": "downwind",
+    "pos": "adverb",
+    "sense": "in-the-direction-the-wind-blows",
+    "pronunciation": "/ˈdaʊnˌwɪnd/",
+    "definition": "in the direction the wind is blowing.",
+    "categories": [
+      "weather"
+    ],
+    "level": "b2",
+    "image": "voc_3370694c",
+    "image_brief": "a hiker keeping downwind of a fire, seen from the side at wide distance, evening light, smoke and a tent, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Stand **downwind** of the smoke."
+  },
+  {
+    "phrase": "amphibian",
+    "pos": "noun",
+    "sense": "animal-living-in-water-and-on-land",
+    "pronunciation": "/æmˈfɪbiən/",
+    "definition": "an animal that lives both in water and on land.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_0c16cb5e",
+    "image_brief": "a frog at the edge of a pond with its eggs nearby, seen from a low angle at medium distance, green light, reeds and stones, quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A frog is an **amphibian**."
+  },
+  {
+    "phrase": "invertebrate",
+    "pos": "noun",
+    "sense": "animal-without-a-backbone",
+    "pronunciation": "/ɪnˈvɝtəbrɪt/",
+    "definition": "an animal without a backbone.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_68c5fbab",
+    "image_brief": "a worm on wet soil held in a gardener's hand, seen from above at medium distance, morning light, a trowel and a pot, curious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "An insect is an **invertebrate**."
+  },
+  {
+    "phrase": "vertebrate",
+    "pos": "noun",
+    "sense": "animal-with-a-backbone",
+    "pronunciation": "/ˈvɝtəbrɪt/",
+    "definition": "an animal with a backbone.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_6f83530b",
+    "image_brief": "a deer skeleton displayed in a classroom while students look, seen from the side at medium distance, window light, desks and charts turned away, attentive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Every **vertebrate** has a spine."
+  },
+  {
+    "phrase": "primate",
+    "pos": "noun",
+    "sense": "monkey-ape-or-related-animal",
+    "pronunciation": "/ˈpraɪˌmeɪt/",
+    "definition": "a monkey, ape or related animal.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_05ce9ef2",
+    "image_brief": "a monkey using a stick to reach food, seen from the side at medium distance, forest light, branches and leaves, clever mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **primate** used a stick as a tool."
+  },
+  {
+    "phrase": "marsupial",
+    "pos": "noun",
+    "sense": "mammal-with-a-pouch",
+    "pronunciation": "/mɑrˈsupiəl/",
+    "definition": "a mammal that carries its young in a pouch.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_15add2a3",
+    "image_brief": "a kangaroo with a joey in its pouch, seen from the side at wide distance, warm light, grass and a fence, gentle mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A kangaroo is a **marsupial**."
+  },
+  {
+    "phrase": "crustacean",
+    "pos": "noun",
+    "sense": "water-animal-with-a-hard-shell",
+    "pronunciation": "/krʌˈsteɪʃən/",
+    "definition": "a water animal with a hard shell.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_15dfcdc2",
+    "image_brief": "a crab walking sideways on wet sand, seen from a low angle at medium distance, morning light, shells and seaweed, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Crabs are a kind of **crustacean**."
+  },
+  {
+    "phrase": "mollusk",
+    "pos": "noun",
+    "sense": "soft-bodied-animal-often-with-a-shell",
+    "pronunciation": "/ˈmɑləsk/",
+    "definition": "a soft-bodied animal, often with a shell.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_9eff41f2",
+    "image_brief": "a mollusk leaving a trail on a rock, seen from above at medium distance, damp light, seaweed and a pool, slow mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **mollusk** left a trail in the sand."
+  },
+  {
+    "phrase": "larva",
+    "pos": "noun",
+    "sense": "young-form-of-an-insect",
+    "pronunciation": "/ˈlɑrvə/",
+    "definition": "the young form of an insect before it changes.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_b3d86bd6",
+    "image_brief": "a caterpillar-like larva eating a leaf, seen from above at medium distance, bright light, a stem and a garden, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **larva** feeds on leaves."
+  },
+  {
+    "phrase": "pupa",
+    "pos": "noun",
+    "sense": "insect-stage-before-adult",
+    "pronunciation": "/ˈpjupə/",
+    "definition": "the stage of an insect between larva and adult.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_42ef8bcc",
+    "image_brief": "a pupa hanging under a leaf while a child watches closely, seen from the side at medium distance, soft light, branches and a jar, curious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **pupa** hangs under the leaf."
+  },
+  {
+    "phrase": "tadpole",
+    "pos": "noun",
+    "sense": "young-frog-with-a-tail",
+    "pronunciation": "/ˈtædˌpoʊl/",
+    "definition": "a young frog or toad with a tail.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_5310068b",
+    "image_brief": "tadpoles swimming between reeds in a pond, seen from above at medium distance, green light, stones and algae, still mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **tadpole** swam between the reeds."
+  },
+  {
+    "phrase": "plumage",
+    "pos": "noun",
+    "sense": "the-feathers-of-a-bird",
+    "pronunciation": "/ˈplumɪdʒ/",
+    "definition": "the feathers covering a bird.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_621e1761",
+    "image_brief": "a peacock displaying bright plumage, seen from the side at medium distance, afternoon light, grass and a fence, proud mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The male's **plumage** is bright blue."
+  },
+  {
+    "phrase": "tusk",
+    "pos": "noun",
+    "sense": "long-pointed-tooth-outside-the-mouth",
+    "pronunciation": "/tʌsk/",
+    "definition": "a long pointed tooth outside the mouth.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_46895770",
+    "image_brief": "an elephant with a broken tusk walking in a reserve, seen from the side at wide distance, dusty light, trees and a jeep, somber mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The elephant's **tusk** was broken."
+  },
+  {
+    "phrase": "mane",
+    "pos": "noun",
+    "sense": "long-hair-on-a-neck",
+    "pronunciation": "/meɪn/",
+    "definition": "the long hair on a horse's or lion's neck.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_9a2c1eb0",
+    "image_brief": "a girl brushing a horse's mane in a stable, seen from the side at medium distance, morning light, straw and a bucket, gentle mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She brushed the horse's **mane**."
+  },
+  {
+    "phrase": "hoof",
+    "pos": "noun",
+    "sense": "hard-foot-of-a-horse",
+    "pronunciation": "/hʊf/",
+    "definition": "the hard foot of a horse or cow.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_50bd3148",
+    "image_brief": "a horse's hoof leaving a print in mud, seen from a low angle at medium distance, grey light, grass and a fence, earthy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **hoof** left a deep print."
+  },
+  {
+    "phrase": "fang",
+    "pos": "noun",
+    "sense": "long-sharp-tooth",
+    "pronunciation": "/fæŋ/",
+    "definition": "a long sharp tooth.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_e8195bac",
+    "image_brief": "a snake with one fang visible on a rock, seen from a low angle at medium distance, hot light, sand and stones, tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The snake showed one **fang**."
+  },
+  {
+    "phrase": "talon",
+    "pos": "noun",
+    "sense": "sharp-claw-of-a-bird",
+    "pronunciation": "/ˈtælən/",
+    "definition": "a sharp claw of a bird.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_7fc36e37",
+    "image_brief": "an eagle's talon gripping a branch, seen from below at medium distance, bright light, leaves and sky, powerful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The eagle closed its **talon** on the branch."
+  },
+  {
+    "phrase": "pouch",
+    "pos": "noun",
+    "sense": "pocket-of-skin-for-carrying-young",
+    "pronunciation": "/paʊtʃ/",
+    "definition": "a pocket of skin for carrying young.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_0821b0b3",
+    "image_brief": "a zookeeper checking a joey in its mother's pouch, seen from the side at medium distance, soft light, an enclosure and a bucket, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The joey climbed into the **pouch**."
+  },
+  {
+    "phrase": "hump",
+    "pos": "noun",
+    "sense": "raised-part-on-an-animals-back",
+    "pronunciation": "/hʌmp/",
+    "definition": "a raised part on the back of an animal.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_2b75fdde",
+    "image_brief": "a camel with a full hump crossing dunes, seen from the side at wide distance, golden light, sand and a rider, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The camel's **hump** stores fat."
+  },
+  {
+    "phrase": "quill",
+    "pos": "noun",
+    "sense": "long-sharp-spine-of-a-porcupine",
+    "pronunciation": "/kwɪl/",
+    "definition": "a long sharp spine on a porcupine.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_b40aa075",
+    "image_brief": "a porcupine with raised quills on a forest floor, seen from the side at medium distance, dappled light, logs and leaves, wary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **quill** stuck in the dog's nose."
+  },
+  {
+    "phrase": "brood",
+    "pos": "noun",
+    "sense": "young-birds-born-together",
+    "pronunciation": "/brud/",
+    "definition": "a group of young birds born together.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_2623b6a0",
+    "image_brief": "a hen with her brood of chicks in a yard, seen from the side at medium distance, morning light, a coop and a bowl, warm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The hen kept her **brood** close."
+  },
+  {
+    "phrase": "shoal",
+    "pos": "noun",
+    "sense": "large-group-of-fish",
+    "pronunciation": "/ʃoʊl/",
+    "definition": "a large group of fish.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_4b0cccf3",
+    "image_brief": "a shoal of small fish flashing under clear water, seen from above at wide distance, bright light, rocks and weed, lively mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **shoal** of small fish flashed past."
+  },
+  {
+    "phrase": "web",
+    "pos": "noun",
+    "sense": "the-net-a-spider-makes",
+    "pronunciation": "/wɛb/",
+    "definition": "the net a spider makes.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_a7e3f9b1",
+    "image_brief": "a spider web covered in dew between two branches, seen from the side at medium distance, soft light, leaves and a fence, delicate mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Dew hung on the **web**."
+  },
+  {
+    "phrase": "cocoon",
+    "pos": "noun",
+    "sense": "silk-case-before-becoming-a-moth",
+    "pronunciation": "/kəˈkun/",
+    "definition": "the silk case a moth makes before changing.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_2fc8d296",
+    "image_brief": "a cocoon hanging from a twig while a woman photographs it, seen from the side at medium distance, green light, leaves and a lens, curious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **cocoon** hung from the twig."
+  },
+  {
+    "phrase": "mate",
+    "pos": "noun",
+    "sense": "the-partner-an-animal-breeds-with",
+    "pronunciation": "/meɪt/",
+    "definition": "the partner an animal breeds with.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_0ea2090a",
+    "image_brief": "two swans beside each other on a lake, seen from the side at wide distance, soft light, reeds and a boat, calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The bird returned to its **mate**."
+  },
+  {
+    "phrase": "courtship",
+    "pos": "noun",
+    "sense": "behavior-to-attract-a-partner",
+    "pronunciation": "/ˈkɔrtˌʃɪp/",
+    "definition": "the behavior animals use to attract a partner.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_26d900db",
+    "image_brief": "a bird performing a courtship dance on a lawn, seen from the side at medium distance, morning light, a hedge and a feeder, lively mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The dance is part of **courtship**."
+  },
+  {
+    "phrase": "territory",
+    "pos": "noun",
+    "sense": "area-an-animal-defends",
+    "pronunciation": "/ˈtɛrəˌtɔri/",
+    "definition": "an area an animal defends.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_3be902e1",
+    "image_brief": "a fox marking a boundary by a wall, seen from the side at medium distance, dusk light, a garden and a fence, wary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The fox marks its **territory**."
+  },
+  {
+    "phrase": "migration",
+    "pos": "noun",
+    "sense": "seasonal-movement-of-animals",
+    "pronunciation": "/maɪˈɡreɪʃən/",
+    "definition": "the seasonal movement of animals.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_81a9a959",
+    "image_brief": "geese flying in formation over a lake, seen from below at wide distance, autumn light, reeds and a boat, purposeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **migration** crosses the strait."
+  },
+  {
+    "phrase": "hibernation",
+    "pos": "noun",
+    "sense": "deep-winter-sleep-of-animals",
+    "pronunciation": "/ˌhaɪbɝˈneɪʃən/",
+    "definition": "the deep winter sleep of animals.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_5e67d09c",
+    "image_brief": "a bear curled asleep in a den while a ranger watches from a distance, seen from the side at wide distance, dim light, snow and rocks, hushed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Hibernation** slows the heartbeat."
+  },
+  {
+    "phrase": "camouflage",
+    "pos": "noun",
+    "sense": "coloring-that-hides-an-animal",
+    "pronunciation": "/ˈkæməˌflɑʒ/",
+    "definition": "coloring that hides an animal.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_ef4a41a8",
+    "image_brief": "a frog almost invisible on a leaf while a child points, seen from above at medium distance, green light, stems and a jar, surprised mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The frog's **camouflage** works on leaves."
+  },
+  {
+    "phrase": "mimicry",
+    "pos": "noun",
+    "sense": "copying-another-animals-look",
+    "pronunciation": "/ˈmɪmɪkri/",
+    "definition": "copying another animal's look for protection.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_ac366c9a",
+    "image_brief": "a butterfly with wing patterns like eyes on a flower, seen from a low angle at medium distance, bright light, leaves and a fence, clever mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The butterfly uses **mimicry**."
+  },
+  {
+    "phrase": "extinction",
+    "pos": "noun",
+    "sense": "death-of-the-last-of-a-species",
+    "pronunciation": "/ɪkˈstɪŋkʃən/",
+    "definition": "the death of the last of a species.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_2835ced5",
+    "image_brief": "an empty museum case with a single feather while a visitor looks, seen from the side at medium distance, cool light, labels turned away and a bench, somber mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The bird is close to **extinction**."
+  },
+  {
+    "phrase": "poaching",
+    "pos": "noun",
+    "sense": "illegal-hunting-of-animals",
+    "pronunciation": "/ˈpoʊtʃɪŋ/",
+    "definition": "illegal hunting of animals.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_678cb2f2",
+    "image_brief": "rangers examining a snare in a forest, seen from the side at medium distance, grey light, trees and a jeep, grim mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Poaching** threatens the rhinos."
+  },
+  {
+    "phrase": "breeding",
+    "pos": "noun",
+    "sense": "keeping-animals-to-produce-young",
+    "pronunciation": "/ˈbridɪŋ/",
+    "definition": "keeping animals so they produce young.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_7da36c62",
+    "image_brief": "a keeper feeding a young animal in a breeding center, seen from the side at medium distance, clean light, pens and a clipboard, hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The center runs a **breeding** program."
+  },
+  {
+    "phrase": "veterinarian",
+    "pos": "noun",
+    "sense": "doctor-for-animals",
+    "pronunciation": "/ˌvɛtərəˈnɛriən/",
+    "definition": "a doctor for animals.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_1d45d671",
+    "image_brief": "a vet examining a dog's leg on a table with the owner beside, seen from the side at medium distance, bright clinic light, a stethoscope and a chart, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **veterinarian** checked the dog's leg."
+  },
+  {
+    "phrase": "zoologist",
+    "pos": "noun",
+    "sense": "scientist-who-studies-animals",
+    "pronunciation": "/zoʊˈɑlədʒɪst/",
+    "definition": "a scientist who studies animals.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_69870e72",
+    "image_brief": "a zoologist recording bird calls with headphones, seen from the side at medium distance, forest light, a notebook and a mic, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **zoologist** recorded the calls."
+  },
+  {
+    "phrase": "ranger",
+    "pos": "noun",
+    "sense": "person-who-looks-after-a-reserve",
+    "pronunciation": "/ˈreɪndʒɝ/",
+    "definition": "a person who looks after a park or reserve.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_d3cee6f9",
+    "image_brief": "a park ranger tracking a herd from a ridge, seen from behind at wide distance, morning light, binoculars and a hat, watchful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **ranger** tracked the herd."
+  },
+  {
+    "phrase": "keeper",
+    "pos": "noun",
+    "sense": "person-who-cares-for-zoo-animals",
+    "pronunciation": "/ˈkipɝ/",
+    "definition": "a person who feeds and cares for zoo animals.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_7f398ba1",
+    "image_brief": "a zoo keeper cleaning an enclosure while an animal watches, seen from the side at medium distance, flat light, a bucket and a rake, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **keeper** cleaned the enclosure."
+  },
+  {
+    "phrase": "stinger",
+    "pos": "noun",
+    "sense": "sharp-part-an-insect-stings-with",
+    "pronunciation": "/ˈstɪŋɝ/",
+    "definition": "the sharp part an insect uses to sting.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_b9f7930c",
+    "image_brief": "a bee's stinger left in a swollen hand, seen from above at medium distance, kitchen light, a cloth and a bowl, painful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The bee's **stinger** was left in the skin."
+  },
+  {
+    "phrase": "venom",
+    "pos": "noun",
+    "sense": "poison-produced-by-an-animal",
+    "pronunciation": "/ˈvɛnəm/",
+    "definition": "poison produced by an animal.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_79501e35",
+    "image_brief": "a researcher milking venom from a snake into a jar, seen from the side at medium distance, lab light, gloves and a box, tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The spider's **venom** is dangerous."
+  },
+  {
+    "phrase": "scavenger",
+    "pos": "noun",
+    "sense": "animal-that-eats-dead-animals",
+    "pronunciation": "/ˈskævɪndʒɝ/",
+    "definition": "an animal that eats dead animals.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_c754af1d",
+    "image_brief": "vultures gathered around a carcass on a plain, seen from the side at wide distance, harsh light, grass and a tree, stark mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The vulture is a **scavenger**."
+  },
+  {
+    "phrase": "omnivore",
+    "pos": "noun",
+    "sense": "animal-that-eats-plants-and-meat",
+    "pronunciation": "/ˈɑmnɪˌvɔr/",
+    "definition": "an animal that eats plants and meat.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_69fec5fa",
+    "image_brief": "a bear eating berries and fish at a river, seen from the side at wide distance, morning light, rocks and water, hungry mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A bear is an **omnivore**."
+  },
+  {
+    "phrase": "carnivore",
+    "pos": "noun",
+    "sense": "animal-that-eats-meat",
+    "pronunciation": "/ˈkɑrnɪˌvɔr/",
+    "definition": "an animal that eats meat.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_d3fdc60e",
+    "image_brief": "a tiger with sharp teeth near a waterhole, seen from the side at wide distance, dusk light, grass and a jeep, tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The tiger is a **carnivore**."
+  },
+  {
+    "phrase": "forage",
+    "pos": "verb",
+    "sense": "search-for-food",
+    "pronunciation": "/ˈfɔrɪdʒ/",
+    "definition": "to search for food.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "present_example": "Deer **forage** at dawn.",
+    "past_simple_example": "The pigs **foraged** in the woods.",
+    "past_participle_example": "The bears have **foraged** all night.",
+    "present_participle_example": "**Foraging** in winter is hard.",
+    "image": "voc_376fa382",
+    "image_brief": "deer foraging at the edge of a wood, seen from the side at wide distance, misty light, grass and a fence, quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Deer **forage** at dawn."
+  },
+  {
+    "phrase": "roost",
+    "pos": "verb",
+    "sense": "settle-on-a-branch-to-sleep",
+    "pronunciation": "/rust/",
+    "definition": "to settle on a branch to sleep, as birds do.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "present_example": "The birds **roost** in the church tower.",
+    "past_simple_example": "They **roosted** on the wires.",
+    "past_participle_example": "The flock has **roosted** for the night.",
+    "present_participle_example": "**Roosting** birds fill the trees.",
+    "image": "voc_1853c8fc",
+    "image_brief": "birds roosting on wires at dusk, seen from below at wide distance, orange light, poles and roofs, calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The birds **roost** in the church tower."
+  },
+  {
+    "phrase": "neigh",
+    "pos": "verb",
+    "sense": "make-the-sound-of-a-horse",
+    "pronunciation": "/neɪ/",
+    "definition": "to make the long sound of a horse.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "present_example": "The horse **neighs** when it sees you.",
+    "past_simple_example": "It **neighed** and stamped.",
+    "past_participle_example": "The mare has **neighed** all morning.",
+    "present_participle_example": "**Neighing** horses woke the yard.",
+    "image": "voc_43afe4f9",
+    "image_brief": "a horse neighing at a fence while a rider approaches, seen from the side at medium distance, morning light, a stable and hay, eager mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The horse will **neigh** when it sees you."
+  },
+  {
+    "phrase": "moo",
+    "pos": "verb",
+    "sense": "make-the-sound-of-a-cow",
+    "pronunciation": "/mu/",
+    "definition": "to make the long sound of a cow.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "present_example": "Cows **moo** when the bucket arrives.",
+    "past_simple_example": "The calf **mooed** for its mother.",
+    "past_participle_example": "The herd has **mooed** since dawn.",
+    "present_participle_example": "**Mooing** cattle filled the barn.",
+    "image": "voc_0e24d38b",
+    "image_brief": "a cow mooing at a farm gate, seen from the side at medium distance, soft light, a bucket and a fence, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Cows **moo** when the bucket arrives."
+  },
+  {
+    "phrase": "aquatic",
+    "pos": "adjective",
+    "sense": "living-or-growing-in-water",
+    "pronunciation": "/əˈkwætɪk/",
+    "definition": "living or growing in water.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_f5ae92d1",
+    "image_brief": "aquatic plants and fish in a clear pond, seen from above at wide distance, green light, stones and reeds, fresh mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Aquatic** plants fill the pond."
+  },
+  {
+    "phrase": "terrestrial",
+    "pos": "adjective",
+    "sense": "living-or-growing-on-land",
+    "pronunciation": "/təˈrɛstriəl/",
+    "definition": "living or growing on land.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_a89b2c8a",
+    "image_brief": "a tortoise walking on dry ground, seen from a low angle at medium distance, bright light, stones and grass, slow mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Most **terrestrial** animals need little water."
+  },
+  {
+    "phrase": "carnivorous",
+    "pos": "adjective",
+    "sense": "eating-meat",
+    "pronunciation": "/kɑrˈnɪvɝəs/",
+    "definition": "eating meat.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_b85d6075",
+    "image_brief": "a carnivorous fish with sharp teeth in a tank, seen from the side at medium distance, blue light, plants and rocks, menacing mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **carnivorous** fish has sharp teeth."
+  },
+  {
+    "phrase": "herbivorous",
+    "pos": "adjective",
+    "sense": "eating-only-plants",
+    "pronunciation": "/hɝˈbɪvɝəs/",
+    "definition": "eating only plants.",
+    "categories": [
+      "animals"
+    ],
+    "level": "b2",
+    "image": "voc_8eeb08bc",
+    "image_brief": "a deer grazing among plants, seen from the side at wide distance, morning light, trees and a fence, peaceful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **herbivorous** dinosaur had flat teeth."
   }
 ]
