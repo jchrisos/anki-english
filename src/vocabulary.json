@@ -78389,5 +78389,3709 @@
     "image": "voc_3f49b218",
     "image_brief": "monks chanting in a stone church, seen from the side at wide distance, dim light, candles and benches, solemn mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
     "example": "The monks **chant** at dawn."
+  },
+  {
+    "phrase": "epoch",
+    "pos": "noun",
+    "sense": "long-period-of-history",
+    "pronunciation": "/ˈɛpək/",
+    "definition": "a long period of history with its own character.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_caa9a3cf",
+    "image_brief": "a museum hall where one age gives way to the next, visitors walking between cases, seen from the side at wide distance, cool light, benches and a stone arch, contemplative mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The invention began a new **epoch**."
+  },
+  {
+    "phrase": "aeon",
+    "pos": "noun",
+    "sense": "extremely-long-period-of-time",
+    "pronunciation": "/ˈiən/",
+    "definition": "an extremely long period of time.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_d1ec0b3d",
+    "image_brief": "layered rock strata in a canyon wall, a geologist pointing, seen from the side at wide distance, warm light, a hammer and a notebook, awed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The rock formed an **aeon** ago."
+  },
+  {
+    "phrase": "retrospect",
+    "pos": "noun",
+    "sense": "looking-back-at-past-events",
+    "pronunciation": "/ˈrɛtrəˌspɛkt/",
+    "definition": "the act of looking back at past events.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_3afb1f28",
+    "image_brief": "an older man going through an album at a table, seen from the side at medium distance, lamp light, a cup and letters, reflective mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "In **retrospect**, the warning was clear."
+  },
+  {
+    "phrase": "hindsight",
+    "pos": "noun",
+    "sense": "understanding-only-after-events",
+    "pronunciation": "/ˈhaɪndˌsaɪt/",
+    "definition": "understanding of events only after they happen.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_3e667501",
+    "image_brief": "a team reviewing a failed project on a board, one member shaking his head, seen from the side at wide distance, flat light, chairs and notes, rueful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Hindsight** makes the choice obvious."
+  },
+  {
+    "phrase": "foresight",
+    "pos": "noun",
+    "sense": "ability-to-plan-for-the-future",
+    "pronunciation": "/ˈfɔrˌsaɪt/",
+    "definition": "the ability to plan for the future.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_42926ada",
+    "image_brief": "a manager presenting a long-term plan to a team, seen from the side at wide distance, bright light, chairs and a chart turned away, confident mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **foresight** saved the company."
+  },
+  {
+    "phrase": "premonition",
+    "pos": "noun",
+    "sense": "feeling-that-something-bad-will-happen",
+    "pronunciation": "/ˌprɛməˈnɪʃən/",
+    "definition": "a feeling that something bad will happen.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_7e6154b6",
+    "image_brief": "a woman pausing at a departure gate with a worried look, seen from the side at medium distance, flat terminal light, a bag and a board turned away, uneasy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He had a **premonition** about the flight."
+  },
+  {
+    "phrase": "timekeeping",
+    "pos": "noun",
+    "sense": "recording-time-accurately",
+    "pronunciation": "/ˈtaɪmˌkipɪŋ/",
+    "definition": "the act of recording time accurately.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_2f06ca89",
+    "image_brief": "an official checking a timing device at a race, seen from the side at medium distance, track light, cables and a clipboard turned away, precise mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The race uses electronic **timekeeping**."
+  },
+  {
+    "phrase": "twilight",
+    "pos": "noun",
+    "sense": "soft-light-after-sunset",
+    "pronunciation": "/ˈtwaɪˌlaɪt/",
+    "definition": "the soft light after sunset.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_2471588f",
+    "image_brief": "a street at dusk with lamps coming on, two people walking home, seen from the side at wide distance, blue light, fences and a tree, calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They walked home in the **twilight**."
+  },
+  {
+    "phrase": "interlude",
+    "pos": "noun",
+    "sense": "short-period-between-events",
+    "pronunciation": "/ˈɪntɝˌlud/",
+    "definition": "a short period between two events.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_daca08ca",
+    "image_brief": "guests standing quietly between speeches in a hall, seen from the side at wide distance, warm light, chairs and glasses, easy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A quiet **interlude** followed the speeches."
+  },
+  {
+    "phrase": "rota",
+    "pos": "noun",
+    "sense": "list-of-who-does-what-and-when",
+    "pronunciation": "/ˈroʊtə/",
+    "definition": "a list of who does a job and when.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_efdc6466",
+    "image_brief": "a nurse checking a staff rota on a board, seen from behind at medium distance, ward light, a desk and a clock, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **rota** puts her on nights."
+  },
+  {
+    "phrase": "anachronism",
+    "pos": "noun",
+    "sense": "something-that-belongs-to-another-time",
+    "pronunciation": "/əˈnækrəˌnɪzəm/",
+    "definition": "something that belongs to another time.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_25996db6",
+    "image_brief": "an old phone box standing on a modern street, a passer-by looking at it, seen from the side at wide distance, grey light, glass towers and a bicycle, nostalgic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The phone box is a charming **anachronism**."
+  },
+  {
+    "phrase": "lateness",
+    "pos": "noun",
+    "sense": "state-of-being-late",
+    "pronunciation": "/ˈleɪtnəs/",
+    "definition": "the state of being late.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_19298fee",
+    "image_brief": "a manager noting a time on a form at a desk, seen from the side at medium distance, office light, a clock and a chair, stern mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The teacher noted his **lateness**."
+  },
+  {
+    "phrase": "midday",
+    "pos": "noun",
+    "sense": "twelve-o-clock-in-the-day",
+    "pronunciation": "/ˈmɪdˌdeɪ/",
+    "definition": "twelve o'clock in the day.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_e9392489",
+    "image_brief": "a busy market at midday with shoppers and stalls, seen from a high angle at wide distance, bright light, awnings and crates, lively mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The market is busiest at **midday**."
+  },
+  {
+    "phrase": "fortnight",
+    "pos": "noun",
+    "sense": "two-weeks",
+    "pronunciation": "/ˈfɔrtˌnaɪt/",
+    "definition": "two weeks.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_24b637be",
+    "image_brief": "a couple unpacking after a two-week stay, seen from the side at medium distance, daylight, suitcases and a calendar turned away, settled mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They stayed for a **fortnight**."
+  },
+  {
+    "phrase": "trimester",
+    "pos": "noun",
+    "sense": "period-of-three-months",
+    "pronunciation": "/traɪˈmɛstɝ/",
+    "definition": "a period of three months.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_011cac98",
+    "image_brief": "a student planning courses for a three-month term, seen from above at medium distance, window light, a laptop and notes, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The course runs for one **trimester**."
+  },
+  {
+    "phrase": "daybreak",
+    "pos": "noun",
+    "sense": "time-when-light-first-appears",
+    "pronunciation": "/ˈdeɪˌbreɪk/",
+    "definition": "the time when light first appears.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_1102aee0",
+    "image_brief": "fishermen pushing a boat out at daybreak, seen from the side at wide distance, pale light, nets and a jetty, quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They left before **daybreak**."
+  },
+  {
+    "phrase": "nightfall",
+    "pos": "noun",
+    "sense": "time-when-night-begins",
+    "pronunciation": "/ˈnaɪtˌfɔl/",
+    "definition": "the time when night begins.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_d24a84ce",
+    "image_brief": "hikers reaching a campsite at nightfall, seen from behind at wide distance, dim blue light, a tent and a lantern, tired relieved mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We reached camp at **nightfall**."
+  },
+  {
+    "phrase": "chronological",
+    "pos": "adjective",
+    "sense": "arranged-in-time-order",
+    "pronunciation": "/ˌkrɑnəˈlɑdʒɪkəl/",
+    "definition": "arranged in the order events happened.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_4885ee20",
+    "image_brief": "an archivist laying letters out in date order, seen from above at medium distance, lamp light, gloves and a box, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The files are in **chronological** order."
+  },
+  {
+    "phrase": "temporal",
+    "pos": "adjective",
+    "sense": "relating-to-time",
+    "pronunciation": "/ˈtɛmpɝəl/",
+    "definition": "relating to time.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_f546f82f",
+    "image_brief": "a researcher mapping events on a long timeline, seen from the side at wide distance, cool light, notes and a marker, analytical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The study looks at **temporal** patterns."
+  },
+  {
+    "phrase": "instantaneous",
+    "pos": "adjective",
+    "sense": "happening-immediately",
+    "pronunciation": "/ˌɪnstənˈteɪniəs/",
+    "definition": "happening immediately.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_8db3fbf3",
+    "image_brief": "a camera flash freezing a bursting balloon, seen from the side at medium distance, dark studio light, a tripod and a cable, precise mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The reply was almost **instantaneous**."
+  },
+  {
+    "phrase": "perpetual",
+    "pos": "adjective",
+    "sense": "never-ending",
+    "pronunciation": "/pɝˈpɛtʃuəl/",
+    "definition": "never ending.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_7d14916e",
+    "image_brief": "a factory machine running in an empty hall, seen from the side at wide distance, cold light, pipes and a control panel, mechanical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The machine makes a **perpetual** hum."
+  },
+  {
+    "phrase": "perennial",
+    "pos": "adjective",
+    "sense": "lasting-for-a-very-long-time",
+    "pronunciation": "/pəˈrɛniəl/",
+    "definition": "lasting for a very long time.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_04a1abcb",
+    "image_brief": "a crowded road at rush hour, a commuter waiting, seen from a high angle at wide distance, grey light, lights and a bridge, weary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Traffic is a **perennial** problem."
+  },
+  {
+    "phrase": "incessant",
+    "pos": "adjective",
+    "sense": "continuing-without-stopping",
+    "pronunciation": "/ɪnˈsɛsənt/",
+    "definition": "continuing without stopping.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_01fa8d2b",
+    "image_brief": "a woman covering her ears beside a road drill, seen from the side at medium distance, harsh light, barriers and a worker, strained mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **incessant** noise gave her a headache."
+  },
+  {
+    "phrase": "intermittent",
+    "pos": "adjective",
+    "sense": "stopping-and-starting-again",
+    "pronunciation": "/ˌɪntɝˈmɪtənt/",
+    "definition": "stopping and starting again.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_b1e4f429",
+    "image_brief": "a driver holding a phone up for signal on a hill road, seen from the side at medium distance, grey light, a fence and a valley, frustrated mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The signal is **intermittent** in the hills."
+  },
+  {
+    "phrase": "sporadic",
+    "pos": "adjective",
+    "sense": "happening-at-irregular-intervals",
+    "pronunciation": "/spəˈrædɪk/",
+    "definition": "happening at irregular intervals.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_48ad66b4",
+    "image_brief": "shoppers moving through a quiet market in light rain, seen from the side at wide distance, grey light, awnings and a puddle, listless mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Sporadic** rain fell all day."
+  },
+  {
+    "phrase": "prompt",
+    "pos": "adjective",
+    "sense": "done-quickly-and-on-time",
+    "pronunciation": "/prɑmpt/",
+    "definition": "done quickly and on time.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_2c08a067",
+    "image_brief": "a clerk answering a customer's message at a desk, seen from the side at medium distance, bright light, a laptop and a phone, efficient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **prompt** reply saved the deal."
+  },
+  {
+    "phrase": "tardy",
+    "pos": "adjective",
+    "sense": "late",
+    "pronunciation": "/ˈtɑrdi/",
+    "definition": "late.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_d6774169",
+    "image_brief": "a student slipping into a classroom after the bell, seen from the back of the room at medium distance, flat light, desks and a clock, embarrassed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He was **tardy** three mornings in a row."
+  },
+  {
+    "phrase": "belated",
+    "pos": "adjective",
+    "sense": "coming-later-than-expected",
+    "pronunciation": "/bɪˈleɪtɪd/",
+    "definition": "coming later than expected.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_fc891d10",
+    "image_brief": "a man opening a birthday card that arrived late, seen from the side at medium distance, evening light, a cake and a box, wry mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **belated** apology arrived."
+  },
+  {
+    "phrase": "premature",
+    "pos": "adjective",
+    "sense": "happening-too-soon",
+    "pronunciation": "/ˌpriməˈtʊr/",
+    "definition": "happening too soon.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_d2fc384d",
+    "image_brief": "a team holding back a celebration while the result is checked, seen from the side at wide distance, bright light, chairs and a screen turned away, cautious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The celebration was **premature**."
+  },
+  {
+    "phrase": "transient",
+    "pos": "adjective",
+    "sense": "lasting-only-a-short-time",
+    "pronunciation": "/ˈtrænʃənt/",
+    "definition": "lasting only a short time.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_d14aa635",
+    "image_brief": "a pop-up stall being packed away after one day, seen from the side at wide distance, evening light, boxes and a van, fleeting mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The fame proved **transient**."
+  },
+  {
+    "phrase": "ephemeral",
+    "pos": "adjective",
+    "sense": "lasting-a-very-short-time",
+    "pronunciation": "/ɪˈfɛmɝəl/",
+    "definition": "lasting a very short time.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_d2a47321",
+    "image_brief": "blossom falling from a tree in the wind, a woman watching, seen from the side at medium distance, soft light, a bench and a path, wistful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The blossom is **ephemeral**."
+  },
+  {
+    "phrase": "enduring",
+    "pos": "adjective",
+    "sense": "lasting-for-a-long-time",
+    "pronunciation": "/ɛnˈdʊrɪŋ/",
+    "definition": "lasting for a long time.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_7abbe529",
+    "image_brief": "two old friends meeting again after years, seen from the side at medium distance, warm light, cups and a photo, warm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They built an **enduring** friendship."
+  },
+  {
+    "phrase": "abiding",
+    "pos": "adjective",
+    "sense": "continuing-for-a-long-time",
+    "pronunciation": "/əˈbaɪdɪŋ/",
+    "definition": "continuing for a long time.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_e1242bb0",
+    "image_brief": "an older man watching birds with binoculars, seen from the side at wide distance, morning light, a notebook and a flask, content mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He has an **abiding** interest in birds."
+  },
+  {
+    "phrase": "protracted",
+    "pos": "adjective",
+    "sense": "lasting-longer-than-expected",
+    "pronunciation": "/proʊˈtræktɪd/",
+    "definition": "lasting longer than expected.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_08fbb75d",
+    "image_brief": "two teams still at a table late at night, papers everywhere, seen from the side at wide distance, dim light, cups and a clock, weary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **protracted** talks ended late."
+  },
+  {
+    "phrase": "concurrent",
+    "pos": "adjective",
+    "sense": "happening-at-the-same-time",
+    "pronunciation": "/kənˈkɝənt/",
+    "definition": "happening at the same time.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_ffd693be",
+    "image_brief": "two events running in adjoining halls with separate queues, seen from a high angle at wide distance, flat light, signs turned away and chairs, busy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The two events are **concurrent**."
+  },
+  {
+    "phrase": "sequential",
+    "pos": "adjective",
+    "sense": "following-in-order",
+    "pronunciation": "/sɪˈkwɛnʃəl/",
+    "definition": "following in order.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_cd9607c5",
+    "image_brief": "a worker following numbered steps on a machine, seen from the side at medium distance, work light, tools and a checklist turned away, methodical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Do the steps in **sequential** order."
+  },
+  {
+    "phrase": "diurnal",
+    "pos": "adjective",
+    "sense": "happening-in-the-daytime",
+    "pronunciation": "/daɪˈɝnəl/",
+    "definition": "happening in the daytime.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_fe9c7920",
+    "image_brief": "lizards warming on rocks in bright daylight, a researcher observing, seen from the side at medium distance, harsh light, a notebook and a hat, attentive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "These animals are **diurnal**."
+  },
+  {
+    "phrase": "biennial",
+    "pos": "adjective",
+    "sense": "happening-every-two-years",
+    "pronunciation": "/baɪˈɛniəl/",
+    "definition": "happening every two years.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_46d233c1",
+    "image_brief": "a large art exhibition being set up in a hall, seen from the side at wide distance, bright light, crates and a ladder, expectant mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The show is a **biennial** event."
+  },
+  {
+    "phrase": "concurrently",
+    "pos": "adverb",
+    "sense": "at-the-same-time",
+    "pronunciation": "/kənˈkɝəntli/",
+    "definition": "at the same time.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_3439194a",
+    "image_brief": "a student attending a lecture online while taking notes in class, seen from the side at medium distance, bright light, two screens and a cup, busy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The two courses run **concurrently**."
+  },
+  {
+    "phrase": "successively",
+    "pos": "adverb",
+    "sense": "one-after-another",
+    "pronunciation": "/səkˈsɛsɪvli/",
+    "definition": "one after another.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "image": "voc_845453ea",
+    "image_brief": "three runners finishing one after another at a race, seen from the side at wide distance, bright light, a clock and a barrier, tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He held the title **successively** for years."
+  },
+  {
+    "phrase": "elapse",
+    "pos": "verb",
+    "sense": "pass-as-time-does",
+    "pronunciation": "/ɪˈlæps/",
+    "definition": "to pass, as time does.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "present_example": "Several hours **elapse** between the test and the result.",
+    "past_simple_example": "A week **elapsed** before he replied.",
+    "past_participle_example": "Two years had **elapsed** since the move.",
+    "present_participle_example": "**Elapsing** quiet made everyone nervous.",
+    "image": "voc_e0fb59db",
+    "image_brief": "a waiting room clock with a patient watching it, seen from the side at medium distance, flat light, chairs and a magazine, patient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Several hours **elapse** between the test and the result."
+  },
+  {
+    "phrase": "prolong",
+    "pos": "verb",
+    "sense": "make-something-last-longer",
+    "pronunciation": "/prəˈlɔŋ/",
+    "definition": "to make something last longer.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "present_example": "They **prolong** dinner with stories.",
+    "past_simple_example": "The rain **prolonged** the match.",
+    "past_participle_example": "The visit has been **prolonged**.",
+    "present_participle_example": "**Prolonging** the argument helps nobody.",
+    "image": "voc_24ce5a5a",
+    "image_brief": "guests still talking at a table long after dinner, seen from the side at medium distance, warm light, plates and glasses, relaxed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **prolong** dinner with stories."
+  },
+  {
+    "phrase": "protract",
+    "pos": "verb",
+    "sense": "make-something-last-too-long",
+    "pronunciation": "/proʊˈtrækt/",
+    "definition": "to make something last too long.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "present_example": "Arguments **protract** the meeting.",
+    "past_simple_example": "The lawyer **protracted** the case.",
+    "past_participle_example": "The process has been **protracted** for months.",
+    "present_participle_example": "**Protracting** the debate loses votes.",
+    "image": "voc_534ff258",
+    "image_brief": "a meeting dragging into the evening with tired faces, seen from the side at wide distance, dim light, papers and cups, weary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Arguments **protract** the meeting."
+  },
+  {
+    "phrase": "recur",
+    "pos": "verb",
+    "sense": "happen-again",
+    "pronunciation": "/rɪˈkɝ/",
+    "definition": "to happen again.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "present_example": "The problem may **recur** next winter.",
+    "past_simple_example": "The pain **recurred** after a month.",
+    "past_participle_example": "The issue has **recurred** twice.",
+    "present_participle_example": "**Recurring** dreams woke him.",
+    "image": "voc_4afcb4d5",
+    "image_brief": "a patient describing a returning symptom to a doctor, seen from the side at medium distance, clinic light, a chart and a chair, concerned mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The problem may **recur** next winter."
+  },
+  {
+    "phrase": "coincide",
+    "pos": "verb",
+    "sense": "happen-at-the-same-time",
+    "pronunciation": "/ˌkoʊɪnˈsaɪd/",
+    "definition": "to happen at the same time.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "present_example": "The holidays **coincide** this year.",
+    "past_simple_example": "The two visits **coincided**.",
+    "past_participle_example": "The events have **coincided** before.",
+    "present_participle_example": "**Coinciding** dates caused a clash.",
+    "image": "voc_6dbbad41",
+    "image_brief": "two events starting at once in adjacent rooms, a planner looking between doors, seen from the side at medium distance, flat light, chairs and a phone, harried mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The holidays **coincide** this year."
+  },
+  {
+    "phrase": "defer",
+    "pos": "verb",
+    "sense": "delay-to-a-later-time",
+    "pronunciation": "/dɪˈfɝ/",
+    "definition": "to delay something to a later time.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "present_example": "They may **defer** the decision.",
+    "past_simple_example": "He **deferred** the payment by a month.",
+    "past_participle_example": "The decision has been **deferred**.",
+    "present_participle_example": "**Deferring** the vote buys little time.",
+    "image": "voc_994a0234",
+    "image_brief": "a committee pushing a decision to the next meeting, seen from the side at medium distance, office light, folders and a calendar turned away, cautious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They may **defer** the decision."
+  },
+  {
+    "phrase": "suspend",
+    "pos": "verb",
+    "sense": "stop-something-for-a-period",
+    "pronunciation": "/səˈspɛnd/",
+    "definition": "to stop something for a period.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "present_example": "The judge may **suspend** the sentence.",
+    "past_simple_example": "They **suspended** the search at dusk.",
+    "past_participle_example": "The service has been **suspended**.",
+    "present_participle_example": "**Suspending** the rules caused confusion.",
+    "image": "voc_d34e5cd0",
+    "image_brief": "a sign being turned to closed on a service counter, a customer reading it, seen from the side at medium distance, flat light, a queue and a barrier, disappointed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The judge may **suspend** the sentence."
+  },
+  {
+    "phrase": "dawdle",
+    "pos": "verb",
+    "sense": "move-or-act-too-slowly",
+    "pronunciation": "/ˈdɔdəl/",
+    "definition": "to move or act too slowly.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "present_example": "Do not **dawdle** on the way home.",
+    "past_simple_example": "He **dawdled** over breakfast.",
+    "past_participle_example": "She has **dawdled** all morning.",
+    "present_participle_example": "**Dawdling** in the corridor blocks others.",
+    "image": "voc_3483eb23",
+    "image_brief": "a child stopping to look at shop windows while a parent waits, seen from behind at medium distance, evening light, a street and a bag, patient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Do not **dawdle** on the way home."
+  },
+  {
+    "phrase": "synchronize",
+    "pos": "verb",
+    "sense": "make-things-happen-together",
+    "pronunciation": "/ˈsɪŋkrəˌnaɪz/",
+    "definition": "to make things happen at the same time.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "present_example": "The crew **synchronize** their watches.",
+    "past_simple_example": "They **synchronized** the lights.",
+    "past_participle_example": "The systems have been **synchronized**.",
+    "present_participle_example": "**Synchronizing** the two feeds took an hour.",
+    "image": "voc_69260370",
+    "image_brief": "two technicians setting clocks together in a control room, seen from the side at medium distance, dim light, screens turned away and cables, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The crew **synchronize** their watches."
+  },
+  {
+    "phrase": "overlap",
+    "pos": "verb",
+    "sense": "cover-part-of-the-same-time",
+    "pronunciation": "/ˌoʊvɝˈlæp/",
+    "definition": "to cover part of the same time or space.",
+    "categories": [
+      "time"
+    ],
+    "level": "c1",
+    "present_example": "The shifts **overlap** by thirty minutes.",
+    "past_simple_example": "The two events **overlapped**.",
+    "past_participle_example": "The dates have **overlapped** before.",
+    "present_participle_example": "**Overlapping** duties cause confusion.",
+    "image": "voc_af76fbd8",
+    "image_brief": "two workers handing over tasks at a shift change, seen from the side at medium distance, factory light, a locker and a board turned away, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The shifts **overlap** by thirty minutes."
+  },
+  {
+    "phrase": "luminescence",
+    "pos": "noun",
+    "sense": "light-given-off-without-heat",
+    "pronunciation": "/ˌluməˈnɛsəns/",
+    "definition": "light given off by something without heat.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_ba027511",
+    "image_brief": "a dark sea with a faint glow along the waves, one person on the shore, seen from the side at wide distance, blue light, rocks and a boat, mysterious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The sea showed a faint **luminescence**."
+  },
+  {
+    "phrase": "chroma",
+    "pos": "noun",
+    "sense": "purity-and-strength-of-a-color",
+    "pronunciation": "/ˈkroʊmə/",
+    "definition": "the purity and strength of a color.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_ee1d635d",
+    "image_brief": "an artist comparing two swatches of red on a palette, seen from above at medium distance, studio light, brushes and a jar, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **chroma** of the paint is intense."
+  },
+  {
+    "phrase": "vibrancy",
+    "pos": "noun",
+    "sense": "quality-of-being-bright-and-lively",
+    "pronunciation": "/ˈvaɪbrənsi/",
+    "definition": "the quality of being bright and full of life.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_431ed64c",
+    "image_brief": "a market street full of bright fabric and fruit, shoppers passing, seen from a high angle at wide distance, warm light, awnings and crates, lively mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **vibrancy** of the market colors is striking."
+  },
+  {
+    "phrase": "brilliance",
+    "pos": "noun",
+    "sense": "quality-of-being-very-bright",
+    "pronunciation": "/ˈbrɪljəns/",
+    "definition": "the quality of being very bright.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_1e4c4ffc",
+    "image_brief": "a man shielding his eyes on a white rooftop at noon, seen from the side at medium distance, harsh light, a rail and a water tank, dazzling mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **brilliance** of the white blinded him."
+  },
+  {
+    "phrase": "radiance",
+    "pos": "noun",
+    "sense": "warm-bright-light",
+    "pronunciation": "/ˈreɪdiəns/",
+    "definition": "warm bright light from something.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_26a8d612",
+    "image_brief": "a sunset filling a kitchen with orange light, a woman at the window, seen from across the room at medium distance, warm light, a table and a plant, serene mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **radiance** of the sunset filled the room."
+  },
+  {
+    "phrase": "opacity",
+    "pos": "noun",
+    "sense": "quality-of-not-letting-light-through",
+    "pronunciation": "/oʊˈpæsəti/",
+    "definition": "the quality of not letting light through.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_1459f434",
+    "image_brief": "a printer checking a sheet of dark ink against a lamp, seen from the side at medium distance, work light, a proof and a cloth, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **opacity** of the ink hides the print."
+  },
+  {
+    "phrase": "translucence",
+    "pos": "noun",
+    "sense": "letting-some-light-through",
+    "pronunciation": "/trænsˈlusəns/",
+    "definition": "the quality of letting some light through.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_3832f09f",
+    "image_brief": "light passing through a sheet of thin paper on a window, a woman holding it up, seen from the side at medium distance, soft light, a desk and a cup, quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **translucence** of the paper softens the light."
+  },
+  {
+    "phrase": "iridescence",
+    "pos": "noun",
+    "sense": "showing-changing-colors",
+    "pronunciation": "/ˌɪrɪˈdɛsəns/",
+    "definition": "the quality of showing changing colors.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_d6e734cc",
+    "image_brief": "a shell turning in the light with shifting colors, a child holding it, seen from the side at medium distance, seaside light, a bucket and a towel, delighted mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **iridescence** of the shell is striking."
+  },
+  {
+    "phrase": "fluorescence",
+    "pos": "noun",
+    "sense": "light-given-off-under-special-light",
+    "pronunciation": "/flʊˈrɛsəns/",
+    "definition": "light given off by a substance under certain light.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_430f8e9f",
+    "image_brief": "a worker in a bright vest under a dark lamp in a lab, seen from the side at medium distance, violet light, samples and gloves, curious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **fluorescence** of the vest makes it easy to see."
+  },
+  {
+    "phrase": "pigmentation",
+    "pos": "noun",
+    "sense": "coloring-of-skin-or-tissue",
+    "pronunciation": "/ˌpɪɡmənˈteɪʃən/",
+    "definition": "the coloring of skin, hair or tissue.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_b69402b9",
+    "image_brief": "a dermatologist examining a patch of skin under a lamp, seen from the side at medium distance, clinic light, a lens and a chart, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **pigmentation** faded over the years."
+  },
+  {
+    "phrase": "discoloration",
+    "pos": "noun",
+    "sense": "change-to-the-wrong-color",
+    "pronunciation": "/dɪsˌkʌlɝˈeɪʃən/",
+    "definition": "a change that makes something the wrong color.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_b87d2ae9",
+    "image_brief": "a damp patch spreading across a painted wall, a tenant pointing, seen from the side at medium distance, dim light, a bucket and a ladder, worried mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **discoloration** spread across the wall."
+  },
+  {
+    "phrase": "grayscale",
+    "pos": "noun",
+    "sense": "image-in-shades-of-gray",
+    "pronunciation": "/ˈɡreɪˌskeɪl/",
+    "definition": "an image in shades of gray.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_47a08692",
+    "image_brief": "a photographer reviewing a grayscale print on a table, seen from above at medium distance, soft light, a camera and a cup, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The portrait is printed in **grayscale**."
+  },
+  {
+    "phrase": "acrylic",
+    "pos": "noun",
+    "sense": "fast-drying-plastic-paint",
+    "pronunciation": "/əˈkrɪlɪk/",
+    "definition": "a fast-drying paint made with plastic.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_71aeeec1",
+    "image_brief": "an artist squeezing acrylic paint onto a palette, seen from above at medium distance, studio light, brushes and a canvas, creative mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She paints with **acrylic** on canvas."
+  },
+  {
+    "phrase": "gouache",
+    "pos": "noun",
+    "sense": "opaque-watercolor-paint",
+    "pronunciation": "/ɡuˈɑʃ/",
+    "definition": "an opaque watercolor paint.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_7df63626",
+    "image_brief": "a designer painting flat gouache color onto paper, seen from above at medium distance, window light, jars and a ruler, precise mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **gouache** dries to a flat color."
+  },
+  {
+    "phrase": "watercolor",
+    "pos": "noun",
+    "sense": "paint-mixed-with-water",
+    "pronunciation": "/ˈwɔtɝˌkʌlɝ/",
+    "definition": "paint mixed with water.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_442084c7",
+    "image_brief": "a hand brushing watercolor across wet paper, seen from above at medium distance, soft daylight, a jar and a cloth, gentle mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The sky is a pale **watercolor**."
+  },
+  {
+    "phrase": "tempera",
+    "pos": "noun",
+    "sense": "paint-mixed-with-egg",
+    "pronunciation": "/ˈtɛmpərə/",
+    "definition": "a paint mixed with egg.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_da376089",
+    "image_brief": "a conservator examining an old tempera panel with a lamp, seen from the side at medium distance, lab light, a brush and a chart, reverent mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The old panel was painted in **tempera**."
+  },
+  {
+    "phrase": "brushstroke",
+    "pos": "noun",
+    "sense": "one-movement-of-a-brush",
+    "pronunciation": "/ˈbrʌʃˌstroʊk/",
+    "definition": "one movement of a brush on a surface.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_c90c59ea",
+    "image_brief": "a close view of thick paint left by a single brushstroke, a painter stepping back, seen from the side at medium distance, studio light, a palette and a jar, absorbed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A single **brushstroke** shows the artist's hand."
+  },
+  {
+    "phrase": "impasto",
+    "pos": "noun",
+    "sense": "paint-laid-on-thickly",
+    "pronunciation": "/ɪmˈpæstoʊ/",
+    "definition": "paint laid on very thickly.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_40e4e9bd",
+    "image_brief": "a canvas with thick ridges of paint catching the light, a visitor leaning in, seen from the side at medium distance, gallery light, a rope and a bench, amazed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **impasto** casts real shadows."
+  },
+  {
+    "phrase": "phosphorescence",
+    "pos": "noun",
+    "sense": "light-after-the-source-is-gone",
+    "pronunciation": "/ˌfɑsfəˈrɛsəns/",
+    "definition": "light that continues after the source is gone.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_28e39aa1",
+    "image_brief": "glowing stars stuck to a child's ceiling at night, seen from below at wide distance, dim light, a bed and a lamp, dreamy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The stars on the ceiling gave a soft **phosphorescence**."
+  },
+  {
+    "phrase": "infrared",
+    "pos": "noun",
+    "sense": "light-beyond-red",
+    "pronunciation": "/ˌɪnfrəˈrɛd/",
+    "definition": "light beyond red that people cannot see.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_c20a9faa",
+    "image_brief": "a technician holding a camera with an infrared filter, seen from the side at medium distance, dim lab light, a tripod and a screen turned away, curious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The camera sees **infrared**."
+  },
+  {
+    "phrase": "ultraviolet",
+    "pos": "noun",
+    "sense": "light-beyond-violet",
+    "pronunciation": "/ˌʌltrəˈvaɪəlɪt/",
+    "definition": "light beyond violet that people cannot see.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_0741ac65",
+    "image_brief": "curtains faded by sunlight beside a bright window, a woman touching the fabric, seen from the side at medium distance, strong light, a chair and a plant, resigned mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Ultraviolet** fades the curtains."
+  },
+  {
+    "phrase": "colorway",
+    "pos": "noun",
+    "sense": "color-version-of-a-product",
+    "pronunciation": "/ˈkʌlɝˌweɪ/",
+    "definition": "one of several color versions of a product.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_4133330c",
+    "image_brief": "two identical shoes in different colors on a shelf, a customer comparing, seen from the side at medium distance, shop light, boxes and a mirror, thoughtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The shoe comes in a blue **colorway**."
+  },
+  {
+    "phrase": "undertone",
+    "pos": "noun",
+    "sense": "hidden-color-beneath-the-surface",
+    "pronunciation": "/ˈʌndɝˌtoʊn/",
+    "definition": "a hidden color beneath the surface color.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_53f37442",
+    "image_brief": "a decorator holding paint samples against a wall, seen from the side at medium distance, window light, a roller and a cloth, thoughtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The wall has a warm **undertone**."
+  },
+  {
+    "phrase": "halftone",
+    "pos": "noun",
+    "sense": "printed-image-made-of-dots",
+    "pronunciation": "/ˈhælˌtoʊn/",
+    "definition": "a printed image made of small dots.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_a588fd5e",
+    "image_brief": "a printer inspecting a poster with a magnifier, seen from above at medium distance, work light, a proof and a cup, precise mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The poster uses a coarse **halftone**."
+  },
+  {
+    "phrase": "luminance",
+    "pos": "noun",
+    "sense": "brightness-of-a-color",
+    "pronunciation": "/ˈlumənəns/",
+    "definition": "the brightness of a color or surface.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_0b1760e4",
+    "image_brief": "an editor adjusting a photo on a screen, seen from behind at medium distance, dim room light, a tablet and a cup, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Adjust the **luminance** before printing."
+  },
+  {
+    "phrase": "gamma",
+    "pos": "noun",
+    "sense": "setting-that-changes-image-brightness",
+    "pronunciation": "/ˈɡæmə/",
+    "definition": "a setting that changes the brightness of an image.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_8b6c327d",
+    "image_brief": "a photographer comparing two versions of an image, seen from the side at medium distance, dim studio light, a camera and a chart, analytical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **gamma** is too high."
+  },
+  {
+    "phrase": "exposure",
+    "pos": "noun",
+    "sense": "amount-of-light-reaching-a-camera",
+    "pronunciation": "/ɪkˈspoʊʒɝ/",
+    "definition": "the amount of light that reaches a camera.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_f83c6d7f",
+    "image_brief": "a photographer checking a light meter at dusk, seen from the side at medium distance, cool light, a tripod and a bag, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **exposure** was too long."
+  },
+  {
+    "phrase": "fresco",
+    "pos": "noun",
+    "sense": "painting-on-wet-plaster",
+    "pronunciation": "/ˈfrɛskoʊ/",
+    "definition": "a painting made on wet plaster.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_a3638cf7",
+    "image_brief": "a restorer working on an old fresco in a church, seen from below at wide distance, dim light, scaffolding and brushes, reverent mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The church **fresco** survived the fire."
+  },
+  {
+    "phrase": "mosaic",
+    "pos": "noun",
+    "sense": "picture-from-small-pieces",
+    "pronunciation": "/moʊˈzeɪɪk/",
+    "definition": "a picture made from small pieces of stone or glass.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_42c21465",
+    "image_brief": "a craftsman setting small tiles into a mosaic floor, seen from above at medium distance, work light, a tray and a sponge, patient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **mosaic** covered the floor."
+  },
+  {
+    "phrase": "collage",
+    "pos": "noun",
+    "sense": "picture-made-by-sticking-pieces",
+    "pronunciation": "/kəˈlɑʒ/",
+    "definition": "a picture made by sticking pieces together.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_d001ae70",
+    "image_brief": "a child gluing magazine pieces onto paper, seen from above at medium distance, kitchen light, scissors and a pot of glue, playful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The child made a **collage** from old magazines."
+  },
+  {
+    "phrase": "chromatic",
+    "pos": "adjective",
+    "sense": "relating-to-color",
+    "pronunciation": "/kroʊˈmætɪk/",
+    "definition": "relating to color.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_880a83ed",
+    "image_brief": "a color wheel pinned on a studio wall, a designer pointing, seen from the side at medium distance, bright light, sketches and a plant, curious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **chromatic** range is very wide."
+  },
+  {
+    "phrase": "monochromatic",
+    "pos": "adjective",
+    "sense": "using-only-one-color",
+    "pronunciation": "/ˌmɑnəkroʊˈmætɪk/",
+    "definition": "using only one color.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_034093a5",
+    "image_brief": "a room decorated entirely in shades of blue, a woman reading, seen from across the room at medium distance, soft light, a rug and a lamp, calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The room is **monochromatic**."
+  },
+  {
+    "phrase": "polychrome",
+    "pos": "adjective",
+    "sense": "painted-in-several-colors",
+    "pronunciation": "/ˈpɑliˌkroʊm/",
+    "definition": "painted in several colors.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_f5bcf8bc",
+    "image_brief": "a carved wooden statue painted in many colors in a museum case, a visitor looking, seen from the side at medium distance, cool light, a label turned away and a bench, curious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **polychrome** statue is rare."
+  },
+  {
+    "phrase": "complementary",
+    "pos": "adjective",
+    "sense": "colors-that-look-good-together",
+    "pronunciation": "/ˌkɑmpləˈmɛntəri/",
+    "definition": "colors opposite each other that look good together.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_16479dac",
+    "image_brief": "a poster using orange and blue side by side, a designer stepping back, seen from the side at medium distance, studio light, swatches and a ruler, satisfied mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Blue and orange are **complementary**."
+  },
+  {
+    "phrase": "analogous",
+    "pos": "adjective",
+    "sense": "colors-next-to-each-other",
+    "pronunciation": "/əˈnæləɡəs/",
+    "definition": "colors next to each other on the color wheel.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_4583a983",
+    "image_brief": "a painting in neighboring greens and blues, a viewer studying it, seen from the side at medium distance, gallery light, a bench and a frame, calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The palette is **analogous**."
+  },
+  {
+    "phrase": "luminous",
+    "pos": "adjective",
+    "sense": "giving-off-light",
+    "pronunciation": "/ˈlumənəs/",
+    "definition": "giving off light.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_f9819627",
+    "image_brief": "a watch face glowing in a dark room, a man checking the time, seen from the side at medium distance, dim light, a table and a book, quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The paint has a **luminous** glow."
+  },
+  {
+    "phrase": "lustrous",
+    "pos": "adjective",
+    "sense": "shiny-and-smooth",
+    "pronunciation": "/ˈlʌstrəs/",
+    "definition": "shiny and smooth.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_3b25d2b3",
+    "image_brief": "a bolt of lustrous silk catching the light, a dressmaker lifting a fold, seen from the side at medium distance, window light, scissors and a table, admiring mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **lustrous** silk catches the light."
+  },
+  {
+    "phrase": "translucent",
+    "pos": "adjective",
+    "sense": "letting-some-light-through",
+    "pronunciation": "/trænsˈlusənt/",
+    "definition": "letting some light through.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_6bfe3939",
+    "image_brief": "sunlight filtering through a translucent screen onto a table, a woman reading, seen from the side at medium distance, soft light, a cup and a chair, gentle mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **translucent** screen softens the sun."
+  },
+  {
+    "phrase": "colorfast",
+    "pos": "adjective",
+    "sense": "keeping-its-color-in-the-wash",
+    "pronunciation": "/ˈkʌlɝˌfæst/",
+    "definition": "keeping its color when washed.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_66907058",
+    "image_brief": "a woman checking a shirt label before washing, seen from the side at medium distance, utility room light, a basket and detergent, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The fabric is **colorfast**."
+  },
+  {
+    "phrase": "duotone",
+    "pos": "adjective",
+    "sense": "printed-in-two-colors",
+    "pronunciation": "/ˈduəˌtoʊn/",
+    "definition": "printed in two colors.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_4a2c0a0e",
+    "image_brief": "a designer comparing a two-color print on a table, seen from above at medium distance, studio light, proofs and a cup, pleased mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The cover is **duotone**."
+  },
+  {
+    "phrase": "monotone",
+    "pos": "adjective",
+    "sense": "in-a-single-even-color",
+    "pronunciation": "/ˌmɑnəˈtoʊn/",
+    "definition": "in a single even color.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "image": "voc_a0121adc",
+    "image_brief": "a long bare corridor painted in one flat color, a cleaner mopping, seen from the side at wide distance, flat light, a door and a bucket, bland mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The wall is **monotone**."
+  },
+  {
+    "phrase": "illuminate",
+    "pos": "verb",
+    "sense": "light-something-up",
+    "pronunciation": "/ɪˈluməˌneɪt/",
+    "definition": "to light something up.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "present_example": "The lamps **illuminate** the square.",
+    "past_simple_example": "Fireworks **illuminated** the harbor.",
+    "past_participle_example": "The stage has been **illuminated** all night.",
+    "present_participle_example": "**Illuminating** the sign saved electricity.",
+    "image": "voc_5dfec4df",
+    "image_brief": "lamps coming on over a town square at dusk, people walking below, seen from a high angle at wide distance, warm light, benches and trees, calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The lamps **illuminate** the square."
+  },
+  {
+    "phrase": "absorb",
+    "pos": "verb",
+    "sense": "take-in-light-or-liquid",
+    "pronunciation": "/əbˈzɔrb/",
+    "definition": "to take in light or liquid.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "present_example": "Dark walls **absorb** more light.",
+    "past_simple_example": "The cloth **absorbed** the spill.",
+    "past_participle_example": "The heat has been **absorbed** by the stone.",
+    "present_participle_example": "**Absorbing** light keeps the room cool.",
+    "image": "voc_6c6a5650",
+    "image_brief": "a dark wall warming in the sun while a woman touches it, seen from the side at medium distance, bright light, a plant and a bench, thoughtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Dark walls **absorb** more light."
+  },
+  {
+    "phrase": "radiate",
+    "pos": "verb",
+    "sense": "send-out-light-or-heat",
+    "pronunciation": "/ˈreɪdiˌeɪt/",
+    "definition": "to send out light or heat.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "present_example": "The stones **radiate** warmth.",
+    "past_simple_example": "The heater **radiated** heat all night.",
+    "past_participle_example": "Color has been **radiated** across the hall.",
+    "present_participle_example": "**Radiating** light, the sign drew a crowd.",
+    "image": "voc_18032f78",
+    "image_brief": "a stone wall still warm after sunset, a hiker resting a hand on it, seen from the side at medium distance, dusk light, a pack and a path, peaceful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The stones **radiate** warmth."
+  },
+  {
+    "phrase": "lighten",
+    "pos": "verb",
+    "sense": "make-something-less-dark",
+    "pronunciation": "/ˈlaɪtən/",
+    "definition": "to make something less dark.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "present_example": "The sky begins to **lighten** at five.",
+    "past_simple_example": "She **lightened** the walls with a pale wash.",
+    "past_participle_example": "The room has been **lightened** by the new paint.",
+    "present_participle_example": "**Lightening** the dye too fast damages cloth.",
+    "image": "voc_3c3672e7",
+    "image_brief": "a painter rolling pale paint over a dark wall, seen from the side at medium distance, morning light, a tray and a cloth, hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The sky begins to **lighten** at five."
+  },
+  {
+    "phrase": "clash",
+    "pos": "verb",
+    "sense": "look-unpleasant-together",
+    "pronunciation": "/klæʃ/",
+    "definition": "to look unpleasant together.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "present_example": "Those two colors **clash**.",
+    "past_simple_example": "The curtains **clashed** with the rug.",
+    "past_participle_example": "The patterns have **clashed** all along.",
+    "present_participle_example": "**Clashing** colors made the room feel loud.",
+    "image": "voc_d8079985",
+    "image_brief": "a couple holding two fabrics that look wrong together, seen from the side at medium distance, shop light, a rail and a mirror, doubtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Those two colors **clash**."
+  },
+  {
+    "phrase": "posterize",
+    "pos": "verb",
+    "sense": "reduce-an-image-to-few-colors",
+    "pronunciation": "/ˈpoʊstəˌraɪz/",
+    "definition": "to reduce an image to a few flat colors.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "present_example": "The app can **posterize** a photo.",
+    "past_simple_example": "She **posterized** the portrait for a poster.",
+    "past_participle_example": "The image has been **posterized** twice.",
+    "present_participle_example": "**Posterizing** too far loses detail.",
+    "image": "voc_f9c8b4a4",
+    "image_brief": "a designer applying a flat-color effect to a portrait on screen, seen from behind at medium distance, dim room light, a tablet and a cup, creative mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The app can **posterize** a photo."
+  },
+  {
+    "phrase": "crosshatch",
+    "pos": "verb",
+    "sense": "draw-with-crossing-lines",
+    "pronunciation": "/ˈkrɔsˌhætʃ/",
+    "definition": "to draw with crossing lines.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "present_example": "Artists **crosshatch** to create shadow.",
+    "past_simple_example": "He **crosshatched** the corner of the sketch.",
+    "past_participle_example": "The shading has been **crosshatched** finely.",
+    "present_participle_example": "**Crosshatching** builds tone slowly.",
+    "image": "voc_5f038e78",
+    "image_brief": "a sketcher building shadow with crossing pencil lines, seen from above at medium distance, window light, a notebook and an eraser, absorbed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Artists **crosshatch** to create shadow."
+  },
+  {
+    "phrase": "stipple",
+    "pos": "verb",
+    "sense": "make-marks-with-small-dots",
+    "pronunciation": "/ˈstɪpəl/",
+    "definition": "to make marks with small dots.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "present_example": "They **stipple** the wall for texture.",
+    "past_simple_example": "The decorator **stippled** the ceiling.",
+    "past_participle_example": "The surface has been **stippled** by hand.",
+    "present_participle_example": "**Stippling** a large wall takes hours.",
+    "image": "voc_677790d3",
+    "image_brief": "a decorator dabbing paint onto a wall with a brush, seen from the side at medium distance, bright light, a tray and a cloth, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **stipple** the wall for texture."
+  },
+  {
+    "phrase": "etch",
+    "pos": "verb",
+    "sense": "cut-a-design-into-a-surface",
+    "pronunciation": "/ɛtʃ/",
+    "definition": "to cut a design into a hard surface.",
+    "categories": [
+      "color"
+    ],
+    "level": "c1",
+    "present_example": "The craftsman will **etch** the glass.",
+    "past_simple_example": "She **etched** a pattern into the metal.",
+    "past_participle_example": "The name has been **etched** on the trophy.",
+    "present_participle_example": "**Etching** the plate takes a steady hand.",
+    "image": "voc_43ebf5e6",
+    "image_brief": "a glass artist etching a pattern with a small tool, seen from above at medium distance, work light, a stencil and gloves, precise mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The craftsman will **etch** the glass."
+  },
+  {
+    "phrase": "horsepower",
+    "pos": "noun",
+    "sense": "unit-for-measuring-engine-power",
+    "pronunciation": "/ˈhɔrsˌpaʊɝ/",
+    "definition": "a unit for measuring engine power.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_1943dc0a",
+    "image_brief": "a mechanic reading a dyno chart beside an engine on a stand, seen from the side at medium distance, work light, tools and a laptop, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The engine makes 200 **horsepower**."
+  },
+  {
+    "phrase": "torque",
+    "pos": "noun",
+    "sense": "turning-force-of-an-engine",
+    "pronunciation": "/tɔrk/",
+    "definition": "the turning force of an engine.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_bdc02227",
+    "image_brief": "a driver pulling away smoothly in an electric van, seen from the side at medium distance, morning light, a street and a bag, easy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Electric motors give strong **torque** from zero."
+  },
+  {
+    "phrase": "suspension",
+    "pos": "noun",
+    "sense": "system-connecting-wheels-to-the-body",
+    "pronunciation": "/səˈspɛnʃən/",
+    "definition": "the system that connects the wheels to the car body.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_a2561555",
+    "image_brief": "a mechanic replacing a shock absorber under a raised car, seen from below at medium distance, work light, springs and tools, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **suspension** absorbs every bump."
+  },
+  {
+    "phrase": "chassis",
+    "pos": "noun",
+    "sense": "frame-that-supports-a-vehicle",
+    "pronunciation": "/ˈʃæsi/",
+    "definition": "the frame that supports a vehicle.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_4eb13f6e",
+    "image_brief": "a rusted chassis on stands in a workshop, a mechanic inspecting it, seen from the side at medium distance, dim light, tools and a lamp, serious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **chassis** is rusted at the rear."
+  },
+  {
+    "phrase": "transmission",
+    "pos": "noun",
+    "sense": "system-sending-power-to-the-wheels",
+    "pronunciation": "/trænsˈmɪʃən/",
+    "definition": "the system that sends power to the wheels.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_c714a5af",
+    "image_brief": "a transmission unit on a bench with a mechanic checking gears, seen from above at medium distance, work light, tools and a manual, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **transmission** slips in third gear."
+  },
+  {
+    "phrase": "combustion",
+    "pos": "noun",
+    "sense": "burning-of-fuel-to-make-power",
+    "pronunciation": "/kəmˈbʌstʃən/",
+    "definition": "the burning of fuel to make power.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_fe9ead75",
+    "image_brief": "an engine cutaway showing the combustion chamber, a student pointing, seen from the side at medium distance, classroom light, a chart and a model, curious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Combustion** engines are being phased out."
+  },
+  {
+    "phrase": "telematics",
+    "pos": "noun",
+    "sense": "technology-that-sends-vehicle-data",
+    "pronunciation": "/ˌtɛləˈmætɪks/",
+    "definition": "technology that sends vehicle data remotely.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_21c925d9",
+    "image_brief": "a fleet manager watching vehicle data on a screen, seen from behind at medium distance, dim office light, a map and a headset, attentive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Telematics** tracks the fleet."
+  },
+  {
+    "phrase": "infotainment",
+    "pos": "noun",
+    "sense": "screen-and-audio-system-in-a-car",
+    "pronunciation": "/ˌɪnfoʊˈteɪnmənt/",
+    "definition": "the screen and audio system in a car.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_ba5441ec",
+    "image_brief": "a driver tapping a car screen at a standstill, seen from the side at medium distance, daylight, a wheel and a cup, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **infotainment** system needs an update."
+  },
+  {
+    "phrase": "traction",
+    "pos": "noun",
+    "sense": "grip-of-tires-on-the-road",
+    "pronunciation": "/ˈtrækʃən/",
+    "definition": "the grip of tires on the road.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_b23e607e",
+    "image_brief": "a car climbing a snowy slope with winter tires, seen from the side at wide distance, white light, a fence and trees, confident mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Winter tires improve **traction**."
+  },
+  {
+    "phrase": "drivetrain",
+    "pos": "noun",
+    "sense": "parts-that-deliver-power-to-wheels",
+    "pronunciation": "/ˈdraɪvˌtreɪn/",
+    "definition": "the parts that deliver power to the wheels.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_510d48fd",
+    "image_brief": "an electric car raised on a lift with its drivetrain visible, seen from below at medium distance, workshop light, tools and a trolley, technical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **drivetrain** is fully electric."
+  },
+  {
+    "phrase": "powertrain",
+    "pos": "noun",
+    "sense": "engine-and-parts-that-drive-the-car",
+    "pronunciation": "/ˈpaʊɝˌtreɪn/",
+    "definition": "the engine and parts that drive the car.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_984aa4ad",
+    "image_brief": "a salesman explaining a powertrain diagram to a customer, seen from the side at medium distance, showroom light, a car and a folder, attentive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **powertrain** warranty lasts eight years."
+  },
+  {
+    "phrase": "braking",
+    "pos": "noun",
+    "sense": "act-of-slowing-a-vehicle",
+    "pronunciation": "/ˈbreɪkɪŋ/",
+    "definition": "the act of slowing a vehicle.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_fdcd7141",
+    "image_brief": "a car braking sharply on a wet test track, seen from the side at wide distance, grey light, cones and a barrier, tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Braking** distance doubles on wet roads."
+  },
+  {
+    "phrase": "efficiency",
+    "pos": "noun",
+    "sense": "using-fuel-or-power-well",
+    "pronunciation": "/ɪˈfɪʃənsi/",
+    "definition": "the ability to use fuel or power well.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_b649ed5e",
+    "image_brief": "a driver checking fuel use on a dashboard display, seen from the side at medium distance, daylight, a road and a bag, thoughtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The new model improves **efficiency**."
+  },
+  {
+    "phrase": "emissions",
+    "pos": "noun",
+    "sense": "gases-released-into-the-air",
+    "pronunciation": "/ɪˈmɪʃənz/",
+    "definition": "gases released into the air.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_c9ffa900",
+    "image_brief": "a tester measuring exhaust gases at a station, seen from the side at medium distance, work light, a hose and a screen turned away, serious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Emissions** rules are getting stricter."
+  },
+  {
+    "phrase": "carbon",
+    "pos": "noun",
+    "sense": "element-released-when-fuel-burns",
+    "pronunciation": "/ˈkɑrbən/",
+    "definition": "the element released when fuel burns.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_085ea6ee",
+    "image_brief": "a chart of carbon output for two cars on a showroom wall, a buyer reading it, seen from the side at medium distance, bright light, a desk and a plant, thoughtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The car's **carbon** output is low."
+  },
+  {
+    "phrase": "autopilot",
+    "pos": "noun",
+    "sense": "system-that-drives-the-car-briefly",
+    "pronunciation": "/ˈɔtoʊˌpaɪlət/",
+    "definition": "a system that drives the car for short periods.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_bbb5f422",
+    "image_brief": "a driver keeping his hands near the wheel on a highway, seen from the side at medium distance, bright light, a road and a bag, cautious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He kept **autopilot** on during the highway stretch."
+  },
+  {
+    "phrase": "bodywork",
+    "pos": "noun",
+    "sense": "outer-panels-of-a-vehicle",
+    "pronunciation": "/ˈbɑdiˌwɝk/",
+    "definition": "the outer panels of a vehicle.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_5e26bfec",
+    "image_brief": "a mechanic sanding a dent in a car door, seen from the side at medium distance, workshop light, tools and a cloth, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **bodywork** has a deep scratch."
+  },
+  {
+    "phrase": "paintwork",
+    "pos": "noun",
+    "sense": "painted-surface-of-a-vehicle",
+    "pronunciation": "/ˈpeɪntˌwɝk/",
+    "definition": "the painted surface of a vehicle.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_d1102755",
+    "image_brief": "a man polishing the paintwork of a classic car, seen from the side at medium distance, evening light, a bucket and a cloth, satisfied mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **paintwork** shines after polishing."
+  },
+  {
+    "phrase": "alloy",
+    "pos": "noun",
+    "sense": "metal-made-by-mixing-metals",
+    "pronunciation": "/ˈæˌlɔɪ/",
+    "definition": "a metal made by mixing two metals.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_e70c07ea",
+    "image_brief": "a stack of light alloy wheels in a tyre shop, a customer lifting one, seen from the side at medium distance, bright light, shelves and a tyre, interested mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The wheels are light **alloy**."
+  },
+  {
+    "phrase": "cabriolet",
+    "pos": "noun",
+    "sense": "car-with-a-folding-roof",
+    "pronunciation": "/ˌkæbrioʊˈleɪ/",
+    "definition": "a car with a folding roof.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_336eb1a7",
+    "image_brief": "a cabriolet parked by a coastal road with the roof down, seen from the side at wide distance, golden light, cliffs and a rail, free mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **cabriolet** is fun in summer."
+  },
+  {
+    "phrase": "roadster",
+    "pos": "noun",
+    "sense": "small-open-two-seat-car",
+    "pronunciation": "/ˈroʊdstɝ/",
+    "definition": "a small open two-seat car.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_51ef0402",
+    "image_brief": "an old roadster under a sheet in a garage, an owner lifting the cover, seen from the side at medium distance, dim light, tools and a shelf, nostalgic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The old **roadster** needs restoration."
+  },
+  {
+    "phrase": "crossover",
+    "pos": "noun",
+    "sense": "car-between-a-hatchback-and-suv",
+    "pronunciation": "/ˈkrɔsˌoʊvɝ/",
+    "definition": "a car between a hatchback and an SUV.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_75e264b6",
+    "image_brief": "a family loading a crossover outside a house, seen from the side at medium distance, morning light, bags and a bicycle, easy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **crossover** suits a small family."
+  },
+  {
+    "phrase": "tachometer",
+    "pos": "noun",
+    "sense": "gauge-showing-engine-speed",
+    "pronunciation": "/tæˈkɑmətɝ/",
+    "definition": "a gauge showing engine speed.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_605c2bbe",
+    "image_brief": "a driver glancing at the tachometer while accelerating, seen from the side at medium distance, daylight, a wheel and a road, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **tachometer** jumps when he accelerates."
+  },
+  {
+    "phrase": "caliper",
+    "pos": "noun",
+    "sense": "part-that-presses-the-brake-pads",
+    "pronunciation": "/ˈkæləpɝ/",
+    "definition": "the part that presses the brake pads.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_a6b72bd3",
+    "image_brief": "a mechanic fitting a brake caliper on a wheel hub, seen from the side at medium distance, work light, tools and a hose, precise mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "One **caliper** is sticking."
+  },
+  {
+    "phrase": "axle",
+    "pos": "noun",
+    "sense": "bar-that-connects-the-wheels",
+    "pronunciation": "/ˈæksəl/",
+    "definition": "the bar that connects the wheels.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_b32902ac",
+    "image_brief": "a bent axle removed from a truck on a workshop floor, seen from above at medium distance, work light, tools and a jack, grim mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The rear **axle** is bent."
+  },
+  {
+    "phrase": "differential",
+    "pos": "noun",
+    "sense": "gear-that-lets-wheels-turn-apart",
+    "pronunciation": "/ˌdɪfəˈrɛnʃəl/",
+    "definition": "the gear that lets wheels turn at different speeds.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_9d88ce0e",
+    "image_brief": "a mechanic opening a differential on a bench, seen from above at medium distance, work light, gears and a manual, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **differential** whines on turns."
+  },
+  {
+    "phrase": "crankshaft",
+    "pos": "noun",
+    "sense": "shaft-turned-by-the-pistons",
+    "pronunciation": "/ˈkræŋkˌʃæft/",
+    "definition": "the shaft turned by the pistons.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_2de2d345",
+    "image_brief": "a crankshaft on a stand in an engine workshop, a mechanic measuring it, seen from the side at medium distance, work light, tools and a micrometer, exacting mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **crankshaft** was damaged by low oil."
+  },
+  {
+    "phrase": "piston",
+    "pos": "noun",
+    "sense": "part-that-moves-up-and-down-in-an-engine",
+    "pronunciation": "/ˈpɪstən/",
+    "definition": "a part that moves up and down in the engine.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_dfba4265",
+    "image_brief": "a piston held up beside an engine block, a mechanic pointing, seen from the side at medium distance, workshop light, rings and tools, technical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "One **piston** lost compression."
+  },
+  {
+    "phrase": "cylinder",
+    "pos": "noun",
+    "sense": "tube-where-the-piston-moves",
+    "pronunciation": "/ˈsɪləndɝ/",
+    "definition": "a tube where the piston moves.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_fa432976",
+    "image_brief": "a mechanic inspecting a scored cylinder wall, seen from above at medium distance, work light, a torch and tools, concerned mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A cracked **cylinder** caused the smoke."
+  },
+  {
+    "phrase": "carburetor",
+    "pos": "noun",
+    "sense": "old-part-that-mixed-fuel-and-air",
+    "pronunciation": "/ˈkɑrbəˌreɪtɝ/",
+    "definition": "an old part that mixed fuel and air.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_1c58f9ae",
+    "image_brief": "an old carburetor on a bench beside a modern engine part, a mechanic comparing them, seen from above at medium distance, work light, tools and a cloth, nostalgic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **carburetor** was replaced by injection."
+  },
+  {
+    "phrase": "turbocharger",
+    "pos": "noun",
+    "sense": "device-forcing-more-air-into-an-engine",
+    "pronunciation": "/ˈtɝboʊˌtʃɑrdʒɝ/",
+    "definition": "a device that forces more air into the engine.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_7c27ecd1",
+    "image_brief": "a turbocharger on a bench with a mechanic checking the fins, seen from the side at medium distance, work light, hoses and a tool tray, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **turbocharger** kicks in above 2,000 rpm."
+  },
+  {
+    "phrase": "supercharger",
+    "pos": "noun",
+    "sense": "device-that-boosts-engine-power",
+    "pronunciation": "/ˈsupɝˌtʃɑrdʒɝ/",
+    "definition": "a device that boosts engine power.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_ed16dd23",
+    "image_brief": "a supercharger mounted on a classic engine, an owner showing it off, seen from the side at medium distance, garage light, tools and a cloth, proud mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **supercharger** gives instant response."
+  },
+  {
+    "phrase": "silencer",
+    "pos": "noun",
+    "sense": "part-that-quiets-the-exhaust",
+    "pronunciation": "/ˈsaɪlənsɝ/",
+    "definition": "a part that makes the exhaust quieter.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_3514c4d4",
+    "image_brief": "a mechanic fitting a new silencer under a car, seen from below at medium distance, work light, a hanger and tools, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **silencer** needs replacing."
+  },
+  {
+    "phrase": "spoiler",
+    "pos": "noun",
+    "sense": "part-that-improves-grip-at-speed",
+    "pronunciation": "/ˈspɔɪlɝ/",
+    "definition": "a part that improves grip at speed.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_a5503581",
+    "image_brief": "a rear spoiler on a racing car in a pit garage, a mechanic adjusting it, seen from the side at medium distance, bright light, tyres and tools, precise mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **spoiler** adds downforce."
+  },
+  {
+    "phrase": "rollover",
+    "pos": "noun",
+    "sense": "accident-where-a-vehicle-turns-over",
+    "pronunciation": "/ˈroʊlˌoʊvɝ/",
+    "definition": "an accident where a vehicle turns over.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_730bf66f",
+    "image_brief": "a crashed car on its roof at a test site, safety engineers taking notes, seen from the side at wide distance, grey light, cones and barriers, serious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The high seats reduce **rollover** risk."
+  },
+  {
+    "phrase": "downforce",
+    "pos": "noun",
+    "sense": "pressure-pushing-a-car-onto-the-road",
+    "pronunciation": "/ˈdaʊnˌfɔrs/",
+    "definition": "pressure pushing a car onto the road.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_6577c009",
+    "image_brief": "a racing car taking a fast bend with its wing low, seen from the side at wide distance, bright light, a kerb and a barrier, fast mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The wing creates **downforce**."
+  },
+  {
+    "phrase": "aerodynamic",
+    "pos": "adjective",
+    "sense": "shaped-to-move-through-air-easily",
+    "pronunciation": "/ˌɛroʊdaɪˈnæmɪk/",
+    "definition": "shaped to move easily through air.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_98ad6f42",
+    "image_brief": "a car body in a wind tunnel with smoke lines over it, a technician watching, seen from the side at wide distance, cool light, a fan and a screen turned away, technical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The body is highly **aerodynamic**."
+  },
+  {
+    "phrase": "autonomous",
+    "pos": "adjective",
+    "sense": "able-to-drive-without-a-person",
+    "pronunciation": "/ɔˈtɑnəməs/",
+    "definition": "able to drive without a person.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_ef8a346e",
+    "image_brief": "a test car with sensors on its roof moving slowly on a closed track, seen from the side at wide distance, flat light, cones and an engineer, cautious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Autonomous** cars still need maps."
+  },
+  {
+    "phrase": "hydraulic",
+    "pos": "adjective",
+    "sense": "worked-by-liquid-pressure",
+    "pronunciation": "/haɪˈdrɔlɪk/",
+    "definition": "worked by liquid pressure.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_3b1318a9",
+    "image_brief": "a mechanic checking a hydraulic lift with a car above him, seen from the side at medium distance, workshop light, hoses and a control panel, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **hydraulic** steering feels light."
+  },
+  {
+    "phrase": "rugged",
+    "pos": "adjective",
+    "sense": "strong-for-rough-use",
+    "pronunciation": "/ˈrʌɡɪd/",
+    "definition": "strong and able to cope with rough use.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_b78d079a",
+    "image_brief": "a muddy pickup parked by a farm gate, a farmer loading tools, seen from the side at wide distance, morning light, a barn and a fence, practical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **rugged** pickup suits the farm."
+  },
+  {
+    "phrase": "sleek",
+    "pos": "adjective",
+    "sense": "smooth-and-elegant-in-shape",
+    "pronunciation": "/slik/",
+    "definition": "smooth and elegant in shape.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "image": "voc_bbe69245",
+    "image_brief": "a sleek coupe parked outside a modern building, a couple walking toward it, seen from the side at wide distance, evening light, glass and a lamp, elegant mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **sleek** coupe draws stares."
+  },
+  {
+    "phrase": "maneuver",
+    "pos": "verb",
+    "sense": "move-a-vehicle-carefully",
+    "pronunciation": "/məˈnuvɝ/",
+    "definition": "to move a vehicle carefully.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "present_example": "She can **maneuver** the van into any space.",
+    "past_simple_example": "He **maneuvered** around the parked trucks.",
+    "past_participle_example": "The trailer has been **maneuvered** into place.",
+    "present_participle_example": "**Maneuvering** in tight streets takes nerve.",
+    "image": "voc_4bba6e5d",
+    "image_brief": "a driver reversing a van into a narrow space between columns, seen from behind at medium distance, dim garage light, a mirror and a cone, concentrated mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She can **maneuver** the van into any space."
+  },
+  {
+    "phrase": "rev",
+    "pos": "verb",
+    "sense": "increase-engine-speed",
+    "pronunciation": "/rɛv/",
+    "definition": "to increase engine speed.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "present_example": "He likes to **rev** the engine at the lights.",
+    "past_simple_example": "She **revved** the bike twice.",
+    "past_participle_example": "The engine has been **revved** all morning.",
+    "present_participle_example": "**Revving** a cold engine wears it.",
+    "image": "voc_e27b64b7",
+    "image_brief": "a rider revving a motorbike at a traffic light, seen from the side at medium distance, evening light, a queue and a lamp, impatient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He likes to **rev** the engine at the lights."
+  },
+  {
+    "phrase": "customize",
+    "pos": "verb",
+    "sense": "change-a-vehicle-to-suit-its-owner",
+    "pronunciation": "/ˈkʌstəˌmaɪz/",
+    "definition": "to change a vehicle to suit its owner.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "present_example": "They **customize** vans for camping.",
+    "past_simple_example": "He **customized** the interior himself.",
+    "past_participle_example": "The car has been **customized** heavily.",
+    "present_participle_example": "**Customizing** a classic hurts its value.",
+    "image": "voc_118345f4",
+    "image_brief": "a mechanic fitting a custom interior into a van, seen from the side at medium distance, workshop light, panels and tools, creative mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **customize** vans for camping."
+  },
+  {
+    "phrase": "overhaul",
+    "pos": "verb",
+    "sense": "examine-and-repair-a-vehicle-thoroughly",
+    "pronunciation": "/ˌoʊvɝˈhɔl/",
+    "definition": "to examine and repair a vehicle thoroughly.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "present_example": "The garage will **overhaul** the engine.",
+    "past_simple_example": "They **overhauled** the brakes last spring.",
+    "past_participle_example": "The gearbox has been **overhauled**.",
+    "present_participle_example": "**Overhauling** an old diesel takes weeks.",
+    "image": "voc_594cabd1",
+    "image_brief": "an engine partly stripped on a bench with parts laid out, a mechanic working, seen from the side at medium distance, work light, tools and a manual, absorbed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The garage will **overhaul** the engine."
+  },
+  {
+    "phrase": "refurbish",
+    "pos": "verb",
+    "sense": "clean-and-repair-something-old",
+    "pronunciation": "/riˈfɝbɪʃ/",
+    "definition": "to clean and repair something old.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "present_example": "They **refurbish** classic cars.",
+    "past_simple_example": "She **refurbished** the interior.",
+    "past_participle_example": "The van has been **refurbished**.",
+    "present_participle_example": "**Refurbishing** a wreck costs more than buying.",
+    "image": "voc_cc3dd3c7",
+    "image_brief": "a worker polishing the dashboard of an old car, seen from the side at medium distance, garage light, a cloth and tools, patient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **refurbish** classic cars."
+  },
+  {
+    "phrase": "scrap",
+    "pos": "verb",
+    "sense": "throw-away-a-vehicle-as-waste",
+    "pronunciation": "/skræp/",
+    "definition": "to throw away a vehicle as waste.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "present_example": "The council will **scrap** old buses.",
+    "past_simple_example": "They **scrapped** the van after the crash.",
+    "past_participle_example": "The fleet has been **scrapped**.",
+    "present_participle_example": "**Scrapping** a car needs paperwork.",
+    "image": "voc_869af204",
+    "image_brief": "a crane lifting a crushed car in a scrapyard, seen from the side at wide distance, grey light, stacked wrecks and a fence, grim mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The council will **scrap** old buses."
+  },
+  {
+    "phrase": "salvage",
+    "pos": "verb",
+    "sense": "save-parts-from-a-damaged-vehicle",
+    "pronunciation": "/ˈsælvɪdʒ/",
+    "definition": "to save parts from a damaged vehicle.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "present_example": "They **salvage** parts from written-off cars.",
+    "past_simple_example": "He **salvaged** the gearbox.",
+    "past_participle_example": "The engine was **salvaged** from a wreck.",
+    "present_participle_example": "**Salvaging** parts keeps old models running.",
+    "image": "voc_7c93eb16",
+    "image_brief": "a mechanic removing a part from a damaged car in a yard, seen from the side at medium distance, grey light, tools and a trolley, practical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **salvage** parts from written-off cars."
+  },
+  {
+    "phrase": "jumpstart",
+    "pos": "verb",
+    "sense": "start-a-car-with-a-flat-battery",
+    "pronunciation": "/ˈdʒʌmpˌstɑrt/",
+    "definition": "to start a car with a flat battery using another battery.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "present_example": "A neighbor helped **jumpstart** the van.",
+    "past_simple_example": "They **jumpstarted** the truck in the rain.",
+    "past_participle_example": "The battery has been **jumpstarted** twice.",
+    "present_participle_example": "**Jumpstarting** a modern car can damage it.",
+    "image": "voc_72a66baf",
+    "image_brief": "two drivers connecting jump leads between cars in a car park, seen from the side at medium distance, grey light, an open hood and a toolbox, helpful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A neighbor helped **jumpstart** the van."
+  },
+  {
+    "phrase": "drift",
+    "pos": "verb",
+    "sense": "slide-sideways-while-driving",
+    "pronunciation": "/drɪft/",
+    "definition": "to slide sideways while driving.",
+    "categories": [
+      "car"
+    ],
+    "level": "c1",
+    "present_example": "Racers **drift** around the corner.",
+    "past_simple_example": "He **drifted** through the last bend.",
+    "past_participle_example": "The car has **drifted** wide all afternoon.",
+    "present_participle_example": "**Drifting** on public roads is dangerous.",
+    "image": "voc_5e0bc0c8",
+    "image_brief": "a car sliding sideways around a marked corner in a closed lot, smoke from the tires, seen from the side at wide distance, evening light, cones and a barrier, fast mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Racers **drift** around the corner."
+  },
+  {
+    "phrase": "regimen",
+    "pos": "noun",
+    "sense": "fixed-plan-of-habits",
+    "pronunciation": "/ˈrɛdʒəmən/",
+    "definition": "a fixed plan of exercise, food or treatment.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_4a0f2f58",
+    "image_brief": "a woman stretching on a mat in a quiet living room, seen from the side at medium distance, morning light, a bottle and a timer, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her morning **regimen** includes stretching."
+  },
+  {
+    "phrase": "productivity",
+    "pos": "noun",
+    "sense": "amount-of-work-done",
+    "pronunciation": "/ˌproʊdʌkˈtɪvəti/",
+    "definition": "the amount of work done in a period.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_56025291",
+    "image_brief": "a worker finishing a stack of tasks at a tidy desk, seen from the side at medium distance, morning light, notes and a cup, satisfied mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Quiet mornings raise his **productivity**."
+  },
+  {
+    "phrase": "burnout",
+    "pos": "noun",
+    "sense": "exhaustion-from-too-much-work",
+    "pronunciation": "/ˈbɝnˌaʊt/",
+    "definition": "exhaustion caused by too much work.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_ebdd974d",
+    "image_brief": "a worker sitting alone in an empty office late at night, seen from behind at medium distance, dim light, a cold cup and papers, drained mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The team shows signs of **burnout**."
+  },
+  {
+    "phrase": "recreation",
+    "pos": "noun",
+    "sense": "activities-done-for-enjoyment",
+    "pronunciation": "/ˌrɛkriˈeɪʃən/",
+    "definition": "activities done for enjoyment.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_e9353283",
+    "image_brief": "families playing in a park with a ball and bicycles, seen from a high angle at wide distance, bright light, trees and a bench, happy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The park is used for **recreation**."
+  },
+  {
+    "phrase": "pastime",
+    "pos": "noun",
+    "sense": "activity-enjoyed-in-free-time",
+    "pronunciation": "/ˈpæsˌtaɪm/",
+    "definition": "an activity you enjoy in free time.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_2ee901d8",
+    "image_brief": "an older man fishing from a quiet bank at dawn, seen from the side at wide distance, soft light, a box and a rod, peaceful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Fishing is his favorite **pastime**."
+  },
+  {
+    "phrase": "slumber",
+    "pos": "noun",
+    "sense": "sleep",
+    "pronunciation": "/ˈslʌmbɝ/",
+    "definition": "sleep.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_c39b3ca6",
+    "image_brief": "a child asleep under a blanket in a dim room, seen from across the room at medium distance, night light, a toy and a lamp, peaceful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The house was deep in **slumber**."
+  },
+  {
+    "phrase": "wakefulness",
+    "pos": "noun",
+    "sense": "state-of-being-awake",
+    "pronunciation": "/ˈweɪkfəlnəs/",
+    "definition": "the state of being awake.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_ca0a811e",
+    "image_brief": "a woman staring at the ceiling in the dark, seen from across the room at wide distance, blue night light, a clock and a curtain, restless mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Caffeine lengthened her **wakefulness**."
+  },
+  {
+    "phrase": "upkeep",
+    "pos": "noun",
+    "sense": "work-to-keep-something-good",
+    "pronunciation": "/ˈʌpˌkip/",
+    "definition": "the work of keeping something in good condition.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_7291f46a",
+    "image_brief": "a man repainting a garden fence, seen from the side at wide distance, weekend light, a brush and a can, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The garden needs weekly **upkeep**."
+  },
+  {
+    "phrase": "procrastination",
+    "pos": "noun",
+    "sense": "habit-of-delaying-tasks",
+    "pronunciation": "/prəˌkræstəˈneɪʃən/",
+    "definition": "the habit of delaying tasks.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_fae3921b",
+    "image_brief": "a student staring at an unopened book while scrolling a phone, seen from the side at medium distance, evening light, a cup and papers, guilty mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Procrastination** cost him the deadline."
+  },
+  {
+    "phrase": "multitasking",
+    "pos": "noun",
+    "sense": "doing-several-tasks-at-once",
+    "pronunciation": "/ˌmʌltiˈtæskɪŋ/",
+    "definition": "doing several tasks at once.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_54ad0992",
+    "image_brief": "a woman stirring a pot while on a call, seen from the side at medium distance, warm kitchen light, a phone and a spoon, harried mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Multitasking** slows the whole office."
+  },
+  {
+    "phrase": "prioritization",
+    "pos": "noun",
+    "sense": "deciding-what-matters-first",
+    "pronunciation": "/praɪˌɔrətəˈzeɪʃən/",
+    "definition": "the act of deciding what matters first.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_e327123b",
+    "image_brief": "a man numbering three items on a long list, seen from above at medium distance, lamp light, a cup and a pen, decisive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Good **prioritization** keeps the day calm."
+  },
+  {
+    "phrase": "relaxation",
+    "pos": "noun",
+    "sense": "state-of-being-rested",
+    "pronunciation": "/ˌrilækˈseɪʃən/",
+    "definition": "the state of being rested and calm.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_c67edf0b",
+    "image_brief": "a woman reading in a hammock in a garden, seen from the side at medium distance, afternoon light, a drink and a tree, easy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She needs an hour of **relaxation**."
+  },
+  {
+    "phrase": "downtime",
+    "pos": "noun",
+    "sense": "time-when-you-rest",
+    "pronunciation": "/ˈdaʊnˌtaɪm/",
+    "definition": "time when you rest or stop working.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_b2b3951f",
+    "image_brief": "a worker sitting with a book during a break in a staff room, seen from the side at medium distance, soft light, a cup and a locker, quiet mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He reads during his **downtime**."
+  },
+  {
+    "phrase": "inclination",
+    "pos": "noun",
+    "sense": "natural-tendency-to-do-something",
+    "pronunciation": "/ˌɪnkləˈneɪʃən/",
+    "definition": "a natural tendency to do something.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_34c81b81",
+    "image_brief": "a man glancing at the kitchen and then at a takeaway menu, seen from the side at medium distance, evening light, a pan and a phone, reluctant mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She has no **inclination** to cook tonight."
+  },
+  {
+    "phrase": "mindfulness",
+    "pos": "noun",
+    "sense": "calm-attention-to-the-present",
+    "pronunciation": "/ˈmaɪndfəlnəs/",
+    "definition": "the practice of paying calm attention to the present.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_3d373ae1",
+    "image_brief": "a man sitting quietly by a window with eyes closed, seen from the side at medium distance, soft light, a cushion and a plant, still mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Mindfulness** helps him sleep."
+  },
+  {
+    "phrase": "reflection",
+    "pos": "noun",
+    "sense": "quiet-thought-about-what-happened",
+    "pronunciation": "/rɪˈflɛkʃən/",
+    "definition": "quiet thought about what happened.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_f5fb42c5",
+    "image_brief": "a woman walking a quiet path with a thoughtful face, seen from behind at wide distance, morning light, trees and a bench, contemplative mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The walk gave her time for **reflection**."
+  },
+  {
+    "phrase": "wakeup",
+    "pos": "noun",
+    "sense": "act-of-waking-up",
+    "pronunciation": "/ˈweɪkˌʌp/",
+    "definition": "the act of waking up.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_f62d7d0f",
+    "image_brief": "a man stretching beside a bed as light comes in, seen from the side at medium distance, morning light, a clock and a glass, groggy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "His **wakeup** is at six."
+  },
+  {
+    "phrase": "housekeeping",
+    "pos": "noun",
+    "sense": "work-of-running-a-home",
+    "pronunciation": "/ˈhaʊsˌkipɪŋ/",
+    "definition": "the work of cleaning and running a home.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_7d248cc8",
+    "image_brief": "a woman changing bed sheets in a hotel room, seen from the side at medium distance, bright light, a cart and towels, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Housekeeping** takes the whole morning."
+  },
+  {
+    "phrase": "preparation",
+    "pos": "noun",
+    "sense": "work-done-to-get-ready",
+    "pronunciation": "/ˌprɛpəˈreɪʃən/",
+    "definition": "the work done to get ready.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_893671b2",
+    "image_brief": "a worker packing a bag and laying out clothes for the morning, seen from the side at medium distance, evening light, a list and a lamp, organized mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Preparation** makes the week easier."
+  },
+  {
+    "phrase": "readiness",
+    "pos": "noun",
+    "sense": "state-of-being-ready",
+    "pronunciation": "/ˈrɛdinəs/",
+    "definition": "the state of being ready.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_b5398450",
+    "image_brief": "a team checking equipment before a shift, seen from the side at medium distance, work light, a checklist and a bag, alert mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The team checked its **readiness**."
+  },
+  {
+    "phrase": "sleepiness",
+    "pos": "noun",
+    "sense": "feeling-of-needing-sleep",
+    "pronunciation": "/ˈslipinəs/",
+    "definition": "the feeling of needing sleep.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_89761251",
+    "image_brief": "a worker nodding at a desk after lunch, seen from the side at medium distance, flat office light, a cup and a chair, drowsy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Sleepiness** hit him after lunch."
+  },
+  {
+    "phrase": "drowsiness",
+    "pos": "noun",
+    "sense": "strong-feeling-of-wanting-sleep",
+    "pronunciation": "/ˈdraʊzinəs/",
+    "definition": "a strong feeling of wanting to sleep.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_5f263cbd",
+    "image_brief": "a patient reading a medicine leaflet with a tired face, seen from the side at medium distance, kitchen light, a cup and a packet, cautious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The medicine causes **drowsiness**."
+  },
+  {
+    "phrase": "supper",
+    "pos": "noun",
+    "sense": "the-evening-meal",
+    "pronunciation": "/ˈsʌpɝ/",
+    "definition": "the evening meal.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_6818e77b",
+    "image_brief": "a family eating a simple evening meal at a kitchen table, seen from the side at medium distance, warm light, plates and a jug, easy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Supper** is at seven."
+  },
+  {
+    "phrase": "brunch",
+    "pos": "noun",
+    "sense": "late-morning-meal",
+    "pronunciation": "/brʌntʃ/",
+    "definition": "a late morning meal.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_64943787",
+    "image_brief": "friends sharing a late breakfast at a café table, seen from the side at medium distance, bright light, cups and a plate, relaxed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They meet for **brunch** on Sundays."
+  },
+  {
+    "phrase": "cleanliness",
+    "pos": "noun",
+    "sense": "state-of-being-clean",
+    "pronunciation": "/ˈklɛnlinəs/",
+    "definition": "the state of being clean.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_5b71c664",
+    "image_brief": "an inspector checking a sparkling kitchen counter, seen from the side at medium distance, bright light, a cloth and a chart, approving mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The kitchen **cleanliness** improved."
+  },
+  {
+    "phrase": "tardiness",
+    "pos": "noun",
+    "sense": "habit-of-being-late",
+    "pronunciation": "/ˈtɑrdinəs/",
+    "definition": "the habit of being late.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_bf965fd4",
+    "image_brief": "a manager tapping a watch while a worker hurries in, seen from the side at medium distance, hallway light, a clock and a bag, tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Tardiness** was noted on the report."
+  },
+  {
+    "phrase": "earliness",
+    "pos": "noun",
+    "sense": "state-of-being-early",
+    "pronunciation": "/ˈɝlinəs/",
+    "definition": "the state of being early.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_28b8383c",
+    "image_brief": "a woman waiting alone in an empty meeting room with coffee, seen from the side at medium distance, morning light, chairs and a clock, composed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **earliness** surprised everyone."
+  },
+  {
+    "phrase": "mundane",
+    "pos": "adjective",
+    "sense": "ordinary-and-not-exciting",
+    "pronunciation": "/mʌnˈdeɪn/",
+    "definition": "ordinary and not exciting.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_21ac5607",
+    "image_brief": "a man sorting receipts at a kitchen table, seen from above at medium distance, flat light, a folder and a cup, bored mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **mundane** tasks fill his afternoon."
+  },
+  {
+    "phrase": "humdrum",
+    "pos": "adjective",
+    "sense": "dull-and-repetitive",
+    "pronunciation": "/ˈhʌmˌdrʌm/",
+    "definition": "dull and repetitive.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_e9264e39",
+    "image_brief": "a worker repeating the same task at a conveyor, seen from the side at medium distance, grey light, boxes and a clock, weary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **humdrum** routine wore her down."
+  },
+  {
+    "phrase": "monotonous",
+    "pos": "adjective",
+    "sense": "boring-because-it-never-changes",
+    "pronunciation": "/məˈnɑtənəs/",
+    "definition": "boring because it never changes.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_4b89d864",
+    "image_brief": "a commuter staring out of a train window on a grey morning, seen from the side at medium distance, flat light, a bag and a cup, resigned mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **monotonous** commute drains him."
+  },
+  {
+    "phrase": "uneventful",
+    "pos": "adjective",
+    "sense": "with-nothing-interesting-happening",
+    "pronunciation": "/ˌʌnɪˈvɛntfəl/",
+    "definition": "with nothing interesting happening.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_00474003",
+    "image_brief": "a quiet office afternoon with everyone working calmly, seen from the side at wide distance, soft light, desks and a plant, placid mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "It was an **uneventful** day."
+  },
+  {
+    "phrase": "hectic",
+    "pos": "adjective",
+    "sense": "very-busy-and-full-of-activity",
+    "pronunciation": "/ˈhɛktɪk/",
+    "definition": "very busy and full of activity.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_531c2c88",
+    "image_brief": "a parent rushing children out of the door with bags, seen from the side at medium distance, morning light, a clock and shoes, frantic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The morning was **hectic**."
+  },
+  {
+    "phrase": "chaotic",
+    "pos": "adjective",
+    "sense": "completely-disordered",
+    "pronunciation": "/keɪˈɑtɪk/",
+    "definition": "completely disordered.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_8d0f6932",
+    "image_brief": "a kitchen after a party with dishes everywhere, a woman entering, seen from the doorway at medium distance, harsh light, bottles and a bin, overwhelmed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The kitchen was **chaotic** after the party."
+  },
+  {
+    "phrase": "orderly",
+    "pos": "adjective",
+    "sense": "neat-and-well-arranged",
+    "pronunciation": "/ˈɔrdɝli/",
+    "definition": "neat and well arranged.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_34848968",
+    "image_brief": "a desk with neat stacks of paper and pens in a row, a woman working, seen from the side at medium distance, morning light, a plant and a cup, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **orderly** desk helps her focus."
+  },
+  {
+    "phrase": "methodical",
+    "pos": "adjective",
+    "sense": "done-in-a-careful-fixed-order",
+    "pronunciation": "/məˈθɑdɪkəl/",
+    "definition": "done in a careful fixed order.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_0c2996d2",
+    "image_brief": "a man packing a suitcase in careful layers, seen from above at medium distance, bedroom light, folded clothes and a list, precise mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He has a **methodical** way of packing."
+  },
+  {
+    "phrase": "haphazard",
+    "pos": "adjective",
+    "sense": "done-without-plan-or-order",
+    "pronunciation": "/ˌhæpˈhæzɝd/",
+    "definition": "done without plan or order.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_be05f3dd",
+    "image_brief": "a worker searching through a messy pile of papers, seen from the side at medium distance, flat light, a bin and a clock, frustrated mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **haphazard** schedule wastes time."
+  },
+  {
+    "phrase": "circadian",
+    "pos": "adjective",
+    "sense": "relating-to-the-bodys-daily-rhythm",
+    "pronunciation": "/sɝˈkeɪdiən/",
+    "definition": "relating to the body's daily rhythm.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_eba86e21",
+    "image_brief": "a night-shift worker driving home at sunrise, seen from the side at medium distance, pink light, a road and a flask, tired mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Night shifts disturb the **circadian** clock."
+  },
+  {
+    "phrase": "methodically",
+    "pos": "adverb",
+    "sense": "in-a-careful-fixed-order",
+    "pronunciation": "/məˈθɑdɪkli/",
+    "definition": "in a careful fixed order.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_519418fb",
+    "image_brief": "a woman folding clothes into neat piles, seen from above at medium distance, daylight, a basket and a bed, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She packed **methodically**."
+  },
+  {
+    "phrase": "systematically",
+    "pos": "adverb",
+    "sense": "according-to-a-clear-plan",
+    "pronunciation": "/ˌsɪstəˈmætɪkli/",
+    "definition": "according to a clear plan.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "image": "voc_f9178b11",
+    "image_brief": "a cleaner working through rooms in order with a checklist, seen from the side at medium distance, hallway light, a cart and a door, methodical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He **systematically** checked each room."
+  },
+  {
+    "phrase": "routinize",
+    "pos": "verb",
+    "sense": "make-something-part-of-a-routine",
+    "pronunciation": "/ruˈtinˌaɪz/",
+    "definition": "to make something part of a regular routine.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "present_example": "They **routinize** the morning check.",
+    "past_simple_example": "She **routinized** the whole opening process.",
+    "past_participle_example": "The handover has been **routinized**.",
+    "present_participle_example": "**Routinizing** the task freed an hour.",
+    "image": "voc_f069b268",
+    "image_brief": "a manager writing a checklist on a board, seen from the side at medium distance, bright light, a team and a coffee, organized mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **routinize** the morning check."
+  },
+  {
+    "phrase": "oversleep",
+    "pos": "verb",
+    "sense": "sleep-longer-than-intended",
+    "pronunciation": "/ˌoʊvɝˈslip/",
+    "definition": "to sleep longer than intended.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "present_example": "I **oversleep** whenever the alarm is off.",
+    "past_simple_example": "He **overslept** and missed the bus.",
+    "past_participle_example": "She has **overslept** twice this month.",
+    "present_participle_example": "**Oversleeping** on weekdays ruins the morning.",
+    "image": "voc_4efc3aa3",
+    "image_brief": "a man waking in alarm beside an empty clock, seen from the side at medium distance, harsh morning light, a rumpled bed and a bag, panicked mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "I **oversleep** whenever the alarm is off."
+  },
+  {
+    "phrase": "putter",
+    "pos": "verb",
+    "sense": "do-small-tasks-relaxedly",
+    "pronunciation": "/ˈpʌtɝ/",
+    "definition": "to do small tasks in a relaxed way.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "present_example": "She likes to **putter** in the garden.",
+    "past_simple_example": "He **puttered** around the kitchen all morning.",
+    "past_participle_example": "They have **puttered** in the shed for hours.",
+    "present_participle_example": "**Puttering** in the yard helps her relax.",
+    "image": "voc_50615c36",
+    "image_brief": "an older man watering pots and moving tools in a garden, seen from the side at medium distance, soft light, a shed and a chair, content mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She likes to **putter** in the garden."
+  },
+  {
+    "phrase": "allocate",
+    "pos": "verb",
+    "sense": "give-time-or-money-to-a-purpose",
+    "pronunciation": "/ˈæləˌkeɪt/",
+    "definition": "to give time or money to a purpose.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "present_example": "**Allocate** an hour for the bills.",
+    "past_simple_example": "They **allocated** twice the budget.",
+    "past_participle_example": "The time has been **allocated**.",
+    "present_participle_example": "**Allocating** tasks by strength works well.",
+    "image": "voc_74f2c4f4",
+    "image_brief": "a woman dividing a weekly plan into blocks on paper, seen from above at medium distance, morning light, a pencil and a cup, organized mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Allocate** an hour for the bills."
+  },
+  {
+    "phrase": "streamline",
+    "pos": "verb",
+    "sense": "make-a-process-simpler",
+    "pronunciation": "/ˈstrimˌlaɪn/",
+    "definition": "to make a process simpler and faster.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "present_example": "They **streamline** the morning routine.",
+    "past_simple_example": "She **streamlined** the whole check-in.",
+    "past_participle_example": "The process has been **streamlined**.",
+    "present_participle_example": "**Streamlining** the list saved ten minutes.",
+    "image": "voc_8831ae44",
+    "image_brief": "a man crossing items off a long list and combining steps, seen from above at medium distance, desk light, a laptop and a cup, efficient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **streamline** the morning routine."
+  },
+  {
+    "phrase": "catnap",
+    "pos": "verb",
+    "sense": "take-a-short-sleep",
+    "pronunciation": "/ˈkætˌnæp/",
+    "definition": "to take a short sleep.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "present_example": "Nurses **catnap** when they can.",
+    "past_simple_example": "He **catnapped** in the car.",
+    "past_participle_example": "She has **catnapped** between shifts.",
+    "present_participle_example": "**Catnapping** helps on long drives.",
+    "image": "voc_92bf7131",
+    "image_brief": "a nurse asleep in a chair for a few minutes, seen from the side at medium distance, dim staff room light, a cup and a locker, tired mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Nurses **catnap** when they can."
+  },
+  {
+    "phrase": "loiter",
+    "pos": "verb",
+    "sense": "stand-around-with-no-purpose",
+    "pronunciation": "/ˈlɔɪtɝ/",
+    "definition": "to stand around with no purpose.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "present_example": "Students **loiter** by the gate.",
+    "past_simple_example": "They **loitered** outside the shop.",
+    "past_participle_example": "The group has **loitered** here for hours.",
+    "present_participle_example": "**Loitering** in the corridor blocks the exit.",
+    "image": "voc_486708eb",
+    "image_brief": "two teenagers hanging around a street corner, an older woman passing, seen from the side at wide distance, evening light, a bench and a bin, idle mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Students **loiter** by the gate."
+  },
+  {
+    "phrase": "saunter",
+    "pos": "verb",
+    "sense": "walk-in-a-slow-relaxed-way",
+    "pronunciation": "/ˈsɔntɝ/",
+    "definition": "to walk in a slow relaxed way.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "present_example": "They **saunter** to the café.",
+    "past_simple_example": "He **sauntered** into the meeting late.",
+    "past_participle_example": "She has **sauntered** through the whole day.",
+    "present_participle_example": "**Sauntering** along the shore, they lost track of time.",
+    "image": "voc_09f7c55a",
+    "image_brief": "a man walking casually down a sunny street with his hands in his pockets, seen from the side at wide distance, warm light, a café and a bicycle, easy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **saunter** to the café."
+  },
+  {
+    "phrase": "amble",
+    "pos": "verb",
+    "sense": "walk-slowly-and-gently",
+    "pronunciation": "/ˈæmbəl/",
+    "definition": "to walk slowly and gently.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "present_example": "We **amble** along the shore.",
+    "past_simple_example": "They **ambled** through the old town.",
+    "past_participle_example": "The group has **ambled** for an hour.",
+    "present_participle_example": "**Ambling** home, she noticed the gardens.",
+    "image": "voc_8b5e6726",
+    "image_brief": "a couple walking slowly along a country lane, seen from behind at wide distance, late afternoon light, hedges and a gate, gentle mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We **amble** along the shore."
+  },
+  {
+    "phrase": "meander",
+    "pos": "verb",
+    "sense": "follow-a-winding-course",
+    "pronunciation": "/miˈændɝ/",
+    "definition": "to follow a winding course.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "present_example": "The path **meanders** past the pond.",
+    "past_simple_example": "The river **meandered** through the fields.",
+    "past_participle_example": "The lane has **meandered** for centuries.",
+    "present_participle_example": "**Meandering** trails confuse new walkers.",
+    "image": "voc_2f30b01f",
+    "image_brief": "a river winding across green fields, a walker small on a path, seen from a high angle at wide distance, soft light, a bridge and trees, peaceful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Trails **meander** through the meadow."
+  },
+  {
+    "phrase": "tarry",
+    "pos": "verb",
+    "sense": "stay-longer-than-necessary",
+    "pronunciation": "/ˈtæri/",
+    "definition": "to stay somewhere longer than necessary.",
+    "categories": [
+      "daily-routine"
+    ],
+    "level": "c1",
+    "present_example": "Do not **tarry** at the door.",
+    "past_simple_example": "They **tarried** over coffee for an hour.",
+    "past_participle_example": "We have **tarried** long enough.",
+    "present_participle_example": "**Tarrying** in the cold made them late.",
+    "image": "voc_b9cea1ce",
+    "image_brief": "a man lingering at a doorway with his coat, a friend waiting outside, seen from the side at medium distance, evening light, a bag and a mat, hesitant mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Do not **tarry** at the door."
+  },
+  {
+    "phrase": "gastronomy",
+    "pos": "noun",
+    "sense": "art-and-science-of-good-food",
+    "pronunciation": "/ɡæˈstrɑnəmi/",
+    "definition": "the art and science of good food.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_2f64cf35",
+    "image_brief": "chefs working in a professional kitchen with a tasting menu lined up, seen from the side at wide distance, warm light, pans and counters, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He studies **gastronomy** in Lyon."
+  },
+  {
+    "phrase": "artisan",
+    "pos": "noun",
+    "sense": "person-who-makes-food-by-hand",
+    "pronunciation": "/ˈɑrtəzən/",
+    "definition": "a person who makes food by hand in small amounts.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_ee18e8c8",
+    "image_brief": "a baker shaping a loaf by hand at a wooden table, seen from the side at medium distance, warm light, flour and a basket, proud mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **artisan** bakes every loaf himself."
+  },
+  {
+    "phrase": "fermentation",
+    "pos": "noun",
+    "sense": "changing-food-using-microbes",
+    "pronunciation": "/ˌfɝmɛnˈteɪʃən/",
+    "definition": "the process that changes food using microbes.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_f7187a14",
+    "image_brief": "bubbling jars of fermenting vegetables on a shelf, a cook checking one, seen from the side at medium distance, cool light, labels turned away and cloth, curious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Fermentation** gives the bread its flavor."
+  },
+  {
+    "phrase": "curing",
+    "pos": "noun",
+    "sense": "preserving-meat-with-salt-or-smoke",
+    "pronunciation": "/ˈkjʊrɪŋ/",
+    "definition": "preserving meat or fish with salt or smoke.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_c3c53183",
+    "image_brief": "hams hanging in a curing room, a butcher inspecting one, seen from the side at medium distance, dim light, salt and hooks, patient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Curing** keeps the ham for months."
+  },
+  {
+    "phrase": "pickling",
+    "pos": "noun",
+    "sense": "preserving-food-in-vinegar",
+    "pronunciation": "/ˈpɪklɪŋ/",
+    "definition": "preserving food in vinegar or brine.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_690c803d",
+    "image_brief": "jars of pickles cooling on a kitchen counter, a woman filling another, seen from the side at medium distance, daylight, vinegar and a cloth, busy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Pickling** turns cucumbers into pickles."
+  },
+  {
+    "phrase": "brining",
+    "pos": "noun",
+    "sense": "soaking-food-in-salty-water",
+    "pronunciation": "/ˈbraɪnɪŋ/",
+    "definition": "soaking food in salty water before cooking.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_bc15b721",
+    "image_brief": "a turkey resting in a large pot of brine, a cook covering it, seen from the side at medium distance, kitchen light, salt and a cloth, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Brining** keeps the turkey moist."
+  },
+  {
+    "phrase": "infusion",
+    "pos": "noun",
+    "sense": "flavoring-liquid-with-ingredients",
+    "pronunciation": "/ɪnˈfjuʒən/",
+    "definition": "flavoring liquid by leaving ingredients in it.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_487bd6db",
+    "image_brief": "a glass teapot with mint leaves steeping, a woman lifting the lid, seen from the side at medium distance, soft light, a cup and a tray, calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The tea is a mint **infusion**."
+  },
+  {
+    "phrase": "reduction",
+    "pos": "noun",
+    "sense": "sauce-thickened-by-boiling",
+    "pronunciation": "/rɪˈdʌkʃən/",
+    "definition": "a sauce made thicker by boiling it down.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_b1cdb380",
+    "image_brief": "a chef spooning a dark reduction over a plate, seen from the side at medium distance, pass light, a pan and a cloth, precise mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The chef finishes with a wine **reduction**."
+  },
+  {
+    "phrase": "emulsion",
+    "pos": "noun",
+    "sense": "mixture-of-two-liquids",
+    "pronunciation": "/ɪˈmʌlʃən/",
+    "definition": "a mixture of two liquids that do not normally mix.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_9cff1863",
+    "image_brief": "a cook whisking oil into egg yolk in a bowl, seen from above at medium distance, kitchen light, a bottle and a cloth, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Mayonnaise is an **emulsion**."
+  },
+  {
+    "phrase": "umami",
+    "pos": "noun",
+    "sense": "savory-taste-in-mushrooms-and-soy",
+    "pronunciation": "/uˈmɑmi/",
+    "definition": "a savory taste found in mushrooms and soy.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_b3f8245a",
+    "image_brief": "a bowl of dark mushroom broth steaming on a table, a diner tasting it, seen from the side at medium distance, warm light, a spoon and bread, satisfied mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The broth is full of **umami**."
+  },
+  {
+    "phrase": "sweetness",
+    "pos": "noun",
+    "sense": "quality-of-tasting-like-sugar",
+    "pronunciation": "/ˈswitnəs/",
+    "definition": "the quality of tasting like sugar.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_d48b7443",
+    "image_brief": "roasted carrots glazed on a tray, a cook tasting one, seen from above at medium distance, oven light, honey and a spoon, pleased mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **sweetness** of the carrots surprised him."
+  },
+  {
+    "phrase": "saltiness",
+    "pos": "noun",
+    "sense": "quality-of-tasting-of-salt",
+    "pronunciation": "/ˈsɔltinəs/",
+    "definition": "the quality of tasting of salt.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_97afebc7",
+    "image_brief": "a cheesemaker cutting into an aged cheese, seen from the side at medium distance, cellar light, a knife and a board, proud mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **saltiness** of the cheese is strong."
+  },
+  {
+    "phrase": "sourness",
+    "pos": "noun",
+    "sense": "quality-of-tasting-sharp",
+    "pronunciation": "/ˈsaʊɝnəs/",
+    "definition": "the quality of tasting sharp like lemon.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_2e1336ae",
+    "image_brief": "a cook squeezing lemon over a dish, seen from the side at medium distance, bright kitchen light, a bowl and a knife, thoughtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A little **sourness** balances the dish."
+  },
+  {
+    "phrase": "mouthfeel",
+    "pos": "noun",
+    "sense": "way-food-feels-in-the-mouth",
+    "pronunciation": "/ˈmaʊθˌfil/",
+    "definition": "the way food feels in the mouth.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_71a2620d",
+    "image_brief": "a diner tasting a spoonful of soup with eyes closed, seen from the side at medium distance, warm light, a bowl and a glass, appreciative mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **mouthfeel** of the soup is silky."
+  },
+  {
+    "phrase": "pesticide",
+    "pos": "noun",
+    "sense": "chemical-that-kills-crop-insects",
+    "pronunciation": "/ˈpɛstəˌsaɪd/",
+    "definition": "a chemical used to kill insects on crops.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_a555e566",
+    "image_brief": "a farmer inspecting a crop with a sprayer in the background, seen from the side at wide distance, morning light, a tank and rows, cautious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The farm avoids **pesticide**."
+  },
+  {
+    "phrase": "herbicide",
+    "pos": "noun",
+    "sense": "chemical-that-kills-unwanted-plants",
+    "pronunciation": "/ˈɝbəˌsaɪd/",
+    "definition": "a chemical used to kill unwanted plants.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_a2e630ba",
+    "image_brief": "a worker spraying weeds along a field edge, seen from the side at wide distance, grey light, a tank and a fence, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Herbicide** residue was found in the soil."
+  },
+  {
+    "phrase": "fertilizer",
+    "pos": "noun",
+    "sense": "substance-added-to-soil",
+    "pronunciation": "/ˈfɝtəˌlaɪzɝ/",
+    "definition": "a substance added to soil to help plants grow.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_7586e4d7",
+    "image_brief": "a gardener spreading compost over a vegetable bed, seen from the side at medium distance, morning light, a barrow and a fork, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They use compost as **fertilizer**."
+  },
+  {
+    "phrase": "irrigation",
+    "pos": "noun",
+    "sense": "supplying-water-to-crops",
+    "pronunciation": "/ˌɪrɪˈɡeɪʃən/",
+    "definition": "the supply of water to crops.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_0f5bf553",
+    "image_brief": "sprinklers watering long rows of vegetables, a farmer watching, seen from a high angle at wide distance, bright light, a ditch and a pump, fertile mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Irrigation** keeps the fields green."
+  },
+  {
+    "phrase": "yield",
+    "pos": "noun",
+    "sense": "amount-a-farm-produces",
+    "pronunciation": "/jild/",
+    "definition": "the amount a farm produces.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_6059709a",
+    "image_brief": "baskets of grain weighed on a scale at a farm, seen from the side at medium distance, morning light, sacks and a clipboard, satisfied mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **yield** doubled after the rain."
+  },
+  {
+    "phrase": "horticulture",
+    "pos": "noun",
+    "sense": "science-of-growing-garden-plants",
+    "pronunciation": "/ˈhɔrtəˌkʌltʃɝ/",
+    "definition": "the science of growing garden plants.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_371c8704",
+    "image_brief": "students pruning plants in a teaching greenhouse, seen from the side at wide distance, green light, pots and a bench, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She studied **horticulture** at college."
+  },
+  {
+    "phrase": "agronomy",
+    "pos": "noun",
+    "sense": "science-of-crop-production",
+    "pronunciation": "/əˈɡrɑnəmi/",
+    "definition": "the science of crop production.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_26646b79",
+    "image_brief": "a researcher checking soil samples beside a field, seen from the side at wide distance, morning light, a kit and a truck, analytical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Agronomy** shapes how the region farms."
+  },
+  {
+    "phrase": "gourmand",
+    "pos": "noun",
+    "sense": "person-who-enjoys-eating-a-lot",
+    "pronunciation": "/ɡʊrˈmɑnd/",
+    "definition": "a person who enjoys eating a lot.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_b9e63c3b",
+    "image_brief": "a diner with several empty plates in front of him, smiling at a waiter, seen from the side at medium distance, warm light, a glass and a menu turned away, happy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **gourmand** ordered three desserts."
+  },
+  {
+    "phrase": "epicure",
+    "pos": "noun",
+    "sense": "person-with-refined-taste-in-food",
+    "pronunciation": "/ˈɛpɪˌkjʊr/",
+    "definition": "a person with refined taste in food.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_4acc5c6f",
+    "image_brief": "a woman examining a cheese board with a small knife, seen from the side at medium distance, warm light, a glass and a cloth, discerning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **epicure** chose the wine carefully."
+  },
+  {
+    "phrase": "sommelier",
+    "pos": "noun",
+    "sense": "wine-expert-in-a-restaurant",
+    "pronunciation": "/ˌsɑməlˈjeɪ/",
+    "definition": "a wine expert in a restaurant.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_2c04ce39",
+    "image_brief": "a sommelier pouring wine for a table, seen from the side at medium distance, warm restaurant light, bottles and glasses, polished mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **sommelier** suggested a local white."
+  },
+  {
+    "phrase": "entree",
+    "pos": "noun",
+    "sense": "the-main-course-of-a-meal",
+    "pronunciation": "/ˈɑnˌtreɪ/",
+    "definition": "the main course of a meal.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_ecbac5c2",
+    "image_brief": "a waiter setting a main course in front of a guest, seen from the side at medium distance, warm light, a glass and a napkin, pleased mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **entree** came with roasted vegetables."
+  },
+  {
+    "phrase": "aperitif",
+    "pos": "noun",
+    "sense": "drink-before-a-meal",
+    "pronunciation": "/ɑˌpɛrɪˈtif/",
+    "definition": "a drink before a meal.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_cf74f8b4",
+    "image_brief": "two people holding small glasses on a terrace before dinner, seen from the side at medium distance, evening light, a table and a dish, relaxed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They shared an **aperitif** on the terrace."
+  },
+  {
+    "phrase": "condiment",
+    "pos": "noun",
+    "sense": "sauce-or-spice-added-at-the-table",
+    "pronunciation": "/ˈkɑndəmənt/",
+    "definition": "a sauce or spice added at the table.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_e63b3de1",
+    "image_brief": "small jars of sauces lined up on a diner table, a hand reaching for one, seen from above at medium distance, warm light, a plate and a napkin, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Salt is the oldest **condiment**."
+  },
+  {
+    "phrase": "plating",
+    "pos": "noun",
+    "sense": "way-food-is-arranged-on-a-plate",
+    "pronunciation": "/ˈpleɪtɪŋ/",
+    "definition": "the way food is arranged on a plate.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_089fdfb2",
+    "image_brief": "a chef arranging a dish with tweezers on a pass, seen from the side at medium distance, bright pass light, plates and a cloth, exacting mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **plating** looks like a painting."
+  },
+  {
+    "phrase": "astringent",
+    "pos": "adjective",
+    "sense": "sharp-and-drying-in-the-mouth",
+    "pronunciation": "/əˈstrɪndʒənt/",
+    "definition": "sharp and drying in the mouth.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_c1c42f36",
+    "image_brief": "an unripe fruit cut open on a board, a taster pulling a face, seen from the side at medium distance, kitchen light, a knife and a cloth, surprised mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The unripe fruit is **astringent**."
+  },
+  {
+    "phrase": "pungent",
+    "pos": "adjective",
+    "sense": "having-a-strong-sharp-smell",
+    "pronunciation": "/ˈpʌndʒənt/",
+    "definition": "having a strong sharp smell or taste.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_bce72c4a",
+    "image_brief": "a wedge of strong cheese on a board, a diner leaning back, seen from the side at medium distance, warm light, a knife and a glass, amused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The cheese has a **pungent** aroma."
+  },
+  {
+    "phrase": "tangy",
+    "pos": "adjective",
+    "sense": "pleasantly-sharp-in-taste",
+    "pronunciation": "/ˈtæŋi/",
+    "definition": "pleasantly sharp in taste.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_3f0f8f73",
+    "image_brief": "a bowl of yogurt with lime zest, a spoon lifting some, seen from above at medium distance, bright light, a knife and a cloth, fresh mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The sauce is **tangy** and fresh."
+  },
+  {
+    "phrase": "zesty",
+    "pos": "adjective",
+    "sense": "full-of-lemon-or-lime-flavor",
+    "pronunciation": "/ˈzɛsti/",
+    "definition": "fresh and full of lemon or lime flavor.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_25b3226d",
+    "image_brief": "a salad being tossed with lemon juice and zest, seen from above at medium distance, bright light, a grater and a bowl, fresh mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The salad has a **zesty** dressing."
+  },
+  {
+    "phrase": "earthy",
+    "pos": "adjective",
+    "sense": "tasting-of-soil-or-mushrooms",
+    "pronunciation": "/ˈɝθi/",
+    "definition": "tasting of soil or mushrooms.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_09743e38",
+    "image_brief": "roasted beets on a plate with soil still on the leaves, a cook plating, seen from the side at medium distance, warm light, a knife and a cloth, rustic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The beets taste sweet and **earthy**."
+  },
+  {
+    "phrase": "smoky",
+    "pos": "adjective",
+    "sense": "having-the-taste-of-smoke",
+    "pronunciation": "/ˈsmoʊki/",
+    "definition": "having the taste or smell of smoke.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_c2d608df",
+    "image_brief": "peppers roasting over an open flame, a cook turning them, seen from the side at medium distance, warm light, tongs and a tray, rustic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The peppers are **smoky** and sweet."
+  },
+  {
+    "phrase": "sustainable",
+    "pos": "adjective",
+    "sense": "produced-without-harming-the-environment",
+    "pronunciation": "/səˈsteɪnəbəl/",
+    "definition": "produced without harming the environment.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_28446304",
+    "image_brief": "a fishmonger labelling a catch from a small boat, seen from the side at medium distance, morning light, ice and crates, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The café buys **sustainable** fish."
+  },
+  {
+    "phrase": "nutritional",
+    "pos": "adjective",
+    "sense": "relating-to-food-value",
+    "pronunciation": "/nuˈtrɪʃənəl/",
+    "definition": "relating to the food value of something.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_c58210ef",
+    "image_brief": "a shopper reading a nutrition panel on a package, seen from the side at medium distance, shop light, a basket and a shelf, thoughtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The label lists the **nutritional** value."
+  },
+  {
+    "phrase": "dietary",
+    "pos": "adjective",
+    "sense": "relating-to-what-a-person-eats",
+    "pronunciation": "/ˈdaɪəˌtɛri/",
+    "definition": "relating to what a person eats.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_df50a3ef",
+    "image_brief": "a waiter noting a diner's dietary needs on a pad, seen from the side at medium distance, warm light, a menu and a glass, attentive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She has **dietary** restrictions."
+  },
+  {
+    "phrase": "caloric",
+    "pos": "adjective",
+    "sense": "relating-to-energy-in-food",
+    "pronunciation": "/kəˈlɔrɪk/",
+    "definition": "relating to the energy in food.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "image": "voc_e809cf99",
+    "image_brief": "a nutritionist comparing two plates on a table, seen from above at medium distance, bright light, a scale and notes, analytical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The drink has high **caloric** value."
+  },
+  {
+    "phrase": "pickle",
+    "pos": "verb",
+    "sense": "preserve-food-in-vinegar",
+    "pronunciation": "/ˈpɪkəl/",
+    "definition": "to preserve food in vinegar.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "present_example": "They **pickle** onions every autumn.",
+    "past_simple_example": "She **pickled** the cucumbers in brine.",
+    "past_participle_example": "The peppers have been **pickled**.",
+    "present_participle_example": "**Pickling** vegetables takes clean jars.",
+    "image": "voc_7ab61f5c",
+    "image_brief": "a woman packing sliced onions into a jar of vinegar, seen from the side at medium distance, kitchen light, jars and a cloth, busy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **pickle** onions every autumn."
+  },
+  {
+    "phrase": "brine",
+    "pos": "verb",
+    "sense": "soak-food-in-salty-water",
+    "pronunciation": "/braɪn/",
+    "definition": "to soak food in salty water.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "present_example": "**Brine** the chicken overnight.",
+    "past_simple_example": "He **brined** the pork for two days.",
+    "past_participle_example": "The turkey has been **brined** already.",
+    "present_participle_example": "**Brining** keeps the meat juicy.",
+    "image": "voc_ed0d0f3d",
+    "image_brief": "a cook lowering a chicken into a pot of salted water, seen from the side at medium distance, kitchen light, a bowl of salt and a cloth, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Brine** the chicken overnight."
+  },
+  {
+    "phrase": "infuse",
+    "pos": "verb",
+    "sense": "flavor-liquid-with-ingredients",
+    "pronunciation": "/ɪnˈfjuz/",
+    "definition": "to leave ingredients in liquid to flavor it.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "present_example": "**Infuse** the oil with garlic.",
+    "past_simple_example": "She **infused** the syrup with ginger.",
+    "past_participle_example": "The tea has been **infused** for five minutes.",
+    "present_participle_example": "**Infusing** the oil overnight deepens the flavor.",
+    "image": "voc_09b77aca",
+    "image_brief": "garlic and herbs steeping in a bottle of oil, a cook checking it, seen from the side at medium distance, warm light, a funnel and a cloth, patient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Infuse** the oil with garlic."
+  },
+  {
+    "phrase": "emulsify",
+    "pos": "verb",
+    "sense": "mix-two-liquids-into-a-blend",
+    "pronunciation": "/ɪˈmʌlsəˌfaɪ/",
+    "definition": "to mix two liquids into a smooth blend.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "present_example": "Whisk quickly to **emulsify** the sauce.",
+    "past_simple_example": "The blender **emulsified** the dressing.",
+    "past_participle_example": "The mixture has been **emulsified**.",
+    "present_participle_example": "**Emulsifying** too slowly splits the sauce.",
+    "image": "voc_9498b95f",
+    "image_brief": "a cook whisking oil into a bowl until smooth, seen from above at medium distance, kitchen light, a bottle and a cloth, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Whisk quickly to **emulsify** the sauce."
+  },
+  {
+    "phrase": "caramelize",
+    "pos": "verb",
+    "sense": "cook-sugar-until-brown",
+    "pronunciation": "/ˈkɑrməˌlaɪz/",
+    "definition": "to cook sugar until it turns brown.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "present_example": "**Caramelize** the onions slowly.",
+    "past_simple_example": "She **caramelized** the sugar for the tart.",
+    "past_participle_example": "The onions have been **caramelized**.",
+    "present_participle_example": "**Caramelizing** takes patience and low heat.",
+    "image": "voc_44867dad",
+    "image_brief": "onions turning golden in a pan, a cook stirring, seen from the side at medium distance, warm light, a wooden spoon and a cloth, patient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Caramelize** the onions slowly."
+  },
+  {
+    "phrase": "deglaze",
+    "pos": "verb",
+    "sense": "lift-browned-bits-with-liquid",
+    "pronunciation": "/diˈɡleɪz/",
+    "definition": "to use liquid to lift browned bits from a pan.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "present_example": "**Deglaze** the pan with wine.",
+    "past_simple_example": "He **deglazed** the pan with stock.",
+    "past_participle_example": "The pan has been **deglazed**.",
+    "present_participle_example": "**Deglazing** captures all the flavor.",
+    "image": "voc_770aff2b",
+    "image_brief": "wine poured into a hot pan with steam rising, a cook stirring, seen from the side at medium distance, warm light, a bottle and a spoon, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Deglaze** the pan with wine."
+  },
+  {
+    "phrase": "braise",
+    "pos": "verb",
+    "sense": "cook-slowly-in-a-little-liquid",
+    "pronunciation": "/breɪz/",
+    "definition": "to cook slowly in a little liquid.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "present_example": "They **braise** the beef for hours.",
+    "past_simple_example": "She **braised** the lamb with herbs.",
+    "past_participle_example": "The ribs have been **braised**.",
+    "present_participle_example": "**Braising** makes cheap cuts tender.",
+    "image": "voc_258bf71c",
+    "image_brief": "a covered pot simmering in an oven, a cook checking the meat, seen from the side at medium distance, warm light, a cloth and a ladle, slow mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **braise** the beef for hours."
+  },
+  {
+    "phrase": "poach",
+    "pos": "verb",
+    "sense": "cook-gently-in-liquid",
+    "pronunciation": "/poʊtʃ/",
+    "definition": "to cook gently in liquid below boiling.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "present_example": "**Poach** the eggs for three minutes.",
+    "past_simple_example": "He **poached** the pears in wine.",
+    "past_participle_example": "The fish has been **poached**.",
+    "present_participle_example": "**Poaching** keeps the fish delicate.",
+    "image": "voc_f6c315dd",
+    "image_brief": "eggs poaching in a shallow pan of water, a cook watching, seen from the side at medium distance, morning light, a spoon and a cloth, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Poach** the eggs for three minutes."
+  },
+  {
+    "phrase": "sear",
+    "pos": "verb",
+    "sense": "brown-meat-quickly-at-high-heat",
+    "pronunciation": "/sɪr/",
+    "definition": "to brown meat quickly at high heat.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "present_example": "**Sear** the steak on both sides.",
+    "past_simple_example": "He **seared** the fish skin until crisp.",
+    "past_participle_example": "The meat has been **seared**.",
+    "present_participle_example": "**Searing** seals in the juices.",
+    "image": "voc_798fb10f",
+    "image_brief": "a steak hissing in a hot pan, a cook watching it closely, seen from the side at medium distance, warm light, tongs and a cloth, intense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Sear** the steak on both sides."
+  },
+  {
+    "phrase": "blanch",
+    "pos": "verb",
+    "sense": "boil-food-briefly-and-cool-it",
+    "pronunciation": "/blæntʃ/",
+    "definition": "to boil food briefly and then cool it.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "present_example": "**Blanch** the beans before freezing.",
+    "past_simple_example": "She **blanched** the tomatoes for the sauce.",
+    "past_participle_example": "The vegetables have been **blanched**.",
+    "present_participle_example": "**Blanching** keeps the color bright.",
+    "image": "voc_58838ff4",
+    "image_brief": "green beans lifted from boiling water into a bowl of ice, seen from the side at medium distance, bright light, a colander and a cloth, brisk mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Blanch** the beans before freezing."
+  },
+  {
+    "phrase": "fillet",
+    "pos": "verb",
+    "sense": "remove-bones-from-fish",
+    "pronunciation": "/fɪˈleɪ/",
+    "definition": "to remove the bones from fish or meat.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "present_example": "The chef will **fillet** the fish.",
+    "past_simple_example": "He **filleted** the trout in one motion.",
+    "past_participle_example": "The fish has been **filleted**.",
+    "present_participle_example": "**Filleting** takes a sharp thin knife.",
+    "image": "voc_cc8a2f17",
+    "image_brief": "a fishmonger filleting a fish on a board, seen from above at medium distance, work light, a knife and a cloth, precise mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The chef will **fillet** the fish."
+  },
+  {
+    "phrase": "shuck",
+    "pos": "verb",
+    "sense": "remove-the-shell-from-oysters",
+    "pronunciation": "/ʃʌk/",
+    "definition": "to remove the shell from oysters or corn.",
+    "categories": [
+      "food"
+    ],
+    "level": "c1",
+    "present_example": "They **shuck** oysters at the bar.",
+    "past_simple_example": "She **shucked** a dozen for the platter.",
+    "past_participle_example": "The corn has been **shucked**.",
+    "present_participle_example": "**Shucking** oysters takes a strong wrist.",
+    "image": "voc_d397b899",
+    "image_brief": "a worker opening oysters with a small knife at a bar, seen from the side at medium distance, cold light, ice and a tray, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **shuck** oysters at the bar."
   }
 ]

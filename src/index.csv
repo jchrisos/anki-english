@@ -6399,3 +6399,253 @@ vocabulary,transpose,change-music-into-another-key,verb,c1,music,to change music
 vocabulary,notate,write-music-in-notation,verb,c1,music,to write music in notation
 vocabulary,modulate,move-from-one-key-to-another,verb,c1,music,to move from one key to another
 vocabulary,chant,sing-words-on-repeated-notes,verb,c1,music,to sing words on a few repeated notes
+vocabulary,epoch,long-period-of-history,noun,c1,time,a long period of history with its own character
+vocabulary,aeon,extremely-long-period-of-time,noun,c1,time,an extremely long period of time
+vocabulary,retrospect,looking-back-at-past-events,noun,c1,time,the act of looking back at past events
+vocabulary,hindsight,understanding-only-after-events,noun,c1,time,understanding of events only after they happen
+vocabulary,foresight,ability-to-plan-for-the-future,noun,c1,time,the ability to plan for the future
+vocabulary,premonition,feeling-that-something-bad-will-happen,noun,c1,time,a feeling that something bad will happen
+vocabulary,timekeeping,recording-time-accurately,noun,c1,time,the act of recording time accurately
+vocabulary,twilight,soft-light-after-sunset,noun,c1,time,the soft light after sunset
+vocabulary,interlude,short-period-between-events,noun,c1,time,a short period between two events
+vocabulary,rota,list-of-who-does-what-and-when,noun,c1,time,a list of who does a job and when
+vocabulary,anachronism,something-that-belongs-to-another-time,noun,c1,time,something that belongs to another time
+vocabulary,lateness,state-of-being-late,noun,c1,time,the state of being late
+vocabulary,midday,twelve-o-clock-in-the-day,noun,c1,time,twelve o'clock in the day
+vocabulary,fortnight,two-weeks,noun,c1,time,two weeks
+vocabulary,trimester,period-of-three-months,noun,c1,time,a period of three months
+vocabulary,daybreak,time-when-light-first-appears,noun,c1,time,the time when light first appears
+vocabulary,nightfall,time-when-night-begins,noun,c1,time,the time when night begins
+vocabulary,chronological,arranged-in-time-order,adjective,c1,time,arranged in the order events happened
+vocabulary,temporal,relating-to-time,adjective,c1,time,relating to time
+vocabulary,instantaneous,happening-immediately,adjective,c1,time,happening immediately
+vocabulary,perpetual,never-ending,adjective,c1,time,never ending
+vocabulary,perennial,lasting-for-a-very-long-time,adjective,c1,time,lasting for a very long time
+vocabulary,incessant,continuing-without-stopping,adjective,c1,time,continuing without stopping
+vocabulary,intermittent,stopping-and-starting-again,adjective,c1,time,stopping and starting again
+vocabulary,sporadic,happening-at-irregular-intervals,adjective,c1,time,happening at irregular intervals
+vocabulary,prompt,done-quickly-and-on-time,adjective,c1,time,done quickly and on time
+vocabulary,tardy,late,adjective,c1,time,late
+vocabulary,belated,coming-later-than-expected,adjective,c1,time,coming later than expected
+vocabulary,premature,happening-too-soon,adjective,c1,time,happening too soon
+vocabulary,transient,lasting-only-a-short-time,adjective,c1,time,lasting only a short time
+vocabulary,ephemeral,lasting-a-very-short-time,adjective,c1,time,lasting a very short time
+vocabulary,enduring,lasting-for-a-long-time,adjective,c1,time,lasting for a long time
+vocabulary,abiding,continuing-for-a-long-time,adjective,c1,time,continuing for a long time
+vocabulary,protracted,lasting-longer-than-expected,adjective,c1,time,lasting longer than expected
+vocabulary,concurrent,happening-at-the-same-time,adjective,c1,time,happening at the same time
+vocabulary,sequential,following-in-order,adjective,c1,time,following in order
+vocabulary,diurnal,happening-in-the-daytime,adjective,c1,time,happening in the daytime
+vocabulary,biennial,happening-every-two-years,adjective,c1,time,happening every two years
+vocabulary,concurrently,at-the-same-time,adverb,c1,time,at the same time
+vocabulary,successively,one-after-another,adverb,c1,time,one after another
+vocabulary,elapse,pass-as-time-does,verb,c1,time,to pass as time does
+vocabulary,prolong,make-something-last-longer,verb,c1,time,to make something last longer
+vocabulary,protract,make-something-last-too-long,verb,c1,time,to make something last too long
+vocabulary,recur,happen-again,verb,c1,time,to happen again
+vocabulary,coincide,happen-at-the-same-time,verb,c1,time,to happen at the same time
+vocabulary,defer,delay-to-a-later-time,verb,c1,time,to delay something to a later time
+vocabulary,suspend,stop-something-for-a-period,verb,c1,time,to stop something for a period
+vocabulary,dawdle,move-or-act-too-slowly,verb,c1,time,to move or act too slowly
+vocabulary,synchronize,make-things-happen-together,verb,c1,time,to make things happen at the same time
+vocabulary,overlap,cover-part-of-the-same-time,verb,c1,time,to cover part of the same time or space
+vocabulary,luminescence,light-given-off-without-heat,noun,c1,color,light given off by something without heat
+vocabulary,chroma,purity-and-strength-of-a-color,noun,c1,color,the purity and strength of a color
+vocabulary,vibrancy,quality-of-being-bright-and-lively,noun,c1,color,the quality of being bright and full of life
+vocabulary,brilliance,quality-of-being-very-bright,noun,c1,color,the quality of being very bright
+vocabulary,radiance,warm-bright-light,noun,c1,color,warm bright light from something
+vocabulary,opacity,quality-of-not-letting-light-through,noun,c1,color,the quality of not letting light through
+vocabulary,translucence,letting-some-light-through,noun,c1,color,the quality of letting some light through
+vocabulary,iridescence,showing-changing-colors,noun,c1,color,the quality of showing changing colors
+vocabulary,fluorescence,light-given-off-under-special-light,noun,c1,color,light given off by a substance under certain light
+vocabulary,pigmentation,coloring-of-skin-or-tissue,noun,c1,color,the coloring of skin hair or tissue
+vocabulary,discoloration,change-to-the-wrong-color,noun,c1,color,a change that makes something the wrong color
+vocabulary,grayscale,image-in-shades-of-gray,noun,c1,color,an image in shades of gray
+vocabulary,acrylic,fast-drying-plastic-paint,noun,c1,color,a fast-drying paint made with plastic
+vocabulary,gouache,opaque-watercolor-paint,noun,c1,color,an opaque watercolor paint
+vocabulary,watercolor,paint-mixed-with-water,noun,c1,color,paint mixed with water
+vocabulary,tempera,paint-mixed-with-egg,noun,c1,color,a paint mixed with egg
+vocabulary,brushstroke,one-movement-of-a-brush,noun,c1,color,one movement of a brush on a surface
+vocabulary,impasto,paint-laid-on-thickly,noun,c1,color,paint laid on very thickly
+vocabulary,phosphorescence,light-after-the-source-is-gone,noun,c1,color,light that continues after the source is gone
+vocabulary,infrared,light-beyond-red,noun,c1,color,light beyond red that people cannot see
+vocabulary,ultraviolet,light-beyond-violet,noun,c1,color,light beyond violet that people cannot see
+vocabulary,colorway,color-version-of-a-product,noun,c1,color,one of several color versions of a product
+vocabulary,undertone,hidden-color-beneath-the-surface,noun,c1,color,a hidden color beneath the surface color
+vocabulary,halftone,printed-image-made-of-dots,noun,c1,color,a printed image made of small dots
+vocabulary,luminance,brightness-of-a-color,noun,c1,color,the brightness of a color or surface
+vocabulary,gamma,setting-that-changes-image-brightness,noun,c1,color,a setting that changes the brightness of an image
+vocabulary,exposure,amount-of-light-reaching-a-camera,noun,c1,color,the amount of light that reaches a camera
+vocabulary,fresco,painting-on-wet-plaster,noun,c1,color,a painting made on wet plaster
+vocabulary,mosaic,picture-from-small-pieces,noun,c1,color,a picture made from small pieces of stone or glass
+vocabulary,collage,picture-made-by-sticking-pieces,noun,c1,color,a picture made by sticking pieces together
+vocabulary,chromatic,relating-to-color,adjective,c1,color,relating to color
+vocabulary,monochromatic,using-only-one-color,adjective,c1,color,using only one color
+vocabulary,polychrome,painted-in-several-colors,adjective,c1,color,painted in several colors
+vocabulary,complementary,colors-that-look-good-together,adjective,c1,color,colors opposite each other that look good together
+vocabulary,analogous,colors-next-to-each-other,adjective,c1,color,colors next to each other on the color wheel
+vocabulary,luminous,giving-off-light,adjective,c1,color,giving off light
+vocabulary,lustrous,shiny-and-smooth,adjective,c1,color,shiny and smooth
+vocabulary,translucent,letting-some-light-through,adjective,c1,color,letting some light through
+vocabulary,colorfast,keeping-its-color-in-the-wash,adjective,c1,color,keeping its color when washed
+vocabulary,duotone,printed-in-two-colors,adjective,c1,color,printed in two colors
+vocabulary,monotone,in-a-single-even-color,adjective,c1,color,in a single even color
+vocabulary,illuminate,light-something-up,verb,c1,color,to light something up
+vocabulary,absorb,take-in-light-or-liquid,verb,c1,color,to take in light or liquid
+vocabulary,radiate,send-out-light-or-heat,verb,c1,color,to send out light or heat
+vocabulary,lighten,make-something-less-dark,verb,c1,color,to make something less dark
+vocabulary,clash,look-unpleasant-together,verb,c1,color,to look unpleasant together
+vocabulary,posterize,reduce-an-image-to-few-colors,verb,c1,color,to reduce an image to a few flat colors
+vocabulary,crosshatch,draw-with-crossing-lines,verb,c1,color,to draw with crossing lines
+vocabulary,stipple,make-marks-with-small-dots,verb,c1,color,to make marks with small dots
+vocabulary,etch,cut-a-design-into-a-surface,verb,c1,color,to cut a design into a hard surface
+vocabulary,horsepower,unit-for-measuring-engine-power,noun,c1,car,a unit for measuring engine power
+vocabulary,torque,turning-force-of-an-engine,noun,c1,car,the turning force of an engine
+vocabulary,suspension,system-connecting-wheels-to-the-body,noun,c1,car,the system that connects wheels to the car body
+vocabulary,chassis,frame-that-supports-a-vehicle,noun,c1,car,the frame that supports a vehicle
+vocabulary,transmission,system-sending-power-to-the-wheels,noun,c1,car,the system that sends power to the wheels
+vocabulary,combustion,burning-of-fuel-to-make-power,noun,c1,car,the burning of fuel to make power
+vocabulary,telematics,technology-that-sends-vehicle-data,noun,c1,car,technology that sends vehicle data remotely
+vocabulary,infotainment,screen-and-audio-system-in-a-car,noun,c1,car,the screen and audio system in a car
+vocabulary,traction,grip-of-tires-on-the-road,noun,c1,car,the grip of tires on the road
+vocabulary,drivetrain,parts-that-deliver-power-to-wheels,noun,c1,car,the parts that deliver power to the wheels
+vocabulary,powertrain,engine-and-parts-that-drive-the-car,noun,c1,car,the engine and parts that drive the car
+vocabulary,braking,act-of-slowing-a-vehicle,noun,c1,car,the act of slowing a vehicle
+vocabulary,efficiency,using-fuel-or-power-well,noun,c1,car,the ability to use fuel or power well
+vocabulary,emissions,gases-released-into-the-air,noun,c1,car,gases released into the air
+vocabulary,carbon,element-released-when-fuel-burns,noun,c1,car,the element released when fuel burns
+vocabulary,autopilot,system-that-drives-the-car-briefly,noun,c1,car,a system that drives the car for short periods
+vocabulary,bodywork,outer-panels-of-a-vehicle,noun,c1,car,the outer panels of a vehicle
+vocabulary,paintwork,painted-surface-of-a-vehicle,noun,c1,car,the painted surface of a vehicle
+vocabulary,alloy,metal-made-by-mixing-metals,noun,c1,car,a metal made by mixing two metals
+vocabulary,cabriolet,car-with-a-folding-roof,noun,c1,car,a car with a folding roof
+vocabulary,roadster,small-open-two-seat-car,noun,c1,car,a small open two-seat car
+vocabulary,crossover,car-between-a-hatchback-and-suv,noun,c1,car,a car between a hatchback and an SUV
+vocabulary,tachometer,gauge-showing-engine-speed,noun,c1,car,a gauge showing engine speed
+vocabulary,caliper,part-that-presses-the-brake-pads,noun,c1,car,the part that presses the brake pads
+vocabulary,axle,bar-that-connects-the-wheels,noun,c1,car,the bar that connects the wheels
+vocabulary,differential,gear-that-lets-wheels-turn-apart,noun,c1,car,the gear that lets wheels turn at different speeds
+vocabulary,crankshaft,shaft-turned-by-the-pistons,noun,c1,car,the shaft turned by the pistons
+vocabulary,piston,part-that-moves-up-and-down-in-an-engine,noun,c1,car,a part that moves up and down in the engine
+vocabulary,cylinder,tube-where-the-piston-moves,noun,c1,car,a tube where the piston moves
+vocabulary,carburetor,old-part-that-mixed-fuel-and-air,noun,c1,car,an old part that mixed fuel and air
+vocabulary,turbocharger,device-forcing-more-air-into-an-engine,noun,c1,car,a device that forces more air into the engine
+vocabulary,supercharger,device-that-boosts-engine-power,noun,c1,car,a device that boosts engine power
+vocabulary,silencer,part-that-quiets-the-exhaust,noun,c1,car,a part that makes the exhaust quieter
+vocabulary,spoiler,part-that-improves-grip-at-speed,noun,c1,car,a part that improves grip at speed
+vocabulary,rollover,accident-where-a-vehicle-turns-over,noun,c1,car,an accident where a vehicle turns over
+vocabulary,downforce,pressure-pushing-a-car-onto-the-road,noun,c1,car,pressure pushing a car onto the road
+vocabulary,aerodynamic,shaped-to-move-through-air-easily,adjective,c1,car,shaped to move easily through air
+vocabulary,autonomous,able-to-drive-without-a-person,adjective,c1,car,able to drive without a person
+vocabulary,hydraulic,worked-by-liquid-pressure,adjective,c1,car,worked by liquid pressure
+vocabulary,rugged,strong-for-rough-use,adjective,c1,car,strong and able to cope with rough use
+vocabulary,sleek,smooth-and-elegant-in-shape,adjective,c1,car,smooth and elegant in shape
+vocabulary,maneuver,move-a-vehicle-carefully,verb,c1,car,to move a vehicle carefully
+vocabulary,rev,increase-engine-speed,verb,c1,car,to increase engine speed
+vocabulary,customize,change-a-vehicle-to-suit-its-owner,verb,c1,car,to change a vehicle to suit its owner
+vocabulary,overhaul,examine-and-repair-a-vehicle-thoroughly,verb,c1,car,to examine and repair a vehicle thoroughly
+vocabulary,refurbish,clean-and-repair-something-old,verb,c1,car,to clean and repair something old
+vocabulary,scrap,throw-away-a-vehicle-as-waste,verb,c1,car,to throw away a vehicle as waste
+vocabulary,salvage,save-parts-from-a-damaged-vehicle,verb,c1,car,to save parts from a damaged vehicle
+vocabulary,jumpstart,start-a-car-with-a-flat-battery,verb,c1,car,to start a car with a flat battery using another
+vocabulary,drift,slide-sideways-while-driving,verb,c1,car,to slide sideways while driving
+vocabulary,regimen,fixed-plan-of-habits,noun,c1,daily-routine,a fixed plan of exercise food or treatment
+vocabulary,productivity,amount-of-work-done,noun,c1,daily-routine,the amount of work done in a period
+vocabulary,burnout,exhaustion-from-too-much-work,noun,c1,daily-routine,exhaustion caused by too much work
+vocabulary,recreation,activities-done-for-enjoyment,noun,c1,daily-routine,activities done for enjoyment
+vocabulary,pastime,activity-enjoyed-in-free-time,noun,c1,daily-routine,an activity you enjoy in free time
+vocabulary,slumber,sleep,noun,c1,daily-routine,sleep
+vocabulary,wakefulness,state-of-being-awake,noun,c1,daily-routine,the state of being awake
+vocabulary,upkeep,work-to-keep-something-good,noun,c1,daily-routine,the work of keeping something in good condition
+vocabulary,procrastination,habit-of-delaying-tasks,noun,c1,daily-routine,the habit of delaying tasks
+vocabulary,multitasking,doing-several-tasks-at-once,noun,c1,daily-routine,doing several tasks at once
+vocabulary,prioritization,deciding-what-matters-first,noun,c1,daily-routine,the act of deciding what matters first
+vocabulary,relaxation,state-of-being-rested,noun,c1,daily-routine,the state of being rested and calm
+vocabulary,downtime,time-when-you-rest,noun,c1,daily-routine,time when you rest or stop working
+vocabulary,inclination,natural-tendency-to-do-something,noun,c1,daily-routine,a natural tendency to do something
+vocabulary,mindfulness,calm-attention-to-the-present,noun,c1,daily-routine,the practice of calm attention to the present
+vocabulary,reflection,quiet-thought-about-what-happened,noun,c1,daily-routine,quiet thought about what happened
+vocabulary,wakeup,act-of-waking-up,noun,c1,daily-routine,the act of waking up
+vocabulary,housekeeping,work-of-running-a-home,noun,c1,daily-routine,the work of cleaning and running a home
+vocabulary,preparation,work-done-to-get-ready,noun,c1,daily-routine,the work done to get ready
+vocabulary,readiness,state-of-being-ready,noun,c1,daily-routine,the state of being ready
+vocabulary,sleepiness,feeling-of-needing-sleep,noun,c1,daily-routine,the feeling of needing sleep
+vocabulary,drowsiness,strong-feeling-of-wanting-sleep,noun,c1,daily-routine,a strong feeling of wanting to sleep
+vocabulary,supper,the-evening-meal,noun,c1,daily-routine,the evening meal
+vocabulary,brunch,late-morning-meal,noun,c1,daily-routine,a late morning meal
+vocabulary,cleanliness,state-of-being-clean,noun,c1,daily-routine,the state of being clean
+vocabulary,tardiness,habit-of-being-late,noun,c1,daily-routine,the habit of being late
+vocabulary,earliness,state-of-being-early,noun,c1,daily-routine,the state of being early
+vocabulary,mundane,ordinary-and-not-exciting,adjective,c1,daily-routine,ordinary and not exciting
+vocabulary,humdrum,dull-and-repetitive,adjective,c1,daily-routine,dull and repetitive
+vocabulary,monotonous,boring-because-it-never-changes,adjective,c1,daily-routine,boring because it never changes
+vocabulary,uneventful,with-nothing-interesting-happening,adjective,c1,daily-routine,with nothing interesting happening
+vocabulary,hectic,very-busy-and-full-of-activity,adjective,c1,daily-routine,very busy and full of activity
+vocabulary,chaotic,completely-disordered,adjective,c1,daily-routine,completely disordered
+vocabulary,orderly,neat-and-well-arranged,adjective,c1,daily-routine,neat and well arranged
+vocabulary,methodical,done-in-a-careful-fixed-order,adjective,c1,daily-routine,done in a careful fixed order
+vocabulary,haphazard,done-without-plan-or-order,adjective,c1,daily-routine,done without plan or order
+vocabulary,circadian,relating-to-the-bodys-daily-rhythm,adjective,c1,daily-routine,relating to the body's daily rhythm
+vocabulary,methodically,in-a-careful-fixed-order,adverb,c1,daily-routine,in a careful fixed order
+vocabulary,systematically,according-to-a-clear-plan,adverb,c1,daily-routine,according to a clear plan
+vocabulary,routinize,make-something-part-of-a-routine,verb,c1,daily-routine,to make something part of a regular routine
+vocabulary,oversleep,sleep-longer-than-intended,verb,c1,daily-routine,to sleep longer than intended
+vocabulary,putter,do-small-tasks-relaxedly,verb,c1,daily-routine,to do small tasks in a relaxed way
+vocabulary,allocate,give-time-or-money-to-a-purpose,verb,c1,daily-routine,to give time or money to a purpose
+vocabulary,streamline,make-a-process-simpler,verb,c1,daily-routine,to make a process simpler and faster
+vocabulary,catnap,take-a-short-sleep,verb,c1,daily-routine,to take a short sleep
+vocabulary,loiter,stand-around-with-no-purpose,verb,c1,daily-routine,to stand around with no purpose
+vocabulary,saunter,walk-in-a-slow-relaxed-way,verb,c1,daily-routine,to walk in a slow relaxed way
+vocabulary,amble,walk-slowly-and-gently,verb,c1,daily-routine,to walk slowly and gently
+vocabulary,meander,follow-a-winding-course,verb,c1,daily-routine,to follow a winding course
+vocabulary,tarry,stay-longer-than-necessary,verb,c1,daily-routine,to stay somewhere longer than necessary
+vocabulary,gastronomy,art-and-science-of-good-food,noun,c1,food,the art and science of good food
+vocabulary,artisan,person-who-makes-food-by-hand,noun,c1,food,a person who makes food by hand in small amounts
+vocabulary,fermentation,changing-food-using-microbes,noun,c1,food,the process that changes food using microbes
+vocabulary,curing,preserving-meat-with-salt-or-smoke,noun,c1,food,preserving meat or fish with salt or smoke
+vocabulary,pickling,preserving-food-in-vinegar,noun,c1,food,preserving food in vinegar or brine
+vocabulary,brining,soaking-food-in-salty-water,noun,c1,food,soaking food in salty water before cooking
+vocabulary,infusion,flavoring-liquid-with-ingredients,noun,c1,food,flavoring liquid by leaving ingredients in it
+vocabulary,reduction,sauce-thickened-by-boiling,noun,c1,food,a sauce made thicker by boiling it down
+vocabulary,emulsion,mixture-of-two-liquids,noun,c1,food,a mixture of two liquids that do not normally mix
+vocabulary,umami,savory-taste-in-mushrooms-and-soy,noun,c1,food,a savory taste found in mushrooms and soy
+vocabulary,sweetness,quality-of-tasting-like-sugar,noun,c1,food,the quality of tasting like sugar
+vocabulary,saltiness,quality-of-tasting-of-salt,noun,c1,food,the quality of tasting of salt
+vocabulary,sourness,quality-of-tasting-sharp,noun,c1,food,the quality of tasting sharp like lemon
+vocabulary,mouthfeel,way-food-feels-in-the-mouth,noun,c1,food,the way food feels in the mouth
+vocabulary,pesticide,chemical-that-kills-crop-insects,noun,c1,food,a chemical used to kill insects on crops
+vocabulary,herbicide,chemical-that-kills-unwanted-plants,noun,c1,food,a chemical used to kill unwanted plants
+vocabulary,fertilizer,substance-added-to-soil,noun,c1,food,a substance added to soil to help plants grow
+vocabulary,irrigation,supplying-water-to-crops,noun,c1,food,the supply of water to crops
+vocabulary,yield,amount-a-farm-produces,noun,c1,food,the amount a farm produces
+vocabulary,horticulture,science-of-growing-garden-plants,noun,c1,food,the science of growing garden plants
+vocabulary,agronomy,science-of-crop-production,noun,c1,food,the science of crop production
+vocabulary,gourmand,person-who-enjoys-eating-a-lot,noun,c1,food,a person who enjoys eating a lot
+vocabulary,epicure,person-with-refined-taste-in-food,noun,c1,food,a person with refined taste in food
+vocabulary,sommelier,wine-expert-in-a-restaurant,noun,c1,food,a wine expert in a restaurant
+vocabulary,entree,the-main-course-of-a-meal,noun,c1,food,the main course of a meal
+vocabulary,aperitif,drink-before-a-meal,noun,c1,food,a drink before a meal
+vocabulary,condiment,sauce-or-spice-added-at-the-table,noun,c1,food,a sauce or spice added at the table
+vocabulary,plating,way-food-is-arranged-on-a-plate,noun,c1,food,the way food is arranged on a plate
+vocabulary,astringent,sharp-and-drying-in-the-mouth,adjective,c1,food,sharp and drying in the mouth
+vocabulary,pungent,having-a-strong-sharp-smell,adjective,c1,food,having a strong sharp smell or taste
+vocabulary,tangy,pleasantly-sharp-in-taste,adjective,c1,food,pleasantly sharp in taste
+vocabulary,zesty,full-of-lemon-or-lime-flavor,adjective,c1,food,fresh and full of lemon or lime flavor
+vocabulary,earthy,tasting-of-soil-or-mushrooms,adjective,c1,food,tasting of soil or mushrooms
+vocabulary,smoky,having-the-taste-of-smoke,adjective,c1,food,having the taste or smell of smoke
+vocabulary,sustainable,produced-without-harming-the-environment,adjective,c1,food,produced without harming the environment
+vocabulary,nutritional,relating-to-food-value,adjective,c1,food,relating to the food value of something
+vocabulary,dietary,relating-to-what-a-person-eats,adjective,c1,food,relating to what a person eats
+vocabulary,caloric,relating-to-energy-in-food,adjective,c1,food,relating to the energy in food
+vocabulary,pickle,preserve-food-in-vinegar,verb,c1,food,to preserve food in vinegar
+vocabulary,brine,soak-food-in-salty-water,verb,c1,food,to soak food in salty water
+vocabulary,infuse,flavor-liquid-with-ingredients,verb,c1,food,to leave ingredients in liquid to flavor it
+vocabulary,emulsify,mix-two-liquids-into-a-blend,verb,c1,food,to mix two liquids into a smooth blend
+vocabulary,caramelize,cook-sugar-until-brown,verb,c1,food,to cook sugar until it turns brown
+vocabulary,deglaze,lift-browned-bits-with-liquid,verb,c1,food,to use liquid to lift browned bits from a pan
+vocabulary,braise,cook-slowly-in-a-little-liquid,verb,c1,food,to cook slowly in a little liquid
+vocabulary,poach,cook-gently-in-liquid,verb,c1,food,to cook gently in liquid below boiling
+vocabulary,sear,brown-meat-quickly-at-high-heat,verb,c1,food,to brown meat quickly at high heat
+vocabulary,blanch,boil-food-briefly-and-cool-it,verb,c1,food,to boil food briefly and then cool it
+vocabulary,fillet,remove-bones-from-fish,verb,c1,food,to remove the bones from fish or meat
+vocabulary,shuck,remove-the-shell-from-oysters,verb,c1,food,to remove the shell from oysters or corn
