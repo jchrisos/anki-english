@@ -6149,3 +6149,253 @@ vocabulary,mediate,help-two-sides-reach-agreement,verb,c1,communication,to help 
 vocabulary,misquote,repeat-words-inaccurately,verb,c1,communication,to repeat words inaccurately
 vocabulary,misinterpret,understand-something-wrongly,verb,c1,communication,to understand something wrongly
 vocabulary,misconstrue,understand-words-or-actions-wrongly,verb,c1,communication,to understand words or actions wrongly
+vocabulary,intelligence,ability-to-learn-and-understand,noun,c1,technology,the ability to learn and understand
+vocabulary,cybersecurity,protection-of-computer-systems,noun,c1,technology,the protection of computer systems from attack
+vocabulary,surveillance,close-watching-of-people-or-places,noun,c1,technology,the close watching of people or places
+vocabulary,biometrics,measuring-body-features-for-identification,noun,c1,technology,the measurement of body features for identification
+vocabulary,nanotechnology,technology-at-the-scale-of-atoms,noun,c1,technology,technology at the scale of atoms
+vocabulary,robotics,science-of-building-and-using-robots,noun,c1,technology,the science of building and using robots
+vocabulary,bandwidth,amount-of-data-a-connection-carries,noun,c1,technology,the amount of data a connection can carry
+vocabulary,latency,delay-before-data-starts-moving,noun,c1,technology,a delay before data starts moving
+vocabulary,scalability,ability-to-grow-with-more-work,noun,c1,technology,the ability to grow to handle more work
+vocabulary,protocol,set-of-rules-for-sending-data,noun,c1,technology,a set of rules for sending data
+vocabulary,interface,point-where-a-user-meets-a-system,noun,c1,technology,the point where a user meets a system
+vocabulary,firmware,software-built-into-a-device,noun,c1,technology,software built into a device
+vocabulary,digitalization,changing-to-digital-systems,noun,c1,technology,the process of changing to digital systems
+vocabulary,virtualization,running-several-systems-on-one-machine,noun,c1,technology,running several systems on one machine
+vocabulary,disruption,major-change-that-breaks-the-old-way,noun,c1,technology,a major change that breaks the old way
+vocabulary,obsolescence,state-of-no-longer-being-useful,noun,c1,technology,the state of no longer being useful
+vocabulary,connectivity,state-of-being-connected-to-a-network,noun,c1,technology,the state of being connected to a network
+vocabulary,interoperability,ability-of-systems-to-work-together,noun,c1,technology,the ability of systems to work together
+vocabulary,throughput,amount-of-work-completed-in-a-period,noun,c1,technology,the amount of work completed in a period
+vocabulary,ethics,study-of-right-and-wrong,noun,c1,technology,the study of right and wrong
+vocabulary,compliance,act-of-following-rules,noun,c1,technology,the act of following rules
+vocabulary,governance,way-an-organization-is-controlled,noun,c1,technology,the way an organization is controlled
+vocabulary,telemetry,automatic-measurements-sent-from-distance,noun,c1,technology,automatic measurements sent from a distance
+vocabulary,fingerprint,mark-made-by-ridges-of-a-finger,noun,c1,technology,the mark made by the ridges of a finger
+vocabulary,pixel,smallest-dot-in-a-digital-image,noun,c1,technology,the smallest dot in a digital image
+vocabulary,widget,small-tool-on-a-screen-or-page,noun,c1,technology,a small tool on a screen or page
+vocabulary,analytics,analysis-of-data-to-find-patterns,noun,c1,technology,the analysis of data to find patterns
+vocabulary,metadata,data-that-describes-other-data,noun,c1,technology,data that describes other data
+vocabulary,authentication,process-of-proving-who-you-are,noun,c1,technology,the process of proving who you are
+vocabulary,authorization,official-permission-to-do-something,noun,c1,technology,official permission to do something
+vocabulary,augmented,made-greater-by-adding-something,adjective,c1,technology,made greater by adding something
+vocabulary,redundant,not-needed-because-it-repeats,adjective,c1,technology,not needed because it repeats something
+vocabulary,algorithmic,relating-to-a-set-of-computing-steps,adjective,c1,technology,relating to a set of computing steps
+vocabulary,computational,relating-to-calculation-by-computer,adjective,c1,technology,relating to calculation by computer
+vocabulary,cryptographic,relating-to-secret-codes,adjective,c1,technology,relating to secret codes
+vocabulary,seamless,smooth-with-no-visible-gaps,adjective,c1,technology,smooth with no visible gaps
+vocabulary,robust,strong-and-unlikely-to-fail,adjective,c1,technology,strong and unlikely to fail
+vocabulary,scalable,able-to-grow-without-breaking,adjective,c1,technology,able to grow without breaking
+vocabulary,automate,make-a-process-work-by-machine,verb,c1,technology,to make a process work by machine
+vocabulary,digitize,convert-information-into-digital-form,verb,c1,technology,to convert information into digital form
+vocabulary,virtualize,run-a-system-as-software,verb,c1,technology,to run a system as software rather than hardware
+vocabulary,optimize,make-something-work-as-well-as-possible,verb,c1,technology,to make something work as well as possible
+vocabulary,configure,set-up-a-system-for-a-purpose,verb,c1,technology,to set up a system for a purpose
+vocabulary,deploy,put-a-system-into-use,verb,c1,technology,to put a system into use
+vocabulary,authenticate,prove-something-is-genuine,verb,c1,technology,to prove that someone or something is genuine
+vocabulary,decrypt,turn-coded-data-back-into-text,verb,c1,technology,to turn coded data back into readable form
+vocabulary,authorize,give-official-permission,verb,c1,technology,to give official permission
+vocabulary,digitally,using-computer-technology,adverb,c1,technology,using computer technology
+vocabulary,virtually,almost-completely-or-in-simulation,adverb,c1,technology,almost completely or in a computer simulation
+vocabulary,remotely,from-a-distance-using-a-connection,adverb,c1,technology,from a distance using a connection
+vocabulary,pedagogy,method-and-practice-of-teaching,noun,c1,education,the method and practice of teaching
+vocabulary,cognition,mental-process-of-knowing,noun,c1,education,the mental process of knowing and understanding
+vocabulary,metacognition,thinking-about-your-own-thinking,noun,c1,education,thinking about your own thinking
+vocabulary,epistemology,study-of-knowledge,noun,c1,education,the study of knowledge and how we know things
+vocabulary,rubric,set-of-criteria-for-grading,noun,c1,education,a set of criteria for grading work
+vocabulary,criteria,standards-used-to-judge,noun,c1,education,standards used to judge something
+vocabulary,benchmark,standard-used-for-comparison,noun,c1,education,a standard used for comparison
+vocabulary,accreditation,official-approval-of-an-institution,noun,c1,education,official approval of an institution
+vocabulary,inquiry,process-of-asking-and-investigating,noun,c1,education,the process of asking and investigating
+vocabulary,synthesis,combining-ideas-into-a-whole,noun,c1,education,the combining of ideas into a whole
+vocabulary,academia,world-of-universities-and-research,noun,c1,education,the world of universities and research
+vocabulary,tenure,permanent-teaching-post,noun,c1,education,a permanent teaching post at a university
+vocabulary,peer,person-of-the-same-status,noun,c1,education,a person of the same age or status
+vocabulary,credential,qualification-that-proves-ability,noun,c1,education,a qualification that proves ability
+vocabulary,credibility,quality-of-being-believed,noun,c1,education,the quality of being believed
+vocabulary,certification,official-proof-of-a-qualification,noun,c1,education,official proof of a qualification
+vocabulary,aptitude,natural-ability-to-learn,noun,c1,education,a natural ability to learn something
+vocabulary,reasoning,process-of-thinking-logically,noun,c1,education,the process of thinking logically
+vocabulary,logic,rules-of-clear-thinking,noun,c1,education,the rules of clear thinking
+vocabulary,memorization,learning-something-by-heart,noun,c1,education,the act of learning something by heart
+vocabulary,rote,learning-by-repetition,noun,c1,education,learning by repetition without understanding
+vocabulary,retention,ability-to-remember-what-was-learned,noun,c1,education,the ability to remember what was learned
+vocabulary,humanities,subjects-such-as-history-and-philosophy,noun,c1,education,subjects such as history literature and philosophy
+vocabulary,treatise,long-serious-writing-on-a-subject,noun,c1,education,a long serious piece of writing on a subject
+vocabulary,monograph,detailed-book-on-one-subject,noun,c1,education,a detailed book on one subject
+vocabulary,symposium,meeting-where-experts-discuss,noun,c1,education,a meeting where experts discuss a subject
+vocabulary,colloquium,informal-academic-meeting,noun,c1,education,an informal academic meeting for discussion
+vocabulary,citation,reference-to-a-source-in-text,noun,c1,education,a reference to a source in a text
+vocabulary,bibliography,list-of-sources-used,noun,c1,education,a list of sources used in a work
+vocabulary,footnote,note-at-the-bottom-of-a-page,noun,c1,education,a note at the bottom of a page
+vocabulary,appendix,extra-material-at-the-end-of-a-book,noun,c1,education,extra material at the end of a book
+vocabulary,prospectus,document-describing-a-school,noun,c1,education,a document describing a school or course
+vocabulary,didactic,intended-to-teach-often-dully,adjective,c1,education,intended to teach often in a dull way
+vocabulary,interdisciplinary,combining-several-subjects,adjective,c1,education,combining several subjects
+vocabulary,multidisciplinary,involving-several-fields,adjective,c1,education,involving several fields of study
+vocabulary,scholastic,relating-to-school-and-study,adjective,c1,education,relating to school and study
+vocabulary,rigorous,very-careful-and-thorough,adjective,c1,education,very careful and thorough
+vocabulary,extracurricular,outside-normal-coursework,adjective,c1,education,outside the normal course of study
+vocabulary,empirical,based-on-observation,adjective,c1,education,based on observation rather than theory
+vocabulary,proficient,able-to-do-something-well,adjective,c1,education,able to do something well
+vocabulary,adept,very-skilled,adjective,c1,education,very skilled
+vocabulary,intellectually,in-a-way-that-involves-thinking,adverb,c1,education,in a way that involves thinking
+vocabulary,impart,pass-knowledge-to-others,verb,c1,education,to pass knowledge or skills to others
+vocabulary,instill,put-an-idea-into-someones-mind-slowly,verb,c1,education,to put an idea or habit into someone's mind slowly
+vocabulary,contextualize,place-something-in-its-setting,verb,c1,education,to place something in its wider setting
+vocabulary,synthesize,combine-ideas-into-a-whole,verb,c1,education,to combine ideas into a whole
+vocabulary,critique,judge-strengths-and-weaknesses,verb,c1,education,to judge the strengths and weaknesses of something
+vocabulary,comprehend,understand-something-fully,verb,c1,education,to understand something fully
+vocabulary,grasp,understand-an-idea-completely,verb,c1,education,to understand an idea completely
+vocabulary,master,learn-a-skill-completely,verb,c1,education,to learn a skill completely
+vocabulary,couture,design-of-high-fashion-clothes,noun,c1,clothes,the design and making of high-fashion clothes
+vocabulary,silhouette,shape-of-a-body-or-outfit,noun,c1,clothes,the shape of a person's body or clothes
+vocabulary,garment,a-piece-of-clothing,noun,c1,clothes,a piece of clothing
+vocabulary,attire,the-clothes-someone-is-wearing,noun,c1,clothes,the clothes someone is wearing
+vocabulary,apparel,clothing-especially-for-sale,noun,c1,clothes,clothing especially for sale
+vocabulary,ensemble,set-of-clothes-worn-together,noun,c1,clothes,a set of clothes worn together
+vocabulary,motif,repeated-design-or-pattern,noun,c1,clothes,a repeated design or pattern
+vocabulary,embroidery,decorative-stitching-on-cloth,noun,c1,clothes,decorative stitching on cloth
+vocabulary,sequin,small-shiny-disc-on-cloth,noun,c1,clothes,a small shiny disc sewn onto cloth
+vocabulary,chiffon,light-thin-transparent-cloth,noun,c1,clothes,a light thin transparent cloth
+vocabulary,satin,smooth-shiny-cloth,noun,c1,clothes,a smooth shiny cloth
+vocabulary,atelier,designers-workshop,noun,c1,clothes,a designer's workshop
+vocabulary,milliner,person-who-makes-hats,noun,c1,clothes,a person who makes hats
+vocabulary,cobbler,person-who-repairs-shoes,noun,c1,clothes,a person who repairs shoes
+vocabulary,seamstress,woman-who-sews-clothes-for-a-living,noun,c1,clothes,a woman who sews clothes for a living
+vocabulary,dressmaker,person-who-makes-clothes-to-order,noun,c1,clothes,a person who makes clothes to order
+vocabulary,fitting,session-where-clothes-are-adjusted,noun,c1,clothes,a session where clothes are adjusted to fit
+vocabulary,alteration,change-made-to-clothes,noun,c1,clothes,a change made to clothes
+vocabulary,hemline,line-of-the-bottom-edge,noun,c1,clothes,the line of the bottom edge of a garment
+vocabulary,neckline,shape-of-the-top-edge,noun,c1,clothes,the shape of the top edge of a garment
+vocabulary,waistline,line-of-the-body-at-the-waist,noun,c1,clothes,the line of the body at the waist
+vocabulary,textile,cloth-made-by-weaving,noun,c1,clothes,any cloth made by weaving or knitting
+vocabulary,weave,way-threads-are-crossed,noun,c1,clothes,the way threads are crossed to make cloth
+vocabulary,loom,machine-for-making-cloth,noun,c1,clothes,a machine for making cloth from thread
+vocabulary,monogram,letters-sewn-onto-cloth,noun,c1,clothes,letters sewn onto cloth as decoration
+vocabulary,insignia,badge-or-sign-of-rank,noun,c1,clothes,a badge or sign of rank
+vocabulary,mohair,soft-wool-from-a-goat,noun,c1,clothes,soft wool from a kind of goat
+vocabulary,angora,soft-wool-from-a-rabbit-or-goat,noun,c1,clothes,soft wool from a rabbit or goat
+vocabulary,cufflink,fastener-for-a-shirt-cuff,noun,c1,clothes,a fastener for a shirt cuff
+vocabulary,brooch,decorative-pin-worn-on-clothes,noun,c1,clothes,a decorative pin worn on clothes
+vocabulary,sash,long-strip-of-cloth-around-the-waist,noun,c1,clothes,a long strip of cloth worn around the waist
+vocabulary,gusset,extra-cloth-for-more-space,noun,c1,clothes,a piece of cloth added to give extra space
+vocabulary,welt,raised-stitched-edge,noun,c1,clothes,a raised stitched edge on cloth or leather
+vocabulary,lapel,folded-edge-of-a-jacket-front,noun,c1,clothes,the folded edge of a jacket front
+vocabulary,bespoke,made-specially-for-one-customer,adjective,c1,clothes,made specially for one customer
+vocabulary,breathable,letting-air-pass-through,adjective,c1,clothes,letting air pass through
+vocabulary,tailored,cut-and-fitted-closely,adjective,c1,clothes,cut and fitted closely to the body
+vocabulary,understated,attractive-without-being-showy,adjective,c1,clothes,attractive without being showy
+vocabulary,flamboyant,very-bright-and-showy,adjective,c1,clothes,very bright and showy
+vocabulary,garish,unpleasantly-bright,adjective,c1,clothes,unpleasantly bright
+vocabulary,chic,stylish-in-a-simple-way,adjective,c1,clothes,stylish in a simple way
+vocabulary,draped,hanging-in-soft-folds,adjective,c1,clothes,hanging in soft folds
+vocabulary,layered,worn-in-several-thin-layers,adjective,c1,clothes,worn in several thin layers
+vocabulary,fitted,shaped-closely-to-the-body,adjective,c1,clothes,shaped closely to the body
+vocabulary,sartorial,relating-to-mens-clothes-and-style,adjective,c1,clothes,relating to men's clothes and style
+vocabulary,retro,copying-a-style-from-the-past,adjective,c1,clothes,copying a style from the past
+vocabulary,drape,hang-cloth-loosely-over-something,verb,c1,clothes,to hang cloth loosely over something
+vocabulary,pleat,fold-cloth-into-narrow-folds,verb,c1,clothes,to fold cloth into narrow flat folds
+vocabulary,accessorize,add-accessories-to-an-outfit,verb,c1,clothes,to add accessories to an outfit
+vocabulary,layer,wear-clothes-in-several-thin-layers,verb,c1,clothes,to wear clothes in several thin layers
+vocabulary,physiology,study-of-how-the-body-works,noun,c1,sports,the study of how the body works
+vocabulary,biomechanics,study-of-forces-in-body-movement,noun,c1,sports,the study of forces in body movement
+vocabulary,conditioning,training-to-improve-fitness,noun,c1,sports,training to improve fitness
+vocabulary,overtraining,training-so-much-the-body-suffers,noun,c1,sports,training so much that the body suffers
+vocabulary,competitiveness,wish-to-win-or-do-better,noun,c1,sports,the wish to win or do better than others
+vocabulary,sportsmanship,fair-behavior-in-sport,noun,c1,sports,fair and respectful behavior in sport
+vocabulary,doping,use-of-banned-performance-drugs,noun,c1,sports,the use of banned drugs to improve performance
+vocabulary,integrity,quality-of-being-honest-and-fair,noun,c1,sports,the quality of being honest and fair
+vocabulary,eligibility,state-of-being-allowed-to-compete,noun,c1,sports,the state of being allowed to compete
+vocabulary,officiating,work-of-refereeing-a-game,noun,c1,sports,the work of refereeing a game
+vocabulary,power,physical-strength-used-quickly,noun,c1,sports,physical strength used quickly
+vocabulary,coordination,moving-body-parts-together-smoothly,noun,c1,sports,the ability to move body parts together smoothly
+vocabulary,mobility,ability-to-move-freely,noun,c1,sports,the ability to move freely
+vocabulary,qualifier,match-deciding-who-enters,noun,c1,sports,a match that decides who enters a competition
+vocabulary,playoff,extra-match-that-decides-a-winner,noun,c1,sports,an extra match that decides a winner
+vocabulary,semifinal,the-match-before-the-final,noun,c1,sports,the match before the final
+vocabulary,finalist,a-competitor-in-the-final,noun,c1,sports,a competitor in the final
+vocabulary,tactic,plan-for-one-part-of-a-game,noun,c1,sports,a plan for one part of a game
+vocabulary,formation,arrangement-of-players,noun,c1,sports,the arrangement of players on the field
+vocabulary,offense,the-part-of-a-team-that-attacks,noun,c1,sports,the part of a team that attacks
+vocabulary,physique,shape-and-size-of-a-body,noun,c1,sports,the shape and size of a body
+vocabulary,stature,height-of-a-person,noun,c1,sports,the height of a person
+vocabulary,veteran,player-with-long-experience,noun,c1,sports,a player with long experience
+vocabulary,rookie,player-in-their-first-season,noun,c1,sports,a player in their first season
+vocabulary,debut,first-appearance-of-a-player,noun,c1,sports,the first appearance of a player
+vocabulary,scouting,work-of-finding-new-players,noun,c1,sports,the work of finding new players
+vocabulary,draft,system-that-assigns-new-players,noun,c1,sports,the system that assigns new players to teams
+vocabulary,sponsorship,money-given-to-support-an-athlete,noun,c1,sports,money given by a company to support an athlete
+vocabulary,endorsement,paid-public-recommendation,noun,c1,sports,a paid public recommendation of a product
+vocabulary,venue,place-where-a-match-is-held,noun,c1,sports,the place where a match is held
+vocabulary,ranking,position-on-a-list-of-the-best,noun,c1,sports,a position on a list of the best players
+vocabulary,standings,table-showing-teams-results,noun,c1,sports,the table showing teams' results
+vocabulary,shootout,contest-settled-by-series-of-shots,noun,c1,sports,a contest settled by a series of shots
+vocabulary,foul,act-that-breaks-the-rules,noun,c1,sports,an act that breaks the rules
+vocabulary,offside,position-that-is-not-allowed,noun,c1,sports,a position in a game that is not allowed
+vocabulary,timeout,short-break-during-a-game,noun,c1,sports,a short break called during a game
+vocabulary,aerobic,using-oxygen-for-energy,adjective,c1,sports,using oxygen for energy
+vocabulary,anaerobic,using-energy-without-oxygen,adjective,c1,sports,using energy without oxygen
+vocabulary,cardiovascular,relating-to-heart-and-blood-vessels,adjective,c1,sports,relating to the heart and blood vessels
+vocabulary,disciplined,following-a-strict-routine,adjective,c1,sports,following a strict routine
+vocabulary,resilient,recovering-quickly-from-difficulty,adjective,c1,sports,able to recover quickly from difficulty
+vocabulary,tenacious,determined-and-not-giving-up,adjective,c1,sports,determined and not giving up
+vocabulary,tactical,planned-to-gain-an-advantage,adjective,c1,sports,planned to gain an advantage
+vocabulary,psychological,relating-to-the-mind,adjective,c1,sports,relating to the mind
+vocabulary,outperform,do-better-than-someone-else,verb,c1,sports,to do better than someone else
+vocabulary,excel,be-very-good-at-something,verb,c1,sports,to be very good at something
+vocabulary,persevere,continue-despite-difficulty,verb,c1,sports,to continue despite difficulty
+vocabulary,strive,try-very-hard-over-time,verb,c1,sports,to try very hard over time
+vocabulary,disqualify,remove-someone-from-a-competition,verb,c1,sports,to remove someone from a competition
+vocabulary,penalize,give-a-punishment-in-sport,verb,c1,sports,to give a punishment in sport
+vocabulary,counterpoint,combination-of-two-melodies,noun,c1,music,the combination of two melodies played together
+vocabulary,improvisation,playing-music-without-preparation,noun,c1,music,the act of playing music without preparation
+vocabulary,timbre,quality-of-a-sound,noun,c1,music,the quality of a sound apart from its pitch
+vocabulary,tonality,system-of-keys-in-music,noun,c1,music,the system of keys in a piece of music
+vocabulary,dissonance,notes-that-sound-tense,noun,c1,music,a combination of notes that sounds tense
+vocabulary,consonance,notes-that-sound-pleasant,noun,c1,music,a combination of notes that sounds pleasant
+vocabulary,syncopation,rhythm-that-shifts-the-beat,noun,c1,music,rhythm that shifts the expected beat
+vocabulary,orchestration,arranging-music-for-instruments,noun,c1,music,the way music is arranged for instruments
+vocabulary,transposition,moving-music-to-another-key,noun,c1,music,the act of moving music to another key
+vocabulary,notation,written-musical-symbols,noun,c1,music,the system of written musical symbols
+vocabulary,libretto,words-of-an-opera,noun,c1,music,the words of an opera
+vocabulary,aria,solo-song-in-an-opera,noun,c1,music,a solo song in an opera
+vocabulary,overture,music-before-a-show,noun,c1,music,the music played before an opera or show
+vocabulary,virtuoso,performer-with-outstanding-skill,noun,c1,music,a performer with outstanding skill
+vocabulary,maestro,great-conductor-or-teacher,noun,c1,music,a great conductor or teacher of music
+vocabulary,soloist,musician-who-performs-alone,noun,c1,music,a musician who performs alone
+vocabulary,concertmaster,leading-violinist-of-an-orchestra,noun,c1,music,the leading violinist of an orchestra
+vocabulary,acoustics,way-sound-behaves-in-a-room,noun,c1,music,the way sound behaves in a room
+vocabulary,amplification,making-sound-louder,noun,c1,music,the act of making sound louder
+vocabulary,resonance,deep-full-sound-that-continues,noun,c1,music,a deep full sound that continues
+vocabulary,reverb,effect-of-sound-bouncing-around,noun,c1,music,the effect of sound bouncing around a space
+vocabulary,distortion,change-that-makes-sound-rough,noun,c1,music,a change that makes a sound rough
+vocabulary,falsetto,very-high-singing-voice,noun,c1,music,a very high singing voice usually male
+vocabulary,vibrato,small-shake-in-a-held-note,noun,c1,music,a small rapid shake in a held note
+vocabulary,crescendo,gradual-increase-in-loudness,noun,c1,music,a gradual increase in loudness
+vocabulary,legato,notes-played-smoothly-connected,noun,c1,music,playing notes smoothly connected
+vocabulary,staccato,notes-played-short-and-separate,noun,c1,music,playing notes short and separate
+vocabulary,matinee,afternoon-performance,noun,c1,music,an afternoon performance
+vocabulary,recital,performance-by-one-musician,noun,c1,music,a performance by one musician or small group
+vocabulary,repertoire,all-pieces-a-performer-can-play,noun,c1,music,all the pieces a performer can play
+vocabulary,discography,list-of-recordings-by-a-musician,noun,c1,music,a list of recordings by a musician
+vocabulary,anthology,collection-of-pieces,noun,c1,music,a collection of pieces or writings
+vocabulary,catalog,complete-list-of-works,noun,c1,music,a complete list of works for sale or study
+vocabulary,lyricism,expressing-feeling-beautifully,noun,c1,music,a quality of expressing feeling beautifully
+vocabulary,virtuosity,great-technical-skill-in-performance,noun,c1,music,great technical skill in performance
+vocabulary,musicianship,skill-in-performing-music,noun,c1,music,skill in performing or writing music
+vocabulary,showmanship,skill-at-entertaining-an-audience,noun,c1,music,skill at entertaining an audience
+vocabulary,accompanist,musician-who-plays-for-a-soloist,noun,c1,music,a musician who plays for a soloist
+vocabulary,timpani,large-drums-in-an-orchestra,noun,c1,music,large drums used in an orchestra
+vocabulary,harpsichord,keyboard-with-plucked-strings,noun,c1,music,a keyboard instrument with plucked strings
+vocabulary,organist,person-who-plays-the-organ,noun,c1,music,a person who plays the organ
+vocabulary,keyboardist,person-who-plays-electronic-keyboards,noun,c1,music,a person who plays electronic keyboards
+vocabulary,atonal,not-written-in-a-clear-key,adjective,c1,music,not written in a clear key
+vocabulary,dissonant,sounding-tense-and-unresolved,adjective,c1,music,sounding tense and unresolved
+vocabulary,sonorous,deep-full-and-resonant,adjective,c1,music,deep full and resonant
+vocabulary,orchestrate,arrange-music-for-an-orchestra,verb,c1,music,to arrange music for an orchestra
+vocabulary,transpose,change-music-into-another-key,verb,c1,music,to change music into another key
+vocabulary,notate,write-music-in-notation,verb,c1,music,to write music in notation
+vocabulary,modulate,move-from-one-key-to-another,verb,c1,music,to move from one key to another
+vocabulary,chant,sing-words-on-repeated-notes,verb,c1,music,to sing words on a few repeated notes

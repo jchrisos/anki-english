@@ -74761,5 +74761,3633 @@
     "image": "voc_ff08b510",
     "image_brief": "two friends clearing up a misunderstood joke, seen from the side at medium distance, warm light, cups and a sofa, relieved mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
     "example": "Please do not **misconstrue** my silence."
+  },
+  {
+    "phrase": "intelligence",
+    "pos": "noun",
+    "sense": "ability-to-learn-and-understand",
+    "pronunciation": "/ɪnˈtɛlədʒəns/",
+    "definition": "the ability to learn and understand.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_8b4c315f",
+    "image_brief": "a group solving a puzzle at a table, seen from the side at medium distance, warm light, paper and markers, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Intelligence** is hard to define."
+  },
+  {
+    "phrase": "cybersecurity",
+    "pos": "noun",
+    "sense": "protection-of-computer-systems",
+    "pronunciation": "/ˌsaɪbɝsɪˈkjʊrəti/",
+    "definition": "the protection of computer systems from attack.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_aad5ca6a",
+    "image_brief": "a security team watching screens in a dark office, seen from behind at medium distance, blue light, desks and headsets, alert mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The company hired a **cybersecurity** team."
+  },
+  {
+    "phrase": "surveillance",
+    "pos": "noun",
+    "sense": "close-watching-of-people-or-places",
+    "pronunciation": "/sɝˈveɪləns/",
+    "definition": "the close watching of people or places.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_9e777cf1",
+    "image_brief": "a wall of monitors showing street camera views while an operator watches, seen from behind at medium distance, dim light, a chair and a mug, watchful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Cameras allow constant **surveillance**."
+  },
+  {
+    "phrase": "biometrics",
+    "pos": "noun",
+    "sense": "measuring-body-features-for-identification",
+    "pronunciation": "/ˌbaɪoʊˈmɛtrɪks/",
+    "definition": "the measurement of body features for identification.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_25d5d97f",
+    "image_brief": "a woman placing her hand on a fingerprint scanner at a door, seen from the side at medium distance, cool light, a badge and a rail, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Biometrics** replaced the old passwords."
+  },
+  {
+    "phrase": "nanotechnology",
+    "pos": "noun",
+    "sense": "technology-at-the-scale-of-atoms",
+    "pronunciation": "/ˌnænoʊtɛkˈnɑlədʒi/",
+    "definition": "technology at the scale of atoms.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_09664b2d",
+    "image_brief": "a researcher looking at a microscope in a clean lab, seen from the side at medium distance, cool light, samples and gloves, precise mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Nanotechnology** may change medicine."
+  },
+  {
+    "phrase": "robotics",
+    "pos": "noun",
+    "sense": "science-of-building-and-using-robots",
+    "pronunciation": "/roʊˈbɑtɪks/",
+    "definition": "the science of building and using robots.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_220e3397",
+    "image_brief": "a robotic arm assembling parts on a line, seen from the side at medium distance, industrial light, crates and cables, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Robotics** is changing the factory."
+  },
+  {
+    "phrase": "bandwidth",
+    "pos": "noun",
+    "sense": "amount-of-data-a-connection-carries",
+    "pronunciation": "/ˈbændˌwɪdθ/",
+    "definition": "the amount of data a connection can carry.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_caa2d596",
+    "image_brief": "a technician checking network cables in a rack, seen from the side at medium distance, blue light, labels turned away and a laptop, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Video calls need more **bandwidth**."
+  },
+  {
+    "phrase": "latency",
+    "pos": "noun",
+    "sense": "delay-before-data-starts-moving",
+    "pronunciation": "/ˈleɪtənsi/",
+    "definition": "a delay before data starts moving.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_f9d32215",
+    "image_brief": "a gamer watching a delayed screen with a headset, seen from behind at medium distance, dim room light, a controller and a cup, impatient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Games depend on low **latency**."
+  },
+  {
+    "phrase": "scalability",
+    "pos": "noun",
+    "sense": "ability-to-grow-with-more-work",
+    "pronunciation": "/ˌskeɪləˈbɪləti/",
+    "definition": "the ability to grow to handle more work.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_254b9e7f",
+    "image_brief": "a data center aisle of server racks with one technician walking, seen from a high angle at wide distance, cold light, cables and a cart, vast mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Scalability** was the main design goal."
+  },
+  {
+    "phrase": "protocol",
+    "pos": "noun",
+    "sense": "set-of-rules-for-sending-data",
+    "pronunciation": "/ˈproʊtəˌkɔl/",
+    "definition": "a set of rules for sending data.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_69738794",
+    "image_brief": "two engineers comparing notes beside a server, seen from the side at medium distance, cool light, a laptop and a rack, technical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The two systems speak the same **protocol**."
+  },
+  {
+    "phrase": "interface",
+    "pos": "noun",
+    "sense": "point-where-a-user-meets-a-system",
+    "pronunciation": "/ˈɪntɝˌfeɪs/",
+    "definition": "the point where a user meets a system.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_32e90bd6",
+    "image_brief": "a designer sketching a screen layout on paper, seen from above at medium distance, bright light, pens and a coffee, creative mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **interface** is simple to learn."
+  },
+  {
+    "phrase": "firmware",
+    "pos": "noun",
+    "sense": "software-built-into-a-device",
+    "pronunciation": "/ˈfɝmˌwɛr/",
+    "definition": "software built into a device.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_3ef07843",
+    "image_brief": "a technician updating a device with a cable, seen from the side at medium distance, work light, a laptop and a screwdriver, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The update replaced the **firmware**."
+  },
+  {
+    "phrase": "digitalization",
+    "pos": "noun",
+    "sense": "changing-to-digital-systems",
+    "pronunciation": "/ˌdɪdʒɪtələˈzeɪʃən/",
+    "definition": "the process of changing to digital systems.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_ae6d5106",
+    "image_brief": "a worker scanning paper files at a desk, seen from the side at medium distance, daylight, boxes and a scanner, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Digitalization** cut the paperwork."
+  },
+  {
+    "phrase": "virtualization",
+    "pos": "noun",
+    "sense": "running-several-systems-on-one-machine",
+    "pronunciation": "/ˌvɝtʃuələˈzeɪʃən/",
+    "definition": "running several systems on one machine.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_3b448015",
+    "image_brief": "an engineer managing several systems on one screen, seen from behind at medium distance, dim light, a desk and a plant, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Virtualization** saved on hardware."
+  },
+  {
+    "phrase": "disruption",
+    "pos": "noun",
+    "sense": "major-change-that-breaks-the-old-way",
+    "pronunciation": "/dɪsˈrʌpʃən/",
+    "definition": "a major change that breaks the old way.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_f8ed9d45",
+    "image_brief": "a taxi rank with drivers waiting while one uses a ride app, seen from the side at wide distance, evening light, a bench and a phone, uneasy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The app caused **disruption** in the taxi market."
+  },
+  {
+    "phrase": "obsolescence",
+    "pos": "noun",
+    "sense": "state-of-no-longer-being-useful",
+    "pronunciation": "/ˌɑbsəˈlɛsəns/",
+    "definition": "the state of no longer being useful.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_d68cc4d1",
+    "image_brief": "a shelf of old phones and chargers while a man looks at them, seen from the side at medium distance, dusty light, boxes and a cable, nostalgic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Phones face quick **obsolescence**."
+  },
+  {
+    "phrase": "connectivity",
+    "pos": "noun",
+    "sense": "state-of-being-connected-to-a-network",
+    "pronunciation": "/kəˌnɛkˈtɪvəti/",
+    "definition": "the state of being connected to a network.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_982531a4",
+    "image_brief": "a technician on a rural mast with tools, seen from the side at wide distance, grey light, fields and a van, determined mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Rural **connectivity** is still poor."
+  },
+  {
+    "phrase": "interoperability",
+    "pos": "noun",
+    "sense": "ability-of-systems-to-work-together",
+    "pronunciation": "/ˌɪntɝˌɑpɝəˈbɪləti/",
+    "definition": "the ability of systems to work together.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_48e56083",
+    "image_brief": "two systems joined by cables while technicians check both, seen from the side at medium distance, cool light, a rack and a monitor, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Interoperability** saves hospitals time."
+  },
+  {
+    "phrase": "throughput",
+    "pos": "noun",
+    "sense": "amount-of-work-completed-in-a-period",
+    "pronunciation": "/ˈθruˌpʊt/",
+    "definition": "the amount of work completed in a period.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_aa8b5636",
+    "image_brief": "a warehouse conveyor moving parcels fast, seen from the side at wide distance, industrial light, scanners and workers, busy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The new server doubled **throughput**."
+  },
+  {
+    "phrase": "ethics",
+    "pos": "noun",
+    "sense": "study-of-right-and-wrong",
+    "pronunciation": "/ˈɛθɪks/",
+    "definition": "the study of right and wrong.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_c260b8ec",
+    "image_brief": "a committee discussing a data project around a table, seen from the side at wide distance, soft light, folders and water, serious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Data **ethics** should guide the project."
+  },
+  {
+    "phrase": "compliance",
+    "pos": "noun",
+    "sense": "act-of-following-rules",
+    "pronunciation": "/kəmˈplaɪəns/",
+    "definition": "the act of following rules.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_f5da72a7",
+    "image_brief": "an inspector checking documents at a desk with a manager, seen from the side at medium distance, office light, a folder and a stamp, formal mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The audit checks **compliance**."
+  },
+  {
+    "phrase": "governance",
+    "pos": "noun",
+    "sense": "way-an-organization-is-controlled",
+    "pronunciation": "/ˈɡʌvɝnəns/",
+    "definition": "the way an organization is controlled.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_44dd1d39",
+    "image_brief": "a board meeting with one speaker and a chart, seen from the side at wide distance, hall light, chairs and water, formal mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Good **governance** prevents chaos."
+  },
+  {
+    "phrase": "telemetry",
+    "pos": "noun",
+    "sense": "automatic-measurements-sent-from-distance",
+    "pronunciation": "/təˈlɛmətri/",
+    "definition": "automatic measurements sent from a distance.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_8f3bdbd5",
+    "image_brief": "an engineer reading live data from a distant machine, seen from the side at medium distance, dim light, a console and a headset, attentive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Telemetry** shows engine health."
+  },
+  {
+    "phrase": "fingerprint",
+    "pos": "noun",
+    "sense": "mark-made-by-ridges-of-a-finger",
+    "pronunciation": "/ˈfɪŋɡɝˌprɪnt/",
+    "definition": "the mark made by the ridges of a finger.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_14635e94",
+    "image_brief": "a security guard checking a fingerprint on a scanner, seen from the side at medium distance, bright light, a door and a badge, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The door reads a **fingerprint**."
+  },
+  {
+    "phrase": "pixel",
+    "pos": "noun",
+    "sense": "smallest-dot-in-a-digital-image",
+    "pronunciation": "/ˈpɪksəl/",
+    "definition": "the smallest dot in a digital image.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_93f6ebc6",
+    "image_brief": "a technician inspecting a screen with a magnifier, seen from the side at medium distance, dark room light, a cloth and a tool, precise mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "One broken **pixel** on the screen."
+  },
+  {
+    "phrase": "widget",
+    "pos": "noun",
+    "sense": "small-tool-on-a-screen-or-page",
+    "pronunciation": "/ˈwɪdʒɪt/",
+    "definition": "a small tool on a screen or page.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_f61f56bd",
+    "image_brief": "a person checking a weather widget on a laptop, seen from the side at medium distance, café light, a cup and a bag, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The weather **widget** sits on her home screen."
+  },
+  {
+    "phrase": "analytics",
+    "pos": "noun",
+    "sense": "analysis-of-data-to-find-patterns",
+    "pronunciation": "/ˌænəˈlɪtɪks/",
+    "definition": "the analysis of data to find patterns.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_39431351",
+    "image_brief": "an analyst pointing at a chart on a screen, seen from behind at medium distance, office light, notes and a cup, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Analytics** showed where users left."
+  },
+  {
+    "phrase": "metadata",
+    "pos": "noun",
+    "sense": "data-that-describes-other-data",
+    "pronunciation": "/ˈmɛtəˌdeɪtə/",
+    "definition": "data that describes other data.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_63c163fc",
+    "image_brief": "an archivist checking photo details on a computer, seen from the side at medium distance, lamp light, boxes and a pen, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The photo's **metadata** shows the date."
+  },
+  {
+    "phrase": "authentication",
+    "pos": "noun",
+    "sense": "process-of-proving-who-you-are",
+    "pronunciation": "/ɔˌθɛntɪˈkeɪʃən/",
+    "definition": "the process of proving who you are.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_0b6db45b",
+    "image_brief": "a woman entering a one-time code on her phone at a door, seen from the side at medium distance, hallway light, a bag and a keypad, routine mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Two-step **authentication** is required."
+  },
+  {
+    "phrase": "authorization",
+    "pos": "noun",
+    "sense": "official-permission-to-do-something",
+    "pronunciation": "/ˌɔθɝəˈzeɪʃən/",
+    "definition": "official permission to do something.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_872a051c",
+    "image_brief": "a manager signing a form for a colleague, seen from the side at medium distance, office light, a folder and a pen, formal mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The change needs manager **authorization**."
+  },
+  {
+    "phrase": "augmented",
+    "pos": "adjective",
+    "sense": "made-greater-by-adding-something",
+    "pronunciation": "/ɔɡˈmɛntɪd/",
+    "definition": "made greater by adding something.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_dff5c68a",
+    "image_brief": "a visitor holding a device that adds labels to a museum view, seen from the side at medium distance, soft gallery light, a bench and a painting, curious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Augmented** reality adds labels to the view."
+  },
+  {
+    "phrase": "redundant",
+    "pos": "adjective",
+    "sense": "not-needed-because-it-repeats",
+    "pronunciation": "/rɪˈdʌndənt/",
+    "definition": "not needed because it repeats something.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_a9c217a8",
+    "image_brief": "a technician checking two cables feeding one rack, seen from the side at medium distance, cool light, a ladder and a label turned away, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The second cable is **redundant**."
+  },
+  {
+    "phrase": "algorithmic",
+    "pos": "adjective",
+    "sense": "relating-to-a-set-of-computing-steps",
+    "pronunciation": "/ˌælɡəˈrɪðmɪk/",
+    "definition": "relating to a set of computing steps.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_9f6bc6b3",
+    "image_brief": "a developer watching a feed of results on screen, seen from behind at medium distance, dim light, a chair and a mug, thoughtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The feed is **algorithmic**."
+  },
+  {
+    "phrase": "computational",
+    "pos": "adjective",
+    "sense": "relating-to-calculation-by-computer",
+    "pronunciation": "/ˌkɑmpjəˈteɪʃənəl/",
+    "definition": "relating to calculation by computer.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_a98d40c8",
+    "image_brief": "a scientist beside a large computer model on screen, seen from the side at medium distance, cool light, notes and a keyboard, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Computational** models predict the weather."
+  },
+  {
+    "phrase": "cryptographic",
+    "pos": "adjective",
+    "sense": "relating-to-secret-codes",
+    "pronunciation": "/ˌkrɪptəˈɡræfɪk/",
+    "definition": "relating to secret codes.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_e2bb0005",
+    "image_brief": "a technician holding a hardware key beside a laptop, seen from above at medium distance, office light, a cable and a folder, secure mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The key uses **cryptographic** methods."
+  },
+  {
+    "phrase": "seamless",
+    "pos": "adjective",
+    "sense": "smooth-with-no-visible-gaps",
+    "pronunciation": "/ˈsimləs/",
+    "definition": "smooth, with no visible gaps.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_c48ce14e",
+    "image_brief": "a traveler moving through a gate without stopping, seen from the side at wide distance, bright light, a bag and a rail, smooth mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The app offers a **seamless** transfer."
+  },
+  {
+    "phrase": "robust",
+    "pos": "adjective",
+    "sense": "strong-and-unlikely-to-fail",
+    "pronunciation": "/roʊˈbʌst/",
+    "definition": "strong and unlikely to fail.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_fe6a8e39",
+    "image_brief": "a technician stress-testing equipment in a workshop, seen from the side at medium distance, work light, tools and a meter, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The system is **robust** under load."
+  },
+  {
+    "phrase": "scalable",
+    "pos": "adjective",
+    "sense": "able-to-grow-without-breaking",
+    "pronunciation": "/ˈskeɪləbəl/",
+    "definition": "able to grow without breaking.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_2e588ba3",
+    "image_brief": "workers adding new racks to a growing server room, seen from the side at wide distance, cold light, boxes and a cart, expanding mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The design is **scalable**."
+  },
+  {
+    "phrase": "automate",
+    "pos": "verb",
+    "sense": "make-a-process-work-by-machine",
+    "pronunciation": "/ˈɔtəˌmeɪt/",
+    "definition": "to make a process work by machine.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "present_example": "They **automate** the monthly report.",
+    "past_simple_example": "The plant **automated** packing last year.",
+    "past_participle_example": "The process has been **automated**.",
+    "present_participle_example": "**Automating** the check saved hours.",
+    "image": "voc_e0cf9450",
+    "image_brief": "a worker watching a machine fill boxes unaided, seen from the side at medium distance, factory light, a conveyor and a panel, calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **automate** the monthly report."
+  },
+  {
+    "phrase": "digitize",
+    "pos": "verb",
+    "sense": "convert-information-into-digital-form",
+    "pronunciation": "/ˈdɪdʒəˌtaɪz/",
+    "definition": "to convert information into digital form.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "present_example": "We **digitize** the old records.",
+    "past_simple_example": "They **digitized** the archive.",
+    "past_participle_example": "The tapes have been **digitized**.",
+    "present_participle_example": "**Digitizing** film takes months.",
+    "image": "voc_f261ad86",
+    "image_brief": "a librarian scanning old newspapers on a flatbed scanner, seen from the side at medium distance, soft light, stacks and a laptop, patient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We **digitize** the old records."
+  },
+  {
+    "phrase": "virtualize",
+    "pos": "verb",
+    "sense": "run-a-system-as-software",
+    "pronunciation": "/ˈvɝtʃuəˌlaɪz/",
+    "definition": "to run a system as software rather than hardware.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "present_example": "Teams **virtualize** old servers.",
+    "past_simple_example": "They **virtualized** the whole lab.",
+    "past_participle_example": "The system has been **virtualized**.",
+    "present_participle_example": "**Virtualizing** cuts hardware costs.",
+    "image": "voc_469619e1",
+    "image_brief": "an engineer consolidating servers in a data center, seen from the side at medium distance, blue light, a cart and cables, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Teams **virtualize** old servers."
+  },
+  {
+    "phrase": "optimize",
+    "pos": "verb",
+    "sense": "make-something-work-as-well-as-possible",
+    "pronunciation": "/ˈɑptəˌmaɪz/",
+    "definition": "to make something work as well as possible.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "present_example": "Engineers **optimize** the route.",
+    "past_simple_example": "She **optimized** the settings.",
+    "past_participle_example": "The code has been **optimized**.",
+    "present_participle_example": "**Optimizing** for speed can hurt clarity.",
+    "image": "voc_0d254a9b",
+    "image_brief": "a cyclist studying a route map with a coach, seen from the side at medium distance, morning light, a bike and a bottle, analytical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Engineers **optimize** the route."
+  },
+  {
+    "phrase": "configure",
+    "pos": "verb",
+    "sense": "set-up-a-system-for-a-purpose",
+    "pronunciation": "/kənˈfɪɡjɝ/",
+    "definition": "to set up a system for a purpose.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "present_example": "**Configure** the router before use.",
+    "past_simple_example": "He **configured** the new laptop.",
+    "past_participle_example": "The device has been **configured**.",
+    "present_participle_example": "**Configuring** a network takes care.",
+    "image": "voc_d0b3a006",
+    "image_brief": "a technician setting up a router with a laptop, seen from above at medium distance, daylight, cables and a box, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Configure** the router before use."
+  },
+  {
+    "phrase": "deploy",
+    "pos": "verb",
+    "sense": "put-a-system-into-use",
+    "pronunciation": "/dɪˈplɔɪ/",
+    "definition": "to put a system into use.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "present_example": "They **deploy** the update at night.",
+    "past_simple_example": "The team **deployed** the fix.",
+    "past_participle_example": "The app has been **deployed**.",
+    "present_participle_example": "**Deploying** on Friday is risky.",
+    "image": "voc_71269756",
+    "image_brief": "an engineer releasing a software update late at night, seen from behind at medium distance, screen light, a mug and a chair, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **deploy** the update at night."
+  },
+  {
+    "phrase": "authenticate",
+    "pos": "verb",
+    "sense": "prove-something-is-genuine",
+    "pronunciation": "/ɔˈθɛntɪˌkeɪt/",
+    "definition": "to prove that someone or something is genuine.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "present_example": "The app will **authenticate** your face.",
+    "past_simple_example": "The system **authenticated** the card.",
+    "past_participle_example": "The user has been **authenticated**.",
+    "present_participle_example": "**Authenticating** every request slows things down.",
+    "image": "voc_5dce0955",
+    "image_brief": "a man scanning his face at a phone kiosk, seen from the side at medium distance, cool light, a queue and a sign turned away, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The app will **authenticate** your face."
+  },
+  {
+    "phrase": "decrypt",
+    "pos": "verb",
+    "sense": "turn-coded-data-back-into-text",
+    "pronunciation": "/diˈkrɪpt/",
+    "definition": "to turn coded data back into readable form.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "present_example": "Only the key can **decrypt** the file.",
+    "past_simple_example": "The tool **decrypted** the message.",
+    "past_participle_example": "The data has been **decrypted**.",
+    "present_participle_example": "**Decrypting** without permission is illegal.",
+    "image": "voc_c6098680",
+    "image_brief": "a specialist working with encrypted files on two screens, seen from behind at medium distance, dim light, a notebook and a key, secretive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Only the key can **decrypt** the file."
+  },
+  {
+    "phrase": "authorize",
+    "pos": "verb",
+    "sense": "give-official-permission",
+    "pronunciation": "/ˈɔθəˌraɪz/",
+    "definition": "to give official permission.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "present_example": "The manager must **authorize** the payment.",
+    "past_simple_example": "She **authorized** the change.",
+    "past_participle_example": "The transfer has been **authorized**.",
+    "present_participle_example": "**Authorizing** access takes a minute.",
+    "image": "voc_1148952f",
+    "image_brief": "a manager approving a payment on a tablet, seen from the side at medium distance, office light, a folder and a cup, formal mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The manager must **authorize** the payment."
+  },
+  {
+    "phrase": "digitally",
+    "pos": "adverb",
+    "sense": "using-computer-technology",
+    "pronunciation": "/ˈdɪdʒɪtəli/",
+    "definition": "using computer technology.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_12eef54a",
+    "image_brief": "a couple signing documents on a tablet at home, seen from the side at medium distance, warm light, a table and a plant, easy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The forms are signed **digitally**."
+  },
+  {
+    "phrase": "virtually",
+    "pos": "adverb",
+    "sense": "almost-completely-or-in-simulation",
+    "pronunciation": "/ˈvɝtʃuəli/",
+    "definition": "almost completely, or in a computer simulation.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_96f0e7da",
+    "image_brief": "a team meeting on screens from different rooms, seen from the side at medium distance, bright light, a desk and a headset, connected mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The team met **virtually**."
+  },
+  {
+    "phrase": "remotely",
+    "pos": "adverb",
+    "sense": "from-a-distance-using-a-connection",
+    "pronunciation": "/rɪˈmoʊtli/",
+    "definition": "from a distance, using a connection.",
+    "categories": [
+      "technology"
+    ],
+    "level": "c1",
+    "image": "voc_3f36734b",
+    "image_brief": "a woman working on a laptop at a kitchen table, seen from the side at medium distance, morning light, a cup and a bag, relaxed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She works **remotely** twice a week."
+  },
+  {
+    "phrase": "pedagogy",
+    "pos": "noun",
+    "sense": "method-and-practice-of-teaching",
+    "pronunciation": "/ˈpɛdəˌɡoʊdʒi/",
+    "definition": "the method and practice of teaching.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_3941cf62",
+    "image_brief": "a teacher leading a discussion circle, seen from the side at wide distance, warm light, chairs and books, engaged mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **pedagogy** relies on discussion."
+  },
+  {
+    "phrase": "cognition",
+    "pos": "noun",
+    "sense": "mental-process-of-knowing",
+    "pronunciation": "/kɑɡˈnɪʃən/",
+    "definition": "the mental process of knowing and understanding.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_53caceb8",
+    "image_brief": "a woman solving a puzzle with her hands, seen from the side at medium distance, soft light, a table and a cup, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Sleep affects **cognition**."
+  },
+  {
+    "phrase": "metacognition",
+    "pos": "noun",
+    "sense": "thinking-about-your-own-thinking",
+    "pronunciation": "/ˌmɛtəkɑɡˈnɪʃən/",
+    "definition": "thinking about your own thinking.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_82352019",
+    "image_brief": "a student writing notes about their own study plan, seen from above at medium distance, lamp light, books and a pencil, reflective mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Metacognition** helps students plan their work."
+  },
+  {
+    "phrase": "epistemology",
+    "pos": "noun",
+    "sense": "study-of-knowledge",
+    "pronunciation": "/ɪˌpɪstəˈmɑlədʒi/",
+    "definition": "the study of knowledge and how we know things.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_5d454a16",
+    "image_brief": "a seminar table with one speaker and a book open, seen from the side at medium distance, hall light, chairs and notes, thoughtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The course begins with **epistemology**."
+  },
+  {
+    "phrase": "rubric",
+    "pos": "noun",
+    "sense": "set-of-criteria-for-grading",
+    "pronunciation": "/ˈrubrɪk/",
+    "definition": "a set of criteria for grading work.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_c17fc3ff",
+    "image_brief": "a tutor marking an essay with a printed grid beside it, seen from above at medium distance, lamp light, a pen and a cup, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **rubric** explains each mark."
+  },
+  {
+    "phrase": "criteria",
+    "pos": "noun",
+    "sense": "standards-used-to-judge",
+    "pronunciation": "/kraɪˈtɪriə/",
+    "definition": "standards used to judge something.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_2255f427",
+    "image_brief": "a panel reading a list before judging, seen from the side at medium distance, bright light, folders and a table, serious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **criteria** are listed on the form."
+  },
+  {
+    "phrase": "benchmark",
+    "pos": "noun",
+    "sense": "standard-used-for-comparison",
+    "pronunciation": "/ˈbɛntʃˌmɑrk/",
+    "definition": "a standard used for comparison.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_1ee0dbf4",
+    "image_brief": "a teacher comparing two charts on a wall, seen from behind at medium distance, office light, a desk and a coffee, analytical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The school set a new **benchmark**."
+  },
+  {
+    "phrase": "accreditation",
+    "pos": "noun",
+    "sense": "official-approval-of-an-institution",
+    "pronunciation": "/əˌkrɛdɪˈteɪʃən/",
+    "definition": "official approval of an institution.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_24658b4b",
+    "image_brief": "inspectors walking through a college corridor, seen from behind at wide distance, bright light, a guide and a folder, formal mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The college lost its **accreditation**."
+  },
+  {
+    "phrase": "inquiry",
+    "pos": "noun",
+    "sense": "process-of-asking-and-investigating",
+    "pronunciation": "/ɪnˈkwaɪri/",
+    "definition": "the process of asking and investigating.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_87d3879a",
+    "image_brief": "students asking questions around a lab table, seen from the side at medium distance, bright light, equipment and notebooks, curious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The lesson starts with **inquiry**."
+  },
+  {
+    "phrase": "synthesis",
+    "pos": "noun",
+    "sense": "combining-ideas-into-a-whole",
+    "pronunciation": "/ˈsɪnθəsɪs/",
+    "definition": "the combining of ideas into a whole.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_4e6d2292",
+    "image_brief": "a student arranging three open books into one outline, seen from above at medium distance, window light, notes and a marker, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The essay is a **synthesis** of three theories."
+  },
+  {
+    "phrase": "academia",
+    "pos": "noun",
+    "sense": "world-of-universities-and-research",
+    "pronunciation": "/ˌækəˈdimiə/",
+    "definition": "the world of universities and research.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_8220a7cb",
+    "image_brief": "professors talking at a conference hall, seen from the side at wide distance, flat light, badges and rows of chairs, formal mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She left **academia** for industry."
+  },
+  {
+    "phrase": "tenure",
+    "pos": "noun",
+    "sense": "permanent-teaching-post",
+    "pronunciation": "/ˈtɛnjɝ/",
+    "definition": "a permanent teaching post at a university.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_d695ef51",
+    "image_brief": "a professor receiving a document at a small ceremony, seen from the side at medium distance, warm light, colleagues and a chair, proud mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He received **tenure** last year."
+  },
+  {
+    "phrase": "peer",
+    "pos": "noun",
+    "sense": "person-of-the-same-status",
+    "pronunciation": "/pɪr/",
+    "definition": "a person of the same age or status.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_86f75e63",
+    "image_brief": "two students comparing essays at a library table, seen from the side at medium distance, soft light, books and cups, collaborative mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Each essay is read by a **peer**."
+  },
+  {
+    "phrase": "credential",
+    "pos": "noun",
+    "sense": "qualification-that-proves-ability",
+    "pronunciation": "/krɪˈdɛnʃəl/",
+    "definition": "a qualification that proves ability.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_544995ac",
+    "image_brief": "a teacher showing a certificate at a job interview, seen from the side at medium distance, office light, a folder and a plant, hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The job requires a teaching **credential**."
+  },
+  {
+    "phrase": "credibility",
+    "pos": "noun",
+    "sense": "quality-of-being-believed",
+    "pronunciation": "/ˌkrɛdəˈbɪləti/",
+    "definition": "the quality of being believed.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_30fb7285",
+    "image_brief": "a journalist checking a source with a colleague, seen from the side at medium distance, flat light, screens and notes, doubtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The study's **credibility** was questioned."
+  },
+  {
+    "phrase": "certification",
+    "pos": "noun",
+    "sense": "official-proof-of-a-qualification",
+    "pronunciation": "/ˌsɝtəfəˈkeɪʃən/",
+    "definition": "official proof of a qualification.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_399cfdee",
+    "image_brief": "a woman receiving a certificate in a training room, seen from the side at medium distance, bright light, chairs and a banner turned away, proud mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She earned **certification** in first aid."
+  },
+  {
+    "phrase": "aptitude",
+    "pos": "noun",
+    "sense": "natural-ability-to-learn",
+    "pronunciation": "/ˈæptəˌtud/",
+    "definition": "a natural ability to learn something.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_620a716d",
+    "image_brief": "a child assembling a model quickly while a teacher watches, seen from the side at medium distance, soft light, parts and a table, attentive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He shows an **aptitude** for languages."
+  },
+  {
+    "phrase": "reasoning",
+    "pos": "noun",
+    "sense": "process-of-thinking-logically",
+    "pronunciation": "/ˈrizənɪŋ/",
+    "definition": "the process of thinking logically.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_77685f19",
+    "image_brief": "a student solving a logic puzzle on paper, seen from above at medium distance, morning light, an eraser and a cup, concentrated mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The question tests **reasoning**, not memory."
+  },
+  {
+    "phrase": "logic",
+    "pos": "noun",
+    "sense": "rules-of-clear-thinking",
+    "pronunciation": "/ˈlɑdʒɪk/",
+    "definition": "the rules of clear thinking.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_44d5ef89",
+    "image_brief": "a tutor drawing steps of an argument on a board, seen from the side at medium distance, classroom light, desks and notes, clear mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The argument follows simple **logic**."
+  },
+  {
+    "phrase": "memorization",
+    "pos": "noun",
+    "sense": "learning-something-by-heart",
+    "pronunciation": "/ˌmɛmɝəˈzeɪʃən/",
+    "definition": "the act of learning something by heart.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_7a2c77c7",
+    "image_brief": "students reciting from memory at their desks, seen from the back of the room at wide distance, flat light, books and a board, dutiful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Memorization** alone does not build understanding."
+  },
+  {
+    "phrase": "rote",
+    "pos": "noun",
+    "sense": "learning-by-repetition",
+    "pronunciation": "/roʊt/",
+    "definition": "learning by repetition without understanding.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_b89e2f8c",
+    "image_brief": "a class repeating a list after the teacher, seen from the back of the room at wide distance, bright light, desks and a poster turned away, mechanical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The class relies on **rote** learning."
+  },
+  {
+    "phrase": "retention",
+    "pos": "noun",
+    "sense": "ability-to-remember-what-was-learned",
+    "pronunciation": "/rɪˈtɛnʃən/",
+    "definition": "the ability to remember what was learned.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_6734e5de",
+    "image_brief": "a teacher testing recall with flashcards, seen from the side at medium distance, warm light, a table and a cup, attentive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Retention** improves with practice."
+  },
+  {
+    "phrase": "humanities",
+    "pos": "noun",
+    "sense": "subjects-such-as-history-and-philosophy",
+    "pronunciation": "/hjuˈmænətiz/",
+    "definition": "subjects such as history, literature and philosophy.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_f9c6e7a1",
+    "image_brief": "a lecture on old manuscripts with slides, seen from the back of the room at wide distance, warm light, chairs and notes, absorbed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She studied the **humanities**."
+  },
+  {
+    "phrase": "treatise",
+    "pos": "noun",
+    "sense": "long-serious-writing-on-a-subject",
+    "pronunciation": "/ˈtritɪs/",
+    "definition": "a long serious piece of writing on a subject.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_4c7fa752",
+    "image_brief": "a scholar with a thick old book at a desk, seen from the side at medium distance, lamp light, a pen and glasses, absorbed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **treatise** changed the field."
+  },
+  {
+    "phrase": "monograph",
+    "pos": "noun",
+    "sense": "detailed-book-on-one-subject",
+    "pronunciation": "/ˈmɑnəˌɡræf/",
+    "definition": "a detailed book on one subject.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_5aafc17c",
+    "image_brief": "a researcher placing a new monograph on a shelf, seen from the side at medium distance, library light, boxes and a ladder, satisfied mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He published a **monograph** on beetles."
+  },
+  {
+    "phrase": "symposium",
+    "pos": "noun",
+    "sense": "meeting-where-experts-discuss",
+    "pronunciation": "/sɪmˈpoʊziəm/",
+    "definition": "a meeting where experts discuss a subject.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_854ce563",
+    "image_brief": "experts talking at a symposium poster session, seen from the side at wide distance, bright light, boards and cups, engaged mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **symposium** drew scholars from abroad."
+  },
+  {
+    "phrase": "colloquium",
+    "pos": "noun",
+    "sense": "informal-academic-meeting",
+    "pronunciation": "/kəˈloʊkwiəm/",
+    "definition": "an informal academic meeting for discussion.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_44b02e28",
+    "image_brief": "a small group discussing in a seminar room, seen from the side at medium distance, afternoon light, chairs and a board, informal mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **colloquium** meets on Fridays."
+  },
+  {
+    "phrase": "citation",
+    "pos": "noun",
+    "sense": "reference-to-a-source-in-text",
+    "pronunciation": "/saɪˈteɪʃən/",
+    "definition": "a reference to a source in a text.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_3a5178c4",
+    "image_brief": "a student adding a reference to an essay, seen from above at medium distance, lamp light, a book and a pen, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Every claim needs a **citation**."
+  },
+  {
+    "phrase": "bibliography",
+    "pos": "noun",
+    "sense": "list-of-sources-used",
+    "pronunciation": "/ˌbɪbliˈɑɡrəfi/",
+    "definition": "a list of sources used in a work.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_f91fac32",
+    "image_brief": "a librarian checking a long bibliography list, seen from above at medium distance, soft light, a computer and a pencil, precise mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **bibliography** runs to ten pages."
+  },
+  {
+    "phrase": "footnote",
+    "pos": "noun",
+    "sense": "note-at-the-bottom-of-a-page",
+    "pronunciation": "/ˈfʊtˌnoʊt/",
+    "definition": "a note at the bottom of a page.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_1da03204",
+    "image_brief": "a reader tracing a footnote at the bottom of a page, seen from the side at medium distance, lamp light, a cup and glasses, curious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The detail appears in a **footnote**."
+  },
+  {
+    "phrase": "appendix",
+    "pos": "noun",
+    "sense": "extra-material-at-the-end-of-a-book",
+    "pronunciation": "/əˈpɛndɪks/",
+    "definition": "extra material at the end of a book.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_258264a5",
+    "image_brief": "a researcher flipping to an appendix of tables, seen from above at medium distance, office light, a folder and a marker, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The data sits in the **appendix**."
+  },
+  {
+    "phrase": "prospectus",
+    "pos": "noun",
+    "sense": "document-describing-a-school",
+    "pronunciation": "/prəˈspɛktəs/",
+    "definition": "a document describing a school or course.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_2a8b29fc",
+    "image_brief": "a student reading a college prospectus at a café, seen from the side at medium distance, morning light, a cup and a bag, hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **prospectus** lists every module."
+  },
+  {
+    "phrase": "didactic",
+    "pos": "adjective",
+    "sense": "intended-to-teach-often-dully",
+    "pronunciation": "/daɪˈdæktɪk/",
+    "definition": "intended to teach, often in a dull way.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_ce598e06",
+    "image_brief": "a lecturer reading from notes without discussion, seen from the back of the room at wide distance, flat light, desks and a clock, bored mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The film is too **didactic**."
+  },
+  {
+    "phrase": "interdisciplinary",
+    "pos": "adjective",
+    "sense": "combining-several-subjects",
+    "pronunciation": "/ˌɪntɝˈdɪsəpləˌnɛri/",
+    "definition": "combining several subjects.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_73f62c65",
+    "image_brief": "two students from different fields sharing a table, seen from the side at medium distance, bright light, books and a laptop, collaborative mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The program is **interdisciplinary**."
+  },
+  {
+    "phrase": "multidisciplinary",
+    "pos": "adjective",
+    "sense": "involving-several-fields",
+    "pronunciation": "/ˌmʌltiˈdɪsəpləˌnɛri/",
+    "definition": "involving several fields of study.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_1f34a340",
+    "image_brief": "a team of specialists reviewing a project on a board, seen from the side at wide distance, cool light, chairs and notes, serious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The team takes a **multidisciplinary** approach."
+  },
+  {
+    "phrase": "scholastic",
+    "pos": "adjective",
+    "sense": "relating-to-school-and-study",
+    "pronunciation": "/skəˈlæstɪk/",
+    "definition": "relating to school and study.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_9c8641c6",
+    "image_brief": "a school corridor with pupils carrying books, seen from the side at wide distance, morning light, lockers and a door, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **scholastic** record is strong."
+  },
+  {
+    "phrase": "rigorous",
+    "pos": "adjective",
+    "sense": "very-careful-and-thorough",
+    "pronunciation": "/ˈrɪɡɝəs/",
+    "definition": "very careful and thorough.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_3484ebb9",
+    "image_brief": "a researcher double-checking data at a desk, seen from the side at medium distance, lamp light, charts and a cup, exacting mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The course demands **rigorous** work."
+  },
+  {
+    "phrase": "extracurricular",
+    "pos": "adjective",
+    "sense": "outside-normal-coursework",
+    "pronunciation": "/ˌɛkstrəkəˈrɪkjəlɝ/",
+    "definition": "outside the normal course of study.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_c9b06cbd",
+    "image_brief": "students rehearsing a play after class, seen from the side at wide distance, evening light, a stage and chairs, lively mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He runs an **extracurricular** club."
+  },
+  {
+    "phrase": "empirical",
+    "pos": "adjective",
+    "sense": "based-on-observation",
+    "pronunciation": "/ɪmˈpɪrɪkəl/",
+    "definition": "based on observation rather than theory.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_81b80cb5",
+    "image_brief": "a scientist recording measurements in a lab, seen from the side at medium distance, bright light, instruments and gloves, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The claim needs **empirical** support."
+  },
+  {
+    "phrase": "proficient",
+    "pos": "adjective",
+    "sense": "able-to-do-something-well",
+    "pronunciation": "/prəˈfɪʃənt/",
+    "definition": "able to do something well.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_85c68a2e",
+    "image_brief": "a student playing a piece with confidence in a music room, seen from the side at medium distance, warm light, a piano and a metronome, assured mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She is **proficient** in two languages."
+  },
+  {
+    "phrase": "adept",
+    "pos": "adjective",
+    "sense": "very-skilled",
+    "pronunciation": "/əˈdɛpt/",
+    "definition": "very skilled.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_1df07328",
+    "image_brief": "a young teacher explaining a chart with ease, seen from the side at medium distance, bright light, a board and a class, confident mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He is **adept** at explaining difficult ideas."
+  },
+  {
+    "phrase": "intellectually",
+    "pos": "adverb",
+    "sense": "in-a-way-that-involves-thinking",
+    "pronunciation": "/ˌɪntəˈlɛktʃuəli/",
+    "definition": "in a way that involves thinking.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "image": "voc_856fea92",
+    "image_brief": "two people debating earnestly at a kitchen table, seen from the side at medium distance, evening light, books and cups, engaged mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The debate was **intellectually** demanding."
+  },
+  {
+    "phrase": "impart",
+    "pos": "verb",
+    "sense": "pass-knowledge-to-others",
+    "pronunciation": "/ɪmˈpɑrt/",
+    "definition": "to pass knowledge or skills to others.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "present_example": "Good teachers **impart** more than facts.",
+    "past_simple_example": "She **imparted** the news gently.",
+    "past_participle_example": "The skill has been **imparted** to new staff.",
+    "present_participle_example": "**Imparting** knowledge takes patience.",
+    "image": "voc_fa9c29a0",
+    "image_brief": "a senior worker showing a young one a technique, seen from the side at medium distance, workshop light, tools and a bench, patient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Good teachers **impart** more than facts."
+  },
+  {
+    "phrase": "instill",
+    "pos": "verb",
+    "sense": "put-an-idea-into-someones-mind-slowly",
+    "pronunciation": "/ɪnˈstɪl/",
+    "definition": "to put an idea or habit into someone's mind slowly.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "present_example": "Parents can **instill** a love of reading.",
+    "past_simple_example": "The coach **instilled** discipline in the team.",
+    "past_participle_example": "Confidence has been **instilled** since childhood.",
+    "present_participle_example": "**Instilling** good habits starts early.",
+    "image": "voc_34667e92",
+    "image_brief": "a parent reading with a child at bedtime, seen from the side at medium distance, soft lamp light, a shelf and a blanket, warm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Parents can **instill** a love of reading."
+  },
+  {
+    "phrase": "contextualize",
+    "pos": "verb",
+    "sense": "place-something-in-its-setting",
+    "pronunciation": "/kənˈtɛkstʃuəˌlaɪz/",
+    "definition": "to place something in its wider setting.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "present_example": "The course helps **contextualize** the data.",
+    "past_simple_example": "He **contextualized** the quotation.",
+    "past_participle_example": "The event has been **contextualized** well.",
+    "present_participle_example": "**Contextualizing** a source takes research.",
+    "image": "voc_335c7959",
+    "image_brief": "a teacher placing a map beside an old letter, seen from above at medium distance, classroom light, a desk and a magnifier, thoughtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The course helps **contextualize** the data."
+  },
+  {
+    "phrase": "synthesize",
+    "pos": "verb",
+    "sense": "combine-ideas-into-a-whole",
+    "pronunciation": "/ˈsɪnθəˌsaɪz/",
+    "definition": "to combine ideas into a whole.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "present_example": "Students **synthesize** sources in the essay.",
+    "past_simple_example": "She **synthesized** the findings.",
+    "past_participle_example": "The results have been **synthesized**.",
+    "present_participle_example": "**Synthesizing** three theories is hard.",
+    "image": "voc_c382ba3f",
+    "image_brief": "a student combining notes from three books into one page, seen from above at medium distance, morning light, a highlighter and a cup, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Students **synthesize** sources in the essay."
+  },
+  {
+    "phrase": "critique",
+    "pos": "verb",
+    "sense": "judge-strengths-and-weaknesses",
+    "pronunciation": "/krɪˈtik/",
+    "definition": "to judge the strengths and weaknesses of something.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "present_example": "They **critique** each other's drafts.",
+    "past_simple_example": "The panel **critiqued** the plan.",
+    "past_participle_example": "The report has been **critiqued** widely.",
+    "present_participle_example": "**Critiquing** your own work is useful.",
+    "image": "voc_9c055947",
+    "image_brief": "a writing group commenting on a printed page, seen from the side at medium distance, bright light, cups and pens, constructive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **critique** each other's drafts."
+  },
+  {
+    "phrase": "comprehend",
+    "pos": "verb",
+    "sense": "understand-something-fully",
+    "pronunciation": "/ˌkɑmprɪˈhɛnd/",
+    "definition": "to understand something fully.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "present_example": "Few readers **comprehend** the legal text.",
+    "past_simple_example": "She **comprehended** the risk at once.",
+    "past_participle_example": "The scale has not been **comprehended**.",
+    "present_participle_example": "**Comprehending** a new accent takes time.",
+    "image": "voc_bc7accd4",
+    "image_brief": "a reader pausing over a difficult paragraph, seen from the side at medium distance, window light, a cup and a marker, thoughtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Few readers **comprehend** the legal text."
+  },
+  {
+    "phrase": "grasp",
+    "pos": "verb",
+    "sense": "understand-an-idea-completely",
+    "pronunciation": "/ɡræsp/",
+    "definition": "to understand an idea completely.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "present_example": "Children **grasp** the rules faster than adults.",
+    "past_simple_example": "He **grasped** the idea immediately.",
+    "past_participle_example": "The concept has been **grasped**.",
+    "present_participle_example": "**Grasping** the method takes practice.",
+    "image": "voc_a8871b8a",
+    "image_brief": "a child suddenly understanding a puzzle, seen from the side at medium distance, warm light, pieces and a table, delighted mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Children **grasp** the rules faster than adults."
+  },
+  {
+    "phrase": "master",
+    "pos": "verb",
+    "sense": "learn-a-skill-completely",
+    "pronunciation": "/ˈmæstɝ/",
+    "definition": "to learn a skill completely.",
+    "categories": [
+      "education"
+    ],
+    "level": "c1",
+    "present_example": "It takes years to **master** the violin.",
+    "past_simple_example": "She **mastered** the software in a month.",
+    "past_participle_example": "The technique has been **mastered**.",
+    "present_participle_example": "**Mastering** a language never really ends.",
+    "image": "voc_cc236a13",
+    "image_brief": "a violinist playing with ease at a recital, seen from the side at wide distance, stage light, chairs and a music stand, assured mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "It takes years to **master** the violin."
+  },
+  {
+    "phrase": "couture",
+    "pos": "noun",
+    "sense": "design-of-high-fashion-clothes",
+    "pronunciation": "/kuˈtʊr/",
+    "definition": "the design and making of high-fashion clothes.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_7ab9b829",
+    "image_brief": "a model being fitted in a couture atelier while a seamstress pins, seen from the side at medium distance, soft light, fabric rolls and a mirror, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She works in **couture** in Paris."
+  },
+  {
+    "phrase": "silhouette",
+    "pos": "noun",
+    "sense": "shape-of-a-body-or-outfit",
+    "pronunciation": "/ˌsɪluˈɛt/",
+    "definition": "the shape of a person's body or clothes.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_9d549a05",
+    "image_brief": "a woman in a long coat against a bright window with her silhouette visible, seen from the side at medium distance, soft light, a chair and a bag, elegant mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The coat has a clean **silhouette**."
+  },
+  {
+    "phrase": "garment",
+    "pos": "noun",
+    "sense": "a-piece-of-clothing",
+    "pronunciation": "/ˈɡɑrmənt/",
+    "definition": "a piece of clothing.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_ef4e9698",
+    "image_brief": "a worker inspecting a finished garment on a rail, seen from the side at medium distance, workshop light, tags turned away and scissors, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Every **garment** is checked by hand."
+  },
+  {
+    "phrase": "attire",
+    "pos": "noun",
+    "sense": "the-clothes-someone-is-wearing",
+    "pronunciation": "/əˈtaɪɝ/",
+    "definition": "the clothes someone is wearing.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_75f62965",
+    "image_brief": "guests in formal attire entering a hall, seen from the side at wide distance, evening light, a carpet and a door, formal mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The invitation asks for formal **attire**."
+  },
+  {
+    "phrase": "apparel",
+    "pos": "noun",
+    "sense": "clothing-especially-for-sale",
+    "pronunciation": "/əˈpærəl/",
+    "definition": "clothing, especially for sale.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_4c32fa59",
+    "image_brief": "shoppers browsing outdoor apparel in a store, seen from the side at medium distance, bright light, racks and a basket, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The store sells outdoor **apparel**."
+  },
+  {
+    "phrase": "ensemble",
+    "pos": "noun",
+    "sense": "set-of-clothes-worn-together",
+    "pronunciation": "/ɑnˈsɑmbəl/",
+    "definition": "a set of clothes worn together.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_985221dc",
+    "image_brief": "a woman adjusting a matching ensemble in a mirror, seen from behind at medium distance, warm light, a chair and a bag, pleased mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She wore a matching **ensemble**."
+  },
+  {
+    "phrase": "motif",
+    "pos": "noun",
+    "sense": "repeated-design-or-pattern",
+    "pronunciation": "/moʊˈtif/",
+    "definition": "a repeated design or pattern.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_8448aefe",
+    "image_brief": "a designer pointing at a floral motif on fabric, seen from above at medium distance, studio light, sketches and a pencil, creative mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A floral **motif** runs through the collection."
+  },
+  {
+    "phrase": "embroidery",
+    "pos": "noun",
+    "sense": "decorative-stitching-on-cloth",
+    "pronunciation": "/ɪmˈbrɔɪdɝi/",
+    "definition": "decorative stitching on cloth.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_5050cdf4",
+    "image_brief": "an embroiderer working a flower on a frame, seen from above at medium distance, window light, threads and scissors, patient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The dress is covered in **embroidery**."
+  },
+  {
+    "phrase": "sequin",
+    "pos": "noun",
+    "sense": "small-shiny-disc-on-cloth",
+    "pronunciation": "/ˈsikwɪn/",
+    "definition": "a small shiny disc sewn onto cloth.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_fb7d4d92",
+    "image_brief": "a costume covered in sequins catching the light while a dancer adjusts it, seen from the side at medium distance, stage light, a rail and a case, sparkling mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **sequin** fell off the sleeve."
+  },
+  {
+    "phrase": "chiffon",
+    "pos": "noun",
+    "sense": "light-thin-transparent-cloth",
+    "pronunciation": "/ʃɪˈfɑn/",
+    "definition": "a light thin transparent cloth.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_cbef75a0",
+    "image_brief": "a scarf of thin chiffon lifted by the wind, seen from the side at medium distance, bright light, a market stall and a bag, airy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The scarf is made of **chiffon**."
+  },
+  {
+    "phrase": "satin",
+    "pos": "noun",
+    "sense": "smooth-shiny-cloth",
+    "pronunciation": "/ˈsætən/",
+    "definition": "a smooth shiny cloth.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_47cd81c4",
+    "image_brief": "a seamstress smoothing satin on a table, seen from above at medium distance, soft light, pins and scissors, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The gown is heavy **satin**."
+  },
+  {
+    "phrase": "atelier",
+    "pos": "noun",
+    "sense": "designers-workshop",
+    "pronunciation": "/ˌætəlˈjeɪ/",
+    "definition": "a designer's workshop.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_ba3372cc",
+    "image_brief": "designers working at tables in an atelier, seen from the side at wide distance, window light, dress forms and fabrics, busy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The samples hang in the **atelier**."
+  },
+  {
+    "phrase": "milliner",
+    "pos": "noun",
+    "sense": "person-who-makes-hats",
+    "pronunciation": "/ˈmɪlɪnɝ/",
+    "definition": "a person who makes hats.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_b2f3e9d9",
+    "image_brief": "a milliner shaping a felt hat on a block, seen from the side at medium distance, shop light, ribbons and a mirror, precise mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **milliner** shaped the brim by hand."
+  },
+  {
+    "phrase": "cobbler",
+    "pos": "noun",
+    "sense": "person-who-repairs-shoes",
+    "pronunciation": "/ˈkɑblɝ/",
+    "definition": "a person who repairs shoes.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_9bf1f4ef",
+    "image_brief": "a cobbler repairing a shoe at a bench, seen from the side at medium distance, work lamp light, tools and leather, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **cobbler** replaced both heels."
+  },
+  {
+    "phrase": "seamstress",
+    "pos": "noun",
+    "sense": "woman-who-sews-clothes-for-a-living",
+    "pronunciation": "/ˈsimstrəs/",
+    "definition": "a woman who sews clothes for a living.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_b034dab1",
+    "image_brief": "a seamstress sewing a hem at a machine, seen from the side at medium distance, window light, thread and fabric, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **seamstress** finished the hem."
+  },
+  {
+    "phrase": "dressmaker",
+    "pos": "noun",
+    "sense": "person-who-makes-clothes-to-order",
+    "pronunciation": "/ˈdrɛsˌmeɪkɝ/",
+    "definition": "a person who makes clothes to order.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_c9e96d41",
+    "image_brief": "a dressmaker measuring a client with a tape, seen from the side at medium distance, warm light, a mirror and pins, attentive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **dressmaker** took her measurements."
+  },
+  {
+    "phrase": "fitting",
+    "pos": "noun",
+    "sense": "session-where-clothes-are-adjusted",
+    "pronunciation": "/ˈfɪtɪŋ/",
+    "definition": "a session where clothes are adjusted to fit.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_ed6f8815",
+    "image_brief": "a client standing on a stool during a fitting, seen from the side at medium distance, soft light, pins and a mirror, patient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **fitting** took an hour."
+  },
+  {
+    "phrase": "alteration",
+    "pos": "noun",
+    "sense": "change-made-to-clothes",
+    "pronunciation": "/ˌɔltɝˈeɪʃən/",
+    "definition": "a change made to clothes.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_308be136",
+    "image_brief": "a tailor marking an alteration on a jacket, seen from the side at medium distance, shop light, chalk and a tape, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **alteration** added two inches."
+  },
+  {
+    "phrase": "hemline",
+    "pos": "noun",
+    "sense": "line-of-the-bottom-edge",
+    "pronunciation": "/ˈhɛmˌlaɪn/",
+    "definition": "the line of the bottom edge of a garment.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_415699c2",
+    "image_brief": "a woman checking the hemline of a dress in a mirror, seen from the side at medium distance, warm light, a chair and a box, thoughtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **hemline** sits just below the knee."
+  },
+  {
+    "phrase": "neckline",
+    "pos": "noun",
+    "sense": "shape-of-the-top-edge",
+    "pronunciation": "/ˈnɛkˌlaɪn/",
+    "definition": "the shape of the top edge of a garment.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_fd9a6545",
+    "image_brief": "a bride trying a neckline in a mirror, seen from behind at medium distance, soft light, a veil and a chair, hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **neckline** is too low for work."
+  },
+  {
+    "phrase": "waistline",
+    "pos": "noun",
+    "sense": "line-of-the-body-at-the-waist",
+    "pronunciation": "/ˈweɪstˌlaɪn/",
+    "definition": "the line of the body at the waist.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_c7aa462d",
+    "image_brief": "a tailor pinning the waistline of a dress, seen from the side at medium distance, daylight, a mirror and a tape, precise mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **waistline** was taken in."
+  },
+  {
+    "phrase": "textile",
+    "pos": "noun",
+    "sense": "cloth-made-by-weaving",
+    "pronunciation": "/ˈtɛkˌstaɪl/",
+    "definition": "any cloth made by weaving or knitting.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_90ad7dee",
+    "image_brief": "workers inspecting rolls of textile in a mill, seen from the side at wide distance, industrial light, carts and bales, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The region is famous for **textile** production."
+  },
+  {
+    "phrase": "weave",
+    "pos": "noun",
+    "sense": "way-threads-are-crossed",
+    "pronunciation": "/wiv/",
+    "definition": "the way threads are crossed to make cloth.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_eb285b4d",
+    "image_brief": "a close view of a hand examining a loose weave, seen from above at medium distance, window light, a cloth and scissors, curious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **weave** is loose and cool."
+  },
+  {
+    "phrase": "loom",
+    "pos": "noun",
+    "sense": "machine-for-making-cloth",
+    "pronunciation": "/lum/",
+    "definition": "a machine for making cloth from thread.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_9c3e0e35",
+    "image_brief": "a weaver working a wooden loom, seen from the side at medium distance, warm light, threads and bobbins, absorbed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **loom** stands by the window."
+  },
+  {
+    "phrase": "monogram",
+    "pos": "noun",
+    "sense": "letters-sewn-onto-cloth",
+    "pronunciation": "/ˈmɑnəˌɡræm/",
+    "definition": "letters sewn onto cloth as decoration.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_8f25d9f6",
+    "image_brief": "a woman stitching a monogram onto a shirt cuff, seen from above at medium distance, lamp light, thread and a hoop, precise mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The shirt carries his **monogram**."
+  },
+  {
+    "phrase": "insignia",
+    "pos": "noun",
+    "sense": "badge-or-sign-of-rank",
+    "pronunciation": "/ɪnˈsɪɡniə/",
+    "definition": "a badge or sign of rank.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_96252603",
+    "image_brief": "a school blazer with an insignia on the pocket, seen from the side at medium distance, morning light, a rail and a bag, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **insignia** shows the school."
+  },
+  {
+    "phrase": "mohair",
+    "pos": "noun",
+    "sense": "soft-wool-from-a-goat",
+    "pronunciation": "/ˈmoʊˌhɛr/",
+    "definition": "soft wool from a kind of goat.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_170fb3e8",
+    "image_brief": "a customer feeling the soft mohair of a coat, seen from the side at medium distance, shop light, a mirror and a stool, pleased mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The coat is **mohair**."
+  },
+  {
+    "phrase": "angora",
+    "pos": "noun",
+    "sense": "soft-wool-from-a-rabbit-or-goat",
+    "pronunciation": "/æŋˈɡɔrə/",
+    "definition": "soft wool from a rabbit or goat.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_e6b3f941",
+    "image_brief": "a woman in an angora sweater by a window, seen from the side at medium distance, cold light, a cup and a chair, cozy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **angora** sweater is very warm."
+  },
+  {
+    "phrase": "cufflink",
+    "pos": "noun",
+    "sense": "fastener-for-a-shirt-cuff",
+    "pronunciation": "/ˈkʌfˌlɪŋk/",
+    "definition": "a fastener for a shirt cuff.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_69ed6277",
+    "image_brief": "a man fastening a cufflink at a mirror, seen from behind at medium distance, warm light, a shirt and a tie, formal mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He lost one **cufflink**."
+  },
+  {
+    "phrase": "brooch",
+    "pos": "noun",
+    "sense": "decorative-pin-worn-on-clothes",
+    "pronunciation": "/broʊtʃ/",
+    "definition": "a decorative pin worn on clothes.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_5035458e",
+    "image_brief": "a woman pinning a brooch to a coat lapel, seen from the side at medium distance, soft light, a mirror and a bag, elegant mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She pinned the **brooch** to her lapel."
+  },
+  {
+    "phrase": "sash",
+    "pos": "noun",
+    "sense": "long-strip-of-cloth-around-the-waist",
+    "pronunciation": "/sæʃ/",
+    "definition": "a long strip of cloth worn around the waist.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_fbc8e923",
+    "image_brief": "a bride tying a sash at her waist, seen from behind at medium distance, soft light, a dress and a chair, gentle mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **sash** was tied at the side."
+  },
+  {
+    "phrase": "gusset",
+    "pos": "noun",
+    "sense": "extra-cloth-for-more-space",
+    "pronunciation": "/ˈɡʌsɪt/",
+    "definition": "a piece of cloth added to give extra space.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_7443d45b",
+    "image_brief": "a bag maker showing the gusset of a leather bag, seen from above at medium distance, workshop light, tools and a bench, practical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **gusset** makes the bag stronger."
+  },
+  {
+    "phrase": "welt",
+    "pos": "noun",
+    "sense": "raised-stitched-edge",
+    "pronunciation": "/wɛlt/",
+    "definition": "a raised stitched edge on cloth or leather.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_c27e192e",
+    "image_brief": "a shoemaker stitching a welt along a sole, seen from above at medium distance, work light, leather and a needle, precise mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **welt** along the shoe is neat."
+  },
+  {
+    "phrase": "lapel",
+    "pos": "noun",
+    "sense": "folded-edge-of-a-jacket-front",
+    "pronunciation": "/ləˈpɛl/",
+    "definition": "the folded edge of a jacket front.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_b0d7be67",
+    "image_brief": "a man adjusting his lapel in a mirror, seen from the side at medium distance, morning light, a tie and a chair, formal mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He wears a pin on his **lapel**."
+  },
+  {
+    "phrase": "bespoke",
+    "pos": "adjective",
+    "sense": "made-specially-for-one-customer",
+    "pronunciation": "/bɪˈspoʊk/",
+    "definition": "made specially for one customer.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_84fcd0d1",
+    "image_brief": "a tailor measuring a client for a bespoke suit, seen from the side at medium distance, shop light, fabric books and a mirror, attentive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He ordered a **bespoke** suit."
+  },
+  {
+    "phrase": "breathable",
+    "pos": "adjective",
+    "sense": "letting-air-pass-through",
+    "pronunciation": "/ˈbriðəbəl/",
+    "definition": "letting air pass through.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_b0a45030",
+    "image_brief": "a hiker in a breathable jacket on a trail, seen from the side at wide distance, cool light, a pack and rocks, active mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The fabric is light and **breathable**."
+  },
+  {
+    "phrase": "tailored",
+    "pos": "adjective",
+    "sense": "cut-and-fitted-closely",
+    "pronunciation": "/ˈteɪlɝd/",
+    "definition": "cut and fitted closely to the body.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_4da46b55",
+    "image_brief": "a woman in a sharply tailored jacket at a meeting, seen from the side at medium distance, office light, chairs and papers, confident mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The jacket is sharply **tailored**."
+  },
+  {
+    "phrase": "understated",
+    "pos": "adjective",
+    "sense": "attractive-without-being-showy",
+    "pronunciation": "/ˌʌndɝˈsteɪtɪd/",
+    "definition": "attractive without being showy.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_474776f0",
+    "image_brief": "a man in an understated suit at a gallery, seen from the side at medium distance, soft light, a painting and a bench, refined mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her style is **understated**."
+  },
+  {
+    "phrase": "flamboyant",
+    "pos": "adjective",
+    "sense": "very-bright-and-showy",
+    "pronunciation": "/flæmˈbɔɪənt/",
+    "definition": "very bright and showy.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_12c79945",
+    "image_brief": "a performer in a flamboyant coat on a street, seen from the side at medium distance, bright light, a case and a lamppost, bold mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The coat is too **flamboyant** for me."
+  },
+  {
+    "phrase": "garish",
+    "pos": "adjective",
+    "sense": "unpleasantly-bright",
+    "pronunciation": "/ˈɡɛrɪʃ/",
+    "definition": "unpleasantly bright.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_fd7ea27d",
+    "image_brief": "a shopper holding a garish shirt away from herself, seen from the side at medium distance, shop light, a rail and a mirror, doubtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **garish** colors clash."
+  },
+  {
+    "phrase": "chic",
+    "pos": "adjective",
+    "sense": "stylish-in-a-simple-way",
+    "pronunciation": "/ʃik/",
+    "definition": "stylish in a simple way.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_65f46029",
+    "image_brief": "a woman in a chic black dress entering a café, seen from the side at medium distance, evening light, a table and a lamp, cool mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The shop is small and **chic**."
+  },
+  {
+    "phrase": "draped",
+    "pos": "adjective",
+    "sense": "hanging-in-soft-folds",
+    "pronunciation": "/dreɪpt/",
+    "definition": "hanging in soft folds.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_52558917",
+    "image_brief": "a model moving so the draped dress folds, seen from the side at medium distance, studio light, a backdrop and a fan, flowing mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The dress is **draped** at the shoulder."
+  },
+  {
+    "phrase": "layered",
+    "pos": "adjective",
+    "sense": "worn-in-several-thin-layers",
+    "pronunciation": "/ˈleɪɝd/",
+    "definition": "worn in several thin layers.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_a02a5d19",
+    "image_brief": "a woman in layered clothes in cold weather, seen from the side at medium distance, grey light, a street and a bag, practical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her outfit is **layered** for warmth."
+  },
+  {
+    "phrase": "fitted",
+    "pos": "adjective",
+    "sense": "shaped-closely-to-the-body",
+    "pronunciation": "/ˈfɪtɪd/",
+    "definition": "shaped closely to the body.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_a323c98d",
+    "image_brief": "a tailor checking a fitted shirt on a client, seen from the side at medium distance, shop light, pins and a mirror, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The shirt is **fitted** at the waist."
+  },
+  {
+    "phrase": "sartorial",
+    "pos": "adjective",
+    "sense": "relating-to-mens-clothes-and-style",
+    "pronunciation": "/sɑrˈtɔriəl/",
+    "definition": "relating to men's clothes and style.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_beb988f5",
+    "image_brief": "a man choosing a tie from a drawer, seen from above at medium distance, warm light, shirts and a watch, thoughtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "His **sartorial** choices are always careful."
+  },
+  {
+    "phrase": "retro",
+    "pos": "adjective",
+    "sense": "copying-a-style-from-the-past",
+    "pronunciation": "/ˈrɛtroʊ/",
+    "definition": "copying a style from the past.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "image": "voc_3fb96d10",
+    "image_brief": "a woman trying a retro jacket in a vintage shop, seen from the side at medium distance, dusty light, a rail and a mirror, playful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The jacket has a **retro** cut."
+  },
+  {
+    "phrase": "drape",
+    "pos": "verb",
+    "sense": "hang-cloth-loosely-over-something",
+    "pronunciation": "/dreɪp/",
+    "definition": "to hang cloth loosely over something.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "present_example": "They **drape** the fabric over the model.",
+    "past_simple_example": "She **draped** a shawl over her shoulders.",
+    "past_participle_example": "The table has been **draped** with cloth.",
+    "present_participle_example": "**Draping** the dress takes pins.",
+    "image": "voc_8f423d49",
+    "image_brief": "a designer draping fabric over a dress form, seen from the side at medium distance, studio light, pins and a table, creative mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **drape** the fabric over the model."
+  },
+  {
+    "phrase": "pleat",
+    "pos": "verb",
+    "sense": "fold-cloth-into-narrow-folds",
+    "pronunciation": "/plit/",
+    "definition": "to fold cloth into narrow flat folds.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "present_example": "Tailors **pleat** the skirt by hand.",
+    "past_simple_example": "She **pleated** the fabric carefully.",
+    "past_participle_example": "The curtains have been **pleated**.",
+    "present_participle_example": "**Pleating** takes a hot iron.",
+    "image": "voc_4bcf2c28",
+    "image_brief": "a seamstress pleating a skirt with an iron, seen from the side at medium distance, steam and light, a board and pins, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Tailors **pleat** the skirt by hand."
+  },
+  {
+    "phrase": "accessorize",
+    "pos": "verb",
+    "sense": "add-accessories-to-an-outfit",
+    "pronunciation": "/əkˈsɛsəˌraɪz/",
+    "definition": "to add accessories to an outfit.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "present_example": "She likes to **accessorize** with bold earrings.",
+    "past_simple_example": "He **accessorized** the suit with a brooch.",
+    "past_participle_example": "The outfit has been **accessorized** simply.",
+    "present_participle_example": "**Accessorizing** a plain dress is easy.",
+    "image": "voc_0eb89b64",
+    "image_brief": "a woman adding a necklace to a plain dress, seen from the side at medium distance, soft light, a mirror and a box, pleased mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She likes to **accessorize** with bold earrings."
+  },
+  {
+    "phrase": "layer",
+    "pos": "verb",
+    "sense": "wear-clothes-in-several-thin-layers",
+    "pronunciation": "/ˈleɪɝ/",
+    "definition": "to wear clothes in several thin layers.",
+    "categories": [
+      "clothes"
+    ],
+    "level": "c1",
+    "present_example": "In winter we **layer** shirts under sweaters.",
+    "past_simple_example": "He **layered** a vest over the shirt.",
+    "past_participle_example": "The look has been **layered** for the cold.",
+    "present_participle_example": "**Layering** thin clothes keeps you warm.",
+    "image": "voc_880bbd8d",
+    "image_brief": "a man layering a sweater over a shirt, seen from the side at medium distance, morning light, a bed and a bag, ordinary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "In winter we **layer** shirts under sweaters."
+  },
+  {
+    "phrase": "physiology",
+    "pos": "noun",
+    "sense": "study-of-how-the-body-works",
+    "pronunciation": "/ˌfɪziˈɑlədʒi/",
+    "definition": "the study of how the body works.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_596f1d4e",
+    "image_brief": "a sports scientist testing an athlete on a treadmill, seen from the side at medium distance, lab light, monitors and tubes, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She studied **physiology** at university."
+  },
+  {
+    "phrase": "biomechanics",
+    "pos": "noun",
+    "sense": "study-of-forces-in-body-movement",
+    "pronunciation": "/ˌbaɪoʊməˈkænɪks/",
+    "definition": "the study of forces in body movement.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_323f9d8b",
+    "image_brief": "a coach reviewing a runner's stride on video, seen from the side at medium distance, track light, a screen turned away and cones, analytical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Biomechanics** explains the perfect jump."
+  },
+  {
+    "phrase": "conditioning",
+    "pos": "noun",
+    "sense": "training-to-improve-fitness",
+    "pronunciation": "/kənˈdɪʃənɪŋ/",
+    "definition": "training to improve fitness.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_d4bca38e",
+    "image_brief": "players doing shuttle runs in preseason, seen from the side at wide distance, morning light, cones and a coach, determined mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Preseason **conditioning** starts in July."
+  },
+  {
+    "phrase": "overtraining",
+    "pos": "noun",
+    "sense": "training-so-much-the-body-suffers",
+    "pronunciation": "/ˌoʊvɝˈtreɪnɪŋ/",
+    "definition": "training so much that the body suffers.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_8f5a64c8",
+    "image_brief": "a runner resting with an ice pack on a step, seen from the side at medium distance, grey light, a bottle and shoes, weary mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Overtraining** led to a stress fracture."
+  },
+  {
+    "phrase": "competitiveness",
+    "pos": "noun",
+    "sense": "wish-to-win-or-do-better",
+    "pronunciation": "/kəmˈpɛtɪtɪvnəs/",
+    "definition": "the wish to win or do better than others.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_4197953d",
+    "image_brief": "two players contesting a ball with intensity, seen from the side at wide distance, bright light, a pitch and a bench, fierce mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **competitiveness** drives the team."
+  },
+  {
+    "phrase": "sportsmanship",
+    "pos": "noun",
+    "sense": "fair-behavior-in-sport",
+    "pronunciation": "/ˈspɔrtsmənˌʃɪp/",
+    "definition": "fair and respectful behavior in sport.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_fa806d10",
+    "image_brief": "two players shaking hands after a hard match, seen from the side at medium distance, evening light, a pitch and a ball, respectful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He showed good **sportsmanship** after the loss."
+  },
+  {
+    "phrase": "doping",
+    "pos": "noun",
+    "sense": "use-of-banned-performance-drugs",
+    "pronunciation": "/ˈdoʊpɪŋ/",
+    "definition": "the use of banned drugs to improve performance.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_73f5940c",
+    "image_brief": "an official sealing a sample bottle in a lab, seen from the side at medium distance, clean light, gloves and a form, serious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The athlete was banned for **doping**."
+  },
+  {
+    "phrase": "integrity",
+    "pos": "noun",
+    "sense": "quality-of-being-honest-and-fair",
+    "pronunciation": "/ɪnˈtɛɡrəti/",
+    "definition": "the quality of being honest and fair.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_b1a92018",
+    "image_brief": "a committee reviewing a match report at a table, seen from the side at medium distance, flat light, folders and water, grave mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The league guards its **integrity**."
+  },
+  {
+    "phrase": "eligibility",
+    "pos": "noun",
+    "sense": "state-of-being-allowed-to-compete",
+    "pronunciation": "/ˌɛlɪdʒəˈbɪləti/",
+    "definition": "the state of being allowed to compete.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_3e7b8c82",
+    "image_brief": "an official checking a player's documents at a desk, seen from the side at medium distance, hall light, a folder and a badge, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The injury raised doubts about his **eligibility**."
+  },
+  {
+    "phrase": "officiating",
+    "pos": "noun",
+    "sense": "work-of-refereeing-a-game",
+    "pronunciation": "/əˈfɪʃiˌeɪtɪŋ/",
+    "definition": "the work of refereeing a game.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_7a78cd27",
+    "image_brief": "a referee explaining a decision to two captains, seen from the side at medium distance, floodlight, a pitch and a ball, tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **officiating** was criticized all week."
+  },
+  {
+    "phrase": "power",
+    "pos": "noun",
+    "sense": "physical-strength-used-quickly",
+    "pronunciation": "/ˈpaʊɝ/",
+    "definition": "physical strength used quickly.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_284be255",
+    "image_brief": "a sprinter exploding from the blocks, seen from a low angle at wide distance, bright light, lanes and a crowd blurred, dynamic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The sprinter has explosive **power**."
+  },
+  {
+    "phrase": "coordination",
+    "pos": "noun",
+    "sense": "moving-body-parts-together-smoothly",
+    "pronunciation": "/koʊˌɔrdəˈneɪʃən/",
+    "definition": "the ability to move body parts together smoothly.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_d971edc6",
+    "image_brief": "a player balancing on one leg while passing, seen from the side at medium distance, training light, cones and a ball, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The drill improves hand-eye **coordination**."
+  },
+  {
+    "phrase": "mobility",
+    "pos": "noun",
+    "sense": "ability-to-move-freely",
+    "pronunciation": "/moʊˈbɪləti/",
+    "definition": "the ability to move freely.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_96db3e52",
+    "image_brief": "an athlete stretching on a mat, seen from the side at medium distance, gym light, a foam roller and a bottle, calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Stretching protects your **mobility**."
+  },
+  {
+    "phrase": "qualifier",
+    "pos": "noun",
+    "sense": "match-deciding-who-enters",
+    "pronunciation": "/ˈkwɑləˌfaɪɝ/",
+    "definition": "a match that decides who enters a competition.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_184b409b",
+    "image_brief": "players celebrating a qualifier win on a small pitch, seen from the side at wide distance, evening light, a fence and a bench, relieved mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They won the **qualifier** in extra time."
+  },
+  {
+    "phrase": "playoff",
+    "pos": "noun",
+    "sense": "extra-match-that-decides-a-winner",
+    "pronunciation": "/ˈpleɪˌɔf/",
+    "definition": "an extra match that decides a winner.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_8e615d29",
+    "image_brief": "a packed stand during a playoff game with players on the field, seen from a high angle at wide distance, floodlight, flags blurred and a scoreboard turned away, tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The team reached the **playoff**."
+  },
+  {
+    "phrase": "semifinal",
+    "pos": "noun",
+    "sense": "the-match-before-the-final",
+    "pronunciation": "/ˌsɛmiˈfaɪnəl/",
+    "definition": "the match before the final.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_449fa5a1",
+    "image_brief": "two athletes shaking hands before a semifinal, seen from the side at medium distance, hall light, a track and seats, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She lost in the **semifinal**."
+  },
+  {
+    "phrase": "finalist",
+    "pos": "noun",
+    "sense": "a-competitor-in-the-final",
+    "pronunciation": "/ˈfaɪnəlɪst/",
+    "definition": "a competitor in the final.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_0e6d65bb",
+    "image_brief": "finalists lined up with medals after a race, seen from the side at wide distance, bright light, a podium and banners turned away, proud mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Every **finalist** received a medal."
+  },
+  {
+    "phrase": "tactic",
+    "pos": "noun",
+    "sense": "plan-for-one-part-of-a-game",
+    "pronunciation": "/ˈtæktɪk/",
+    "definition": "a plan for one part of a game.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_8123689c",
+    "image_brief": "a coach sketching a tactic on a small board, seen from the side at medium distance, locker room light, players and bottles, serious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The coach changed one **tactic** at halftime."
+  },
+  {
+    "phrase": "formation",
+    "pos": "noun",
+    "sense": "arrangement-of-players",
+    "pronunciation": "/fɔrˈmeɪʃən/",
+    "definition": "the arrangement of players on the field.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_0d300361",
+    "image_brief": "players standing in a new formation on a pitch, seen from a high angle at wide distance, daylight, lines and a bench, organized mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The new **formation** confused the defense."
+  },
+  {
+    "phrase": "offense",
+    "pos": "noun",
+    "sense": "the-part-of-a-team-that-attacks",
+    "pronunciation": "/əˈfɛns/",
+    "definition": "the part of a team that attacks.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_6d198ccb",
+    "image_brief": "an attacking line moving the ball forward, seen from the side at wide distance, bright light, a pitch and a goal, urgent mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Their **offense** scored three times."
+  },
+  {
+    "phrase": "physique",
+    "pos": "noun",
+    "sense": "shape-and-size-of-a-body",
+    "pronunciation": "/fɪˈzik/",
+    "definition": "the shape and size of a body.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_61257377",
+    "image_brief": "a lean cyclist resting beside a bike, seen from the side at medium distance, morning light, a bottle and a wall, calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Cycling built his **physique**."
+  },
+  {
+    "phrase": "stature",
+    "pos": "noun",
+    "sense": "height-of-a-person",
+    "pronunciation": "/ˈstætʃɝ/",
+    "definition": "the height of a person.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_554d4de1",
+    "image_brief": "a tall volleyball player reaching at the net, seen from the side at wide distance, bright light, a court and a bench, commanding mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **stature** helps her at the net."
+  },
+  {
+    "phrase": "veteran",
+    "pos": "noun",
+    "sense": "player-with-long-experience",
+    "pronunciation": "/ˈvɛtɝən/",
+    "definition": "a player with long experience.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_888e3f9f",
+    "image_brief": "an older player directing younger teammates with a visible armband, seen from the side at wide distance, evening light, a pitch and a bench, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **veteran** settled the young team."
+  },
+  {
+    "phrase": "rookie",
+    "pos": "noun",
+    "sense": "player-in-their-first-season",
+    "pronunciation": "/ˈrʊki/",
+    "definition": "a player in their first season.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_2716d792",
+    "image_brief": "a young player arriving at a training ground with a bag, seen from behind at medium distance, morning light, a gate and a coach, hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **rookie** scored on debut."
+  },
+  {
+    "phrase": "debut",
+    "pos": "noun",
+    "sense": "first-appearance-of-a-player",
+    "pronunciation": "/deɪˈbju/",
+    "definition": "the first appearance of a player.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_729055b0",
+    "image_brief": "a young player walking onto a pitch for the first time, seen from behind at wide distance, floodlight, a tunnel and a bench, nervous mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "His **debut** ended after ten minutes."
+  },
+  {
+    "phrase": "scouting",
+    "pos": "noun",
+    "sense": "work-of-finding-new-players",
+    "pronunciation": "/ˈskaʊtɪŋ/",
+    "definition": "the work of finding new players.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_e8ba9845",
+    "image_brief": "a scout taking notes in the stands at a youth match, seen from the side at wide distance, flat light, a notebook and a flask, watchful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Scouting** found her at a small club."
+  },
+  {
+    "phrase": "draft",
+    "pos": "noun",
+    "sense": "system-that-assigns-new-players",
+    "pronunciation": "/dræft/",
+    "definition": "the system that assigns new players to teams.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_59fd3fc2",
+    "image_brief": "a young athlete waiting with family at a draft event, seen from the side at medium distance, bright light, a stage and phones, anxious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He was picked in the **draft**."
+  },
+  {
+    "phrase": "sponsorship",
+    "pos": "noun",
+    "sense": "money-given-to-support-an-athlete",
+    "pronunciation": "/ˈspɑnsɝˌʃɪp/",
+    "definition": "money given by a company to support an athlete.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_5a6af2c8",
+    "image_brief": "an athlete signing a sponsorship deal at a table, seen from the side at medium distance, office light, a pen and a shirt turned away, pleased mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **sponsorship** pays for travel."
+  },
+  {
+    "phrase": "endorsement",
+    "pos": "noun",
+    "sense": "paid-public-recommendation",
+    "pronunciation": "/ɪnˈdɔrsmənt/",
+    "definition": "a paid public recommendation of a product.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_f851c817",
+    "image_brief": "an athlete filming an endorsement on a court, seen from the side at medium distance, bright light, a camera and a ball, professional mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The deal included an **endorsement**."
+  },
+  {
+    "phrase": "venue",
+    "pos": "noun",
+    "sense": "place-where-a-match-is-held",
+    "pronunciation": "/ˈvɛnju/",
+    "definition": "the place where a match is held.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_426c6642",
+    "image_brief": "a stadium filling before a match, seen from a high angle at wide distance, evening light, turnstiles and flags blurred, expectant mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **venue** holds forty thousand people."
+  },
+  {
+    "phrase": "ranking",
+    "pos": "noun",
+    "sense": "position-on-a-list-of-the-best",
+    "pronunciation": "/ˈræŋkɪŋ/",
+    "definition": "a position on a list of the best players.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_a37e6dbb",
+    "image_brief": "a player checking a ranking list on a wall, seen from behind at medium distance, hall light, a bag and a door, hopeful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **ranking** rose after the win."
+  },
+  {
+    "phrase": "standings",
+    "pos": "noun",
+    "sense": "table-showing-teams-results",
+    "pronunciation": "/ˈstændɪŋz/",
+    "definition": "the table showing teams' results.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_b101e0c9",
+    "image_brief": "fans studying the standings board at a stadium, seen from behind at medium distance, flat light, a bench and a scarf, anxious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They are top of the **standings**."
+  },
+  {
+    "phrase": "shootout",
+    "pos": "noun",
+    "sense": "contest-settled-by-series-of-shots",
+    "pronunciation": "/ˈʃuˌtaʊt/",
+    "definition": "a contest settled by a series of shots.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_94bec051",
+    "image_brief": "a goalkeeper facing a shooter in a shootout, seen from the side at wide distance, floodlight, a goal and a crowd blurred, tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The game went to a **shootout**."
+  },
+  {
+    "phrase": "foul",
+    "pos": "noun",
+    "sense": "act-that-breaks-the-rules",
+    "pronunciation": "/faʊl/",
+    "definition": "an act that breaks the rules.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_d6b44d5b",
+    "image_brief": "a referee blowing the whistle for a foul, seen from the side at medium distance, bright light, a pitch and a fallen player, sharp mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The referee saw the **foul**."
+  },
+  {
+    "phrase": "offside",
+    "pos": "noun",
+    "sense": "position-that-is-not-allowed",
+    "pronunciation": "/ˌɔfˈsaɪd/",
+    "definition": "a position in a game that is not allowed.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_c7ff0a0f",
+    "image_brief": "a linesman raising a flag for offside, seen from the side at wide distance, afternoon light, a pitch and a bench, decisive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The goal was ruled **offside**."
+  },
+  {
+    "phrase": "timeout",
+    "pos": "noun",
+    "sense": "short-break-during-a-game",
+    "pronunciation": "/ˈtaɪmˌaʊt/",
+    "definition": "a short break called during a game.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_f4fdfc0b",
+    "image_brief": "players gathered around a coach during a timeout, seen from the side at medium distance, gym light, a bench and bottles, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The coach used a **timeout**."
+  },
+  {
+    "phrase": "aerobic",
+    "pos": "adjective",
+    "sense": "using-oxygen-for-energy",
+    "pronunciation": "/ɛˈroʊbɪk/",
+    "definition": "using oxygen for energy.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_bfa83309",
+    "image_brief": "a group running steadily along a river path, seen from the side at wide distance, morning light, trees and a bridge, steady mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "**Aerobic** exercise improves the heart."
+  },
+  {
+    "phrase": "anaerobic",
+    "pos": "adjective",
+    "sense": "using-energy-without-oxygen",
+    "pronunciation": "/ˌænɛˈroʊbɪk/",
+    "definition": "using energy without oxygen.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_866c36ce",
+    "image_brief": "a sprinter pushing uphill in a short burst, seen from the side at medium distance, bright light, cones and a timer, explosive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Sprinting is **anaerobic** work."
+  },
+  {
+    "phrase": "cardiovascular",
+    "pos": "adjective",
+    "sense": "relating-to-heart-and-blood-vessels",
+    "pronunciation": "/ˌkɑrdioʊˈvæskjəlɝ/",
+    "definition": "relating to the heart and blood vessels.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_63232831",
+    "image_brief": "a cyclist on a stationary bike with a monitor, seen from the side at medium distance, gym light, a towel and a bottle, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The plan includes **cardiovascular** training."
+  },
+  {
+    "phrase": "disciplined",
+    "pos": "adjective",
+    "sense": "following-a-strict-routine",
+    "pronunciation": "/ˈdɪsəplɪnd/",
+    "definition": "following a strict routine.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_8952bfb0",
+    "image_brief": "an athlete training alone at dawn in an empty pool, seen from the side at wide distance, cold light, lanes and a clock, dedicated mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "A **disciplined** player trains in winter too."
+  },
+  {
+    "phrase": "resilient",
+    "pos": "adjective",
+    "sense": "recovering-quickly-from-difficulty",
+    "pronunciation": "/rɪˈzɪljənt/",
+    "definition": "able to recover quickly from difficulty.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_5f0cfb57",
+    "image_brief": "a player returning to training after injury, seen from the side at medium distance, morning light, a bandage and a ball, determined mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The team is **resilient** after losses."
+  },
+  {
+    "phrase": "tenacious",
+    "pos": "adjective",
+    "sense": "determined-and-not-giving-up",
+    "pronunciation": "/təˈneɪʃəs/",
+    "definition": "determined and not giving up.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_7cbebc5a",
+    "image_brief": "a defender chasing a striker across the pitch, seen from the side at wide distance, evening light, a goal and a bench, relentless mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **tenacious** defense won the point."
+  },
+  {
+    "phrase": "tactical",
+    "pos": "adjective",
+    "sense": "planned-to-gain-an-advantage",
+    "pronunciation": "/ˈtæktɪkəl/",
+    "definition": "planned to gain an advantage.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_a5b754dd",
+    "image_brief": "a coach pointing at positions on a tablet, seen from the side at medium distance, locker room light, players and cups, analytical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The substitution was purely **tactical**."
+  },
+  {
+    "phrase": "psychological",
+    "pos": "adjective",
+    "sense": "relating-to-the-mind",
+    "pronunciation": "/ˌsaɪkəˈlɑdʒɪkəl/",
+    "definition": "relating to the mind.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "image": "voc_e04957b2",
+    "image_brief": "a sports psychologist talking with an athlete, seen from the side at medium distance, soft light, chairs and a plant, attentive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **psychological** pressure was huge."
+  },
+  {
+    "phrase": "outperform",
+    "pos": "verb",
+    "sense": "do-better-than-someone-else",
+    "pronunciation": "/ˌaʊtpɝˈfɔrm/",
+    "definition": "to do better than someone else.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "present_example": "They **outperform** every rival at altitude.",
+    "past_simple_example": "She **outperformed** the field by seconds.",
+    "past_participle_example": "The record has been **outperformed** twice.",
+    "present_participle_example": "**Outperforming** rivals requires planning.",
+    "image": "voc_e3cef3f1",
+    "image_brief": "a runner passing a rival near the finish, seen from the side at wide distance, bright light, a track and a clock, triumphant mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "They **outperform** every rival at altitude."
+  },
+  {
+    "phrase": "excel",
+    "pos": "verb",
+    "sense": "be-very-good-at-something",
+    "pronunciation": "/ɪkˈsɛl/",
+    "definition": "to be very good at something.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "present_example": "Good players **excel** under pressure.",
+    "past_simple_example": "He **excelled** in the freestyle.",
+    "past_participle_example": "She has **excelled** since juniors.",
+    "present_participle_example": "**Excelling** at one event takes years.",
+    "image": "voc_82c69d22",
+    "image_brief": "a young swimmer finishing far ahead of the field, seen from the side at wide distance, pool light, lanes and a coach, proud mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Good players **excel** under pressure."
+  },
+  {
+    "phrase": "persevere",
+    "pos": "verb",
+    "sense": "continue-despite-difficulty",
+    "pronunciation": "/ˌpɝsəˈvɪr/",
+    "definition": "to continue despite difficulty.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "present_example": "She chose to **persevere** after the injury.",
+    "past_simple_example": "They **persevered** through a hard season.",
+    "past_participle_example": "The club has **persevered** for decades.",
+    "present_participle_example": "**Persevering** through setbacks builds character.",
+    "image": "voc_cfde6801",
+    "image_brief": "a runner continuing through rain on an empty road, seen from behind at wide distance, grey light, a fence and a puddle, gritty mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "She chose to **persevere** after the injury."
+  },
+  {
+    "phrase": "strive",
+    "pos": "verb",
+    "sense": "try-very-hard-over-time",
+    "pronunciation": "/straɪv/",
+    "definition": "to try very hard over time.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "present_example": "Athletes **strive** for small improvements.",
+    "past_simple_example": "He **strove** to beat his own time.",
+    "past_participle_example": "They have **striven** for the title for years.",
+    "present_participle_example": "**Striving** for perfection can hurt recovery.",
+    "image": "voc_7d79cf46",
+    "image_brief": "an athlete repeating a drill over and over, seen from the side at medium distance, training light, cones and a timer, absorbed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Athletes **strive** for small improvements."
+  },
+  {
+    "phrase": "disqualify",
+    "pos": "verb",
+    "sense": "remove-someone-from-a-competition",
+    "pronunciation": "/dɪsˈkwɑləˌfaɪ/",
+    "definition": "to remove someone from a competition.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "present_example": "The judges had to **disqualify** the runner.",
+    "past_simple_example": "They **disqualified** two swimmers.",
+    "past_participle_example": "The team was **disqualified** for a paperwork error.",
+    "present_participle_example": "**Disqualifying** a favorite changes the event.",
+    "image": "voc_642c6d35",
+    "image_brief": "a referee sending a player off the field, seen from the side at medium distance, floodlight, a pitch and a bench, tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The judges had to **disqualify** the runner."
+  },
+  {
+    "phrase": "penalize",
+    "pos": "verb",
+    "sense": "give-a-punishment-in-sport",
+    "pronunciation": "/ˈpɛnəlˌaɪz/",
+    "definition": "to give a punishment in sport.",
+    "categories": [
+      "sports"
+    ],
+    "level": "c1",
+    "present_example": "Referees **penalize** dangerous tackles.",
+    "past_simple_example": "The umpire **penalized** the delay.",
+    "past_participle_example": "The club has been **penalized** twice.",
+    "present_participle_example": "**Penalizing** small errors frustrates players.",
+    "image": "voc_200552fa",
+    "image_brief": "a referee showing a card during a match, seen from the side at medium distance, bright light, a ball and a crowd blurred, decisive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Referees **penalize** dangerous tackles."
+  },
+  {
+    "phrase": "counterpoint",
+    "pos": "noun",
+    "sense": "combination-of-two-melodies",
+    "pronunciation": "/ˈkaʊntɝˌpɔɪnt/",
+    "definition": "the combination of two melodies played together.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_27ffc14b",
+    "image_brief": "two violinists playing interlocking lines, seen from the side at medium distance, hall light, a stand and chairs, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The piece is built on strict **counterpoint**."
+  },
+  {
+    "phrase": "improvisation",
+    "pos": "noun",
+    "sense": "playing-music-without-preparation",
+    "pronunciation": "/ɪmˌprɑvɪˈzeɪʃən/",
+    "definition": "the act of playing music without preparation.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_29a8b51a",
+    "image_brief": "a pianist trying a new phrase with eyes closed, seen from the side at medium distance, club light, a bass and a glass, absorbed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The solo is pure **improvisation**."
+  },
+  {
+    "phrase": "timbre",
+    "pos": "noun",
+    "sense": "quality-of-a-sound",
+    "pronunciation": "/ˈtæmbɝ/",
+    "definition": "the quality of a sound apart from its pitch.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_00f0a722",
+    "image_brief": "a cellist drawing the bow slowly, seen from the side at medium distance, warm light, a chair and a case, calm mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **timbre** of the cello is warm."
+  },
+  {
+    "phrase": "tonality",
+    "pos": "noun",
+    "sense": "system-of-keys-in-music",
+    "pronunciation": "/toʊˈnæləti/",
+    "definition": "the system of keys in a piece of music.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_5186d120",
+    "image_brief": "a conductor raising a hand as the key changes, seen from behind at wide distance, hall light, music stands and chairs, attentive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **tonality** shifts in the second movement."
+  },
+  {
+    "phrase": "dissonance",
+    "pos": "noun",
+    "sense": "notes-that-sound-tense",
+    "pronunciation": "/ˈdɪsənəns/",
+    "definition": "a combination of notes that sounds tense.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_ac647571",
+    "image_brief": "a string quartet playing a tense chord with concentrated faces, seen from the side at medium distance, soft light, stands and chairs, tense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **dissonance** resolves at the end."
+  },
+  {
+    "phrase": "consonance",
+    "pos": "noun",
+    "sense": "notes-that-sound-pleasant",
+    "pronunciation": "/ˈkɑnsənəns/",
+    "definition": "a combination of notes that sounds pleasant.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_97ded2c4",
+    "image_brief": "a choir finishing on a warm chord, seen from the side at wide distance, hall light, chairs and robes, serene mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The chord ends in **consonance**."
+  },
+  {
+    "phrase": "syncopation",
+    "pos": "noun",
+    "sense": "rhythm-that-shifts-the-beat",
+    "pronunciation": "/ˌsɪŋkəˈpeɪʃən/",
+    "definition": "rhythm that shifts the expected beat.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_19f632c1",
+    "image_brief": "dancers moving off the beat in a studio, seen from the side at wide distance, bright light, mirrors and a speaker, lively mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The dance is built on **syncopation**."
+  },
+  {
+    "phrase": "orchestration",
+    "pos": "noun",
+    "sense": "arranging-music-for-instruments",
+    "pronunciation": "/ˌɔrkəˈstreɪʃən/",
+    "definition": "the way music is arranged for instruments.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_ec904a25",
+    "image_brief": "a composer marking parts on a score with a pencil, seen from above at medium distance, lamp light, a piano and a cup, absorbed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **orchestration** makes the theme grand."
+  },
+  {
+    "phrase": "transposition",
+    "pos": "noun",
+    "sense": "moving-music-to-another-key",
+    "pronunciation": "/ˌtrænspəˈzɪʃən/",
+    "definition": "the act of moving music to another key.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_f7fab225",
+    "image_brief": "a singer testing a lower key at a piano, seen from the side at medium distance, studio light, a keyboard and a glass, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **transposition** suits her voice."
+  },
+  {
+    "phrase": "notation",
+    "pos": "noun",
+    "sense": "written-musical-symbols",
+    "pronunciation": "/noʊˈteɪʃən/",
+    "definition": "the system of written musical symbols.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_809660fb",
+    "image_brief": "an old manuscript of musical notation on a table while a historian points, seen from above at medium distance, soft light, gloves and a magnifier, reverent mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Early **notation** looked very different."
+  },
+  {
+    "phrase": "libretto",
+    "pos": "noun",
+    "sense": "words-of-an-opera",
+    "pronunciation": "/lɪˈbrɛtoʊ/",
+    "definition": "the words of an opera.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_7fd7aeb3",
+    "image_brief": "a stage director reading a libretto with a singer, seen from the side at medium distance, rehearsal light, chairs and a piano, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **libretto** was written by a poet."
+  },
+  {
+    "phrase": "aria",
+    "pos": "noun",
+    "sense": "solo-song-in-an-opera",
+    "pronunciation": "/ˈɑriə/",
+    "definition": "a solo song in an opera.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_6b74004a",
+    "image_brief": "a soprano singing an aria under a spotlight, seen from the side at wide distance, stage light, a piano and an audience blurred, moving mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The soprano's **aria** stopped the show."
+  },
+  {
+    "phrase": "overture",
+    "pos": "noun",
+    "sense": "music-before-a-show",
+    "pronunciation": "/ˈoʊvɝtʃɝ/",
+    "definition": "the music played before an opera or show.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_82c409d9",
+    "image_brief": "an orchestra playing the overture as the audience settles, seen from a high angle at wide distance, warm light, seats and a curtain, expectant mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **overture** lasts ten minutes."
+  },
+  {
+    "phrase": "virtuoso",
+    "pos": "noun",
+    "sense": "performer-with-outstanding-skill",
+    "pronunciation": "/ˌvɝtʃuˈoʊsoʊ/",
+    "definition": "a performer with outstanding skill.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_14cce1c0",
+    "image_brief": "a guitarist playing a fast solo with the audience watching, seen from the side at medium distance, stage light, amps and a stool, dazzling mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He is a **virtuoso** on the guitar."
+  },
+  {
+    "phrase": "maestro",
+    "pos": "noun",
+    "sense": "great-conductor-or-teacher",
+    "pronunciation": "/ˈmaɪstroʊ/",
+    "definition": "a great conductor or teacher of music.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_f7a2894f",
+    "image_brief": "a conductor raising both arms before the orchestra, seen from behind at wide distance, hall light, stands and chairs, commanding mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **maestro** raised his baton."
+  },
+  {
+    "phrase": "soloist",
+    "pos": "noun",
+    "sense": "musician-who-performs-alone",
+    "pronunciation": "/ˈsoʊloʊɪst/",
+    "definition": "a musician who performs alone.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_dd6c280e",
+    "image_brief": "a violinist standing alone in front of the orchestra, seen from the side at wide distance, stage light, a podium and chairs, poised mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **soloist** played without music."
+  },
+  {
+    "phrase": "concertmaster",
+    "pos": "noun",
+    "sense": "leading-violinist-of-an-orchestra",
+    "pronunciation": "/ˈkɑnsɝtˌmæstɝ/",
+    "definition": "the leading violinist of an orchestra.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_603412d1",
+    "image_brief": "the concertmaster standing to tune the orchestra, seen from behind at medium distance, hall light, a violin and stands, formal mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **concertmaster** tuned the orchestra."
+  },
+  {
+    "phrase": "acoustics",
+    "pos": "noun",
+    "sense": "way-sound-behaves-in-a-room",
+    "pronunciation": "/əˈkustɪks/",
+    "definition": "the way sound behaves in a room.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_09df250d",
+    "image_brief": "a singer testing the acoustics of an empty hall, seen from the side at wide distance, soft light, seats and a balcony, curious mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The hall has wonderful **acoustics**."
+  },
+  {
+    "phrase": "amplification",
+    "pos": "noun",
+    "sense": "making-sound-louder",
+    "pronunciation": "/ˌæmpləfəˈkeɪʃən/",
+    "definition": "the act of making sound louder.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_0e011e19",
+    "image_brief": "a technician raising the volume on a mixing desk, seen from the side at medium distance, dim light, cables and a stage, practical mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The concert needed little **amplification**."
+  },
+  {
+    "phrase": "resonance",
+    "pos": "noun",
+    "sense": "deep-full-sound-that-continues",
+    "pronunciation": "/ˈrɛzənəns/",
+    "definition": "a deep full sound that continues.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_c7c1ad57",
+    "image_brief": "a drummer striking a large drum that rings on, seen from the side at medium distance, warm light, a case and a mic, deep mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The drum has a long **resonance**."
+  },
+  {
+    "phrase": "reverb",
+    "pos": "noun",
+    "sense": "effect-of-sound-bouncing-around",
+    "pronunciation": "/rɪˈvɝb/",
+    "definition": "the effect of sound bouncing around a space.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_c62fc8e6",
+    "image_brief": "a singer recording in a booth with headphones, seen from the side at medium distance, dim control room light, a screen turned away and a mug, focused mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Too much **reverb** muddies the voice."
+  },
+  {
+    "phrase": "distortion",
+    "pos": "noun",
+    "sense": "change-that-makes-sound-rough",
+    "pronunciation": "/dɪˈstɔrʃən/",
+    "definition": "a change that makes a sound rough.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_00fc87c3",
+    "image_brief": "a guitarist stepping on a pedal with the amp loud, seen from the side at medium distance, stage light, cables and a drum kit, raw mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The guitar uses heavy **distortion**."
+  },
+  {
+    "phrase": "falsetto",
+    "pos": "noun",
+    "sense": "very-high-singing-voice",
+    "pronunciation": "/fɔlˈsɛtoʊ/",
+    "definition": "a very high singing voice, usually male.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_29097b07",
+    "image_brief": "a singer reaching a high note in a studio, seen from the side at medium distance, soft light, a mic and a piano, careful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "He sang the chorus in **falsetto**."
+  },
+  {
+    "phrase": "vibrato",
+    "pos": "noun",
+    "sense": "small-shake-in-a-held-note",
+    "pronunciation": "/vɪˈbrɑtoʊ/",
+    "definition": "a small rapid shake in a held note.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_0160e05a",
+    "image_brief": "a violinist holding a long note with vibrato, seen from the side at medium distance, hall light, a stand and a chair, expressive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **vibrato** makes the note glow."
+  },
+  {
+    "phrase": "crescendo",
+    "pos": "noun",
+    "sense": "gradual-increase-in-loudness",
+    "pronunciation": "/krəˈʃɛndoʊ/",
+    "definition": "a gradual increase in loudness.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_4afc7e0d",
+    "image_brief": "an orchestra building a crescendo under the conductor, seen from behind at wide distance, warm light, stands and a timpani, powerful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **crescendo** builds for a minute."
+  },
+  {
+    "phrase": "legato",
+    "pos": "noun",
+    "sense": "notes-played-smoothly-connected",
+    "pronunciation": "/lɛˈɡɑtoʊ/",
+    "definition": "playing notes smoothly connected.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_334a72f5",
+    "image_brief": "a pianist playing a smooth phrase with hands close to the keys, seen from above at medium distance, warm light, a score and a bench, flowing mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Play the phrase **legato**."
+  },
+  {
+    "phrase": "staccato",
+    "pos": "noun",
+    "sense": "notes-played-short-and-separate",
+    "pronunciation": "/stəˈkɑtoʊ/",
+    "definition": "playing notes short and separate.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_157ac034",
+    "image_brief": "the strings entering with short sharp notes, seen from the side at wide distance, hall light, bows and a conductor, alert mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The strings enter **staccato**."
+  },
+  {
+    "phrase": "matinee",
+    "pos": "noun",
+    "sense": "afternoon-performance",
+    "pronunciation": "/ˌmætənˈeɪ/",
+    "definition": "an afternoon performance.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_7ee4a8f3",
+    "image_brief": "an afternoon audience settling into a theatre, seen from the side at wide distance, daylight through doors, seats and a curtain, easy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **matinee** suits older audiences."
+  },
+  {
+    "phrase": "recital",
+    "pos": "noun",
+    "sense": "performance-by-one-musician",
+    "pronunciation": "/rɪˈsaɪtəl/",
+    "definition": "a performance by one musician or a small group.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_c57df4eb",
+    "image_brief": "a student playing at a small recital, seen from the side at medium distance, warm light, chairs and flowers, proud mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Her **recital** is on Sunday."
+  },
+  {
+    "phrase": "repertoire",
+    "pos": "noun",
+    "sense": "all-pieces-a-performer-can-play",
+    "pronunciation": "/ˈrɛpɝˌtwɑr/",
+    "definition": "all the pieces a performer can play.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_146377fd",
+    "image_brief": "a singer flipping through a folder of songs, seen from above at medium distance, lamp light, a piano and a cup, thoughtful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The song is not in their **repertoire**."
+  },
+  {
+    "phrase": "discography",
+    "pos": "noun",
+    "sense": "list-of-recordings-by-a-musician",
+    "pronunciation": "/dɪˈskɑɡrəfi/",
+    "definition": "a list of recordings by a musician.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_066bb462",
+    "image_brief": "a collector sorting records beside a list, seen from the side at medium distance, lamp light, shelves and a player, nostalgic mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **discography** runs to twenty albums."
+  },
+  {
+    "phrase": "anthology",
+    "pos": "noun",
+    "sense": "collection-of-pieces",
+    "pronunciation": "/ænˈθɑlədʒi/",
+    "definition": "a collection of pieces or writings.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_1d90af2f",
+    "image_brief": "a musician reading a thick anthology of songs, seen from the side at medium distance, soft light, a guitar and a cup, absorbed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **anthology** covers fifty years."
+  },
+  {
+    "phrase": "catalog",
+    "pos": "noun",
+    "sense": "complete-list-of-works",
+    "pronunciation": "/ˈkætəˌlɔɡ/",
+    "definition": "a complete list of works for sale or study.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_f0120a79",
+    "image_brief": "a librarian checking a music catalog drawer, seen from the side at medium distance, library light, cards and a desk, precise mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **catalog** lists every recording."
+  },
+  {
+    "phrase": "lyricism",
+    "pos": "noun",
+    "sense": "expressing-feeling-beautifully",
+    "pronunciation": "/ˈlɪrəˌsɪzəm/",
+    "definition": "a quality of expressing feeling beautifully.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_e8220984",
+    "image_brief": "a singer shaping a gentle phrase at a mic, seen from the side at medium distance, low light, a piano and a glass, tender mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The singer is known for her **lyricism**."
+  },
+  {
+    "phrase": "virtuosity",
+    "pos": "noun",
+    "sense": "great-technical-skill-in-performance",
+    "pronunciation": "/ˌvɝtʃuˈɑsəti/",
+    "definition": "great technical skill in performance.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_e910b877",
+    "image_brief": "a pianist playing a fast passage with blurred hands, seen from the side at medium distance, stage light, a grand piano and a page turner, dazzling mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The piece shows off his **virtuosity**."
+  },
+  {
+    "phrase": "musicianship",
+    "pos": "noun",
+    "sense": "skill-in-performing-music",
+    "pronunciation": "/mjuˈzɪʃənˌʃɪp/",
+    "definition": "skill in performing or writing music.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_622a9880",
+    "image_brief": "a band listening to each other during a quiet section, seen from the side at wide distance, club light, amps and a stool, cohesive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The band's **musicianship** is superb."
+  },
+  {
+    "phrase": "showmanship",
+    "pos": "noun",
+    "sense": "skill-at-entertaining-an-audience",
+    "pronunciation": "/ˈʃoʊmənˌʃɪp/",
+    "definition": "skill at entertaining an audience.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_963b39b8",
+    "image_brief": "a performer holding the crowd with a raised hand, seen from behind at wide distance, stage light, a mic stand and an audience, electric mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "His **showmanship** fills the hall."
+  },
+  {
+    "phrase": "accompanist",
+    "pos": "noun",
+    "sense": "musician-who-plays-for-a-soloist",
+    "pronunciation": "/əˈkʌmpənɪst/",
+    "definition": "a musician who plays for a soloist.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_46ef2542",
+    "image_brief": "a pianist following a singer at a rehearsal, seen from the side at medium distance, warm light, a score and a chair, attentive mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **accompanist** follows every breath."
+  },
+  {
+    "phrase": "timpani",
+    "pos": "noun",
+    "sense": "large-drums-in-an-orchestra",
+    "pronunciation": "/ˈtɪmpəni/",
+    "definition": "large drums used in an orchestra.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_187fb336",
+    "image_brief": "a timpanist striking the drums at the climax, seen from the side at medium distance, hall light, mallets and a score, powerful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **timpani** enter at the climax."
+  },
+  {
+    "phrase": "harpsichord",
+    "pos": "noun",
+    "sense": "keyboard-with-plucked-strings",
+    "pronunciation": "/ˈhɑrpsɪˌkɔrd/",
+    "definition": "a keyboard instrument with plucked strings.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_e4040078",
+    "image_brief": "a harpsichord being played in a small hall, seen from the side at medium distance, soft light, chairs and a stand, delicate mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **harpsichord** sounds bright and thin."
+  },
+  {
+    "phrase": "organist",
+    "pos": "noun",
+    "sense": "person-who-plays-the-organ",
+    "pronunciation": "/ˈɔrɡənɪst/",
+    "definition": "a person who plays the organ.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_b9311c30",
+    "image_brief": "an organist playing in a church, seen from behind at wide distance, dim light, pipes and a bench, solemn mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **organist** practices before the service."
+  },
+  {
+    "phrase": "keyboardist",
+    "pos": "noun",
+    "sense": "person-who-plays-electronic-keyboards",
+    "pronunciation": "/ˈkiˌbɔrdɪst/",
+    "definition": "a person who plays electronic keyboards.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_09a089e5",
+    "image_brief": "a keyboardist setting up synths on stage, seen from the side at medium distance, stage light, cables and a stool, busy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **keyboardist** joined the band last year."
+  },
+  {
+    "phrase": "atonal",
+    "pos": "adjective",
+    "sense": "not-written-in-a-clear-key",
+    "pronunciation": "/eɪˈtoʊnəl/",
+    "definition": "not written in a clear key.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_5f332a57",
+    "image_brief": "a modern ensemble playing a difficult atonal passage, seen from the side at wide distance, cool light, stands and a conductor, intense mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **atonal** passage is hard to sing."
+  },
+  {
+    "phrase": "dissonant",
+    "pos": "adjective",
+    "sense": "sounding-tense-and-unresolved",
+    "pronunciation": "/ˈdɪsənənt/",
+    "definition": "sounding tense and unresolved.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_dc13ccf7",
+    "image_brief": "a string player holding a dissonant note while the conductor listens, seen from the side at medium distance, hall light, a score and chairs, taut mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **dissonant** chord creates suspense."
+  },
+  {
+    "phrase": "sonorous",
+    "pos": "adjective",
+    "sense": "deep-full-and-resonant",
+    "pronunciation": "/ˈsɑnɝəs/",
+    "definition": "deep, full and resonant.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "image": "voc_6b7f940e",
+    "image_brief": "a bass singer filling a hall with a deep note, seen from the side at wide distance, warm light, chairs and a piano, resonant mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The **sonorous** bass filled the room."
+  },
+  {
+    "phrase": "orchestrate",
+    "pos": "verb",
+    "sense": "arrange-music-for-an-orchestra",
+    "pronunciation": "/ˈɔrkəˌstreɪt/",
+    "definition": "to arrange music for an orchestra.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "present_example": "He **orchestrates** his own songs.",
+    "past_simple_example": "She **orchestrated** the theme for strings.",
+    "past_participle_example": "The piece has been **orchestrated** twice.",
+    "present_participle_example": "**Orchestrating** for a large band takes skill.",
+    "image": "voc_af2f9695",
+    "image_brief": "a composer working on an orchestration at a piano, seen from the side at medium distance, window light, a score and a cup, absorbed mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Composers **orchestrate** their own works."
+  },
+  {
+    "phrase": "transpose",
+    "pos": "verb",
+    "sense": "change-music-into-another-key",
+    "pronunciation": "/trænsˈpoʊz/",
+    "definition": "to change music into another key.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "present_example": "The choir **transposes** the hymn down a tone.",
+    "past_simple_example": "He **transposed** the part for alto.",
+    "past_participle_example": "The solo has been **transposed** already.",
+    "present_participle_example": "**Transposing** by hand risks errors.",
+    "image": "voc_9e887de1",
+    "image_brief": "a teacher showing a student how to transpose at a piano, seen from the side at medium distance, warm light, a score and a pencil, patient mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Singers often **transpose** a song to fit their voice."
+  },
+  {
+    "phrase": "notate",
+    "pos": "verb",
+    "sense": "write-music-in-notation",
+    "pronunciation": "/ˈnoʊˌteɪt/",
+    "definition": "to write music in notation.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "present_example": "She **notates** every improvisation.",
+    "past_simple_example": "He **notated** the melody on a napkin.",
+    "past_participle_example": "The tune has been **notated** carefully.",
+    "present_participle_example": "**Notating** a drum part is tricky.",
+    "image": "voc_bb5b5d5a",
+    "image_brief": "a musician writing notes on a staff by hand, seen from above at medium distance, lamp light, a pencil and a cup, precise mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Students **notate** the melody by hand."
+  },
+  {
+    "phrase": "modulate",
+    "pos": "verb",
+    "sense": "move-from-one-key-to-another",
+    "pronunciation": "/ˈmɑdʒəˌleɪt/",
+    "definition": "to move from one key to another.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "present_example": "The bridge **modulates** to the minor.",
+    "past_simple_example": "The orchestra **modulated** into the new key.",
+    "past_participle_example": "The theme has **modulated** twice.",
+    "present_participle_example": "**Modulating** smoothly takes planning.",
+    "image": "voc_2ef370f9",
+    "image_brief": "a guitarist moving into a new key mid-song, seen from the side at medium distance, stage light, a capo and a setlist turned away, alert mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "Bands **modulate** before the final chorus."
+  },
+  {
+    "phrase": "chant",
+    "pos": "verb",
+    "sense": "sing-words-on-repeated-notes",
+    "pronunciation": "/tʃænt/",
+    "definition": "to sing words on a few repeated notes.",
+    "categories": [
+      "music"
+    ],
+    "level": "c1",
+    "present_example": "The monks **chant** at dawn.",
+    "past_simple_example": "The crowd **chanted** the anthem.",
+    "past_participle_example": "The words have been **chanted** for centuries.",
+    "present_participle_example": "**Chanting** together kept the rhythm steady.",
+    "image": "voc_3f49b218",
+    "image_brief": "monks chanting in a stone church, seen from the side at wide distance, dim light, candles and benches, solemn mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "The monks **chant** at dawn."
   }
 ]
