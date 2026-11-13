@@ -1,16 +1,17 @@
 # AGENTS.md
 
-## Status: early skeleton
+## Status: content complete, illustrations pending
 
-The repo holds documentation plus the first piece of tooling: `tools/build_decks.py`
-builds the three **empty** deck packages from pinned constants. There is still no content
-pipeline, no source data, and no tests or linter.
+All three decks are authored to their targets in `src/index.csv` plus `src/<kind>.json`, and the
+build produces fully populated packages. Audio is synthesized locally. **No illustration exists
+yet**: every entry carries its `image_brief` and an `image` name, but no file under `media/`
+answers it, so cards build text-and-audio only (a warning, not an error).
 
-**Content only on demand.** The decks stay empty until the user explicitly asks for
-flashcards. Never add notes, seed a package with a placeholder card, generate a starter
+**Content only on demand.** The decks never gain entries by themselves: the user must
+explicitly ask for flashcards. Never seed a package with a placeholder card, generate a starter
 vocabulary list, or "test" the pipeline by writing real entries into `decks/`. Building the
-packages is not a request for content; if an empty package turns out to be unimportable,
-ask before seeding it.
+packages is not a request for content; if a package turns out to be unimportable, ask before
+seeding it.
 
 ```sh
 python3 -m venv .venv                       # already exists locally, .venv/ is gitignored
@@ -25,22 +26,46 @@ python3 -m venv .venv                       # already exists locally, .venv/ is 
 
 Content lives in `src/<kind>.json` (one array per kind) and is included **only** with
 `--notes`; a plain build still ships empty packages. Images under `media/` are inputs and are
-committed — nothing regenerates art on a plain build. Audio is generated locally by
-`tools/build_audio.py` and is **gitignored**: a clone has the images but no mp3s until that
-step runs. Audio is named from the entry's key (`voc_6a648cec-word.mp3`); the illustration is
-named by the entry's own `image` field (`"image": "voc_6a648cec"`).
+committed when they exist — nothing regenerates art on a plain build. Audio is generated locally
+by `tools/build_audio.py` and is **gitignored**: a clone has to run that step before building.
 
 **Packages are build artifacts.** `.gitignore` excludes every `*.apkg` (and `tests/`), so
 nothing under `decks/` is committed — build locally and import the file by hand. The 71 MB
 collocation package would otherwise trip GitHub's large-file warning on every push.
 
+## Repository layout
+
+```
+decks/            build output (.apkg, gitignored; .gitkeep keeps the folder)
+src/              production source
+  index.csv         the reviewed manifest: one row per planned sense
+  <kind>.json       the written entries, included only with --notes
+media/            committed images + generated mp3s (mp3s gitignored)
+tests/            the whole test tree — gitignored
+  src/  media/  decks/
+tools/
+  build_decks.py    validate, assemble and pack the decks
+  lint_content.py   manifest + source checks and the repetition report
+  build_audio.py    edge-tts clips, one per spoken part
+  prepare_media.py  normalize committed images to 900px JPEG
+  deck_common.py    identity rules shared by all of the above
+.okf/             design rationale, schema, decision log (start at .okf/index.md)
+```
+
+`--test` moves `src`, `media` and the output directory together, so a test build can never
+read production art or write into `decks/`.
+
 **The manifest comes first.** `src/index.csv` is the reviewed plan — one row per *sense*
 (`kind,phrase,sense,pos,level,categories,gloss`), written and deduplicated before any card is.
-Fixing a gloss is cheap; re-slugging a sense after import orphans review history. Write the
-batch into the manifest, then fill `src/<kind>.json`, then run
-`tools/lint_content.py` (manifest + source agreement, repetition report) and only then build.
-The lint fails on unknown tags, a level outside the deck's range, duplicate
-`kind + phrase + sense`, source entries missing from the manifest, and broken examples.
+Fix the gloss and the level band in the manifest before writing cards; re-slugging a sense
+after import orphans review history. Write the batch into the manifest, then fill
+`src/<kind>.json`, then run `tools/lint_content.py` (manifest + source agreement, repetition
+report) and only then build. The lint fails on an unknown kind/part of speech/category, a level
+outside the deck's range, a bad sense slug, a duplicate `kind + phrase + sense`, a source entry
+missing from the manifest, a manifest/source disagreement, missing text, bad IPA slashes,
+unbolded targets, verb rows on a non-verb, and a missing Midjourney parameter block.
+`--report` prints the most repeated example openers, image-brief openers and camera angles,
+which is how a batch that has gone monotone is caught early.
 
 **The project writes image briefs; it does not render the images.** Every entry's `image_brief`
 is a finished, paste-ready Midjourney prompt: a compressed scene description, then the shared
@@ -75,14 +100,43 @@ Test builds are also isolated in Anki: their own pinned deck and model ids, thei
 prefix. Anki matches decks by name, note types by id and notes by GUID, so reusing any one
 of them would merge a rehearsal into the real deck.
 
+**What a source entry becomes.** One entry in `src/<kind>.json` is one note:
+
+| Key | Goes to |
+|---|---|
+| `phrase` | `Word` / `Phrase` |
+| `pronunciation` | `Pronunciation` |
+| `definition` | `Definition` |
+| `image` | `Image` — the illustration's name without an extension (e.g. `voc_6a648cec`) |
+| `example` | `Example` — the authored sentence, target wrapped in `**...**` |
+| `present_example`, `present_participle_example`, `past_simple_example`, `past_participle_example` | the four form rows under the authored example (verbs only) |
+| `categories`, `level`, `pos` | `category::*`, `level::*`, `pos::*` tags |
+| `sense` | the stable half of the note GUID — never derived from the definition |
+| `image_brief` | the Midjourney prompt, derived from `definition` (never `example`); never written to the note |
+
+The `image` stem is resolved against `.jpg`, `.jpeg`, `.png`, `.gif` and `.webp`, so a rename of
+the extension does not break the entry. Audio filenames are derived from the entry's key and
+cannot drift:
+
+```
+media/voc_6a648cec.jpg                          # "image": "voc_6a648cec"
+media/voc_6a648cec-word.mp3
+media/voc_6a648cec-explanation.mp3
+media/voc_6a648cec-example.mp3
+media/voc_6a648cec-present-example.mp3        # verbs only
+media/voc_6a648cec-present-participle-example.mp3
+media/voc_6a648cec-past-simple-example.mp3
+media/voc_6a648cec-past-participle-example.mp3
+```
+
 The build validates every note before writing: all text fields (the authored example
 included), a part of speech, exactly one `level::` tag inside the deck's range, at least one
-known `category::` tag,
-and every required mp3 present on disk. The image is optional: an `image` field that names
-no file leaves the card without an illustration. A verb also needs one example sentence for
-each form; a non-verb carrying those keys is rejected. A failure is a build error, not a card with
-a blank panel. Verifying a package still means unzipping it and querying the bundled sqlite;
-there is no test suite yet.
+known `category::` tag, every authored example bolding its target, and every required mp3
+present on disk. A verb also needs one example sentence for each form; a non-verb carrying those
+keys is rejected. The image is the only optional part: an `image` that names no file leaves the
+card without an illustration. A failure is a build error, not a card with a blank panel.
+Verifying a package still means unzipping it and querying the bundled sqlite; there is no test
+suite yet.
 
 **Two rules that bite on import, both learned the hard way:**
 
@@ -191,9 +245,8 @@ field** — an entry can belong to several groups. **Every note in all three kin
 carries exactly one CEFR level tag** (`level::a1` … `level::c2`), assigned to the sense
 being taught rather than to its individual words.
 
-Still open: source vocabulary format (CSV/Markdown/API) and card templates beyond
-front→back. Adding a template later is cheap; changing a model's field list is not, since
-it invalidates existing notes.
+Still open: card templates beyond front→back. Adding a template later is cheap; changing a
+model's field list is not, since it invalidates existing notes.
 
 ## Repo-local agent
 
@@ -251,7 +304,9 @@ IPA, examples and image briefs — is done inline here, not delegated.
   ids/GUIDs mean every re-import creates a duplicate deck and duplicate notes instead
   of updating the existing ones — the single most common mistake here.
 - Import matches notes by GUID only within the same model and deck ids. Changing a
-  model's field list requires a new model id; reusing it remaps or breaks old notes.
+  model's field list requires a new model id; reusing it remaps or breaks old notes. The model
+  ids here are on their **seventh** generation for that reason (dropping the movie-quote block
+  was the latest field change).
 - Categories are **tags** (`category::kitchen`), not fields. Multi-value by design, and
   tag edits never touch note identity — so adding a category later is free, while a
   `Category` field would have been a permanent schema decision.
