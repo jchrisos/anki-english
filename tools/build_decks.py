@@ -15,9 +15,10 @@ an entry names its image with an `image` field, and a name that resolves to no f
 leaves the card without a picture rather than with a broken `<img>`. A note missing any other
 required part is a build failure, not a card with a blank panel.
 
-Production output goes to `decks/` and is committed. Test output goes to `tests/decks/`,
-which is gitignored together with the rest of `tests/`: test builds read `tests/src/` and
-`tests/media/`, so no test artifact ever mixes with production.
+Production output goes to `decks/`, but every `*.apkg` there is a **build artifact**: it is
+gitignored and imported by hand after the build, so nothing ships in git. Test output goes to
+`tests/decks/`, which is gitignored together with the rest of `tests/`: test builds read
+`tests/src/` and `tests/media/`, so no test artifact ever mixes with production.
 
 Test builds are fully isolated: they use their own pinned deck ids and model ids, their own
 deck/model names (suffixed `(test)`) and their own filenames (`<kind>-test.apkg`). Anki
@@ -31,7 +32,10 @@ and never let them drift: a new id means a duplicate deck or note type in Anki.
 from __future__ import annotations
 
 import argparse
+import html
+import shutil
 import sys
+import tempfile
 import zipfile
 from pathlib import Path
 
@@ -43,6 +47,7 @@ from deck_common import (
     GUID_PREFIX,
     KIND_LEVELS,
     KIND_TARGET_CARDS,
+    MANIFEST_NAME,
     MARKUP,
     REMOVED_KEYS,
     REPO_ROOT,
@@ -54,10 +59,12 @@ from deck_common import (
     audio_file,
     audio_parts,
     bold_markup,
+    identity_problem,
     image_for,
     is_verb,
     layout,
     load_entries,
+    manifest_identities,
     markup_spans,
     media_key,
 )
@@ -306,24 +313,53 @@ def build_model(kind: dict, ident: dict) -> genanki.Model:
     )
 
 
-def _make_zip_hermetic(path: Path) -> None:
-    """Rewrite the package with fixed zip metadata.
+def _write_package(deck: genanki.Deck, media: list[Path], out: Path) -> None:
+    """Write the package to `out` without ever truncating the previous one.
 
-    genanki stamps zip entries with the build machine's clock, so two builds of identical
-    input differ byte for byte. Pinning the entry timestamps makes the rebuild a no-op in
-    git, which is what "same input, same output" has to mean for a committed artifact.
+    Two things have to hold that genanki does not give us:
+
+    - the destination must only ever hold a **complete** archive. `write_to_file` opens it
+      with `"w"` and then streams every mp3 and image into it, so an exception or a Ctrl-C
+      mid-write leaves a truncated zip exactly where the last good package was;
+    - the zip metadata must be fixed. genanki stamps entries with the build machine's clock,
+      so two builds of identical input would differ byte for byte and the "same input, same
+      output" promise would not mean anything.
+
+    So the package is written to a sidecar, copied streaming into a second sidecar with
+    pinned timestamps, and moved into place with a single `replace`. Each entry is streamed
+    rather than read whole, so a deck of 27k media files does not have to fit in memory
+    twice.
     """
-    with zipfile.ZipFile(path) as src:
-        entries = [(info.filename, src.read(info.filename)) for info in src.infolist()]
+    raw = out.with_name(out.name + ".build")
+    staged = out.with_name(out.name + ".tmp")
+    try:
+        with tempfile.TemporaryDirectory(prefix="anki-english-") as scratch:
+            # genanki creates its throwaway sqlite with `tempfile.mkstemp()` and never
+            # removes it, so every run used to leave a database in $TMPDIR. Pointing
+            # `tempfile` at a directory we own makes it disappear with the package.
+            previous = tempfile.tempdir
+            tempfile.tempdir = scratch
+            try:
+                genanki.Package(deck, media_files=[str(p) for p in media]).write_to_file(
+                    str(raw), timestamp=BUILD_MOD
+                )
+            finally:
+                tempfile.tempdir = previous
 
-    tmp = path.with_suffix(".tmp")
-    with zipfile.ZipFile(tmp, "w", compression=zipfile.ZIP_DEFLATED) as out:
-        for name, data in entries:
-            info = zipfile.ZipInfo(name, date_time=(1980, 1, 1, 0, 0, 0))
-            info.compress_type = zipfile.ZIP_DEFLATED
-            info.external_attr = 0o644 << 16
-            out.writestr(info, data)
-    tmp.replace(path)
+        with (
+            zipfile.ZipFile(raw) as src,
+            zipfile.ZipFile(staged, "w", compression=zipfile.ZIP_DEFLATED) as dst,
+        ):
+            for info in src.infolist():
+                pinned = zipfile.ZipInfo(info.filename, date_time=(1980, 1, 1, 0, 0, 0))
+                pinned.compress_type = zipfile.ZIP_DEFLATED
+                pinned.external_attr = 0o644 << 16
+                with src.open(info) as reader, dst.open(pinned, "w") as writer:
+                    shutil.copyfileobj(reader, writer, 1024 * 1024)
+        staged.replace(out)
+    finally:
+        raw.unlink(missing_ok=True)
+        staged.unlink(missing_ok=True)
 
 
 class BuildError(Exception):
@@ -347,17 +383,29 @@ def check_markup(entry: dict, field: str, label: str) -> None:
 
 
 def validate(
-    entry: dict, key: str, seen: set[tuple[str, str]], lay: Layout, levels: tuple[str, ...]
+    entry: dict,
+    key: str,
+    seen: set[tuple[str, str]],
+    keys: dict[str, str],
+    lay: Layout,
+    levels: tuple[str, ...],
 ) -> None:
     """Reject an entry instead of emitting a card with a blank panel.
 
     Missing media is the failure that does not announce itself: Anki imports the note and
-    renders an empty image or a silent card, so both files are asserted here.
+    renders an empty image or a silent card, so both files are asserted here. Empty is the
+    same failure with a file attached — a clip that edge-tts opened and never finished — so
+    the size is asserted too.
     """
     label = f"{entry.get('phrase', '?')} ({key})"
     for field in REQUIRED_TEXT_FIELDS:
         if not str(entry.get(field, "")).strip():
             raise BuildError(f"{label}: empty {field}")
+    # The phrase and the sense are the GUID, so the build does not wait for the lint to
+    # reject a shape that would fork the note's review history on the next import.
+    problem = identity_problem(str(entry["phrase"]), str(entry["sense"]))
+    if problem:
+        raise BuildError(f"{label}: {problem}")
     if not entry["pronunciation"].startswith("/") or not entry["pronunciation"].endswith("/"):
         raise BuildError(f"{label}: pronunciation must be IPA in slashes")
     level = entry.get("level")
@@ -399,16 +447,39 @@ def validate(
     if identity in seen:
         raise BuildError(f"{label}: duplicate phrase+sense within the kind")
     seen.add(identity)
+    # The key is the shared name of the image and of every mp3, and it is a 32-bit digest,
+    # so two entries *can* land on one. Sharing it would make one card play the other's
+    # audio while `build_audio` skipped the clip as already written, so a collision is a
+    # build failure rather than a quiet mix-up.
+    if key in keys:
+        raise BuildError(f"{label}: media key {key} is already used by {keys[key]}")
+    keys[key] = label
     # The illustration is optional: an entry whose `image` names no file on disk is built
     # without one, instead of importing a card with a broken `<img>`. A path in the field
     # would be baked into the note and break on import, so only a bare filename is allowed.
     image_name = str(entry.get("image") or "").strip()
     if image_name and Path(image_name).name != image_name:
         raise BuildError(f"{label}: image must be a bare filename, got {image_name!r}")
-    # Audio is still mandatory: a missing mp3 renders a silent card with no visible clue.
+    # Audio is still mandatory: a missing mp3 renders a silent card with no visible clue,
+    # and so does an empty one left behind by a failed synthesis.
     for path in [audio_file(lay, key, p) for p in audio_parts(entry)]:
-        if not path.exists():
-            raise BuildError(f"{label}: missing media file {path.name}")
+        if not path.is_file() or path.stat().st_size == 0:
+            raise BuildError(f"{label}: missing or empty media file {path.name}")
+
+
+def card_text(value: str) -> str:
+    """Escape an authored field for the card's HTML.
+
+    The fields are HTML — `bold_markup` emits `<b>` and the image field carries an `<img>`
+    tag — so a definition containing `<`, `>` or `&` would otherwise be parsed as markup
+    and vanish or break the layout. The authored `**` markers contain none of those
+    characters, so escaping first and bolding second leaves the generated `<b>` intact.
+
+    Quotes are deliberately left alone (`quote=False`): these values only ever land in text
+    nodes, never in an attribute, and escaping them would store `don&#x27;t` in the note,
+    where Anki's own search for `don't` would no longer find it.
+    """
+    return html.escape(str(value), quote=False)
 
 
 def make_note(
@@ -425,9 +496,9 @@ def make_note(
     return genanki.Note(
         model=model,
         fields=[
-            entry["phrase"],
-            entry["pronunciation"],
-            entry["definition"],
+            card_text(entry["phrase"]),
+            card_text(entry["pronunciation"]),
+            card_text(entry["definition"]),
             # The field carries the whole tag, not a bare filename. Anki's importer only
             # copies media that it can see referenced in the field text (`<img src>` and
             # `[sound:]`), so a filename the template wrapped later is silently skipped.
@@ -441,23 +512,36 @@ def make_note(
             # template's `{{#...}}` sections test.
             *(
                 [
-                    bold_markup(entry["present_example"]),
-                    bold_markup(entry["past_simple_example"]),
-                    bold_markup(entry["past_participle_example"]),
-                    bold_markup(entry["present_participle_example"]),
+                    *(bold_markup(card_text(entry[field])) for field in VERB_TEXT_KEYS),
                     *(f"[sound:{audio_file(lay, key, p).name}]" for p in VERB_AUDIO_PARTS),
                 ]
                 if is_verb(entry)
                 else [""] * 8
             ),
             # The authored example, required on every note.
-            bold_markup(entry["example"]),
+            bold_markup(card_text(entry["example"])),
             f"[sound:{audio_file(lay, key, 'example').name}]",
         ],
         tags=[f"category::{c}" for c in entry["categories"]]
         + [f"level::{entry['level']}", f"pos::{entry['pos']}"],
         guid=guid,
     )
+
+
+def load_manifest(lay: Layout) -> set[tuple[str, str, str]]:
+    """Return the reviewed `kind + phrase + sense` identities from the plan.
+
+    Only identity is read here: the row's pos, level, categories and gloss belong to
+    `lint_content.py`. Cells are trimmed by `manifest_identities()`, so a hand-edited plan
+    cannot disagree with the lint about the same entry. A missing manifest is a build error
+    rather than "no plan", because `--notes` against a tree without its reviewed plan is
+    exactly the state the manifest exists to prevent.
+    """
+    path = lay.src / MANIFEST_NAME
+    try:
+        return manifest_identities(path)
+    except FileNotFoundError:
+        raise BuildError(f"{path}: manifest is missing; --notes needs {MANIFEST_NAME}") from None
 
 
 def build(kind: dict, test: bool, notes: bool) -> tuple[Path, dict, int]:
@@ -471,10 +555,25 @@ def build(kind: dict, test: bool, notes: bool) -> tuple[Path, dict, int]:
 
     media: list[Path] = []
     entries = load_entries(lay, kind["slug"]) if notes else []
+    plan = load_manifest(lay) if entries else set()
     seen: set[tuple[str, str]] = set()
+    keys: dict[str, str] = {}
     for entry in entries:
+        # The key is derived from the phrase and the sense, so a malformed entry has to be
+        # rejected before `media_key` can raise a bare KeyError past `main()`'s handler.
+        if not str(entry.get("phrase") or "").strip() or not str(entry.get("sense") or "").strip():
+            raise BuildError(
+                f"{kind['slug']}: entry without a phrase or a sense: {sorted(entry)}"
+            )
         key = media_key(GUID_PREFIX[kind["slug"]], entry)
-        validate(entry, key, seen, lay, KIND_LEVELS[kind["slug"]])
+        # The manifest is the reviewed plan, one row per sense; a card that is not in it was
+        # never deduplicated and never agreed on. Lint compares the row's pos, level and
+        # categories; the build only insists that the row exists at all.
+        if (kind["slug"], entry["phrase"], entry["sense"]) not in plan:
+            raise BuildError(
+                f"{entry['phrase']} ({key}): not in {MANIFEST_NAME}; write the plan row first"
+            )
+        validate(entry, key, seen, keys, lay, KIND_LEVELS[kind["slug"]])
         deck.add_note(make_note(kind, model, entry, test, lay))
         image = image_for(lay, entry)
         if image is None:
@@ -489,10 +588,7 @@ def build(kind: dict, test: bool, notes: bool) -> tuple[Path, dict, int]:
 
     lay.out.mkdir(parents=True, exist_ok=True)
     path = lay.out / ident["filename"]
-    genanki.Package(deck, media_files=[str(p) for p in media]).write_to_file(
-        str(path), timestamp=BUILD_MOD
-    )
-    _make_zip_hermetic(path)
+    _write_package(deck, media, path)
     return path, ident, len(entries)
 
 

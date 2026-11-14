@@ -7,6 +7,7 @@ mp3 and the note can never disagree about what an entry is called.
 
 from __future__ import annotations
 
+import csv
 import hashlib
 import json
 import re
@@ -14,6 +15,13 @@ from dataclasses import dataclass
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+
+# The reviewed plan, one row per sense, in the same `src/` or `tests/src/` tree as the cards.
+MANIFEST_NAME = "index.csv"
+
+# Sense slugs are stable identity — half of a note's GUID — so the shape is part of the
+# contract and lives here rather than in one of the tools that has to enforce it.
+SENSE_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 
 
 @dataclass(frozen=True)
@@ -143,6 +151,28 @@ def bold_markup(text: str) -> str:
     return MARKUP_RE.sub(r"<b>\1</b>", text)
 
 
+def identity_problem(phrase: str, sense: str) -> str | None:
+    """Why `phrase` + `sense` cannot be a note GUID, or `None` when they can.
+
+    The GUID is `prefix:phrase:sense` and Anki matches notes by it, so both halves are
+    identity: a trailing space, a capital or a colon changes the GUID without changing the
+    card, which starts its review history over on the next import. Empty values are left to
+    the caller's required-field check. The build and the lint both call this, so the two can
+    never disagree about what a valid identity looks like.
+    """
+    if not phrase or not sense:
+        return None
+    if phrase != phrase.strip():
+        return "phrase has leading or trailing whitespace"
+    if phrase != phrase.lower():
+        return "phrase must be lowercase"
+    if ":" in phrase:
+        return "phrase must not contain ':' (it separates the GUID)"
+    if not SENSE_RE.match(sense):
+        return f"sense must be a kebab-case slug, got {sense!r}"
+    return None
+
+
 # Prefix on the GUID of a test build. Deck/model ids and names already differ, but Anki
 # also matches notes by GUID, so a rehearsal must not share one with production.
 TEST_GUID_PREFIX = "test:"
@@ -159,14 +189,34 @@ def load_entries(layout: Layout, slug: str) -> list[dict]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def manifest_identities(path: Path) -> set[tuple[str, str, str]]:
+    """The plan's `kind + phrase + sense` triples, trimmed exactly as the lint reads them.
+
+    A hand-edited CSV cell can carry a stray space no reviewer can see. Trimming on both
+    sides keeps the lint and the build agreeing about the same row, instead of the lint
+    accepting `run ` and the build then failing with "not in index.csv".
+    """
+    with path.open(newline="", encoding="utf-8") as handle:
+        return {
+            (
+                (row.get("kind") or "").strip(),
+                (row.get("phrase") or "").strip(),
+                (row.get("sense") or "").strip(),
+            )
+            for row in csv.DictReader(handle)
+        }
+
+
 def image_for(layout: Layout, entry: dict) -> Path | None:
     """Return the image the entry names, or `None` when it has none.
 
     The image is named in the entry's `image` field, never from the media key: the picture is
     rendered by hand outside the repo. The field holds the **name without an extension**
     (`"image": "voc_6a648cec"`); the file's format is whatever exists on disk — `.jpg`,
-    `.jpeg`, `.png`, `.gif` or `.webp` is tried in that order. A written extension is still
-    accepted and retried against the same stem, so neither form can strand an image.
+    `.jpeg`, `.png`, `.gif` or `.webp`. A written extension is stripped and retried against
+    the same stem, so a renamed field cannot strand an image, and `IMAGE_EXTS` order stays
+    the only tie-breaker: a converted `.jpg` always beats a stale `.png` left in `media/`,
+    however the entry spells the name.
     A missing file is not an error — the card is built without the illustration rather than
     with a broken `<img>`.
     """
@@ -174,11 +224,8 @@ def image_for(layout: Layout, entry: dict) -> Path | None:
     if not name:
         return None
     path = layout.media / name
-    candidates = [path]
-    if path.suffix.lower() not in IMAGE_EXTS:
-        candidates.extend(path.with_name(path.name + ext) for ext in IMAGE_EXTS)
-    else:
-        candidates.extend(path.with_suffix(ext) for ext in IMAGE_EXTS)
+    stem = path.with_suffix("") if path.suffix.lower() in IMAGE_EXTS else path
+    candidates = [stem.with_name(stem.name + ext) for ext in IMAGE_EXTS]
     return next((candidate for candidate in candidates if candidate.is_file()), None)
 
 

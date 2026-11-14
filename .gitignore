@@ -10,6 +10,13 @@ dist/
 # Generated audio (synthesize with tools/build_audio.py; never commit)
 *.mp3
 
+# Interrupted-write sidecars. The tools stage beside their target and rename, so these only
+# survive a hard kill — and a stray `*.part.jpg` would otherwise look like committed art.
+*.tmp
+*.build
+*.part
+*.part.jpg
+
 # Test builds: throwaway source, media and packages, never committed
 tests/
 

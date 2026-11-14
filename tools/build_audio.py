@@ -7,8 +7,14 @@ replays only the piece they need. Every part uses the pinned female voice; nothi
 is a character's line.
 
 Existing files are never rewritten. TTS is a cloud call and not guaranteed to be
-byte-identical between runs, so the mp3s are committed **inputs** to the build, exactly
-like the images: regenerate only on explicit request, with `--force`.
+byte-identical between runs, so the mp3s are **inputs** to the build, exactly like the
+images: regenerate only on explicit request, with `--force`. They are gitignored — a clone
+runs this step once — so "input" here means "not produced by `build_decks.py`", not "tracked".
+
+A clip is written under a `.part` name and moved into place only once edge-tts produced it:
+`Communicate.save` opens the destination before the first audio arrives, so a dropped
+connection would otherwise leave an empty or half-written mp3 at the real name, which the
+skip check below would report as done forever.
 """
 
 from __future__ import annotations
@@ -34,13 +40,29 @@ from deck_common import (
 
 CONCURRENCY = 3
 
+# Sidecar name for a clip that edge-tts is still writing. Same directory, so the final
+# `replace` is a rename and cannot leave a half file behind.
+PART_SUFFIX = ".part"
+
 
 async def synthesize(entry: dict, key: str, part: str, force: bool, lay: Layout) -> str:
     path = audio_file(lay, key, part)
-    if path.exists() and not force:
+    # A zero-byte file is a failed run that got as far as creating the name, not a clip:
+    # re-synthesize it instead of skipping it for good.
+    if path.is_file() and path.stat().st_size > 0 and not force:
         return f"skip {path.name} (exists)"
+    staged = path.with_name(path.name + PART_SUFFIX)
     communicate = edge_tts.Communicate(part_text(entry, part), VOICE_FEMALE, rate=RATE)
-    await communicate.save(str(path))
+    try:
+        await communicate.save(str(staged))
+        if staged.stat().st_size == 0:
+            raise RuntimeError("edge-tts returned no audio")
+        staged.replace(path)
+    except BaseException:
+        # Includes the cancellation a Ctrl-C raises: never leave a `.part` behind, and never
+        # leave the real name occupied by a clip that was not finished.
+        staged.unlink(missing_ok=True)
+        raise
     return f"wrote {path.name} ({VOICE_FEMALE})"
 
 

@@ -35,22 +35,20 @@ from deck_common import (
     IMAGE_FIELD,
     KIND_LEVELS,
     KIND_TARGET_CARDS,
+    MANIFEST_NAME,
     MARKUP,
     REMOVED_KEYS,
     REQUIRED_TEXT_FIELDS,
     VERB_TEXT_KEYS,
     Layout,
+    identity_problem,
     is_verb,
     layout,
     load_entries,
     markup_spans,
 )
 
-MANIFEST_NAME = "index.csv"
 MANIFEST_COLUMNS = ("kind", "phrase", "sense", "pos", "level", "categories", "gloss")
-
-# Sense slugs are stable identity, so the shape is part of the contract.
-SENSE_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 
 # Every `image_brief` ends with the shared Midjourney block; the scene text differs, the
 # parameters do not. A prompt missing it is not a deck-wide style drift, it is a typo.
@@ -111,17 +109,22 @@ def read_manifest(lay: Layout, report: Report) -> list[dict]:
             return []
         rows = []
         for raw in reader:
+            # Cells are trimmed: the manifest is hand-edited, a stray space is invisible, and
+            # the build trims identically (`deck_common.manifest_identities`). Exact identity
+            # is still enforced on the JSON source, where a space would really change the GUID.
             row = {name: (raw.get(name) or "").strip() for name in MANIFEST_COLUMNS}
             row["_line"] = reader.line_num
             rows.append(row)
     return rows
 
 
-def check_manifest(rows: list[dict], report: Report) -> None:
+def check_manifest(rows: list[dict], report: Report, name: str = MANIFEST_NAME) -> None:
+    """Validate plan rows. `name` is what the row errors point at: the manifest, or a batch's
+    `plan.csv` before it is merged into it."""
     seen: dict[tuple[str, str, str], int] = {}
     phrases: dict[str, set[str]] = {}
     for row in rows:
-        where = f"{MANIFEST_NAME}:{row['_line']}"
+        where = f"{name}:{row['_line']}"
         kind, phrase, sense = row["kind"], row["phrase"], row["sense"]
         label = f"{where} ({phrase or '?'})"
 
@@ -130,10 +133,11 @@ def check_manifest(rows: list[dict], report: Report) -> None:
             continue
         if not phrase:
             report.error(f"{label}: empty phrase")
-        elif phrase != phrase.lower():
-            report.error(f"{label}: phrase must be lowercase")
-        if not SENSE_RE.match(sense):
-            report.error(f"{label}: sense must be a kebab-case slug, got {sense!r}")
+        if not sense:
+            report.error(f"{label}: empty sense")
+        problem = identity_problem(phrase, sense)
+        if problem:
+            report.error(f"{label}: {problem}")
         if row["pos"] not in ALLOWED_POS:
             report.error(f"{label}: unknown part of speech {row['pos']!r}")
         if row["level"] not in KIND_LEVELS[kind]:
@@ -159,7 +163,7 @@ def check_manifest(rows: list[dict], report: Report) -> None:
 
     for phrase, kinds in phrases.items():
         if len(kinds) > 1:
-            report.warn(f"{MANIFEST_NAME}: {phrase!r} is planned in {', '.join(sorted(kinds))}")
+            report.warn(f"{name}: {phrase!r} is planned in {', '.join(sorted(kinds))}")
 
 
 def markup_problem(text: str) -> str | None:
@@ -206,6 +210,11 @@ def check_source(entry: dict, slug: str, manifest: dict, report: Report, seen: d
     for field in REQUIRED_TEXT_FIELDS:
         if not str(entry.get(field, "")).strip():
             report.error(f"{label}: empty {field}")
+    # The phrase and the sense become the note's GUID; check their shape here too, so a
+    # malformed entry is reported as malformed instead of as "not in index.csv".
+    problem = identity_problem(phrase, sense)
+    if problem:
+        report.error(f"{label}: {problem}")
     if not str(entry.get("image_brief", "")).strip():
         report.error(f"{label}: empty image_brief")
     elif not str(entry["image_brief"]).endswith(IMAGE_PARAMETERS):

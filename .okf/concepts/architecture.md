@@ -36,7 +36,9 @@ and the audio tool cannot disagree about what an entry is called.
    card is written. It is deliberately cheap to review and freeze the sense slugs, because
    the slug is the note's identity and re-slugging after import orphans review history.
    `lint_content.py` checks it against the written entries and reports progress and
-   repetition (`--report`).
+   repetition (`--report`). The build reads the same file and refuses an entry that has no
+   row (`not in index.csv`), so `--notes` can never ship a sense that was never planned. It
+   does not re-check the row's pos, level or categories: that comparison stays lint's job.
 1. **Source** — `src/<kind>.json`, one array per kind, one object per entry: `phrase`,
    `sense`, `pronunciation`, `definition`, `image` (the illustration name, no extension), `example`,
    `categories`, `level`, and `image_brief` (a paste-ready Midjourney prompt, never written to
@@ -58,21 +60,33 @@ and the audio tool cannot disagree about what an entry is called.
    `media/<key>-{word,explanation,example}.mp3` and, for verbs,
    `media/<key>-present-example.mp3`, `-present-participle-example.mp3`,
    `-past-simple-example.mp3`, `-past-participle-example.mp3`. One edge-tts call each. Every
-   part uses the pinned female voice; nothing on the card is a character's line. Also an input; `build_audio.py` skips
-   existing files unless `--force`.
+   part uses the pinned female voice; nothing on the card is a character's line. Also an input;
+   `build_audio.py` skips a clip only when it exists **and is non-empty** (`--force` rewrites
+   it), and writes through a `.part` sidecar that is renamed into place on success:
+   `Communicate.save` opens the destination before any audio arrives, so a dropped connection
+   would otherwise leave a 0-byte mp3 that every later run skipped as already done.
 5. **Validation** — every note is rejected unless all text fields are non-empty, the
    pronunciation is IPA in slashes, a `pos::` tag is present, there is exactly one
    `level::` tag, at least one `category::` tag from the controlled list, the phrase is
-   unique within its kind, and every required **mp3** exists. The authored example is
+   unique within its kind, the phrase/sense pair keeps its GUID shape (lowercase,
+   colon-free phrase, kebab-case sense), no two entries share a media key (a 32-bit digest,
+   so a collision is possible and would make one card play another's audio), and every
+   required **mp3** exists **and is non-empty**. The authored example is
    required on every note and must bold its target with `**...**`; a verb must also carry the
    four form examples, and a non-verb
    carrying them is rejected. A missing image is not fatal — the field is left empty — because
-   the file is authored by hand; a missing mp3 is the failure that does not announce itself.
+   the file is authored by hand; a missing or empty mp3 is the failure that does not announce
+   itself. Authored text is HTML-escaped (`&`, `<`, `>`) before `**…**` becomes `<b>`, so a
+   definition containing a comparison sign cannot eat the rest of the card.
 6. **Package assembly** — one deck and one note type per package, with the pinned deck id,
    model id and name; media registered in the package map by bare filename. With no notes
    the model is attached explicitly, otherwise Anki would create a deck with no note type.
-7. **Hermetic zip** — `_make_zip_hermetic()` pins entry timestamps, so rebuilding unchanged
-   input reproduces an identical `.apkg` instead of a spurious byte-level difference.
+7. **Package assembly + hermetic zip** — `_write_package()` writes the package through two
+   sidecars (`<kind>.apkg.build`, then `<kind>.apkg.tmp` with entry timestamps pinned) and
+   moves the finished archive into place with one `replace`. The destination therefore only
+   ever holds a complete package — genanki's own `write_to_file` truncates what was there
+   first — and unchanged input still reproduces a byte-identical `.apkg`. Entries are streamed
+   rather than read whole. genanki's throwaway sqlite is created inside a `TemporaryDirectory`.
 8. **Verification** — unzip and query the bundled sqlite: note and card counts, GUID
    uniqueness, media-map entries present in the zip and byte-identical to `media/`, and
    fields referencing exactly the registered filenames. Then one manual import, because
@@ -83,6 +97,11 @@ and the audio tool cannot disagree about what an entry is called.
 - Deck ids, model ids, deck names and the GUID/media-key derivation live in one place as
   pinned constants (`build_decks.py` + `deck_common.py`), never inline at a call site.
 - Generation is deterministic: same input, byte-identical output.
+- Every file a tool replaces is written beside its target and moved into place with
+  `Path.replace`: `.apkg` packages, `src/index.csv` and `src/<kind>.json` (which `merge_batch.py`
+  writes source-first, so an interruption leaves rows awaiting cards, not cards without a plan
+  row). `merge_batch.py` resolves its paths from `REPO_ROOT` — never the working directory — and
+  takes `--test` like the other tools.
 - `decks/` and generated `*.mp3` are build output, `tests/` is a fully gitignored tree;
   committed `media/` images and `src/` are the real inputs. `--test` on any tool switches the whole layout to
   `tests/src` + `tests/media` + `tests/decks`, so test content is never versioned.

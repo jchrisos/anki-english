@@ -9,6 +9,44 @@ status: active
 
 Newest entries first. ISO dates (`YYYY-MM-DD`).
 
+## 2026-11-13 — Review pass: atomic writes, non-empty audio, one identity rule
+
+- A `claude-python-reviewer` pass over the six tools found ten issues (saved at
+  `docs/reviews/tools-scripts-review-2026-11-13.md`). All were fixed in the tools; no schema,
+  GUID or id decision changed.
+- **Silent cards were already in production data.** The old validation accepted any mp3 that
+  *existed*, so five 0-byte clips (`voc_26d51634-explanation`, `voc_44dd1d39-example`,
+  `voc_9849450a-explanation`, `voc_dc314b9f-explanation`, `voc_32e90bd6-explanation`) had been
+  built into past packages. They were re-synthesized; the build now asserts
+  `size > 0`, and `build_audio.py` writes through a `.part` sidecar and re-synthesizes a
+  0-byte leftover instead of skipping it.
+- **Atomic by default.** `_write_package()` writes the package to a `.build` sidecar, rewrites
+  it streaming into `.tmp` with pinned timestamps, then `replace`s it into place: genanki's
+  `write_to_file` truncates the previous good package before streaming 27k media files into
+  it. `merge_batch.py` does the same for `src/vocabulary.json` and `src/index.csv`
+  (source first) and resolves both paths from `REPO_ROOT`, gaining `--test`.
+- **One identity rule.** `identity_problem()` and `SENSE_RE` moved into `deck_common.py` and
+  are called by both the lint and the build, which now also refuses an entry with no manifest
+  row and a duplicate media key. Previously the build trusted the lint for all three, so a
+  skipped lint could fork a GUID or let two entries share one 32-bit digest.
+- Smaller fixes: `prepare_media.py` skips a stem whose `.jpg` already exists instead of
+  overwriting it, and stages via `.part.jpg`; `image_for()` always resolves the stem through
+  `IMAGE_EXTS` so a converted `.jpg` beats a stale `.png` however the field is spelled;
+  authored text is HTML-escaped before `<b>`; two docstrings that claimed `decks/` and the mp3s
+  were committed were corrected.
+- Verified: lint clean on both trees, all three decks rebuilt (5500/350/800 notes),
+  byte-identical on a second build, `unzip -t` clean, no `.part`/`.tmp`/`.build` left behind,
+  and `$TMPDIR` no longer accumulates a genanki sqlite per run.
+- The revalidation pass then found four Low issues *in the fixes*, all now closed: the staging
+  suffixes (`*.tmp`, `*.build`, `*.part`, `*.part.jpg`) are gitignored; `merge_batch.py` also
+  refuses a phrase/sense pair already present in **the source**, so a rerun after a partial
+  merge cannot append the same 50 cards twice; the build now trims manifest cells exactly as
+  the lint reads them (`manifest_identities()`), so a hand-edited stray space no longer passes
+  the lint and then fails the build; and an entry with no `phrase`/`sense` key is a
+  `BuildError` instead of a raw `KeyError` past `main()`. Source-first order is kept on
+  purpose: an interrupted merge then leaves cards whose plan row is missing, which the lint
+  reports, rather than rows that read as ordinary "planned but not written yet".
+
 ## 2026-11-10 — Vocabulary deck grows to 750 A1 cards; batch merge script
 
 - The same A1 pass continued past its first four chunks to **750 entries / 5,500** in

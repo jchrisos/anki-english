@@ -13,6 +13,16 @@ Nothing is written to `src/` until the whole batch passes the same checks as
 `categories`, every card must pass the source rules, and no phrase may already exist in the
 deck. A failure prints `error:` lines and exits non-zero, leaving `src/` untouched.
 
+Both output files are replaced in one step each, source first: if the run dies between them,
+the source holds cards whose plan row is missing, which the lint reports as an error. The
+other order would leave rows with no cards — the state the workflow already treats as normal
+progress ("planned but not written yet") — so a half-merged batch would look healthy. The
+guard in `check_batch` then refuses the rerun: a phrase already in the manifest, or a
+phrase+sense pair already in the source, is an error, so a partial merge is repaired by hand
+instead of appended twice. Paths are resolved from the repo root rather than the working
+directory, so the script cannot write to a second `src/` by being run from the wrong place,
+and `--test` rehearses the merge against `tests/src/`.
+
 The illustration key is not authored: it is the stable media key derived from
 `phrase + sense`, exactly as `tools/build_audio.py` derives the audio filenames.
 """
@@ -21,21 +31,26 @@ from __future__ import annotations
 
 import argparse
 import csv
+import io
 import json
 import sys
 from pathlib import Path
 
 from deck_common import (
     GUID_PREFIX,
+    KIND_TARGET_CARDS,
+    MANIFEST_NAME,
+    REPO_ROOT,
     VERB_TEXT_KEYS,
     is_verb,
+    layout,
     media_key,
 )
 from lint_content import MANIFEST_COLUMNS, Report, check_manifest, check_source
 
-MANIFEST_PATH = Path("src/index.csv")
-SOURCE_PATH = Path("src/vocabulary.json")
-USED_PATH = Path("tests/batch/used.txt")
+# Record of which phrases a previous batch already claimed. Always the test tree: it is
+# gitignored scratch, never production input.
+USED_PATH = REPO_ROOT / "tests" / "batch" / "used.txt"
 
 # Source key order used by every finished entry.
 KEY_ORDER = ("phrase", "pos", "sense", "pronunciation", "definition", "categories", "level")
@@ -98,15 +113,29 @@ def split_categories(value) -> list[str]:
     return [part.strip() for part in str(value).split(";") if part.strip()]
 
 
-def check_batch(plan: list[dict], entries: list[dict], existing: list[dict], level: str) -> None:
+def check_batch(
+    plan: list[dict],
+    entries: list[dict],
+    existing_rows: list[dict],
+    existing_entries: list[dict],
+    level: str,
+) -> None:
+    """Refuse a batch that disagrees with itself, with its plan, or with what is merged.
+
+    The source is checked as well as the manifest: a run that was interrupted between the two
+    writes already has the cards in `vocabulary.json`, and appending them a second time would
+    duplicate every note without any check noticing.
+    """
     report = Report()
-    check_manifest(plan, report)
+    check_manifest(plan, report, name="plan.csv")
 
     for row in plan:
         if row["kind"] != "vocabulary":
-            report.error(f"{row['_line']}: kind must be vocabulary, got {row['kind']!r}")
+            report.error(f"plan.csv:{row['_line']}: kind must be vocabulary, got {row['kind']!r}")
         if row["level"] != level:
-            report.error(f"{row['_line']}: level must be {level}, got {row['level']!r}")
+            report.error(
+                f"plan.csv:{row['_line']}: level must be {level}, got {row['level']!r}"
+            )
 
     if len(plan) != 50:
         report.error(f"plan.csv: expected 50 rows, got {len(plan)}")
@@ -118,18 +147,29 @@ def check_batch(plan: list[dict], entries: list[dict], existing: list[dict], lev
     for entry in entries:
         check_source(entry, "vocabulary", manifest, report, seen)
 
-    known = {row["phrase"] for row in existing}
+    known = {row["phrase"] for row in existing_rows}
     for row in plan:
         if row["phrase"] in known:
-            report.error(f"{row['_line']}: {row['phrase']!r} is already in the manifest")
+            report.error(f"plan.csv:{row['_line']}: {row['phrase']!r} is already in the manifest")
         known.add(row["phrase"])
+
+    merged = {
+        (str(entry.get("phrase") or ""), str(entry.get("sense") or ""))
+        for entry in existing_entries
+    }
+    for row in plan:
+        if (row["phrase"], row["sense"]) in merged:
+            report.error(
+                f"plan.csv:{row['_line']}: {row['phrase']!r} ({row['sense']}) "
+                "is already in the source"
+            )
 
     for error in report.errors:
         print(f"error: {error}", file=sys.stderr)
     for warning in report.warnings:
         print(f"warning: {warning}", file=sys.stderr)
     if report.errors:
-        raise BatchError(f"{len(report.errors)} batch error(s); src/ was not changed")
+        raise BatchError(f"{len(report.errors)} batch error(s); nothing was written")
 
 
 def normalize(entry: dict) -> dict:
@@ -144,44 +184,90 @@ def normalize(entry: dict) -> dict:
     return {key: entry[key] for key in keys}
 
 
-def append_manifest(rows: list[dict]) -> None:
-    with MANIFEST_PATH.open("a", newline="", encoding="utf-8") as handle:
-        writer = csv.writer(handle)
-        for row in rows:
-            writer.writerow([row[column] for column in MANIFEST_COLUMNS])
+def render_manifest_rows(rows: list[dict], terminator: str) -> bytes:
+    """Render plan rows exactly like the manifest's own writer, so the append is byte-clean.
+
+    The terminator is taken from the file being appended to: the production manifest is
+    `\r\n` and the test one is `\n`, and rewriting the whole file just to normalize it would
+    turn a 50-row append into a 6,650-line diff.
+    """
+    buffer = io.StringIO()
+    writer = csv.writer(buffer, lineterminator=terminator)
+    for row in rows:
+        writer.writerow([row[column] for column in MANIFEST_COLUMNS])
+    return buffer.getvalue().encode("utf-8")
+
+
+def replace_atomically(path: Path, data: bytes) -> None:
+    """Replace `path` in one step, so an interrupted run cannot leave it truncated."""
+    staged = path.with_name(path.name + ".tmp")
+    try:
+        staged.write_bytes(data)
+        staged.replace(path)
+    finally:
+        staged.unlink(missing_ok=True)
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--chunk-dir", required=True, type=Path)
     parser.add_argument("--level", required=True, help="expected CEFR level of the batch")
+    parser.add_argument(
+        "--test",
+        action="store_true",
+        help="merge into tests/src (gitignored) instead of src/",
+    )
     args = parser.parse_args()
 
+    lay = layout(args.test)
+    manifest_path = lay.src / MANIFEST_NAME
+    source_path = lay.src / "vocabulary.json"
+
     try:
+        if not manifest_path.is_file():
+            raise BatchError(f"{manifest_path}: manifest is missing; nothing to merge into")
+        if not source_path.is_file():
+            raise BatchError(f"{source_path}: source is missing; nothing to merge into")
+
         plan = read_plan(args.chunk_dir / "plan.csv")
         entries = read_entries(args.chunk_dir)
-        existing_rows = load_manifest(MANIFEST_PATH)
-        existing_entries = json.loads(SOURCE_PATH.read_text(encoding="utf-8"))
+        existing_rows = load_manifest(manifest_path)
+        try:
+            existing_entries = json.loads(source_path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as exc:
+            raise BatchError(f"{source_path}: invalid JSON ({exc})") from exc
 
-        check_batch(plan, entries, existing_rows, args.level)
+        check_batch(plan, entries, existing_rows, existing_entries, args.level)
         normalized = [normalize(entry) for entry in entries]
 
-        append_manifest(plan)
-        SOURCE_PATH.write_text(
-            json.dumps(existing_entries + normalized, indent=2, ensure_ascii=False) + "\n",
-            encoding="utf-8",
-        )
+        source_text = json.dumps(
+            existing_entries + normalized, indent=2, ensure_ascii=False
+        ) + "\n"
+        manifest_bytes = manifest_path.read_bytes()
+        terminator = "\r\n" if manifest_bytes.endswith(b"\r\n") else "\n"
+        if not manifest_bytes.endswith(b"\n"):
+            manifest_bytes += terminator.encode()
+        manifest_bytes += render_manifest_rows(plan, terminator)
+
+        # Source first, then the manifest: see the module docstring. Each replace is atomic,
+        # so an interruption leaves cards whose plan row is missing — a state the lint
+        # reports — and the source guard in `check_batch` refuses to append them twice.
+        replace_atomically(source_path, source_text.encode("utf-8"))
+        replace_atomically(manifest_path, manifest_bytes)
 
         USED_PATH.parent.mkdir(parents=True, exist_ok=True)
         with USED_PATH.open("a", encoding="utf-8") as handle:
             for row in plan:
                 handle.write(row["phrase"] + "\n")
-    except BatchError as exc:
+    except (BatchError, OSError) as exc:
         print(f"error: {exc}", file=sys.stderr)
         return 1
 
     total = len(existing_entries) + len(normalized)
-    print(f"merged {args.chunk_dir.name}: +{len(normalized)} entries, vocabulary={total}/5500")
+    print(
+        f"merged {args.chunk_dir.name}: +{len(normalized)} entries, "
+        f"vocabulary={total}/{KIND_TARGET_CARDS['vocabulary']}"
+    )
     return 0
 
 
