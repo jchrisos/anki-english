@@ -36,25 +36,6 @@
     "example": "I **wake up** around seven every morning."
   },
   {
-    "phrase": "get dressed",
-    "pos": "verb",
-    "sense": "put-clothes-on",
-    "pronunciation": "/ˈɡɛt ˈdrɛst/",
-    "definition": "to put on your clothes.",
-    "categories": [
-      "daily-routine",
-      "clothes"
-    ],
-    "level": "a1",
-    "present_example": "She **gets dressed** quickly on school days.",
-    "past_simple_example": "He **got dressed** in a hurry.",
-    "past_participle_example": "We have already **gotten dressed** for the party.",
-    "present_participle_example": "The kids are **getting dressed** upstairs.",
-    "image": "pv_7f00aef0",
-    "image_brief": "medium shot from behind, a person pulling a sweater over their head beside an open closet, clothes laid out on the bed, shoes by the door, soft window light, ordinary morning mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
-    "example": "I **get dressed** right after breakfast."
-  },
-  {
     "phrase": "put on",
     "pos": "verb",
     "sense": "clothing-on-body",
