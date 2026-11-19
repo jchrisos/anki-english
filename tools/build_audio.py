@@ -14,7 +14,9 @@ runs this step once — so "input" here means "not produced by `build_decks.py`"
 A clip is written under a `.part` name and moved into place only once edge-tts produced it:
 `Communicate.save` opens the destination before the first audio arrives, so a dropped
 connection would otherwise leave an empty or half-written mp3 at the real name, which the
-skip check below would report as done forever.
+skip check below would report as done forever. The staging closes that for *this* run, but a
+clip truncated at the real name by an older run stays there: the skip check therefore also
+distrusts a file that is far too short to have spoken its text, and re-synthesizes it.
 """
 
 from __future__ import annotations
@@ -22,6 +24,7 @@ from __future__ import annotations
 import argparse
 import asyncio
 import sys
+from pathlib import Path
 
 import edge_tts
 
@@ -44,19 +47,40 @@ CONCURRENCY = 3
 # `replace` is a rename and cannot leave a half file behind.
 PART_SUFFIX = ".part"
 
+# Sanity check on a clip that already sits at the real name. `edge-tts` output is 24 kHz mono
+# at 48 kbps, so a file's size is its duration; Ava at RATE speaks at most about 19 characters
+# a second across every clip in `media/` (median 12.4). A file that claims more than
+# `MAX_CHARS_PER_SECOND` cannot be a fast reading — it is a sentence whose write was cut off,
+# and replaying it is how a silent card reaches a learner. Checked only on text long enough for
+# the average to mean anything: a one-word clip is mostly lead-in silence, not speech.
+AUDIO_BYTES_PER_SECOND = 6000
+MAX_CHARS_PER_SECOND = 22.0
+MIN_CHECKED_CHARS = 12
+
+
+def looks_truncated(path: Path, text: str) -> bool:
+    """Whether an existing clip is far too short to have spoken `text`."""
+    if len(text) < MIN_CHECKED_CHARS:
+        return False
+    seconds = path.stat().st_size / AUDIO_BYTES_PER_SECOND
+    return seconds < len(text) / MAX_CHARS_PER_SECOND
+
 
 async def synthesize(entry: dict, key: str, part: str, force: bool, lay: Layout) -> str:
     path = audio_file(lay, key, part)
-    # A zero-byte file is a failed run that got as far as creating the name, not a clip:
-    # re-synthesize it instead of skipping it for good.
-    if path.is_file() and path.stat().st_size > 0 and not force:
+    text = part_text(entry, part)
+    # A zero-byte file is a failed run that got as far as creating the name, and a truncated
+    # one is a write that was cut off: both are re-synthesized instead of skipped for good.
+    if path.is_file() and not force and path.stat().st_size > 0 and not looks_truncated(path, text):
         return f"skip {path.name} (exists)"
     staged = path.with_name(path.name + PART_SUFFIX)
-    communicate = edge_tts.Communicate(part_text(entry, part), VOICE_FEMALE, rate=RATE)
+    communicate = edge_tts.Communicate(text, VOICE_FEMALE, rate=RATE)
     try:
         await communicate.save(str(staged))
         if staged.stat().st_size == 0:
             raise RuntimeError("edge-tts returned no audio")
+        if looks_truncated(staged, text):
+            raise RuntimeError(f"edge-tts wrote {staged.stat().st_size} bytes, too short to speak the text")
         staged.replace(path)
     except BaseException:
         # Includes the cancellation a Ctrl-C raises: never leave a `.part` behind, and never
@@ -92,7 +116,10 @@ async def run(slugs: list[str], force: bool, test: bool) -> int:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    # `__doc__` is `str | None` to a type checker; every tool here has a docstring, and `None`
+    # is a valid description, so no assert and no crash path if one is ever dropped.
+    summary = __doc__.splitlines()[0] if __doc__ else None
+    parser = argparse.ArgumentParser(description=summary)
     parser.add_argument(
         "--only",
         choices=sorted(GUID_PREFIX),
