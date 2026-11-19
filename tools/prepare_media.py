@@ -67,7 +67,10 @@ def convert(source: Path) -> int | None:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    # `__doc__` is `str | None` to a type checker; every tool here has a docstring, and `None`
+    # is a valid description, so no assert and no crash path if one is ever dropped.
+    summary = __doc__.splitlines()[0] if __doc__ else None
+    parser = argparse.ArgumentParser(description=summary)
     parser.add_argument(
         "--test",
         action="store_true",
