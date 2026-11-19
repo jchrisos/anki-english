@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Build the anki-english deck packages.
 
 Each package contains exactly one deck and one note type. By default it also contains **no

@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Merge one authored batch into the vocabulary manifest and source.
 
 The batch is produced outside this script, in a staging directory, by an authoring agent

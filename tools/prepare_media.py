@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Normalize generated images into small committed JPEGs.
 
 Image models emit 1–3 MB PNGs. Ten of those per package makes a deck the user has to

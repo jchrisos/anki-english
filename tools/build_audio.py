@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Synthesize one mp3 per spoken part with edge-tts.
 
 Each part gets its own clip — the target, the definition, the authored example, and one per

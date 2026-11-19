@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Lint the content manifest and the source entries before cards are built.
 
 The manifest — `src/index.csv` — is the reviewed plan, not the cards: one row per *sense*
