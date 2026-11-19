@@ -86,20 +86,21 @@ KIND_TARGET_CARDS = {
 # Part of speech of the sense being taught. Single-valued, so it gets its own namespace:
 # `tag:pos::verb` stays exact and never mixes with themes or levels.
 ALLOWED_POS = frozenset(
-    """
-    noun verb adjective adverb pronoun preposition conjunction interjection
-    determiner numeral modal-verb auxiliary-verb
-    """.split()
+    [
+        "noun", "verb", "adjective", "adverb", "pronoun", "preposition", "conjunction",
+        "interjection", "determiner", "numeral", "modal-verb", "auxiliary-verb",
+    ]
 )
 
 # Controlled list. Reuse a slug before inventing a near-duplicate: `car` vs `vehicle`
 # would silently split one filter into two.
 ALLOWED_CATEGORIES = frozenset(
-    """
-    color car travel kitchen food work money daily-routine emotions body home
-    technology nature time relationships health education sports shopping weather
-    communication transport clothes animals city music
-    """.split()
+    [
+        "color", "car", "travel", "kitchen", "food", "work", "money", "daily-routine",
+        "emotions", "body", "home", "technology", "nature", "time", "relationships",
+        "health", "education", "sports", "shopping", "weather", "communication",
+        "transport", "clothes", "animals", "city", "music",
+    ]
 )
 
 # Keys that belonged to the retired movie/TV quote block. They are not silently ignored: a
