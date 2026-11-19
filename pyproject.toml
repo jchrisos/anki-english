@@ -1,0 +1,8 @@
+# Editor-only configuration: the tools have no build system and no test runner.
+# `deck_common` and `lint_content` are the sibling modules the tools import, run as
+# `python tools/<tool>.py` from the repo root. Without this, Ruff classifies them with
+# `edge_tts`/`genanki` as third-party and reports I001, asking for the local modules to be
+# merged into the third-party block.
+
+[tool.ruff.lint.isort]
+known-first-party = ["deck_common", "lint_content"]

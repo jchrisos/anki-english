@@ -41,7 +41,6 @@ from deck_common import (
     KIND_TARGET_CARDS,
     MANIFEST_NAME,
     REPO_ROOT,
-    VERB_TEXT_KEYS,
     is_verb,
     layout,
     media_key,
