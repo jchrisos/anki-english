@@ -314,6 +314,14 @@ IPA, examples and image briefs — is done inline here, not delegated.
   `tag:category::*` stays a clean list of themes and level filters stay exact.
 - Media must be registered in the package's media map and referenced by bare filename
   in fields/templates. Absolute or relative paths import as broken references.
+- **A media file is matched by name, so re-importing never refreshes it.** Anki's package
+  importer skips any media name already in `collection.media`, assuming the bytes are the same.
+  A rebuilt `voc_83697ea6-example.mp3` therefore stays the old clip on disk while the note keeps
+  pointing at that same name — verified on 2026-11-18: the re-imported package carried 21,168
+  bytes, the collection still held the old 3,600, and the new file's sha1 appeared nowhere in
+  `collection.media.db2`. Fixed audio or art reaches an existing collection only by removing
+  the old file first (`Tools → Check Media`, or delete it from `collection.media` with Anki
+  closed and copy the new one in). `File → Import` alone is never enough for media.
 - The illustration is optional. The entry names its file in an `image` field; if that file is
   absent, the card is built without a picture and the build prints a warning. Audio is not
   optional: a missing mp3 imports silently as a silent card, so every one of them is asserted.

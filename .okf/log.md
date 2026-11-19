@@ -9,6 +9,32 @@ status: active
 
 Newest entries first. ISO dates (`YYYY-MM-DD`).
 
+## 2026-11-18 — Seven truncated mp3s, and a skip check that can see them
+
+- The `help` example clip (`voc_83697ea6-example.mp3`) was reported as **corrupted** and was:
+  0.60 s / 3.6 KB for a 50-character sentence, cut mid-stream. An audit of all 27,642 clips
+  against the text each speaks found **six more** of the same kind — `voc_44dd1d39-explanation`,
+  `pv_26d182ab-explanation`, `voc_aec6fc98-example`, `voc_4a011ff6-past-simple-example`,
+  `voc_9bced524-past-simple-example`, `voc_8c4ed258-example` — all 0.6–1.1 s.
+- Cause: they were written on 2026-11-10, **three days before** the `.part` staging fix. The
+  old script let `Communicate.save` write straight to the real name, so an interrupted call
+  left a *non-zero* half file, and the skip check (`size > 0`) treated it as finished forever.
+  The staging fixed the run that is interrupted, not the files already damaged.
+- The seven clips were deleted and re-synthesized; all three packages were rebuilt.
+- `build_audio.py` now also rejects an existing clip that claims more than **22 characters per
+  second** — edge-tts output is 48 kbps, so size is duration, and the fastest healthy clip in
+  `media/` reads at 19.4 (median 12.4). Measured against the old damaged sizes it catches 7/7
+  and flags 0/27,635 healthy clips, so the re-run stays a no-op. The same check runs on the
+  freshly staged file, turning a cut-short write into a failure instead of a silent clip.
+- A new clip is now validated *before* the rename, so the `.part` sidecar can no longer promote
+  a truncated take.
+- **Re-importing did not repair the collection, and never can.** Anki matches media by
+  *filename* and skips a name that already exists, so the rebuilt package's 21,168-byte clip
+  never reached `collection.media` — it still held the old 3,600 bytes, and the new file's
+  sha1 was absent from `collection.media.db2`. The seven clips were copied into the collection
+  directly (Anki closed, old files backed up) and `Tools → Check Media` rehashes them. This is
+  now a stated pitfall in `AGENTS.md`: `File → Import` updates notes, never media.
+
 ## 2026-11-13 — Review pass: atomic writes, non-empty audio, one identity rule
 
 - A `claude-python-reviewer` pass over the six tools found ten issues (saved at

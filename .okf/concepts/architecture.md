@@ -26,7 +26,7 @@ and the audio tool cannot disagree about what an entry is called.
 | `tools/build_decks.py` | validate the layout's `src/` and `media/`, assemble the three packages |
 | `tools/lint_content.py` | check `src/index.csv` against `src/<kind>.json` before a build |
 | `tools/deck_common.py` | kind prefixes, media key, spoken script, allowed tags |
-| `tools/build_audio.py` | one edge-tts mp3 per entry, skipping files that exist |
+| `tools/build_audio.py` | one edge-tts mp3 per entry, skipping files that exist and sound complete |
 | `tools/prepare_media.py` | PNG → 900 px JPEG, so a package stays ~2 MB |
 
 ## Stages
@@ -61,10 +61,14 @@ and the audio tool cannot disagree about what an entry is called.
    `media/<key>-present-example.mp3`, `-present-participle-example.mp3`,
    `-past-simple-example.mp3`, `-past-participle-example.mp3`. One edge-tts call each. Every
    part uses the pinned female voice; nothing on the card is a character's line. Also an input;
-   `build_audio.py` skips a clip only when it exists **and is non-empty** (`--force` rewrites
-   it), and writes through a `.part` sidecar that is renamed into place on success:
-   `Communicate.save` opens the destination before any audio arrives, so a dropped connection
-   would otherwise leave a 0-byte mp3 that every later run skipped as already done.
+   `build_audio.py` skips a clip only when it exists, is non-empty **and is long enough to have
+   spoken its text** (`--force` rewrites it), and writes through a `.part` sidecar that is
+   renamed into place on success: `Communicate.save` opens the destination before any audio
+   arrives, so a dropped connection would otherwise leave a 0-byte mp3 that every later run
+   skipped as already done. The staging only protects the run that wrote the file; a clip cut
+   short at the real name by an older run stays there, which is why the skip check also rejects
+   a file that claims more than 22 characters a second (the edge-tts output is 48 kbps, so size
+   is duration, and the fastest clip in `media/` reads at 19).
 5. **Validation** — every note is rejected unless all text fields are non-empty, the
    pronunciation is IPA in slashes, a `pos::` tag is present, there is exactly one
    `level::` tag, at least one `category::` tag from the controlled list, the phrase is
