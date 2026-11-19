@@ -1445,6 +1445,25 @@
     "example": "The police often **let** young drivers **off** with a warning."
   },
   {
+    "phrase": "look for",
+    "pos": "verb",
+    "sense": "search-for-something",
+    "pronunciation": "/ˌlʊk ˈfɔr/",
+    "definition": "to try to find something or someone.",
+    "categories": [
+      "daily-routine",
+      "home"
+    ],
+    "level": "a1",
+    "present_example": "She **looks for** her keys every morning.",
+    "past_simple_example": "We **looked for** the cat all afternoon.",
+    "past_participle_example": "He has **looked for** a new job for months.",
+    "present_participle_example": "I was **looking for** my glasses under the sofa.",
+    "image": "pv_9b71a618",
+    "image_brief": "wide shot from the side of a small living room, a woman kneeling by the sofa and lifting a cushion to check underneath, a phone in her other hand, unopened mail and a cold mug on the coffee table, shoes scattered by the door, flat afternoon light, mildly searching mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "example": "We always **look for** seashells on the beach."
+  },
+  {
     "phrase": "look after",
     "pos": "verb",
     "sense": "care-for-someone",
