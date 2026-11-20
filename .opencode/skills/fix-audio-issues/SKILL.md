@@ -1,16 +1,22 @@
 ---
-name: resolve-github-issues
-description: Resolve issues on this Anki deck repository end to end — list open issues with `gh issue list`, map the issue to the one card it is about, fix it at the source, verify with the repo's own tools, then branch, commit and open a PR. Use this whenever someone asks to fix, resolve, close or triage a GitHub issue, names an issue number or a GitHub issue URL, asks what is open or what to work on next, or reports a bad card in any form — a noisy or robotic clip, a wrong or awkward definition, an example that does not show the target, a missing illustration, a card that will not import. Trigger it for "the audio is noisy", "this definition is wrong", "the deck is missing X" even when no issue number is mentioned.
+name: fix-audio-issues
+description: Fix audio problems in this Anki deck repository end to end — find the report with `gh issue list`, map the quoted words to the one card, reproduce the sound, change what produced it, re-render and install the clip into the live collection. Use this whenever someone says a clip is noisy, buzzing, robotic, garbled, clipped, cut off or silent, reports a mispronounced word, says "rebuild the audio" or "the audio is still wrong", names a GitHub issue about sound, or asks for an audio fix to land in their Anki collection. Also the skill to use when triaging or closing a GitHub issue on this repo: nearly every report here is about a clip.
 ---
 
-# Resolve GitHub Issues
+# Fix Audio Issues
 
-This repo generates three Anki packages from `src/<kind>.json`. An issue is almost always
-about **one card**: a clip with a buzz in it, a definition that reads wrong, an example that
-does not show the target. So the loop is: find the entry, decide which layer is at fault —
-the source text, the generated media, or the packaging — fix it at the source, and prove it
-with the repo's own checks. There is no test suite here; `lint_content.py` and
-`build_decks.py` are the checks.
+Every clip is synthesized by edge-tts from one field of one entry, stored as a gitignored mp3,
+and reaches Anki **by filename**. So an audio report has three possible homes — the text the
+voice was given, the take the voice produced, or the file the collection actually holds — and a
+fix that misses one of them leaves the reporter hearing exactly the same noise.
+
+Most reports here are audio, and most are not what they first appear to be. A buzz that sounds
+like a corrupt file is usually a deterministic artefact of the voice on those phonemes; a clip
+that "did not change" after a rebuild is usually still the old file, because Anki matches media
+by name. Section 4 is the order that actually works.
+
+The other card-level reports — a wrong definition, a missing illustration, a card that will not
+import — run the same loop; section 2 places the fault.
 
 `AGENTS.md` is the contract (manifest first, GUID identity, media rules, level ranges). The
 commands below are the operational summary; when they disagree, `AGENTS.md` wins.
