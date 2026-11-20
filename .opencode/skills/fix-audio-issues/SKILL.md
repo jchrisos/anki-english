@@ -186,6 +186,24 @@ Why the import does not work, learned the hard way:
 The script refuses to run while Anki is open (Anki rewrites the folder and the index on exit),
 finds the profile, and is safe to re-run.
 
+**A reworded sentence and its clip arrive by two different roads.** The clip is copied in by
+name; the text changes only when the rebuilt package is imported. An import that leaves
+*Update notes* at *If newer* updates **nothing**: `BUILD_MOD` is a fixed constant, so the
+incoming note `mod` equals the one already stored and Anki skips it without a word — the card
+then shows the old sentence while playing the new clip, and the reporter's follow-up is
+"the audio was fixed, but the text is different". So a wording fix also needs a rebuild and an
+import with *Update notes: Always*:
+
+```sh
+.venv/bin/python tools/build_decks.py --notes --only collocations
+# then File -> Import decks/collocations.apkg, Update notes: Always
+scripts/check-collection.py --key col_d1e334e5        # Anki must be quit
+```
+
+`check-collection.py` compares the live note text and tags with `src/` by GUID and exits 1 on
+drift. It cannot import (there is no CLI for that), so a red result is the hand-back: name the
+package, the two dialog settings, and the one card to read.
+
 When the clean lever is wording, prefer the smallest edit that keeps the meaning and the
 target intact: moving a particle ("put plates … out" → "put out plates …") or reordering
 ("She washes her hands before dinner" → "Before dinner, she washes her hands") beats rewriting
@@ -254,6 +272,10 @@ read it when the issue is "every card sounds the same".
 and plays, that `find-entry.py` no longer reports `MISSING`, and that it has been installed
 into the collection (section 4).
 
+**Neither the build nor the lint sees the collection.** `check-collection.py` is the only check
+that compares the live note text and tags with `src/`; run it after any import and expect
+`collection matches src/`.
+
 ## 8b. When the fix produces no committable diff
 
 `media/` mp3s are **gitignored**, and `decks/*.apkg` is build output. So a perfectly real fix —
@@ -318,6 +340,11 @@ confirm — usually a listen — and how to hear it.
   regenerated clip gets `scripts/install-anki-media.py <name>` in the same run, with Anki quit.
   Never hand this back as advice without doing it, and never claim a clip is fixed when only
   `media/` changed.
+- **Text and audio reach the collection by different roads, so a reword can half-land.** The
+  clip is installed by name; the text needs a package import with *Update notes: Always*.
+  `BUILD_MOD` is fixed, so leaving the setting at *If newer* updates nothing — the card keeps
+  the old sentence beside the new clip. Before closing a wording fix, `check-collection.py`
+  must be green or the import must be named in the hand-back.
 - **`media/` is one gitignored tree shared by every branch.** Switch branches and the mp3s on
   disk no longer match the source; `find-entry.py` will show a clip whose text disagrees with the
   entry. Re-run `build_audio.py --key …` after checking out the branch that holds the text.
