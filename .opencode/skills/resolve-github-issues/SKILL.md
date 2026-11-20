@@ -1,284 +1,301 @@
 ---
 name: resolve-github-issues
-description: Resolve GitHub issues end to end — list open issues with `gh issue list`, help the person pick one, then branch, fix, test, commit, push and open a PR that closes it. Use this whenever someone asks to fix, resolve, close, triage or "take a look at" a GitHub issue, names an issue number ("fix #42", "what's in issue 17"), asks what is open in a repo or what to work on next, mentions `gh issue list` or the issue backlog, or points at a GitHub issue URL. Also use it when a repo has an open-issue backlog and the person wants the next task, even if they never say the word "issue".
+description: Resolve issues on this Anki deck repository end to end — list open issues with `gh issue list`, map the issue to the one card it is about, fix it at the source, verify with the repo's own tools, then branch, commit and open a PR. Use this whenever someone asks to fix, resolve, close or triage a GitHub issue, names an issue number or a GitHub issue URL, asks what is open or what to work on next, or reports a bad card in any form — a noisy or robotic clip, a wrong or awkward definition, an example that does not show the target, a missing illustration, a card that will not import. Trigger it for "the audio is noisy", "this definition is wrong", "the deck is missing X" even when no issue number is mentioned.
 ---
 
 # Resolve GitHub Issues
 
-Take an open GitHub issue and carry it to a merged-ready pull request: find it, understand
-it, fix the real cause, prove the fix, and open a PR that closes the issue on merge.
+This repo generates three Anki packages from `src/<kind>.json`. An issue is almost always
+about **one card**: a clip with a buzz in it, a definition that reads wrong, an example that
+does not show the target. So the loop is: find the entry, decide which layer is at fault —
+the source text, the generated media, or the packaging — fix it at the source, and prove it
+with the repo's own checks. There is no test suite here; `lint_content.py` and
+`build_decks.py` are the checks.
 
-The point of the workflow is that the issue is the **spec**, not a suggestion. A PR that
-solves something adjacent to what the issue asked is worse than no PR, because it moves the
-issue to "looks handled" while the original problem stays. Read the issue closely, reproduce
-what it describes, and check the fix against the reporter's own words before declaring done.
+`AGENTS.md` is the contract (manifest first, GUID identity, media rules, level ranges). The
+commands below are the operational summary; when they disagree, `AGENTS.md` wins.
 
 ## 0. Preflight
 
-Run these before touching anything; each one fails loudly and cheaply if something is wrong.
-
 ```sh
-gh auth status                                   # must show a logged-in account
+gh auth status
 gh repo view --json nameWithOwner,defaultBranchRef --jq '"\(.nameWithOwner) default=\(.defaultBranchRef.name)"'
-git status --porcelain                           # must be clean before branching
+git status --porcelain        # must be empty
 git branch --show-current
 ```
 
-- **Dirty working tree** — stop and ask. Committing someone else's half-finished work into a
-  fix branch makes the PR unreviewable and the history a lie.
-- **No `gh` or not authenticated** — say so and offer the manual path (the person opens the
-  issue URL themselves) instead of guessing.
-- **Detached HEAD or the default branch is not what you expect** — resolve before branching.
+Stop if the tree is dirty — committing someone else's half-finished content into a fix branch
+makes the PR unreviewable. Needs `.venv` with `requirements.txt` installed:
 
-Also read the repo's own instructions now, not later: `AGENTS.md`, `CLAUDE.md`, and the
-`Makefile` / `package.json` / `gradlew` / `go.mod` at the root. They dictate the branch
-naming, the test command and the commit style, and a PR that ignores them gets bounced.
+```sh
+.venv/bin/python -c "import genanki, edge_tts" || .venv/bin/pip install -r requirements.txt
+```
 
 ## 1. List the issues and let the person choose
 
-Default to the repo of the current directory; accept `-R owner/repo` when they name another.
-An issue number or URL given up front skips the listing — take it directly.
+```sh
+scripts/list-issues.sh                     # 50 most recently updated open issues
+scripts/list-issues.sh --label bug         # any `gh issue list` filter passes through
+scripts/list-issues.sh --assignee @me
+```
+
+An issue number or URL given up front skips the listing.
+
+**Titles here are not unique** — two open issues were both "Audio with noise" and were
+different defects. Read the body before choosing or dismissing anything; never triage on the
+title.
+
+## 2. Read the issue, then map it to one entry
 
 ```sh
-scripts/list-issues.sh                       # 50 most recently updated open issues
-scripts/list-issues.sh --label bug           # narrowing filters pass through to gh
-scripts/list-issues.sh --assignee @me -L 100
-scripts/list-issues.sh -R owner/repo
+gh issue view <n> --json number,title,body,state,labels,author,comments,createdAt
+scripts/find-entry.py washes her hands          # the quoted text, not the issue number
+scripts/find-entry.py --kind collocations "set the table"
 ```
 
-The raw command behind it, if you need JSON:
+`find-entry.py` prints the kind, phrase, sense, **media key**, and every clip with its size and
+the exact text it speaks:
+
+```
+collocations: wash your hands  (sense: clean-your-hands, level: a1)
+  key: col_d1e334e5
+  present-example   20016 bytes  'Before dinner, she washes her hands.'
+```
+
+That is how you learn which of the 3–7 clips is at fault, and whether one is `MISSING`. Read
+the comments too — reproductions and "actually intended" verdicts live there.
+
+Then place the fault in one layer, because the fix is completely different:
+
+| Symptom | Layer | Where it is fixed |
+|---|---|---|
+| awkward, wrong or unnatural wording; a definition off the sense | source | `src/<kind>.json` |
+| noisy, robotic, garbled or clipped audio | generated media | `tools/build_audio.py`, then the text if needed |
+| card imports but shows nothing: no sound, no tag, blank field | packaging | `tools/build_decks.py`, templates, tags |
+| no illustration on the card | media input | the `image_brief`, rendered outside the repo |
+| a planned sense that never became a card | manifest | `src/index.csv`, then the entry |
+
+## 3. Reproduce
+
+**Content** — read the entry in `src/<kind>.json` and compare it with what the issue quotes.
+The source is the truth; there is nothing to run.
+
+**Audio** — play the clip the issue is about:
 
 ```sh
-gh issue list --state open --limit 50 \
-  --json number,title,labels,updatedAt,assignees,comments \
-  --jq '.[] | "#\(.number) [\([.labels[].name]|join(","))] \(.title) (\(.comments|length) comments)"'
+afplay media/col_d1e334e5-present-example.mp3
 ```
 
-Show the list, then ask which issue to take — one question, not an interrogation. If the
-person already named one, skip the prompt. Prefer issues that are open, unassigned, and
-labelled as bugs/enhancements over ones already being worked on; a comment thread that stalls
-mid-way is a signal someone else has a branch open.
-
-When they say "you pick", choose the smallest self-contained issue that does not need
-product input — a good first PR beats an ambitious one that stalls.
-
-## 2. Read the whole issue
+**Packaging** — build and read the counts:
 
 ```sh
-gh issue view <n> --json number,title,body,state,labels,assignees,author,comments,createdAt
+.venv/bin/python tools/build_decks.py --notes
 ```
 
-Read the **comments**, not just the body. The reproduction steps, the maintainer's decision,
-the "we tried this and it broke X" warning, and the "won't fix, actually intended" verdict all
-live there. Missing them is how a PR ends up re-litigating a settled question.
+A plain build ships **empty** packages (`--notes` is what includes `src/<kind>.json`), so a
+"card is missing" report is often someone having built without it — check that before hunting
+for a bug.
 
-Then classify it before writing code:
+**Perceptual audio reports are the common case here** and cannot be reproduced by measuring.
+Go to section 4 rather than guessing.
 
-| Kind | Move |
-|---|---|
-| Bug with a reproduction | Fix the cause, add a regression test. |
-| Bug without a reproduction | Reproduce it yourself first; if you cannot, ask for the missing detail. |
-| Perceptual bug (audio artifact, flicker, "feels slow") | Measure what is measurable, compare against a control, and let the reporter judge — see step 3. |
-| Feature request | Confirm the shape with the person before implementing — scope is a product decision. |
-| Question / docs / config | Answer or patch docs; usually no code PR. |
-| Duplicate / already fixed / by design | Say so with evidence and stop; closing is the right resolution. |
-| Too vague to act on | Ask for specifics in one message; do not invent a requirement. |
+## 4. Audio reports: measure, then a one-variable ladder
 
-Never manufacture a code change to make an issue look resolved. "This one is a duplicate of
-#12" is a complete outcome.
+A "noise" in a clip has burned a whole session before, so follow the order. The failure mode
+to avoid is rebuilding the clip, declaring it fixed, and being told it is still noisy.
 
-## 3. Reproduce, then find the cause
-
-Locate the code the issue points at (search for the error text, the endpoint path, the field
-name, the string in the screenshot). Reproduce the failure — run the failing test, the
-command, or the request — **before** editing. A fix you cannot see fail first is a guess, and
-guesses are what turn a one-line bug into a three-file diff.
-
-Write down, in one or two sentences: what breaks, why, and where. If that sentence is hard to
-write, keep reading — you do not yet understand the issue.
-
-**When the failure is perceptual** (a hiss in a clip, a stutter, a visual jank) you cannot
-reproduce it by running anything — you have no ears or eyes on the artifact. Do not skip
-straight to "could not reproduce", and do not assume regeneration will cure it. Work in this
-order:
-
-1. **Measure, against controls.** Peak/RMS/clipping, energy spikes and dropouts, noise floor,
-   frame timings — and compare the reported case with cases nobody complained about. "Inside
-   the control range" is a real finding: it rules out corruption, clipping and gross coding
-   damage. It does **not** mean nothing is wrong, and it does not mean "it was a bad take".
-2. **Separate a random take from a deterministic performance.** Re-render once and compare
-   length and onset, not bytes. Many cloud generators differ in ~half their samples while
-   keeping duration and timing identical — same performance, different dither. If that is what
-   you see, regeneration **cannot** remove the defect and saying "rebuilt, try again" wastes
-   the reporter's evening. Count it out loud and stop proposing it.
-3. **Build a one-variable ladder and let the reporter judge.** Change exactly one thing per
-   variant so the answer localises the cause: encode/bitrate, speed, voice, and the wording
-   itself. Name the files A/B/C/D, say what each one isolates, and ask which sound clean. One
-   round trip with four labelled clips beats five rounds of guessing, and it turns a vague
-   "still noisy" into a specific lever. Keep the failing case in the set as the reference.
-4. **Fix the source, not the artifact.** Once a clean variant is identified, change the thing
-   that produced the bad one — the phrase, the rate, the voice setting — and re-render. A
-   hand-edited or post-processed file is not reproducible from the repo.
-
-Say plainly that the verdict is the reporter's, and give exact play/compare commands. Never
-claim a perceptual fix is verified on your own authority — you could not hear the defect to
-begin with.
-
-When the clean variant is a change to **authored content** (a sentence, a label), prefer the
-smallest edit that keeps the meaning and the thing being taught intact: reordering or moving a
-particle beats rewriting the sentence, and beats changing a project-wide setting like the voice
-or the rate for every card.
-
-## 4. Checkpoint the plan
-
-For anything beyond a trivial fix (more than roughly one file, or a design choice, or a
-behavior change), state the plan briefly before implementing:
-
-> Issue #42: `parse_date` crashes on an empty string because it indexes `[0]` without a
-> length check. Plan: guard the empty case in `src/date.py`, add a regression test for `""`
-> and for whitespace, run `pytest`.
-
-This is cheap and catches the case where the person meant something else by the issue. For a
-typo or an obvious one-liner, just fix it and say what you did.
-
-## 5. Branch
-
-Keep the issue and the branch linked so GitHub shows the work in the issue timeline:
+**1. Measure against controls.** The suspect is probably not corrupt, and saying so with numbers
+is useful:
 
 ```sh
-gh issue develop <n> --checkout                    # creates the linked branch from the default branch
+ffmpeg -hide_banner -nostats -i media/<key>-<part>.mp3 \
+  -af astats=metadata=1:reset=0 -f null - 2>&1 | grep -E "Peak level|RMS level|DC offset"
 ```
 
-If that is unavailable (older `gh`, fork, protected base), fall back to:
+Peak, RMS, DC offset, 10 ms spikes and dropouts, and lead-in noise floor, compared with a few
+clips nobody complained about. "Inside the control range" rules out corruption and clipping.
+It does **not** mean nothing is wrong, and it does not mean "bad take, rebuild it".
+
+**2. Tell a random take from a deterministic performance.** Re-synthesize once and compare
+**length and speech onset, not bytes**:
 
 ```sh
-git switch -c fix/<n>-<short-slug> origin/<default-branch>
+.venv/bin/python tools/build_audio.py --force --key <key>   # writes the real files: back them up first
 ```
 
-Use the repo's own prefix convention if it has one (`fix/`, `feat/`, `bugfix/`, ticket ids);
-`AGENTS.md` and recent branch names (`git branch -r --sort=-committerdate | head`) tell you.
-Never commit the fix straight onto the default branch.
+Two takes that differ in ~half their bytes while keeping identical duration and onset are the
+**same performance with different dither**. Regeneration then cannot remove the defect, and
+proposing it again wastes the reporter's evening. This is exactly what happened on #1 and #2:
+Ava buzzed on those two strings and every rebuild buzzed identically.
 
-## 6. Implement the smallest correct change
-
-- Fix the **cause** named in step 3, not the symptom the reporter saw.
-- Stay inside the issue's blast radius. Drive-by refactors, formatting runs and dependency
-  bumps make the diff unreviewable and hide the actual change — open a separate issue instead.
-- Follow local conventions from `AGENTS.md` / the `Makefile`: naming, layering, error style,
-  how tests are written. Match the surrounding code rather than importing your own taste.
-- If a schema or migration change is involved, follow the repo's migration rules (numbered
-  SQL, generated migrations) — a fix that only works on a fresh database is not a fix.
-- No secrets, tokens, or machine-specific paths in the diff.
-
-## 7. Prove it
-
-Run the repo's own checks — the narrow one first, then the full suite if it is fast:
+**3. Build a ladder and let the reporter judge.** One variable per variant, all written to a
+scratch directory so `media/` is untouched — encode, speed, voice, then wording:
 
 ```sh
-# pick what the repo actually uses
-make test
-./gradlew test --tests "fully.qualified.Class"
-./mvnw test -Dtest=Class#method
-go test ./pkg -run TestName
-npm test        # or: pnpm test / cargo test / pytest
+mkdir -p /tmp/v
+.venv/bin/python - <<'PY'
+import asyncio, edge_tts
+text = "She washes her hands before dinner."
+async def main():
+    await edge_tts.Communicate(text, "en-US-AvaNeural", rate="-10%").save("/tmp/v/A.mp3")   # as shipped
+    await edge_tts.Communicate(text, "en-US-AvaNeural", rate="+0%").save("/tmp/v/C.mp3")    # speed
+    await edge_tts.Communicate(text, "en-US-JennyNeural", rate="-10%").save("/tmp/v/D.mp3") # voice
+asyncio.run(main())
+PY
 ```
 
-Add a regression test that **fails without the fix**. Then verify it fails on the old code
-(`git stash` the fix, run it, unstash) — a test that passes either way proves nothing. Note:
-some repos have no test harness (this one says so in `AGENTS.md`); in that case run the
-manual reproduction from step 3 and record the command and its output in the PR body.
+Name the files A/B/C/D, say what each isolates, and ask which sound clean. Keep the failing
+case in the set as the reference. One round trip with four labelled clips beats five rounds of
+"still noisy" — it turns a vague report into a specific lever.
 
-Report honestly: if the full suite has unrelated pre-existing failures, say which ones and
-show that they also fail on the base branch.
-
-## 7b. When the fix produces no committable diff
-
-Not every issue resolves into a diff. Build artifacts, generated media, `.gitignore`d outputs,
-linter/formatter runs, dashboard and CI settings, database rows — the fix can be real, verified
-and still leave `git status` clean. Check for this **before** step 8: if the only thing you
-changed is untracked or ignored, `git diff` will be empty and steps 8–9 have nothing to do.
-
-```
-git status --short        # is anything staged-able?
-git diff --stat           # empty? the fix lives outside version control
-```
-
-Recognise the shapes:
-
-| Shape | Resolution |
-|---|---|
-| Regenerated artifact (media, lockfile, build output) | Do the regeneration, verify it, and report it as a local action. No branch, no PR. |
-| The *tool* cannot do what the issue asks | Fix the tool — that **is** the committable change, and it is usually the real root cause of the issue being hard to resolve. |
-| Config/state outside the repo (CI, hosting, dashboard) | Report the exact change and where it lives; a PR cannot carry it. |
-| Docs already correct | Say so with evidence; the resolution is "no code change needed". |
-
-Then prune the tail: skip the branch, commit and PR, and in the report state what you did,
-what you verified, and what remains for a human to confirm (a listen, a look, a re-import).
-Never open an empty PR, and never invent an unrelated change to justify one.
-
-If the artifact is ignored *and* the consumer caches it by name, say that too — a rebuilt file
-that the importer skips is a fix that will not reach the person who reported the bug.
-
-## 8. Commit
-
-One logical change per commit, message in the repo's existing style (check `git log --oneline -15`).
-Reference the issue so GitHub links the commit:
+**4. Fix the source, not the artifact.** Once a clean variant exists, change what produced the
+bad one and re-render. Never hand-edit an mp3; a post-processed file is not reproducible from
+the repo.
 
 ```sh
-git add <specific files>          # never `git add -A` blindly; review with `git status`
-git commit -m "fix(date): guard empty input in parse_date
-
-Closes #42"
+.venv/bin/python tools/build_audio.py --force --key col_d1e334e5     # 7 clips
 ```
 
-Conventional Commits (`fix(scope): …`) is a safe default when the repo has no visible style.
+Without `--key` this re-synthesizes the **whole kind** — 4,464 collocation clips to repair one.
 
-## 9. Open the pull request
+When the clean lever is wording, prefer the smallest edit that keeps the meaning and the
+target intact: moving a particle ("put plates … out" → "put out plates …") or reordering
+("She washes her hands before dinner" → "Before dinner, she washes her hands") beats rewriting
+the sentence, and both beat changing a project-wide setting like the voice or `RATE`.
+
+The verdict is the reporter's. Never claim an audio fix verified on your own authority.
+
+## 5. Checkpoint the plan
+
+For anything beyond a one-word reword, state it before editing:
+
+> #1: Ava buzzes on "She washes her hands before dinner." — a vocoder artefact, not the take or
+> the codec; three rewordings read clean. Plan: use "Before dinner, she **washes her hands**.",
+> re-render `--key col_d1e334e5`, lint, build.
+
+## 6. Branch
+
+```sh
+gh issue develop <n> --checkout        # linked branch, so the issue timeline shows the work
+```
+
+Fallback: `git switch -c fix/<n>-<slug> origin/main`. Never commit onto `main`.
+
+## 7. Implement
+
+The rules that decide whether a change is acceptable:
+
+- **Manifest first.** `src/index.csv` is the reviewed plan, one row per sense. A new card needs
+  its row before the entry; an existing card's wording fix does not.
+- **Identity is sacred.** A note's GUID is kind prefix + `phrase` + `sense`, and the media key
+  is a hash of the same two. Changing **`phrase` or `sense`** creates a new note and orphans
+  review history and every clip. Changing a definition or an example does not — so prefer
+  rewording those over renaming the thing.
+- **Every authored example bolds the target** with one `**…**` pair (two when a phrasal verb
+  splits), and shows the target **in the entry's own form** — the base form on the front.
+- **A verb needs four form examples**, and a non-verb must not carry those keys.
+- **`image_brief` derives from the definition, never the example.** Swapping an example never
+  justifies editing a brief; changing the definition or the sense does.
+- **Levels are enforced**: A1–C1 for vocabulary, A1–B2 for phrasal verbs and collocations. No
+  C2 anywhere. Exactly one `level::` tag, at least one known `category::` tag.
+- **Content only on demand.** Never seed a placeholder card, a starter list, or a "test" entry
+  to exercise the pipeline.
+- **Never hand-edit an `.apkg`** and never change a model id to make fields fit; field-list
+  changes need a new model generation and are a schema decision, not a fix.
+- Content wording is authored inline. The rules for US English, GA IPA, register and pt-BR
+  interference are in `.opencode/agents/american-english-teacher.md`; do not delegate to
+  another model.
+
+## 8. Verify
+
+```sh
+.venv/bin/python tools/lint_content.py --report      # manifest + source agreement, repetition
+.venv/bin/python tools/build_decks.py --notes        # 5,500 / 350 / 800 notes
+```
+
+Expect `clean: 0 warning(s)` and those three counts. The lint catches a bad kind, part of
+speech, category, level, sense slug, duplicate `kind + phrase + sense`, a source entry missing
+from the manifest, unbolded targets, verb rows on a non-verb, bad IPA, and a missing Midjourney
+parameter block — so a green lint is a real signal, not a formality (there is no CI or
+pre-commit hook to catch what you skip).
+
+`--report` prints the most repeated example openers, image-brief openers and camera angles;
+read it when the issue is "every card sounds the same".
+
+**Audio is not validated by the lint.** After any `build_audio.py` run, check the clip exists
+and plays, and that `find-entry.py` no longer reports `MISSING`.
+
+## 8b. When the fix produces no committable diff
+
+`media/` mp3s are **gitignored**, and `decks/*.apkg` is build output. So a perfectly real fix —
+a regenerated clip, a rebuilt package — leaves `git status` empty. Check before committing:
+
+```sh
+git status --short
+```
+
+If nothing is staged-able, do not invent a change to justify a PR and do not open an empty one.
+Report the local action instead: what you regenerated, how you verified it, and that a rebuild
+from source reproduces it. If the *tool* could not do what the issue needed, that tool change
+**is** the committable fix.
+
+## 9. Commit
+
+Conventional commits, matching the log (`git log --oneline -15`): `fix(content):`,
+`feat(tools):`, `chore(tools):`, `docs:` … Stage specific files, never `git add -A`.
+
+```sh
+git commit -F - <<'EOF'
+fix(content): reword the present example for "wash your hands"
+
+Ava renders a buzz on "She washes her hands before dinner." … three rewordings
+read clean; chose the reordering because it keeps every word and the target form.
+
+Closes #1
+EOF
+```
+
+## 10. Open the pull request
 
 ```sh
 git push -u origin HEAD
-
-gh pr create --base <default-branch> --title "fix(date): guard empty input in parse_date" \
-  --body "$(cat <<'EOF'
+gh pr create --base main --title "…" --body-file - <<'EOF'
 ## Summary
-Fixes #42 — `parse_date("")` crashed with `IndexError` because the empty string was indexed
-before the length check. Now returns `None`, matching the function's documented behaviour for
-unparseable input.
-
 ## Changes
-- `src/date.py`: guard the empty/whitespace case in `parse_date`
-- `tests/test_date.py`: regression tests for `""` and `"   "`
-
 ## Testing
-- `pytest tests/test_date.py` — passes
-- Confirmed both new tests fail on the base commit without the fix
 EOF
-)"
 ```
 
-`Fixes #42` / `Closes #42` in the body is what actually closes the issue on merge — do not
-close the issue by hand afterwards, and do not claim it is fixed before the PR exists.
+- **`Closes #n`** when the PR resolves the issue on merge.
+- **`Refs #n`** when the PR is necessary but not sufficient — a tool that makes the repair
+  possible, or a fix the reporter still has to confirm by ear. Auto-closing then hides an open
+  problem behind a merged PR.
+- Say in the body that audio is **not** in the diff when it is not, and that `build_audio.py`
+  regenerates it from source.
 
-Use `Refs #42` instead when the PR is **necessary but not sufficient** — it fixes the tool that
-rebuilds the broken artifact, or one of several causes, or needs the reporter to confirm the
-result. Auto-closing in that case hides an unresolved issue behind a merged PR.
+Never force-push a shared branch, and never close or relabel the issue by hand.
 
-Never `git push --force` to a shared branch, and never open the PR against the wrong base
-(e.g. `main` when the repo releases from `develop`).
+## 11. Report
 
-## 10. Report
-
-Close the loop with: the issue number and title, the one-sentence root cause, the files
-changed, the exact test command and result, and the PR URL. If anything was left out of scope,
-say what and why.
+Give the issue number, the one-sentence cause, the layer that was at fault, the files changed,
+the exact commands run and their results, and the PR URL. Say what is still the reporter's to
+confirm — usually a listen — and how to hear it.
 
 ## Guardrails
 
-- **No PR without a verified fix.** If tests fail or the reproduction still fails, say so and
-  show the failure — an honest "blocked on X" is better than a green-looking PR.
-- **One issue per branch and PR.** Unrelated changes go to their own issue.
-- **Do not close, label, assign or edit the issue** unless asked; the merged PR does the
-  closing, and label changes are the maintainer's call.
-- **Ask before touching `main`, rewriting history, or pushing over someone else's branch.**
-- **If the issue contradicts the code's documented behaviour** — the docs say `None`, the
-  issue says it should raise — surface the conflict instead of silently choosing a side.
+- **A re-import does not refresh media.** Anki matches media by name and keeps what it already
+  has, so an existing collection plays the old take forever. Fixing a clip means removing the
+  old file (`Tools → Check Media`, or delete it with Anki closed) — `File → Import` alone is not
+  enough. Say this every time a clip changes.
+- **`media/` is one gitignored tree shared by every branch.** Switch branches and the mp3s on
+  disk no longer match the source; `find-entry.py` will show a clip whose text disagrees with the
+  entry. Re-run `build_audio.py --key …` after checking out the branch that holds the text.
+- **Audio is not optional, illustrations are.** A missing mp3 imports silently as a silent card;
+  the build asserts every clip. A missing image is a warning and a card without a picture.
+- **Model ids are on their seventh generation.** Dropping or adding a field means a new id, new
+  notes, and lost history — escalate instead of "just adding a field".
+- **Targets are planning numbers, not assertions.** A build reports progress (`notes=120/5500`);
+  never pad a deck to hit one.
+- **One model only.** No `model` override on subagents, and do not call `claude-headless`,
+  `claude-plan-creator`, `claude-plan-validator`, `java-legacy-architect` or browser/computer-use
+  tools.
