@@ -28,29 +28,13 @@ import hashlib
 import os
 import shutil
 import sqlite3
-import subprocess
 import sys
 from pathlib import Path
 
+from anki_collection import anki_running, find_media_dir
+
 REPO_ROOT = Path(__file__).resolve().parents[4]
 SOURCE_MEDIA = REPO_ROOT / "media"
-ANKI_ROOT = Path.home() / "Library" / "Application Support" / "Anki2"
-
-
-def anki_running() -> bool:
-    return subprocess.run(["pgrep", "-x", "Anki"], capture_output=True).returncode == 0
-
-
-def find_media_dir(override: str | None) -> Path:
-    if override:
-        return Path(override).expanduser()
-    candidates = sorted(ANKI_ROOT.glob("*/collection.media"))
-    if not candidates:
-        sys.exit(f"no collection.media under {ANKI_ROOT}")
-    if len(candidates) > 1:
-        listing = "\n  ".join(str(c) for c in candidates)
-        sys.exit(f"several profiles found; pick one with ANKI_MEDIA:\n  {listing}")
-    return candidates[0]
 
 
 def sha1(path: Path) -> str:

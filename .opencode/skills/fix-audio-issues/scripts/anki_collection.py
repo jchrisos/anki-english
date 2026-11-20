@@ -48,11 +48,39 @@ SORT_FIELD = 0
 
 MEDIA_TAG_RE = re.compile(r"<[^>]+>|\[sound:[^\]]*\]")
 
+# Anki 25.x on macOS runs as a Python process launched out of `AnkiProgramFiles` with
+# `sys.argv[0] = 'Anki'`, so the process **name** is `python`: `pgrep -x Anki` never matched,
+# and the guard silently passed with Anki open. These are what its executable path carries
+# instead — plus one argv marker for a source checkout run.
+ANKI_EXEC_MARKERS = ("AnkiProgramFiles", "Anki.app/Contents/MacOS")
+ANKI_ARG_MARKERS = ("import aqt",)
+
+
+def _ps(*args: str) -> str:
+    return subprocess.run(
+        ["ps", *args], check=False, capture_output=True, text=True
+    ).stdout
+
 
 def anki_running() -> bool:
-    return subprocess.run(
+    """True when any Anki process holds the collection.
+
+    The executable path is the reliable signal. The argv marker needs a second test: the
+    shell that typed the command carries the marker in its own argv, so only a process whose
+    executable is an interpreter counts.
+    """
+    if any(marker in _ps("-Ao", "comm=") for marker in ANKI_EXEC_MARKERS):
+        return True
+    for line in _ps("-Ao", "pid=,args=").splitlines():
+        pid, _, arguments = line.strip().partition(" ")
+        if not any(marker in arguments for marker in ANKI_ARG_MARKERS):
+            continue
+        if "python" in _ps("-p", pid, "-o", "comm=").lower():
+            return True
+    named = subprocess.run(
         ["pgrep", "-x", "Anki"], check=False, capture_output=True
-    ).returncode == 0
+    )
+    return named.returncode == 0
 
 
 def find_media_dir(override: str | None) -> Path:
@@ -81,7 +109,14 @@ def open_collection(collection: Path, write: bool = False) -> sqlite3.Connection
     # `as_uri()` percent-encodes the space in the profile name ("User 1"); a raw path in the
     # `file:` URI makes sqlite read the name as truncated and report "unable to open".
     uri = collection.resolve().as_uri() + ("" if write else "?mode=ro")
-    return sqlite3.connect(uri, uri=True)
+    conn = sqlite3.connect(uri, uri=True)
+    try:
+        # connect() is lazy, so the lock only surfaces on the first statement.
+        conn.execute("select 1 from col limit 1").fetchone()
+    except sqlite3.OperationalError as exc:
+        conn.close()
+        sys.exit(f"cannot open {collection.name}: {exc} — quit Anki and retry")
+    return conn
 
 
 def card_text(value: object) -> str:
