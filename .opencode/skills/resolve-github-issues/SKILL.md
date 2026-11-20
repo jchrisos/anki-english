@@ -158,6 +158,20 @@ the repo.
 
 Without `--key` this re-synthesizes the **whole kind** — 4,464 collocation clips to repair one.
 
+**Then delete the old file out of the live Anki collection.** This is part of the fix, not a
+follow-up: Anki matches media by name and skips any name it already has, so a regenerated clip
+never reaches the collection while the old one sits there. Do it in the same run, before
+anything else:
+
+```sh
+scripts/clear-anki-media.sh col_d1e334e5-present-example       # Anki must be quit
+scripts/clear-anki-media.sh --all col_d1e334e5                 # every clip of the entry
+```
+
+The script refuses to run while Anki is open (Anki rewrites `collection.media` on exit and can
+put back what you deleted), finds the profile, and is safe to run twice. Report that the person
+must now re-import the package to write the new clips in.
+
 When the clean lever is wording, prefer the smallest edit that keeps the meaning and the
 target intact: moving a particle ("put plates … out" → "put out plates …") or reordering
 ("She washes her hands before dinner" → "Before dinner, she washes her hands") beats rewriting
@@ -223,7 +237,8 @@ pre-commit hook to catch what you skip).
 read it when the issue is "every card sounds the same".
 
 **Audio is not validated by the lint.** After any `build_audio.py` run, check the clip exists
-and plays, and that `find-entry.py` no longer reports `MISSING`.
+and plays, that `find-entry.py` no longer reports `MISSING`, and that the stale copy has been
+cleared out of the collection (section 4).
 
 ## 8b. When the fix produces no committable diff
 
@@ -283,10 +298,11 @@ confirm — usually a listen — and how to hear it.
 
 ## Guardrails
 
-- **A re-import does not refresh media.** Anki matches media by name and keeps what it already
-  has, so an existing collection plays the old take forever. Fixing a clip means removing the
-  old file (`Tools → Check Media`, or delete it with Anki closed) — `File → Import` alone is not
-  enough. Say this every time a clip changes.
+- **A rebuilt clip is not a fixed clip until the old file is deleted.** Anki matches media by
+  name and keeps what it already has, so a re-import alone plays the old take forever. Every
+  regenerated clip gets `scripts/clear-anki-media.sh <name>` in the same run — with Anki quit —
+  then the package is re-imported. Never hand this back as advice without doing it, and never
+  claim a clip is fixed when only `media/` changed.
 - **`media/` is one gitignored tree shared by every branch.** Switch branches and the mp3s on
   disk no longer match the source; `find-entry.py` will show a clip whose text disagrees with the
   entry. Re-run `build_audio.py --key …` after checking out the branch that holds the text.
