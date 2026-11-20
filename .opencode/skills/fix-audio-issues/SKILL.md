@@ -187,22 +187,26 @@ The script refuses to run while Anki is open (Anki rewrites the folder and the i
 finds the profile, and is safe to re-run.
 
 **A reworded sentence and its clip arrive by two different roads.** The clip is copied in by
-name; the text changes only when the rebuilt package is imported. An import that leaves
-*Update notes* at *If newer* updates **nothing**: `BUILD_MOD` is a fixed constant, so the
-incoming note `mod` equals the one already stored and Anki skips it without a word — the card
-then shows the old sentence while playing the new clip, and the reporter's follow-up is
-"the audio was fixed, but the text is different". So a wording fix also needs a rebuild and an
-import with *Update notes: Always*:
+name; the text needs its own write. Write it in directly, the same way — one targeted update
+per note, leaving the media fields, the note id and the review history alone:
 
 ```sh
-.venv/bin/python tools/build_decks.py --notes --only collocations
-# then File -> Import decks/collocations.apkg, Update notes: Always
-scripts/check-collection.py --key col_d1e334e5        # Anki must be quit
+scripts/install-anki-note.py col_d1e334e5          # Anki must be quit
+scripts/install-anki-note.py --stale --dry-run     # show every drift first
+scripts/install-anki-note.py --stale               # then write them
+scripts/check-collection.py                        # must now print "matches src/"
 ```
 
+A package import also works, but **only at *Update notes: Always***. At *If newer* it applies
+nothing: `BUILD_MOD` is a fixed constant, so the incoming note `mod` equals the stored one and
+Anki skips every note in silence — which is how these cards ended up playing the new sentence
+while displaying the old one. Once a note has been written by `install-anki-note.py` its `mod`
+is newer than the package's, so *If newer* is a no-op there ever after; keep using the
+installer.
+
 `check-collection.py` compares the live note text and tags with `src/` by GUID and exits 1 on
-drift. It cannot import (there is no CLI for that), so a red result is the hand-back: name the
-package, the two dialog settings, and the one card to read.
+drift. It cannot write, so a red result is either an unfinished fix or the hand-back: name the
+script, or the package and the two dialog settings, and the one card to read.
 
 When the clean lever is wording, prefer the smallest edit that keeps the meaning and the
 target intact: moving a particle ("put plates … out" → "put out plates …") or reordering
@@ -341,10 +345,10 @@ confirm — usually a listen — and how to hear it.
   Never hand this back as advice without doing it, and never claim a clip is fixed when only
   `media/` changed.
 - **Text and audio reach the collection by different roads, so a reword can half-land.** The
-  clip is installed by name; the text needs a package import with *Update notes: Always*.
-  `BUILD_MOD` is fixed, so leaving the setting at *If newer* updates nothing — the card keeps
-  the old sentence beside the new clip. Before closing a wording fix, `check-collection.py`
-  must be green or the import must be named in the hand-back.
+  clip is installed by name; the text needs `install-anki-note.py` (or an import with *Update
+  notes: Always* — at *If newer*, the fixed `BUILD_MOD` makes the import a silent no-op). Before
+  closing a wording fix, `check-collection.py` must be green, or the import must be named in the
+  hand-back.
 - **`media/` is one gitignored tree shared by every branch.** Switch branches and the mp3s on
   disk no longer match the source; `find-entry.py` will show a clip whose text disagrees with the
   entry. Re-run `build_audio.py --key …` after checking out the branch that holds the text.
