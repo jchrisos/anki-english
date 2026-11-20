@@ -164,15 +164,26 @@ the repo.
 
 Without `--key` this re-synthesizes the **whole kind** — 4,464 collocation clips to repair one.
 
-**Then install the new clip into the live Anki collection.** This is part of the fix, not a
-follow-up, and it is *not* done by re-importing the package:
+**Then write both halves into the live Anki collection.** This is part of the fix, not a
+follow-up, and neither half is done by re-importing the package:
 
 ```sh
-scripts/install-anki-media.py col_d1e334e5-present-example       # Anki must be quit
-scripts/install-anki-media.py --all col_d1e334e5                 # every clip of the entry
+scripts/install-entry.py col_d1e334e5     # clips + note text + drift check; Anki must be quit
 ```
 
-Why the import does not work, learned the hard way:
+It installs every clip of the entry, writes the note's text fields, then runs the drift check,
+so a half-landed fix fails there instead of reaching the reporter. It is idempotent by design:
+a take-only fix leaves the text write with nothing to do, and a wording-only fix copies clips
+whose bytes already match. The pieces, when one half is all you need:
+
+```sh
+scripts/install-anki-media.py --all col_d1e334e5             # every clip of the entry
+scripts/install-anki-media.py col_d1e334e5-present-example   # one clip
+scripts/install-anki-note.py col_d1e334e5                    # text fields only
+scripts/check-collection.py --key col_d1e334e5               # read-only drift check
+```
+
+Why the import does not work for the **clips**, learned the hard way:
 
 - Anki resolves media by **name** against `collection.media.db2`, and the package importer
   skips every name that index still knows. `media/` being right and the package carrying the
@@ -186,23 +197,12 @@ Why the import does not work, learned the hard way:
 The script refuses to run while Anki is open (Anki rewrites the folder and the index on exit),
 finds the profile, and is safe to re-run.
 
-**A reworded sentence and its clip arrive by two different roads.** The clip is copied in by
-name; the text needs its own write. Write it in directly, the same way — one targeted update
-per note, leaving the media fields, the note id and the review history alone:
-
-```sh
-scripts/install-anki-note.py col_d1e334e5          # Anki must be quit
-scripts/install-anki-note.py --stale --dry-run     # show every drift first
-scripts/install-anki-note.py --stale               # then write them
-scripts/check-collection.py                        # must now print "matches src/"
-```
-
-A package import also works, but **only at *Update notes: Always***. At *If newer* it applies
-nothing: `BUILD_MOD` is a fixed constant, so the incoming note `mod` equals the stored one and
-Anki skips every note in silence — which is how these cards ended up playing the new sentence
-while displaying the old one. Once a note has been written by `install-anki-note.py` its `mod`
-is newer than the package's, so *If newer* is a no-op there ever after; keep using the
-installer.
+**The text is the second half, and it has the same kind of trap.** A package import also writes
+it, but only at *Update notes: Always*: at *If newer* it applies nothing, because `BUILD_MOD` is
+a fixed constant and the incoming `mod` equals the one already stored, so Anki skips every note
+in silence. That is exactly how #1 and #2 ended up playing the new sentence while displaying
+the old one. So the text is written directly — text fields only, media fields, note id and
+review history untouched — and an import at *If newer* is never a way to land a reword.
 
 `check-collection.py` compares the live note text and tags with `src/` by GUID and exits 1 on
 drift. It cannot write, so a red result is either an unfinished fix or the hand-back: name the
@@ -273,12 +273,12 @@ pre-commit hook to catch what you skip).
 read it when the issue is "every card sounds the same".
 
 **Audio is not validated by the lint.** After any `build_audio.py` run, check the clip exists
-and plays, that `find-entry.py` no longer reports `MISSING`, and that it has been installed
-into the collection (section 4).
+and plays, that `find-entry.py` no longer reports `MISSING`, and that `install-entry.py` put
+both halves in (section 4).
 
 **Neither the build nor the lint sees the collection.** `check-collection.py` is the only check
-that compares the live note text and tags with `src/`; run it after any import and expect
-`collection matches src/`.
+that compares the live note text and tags with `src/`, and `install-entry.py` ends with it;
+expect `collection matches src/`.
 
 ## 8b. When the fix produces no committable diff
 
@@ -341,14 +341,13 @@ confirm — usually a listen — and how to hear it.
 - **A rebuilt clip is not fixed until it is installed in the collection.** Anki resolves media
   by name through `collection.media.db2`, so re-importing a package never replaces a clip, and
   deleting the file turns its index row into a tombstone the importer then skips forever. Every
-  regenerated clip gets `scripts/install-anki-media.py <name>` in the same run, with Anki quit.
-  Never hand this back as advice without doing it, and never claim a clip is fixed when only
-  `media/` changed.
-- **Text and audio reach the collection by different roads, so a reword can half-land.** The
-  clip is installed by name; the text needs `install-anki-note.py` (or an import with *Update
-  notes: Always* — at *If newer*, the fixed `BUILD_MOD` makes the import a silent no-op). Before
-  closing a wording fix, `check-collection.py` must be green, or the import must be named in the
-  hand-back.
+  regenerated clip is installed in the same run, with Anki quit — `install-entry.py <key>` does
+  the clips and the text together. Never hand this back as advice without doing it, and never
+  claim a clip is fixed when only `media/` changed.
+- **A reword moves two artifacts, and both are installed in one step.** `install-entry.py <key>`
+  copies the clips and writes the note text, then verifies the collection. Installing one half
+  is exactly the bug in #1 and #2: the card played the new sentence while showing the old one.
+  Never close a fix with `check-collection.py` red.
 - **`media/` is one gitignored tree shared by every branch.** Switch branches and the mp3s on
   disk no longer match the source; `find-entry.py` will show a clip whose text disagrees with the
   entry. Re-run `build_audio.py --key …` after checking out the branch that holds the text.
