@@ -60,11 +60,12 @@ removed=0
 absent=0
 for name in "${names[@]}"; do
   base=${name%.mp3}
-  targets=()
   if ((all)); then
     targets=("$media_dir/$base-"*.mp3)
-  else
+  elif [[ -f $media_dir/$base.mp3 ]]; then
     targets=("$media_dir/$base.mp3")
+  else
+    targets=()
   fi
   if ((${#targets[@]} == 0)); then
     echo "absent   $name"
@@ -72,7 +73,7 @@ for name in "${names[@]}"; do
     continue
   fi
   for target in "${targets[@]}"; do
-    size=$(stat -f%z "$target" 2>/dev/null || stat -c%s "$target")
+    size=$(wc -c <"$target" | tr -d ' ')
     rm -f "$target"
     printf 'removed  %-52s %8s bytes\n' "$(basename "$target")" "$size"
     removed=$((removed + 1))
