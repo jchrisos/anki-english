@@ -10,6 +10,10 @@ byte-identical between runs, so the mp3s are **inputs** to the build, exactly li
 images: regenerate only on explicit request, with `--force`. They are gitignored — a clone
 runs this step once — so "input" here means "not produced by `build_decks.py`", not "tracked".
 
+A reported clip (an edge-tts take with a noise in it) is fixed with `--force --key <key>`:
+the key is the entry's `media_key`, the same stem its image and mp3s share. Without `--key`
+the whole kind is re-synthesized, which for collocations is thousands of clips to repair one.
+
 A clip is written under a `.part` name and moved into place only once edge-tts produced it:
 `Communicate.save` opens the destination before the first audio arrives, so a dropped
 connection would otherwise leave an empty or half-written mp3 at the real name, which the
@@ -89,15 +93,27 @@ async def synthesize(entry: dict, key: str, part: str, force: bool, lay: Layout)
     return f"wrote {path.name} ({VOICE_FEMALE})"
 
 
-async def run(slugs: list[str], force: bool, test: bool) -> int:
+async def run(slugs: list[str], force: bool, test: bool, keys: list[str] | None = None) -> int:
     lay = layout(test)
     semaphore = asyncio.Semaphore(CONCURRENCY)
+    wanted = set(keys or ())
+    matched: set[str] = set()
     jobs = []
     for slug in slugs:
         prefix = GUID_PREFIX[slug]
         for entry in load_entries(lay, slug):
             key = media_key(prefix, entry)
+            if wanted and key not in wanted:
+                continue
+            matched.add(key)
             jobs.extend((entry, key, part) for part in audio_parts(entry))
+
+    # A key that matched no entry is a typo, not a no-op. Without this the run would report
+    # success after rebuilding nothing, leaving the reported clip exactly as it was.
+    missing = wanted - matched
+    if missing:
+        print(f"no entry with key: {', '.join(sorted(missing))}", file=sys.stderr)
+        return 1
 
     async def guarded(entry: dict, key: str, part: str) -> str:
         async with semaphore:
@@ -131,12 +147,18 @@ def main() -> int:
         help="re-synthesize mp3s that already exist",
     )
     parser.add_argument(
+        "--key",
+        action="append",
+        metavar="KEY",
+        help="regenerate only this entry's clips, by media key such as col_d1e334e5 (repeatable)",
+    )
+    parser.add_argument(
         "--test",
         action="store_true",
         help="read tests/src and write tests/media (gitignored)",
     )
     args = parser.parse_args()
-    return asyncio.run(run(args.only or sorted(GUID_PREFIX), args.force, args.test))
+    return asyncio.run(run(args.only or sorted(GUID_PREFIX), args.force, args.test, args.key))
 
 
 if __name__ == "__main__":
