@@ -1,6 +1,6 @@
 ---
 name: fix-audio-issues
-description: Fix audio problems in this Anki deck repository end to end — find the report with `gh issue list`, map the quoted words to the one card, reproduce the sound, change what produced it, re-render and install the clip into the live collection. Use this whenever someone says a clip is noisy, buzzing, robotic, garbled, clipped, cut off or silent, reports a mispronounced word, says "rebuild the audio" or "the audio is still wrong", names a GitHub issue about sound, or asks for an audio fix to land in their Anki collection. Also the skill to use when triaging or closing a GitHub issue on this repo: nearly every report here is about a clip.
+description: Fix audio problems in this Anki deck repository end to end — find the report with `gh issue list`, map the quoted words to the one card, reproduce the sound, always reword the text behind it, re-render and install the clip into the live collection. Use this whenever someone says a clip is noisy, buzzing, robotic, garbled, clipped, cut off or silent, reports a mispronounced word, says "rebuild the audio" or "the audio is still wrong", names a GitHub issue about sound, or asks for an audio fix to land in their Anki collection. Also the skill to use when triaging or closing a GitHub issue on this repo: nearly every report here is about a clip.
 ---
 
 # Fix Audio Issues
@@ -11,9 +11,10 @@ voice was given, the take the voice produced, or the file the collection actuall
 fix that misses one of them leaves the reporter hearing exactly the same noise.
 
 Most reports here are audio, and most are not what they first appear to be. A buzz that sounds
-like a corrupt file is usually a deterministic artefact of the voice on those phonemes; a clip
-that "did not change" after a rebuild is usually still the old file, because Anki matches media
-by name. Section 4 is the order that actually works.
+like a corrupt file is usually a deterministic artefact of the voice on those phonemes, and the
+fix for it is a **rewording** — never a rebuild, a different voice or a faster rate; a clip that
+"did not change" after a rebuild is usually still the old file, because Anki matches media by
+name. Section 4 is the order that actually works.
 
 The other card-level reports — a wrong definition, a missing illustration, a card that will not
 import — run the same loop; section 2 places the fault.
@@ -76,7 +77,7 @@ Then place the fault in one layer, because the fix is completely different:
 | Symptom | Layer | Where it is fixed |
 |---|---|---|
 | awkward, wrong or unnatural wording; a definition off the sense | source | `src/<kind>.json` |
-| noisy, robotic, garbled or clipped audio | generated media | `tools/build_audio.py`, then the text if needed |
+| noisy, robotic, garbled or clipped audio | source (the spoken text) | `src/<kind>.json`, then `tools/build_audio.py --key` |
 | card imports but shows nothing: no sound, no tag, blank field | packaging | `tools/build_decks.py`, templates, tags |
 | no illustration on the card | media input | the `image_brief`, rendered outside the repo |
 | a planned sense that never became a card | manifest | `src/index.csv`, then the entry |
@@ -105,10 +106,22 @@ for a bug.
 **Perceptual audio reports are the common case here** and cannot be reproduced by measuring.
 Go to section 4 rather than guessing.
 
-## 4. Audio reports: measure, then a one-variable ladder
+## 4. Audio reports: measure, then reword — never re-tune the voice
 
-A "noise" in a clip has burned a whole session before, so follow the order. The failure mode
-to avoid is rebuilding the clip, declaring it fixed, and being told it is still noisy.
+A "noise" in a clip is a property of the **string**, not of the take or the file. Every
+perceptual report so far (#1, #2, #12–#14) has been one performance the voice produces
+identically on every rebuild: two fresh takes of the same text differ in roughly half their
+bytes but keep the **same duration and the same speech onset**. Re-rendering the same sentence
+therefore brings the artefact straight back.
+
+So the fix for a noisy, buzzing, robotic or garbled clip is **always a rewording**. Never change
+`VOICE_FEMALE` or `RATE`, and never offer a different voice, a faster rate or another encoder as
+the repair — those change every clip in the project to patch one, and they are a separate
+decision, not a fix.
+
+The single exception is a clip that is **missing, zero-byte or truncated**: that is a failed
+write, not a performance, and it is regenerated with `build_audio.py --force --key` (the tool
+already distrusts a file too short to have spoken its text). It is not a "noise" report.
 
 **1. Measure against controls.** The suspect is probably not corrupt, and saying so with numbers
 is useful:
@@ -122,41 +135,57 @@ Peak, RMS, DC offset, 10 ms spikes and dropouts, and lead-in noise floor, compar
 clips nobody complained about. "Inside the control range" rules out corruption and clipping.
 It does **not** mean nothing is wrong, and it does not mean "bad take, rebuild it".
 
-**2. Tell a random take from a deterministic performance.** Re-synthesize once and compare
-**length and speech onset, not bytes**:
+**2. Show the reporter why a rebuild would not help** (optional, only when asked). Synthesize the
+same text twice into a scratch directory and compare **duration and speech onset, not bytes**:
 
 ```sh
-.venv/bin/python tools/build_audio.py --force --key <key>   # writes the real files: back them up first
-```
-
-Two takes that differ in ~half their bytes while keeping identical duration and onset are the
-**same performance with different dither**. Regeneration then cannot remove the defect, and
-proposing it again wastes the reporter's evening. This is exactly what happened on #1 and #2:
-Ava buzzed on those two strings and every rebuild buzzed identically.
-
-**3. Build a ladder and let the reporter judge.** One variable per variant, all written to a
-scratch directory so `media/` is untouched — encode, speed, voice, then wording:
-
-```sh
-mkdir -p /tmp/v
+mkdir -p /tmp/det
 .venv/bin/python - <<'PY'
 import asyncio, edge_tts
 text = "She washes her hands before dinner."
 async def main():
-    await edge_tts.Communicate(text, "en-US-AvaNeural", rate="-10%").save("/tmp/v/A.mp3")   # as shipped
-    await edge_tts.Communicate(text, "en-US-AvaNeural", rate="+0%").save("/tmp/v/C.mp3")    # speed
-    await edge_tts.Communicate(text, "en-US-JennyNeural", rate="-10%").save("/tmp/v/D.mp3") # voice
+    for n in (1, 2):
+        await edge_tts.Communicate(text, "en-US-AvaNeural", rate="-10%").save(f"/tmp/det/take{n}.mp3")
+asyncio.run(main())
+PY
+ffprobe -v error -show_entries format=duration -of csv=p=0 /tmp/det/take1.mp3
+```
+
+Identical duration and onset are the **same performance with different dither**. Never write this
+test over `media/`: the shipped clip is not the problem, and a forced re-render only replaces a
+reported take with an identical one.
+
+**3. Write a reword set and let the reporter choose.** Same voice, same rate, same pitch — the only
+variable is the text. Keep the failing clip as the reference and offer two or three rewordings:
+
+```sh
+mkdir -p /tmp/v
+cp media/<key>-<part>.mp3 /tmp/v/A-as-shipped.mp3
+.venv/bin/python - <<'PY'
+import asyncio, edge_tts
+variants = {
+    "B-reorder": "Before dinner, she washes her hands.",
+    "C-swap":    "She washes her hands before supper.",
+}
+async def main():
+    for name, text in variants.items():
+        await edge_tts.Communicate(text, "en-US-AvaNeural", rate="-10%").save(f"/tmp/v/{name}.mp3")
 asyncio.run(main())
 PY
 ```
 
-Name the files A/B/C/D, say what each isolates, and ask which sound clean. Keep the failing
-case in the set as the reference. One round trip with four labelled clips beats five rounds of
-"still noisy" — it turns a vague report into a specific lever.
+Aim at the defect: a buzz between two words points at that junction, so reordering or inserting a
+word there (`"to drivers"` → `"to every driver"`) is the targeted move. Prefer the smallest edit
+that keeps the meaning and the target intact — a reorder before a rewrite, a single word before a
+new sentence. Every candidate keeps the target **in the entry's own form** and keeps the
+collocation's particle, since that is what the card teaches.
 
-**4. Fix the source, not the artifact.** Once a clean variant exists, change what produced the
-bad one and re-render. Never hand-edit an mp3; a post-processed file is not reproducible from
-the repo.
+One round trip with a labelled set beats five rounds of "still noisy", and the verdict is the
+reporter's: never claim an audio fix verified on your own authority.
+
+**4. Fix the source, not the artifact.** Once a clean rewording exists, put it in `src/<kind>.json`
+and re-render the entry's clips. Never hand-edit an mp3; a post-processed file is not reproducible
+from the repo.
 
 ```sh
 .venv/bin/python tools/build_audio.py --force --key col_d1e334e5     # 7 clips
@@ -208,12 +237,10 @@ review history untouched — and an import at *If newer* is never a way to land 
 drift. It cannot write, so a red result is either an unfinished fix or the hand-back: name the
 script, or the package and the two dialog settings, and the one card to read.
 
-When the clean lever is wording, prefer the smallest edit that keeps the meaning and the
-target intact: moving a particle ("put plates … out" → "put out plates …") or reordering
-("She washes her hands before dinner" → "Before dinner, she washes her hands") beats rewriting
-the sentence, and both beat changing a project-wide setting like the voice or `RATE`.
-
-The verdict is the reporter's. Never claim an audio fix verified on your own authority.
+A rewording is the only lever a clip fix has. `VOICE_FEMALE` and `RATE` are project-wide:
+changing one of them to patch a single clip re-renders every card in all three decks, so it is
+never the fix — it is its own decision, made deliberately and never in response to one noisy
+clip.
 
 ## 5. Checkpoint the plan
 
@@ -244,6 +271,9 @@ The rules that decide whether a change is acceptable:
 - **Every authored example bolds the target** with one `**…**` pair (two when a phrasal verb
   splits), and shows the target **in the entry's own form** — the base form on the front.
 - **A verb needs four form examples**, and a non-verb must not carry those keys.
+- **An audio defect is fixed in the text.** Reword the field the clip speaks (`definition` or the
+  offending example) and re-render that entry; never change `VOICE_FEMALE`, `RATE` or the encoder
+  to get around one bad clip.
 - **`image_brief` derives from the definition, never the example.** Swapping an example never
   justifies editing a brief; changing the definition or the sense does.
 - **Levels are enforced**: A1–C1 for vocabulary, A1–B2 for phrasal verbs and collocations. No
@@ -338,6 +368,10 @@ confirm — usually a listen — and how to hear it.
 
 ## Guardrails
 
+- **Audio is fixed by rewording, always.** A buzz, a robotic stretch or a swallowed word is the
+  voice reading that exact string, and the same performance comes back on every rebuild. Reword
+  the sentence, re-render `--key`, install both halves. Never change the voice or the rate, never
+  hand back "try a different voice", and never close a report on a rebuild alone.
 - **A rebuilt clip is not fixed until it is installed in the collection.** Anki resolves media
   by name through `collection.media.db2`, so re-importing a package never replaces a clip, and
   deleting the file turns its index row into a tombstone the importer then skips forever. Every
