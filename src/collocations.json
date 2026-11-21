@@ -764,7 +764,7 @@
     ],
     "level": "b2",
     "present_example": "Heavy rain **poses a threat** to the crops every October.",
-    "past_simple_example": "The fallen tree **posed a threat** to drivers on the highway.",
+    "past_simple_example": "The fallen tree **posed a threat** to every driver on the highway.",
     "past_participle_example": "The chemical has **posed a threat** to the river for years.",
     "present_participle_example": "The fire is **posing a threat** to the nearby houses.",
     "image": "col_77892c7e",
@@ -1093,7 +1093,7 @@
     "present_example": "He **takes a nap** after lunch.",
     "past_simple_example": "I **took a nap** on the sofa.",
     "past_participle_example": "She has **taken a nap** already.",
-    "present_participle_example": "**Taking a nap** on a Sunday afternoon feels good.",
+    "present_participle_example": "On a Sunday afternoon, **taking a nap** feels good.",
     "image": "col_b7318765",
     "image_brief": "a man asleep on a living room sofa with a light blanket over his legs, seen from across the room at medium distance, curtains half closed, a mug and the remote on the low table, afternoon light across the rug, still and lazy mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
     "example": "I usually **take a nap** after lunch on Sundays."
@@ -1122,18 +1122,18 @@
     "pos": "verb",
     "sense": "clear-waste-basket",
     "pronunciation": "/ˌɛmpti ðə ˈtræʃ/",
-    "definition": "to remove the waste from a bin and line it with a fresh bag.",
+    "definition": "to take the waste out of a bin and put in a fresh bag.",
     "categories": [
       "home",
       "daily-routine"
     ],
     "level": "a1",
     "present_example": "He **empties the trash** every evening.",
-    "past_simple_example": "I **emptied the trash** before the smell got bad.",
+    "past_simple_example": "Before the smell got bad, I **emptied the trash**.",
     "past_participle_example": "She has **emptied the trash** already.",
     "present_participle_example": "**Emptying the trash** is the job nobody wants.",
     "image": "col_c9b10a5e",
-    "image_brief": "a man lifting a full white bag out of a kitchen bin, from the side at medium distance, the lid open, crumbs and a tied bag on the floor, a roll of new bags on the counter, dim evening light, unglamorous dutiful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "image_brief": "a man lifting a full white bag out of a kitchen bin and fitting a fresh bag over the rim, from the side at medium distance, the lid open, crumbs and a tied bag on the floor, a roll of new bags on the counter, dim evening light, unglamorous dutiful mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
     "example": "Can you **empty the trash** before you go out?"
   },
   {
