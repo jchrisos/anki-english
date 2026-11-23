@@ -913,7 +913,7 @@
     "pos": "verb",
     "sense": "clean-your-teeth",
     "pronunciation": "/ˌbrʌʃ jɚ ˈtiθ/",
-    "definition": "to clean the hard white parts in your mouth with toothpaste and a small brush.",
+    "definition": "to clean your teeth with a toothbrush and toothpaste.",
     "categories": [
       "body",
       "health"
@@ -1046,7 +1046,7 @@
     "pos": "verb",
     "sense": "brush-floor-clean",
     "pronunciation": "/ˌswip ðə ˈflɔr/",
-    "definition": "to push dust and crumbs off the ground with a long-handled brush.",
+    "definition": "to clean the floor by pushing dust and dirt off it with a broom.",
     "categories": [
       "home",
       "daily-routine"
@@ -1103,7 +1103,7 @@
     "pos": "verb",
     "sense": "comb-your-hair",
     "pronunciation": "/ˌbrʌʃ jɚ ˈhɛr/",
-    "definition": "to pull a small comb through the strands on your head so they lie neat.",
+    "definition": "to make your hair neat with a brush.",
     "categories": [
       "body",
       "daily-routine"
@@ -1114,7 +1114,7 @@
     "past_participle_example": "He has **brushed his hair** already.",
     "present_participle_example": "**Brushing your hair** when it is wet can damage it.",
     "image": "col_0a6e92d1",
-    "image_brief": "a girl running a comb through her long hair at a bedroom mirror, seen from behind at medium distance, hairpins and a brush on the dresser, a school bag on the bed, morning light from the window, ordinary getting ready mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
+    "image_brief": "a girl running a brush through her long hair at a bedroom mirror, seen from behind at medium distance, hairpins and a comb on the dresser, a school bag on the bed, morning light from the window, ordinary getting ready mood --ar 3:2 --raw --s 50 --v 8.2 --no text, signage, watermark, logo, posed smile, oversaturated, HDR",
     "example": "You should **brush your hair** before we leave."
   },
   {
@@ -1141,7 +1141,7 @@
     "pos": "verb",
     "sense": "clean-table-surface",
     "pronunciation": "/ˌwaɪp ðə ˈteɪbəl/",
-    "definition": "to clean a flat surface with a cloth after eating.",
+    "definition": "to clean the table with a cloth, usually after a meal.",
     "categories": [
       "kitchen",
       "home"
@@ -1309,7 +1309,7 @@
     "pos": "verb",
     "sense": "clean-with-vacuum",
     "pronunciation": "/ˈvækjum ðə ˈkɑrpɪt/",
-    "definition": "to pull dirt out of a soft floor covering with a machine that sucks.",
+    "definition": "to pull dirt out of a carpet with a vacuum cleaner.",
     "categories": [
       "home",
       "daily-routine"
@@ -1347,7 +1347,7 @@
     "pos": "verb",
     "sense": "wash-floor-wet",
     "pronunciation": "/ˌmɑp ðə ˈflɔr/",
-    "definition": "to wash a hard surface with a wet tool on a long handle.",
+    "definition": "to wash the floor with a wet mop.",
     "categories": [
       "home",
       "daily-routine"
@@ -1366,7 +1366,7 @@
     "pos": "verb",
     "sense": "press-clothing",
     "pronunciation": "/ˌaɪɚn ə ˈʃɝt/",
-    "definition": "to press a piece of clothing flat with a hot tool so the creases come out.",
+    "definition": "to press a shirt flat with a hot iron so the creases come out.",
     "categories": [
       "clothes",
       "home"
@@ -1404,7 +1404,7 @@
     "pos": "verb",
     "sense": "fill-dishwasher",
     "pronunciation": "/ˌloʊd ðə ˈdɪʃwɑʃɚ/",
-    "definition": "to fill the machine that cleans plates with dirty dishes.",
+    "definition": "to put the dirty dishes into the dishwasher.",
     "categories": [
       "kitchen",
       "home"
@@ -1499,7 +1499,7 @@
     "pos": "verb",
     "sense": "schedule-wake-time",
     "pronunciation": "/ˌsɛt ən əˈlɑrm/",
-    "definition": "to choose a time for a device to make a sound and wake you.",
+    "definition": "to choose the time your alarm will wake you.",
     "categories": [
       "daily-routine",
       "time"
@@ -1606,7 +1606,7 @@
     "pos": "verb",
     "sense": "operate-dishwasher",
     "pronunciation": "/ˌrʌn ðə ˈdɪʃwɑʃɚ/",
-    "definition": "to switch on the machine that cleans the plates after a meal.",
+    "definition": "to switch on the dishwasher after a meal.",
     "categories": [
       "home",
       "technology"
@@ -2199,7 +2199,7 @@
     "pos": "verb",
     "sense": "shred-cheese",
     "pronunciation": "/ˌɡreɪt ðə ˈtʃiz/",
-    "definition": "to rub cheese against a rough tool so it falls in thin strips.",
+    "definition": "to rub cheese against a grater so it falls in thin strips.",
     "categories": [
       "kitchen",
       "food"
@@ -4641,7 +4641,7 @@
     "pos": "noun",
     "sense": "pencil-container",
     "pronunciation": "/ˈpɛnsəl ˈkeɪs/",
-    "definition": "a small container that holds the tools you write and draw with.",
+    "definition": "a small bag for pens, pencils and school supplies.",
     "categories": [
       "education"
     ],
@@ -5518,7 +5518,7 @@
     "pos": "verb",
     "sense": "measure-body-heat",
     "pronunciation": "/teɪk jɚ ˈtɛmpɚətʃɚ/",
-    "definition": "to use a small device to measure how hot your body is.",
+    "definition": "to measure how hot your body is with a thermometer.",
     "categories": [
       "health",
       "body"
@@ -5743,7 +5743,7 @@
     "pos": "verb",
     "sense": "receive-an-injection",
     "pronunciation": "/ɡɛt ə ˈʃɑt/",
-    "definition": "to receive medicine through a thin needle in your arm.",
+    "definition": "to receive medicine through a needle, usually in your arm.",
     "categories": [
       "health"
     ],
@@ -5999,7 +5999,7 @@
     "pos": "verb",
     "sense": "shield-your-skin",
     "pronunciation": "/prəˈtɛkt jɚ ˈskɪn/",
-    "definition": "to keep your body's outer surface safe from sun, wind or chemicals.",
+    "definition": "to keep your skin safe from sun, wind or chemicals.",
     "categories": [
       "health",
       "body",
@@ -8268,7 +8268,7 @@
     "pos": "verb",
     "sense": "pay-by-plastic",
     "pronunciation": "/ˈjuz ə ˈkrɛdɪt kɑrd/",
-    "definition": "to pay for something by putting a small plastic piece from your bank into a machine.",
+    "definition": "to pay for something with a card from your bank instead of cash.",
     "categories": [
       "money",
       "shopping"
@@ -8807,7 +8807,7 @@
     "pos": "verb",
     "sense": "go-over-bridge",
     "pronunciation": "/ˈkrɔs ðə ˈbrɪdʒ/",
-    "definition": "to walk or drive over a structure that carries a road across a river or another road.",
+    "definition": "to go over a bridge that crosses a river or another road.",
     "categories": [
       "city",
       "transport"
@@ -9000,7 +9000,7 @@
     "pos": "verb",
     "sense": "gather-fallen-leaves",
     "pronunciation": "/ˈreɪk ðə ˈlivz/",
-    "definition": "to pull fallen leaves into a pile with a long garden tool.",
+    "definition": "to pull fallen leaves into a pile with a rake.",
     "categories": [
       "nature",
       "home"
@@ -9019,7 +9019,7 @@
     "pos": "verb",
     "sense": "clear-snow-from-ground",
     "pronunciation": "/ˈʃʌvəl ðə ˈsnoʊ/",
-    "definition": "to move snow away from a path or road with a wide flat tool.",
+    "definition": "to move snow away from a path or road with a shovel.",
     "categories": [
       "weather",
       "home"
@@ -9094,7 +9094,7 @@
     "pos": "verb",
     "sense": "move-boat-with-oars",
     "pronunciation": "/ˈroʊ ə ˈboʊt/",
-    "definition": "to move a small boat through the water with long wooden poles.",
+    "definition": "to move a small boat through the water with oars.",
     "categories": [
       "nature",
       "sports"
@@ -9340,7 +9340,7 @@
     "pos": "verb",
     "sense": "clean-sidewalk",
     "pronunciation": "/ˈswip ðə ˈsaɪdwɔk/",
-    "definition": "to clean the path beside a street with a long brush.",
+    "definition": "to clean the path beside a street with a broom.",
     "categories": [
       "city"
     ],
@@ -9396,7 +9396,7 @@
     "pos": "verb",
     "sense": "raise-tent-for-sleeping",
     "pronunciation": "/ˈpɪtʃ ə ˈtɛnt/",
-    "definition": "to raise a small cloth shelter on poles so that you can sleep outside.",
+    "definition": "to put up a tent so you can sleep outside.",
     "categories": [
       "nature",
       "travel"
@@ -9688,7 +9688,7 @@
     "pos": "verb",
     "sense": "buy-charger",
     "pronunciation": "/baɪ ə ˈtʃɑrdʒɚ/",
-    "definition": "to pay for a small device that puts electricity into a battery.",
+    "definition": "to pay for the cable or adapter that charges a battery.",
     "categories": [
       "technology",
       "shopping"
@@ -11146,7 +11146,7 @@
     "pos": "noun",
     "sense": "board-game",
     "pronunciation": "/ˈbɔrd ˈɡeɪm/",
-    "definition": "an activity played on a flat surface with pieces and rules, often with family or friends.",
+    "definition": "a game played on a board with pieces, usually with family or friends.",
     "categories": [
       "home"
     ],
@@ -13193,7 +13193,7 @@
     "pos": "noun",
     "sense": "digits-to-reach-a-phone",
     "pronunciation": "/ˈfoʊn ˌnʌmbɚ/",
-    "definition": "the set of digits you press to reach one particular device.",
+    "definition": "the number you dial to reach a particular phone.",
     "categories": [
       "communication",
       "technology"
@@ -13245,7 +13245,7 @@
     "pos": "verb",
     "sense": "have-hair-cut",
     "pronunciation": "/ˌɡɛt ə ˈhɛrkʌt/",
-    "definition": "to have someone cut the strands on your head shorter.",
+    "definition": "to have someone cut your hair shorter.",
     "categories": [
       "body",
       "shopping"
@@ -13518,7 +13518,7 @@
     "pos": "verb",
     "sense": "arrange-a-warning",
     "pronunciation": "/ˌsɛt ə rɪˈmaɪndɚ/",
-    "definition": "to arrange for a device to warn you at a chosen hour.",
+    "definition": "to make your phone remind you at a chosen time.",
     "categories": [
       "technology",
       "time"
