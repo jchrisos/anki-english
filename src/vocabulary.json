@@ -5903,7 +5903,7 @@
     "pos": "verb",
     "sense": "clean-floor-with-broom",
     "pronunciation": "/swip/",
-    "definition": "to clean a floor by pushing the dirt away with a brush that has a long handle.",
+    "definition": "to clean the floor with a broom.",
     "categories": [
       "home"
     ],
@@ -6027,7 +6027,7 @@
     "pos": "noun",
     "sense": "long-brush-for-floor",
     "pronunciation": "/brum/",
-    "definition": "a brush with a long handle that you use to clean the floor.",
+    "definition": "a brush with a long handle for sweeping the floor.",
     "categories": [
       "home"
     ],
@@ -22831,7 +22831,7 @@
     "pos": "verb",
     "sense": "make-clothes-smooth",
     "pronunciation": "/ˈaɪɚn/",
-    "definition": "to make clothes smooth with a hot tool.",
+    "definition": "to make clothes smooth with a hot iron.",
     "categories": [
       "clothes",
       "home"
@@ -23432,7 +23432,7 @@
     "pos": "verb",
     "sense": "clean-a-floor-with-water",
     "pronunciation": "/mɑp/",
-    "definition": "to clean a floor with a wet tool.",
+    "definition": "to clean the floor with a wet mop.",
     "categories": [
       "home"
     ],
@@ -23450,7 +23450,7 @@
     "pos": "verb",
     "sense": "clean-with-a-sucking-machine",
     "pronunciation": "/ˈvækjuːm/",
-    "definition": "to clean a floor with a machine that pulls in dirt.",
+    "definition": "to clean the floor with a vacuum cleaner.",
     "categories": [
       "home"
     ],
@@ -24508,7 +24508,7 @@
     "pos": "verb",
     "sense": "rub-food-into-small-pieces",
     "pronunciation": "/ɡreɪt/",
-    "definition": "to rub food against a tool to make small thin pieces.",
+    "definition": "to rub food against a grater to make small thin pieces.",
     "categories": [
       "kitchen",
       "food"
@@ -57881,7 +57881,7 @@
     "pos": "adjective",
     "sense": "made-smooth-with-heat",
     "pronunciation": "/ˈaɪɝnd/",
-    "definition": "made smooth with a hot tool.",
+    "definition": "made smooth with a hot iron.",
     "categories": [
       "clothes"
     ],
@@ -61837,7 +61837,7 @@
     "pos": "noun",
     "sense": "smoothing-cloth-with-heat",
     "pronunciation": "/ˈaɪɝnɪŋ/",
-    "definition": "the act of smoothing cloth with a hot tool.",
+    "definition": "the act of making cloth smooth with a hot iron.",
     "categories": [
       "daily-routine"
     ],
